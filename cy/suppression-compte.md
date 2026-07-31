@@ -2,7 +2,7 @@
 
 **Diweddarwyd ddiwethaf: 31 Gorffennaf 2026** — Fersiwn 1.0
 
-Yr ap dan sylw: **Plume** (`com.plume.plume`), a gyhoeddir gan **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ar gael ar Google Play o dan yr enw **openfunword**.
+Yr ap dan sylw: **Plume** (`com.plume.plume`), a gyhoeddir gan **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ar gael ar Google Play o dan yr enw **openfunworld**.
 
 ---
 

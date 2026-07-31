@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Oifig chláraithe: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Teagmháil: sogacmoi7@gmail.com
 
-Dáiltear an feidhmchlár ar Google Play faoin ainm foilsitheora **openfunword**.
+Dáiltear an feidhmchlár ar Google Play faoin ainm foilsitheora **openfunworld**.
 
 Sa doiciméad seo, ciallaíonn "Plume" nó "an feidhmchlár" an bogearra; ciallaíonn "sinn" an foilsitheoir; ciallaíonn "tú" an t-úsáideoir.
 

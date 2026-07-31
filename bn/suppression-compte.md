@@ -2,7 +2,7 @@
 
 **সর্বশেষ হালনাগাদ: 31 জুলাই 2026** — সংস্করণ 1.0
 
-সংশ্লিষ্ট অ্যাপ্লিকেশন: **Plume** (`com.plume.plume`), প্রকাশক **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play-তে **openfunword** নামে প্রকাশিত।
+সংশ্লিষ্ট অ্যাপ্লিকেশন: **Plume** (`com.plume.plume`), প্রকাশক **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play-তে **openfunworld** নামে প্রকাশিত।
 
 ---
 

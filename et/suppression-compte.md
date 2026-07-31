@@ -2,7 +2,7 @@
 
 **Viimati uuendatud: 31. juuli 2026** — Versioon 1.0
 
-Asjaomane rakendus: **Plume** (`com.plume.plume`), välja andnud **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — avaldatud Google Play poes nime **openfunword** all.
+Asjaomane rakendus: **Plume** (`com.plume.plume`), välja andnud **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — avaldatud Google Play poes nime **openfunworld** all.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Son güncelleme: 31 Temmuz 2026** — Sürüm 1.0
 
-İlgili uygulama: **Plume** (`com.plume.plume`), yayıncısı **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play'de **openfunword** adıyla yayımlanmaktadır.
+İlgili uygulama: **Plume** (`com.plume.plume`), yayıncısı **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play'de **openfunworld** adıyla yayımlanmaktadır.
 
 ---
 

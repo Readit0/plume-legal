@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Merkez adresi: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 İletişim: sogacmoi7@gmail.com
 
-Uygulama, Google Play'de **openfunword** yayıncı adıyla dağıtılmaktadır.
+Uygulama, Google Play'de **openfunworld** yayıncı adıyla dağıtılmaktadır.
 
 Bu belgede "Plume" ya da "uygulama", yazılımı; "biz", yayıncıyı; "siz" ise kullanıcıyı ifade eder.
 

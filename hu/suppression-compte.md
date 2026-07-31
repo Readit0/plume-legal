@@ -2,7 +2,7 @@
 
 **Utolsó frissítés: 2026. július 31.** — 1.0-s verzió
 
-Érintett alkalmazás: **Plume** (`com.plume.plume`), kiadója a **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — a Google Play áruházban az **openfunword** néven közzétéve.
+Érintett alkalmazás: **Plume** (`com.plume.plume`), kiadója a **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — a Google Play áruházban az **openfunworld** néven közzétéve.
 
 ---
 

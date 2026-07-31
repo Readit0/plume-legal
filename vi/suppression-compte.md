@@ -2,7 +2,7 @@
 
 **Cập nhật lần cuối: ngày 31 tháng 7 năm 2026** — Phiên bản 1.0
 
-Ứng dụng liên quan: **Plume** (`com.plume.plume`), do **SASU RedLine Music** phát hành, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — phát hành trên Google Play dưới tên **openfunword**.
+Ứng dụng liên quan: **Plume** (`com.plume.plume`), do **SASU RedLine Music** phát hành, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — phát hành trên Google Play dưới tên **openfunworld**.
 
 ---
 

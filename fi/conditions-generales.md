@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Kotipaikka: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Yhteydenotot: sogacmoi7@gmail.com
 
-Sovellusta jaellaan Google Playssä julkaisijanimellä **openfunword**.
+Sovellusta jaellaan Google Playssä julkaisijanimellä **openfunworld**.
 
 Tässä asiakirjassa ”Plume” tai ”sovellus” tarkoittaa ohjelmistoa, ”me” tarkoittaa julkaisijaa ja ”sinä” tarkoittaa käyttäjää.
 

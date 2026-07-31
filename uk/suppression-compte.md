@@ -2,7 +2,7 @@
 
 **Останнє оновлення: 31 липня 2026 року** — Версія 1.0
 
-Відповідний застосунок: **Plume** (`com.plume.plume`), виданий **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — опубліковано в Google Play під назвою **openfunword**.
+Відповідний застосунок: **Plume** (`com.plume.plume`), виданий **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — опубліковано в Google Play під назвою **openfunworld**.
 
 ---
 

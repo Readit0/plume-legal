@@ -12,7 +12,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Siège social : Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Contact : sogacmoi7@gmail.com
 
-L'application est distribuée sur Google Play sous le nom d'éditeur **openfunword**.
+L'application est distribuée sur Google Play sous le nom d'éditeur **openfunworld**.
 
 Dans le présent document, « Plume » ou « l'application » désigne le logiciel ; « nous » désigne l'éditeur ; « vous » désigne l'utilisateur.
 

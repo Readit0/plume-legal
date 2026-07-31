@@ -3,7 +3,7 @@
 **最終更新日：2026年7月31日** — バージョン 1.0
 
 
-対象アプリケーション：**Plume**（`com.plume.plume`）。提供者は **SASU RedLine Music**（Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France）。Google Play では **openfunword** の名称で公開されています。
+対象アプリケーション：**Plume**（`com.plume.plume`）。提供者は **SASU RedLine Music**（Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France）。Google Play では **openfunworld** の名称で公開されています。
 
 ---
 

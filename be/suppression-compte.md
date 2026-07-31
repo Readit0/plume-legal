@@ -2,7 +2,7 @@
 
 **Апошняе абнаўленне: 31 ліпеня 2026 года** — Версія 1.0
 
-Дадатак, пра які ідзе гаворка: **Plume** (`com.plume.plume`), выдадзены **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — апублікаваны ў Google Play пад назвай **openfunword**.
+Дадатак, пра які ідзе гаворка: **Plume** (`com.plume.plume`), выдадзены **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — апублікаваны ў Google Play пад назвай **openfunworld**.
 
 ---
 

@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Juridiskā adrese: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Kontakti: sogacmoi7@gmail.com
 
-Lietotne tiek izplatīta Google Play veikalā ar izdevēja nosaukumu **openfunword**.
+Lietotne tiek izplatīta Google Play veikalā ar izdevēja nosaukumu **openfunworld**.
 
 Šajā dokumentā „Plume“ vai „lietotne“ apzīmē programmatūru; „mēs“ apzīmē izdevēju; „jūs“ apzīmē lietotāju.
 

@@ -2,7 +2,7 @@
 
 **Përditësimi i fundit: 31 korrik 2026** — Versioni 1.0
 
-Aplikacioni i përfshirë: **Plume** (`com.plume.plume`), botuar nga **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikuar në Google Play me emrin **openfunword**.
+Aplikacioni i përfshirë: **Plume** (`com.plume.plume`), botuar nga **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikuar në Google Play me emrin **openfunworld**.
 
 ---
 

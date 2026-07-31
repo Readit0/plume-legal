@@ -2,7 +2,7 @@
 
 **Dènye mizajou: 31 jiyè 2026** — Vèsyon 1.0
 
-Aplikasyon konsène a: **Plume** (`com.plume.plume`), se **SASU RedLine Music** ki edite l, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — li pibliye sou Google Play anba non **openfunword**.
+Aplikasyon konsène a: **Plume** (`com.plume.plume`), se **SASU RedLine Music** ki edite l, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — li pibliye sou Google Play anba non **openfunworld**.
 
 ---
 

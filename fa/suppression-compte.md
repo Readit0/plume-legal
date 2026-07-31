@@ -3,7 +3,7 @@
 **آخرین به‌روزرسانی: 31 ژوئیه 2026** — نسخه 1.0
 
 
-برنامه مربوطه: **Plume** (`com.plume.plume`)، منتشرشده توسط **SASU RedLine Music**، Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — منتشرشده در Google Play با نام **openfunword**.
+برنامه مربوطه: **Plume** (`com.plume.plume`)، منتشرشده توسط **SASU RedLine Music**، Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — منتشرشده در Google Play با نام **openfunworld**.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Huling na-update: 31 Hulyo 2026** — Bersyon 1.0
 
-Kaugnay na application: **Plume** (`com.plume.plume`), inilalathala ng **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — inilathala sa Google Play sa ilalim ng pangalang **openfunword**.
+Kaugnay na application: **Plume** (`com.plume.plume`), inilalathala ng **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — inilathala sa Google Play sa ilalim ng pangalang **openfunworld**.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **ბოლო განახლება: 2026 წლის 31 ივლისი** — ვერსია 1.0
 
-შესაბამისი აპლიკაცია: **Plume** (`com.plume.plume`), გამომცემელი **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — გამოქვეყნებული Google Play-ზე სახელით **openfunword**.
+შესაბამისი აპლიკაცია: **Plume** (`com.plume.plume`), გამომცემელი **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — გამოქვეყნებული Google Play-ზე სახელით **openfunworld**.
 
 ---
 

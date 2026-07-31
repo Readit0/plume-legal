@@ -2,7 +2,7 @@
 
 **Pēdējoreiz atjaunināts: 2026. gada 31. jūlijs** — Versija 1.0
 
-Attiecīgā lietotne: **Plume** (`com.plume.plume`), ko izdod **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicēta Google Play veikalā ar nosaukumu **openfunword**.
+Attiecīgā lietotne: **Plume** (`com.plume.plume`), ko izdod **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicēta Google Play veikalā ar nosaukumu **openfunworld**.
 
 ---
 

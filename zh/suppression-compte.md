@@ -3,7 +3,7 @@
 **最后更新：2026年7月31日** — 版本 1.0
 
 
-相关应用：**Plume**（`com.plume.plume`），由 **SASU RedLine Music** 发布，Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — 以 **openfunword** 的名称发布于 Google Play。
+相关应用：**Plume**（`com.plume.plume`），由 **SASU RedLine Music** 发布，Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — 以 **openfunworld** 的名称发布于 Google Play。
 
 ---
 

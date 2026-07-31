@@ -3,7 +3,7 @@
 **చివరిగా నవీకరించినది: 31 జూలై 2026** — వెర్షన్ 1.0
 
 
-సంబంధిత యాప్: **Plume** (`com.plume.plume`), **SASU RedLine Music** ప్రచురించినది, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play లో **openfunword** పేరుతో ప్రచురించబడింది.
+సంబంధిత యాప్: **Plume** (`com.plume.plume`), **SASU RedLine Music** ప్రచురించినది, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play లో **openfunworld** పేరుతో ప్రచురించబడింది.
 
 ---
 

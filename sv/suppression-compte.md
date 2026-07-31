@@ -2,7 +2,7 @@
 
 **Senast uppdaterad: 31 juli 2026** — Version 1.0
 
-Berörd app: **Plume** (`com.plume.plume`), utgiven av **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicerad på Google Play under namnet **openfunword**.
+Berörd app: **Plume** (`com.plume.plume`), utgiven av **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicerad på Google Play under namnet **openfunworld**.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Viimeksi päivitetty: 31. heinäkuuta 2026** — Versio 1.0
 
-Sovellus, jota tämä koskee: **Plume** (`com.plume.plume`), julkaisija **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — julkaistu Google Playssä nimellä **openfunword**.
+Sovellus, jota tämä koskee: **Plume** (`com.plume.plume`), julkaisija **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — julkaistu Google Playssä nimellä **openfunworld**.
 
 ---
 

@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Buveinė: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Kontaktai: sogacmoi7@gmail.com
 
-Programėlė platinama Google Play parduotuvėje leidėjo vardu **openfunword**.
+Programėlė platinama Google Play parduotuvėje leidėjo vardu **openfunworld**.
 
 Šiame dokumente „Plume“ arba „programėlė“ reiškia programinę įrangą; „mes“ reiškia leidėją; „jūs“ reiškia naudotoją.
 

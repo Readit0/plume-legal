@@ -2,7 +2,7 @@
 
 **L-aħħar aġġornament: 31 ta' Lulju 2026** — Verżjoni 1.0
 
-Applikazzjoni kkonċernata: **Plume** (`com.plume.plume`), ippubblikata minn **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ippubblikata fuq Google Play taħt l-isem **openfunword**.
+Applikazzjoni kkonċernata: **Plume** (`com.plume.plume`), ippubblikata minn **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ippubblikata fuq Google Play taħt l-isem **openfunworld**.
 
 ---
 

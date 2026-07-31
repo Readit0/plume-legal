@@ -2,7 +2,7 @@
 
 **Ultima actualizare: 31 iulie 2026** — Versiunea 1.0
 
-Aplicația vizată: **Plume** (`com.plume.plume`), editată de **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicată pe Google Play sub numele **openfunword**.
+Aplicația vizată: **Plume** (`com.plume.plume`), editată de **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicată pe Google Play sub numele **openfunworld**.
 
 ---
 

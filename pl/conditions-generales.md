@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Siedziba: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Kontakt: sogacmoi7@gmail.com
 
-Aplikacja jest dystrybuowana w Google Play przez wydawcę o nazwie **openfunword**.
+Aplikacja jest dystrybuowana w Google Play przez wydawcę o nazwie **openfunworld**.
 
 W niniejszym dokumencie „Plume” lub „aplikacja” oznacza oprogramowanie; „my” oznacza wydawcę; „Ty” oznacza użytkownika.
 

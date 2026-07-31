@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Tengiliður: sogacmoi7@gmail.com
 
-Forritið er gefið út á Google Play undir útgefandanafninu **openfunword**.
+Forritið er gefið út á Google Play undir útgefandanafninu **openfunworld**.
 
 Þessi stefna lýsir því sem smáforritið Plume gerir í núverandi útgáfu sinni. Hún var samin með því að lesa kóða forritsins, ekki eftir almennu sniðmáti.
 

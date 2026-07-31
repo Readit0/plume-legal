@@ -2,7 +2,7 @@
 
 **Paskutinį kartą atnaujinta: 2026 m. liepos 31 d.** — Versija 1.0
 
-Susijusi programėlė: **Plume** (`com.plume.plume`), kurią leidžia **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — paskelbta Google Play parduotuvėje vardu **openfunword**.
+Susijusi programėlė: **Plume** (`com.plume.plume`), kurią leidžia **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — paskelbta Google Play parduotuvėje vardu **openfunworld**.
 
 ---
 

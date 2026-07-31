@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Syèj sosyal: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Kontak: sogacmoi7@gmail.com
 
-Aplikasyon an distribye sou Google Play anba non editè **openfunword**.
+Aplikasyon an distribye sou Google Play anba non editè **openfunworld**.
 
 Nan dokiman sa a, 'Plume' oswa 'aplikasyon an' vle di lojisyèl la; 'nou' vle di editè a; 'ou' vle di itilizatè a.
 

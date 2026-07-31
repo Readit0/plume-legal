@@ -2,7 +2,7 @@
 
 **آخری تازہ کاری: 31 جولائی 2026** — ورژن 1.0
 
-متعلقہ ایپلیکیشن: **Plume** (`com.plume.plume`)، ناشر **SASU RedLine Music**، Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play پر **openfunword** کے نام سے شائع شدہ۔
+متعلقہ ایپلیکیشن: **Plume** (`com.plume.plume`)، ناشر **SASU RedLine Music**، Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play پر **openfunworld** کے نام سے شائع شدہ۔
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Zadnja posodobitev: 31. julij 2026** — Različica 1.0
 
-Zadevna aplikacija: **Plume** (`com.plume.plume`), ki jo izdaja **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — objavljena v Google Play pod imenom **openfunword**.
+Zadevna aplikacija: **Plume** (`com.plume.plume`), ki jo izdaja **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — objavljena v Google Play pod imenom **openfunworld**.
 
 ---
 

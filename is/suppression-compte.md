@@ -2,7 +2,7 @@
 
 **Síðast uppfært: 31. júlí 2026** — Útgáfa 1.0
 
-Forritið sem um ræðir: **Plume** (`com.plume.plume`), gefið út af **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — birt á Google Play undir nafninu **openfunword**.
+Forritið sem um ræðir: **Plume** (`com.plume.plume`), gefið út af **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — birt á Google Play undir nafninu **openfunworld**.
 
 ---
 

@@ -11,7 +11,7 @@ SIREN 938 277 100 — SIRET `938 277 100 00013`
 Selia: Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Kontakt: sogacmoi7@gmail.com
 
-Aplikacioni shpërndahet në Google Play me emrin e botuesit **openfunword**.
+Aplikacioni shpërndahet në Google Play me emrin e botuesit **openfunworld**.
 
 Në këtë dokument, «Plume» ose «aplikacioni» përcakton softuerin; «ne» përcakton botuesin; «ju» përcakton përdoruesin.
 

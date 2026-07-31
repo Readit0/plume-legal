@@ -2,7 +2,7 @@
 
 **Ostatnia aktualizacja: 31 lipca 2026 r.** — Wersja 1.0
 
-Aplikacja, której dotyczy: **Plume** (`com.plume.plume`), wydawana przez **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikowana w Google Play pod nazwą **openfunword**.
+Aplikacja, której dotyczy: **Plume** (`com.plume.plume`), wydawana przez **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikowana w Google Play pod nazwą **openfunworld**.
 
 ---
 

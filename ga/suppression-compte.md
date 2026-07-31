@@ -2,7 +2,7 @@
 
 **Nuashonrú deireanach: 31 Iúil 2026** — Leagan 1.0
 
-Feidhmchlár lena mbaineann: **Plume** (`com.plume.plume`), arna fhoilsiú ag **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — foilsithe ar Google Play faoin ainm **openfunword**.
+Feidhmchlár lena mbaineann: **Plume** (`com.plume.plume`), arna fhoilsiú ag **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — foilsithe ar Google Play faoin ainm **openfunworld**.
 
 ---
 

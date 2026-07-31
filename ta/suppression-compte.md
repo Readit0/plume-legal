@@ -3,7 +3,7 @@
 **கடைசியாகப் புதுப்பிக்கப்பட்டது: 31 ஜூலை 2026** — பதிப்பு 1.0
 
 
-சம்பந்தப்பட்ட ஆப்ஸ்: **Plume** (`com.plume.plume`), **SASU RedLine Music** ஆல் வெளியிடப்பட்டது, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play இல் **openfunword** என்ற பெயரில் வெளியிடப்பட்டது.
+சம்பந்தப்பட்ட ஆப்ஸ்: **Plume** (`com.plume.plume`), **SASU RedLine Music** ஆல் வெளியிடப்பட்டது, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play இல் **openfunworld** என்ற பெயரில் வெளியிடப்பட்டது.
 
 ---
 

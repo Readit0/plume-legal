@@ -2,7 +2,7 @@
 
 **Sasisho la mwisho: 31 Julai 2026** — Toleo la 1.0
 
-Programu inayohusika: **Plume** (`com.plume.plume`), inayochapishwa na **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — imechapishwa kwenye Google Play chini ya jina **openfunword**.
+Programu inayohusika: **Plume** (`com.plume.plume`), inayochapishwa na **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — imechapishwa kwenye Google Play chini ya jina **openfunworld**.
 
 ---
 

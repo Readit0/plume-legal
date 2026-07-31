@@ -2,7 +2,7 @@
 
 **อัปเดตล่าสุด: 31 กรกฎาคม 2026** — เวอร์ชัน 1.0
 
-แอปพลิเคชันที่เกี่ยวข้อง: **Plume** (`com.plume.plume`) จัดทำโดย **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — เผยแพร่บน Google Play ภายใต้ชื่อ **openfunword**
+แอปพลิเคชันที่เกี่ยวข้อง: **Plume** (`com.plume.plume`) จัดทำโดย **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — เผยแพร่บน Google Play ภายใต้ชื่อ **openfunworld**
 
 ---
 
