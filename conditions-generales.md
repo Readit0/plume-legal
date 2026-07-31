@@ -10,7 +10,7 @@
 
 ## Article 1 — Qui édite Plume
 
-**SAS REDLINE MUSIC**, société par actions simplifiée de droit français
+**SASU RedLine Music**, société par actions simplifiée de droit français
 SIREN 938 277 100 — SIRET `938 277 100 00013`
 Siège social : A 208, 1208 rue Lavoisier, 18100 Vierzon, France
 Contact : sogacmoi7@gmail.com
@@ -201,5 +201,5 @@ Les présentes conditions sont soumises au **droit français**.
 > 1. **L'article 10 (rétractation)** : la formulation de la renonciation au droit de rétractation pour un contenu numérique doit être vérifiée, et surtout **le recueil de cette renonciation doit être effectif dans le parcours d'achat**. Une clause qui figure aux CGU sans être recueillie dans l'application est fragile.
 > 2. **L'article 13 (responsabilité)** : les limitations de responsabilité opposables à un consommateur sont strictement encadrées ; une clause jugée abusive serait réputée non écrite.
 > 3. **L'article 6 (quotas)** : la faculté de modifier les quotas d'un abonnement en cours doit être encadrée pour ne pas être qualifiée d'abusive. La contrepartie proposée (information préalable et résiliation sans frais) doit être validée.
-> 4. **La désignation du vendeur.** Ces conditions nomment SAS REDLINE MUSIC comme **éditeur** de l'application et renvoient à Google Play pour la vente, sans trancher qui encaisse. **Cette question doit être arrêtée avant publication** : sur Google Play, le titulaire du compte développeur est le vendeur et perçoit les paiements. Si le compte est ouvert au nom d'une personne physique et non de la société, plusieurs articles (1, 9, 10, 16) devront être ajustés, et les conséquences fiscales examinées avec le comptable.
+> 4. **La désignation du vendeur.** Ces conditions nomment SASU RedLine Music comme **éditeur** de l'application et renvoient à Google Play pour la vente, sans trancher qui encaisse. **Cette question doit être arrêtée avant publication** : sur Google Play, le titulaire du compte développeur est le vendeur et perçoit les paiements. Si le compte est ouvert au nom d'une personne physique et non de la société, plusieurs articles (1, 9, 10, 16) devront être ajustés, et les conséquences fiscales examinées avec le comptable.
 > 5. **La médiation** : le nom et les coordonnées du médiateur de la consommation retenu doivent être ajoutés à l'article 16 — c'est une obligation légale pour un professionnel vendant à des consommateurs en France.

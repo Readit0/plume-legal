@@ -10,7 +10,7 @@
 
 ## Qui est responsable de vos données
 
-**SAS REDLINE MUSIC**
+**SASU RedLine Music**
 SIREN 938 277 100 — SIRET `938 277 100 00013`
 A 208, 1208 rue Lavoisier, 18100 Vierzon, France
 Contact : sogacmoi7@gmail.com

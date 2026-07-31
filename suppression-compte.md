@@ -6,7 +6,7 @@
 > - `https://readit0.github.io/plume-legal` : adresse d'hébergement de cette page. **Cette page doit être publiquement accessible sans installer l'application**, et son adresse doit être renseignée dans la Google Play Console (section « Sécurité des données » → suppression de compte).
 > - `938 277 100 00013`
 
-Application concernée : **Plume** (`com.plume.plume`), éditée par **SAS REDLINE MUSIC**, A 208, 1208 rue Lavoisier, 18100 Vierzon, France — publiée sur Google Play sous le nom **openfunword**.
+Application concernée : **Plume** (`com.plume.plume`), éditée par **SASU RedLine Music**, A 208, 1208 rue Lavoisier, 18100 Vierzon, France — publiée sur Google Play sous le nom **openfunword**.
 
 ---
 
