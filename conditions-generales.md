@@ -2,9 +2,6 @@
 
 **Dernière mise à jour : 31 juillet 2026** — Version 1.0
 
-> **MARQUEURS RESTANT À COMPLÉTER AVANT PUBLICATION**
-> - `938 277 100 00013` : nous n'avons que le SIREN (9 chiffres). Le SIRET (14 chiffres) figure sur le Kbis.
-> - `https://readit0.github.io/plume-legal` : adresse d'hébergement de ces pages, à reporter dans la fiche Play Store et dans les renvois internes.
 
 ---
 
