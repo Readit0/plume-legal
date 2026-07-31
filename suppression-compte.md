@@ -49,7 +49,7 @@ L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son 
 
 ## Ce qui est conservé, et pourquoi
 
-Trois catégories de traces subsistent, mais **le lien avec votre identité est coupé** : votre identifiant de compte et votre identifiant d'appareil en sont retirés. Ces enregistrements ne permettent plus de remonter à vous.
+Quatre catégories de traces subsistent, mais **le lien avec votre identité est coupé** : votre identifiant de compte et votre identifiant d'appareil en sont retirés. Ces enregistrements ne permettent plus de remonter à vous.
 
 | Ce qui reste | Pourquoi nous ne pouvons pas le détruire |
 |---|---|
