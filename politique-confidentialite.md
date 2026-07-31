@@ -165,7 +165,7 @@ Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr), au
 
 ## 8. Les mineurs
 
-Plume est un outil d'aide à la rédaction, destiné à un public **de 13 ans et plus**. Nous ne collectons pas sciemment de données d'enfants de moins de 13 ans et l'application n'est pas conçue ni promue pour eux. Si vous êtes titulaire de l'autorité parentale et pensez que votre enfant nous a transmis des données, écrivez à sogacmoi7@gmail.com : nous supprimerons le compte.
+Plume est un outil d'aide à la rédaction, destiné à un public **de 16 ans et plus**. Nous ne collectons pas sciemment de données de mineurs de moins de 16 ans et l'application n'est pas conçue ni promue pour eux. Si vous êtes titulaire de l'autorité parentale et pensez que votre enfant nous a transmis des données, écrivez à sogacmoi7@gmail.com : nous supprimerons le compte.
 
 Comme l'application permet de reformuler un texte libre et affiche de la publicité, elle n'est pas éligible aux programmes destinés aux familles de Google Play.
 
@@ -212,5 +212,5 @@ Les conditions d'utilisation du service (quotas, abonnements, résiliation) figu
 >
 > 1. **Le transfert de données hors Union européenne** vers OpenRouter. C'est le point le plus sensible : il faut déterminer le mécanisme de transfert applicable, vérifier qu'un accord de traitement existe avec ce prestataire, et l'écrire ici. Tant que ce n'est pas fait, ce document décrit le transfert sans affirmer qu'il est encadré.
 > 2. **Les bases légales** retenues au §7, en particulier la répartition entre consentement et intérêt légitime pour le service d'accessibilité.
-> 3. **L'âge minimum** (13 ans) et sa cohérence avec le questionnaire de classification de contenu de Google Play.
+> 3. **L'âge minimum** (16 ans) et sa cohérence avec le questionnaire de classification de contenu de Google Play.
 > 4. **La mention relative à l'IA** au titre du règlement européen sur l'intelligence artificielle (obligation de transparence pour un système à risque limité).
