@@ -12,7 +12,7 @@
 
 **SASU RedLine Music**, société par actions simplifiée de droit français
 SIREN 938 277 100 — SIRET `938 277 100 00013`
-Siège social : A 208, 1208 rue Lavoisier, 18100 Vierzon, France
+Siège social : Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France
 Contact : sogacmoi7@gmail.com
 
 L'application est distribuée sur Google Play sous le nom d'éditeur **openfunword**.
