@@ -185,7 +185,7 @@ Les présentes conditions sont soumises au **droit français**.
 
 **Réclamation.** Écrivez-nous d'abord à sogacmoi7@gmail.com : la plupart des différends se règlent ainsi.
 
-**Médiation.** En tant que consommateur, vous pouvez recourir gratuitement à un médiateur de la consommation. Vous pouvez également utiliser la plateforme européenne de règlement en ligne des litiges de la Commission européenne.
+**Médiation.** En tant que consommateur, vous pouvez recourir gratuitement à un médiateur de la consommation. Si vous résidez dans un autre pays de l'Union européenne, le réseau des Centres européens des consommateurs peut vous orienter vers le dispositif de médiation de votre pays.
 
 **Juridiction.** À défaut d'accord, le litige relève des tribunaux compétents. **Si vous êtes un consommateur résidant dans l'Union européenne, vous conservez le droit de saisir la juridiction de votre lieu de domicile**, et vous bénéficiez des dispositions impératives protectrices du droit de votre pays de résidence. Aucune clause des présentes ne peut vous priver de ce droit.
 
