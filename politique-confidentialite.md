@@ -159,7 +159,7 @@ Pour toute autre demande, écrivez à **sogacmoi7@gmail.com**. Nous répondons s
 
 **Bases légales :** l'exécution du contrat (fournir le service que vous demandez, gérer votre abonnement), votre consentement (service d'accessibilité, capture d'écran, envoi vers l'IA Cloud, publicité personnalisée), notre intérêt légitime (sécurité, lutte contre la fraude) et nos obligations légales (comptabilité).
 
-Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr), autorité de contrôle de l'éditeur, ou auprès de **l'autorité de contrôle de votre pays de résidence** — l'article 77 du RGPD vous laisse le choix.
+Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr), autorité de contrôle de l'éditeur, ou, **si vous résidez dans l'Union européenne**, auprès de l'autorité de contrôle de votre pays de résidence — l'article 77 du RGPD vous laisse le choix.
 
 ---
 
