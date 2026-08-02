@@ -90,11 +90,3 @@ Le détail des données traitées figure dans notre politique de confidentialit�
 Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr).
 
 ---
-
-> ### À faire relire par un professionnel
->
-> Cette page décrit exactement le comportement du code de suppression, vérifié ligne à ligne. Trois points appellent un avis professionnel ou une décision avant publication :
->
-> 1. **La durée de conservation des données comptables anonymisées** n'est pas chiffrée ici. Elle doit l'être : la durée légale de conservation des pièces comptables en France est de dix ans, mais la documentation technique du projet évoque une compaction des événements d'achat à 24 mois. **Ces deux durées doivent être mises en cohérence**, puis inscrites dans cette page et dans la politique de confidentialité.
-> 2. **La procédure de vérification d'identité** pour les demandes par e-mail doit être définie et documentée : accepter une suppression sur simple déclaration expose à une suppression malveillante ; en exiger trop crée un obstacle contraire au RGPD.
-> 3. **L'avertissement sur les achats non restaurables** après suppression mérite d'être confirmé : il découle du fait que les droits d'achat sont anonymisés, et il doit être affiché **dans l'application au moment de la confirmation**, pas seulement sur cette page.

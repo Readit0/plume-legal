@@ -135,8 +135,6 @@ Cependant, Plume étant un **contenu numérique fourni immédiatement**, ce droi
 
 **En pratique, les demandes de remboursement passent par Google Play**, qui applique sa propre politique (notamment une possibilité de remboursement dans les 48 heures suivant l'achat, directement depuis le Play Store). Si Google refuse et que vous estimez y avoir droit, écrivez-nous à sogacmoi7@gmail.com : nous examinerons votre demande.
 
-*Cet article doit être relu par un professionnel — voir la note en fin de document.*
-
 ---
 
 ## Article 11 — Disponibilité du service
@@ -190,13 +188,3 @@ Les présentes conditions sont soumises au **droit français**.
 **Juridiction.** À défaut d'accord, le litige relève des tribunaux compétents. **Si vous êtes un consommateur résidant dans l'Union européenne, vous conservez le droit de saisir la juridiction de votre lieu de domicile**, et vous bénéficiez des dispositions impératives protectrices du droit de votre pays de résidence. Aucune clause des présentes ne peut vous priver de ce droit.
 
 ---
-
-> ### À faire relire par un professionnel
->
-> Ce document a été rédigé à partir du comportement réel de l'application, **mais pas par un juriste**. Cinq points appellent en priorité un avis professionnel :
->
-> 1. **L'article 10 (rétractation)** : la formulation de la renonciation au droit de rétractation pour un contenu numérique doit être vérifiée, et surtout **le recueil de cette renonciation doit être effectif dans le parcours d'achat**. Une clause qui figure aux CGU sans être recueillie dans l'application est fragile.
-> 2. **L'article 13 (responsabilité)** : les limitations de responsabilité opposables à un consommateur sont strictement encadrées ; une clause jugée abusive serait réputée non écrite.
-> 3. **L'article 6 (quotas)** : la faculté de modifier les quotas d'un abonnement en cours doit être encadrée pour ne pas être qualifiée d'abusive. La contrepartie proposée (information préalable et résiliation sans frais) doit être validée.
-> 4. **La désignation du vendeur.** Ces conditions nomment SASU RedLine Music comme **éditeur** de l'application et renvoient à Google Play pour la vente, sans trancher qui encaisse. **Cette question doit être arrêtée avant publication** : sur Google Play, le titulaire du compte développeur est le vendeur et perçoit les paiements. Si le compte est ouvert au nom d'une personne physique et non de la société, plusieurs articles (1, 9, 10, 16) devront être ajustés, et les conséquences fiscales examinées avec le comptable.
-> 5. **La médiation** : le nom et les coordonnées du médiateur de la consommation retenu doivent être ajoutés à l'article 16 — c'est une obligation légale pour un professionnel vendant à des consommateurs en France.

@@ -134,8 +134,6 @@ However, since Plume is **digital content supplied immediately**, that right lap
 
 **In practice, refund requests go through Google Play**, which applies its own policy (in particular the possibility of a refund within 48 hours of purchase, directly from the Play Store). If Google refuses and you believe you are entitled to a refund, write to us at sogacmoi7@gmail.com: we will look into your request.
 
-*This article must be reviewed by a professional — see the note at the end of this document.*
-
 ---
 
 ## Article 11 — Availability of the service
@@ -189,16 +187,6 @@ These terms are governed by **French law**.
 **Jurisdiction.** Failing an agreement, the dispute falls within the jurisdiction of the competent courts. **If you are a consumer residing in the European Union, you retain the right to bring proceedings before the court of your place of residence**, and you have the benefit of the mandatory protective provisions of the law of your country of residence. No clause of these terms may deprive you of that right.
 
 ---
-
-> ### To be reviewed by a professional
->
-> This document was written on the basis of the actual behaviour of the application, **but not by a lawyer**. Five points call for professional advice as a priority:
->
-> 1. **Article 10 (withdrawal)**: the wording of the waiver of the right of withdrawal for digital content must be verified, and above all **that waiver must actually be collected during the purchase journey**. A clause that appears in the terms without being collected in the application is fragile.
-> 2. **Article 13 (liability)**: limitations of liability that can be relied on against a consumer are strictly regulated; a clause held to be unfair would be deemed not to have been written.
-> 3. **Article 6 (quotas)**: the ability to modify the quotas of an ongoing subscription must be framed so as not to be classified as unfair. The consideration offered (prior notice and cancellation free of charge) must be validated.
-> 4. **Designation of the seller.** These terms name SASU RedLine Music as the **publisher** of the application and refer to Google Play for the sale, without settling who collects the money. **This question must be settled before publication**: on Google Play, the holder of the developer account is the seller and receives the payments. If the account is opened in the name of a natural person rather than the company, several articles (1, 9, 10, 16) will have to be adjusted, and the tax consequences examined with the accountant.
-> 5. **Mediation**: the name and contact details of the consumer mediator chosen must be added to Article 16 — this is a legal obligation for a business selling to consumers in France.
 
 ---
 

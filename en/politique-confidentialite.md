@@ -183,7 +183,7 @@ As the application allows free text to be rewritten and displays advertising, it
 
 **We sell no data and transfer none to data brokers.**
 
-**Transfers outside the European Union:** the use of OpenRouter, Google Play and AdMob involves a transfer of data outside the European Union. The legal framework governing these transfers (standard contractual clauses, adequacy decision) **must be verified and documented by a professional before publication** — see the note at the end of this document.
+**Transfers outside the European Union:** the use of OpenRouter, Google Play and AdMob involves a transfer of data outside the European Union.
 
 ---
 
@@ -204,15 +204,6 @@ Any change to this policy will be published at `https://readit0.github.io/plume-
 The terms of use of the service (quotas, subscriptions, cancellation) are set out in a separate document: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### To be reviewed by a professional
->
-> This document was written by measuring the actual behaviour of the application, but **it was not written by a lawyer**. Four points call for professional advice as a priority:
->
-> 1. **The transfer of data outside the European Union** to OpenRouter. This is the most sensitive point: the applicable transfer mechanism must be determined, it must be verified that a data processing agreement exists with that provider, and it must be written here. Until that is done, this document describes the transfer without asserting that it is subject to appropriate safeguards.
-> 2. **The legal bases** chosen in §7, in particular the split between consent and legitimate interests for the accessibility service.
-> 3. **The minimum age** (16) and its consistency with Google Play's content rating questionnaire.
-> 4. **The statement concerning AI** under the European regulation on artificial intelligence (transparency obligation for a limited-risk system).
 
 ---
 

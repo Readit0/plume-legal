@@ -184,7 +184,7 @@ Comme l'application permet de reformuler un texte libre et affiche de la publici
 
 **Nous ne vendons aucune donnée et n'en cédons aucune à des courtiers en données.**
 
-**Transferts hors Union européenne :** le recours à OpenRouter, à Google Play et à AdMob implique un transfert de données hors de l'Union européenne. L'encadrement juridique de ces transferts (clauses contractuelles types, décision d'adéquation) **doit être vérifié et documenté par un professionnel avant publication** — voir la note en fin de document.
+**Transferts hors Union européenne :** le recours à OpenRouter, à Google Play et à AdMob implique un transfert de données hors de l'Union européenne.
 
 ---
 
@@ -205,12 +205,3 @@ Toute modification de cette politique sera publiée à l'adresse `https://readit
 Les conditions d'utilisation du service (quotas, abonnements, résiliation) figurent dans un document distinct : `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### À faire relire par un professionnel
->
-> Ce document a été rédigé en mesurant le comportement réel de l'application, mais **il n'a pas été rédigé par un juriste**. Quatre points méritent en priorité un avis professionnel :
->
-> 1. **Le transfert de données hors Union européenne** vers OpenRouter. C'est le point le plus sensible : il faut déterminer le mécanisme de transfert applicable, vérifier qu'un accord de traitement existe avec ce prestataire, et l'écrire ici. Tant que ce n'est pas fait, ce document décrit le transfert sans affirmer qu'il est encadré.
-> 2. **Les bases légales** retenues au §7, en particulier la répartition entre consentement et intérêt légitime pour le service d'accessibilité.
-> 3. **L'âge minimum** (16 ans) et sa cohérence avec le questionnaire de classification de contenu de Google Play.
-> 4. **La mention relative à l'IA** au titre du règlement européen sur l'intelligence artificielle (obligation de transparence pour un système à risque limité).

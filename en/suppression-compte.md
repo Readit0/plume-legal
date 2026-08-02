@@ -90,14 +90,6 @@ You may lodge a complaint with the **CNIL** (www.cnil.fr).
 
 ---
 
-> ### To be reviewed by a professional
->
-> This page describes exactly what the deletion code does, verified line by line. Three points call for professional advice or a decision before publication:
->
-> 1. **The retention period for anonymised accounting data** is not stated in figures here. It must be: the legal retention period for accounting records in France is ten years, but the project's technical documentation refers to compaction of purchase events at 24 months. **These two periods must be reconciled**, then stated on this page and in the privacy policy.
-> 2. **The identity verification procedure** for requests by e-mail must be defined and documented: accepting a deletion on a mere declaration exposes users to malicious deletion; requiring too much creates an obstacle contrary to the GDPR.
-> 3. **The warning about purchases that cannot be restored** after deletion deserves to be confirmed: it follows from the fact that purchase entitlements are anonymised, and it must be displayed **in the application at the moment of confirmation**, not only on this page.
-
 ---
 
 This document is a translation of the French version, available at https://readit0.github.io/plume-legal/. It is provided for your information. In the event of any discrepancy, please contact us at sogacmoi7@gmail.com.
