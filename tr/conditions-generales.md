@@ -92,7 +92,7 @@ Yapay zekânın ürettiği bir yanıt, bu kuralları ihlal ediyorsa reddedilebil
 
 **Abone olma.** Abonelikler, uygulamadan, **Google Play** aracılığıyla satın alınır. Gösterilen fiyatlar avro cinsindendir ve Avrupa Birliği tüketicileri için tüm vergiler dâhildir. Google, ülkenizde ve para biriminizde geçerli fiyatı çevirir ve gösterir.
 
-*Bu metnin yazıldığı tarihteki fiyatlar: ayda 3,99 € ya da yılda 29,99 €. Sizi bağlayan fiyat, abone olma anında Google Play tarafından gösterilen fiyattır.*
+*Bu metnin yazıldığı tarihteki fiyatlar: ayda 6,99 € ya da yılda 69,99 €. Sizi bağlayan fiyat, abone olma anında Google Play tarafından gösterilen fiyattır.*
 
 **Otomatik yenileme.** **Aboneliğiniz her dönemin (aylık ya da yıllık) sonunda otomatik olarak yenilenir**, o tarihte geçerli fiyat üzerinden; meğerki devam eden dönemin bitiminden **en az 24 saat önce** tarafınızca feshedilmiş olsun. Yenileme, ödeme aracınızdan Google tarafından tahsil edilir.
 
@@ -108,7 +108,7 @@ Yapay zekânın ürettiği bir yanıt, bu kuralları ihlal ediyorsa reddedilebil
 
 Bazı içerikler (persona paketleri, ek kota kredileri) abonelik olmaksızın tek seferlik satılır.
 
-*Bu metnin yazıldığı tarihteki fiyat: paket başına 2,99 €. Sizi bağlayan fiyat, satın alma anında gösterilen fiyattır.*
+*Bu metnin yazıldığı tarihteki fiyat: paket başına 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 €. Sizi bağlayan fiyat, satın alma anında gösterilen fiyattır.*
 
 Satın alınan bir paket **kesin olarak edinilmiş olur** ve hesabınıza bağlanır. Başka bir cihazda yeniden bağlandığınızda onu bulursunuz ve gerekirse uygulamanın "Satın almalarımı geri yükle" işlevi onu geri almanızı sağlar.
 
