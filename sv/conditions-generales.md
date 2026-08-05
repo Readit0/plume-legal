@@ -92,7 +92,7 @@ Användningen av tjänsten har ett tak, för att behandlingskostnaden ska kunna 
 
 **Teckning.** Prenumerationerna tecknas från appen, via **Google Play**. De priser som visas är i euro, inklusive alla skatter för konsumenter i Europeiska unionen. Google räknar om och visar det pris som gäller i ditt land och din valuta.
 
-*Priser vid tidpunkten för den här texten: 3,99 € per månad, eller 29,99 € per år. Det pris som binder dig är det som visas av Google Play när du tecknar prenumerationen.*
+*Priser vid tidpunkten för den här texten: 6,99 € per månad, eller 69,99 € per år. Det pris som binder dig är det som visas av Google Play när du tecknar prenumerationen.*
 
 **Automatisk förnyelse.** **Din prenumeration förnyas automatiskt** i slutet av varje period (månad eller år), till det pris som då gäller, om du inte säger upp den **minst 24 timmar före** slutet av den pågående perioden. Förnyelsen dras av Google från ditt betalningsmedel.
 
@@ -108,7 +108,7 @@ Användningen av tjänsten har ett tak, för att behandlingskostnaden ska kunna 
 
 Vissa innehåll (paket med personas, extra kvotkrediter) säljs styckvis, utan prenumeration.
 
-*Pris vid tidpunkten för den här texten: 2,99 € per paket. Det pris som binder dig är det som visas vid köptillfället.*
+*Pris vid tidpunkten för den här texten: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € per paket. Det pris som binder dig är det som visas vid köptillfället.*
 
 Ett köpt paket är **förvärvat för gott** och knutet till ditt konto. Du hittar det igen när du loggar in på en annan enhet, och appens funktion ”Återställ mina köp” gör att du kan hämta tillbaka det vid behov.
 
