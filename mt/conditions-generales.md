@@ -92,7 +92,7 @@ L-użu tas-servizz għandu limitu massimu, biex jiġi kkontrollat il-kost tal-ip
 
 **Sottoskrizzjoni.** L-abbonamenti jiġu sottoskritti mill-applikazzjoni, permezz ta' **Google Play**. Il-prezzijiet murija huma f'euro, bit-taxxi kollha inklużi għall-konsumaturi tal-Unjoni Ewropea. Google jikkonverti u juri l-prezz applikabbli fil-pajjiż tiegħek u fil-munita tiegħek.
 
-*Tariffi fid-data tal-kitba: 3,99 € fix-xahar, jew 29,99 € fis-sena. Il-prezz li jorbtok huwa dak muri minn Google Play fil-mument tas-sottoskrizzjoni.*
+*Tariffi fid-data tal-kitba: 6,99 € fix-xahar, jew 69,99 € fis-sena. Il-prezz li jorbtok huwa dak muri minn Google Play fil-mument tas-sottoskrizzjoni.*
 
 **Tiġdid awtomatiku.** **L-abbonament tiegħek jiġġedded awtomatikament** fi tmiem kull perjodu (fix-xahar jew fis-sena), bit-tariffa fis-seħħ dak iż-żmien, ħlief jekk tikkanċella **mill-inqas 24 siegħa qabel** it-tmiem tal-perjodu kurrenti. It-tiġdid jiġi ddebitat minn Google fuq il-mezz ta' ħlas tiegħek.
 
@@ -108,7 +108,7 @@ L-użu tas-servizz għandu limitu massimu, biex jiġi kkontrollat il-kost tal-ip
 
 Ċerti kontenuti (pakketti ta' personas, krediti ta' kwota addizzjonali) jinbiegħu għal darba, mingħajr abbonament.
 
-*Tariffa fid-data tal-kitba: 2,99 € għal kull pakkett. Il-prezz li jorbtok huwa dak muri fil-mument tax-xiri.*
+*Tariffa fid-data tal-kitba: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € għal kull pakkett. Il-prezz li jorbtok huwa dak muri fil-mument tax-xiri.*
 
 Pakkett mixtri huwa **akkwistat b'mod definittiv** u marbut mal-kont tiegħek. Issibu billi terġa' tikkonnettja ruħek fuq apparat ieħor, u l-funzjoni "Irkupra x-xiri tiegħi" tal-applikazzjoni tippermettilek tirkuprah jekk ikun meħtieġ.
 
