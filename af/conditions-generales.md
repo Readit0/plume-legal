@@ -92,7 +92,7 @@ Die gebruik van die diens het 'n boonste grens, om die koste van die verwerking 
 
 **Inskrywing.** Die intekeninge word vanuit die app geneem, **via Google Play**. Die pryse wat vertoon word, is in euro, alle belasting ingesluit vir verbruikers van die Europese Unie. Google skakel die toepaslike prys om en vertoon dit in jou land en jou geldeenheid.
 
-*Tariewe op die datum van skryf: 3,99 € per maand, of 29,99 € per jaar. Die prys wat jou bind, is dié wat deur Google Play by die inskrywing vertoon word.*
+*Tariewe op die datum van skryf: 6,99 € per maand, of 69,99 € per jaar. Die prys wat jou bind, is dié wat deur Google Play by die inskrywing vertoon word.*
 
 **Outomatiese hernuwing.** **Jou intekening hernu outomaties** aan die einde van elke tydperk (maandeliks of jaarliks), teen die tarief wat dan geld, tensy jy dit **ten minste 24 uur voor** die einde van die lopende tydperk kanselleer. Die hernuwing word deur Google van jou betaalmiddel gedebiteer.
 
@@ -108,7 +108,7 @@ Die gebruik van die diens het 'n boonste grens, om die koste van die verwerking 
 
 Sekere inhoud (persona-pakkette, bykomende kwotakrediete) word per stuk verkoop, sonder intekening.
 
-*Tarief op die datum van skryf: 2,99 € per pakket. Die prys wat jou bind, is dié wat by die aankoop vertoon word.*
+*Tarief op die datum van skryf: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € per pakket. Die prys wat jou bind, is dié wat by die aankoop vertoon word.*
 
 'n Pakket wat gekoop is, is **finaal verkry** en aan jou rekening gekoppel. Jy kry dit terug deur op 'n ander toestel weer aan te meld, en die funksie “Herstel my aankope” van die app laat jou toe om dit indien nodig te herwin.
 
