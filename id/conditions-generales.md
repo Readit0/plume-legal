@@ -92,7 +92,7 @@ Penggunaan layanan dibatasi, untuk mengendalikan biaya pemrosesan.
 
 **Berlangganan.** Langganan dibeli dari dalam aplikasi, melalui **Google Play**. Harga yang ditampilkan dalam euro, sudah termasuk semua pajak untuk konsumen Uni Eropa. Google mengonversi dan menampilkan harga yang berlaku di negara dan mata uang Anda.
 
-*Tarif pada tanggal penulisan: 3,99 € per bulan, atau 29,99 € per tahun. Harga yang mengikat Anda adalah harga yang ditampilkan oleh Google Play pada saat berlangganan.*
+*Tarif pada tanggal penulisan: 6,99 € per bulan, atau 69,99 € per tahun. Harga yang mengikat Anda adalah harga yang ditampilkan oleh Google Play pada saat berlangganan.*
 
 **Perpanjangan otomatis.** **Langganan Anda diperpanjang secara otomatis** pada akhir setiap periode (bulanan atau tahunan), dengan tarif yang berlaku saat itu, kecuali Anda mengakhirinya **sekurang-kurangnya 24 jam sebelum** berakhirnya periode yang sedang berjalan. Perpanjangan itu ditagihkan oleh Google pada alat pembayaran Anda.
 
@@ -108,7 +108,7 @@ Penggunaan layanan dibatasi, untuk mengendalikan biaya pemrosesan.
 
 Sebagian konten (paket persona, kredit kuota tambahan) dijual satuan, tanpa langganan.
 
-*Tarif pada tanggal penulisan: 2,99 € per paket. Harga yang mengikat Anda adalah harga yang ditampilkan pada saat pembelian.*
+*Tarif pada tanggal penulisan: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € per paket. Harga yang mengikat Anda adalah harga yang ditampilkan pada saat pembelian.*
 
 Sebuah paket yang dibeli **dimiliki secara permanen** dan ditautkan ke akun Anda. Anda menemukannya kembali saat masuk di perangkat lain, dan fungsi "Pulihkan pembelian saya" di dalam aplikasi memungkinkan Anda mendapatkannya kembali bila perlu.
 
