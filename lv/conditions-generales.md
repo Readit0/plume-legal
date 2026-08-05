@@ -92,7 +92,7 @@ Pakalpojuma lietošanai ir noteikts ierobežojums, lai kontrolētu apstrādes iz
 
 **Noformēšana.** Abonementi tiek noformēti no lietotnes, izmantojot **Google Play**. Rādītās cenas ir eiro, Eiropas Savienības patērētājiem ar visiem nodokļiem. Google konvertē un parāda jūsu valstī un jūsu valūtā piemērojamo cenu.
 
-*Cenas šā dokumenta sagatavošanas dienā: 3,99 € mēnesī vai 29,99 € gadā. Jums saistošā cena ir tā, ko Google Play rāda noformēšanas brīdī.*
+*Cenas šā dokumenta sagatavošanas dienā: 6,99 € mēnesī vai 69,99 € gadā. Jums saistošā cena ir tā, ko Google Play rāda noformēšanas brīdī.*
 
 **Automātiska atjaunošana.** **Jūsu abonements automātiski atjaunojas** katra perioda (mēneša vai gada) beigās par tobrīd spēkā esošo cenu, ja vien jūs to neatceļat **vismaz 24 stundas pirms** kārtējā perioda beigām. Atjaunošanas maksu Google noraksta no jūsu maksāšanas līdzekļa.
 
@@ -108,7 +108,7 @@ Pakalpojuma lietošanai ir noteikts ierobežojums, lai kontrolētu apstrādes iz
 
 Noteikts saturs (personu komplekti, papildu kvotas kredīti) tiek pārdots atsevišķi, bez abonementa.
 
-*Cena šā dokumenta sagatavošanas dienā: 2,99 € par komplektu. Jums saistošā cena ir tā, kas tiek rādīta pirkuma brīdī.*
+*Cena šā dokumenta sagatavošanas dienā: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € par komplektu. Jums saistošā cena ir tā, kas tiek rādīta pirkuma brīdī.*
 
 Nopirktais komplekts ir **iegūts galīgi** un piesaistīts jūsu kontam. Jūs to atradīsiet, pieslēdzoties citā ierīcē, un lietotnes funkcija „Atjaunot manus pirkumus“ ļauj jums to vajadzības gadījumā atgūt.
 
