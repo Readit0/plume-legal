@@ -92,7 +92,7 @@ Het gebruik van de dienst is begrensd, om de verwerkingskosten te beheersen.
 
 **Afsluiten.** Abonnementen worden vanuit de app afgesloten, via **Google Play**. De weergegeven prijzen zijn in euro, inclusief alle belastingen voor consumenten in de Europese Unie. Google rekent de in uw land en uw valuta geldende prijs om en toont die.
 
-*Tarieven op het moment van schrijven: € 3,99 per maand of € 29,99 per jaar. De prijs die u bindt, is die welke Google Play toont op het moment van afsluiten.*
+*Tarieven op het moment van schrijven: € 6,99 per maand of € 69,99 per jaar. De prijs die u bindt, is die welke Google Play toont op het moment van afsluiten.*
 
 **Automatische verlenging.** **Uw abonnement wordt automatisch verlengd** aan het einde van elke periode (maandelijks of jaarlijks), tegen het dan geldende tarief, tenzij u **ten minste 24 uur vóór** het einde van de lopende periode opzegt. De verlenging wordt door Google van uw betaalmiddel afgeschreven.
 
@@ -108,7 +108,7 @@ Het gebruik van de dienst is begrensd, om de verwerkingskosten te beheersen.
 
 Bepaalde inhoud (persona-pakketten, extra quotategoeden) wordt los verkocht, zonder abonnement.
 
-*Tarief op het moment van schrijven: € 2,99 per pakket. De prijs die u bindt, is die welke op het moment van aankoop wordt weergegeven.*
+*Tarief op het moment van schrijven: € 2,39 / € 5,49 / € 11,99 / € 17,99 / € 23,99 per pakket. De prijs die u bindt, is die welke op het moment van aankoop wordt weergegeven.*
 
 Een gekocht pakket is **definitief verworven** en aan uw account gekoppeld. U vindt het terug door in te loggen op een ander apparaat, en met de functie "Aankopen herstellen" van de app kunt u het zo nodig terughalen.
 
