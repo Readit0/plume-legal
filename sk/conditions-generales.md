@@ -92,7 +92,7 @@ Používanie služby je obmedzené, aby sa udržali náklady na spracúvanie.
 
 **Uzavretie.** Predplatné sa uzatvára z aplikácie, prostredníctvom **Google Play**. Zobrazené ceny sú v eurách, vrátane všetkých daní pre spotrebiteľov z Európskej únie. Google prepočíta a zobrazí cenu platnú vo vašej krajine a vo vašej mene.
 
-*Ceny ku dňu napísania: 3,99 € mesačne alebo 29,99 € ročne. Cena, ktorá vás zaväzuje, je cena zobrazená službou Google Play v okamihu uzavretia.*
+*Ceny ku dňu napísania: 6,99 € mesačne alebo 69,99 € ročne. Cena, ktorá vás zaväzuje, je cena zobrazená službou Google Play v okamihu uzavretia.*
 
 **Automatické obnovenie.** **Vaše predplatné sa automaticky obnovuje** na konci každého obdobia (mesačného alebo ročného), za vtedy platnú cenu, ibaže ho z vašej strany ukončíte **najmenej 24 hodín pred** koncom prebiehajúceho obdobia. Obnovenie strháva Google z vášho platobného prostriedku.
 
@@ -108,7 +108,7 @@ Používanie služby je obmedzené, aby sa udržali náklady na spracúvanie.
 
 Niektorý obsah (balíky person, dodatočné kredity limitu) sa predáva jednorazovo, bez predplatného.
 
-*Cena ku dňu napísania: 2,99 € za balík. Cena, ktorá vás zaväzuje, je cena zobrazená v okamihu nákupu.*
+*Cena ku dňu napísania: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € za balík. Cena, ktorá vás zaväzuje, je cena zobrazená v okamihu nákupu.*
 
 Zakúpený balík je **nadobudnutý natrvalo** a viazaný na váš účet. Nájdete ho po opätovnom prihlásení na inom zariadení a funkcia „Obnoviť moje nákupy“ v aplikácii vám ho v prípade potreby umožní získať späť.
 
