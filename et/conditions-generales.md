@@ -92,7 +92,7 @@ Teenuse kasutamisel on ülempiir, et hoida töötlemise kulu kontrolli all.
 
 **Vormistamine.** Tellimused vormistatakse rakendusest **Google Play** kaudu. Kuvatavad hinnad on eurodes, Euroopa Liidu tarbijate jaoks koos kõigi maksudega. Google teisendab ja kuvab teie riigis ja teie vääringus kohaldatava hinna.
 
-*Hinnad käesoleva dokumendi koostamise kuupäeval: 3,99 € kuus või 29,99 € aastas. Teid siduv hind on see, mille Google Play tellimuse vormistamise hetkel kuvab.*
+*Hinnad käesoleva dokumendi koostamise kuupäeval: 6,99 € kuus või 69,99 € aastas. Teid siduv hind on see, mille Google Play tellimuse vormistamise hetkel kuvab.*
 
 **Automaatne pikenemine.** **Teie tellimus pikeneb automaatselt** iga perioodi (kuu või aasta) lõpus sel hetkel kehtiva hinnaga, välja arvatud juhul, kui olete selle üles öelnud **vähemalt 24 tundi enne** käimasoleva perioodi lõppu. Pikendamise summa võtab Google maha teie makseviisilt.
 
@@ -108,7 +108,7 @@ Teenuse kasutamisel on ülempiir, et hoida töötlemise kulu kontrolli all.
 
 Teatavat sisu (personapaketid, täiendavad kvoodikrediidid) müüakse ühekaupa, ilma tellimuseta.
 
-*Hind käesoleva dokumendi koostamise kuupäeval: 2,99 € pakett. Teid siduv hind on see, mida kuvatakse ostu hetkel.*
+*Hind käesoleva dokumendi koostamise kuupäeval: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € pakett. Teid siduv hind on see, mida kuvatakse ostu hetkel.*
 
 Ostetud pakett on **lõplikult omandatud** ja seotud teie kontoga. Leiate selle üles, kui logite sisse teises seadmes, ja rakenduse funktsioon „Taasta minu ostud“ võimaldab teil selle vajaduse korral tagasi saada.
 
