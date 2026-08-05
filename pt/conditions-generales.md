@@ -92,7 +92,7 @@ A utilização do serviço tem um limite máximo, para controlar o custo do trat
 
 **Adesão.** As subscrições são adquiridas a partir da aplicação, através do **Google Play**. Os preços apresentados são em euros, com todos os impostos incluídos para os consumidores da União Europeia. A Google converte e apresenta o preço aplicável no seu país e na sua moeda.
 
-*Tarifas à data de redação: 3,99 € por mês, ou 29,99 € por ano. O preço que o vincula é o apresentado pelo Google Play no momento da adesão.*
+*Tarifas à data de redação: 6,99 € por mês, ou 69,99 € por ano. O preço que o vincula é o apresentado pelo Google Play no momento da adesão.*
 
 **Renovação automática.** **A sua subscrição renova-se automaticamente** no final de cada período (mensal ou anual), à tarifa então em vigor, salvo cancelamento da sua parte **pelo menos 24 horas antes** do final do período em curso. A renovação é debitada pela Google no seu meio de pagamento.
 
@@ -108,7 +108,7 @@ A utilização do serviço tem um limite máximo, para controlar o custo do trat
 
 Determinados conteúdos (pacotes de personas, créditos de quota suplementares) são vendidos avulso, sem subscrição.
 
-*Tarifa à data de redação: 2,99 € por pacote. O preço que o vincula é o apresentado no momento da compra.*
+*Tarifa à data de redação: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € por pacote. O preço que o vincula é o apresentado no momento da compra.*
 
 Um pacote comprado fica **adquirido definitivamente** e associado à sua conta. Volta a encontrá-lo ao iniciar sessão noutro dispositivo, e a função «Restaurar compras» da aplicação permite-lhe recuperá-lo se necessário.
 
