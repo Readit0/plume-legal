@@ -92,7 +92,7 @@ Notkun þjónustunnar hefur þak, til að halda utan um kostnað við vinnsluna.
 
 **Skráning.** Áskriftir eru keyptar úr forritinu, **í gegnum Google Play**. Verðin sem birtast eru í evrum, með öllum sköttum fyrir neytendur í Evrópusambandinu. Google umreiknar og birtir það verð sem gildir í landinu þínu og í gjaldmiðli þínum.
 
-*Verð þegar þetta er ritað: 3,99 € á mánuði, eða 29,99 € á ári. Það verð sem bindur þig er það sem Google Play birtir þegar þú skráir þig.*
+*Verð þegar þetta er ritað: 6,99 € á mánuði, eða 69,99 € á ári. Það verð sem bindur þig er það sem Google Play birtir þegar þú skráir þig.*
 
 **Sjálfvirk endurnýjun.** **Áskriftin þín endurnýjast sjálfkrafa** við lok hvers tímabils (mánaðarlegs eða árlegs), á því verði sem þá gildir, nema þú segir henni upp **að minnsta kosti 24 klukkustundum fyrir** lok yfirstandandi tímabils. Google skuldfærir endurnýjunina á greiðslumáta þinn.
 
@@ -108,7 +108,7 @@ Notkun þjónustunnar hefur þak, til að halda utan um kostnað við vinnsluna.
 
 Sumt efni (persónupakkar, viðbótarkvótainneign) er selt stakt, án áskriftar.
 
-*Verð þegar þetta er ritað: 2,99 € fyrir hvern pakka. Það verð sem bindur þig er það sem birtist við kaupin.*
+*Verð þegar þetta er ritað: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € fyrir hvern pakka. Það verð sem bindur þig er það sem birtist við kaupin.*
 
 Pakki sem keyptur hefur verið er **eign þín til frambúðar** og tengdur aðgangi þínum. Þú finnur hann aftur með því að skrá þig inn í öðru tæki, og aðgerðin „Endurheimta kaupin mín“ í forritinu gerir þér kleift að ná í hann ef þarf.
 
