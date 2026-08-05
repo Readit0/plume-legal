@@ -93,7 +93,7 @@ L'usage du service est plafonné, pour maîtriser le coût du traitement.
 
 **Souscription.** Les abonnements se souscrivent depuis l'application, via **Google Play**. Les prix affichés sont en euros, toutes taxes comprises pour les consommateurs de l'Union européenne. Google convertit et affiche le prix applicable dans votre pays et votre devise.
 
-*Tarifs à la date de rédaction : 3,99 € par mois, ou 29,99 € par an. Le prix qui vous engage est celui affiché par Google Play au moment de la souscription.*
+*Tarifs à la date de rédaction : 6,99 € par mois, ou 69,99 € par an. Le prix qui vous engage est celui affiché par Google Play au moment de la souscription.*
 
 **Reconduction automatique.** **Votre abonnement se renouvelle automatiquement** à la fin de chaque période (mensuelle ou annuelle), au tarif alors en vigueur, sauf résiliation de votre part **au moins 24 heures avant** la fin de la période en cours. Le renouvellement est débité par Google sur votre moyen de paiement.
 
@@ -109,7 +109,7 @@ L'usage du service est plafonné, pour maîtriser le coût du traitement.
 
 Certains contenus (packs de personas, crédits de quota supplémentaires) sont vendus à l'unité, sans abonnement.
 
-*Tarif à la date de rédaction : 2,99 € par pack. Le prix qui vous engage est celui affiché au moment de l'achat.*
+*Tarif à la date de rédaction : 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € par pack. Le prix qui vous engage est celui affiché au moment de l'achat.*
 
 Un pack acheté est **acquis définitivement** et rattaché à votre compte. Vous le retrouvez en vous reconnectant sur un autre appareil, et la fonction « Restaurer mes achats » de l'application vous permet de le récupérer si nécessaire.
 
