@@ -92,7 +92,7 @@ Uporaba storitve je omejena, da se obvladuje strošek obdelave.
 
 **Sklenitev.** Naročnine se sklenejo iz aplikacije, prek **Google Play**. Prikazane cene so v evrih, z vsemi davki za potrošnike iz Evropske unije. Google pretvori in prikaže ceno, ki velja v vaši državi in vaši valuti.
 
-*Cene na dan pisanja: 3,99 € na mesec ali 29,99 € na leto. Cena, ki vas zavezuje, je tista, ki jo Google Play prikaže ob sklenitvi.*
+*Cene na dan pisanja: 6,99 € na mesec ali 69,99 € na leto. Cena, ki vas zavezuje, je tista, ki jo Google Play prikaže ob sklenitvi.*
 
 **Samodejno podaljšanje.** **Vaša naročnina se samodejno podaljša** ob koncu vsakega obdobja (mesečnega ali letnega), po takrat veljavni ceni, razen če jo odpoveste **vsaj 24 ur pred** koncem tekočega obdobja. Podaljšanje Google obremeni na vašem plačilnem sredstvu.
 
@@ -108,7 +108,7 @@ Uporaba storitve je omejena, da se obvladuje strošek obdelave.
 
 Nekatere vsebine (paketi person, dodatni dobropisi kvote) se prodajajo posamično, brez naročnine.
 
-*Cena na dan pisanja: 2,99 € na paket. Cena, ki vas zavezuje, je tista, prikazana ob nakupu.*
+*Cena na dan pisanja: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € na paket. Cena, ki vas zavezuje, je tista, prikazana ob nakupu.*
 
 Kupljeni paket je **pridobljen trajno** in vezan na vaš račun. Najdete ga ob ponovni prijavi na drugi napravi, funkcija »Obnovi moje nakupe« v aplikaciji pa vam omogoča, da ga po potrebi obnovite.
 
