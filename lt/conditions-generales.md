@@ -92,7 +92,7 @@ Paslaugos naudojimas yra ribojamas, kad būtų suvaldytos tvarkymo sąnaudos.
 
 **Užsakymas.** Prenumeratos užsakomos iš programėlės per **Google Play**. Rodomos kainos yra eurais, Europos Sąjungos vartotojams — su visais mokesčiais. Google konvertuoja ir parodo jūsų šalyje ir jūsų valiuta taikomą kainą.
 
-*Kainos šio dokumento rengimo dieną: 3,99 € per mėnesį arba 29,99 € per metus. Jus saistanti kaina yra ta, kurią Google Play rodo užsakymo metu.*
+*Kainos šio dokumento rengimo dieną: 6,99 € per mėnesį arba 69,99 € per metus. Jus saistanti kaina yra ta, kurią Google Play rodo užsakymo metu.*
 
 **Automatinis atnaujinimas.** **Jūsų prenumerata automatiškai atsinaujina** kiekvieno laikotarpio (mėnesio ar metų) pabaigoje tuo metu galiojančia kaina, nebent ją atšaukiate **likus bent 24 valandoms iki** einamojo laikotarpio pabaigos. Atnaujinimo sumą Google nurašo nuo jūsų mokėjimo priemonės.
 
@@ -108,7 +108,7 @@ Paslaugos naudojimas yra ribojamas, kad būtų suvaldytos tvarkymo sąnaudos.
 
 Tam tikras turinys (personų rinkiniai, papildomi kvotos kreditai) parduodamas atskirai, be prenumeratos.
 
-*Kaina šio dokumento rengimo dieną: 2,99 € už rinkinį. Jus saistanti kaina yra ta, kuri rodoma pirkimo metu.*
+*Kaina šio dokumento rengimo dieną: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € už rinkinį. Jus saistanti kaina yra ta, kuri rodoma pirkimo metu.*
 
 Nupirktas rinkinys yra **įgytas galutinai** ir susietas su jūsų paskyra. Jį rasite prisijungę kitame įrenginyje, o programėlės funkcija „Atkurti mano pirkinius“ leidžia prireikus jį susigrąžinti.
 
