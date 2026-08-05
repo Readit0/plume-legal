@@ -92,7 +92,7 @@ L'utilizzo del servizio ha un limite massimo, per tenere sotto controllo il cost
 
 **Sottoscrizione.** Gli abbonamenti si sottoscrivono dall'applicazione, tramite **Google Play**. I prezzi indicati sono in euro, IVA e imposte comprese per i consumatori dell'Unione europea. Google converte e mostra il prezzo applicabile nel suo Paese e nella sua valuta.
 
-*Tariffe alla data di redazione: 3,99 € al mese, oppure 29,99 € all'anno. Il prezzo che la vincola è quello indicato da Google Play al momento della sottoscrizione.*
+*Tariffe alla data di redazione: 6,99 € al mese, oppure 69,99 € all'anno. Il prezzo che la vincola è quello indicato da Google Play al momento della sottoscrizione.*
 
 **Rinnovo automatico.** **Il suo abbonamento si rinnova automaticamente** al termine di ogni periodo (mensile o annuale), alla tariffa allora in vigore, salvo disdetta da parte sua **almeno 24 ore prima** della fine del periodo in corso. Il rinnovo viene addebitato da Google sul suo mezzo di pagamento.
 
@@ -108,7 +108,7 @@ L'utilizzo del servizio ha un limite massimo, per tenere sotto controllo il cost
 
 Alcuni contenuti (pacchetti di persona, crediti di quota supplementari) sono venduti singolarmente, senza abbonamento.
 
-*Tariffa alla data di redazione: 2,99 € per pacchetto. Il prezzo che la vincola è quello indicato al momento dell'acquisto.*
+*Tariffa alla data di redazione: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € per pacchetto. Il prezzo che la vincola è quello indicato al momento dell'acquisto.*
 
 Un pacchetto acquistato è **acquisito definitivamente** e collegato al suo account. Lo ritrova accedendo nuovamente da un altro dispositivo, e la funzione «Ripristina gli acquisti» dell'applicazione le consente di recuperarlo se necessario.
 
