@@ -93,7 +93,7 @@ L'ús del servei té un límit, per controlar el cost del tractament.
 
 **Contractació.** Les subscripcions es contracten des de l'aplicació, mitjançant **Google Play**. Els preus que es mostren són en euros, amb tots els impostos inclosos per als consumidors de la Unió Europea. Google converteix i mostra el preu aplicable al seu país i en la seva moneda.
 
-*Tarifes en la data de redacció: 3,99 € al mes, o 29,99 € a l'any. El preu que l'obliga és el que mostra Google Play en el moment de la contractació.*
+*Tarifes en la data de redacció: 6,99 € al mes, o 69,99 € a l'any. El preu que l'obliga és el que mostra Google Play en el moment de la contractació.*
 
 **Renovació automàtica.** **La seva subscripció es renova automàticament** al final de cada període (mensual o anual), a la tarifa vigent en aquell moment, llevat que la cancel·li **com a mínim 24 hores abans** del final del període en curs. La renovació la cobra Google al seu mitjà de pagament.
 
@@ -109,7 +109,7 @@ L'ús del servei té un límit, per controlar el cost del tractament.
 
 Determinats continguts (paquets de personas, crèdits de quota addicionals) es venen per unitats, sense subscripció.
 
-*Tarifa en la data de redacció: 2,99 € per paquet. El preu que l'obliga és el que es mostra en el moment de la compra.*
+*Tarifa en la data de redacció: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € per paquet. El preu que l'obliga és el que es mostra en el moment de la compra.*
 
 Un paquet comprat s'**adquireix definitivament** i queda vinculat al seu compte. El retroba en tornar-se a connectar en un altre dispositiu, i la funció «Restaura les compres» de l'aplicació li permet recuperar-lo si cal.
 
