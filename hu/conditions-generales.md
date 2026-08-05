@@ -92,7 +92,7 @@ A szolgáltatás használata felső korláthoz kötött, a feldolgozás költsé
 
 **Megrendelés.** Az előfizetéseket az alkalmazásból, a **Google Play** útján lehet megkötni. A megjelenített árak euróban, az Európai Unió fogyasztói számára az összes adót tartalmazva értendők. A Google átváltja és megjeleníti az Ön országában és pénznemében alkalmazandó árat.
 
-*Árak a szöveg írásának időpontjában: havi 3,99 €, illetve évi 29,99 €. Az Önre kötelező ár az, amelyet a Google Play a megrendelés pillanatában megjelenít.*
+*Árak a szöveg írásának időpontjában: havi 6,99 €, illetve évi 69,99 €. Az Önre kötelező ár az, amelyet a Google Play a megrendelés pillanatában megjelenít.*
 
 **Automatikus megújulás.** **Az előfizetése minden időszak (havi vagy éves) végén automatikusan megújul**, az akkor hatályos díjszabás szerint, kivéve, ha Ön a folyamatban lévő időszak vége előtt **legalább 24 órával** felmondja. A megújítás díját a Google terheli az Ön fizetési eszközére.
 
@@ -108,7 +108,7 @@ A szolgáltatás használata felső korláthoz kötött, a feldolgozás költsé
 
 Bizonyos tartalmakat (persona-csomagok, további kvótakreditek) egyesével, előfizetés nélkül értékesítünk.
 
-*Ár a szöveg írásának időpontjában: csomagonként 2,99 €. Az Önre kötelező ár az, amelyet a vásárlás pillanatában jelenítünk meg.*
+*Ár a szöveg írásának időpontjában: csomagonként 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 €. Az Önre kötelező ár az, amelyet a vásárlás pillanatában jelenítünk meg.*
 
 A megvásárolt csomag **véglegesen megszerzett**, és a fiókjához kapcsolódik. Másik készüléken bejelentkezve is megtalálja, és az alkalmazás „Vásárlásaim visszaállítása” funkciója lehetővé teszi, hogy szükség esetén visszaszerezze.
 
