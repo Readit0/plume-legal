@@ -93,7 +93,7 @@ O uso do servizo ten un límite, para controlar o custo do tratamento.
 
 **Contratación.** As subscricións contrátanse desde a aplicación, mediante **Google Play**. Os prezos amosados son en euros, con todos os impostos incluídos para os consumidores da Unión Europea. Google converte e amosa o prezo aplicable no seu país e na súa moeda.
 
-*Tarifas na data de redacción: 3,99 € por mes, ou 29,99 € por ano. O prezo que o obriga é o amosado por Google Play no momento da contratación.*
+*Tarifas na data de redacción: 6,99 € por mes, ou 69,99 € por ano. O prezo que o obriga é o amosado por Google Play no momento da contratación.*
 
 **Renovación automática.** **A súa subscrición renóvase automaticamente** ao final de cada período (mensual ou anual), á tarifa entón en vigor, agás cancelación pola súa parte **polo menos 24 horas antes** do final do período en curso. A renovación cárgaa Google no seu medio de pagamento.
 
@@ -109,7 +109,7 @@ O uso do servizo ten un límite, para controlar o custo do tratamento.
 
 Determinados contidos (paquetes de personas, créditos de cota adicionais) véndense por unidades, sen subscrición.
 
-*Tarifa na data de redacción: 2,99 € por paquete. O prezo que o obriga é o amosado no momento da compra.*
+*Tarifa na data de redacción: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € por paquete. O prezo que o obriga é o amosado no momento da compra.*
 
 Un paquete comprado queda **adquirido definitivamente** e vinculado á súa conta. Recupérao ao conectarse de novo noutro dispositivo, e a función «Restaurar as compras» da aplicación permítelle recuperalo se cómpre.
 
