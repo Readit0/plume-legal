@@ -92,7 +92,7 @@ Mae terfyn ar y defnydd o'r gwasanaeth, er mwyn rheoli cost y prosesu.
 
 **Tanysgrifio.** Mae'r tanysgrifiadau'n cael eu prynu o'r ap, drwy **Google Play**. Mae'r prisiau a ddangosir mewn ewros, yn cynnwys pob treth ar gyfer defnyddwyr yn yr Undeb Ewropeaidd. Mae Google yn trosi ac yn dangos y pris sy'n berthnasol yn eich gwlad ac yn eich arian cyfred.
 
-*Prisiau ar ddyddiad ysgrifennu'r ddogfen hon: €3.99 y mis, neu €29.99 y flwyddyn. Y pris sy'n eich rhwymo yw'r un a ddangosir gan Google Play adeg tanysgrifio.*
+*Prisiau ar ddyddiad ysgrifennu'r ddogfen hon: €6.99 y mis, neu €69.99 y flwyddyn. Y pris sy'n eich rhwymo yw'r un a ddangosir gan Google Play adeg tanysgrifio.*
 
 **Adnewyddu awtomatig.** **Mae eich tanysgrifiad yn cael ei adnewyddu'n awtomatig** ar ddiwedd pob cyfnod (misol neu flynyddol), am y pris sydd mewn grym bryd hynny, oni bai eich bod yn canslo **o leiaf 24 awr cyn** diwedd y cyfnod cyfredol. Google sy'n codi tâl yr adnewyddiad ar eich dull talu.
 
@@ -108,7 +108,7 @@ Mae terfyn ar y defnydd o'r gwasanaeth, er mwyn rheoli cost y prosesu.
 
 Mae rhai cynhyrchion (pecynnau personas, credydau cwota ychwanegol) yn cael eu gwerthu fesul un, heb danysgrifiad.
 
-*Pris ar ddyddiad ysgrifennu'r ddogfen hon: €2.99 y pecyn. Y pris sy'n eich rhwymo yw'r un a ddangosir adeg prynu.*
+*Pris ar ddyddiad ysgrifennu'r ddogfen hon: €2.39 / €5.49 / €11.99 / €17.99 / €23.99 y pecyn. Y pris sy'n eich rhwymo yw'r un a ddangosir adeg prynu.*
 
 Mae pecyn a brynwyd **yn eiddo i chi'n barhaol** ac ynghlwm wrth eich cyfrif. Byddwch yn ei gael eto drwy fewngofnodi ar ddyfais arall, ac mae nodwedd 'Adfer fy mhryniannau' yr ap yn caniatáu i chi ei adennill os bydd angen.
 
