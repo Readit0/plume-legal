@@ -92,7 +92,7 @@ Korzystanie z usługi jest limitowane, aby zapanować nad kosztem przetwarzania.
 
 **Wykupienie.** Subskrypcje wykupuje się z poziomu aplikacji, przez **Google Play**. Wyświetlane ceny są podane w euro, ze wszystkimi podatkami, dla konsumentów z Unii Europejskiej. Google przelicza i wyświetla cenę obowiązującą w Twoim kraju i w Twojej walucie.
 
-*Ceny na dzień sporządzenia dokumentu: 3,99 € miesięcznie albo 29,99 € rocznie. Ceną, która Cię wiąże, jest cena wyświetlana przez Google Play w chwili wykupienia subskrypcji.*
+*Ceny na dzień sporządzenia dokumentu: 6,99 € miesięcznie albo 69,99 € rocznie. Ceną, która Cię wiąże, jest cena wyświetlana przez Google Play w chwili wykupienia subskrypcji.*
 
 **Automatyczne odnowienie.** **Twoja subskrypcja odnawia się automatycznie** na koniec każdego okresu (miesięcznego lub rocznego), według obowiązującej wówczas ceny, chyba że wypowiesz ją **co najmniej 24 godziny przed** końcem bieżącego okresu. Opłatę za odnowienie pobiera Google z Twojej metody płatności.
 
@@ -108,7 +108,7 @@ Korzystanie z usługi jest limitowane, aby zapanować nad kosztem przetwarzania.
 
 Niektóre treści (pakiety person, dodatkowe kredyty limitu) są sprzedawane jednorazowo, bez subskrypcji.
 
-*Cena na dzień sporządzenia dokumentu: 2,99 € za pakiet. Ceną, która Cię wiąże, jest cena wyświetlana w chwili zakupu.*
+*Cena na dzień sporządzenia dokumentu: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € za pakiet. Ceną, która Cię wiąże, jest cena wyświetlana w chwili zakupu.*
 
 Zakupiony pakiet jest **nabyty na stałe** i powiązany z Twoim kontem. Odnajdziesz go, logując się ponownie na innym urządzeniu, a funkcja „Przywróć moje zakupy” w aplikacji pozwala Ci go w razie potrzeby odzyskać.
 
