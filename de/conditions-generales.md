@@ -92,7 +92,7 @@ Die Nutzung des Dienstes ist begrenzt, um die Verarbeitungskosten zu beherrschen
 
 **Abschluss.** Abonnements werden aus der App heraus über **Google Play** abgeschlossen. Die angezeigten Preise verstehen sich in Euro, für Verbraucherinnen und Verbraucher in der Europäischen Union einschließlich aller Steuern. Google rechnet den in Ihrem Land und Ihrer Währung geltenden Preis um und zeigt ihn an.
 
-*Preise zum Zeitpunkt der Abfassung: 3,99 € pro Monat oder 29,99 € pro Jahr. Verbindlich ist für Sie der Preis, den Google Play beim Abschluss anzeigt.*
+*Preise zum Zeitpunkt der Abfassung: 6,99 € pro Monat oder 69,99 € pro Jahr. Verbindlich ist für Sie der Preis, den Google Play beim Abschluss anzeigt.*
 
 **Automatische Verlängerung.** **Ihr Abonnement verlängert sich automatisch** am Ende jedes Zeitraums (monatlich oder jährlich) zum dann geltenden Tarif, sofern Sie nicht **mindestens 24 Stunden vor** dem Ende des laufenden Zeitraums kündigen. Die Verlängerung wird von Google über Ihr Zahlungsmittel abgebucht.
 
@@ -108,7 +108,7 @@ Die Nutzung des Dienstes ist begrenzt, um die Verarbeitungskosten zu beherrschen
 
 Bestimmte Inhalte (Persona-Pakete, zusätzliche Kontingentguthaben) werden einzeln und ohne Abonnement verkauft.
 
-*Preis zum Zeitpunkt der Abfassung: 2,99 € pro Paket. Verbindlich ist für Sie der Preis, der beim Kauf angezeigt wird.*
+*Preis zum Zeitpunkt der Abfassung: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € pro Paket. Verbindlich ist für Sie der Preis, der beim Kauf angezeigt wird.*
 
 Ein gekauftes Paket ist **endgültig erworben** und an Ihr Konto gebunden. Sie finden es wieder, wenn Sie sich auf einem anderen Gerät anmelden, und die Funktion „Käufe wiederherstellen“ der App erlaubt Ihnen, es bei Bedarf zurückzuholen.
 
