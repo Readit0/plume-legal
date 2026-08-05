@@ -92,7 +92,7 @@ May takda ang paggamit ng serbisyo, upang makontrol ang gastos ng pagproseso.
 
 **Pag-subscribe.** Ang mga subscription ay kinukuha mula sa application, sa pamamagitan ng **Google Play**. Ang mga presyong ipinapakita ay nasa euro, kasama ang lahat ng buwis para sa mga consumer ng European Union. Kino-convert at ipinapakita ng Google ang presyong naaangkop sa inyong bansa at sa inyong pera.
 
-*Presyo sa petsa ng pagsulat nito: 3.99 € kada buwan, o 29.99 € kada taon. Ang presyong nagbubuklod sa inyo ay ang ipinapakita ng Google Play sa sandali ng pag-subscribe.*
+*Presyo sa petsa ng pagsulat nito: 6.99 € kada buwan, o 69.99 € kada taon. Ang presyong nagbubuklod sa inyo ay ang ipinapakita ng Google Play sa sandali ng pag-subscribe.*
 
 **Awtomatikong pag-renew.** **Awtomatikong nire-renew ang inyong subscription** sa katapusan ng bawat panahon (buwanan o taunan), sa presyong may bisa noon, maliban kung magwakas kayo **hindi bababa sa 24 oras bago** matapos ang kasalukuyang panahon. Ang pag-renew ay sinisingil ng Google sa inyong paraan ng pagbabayad.
 
@@ -108,7 +108,7 @@ May takda ang paggamit ng serbisyo, upang makontrol ang gastos ng pagproseso.
 
 May ilang nilalaman (mga pack ng persona, dagdag na quota credit) na ibinebenta nang isahan, walang subscription.
 
-*Presyo sa petsa ng pagsulat nito: 2.99 € kada pack. Ang presyong nagbubuklod sa inyo ay ang ipinapakita sa sandali ng pagbili.*
+*Presyo sa petsa ng pagsulat nito: 2.39 € / 5.49 € / 11.99 € / 17.99 € / 23.99 € kada pack. Ang presyong nagbubuklod sa inyo ay ang ipinapakita sa sandali ng pagbili.*
 
 Ang isang binili na pack ay **panghabambuhay na pag-aari** at nakaugnay sa inyong account. Matatagpuan ninyo itong muli kapag nag-log in kayo sa ibang device, at ang function na "Ibalik ang aking mga binili" ng application ay nagbibigay-daan sa inyong makuha itong muli kung kinakailangan.
 
