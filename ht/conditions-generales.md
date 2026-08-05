@@ -92,7 +92,7 @@ Gen yon limit sou itilizasyon sèvis la, pou kontwole depans tretman an.
 
 **Souskripsyon.** Ou souskri abònman yo depi nan aplikasyon an, atravè **Google Play**. Pri ki afiche yo an ero, tout taks konprann pou konsomatè Inyon Ewopeyen an. Google konvèti epi afiche pri ki aplikab nan peyi w ak nan lajan peyi w.
 
-*Tarif nan dat nou ekri dokiman sa a: 3,99 € pa mwa, oswa 29,99 € pa ane. Pri ki angaje w la se sa Google Play afiche nan moman souskripsyon an.*
+*Tarif nan dat nou ekri dokiman sa a: 6,99 € pa mwa, oswa 69,99 € pa ane. Pri ki angaje w la se sa Google Play afiche nan moman souskripsyon an.*
 
 **Renouvèlman otomatik.** **Abònman ou renouvle otomatikman** nan fen chak peryòd (chak mwa oswa chak ane), nan tarif ki an vigè lè sa a, sof si ou rezilye **omwen 24 èdtan anvan** fen peryòd ki an kou a. Se Google ki debite renouvèlman an sou mwayen peman w.
 
@@ -108,7 +108,7 @@ Gen yon limit sou itilizasyon sèvis la, pou kontwole depans tretman an.
 
 Gen kèk kontni (pak pèsona, kredi kota anplis) yo vann inite pa inite, san abònman.
 
-*Tarif nan dat nou ekri dokiman sa a: 2,99 € pa pak. Pri ki angaje w la se sa yo afiche nan moman acha a.*
+*Tarif nan dat nou ekri dokiman sa a: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € pa pak. Pri ki angaje w la se sa yo afiche nan moman acha a.*
 
 Yon pak ou achte se **pou tout tan** epi li mare ak kont ou. Ou jwenn li ankò lè w rekonekte sou yon lòt aparèy, epi fonksyon 'Retabli acha mwen yo' nan aplikasyon an pèmèt ou rekipere l si sa nesesè.
 
