@@ -92,7 +92,7 @@ Tá uasteorainn le húsáid na seirbhíse, chun costas na próiseála a rialú.
 
 **Suibscríobh.** Suibscríobhtar na síntiúis ón bhfeidhmchlár, trí **Google Play**. Tá na praghsanna a thaispeántar in euro, cáin san áireamh do thomhaltóirí an Aontais Eorpaigh. Tiontaíonn agus taispeánann Google an praghas is infheidhme i do thír agus i d'airgeadra.
 
-*Praghsanna ar dháta na scríbhneoireachta: 3,99 € sa mhí, nó 29,99 € sa bhliain. Is é an praghas a cheanglaíonn ort an ceann a thaispeánann Google Play tráth an tsuibscríofa.*
+*Praghsanna ar dháta na scríbhneoireachta: 6,99 € sa mhí, nó 69,99 € sa bhliain. Is é an praghas a cheanglaíonn ort an ceann a thaispeánann Google Play tráth an tsuibscríofa.*
 
 **Athnuachan uathoibríoch.** **Athnuaitear do shíntiús go huathoibríoch** ag deireadh gach tréimhse (míosúil nó bliantúil), ar an ráta atá i bhfeidhm ansin, mura gcealaíonn tú é **24 uair an chloig ar a laghad roimh** dheireadh na tréimhse reatha. Is é Google a bhaineann an athnuachan de do mhodh íocaíochta.
 
@@ -108,7 +108,7 @@ Tá uasteorainn le húsáid na seirbhíse, chun costas na próiseála a rialú.
 
 Díoltar ábhair áirithe (paicéid personaí, creidmheasanna cuóta breise) ina n-aonar, gan síntiús.
 
-*Praghas ar dháta na scríbhneoireachta: 2,99 € an paicéad. Is é an praghas a cheanglaíonn ort an ceann a thaispeántar tráth an cheannaigh.*
+*Praghas ar dháta na scríbhneoireachta: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € an paicéad. Is é an praghas a cheanglaíonn ort an ceann a thaispeántar tráth an cheannaigh.*
 
 Tá paicéad a cheannaítear **faighte go buan** agus ceangailte le do chuntas. Faigheann tú ar ais é trí logáil isteach ar ghléas eile, agus ligeann feidhm "Athchóirigh mo cheannacháin" an fheidhmchláir duit é a fháil ar ais más gá.
 
