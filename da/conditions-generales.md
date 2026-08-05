@@ -92,7 +92,7 @@ Brugen af tjenesten har et loft for at holde styr på omkostningerne ved behandl
 
 **Tegning.** Abonnementerne tegnes fra appen via **Google Play**. De viste priser er i euro, inklusive alle afgifter for forbrugere i Den Europæiske Union. Google omregner og viser den pris, der gælder i dit land og din valuta.
 
-*Priser på skrivetidspunktet: 3,99 € pr. måned eller 29,99 € pr. år. Den pris, der binder dig, er den, som Google Play viser på tegningstidspunktet.*
+*Priser på skrivetidspunktet: 6,99 € pr. måned eller 69,99 € pr. år. Den pris, der binder dig, er den, som Google Play viser på tegningstidspunktet.*
 
 **Automatisk fornyelse.** **Dit abonnement fornyes automatisk** ved udgangen af hver periode (måned eller år) til den pris, der da gælder, medmindre du opsiger det **mindst 24 timer inden** udgangen af den løbende periode. Fornyelsen trækkes af Google på dit betalingsmiddel.
 
@@ -108,7 +108,7 @@ Brugen af tjenesten har et loft for at holde styr på omkostningerne ved behandl
 
 Visse former for indhold (pakker med personaer, ekstra kvotekreditter) sælges enkeltvis uden abonnement.
 
-*Pris på skrivetidspunktet: 2,99 € pr. pakke. Den pris, der binder dig, er den, der vises på købstidspunktet.*
+*Pris på skrivetidspunktet: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € pr. pakke. Den pris, der binder dig, er den, der vises på købstidspunktet.*
 
 En købt pakke er **erhvervet endeligt** og knyttet til din konto. Du finder den igen ved at logge ind på en anden enhed, og appens funktion »Gendan mine køb« giver dig mulighed for at hente den tilbage om nødvendigt.
 
