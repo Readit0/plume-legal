@@ -92,7 +92,7 @@ Palvelun käytöllä on yläraja, jotta käsittelyn kustannukset pysyvät hallin
 
 **Tilaaminen.** Tilaukset tehdään sovelluksesta **Google Playn kautta**. Näytettävät hinnat ovat euroina ja sisältävät kaikki verot Euroopan unionin kuluttajille. Google muuntaa ja näyttää maassasi ja valuutassasi sovellettavan hinnan.
 
-*Hinnat tätä kirjoitettaessa: 3,99 € kuukaudessa tai 29,99 € vuodessa. Sinua sitova hinta on se, jonka Google Play näyttää tilaushetkellä.*
+*Hinnat tätä kirjoitettaessa: 6,99 € kuukaudessa tai 69,99 € vuodessa. Sinua sitova hinta on se, jonka Google Play näyttää tilaushetkellä.*
 
 **Automaattinen uusiutuminen.** **Tilauksesi uusiutuu automaattisesti** kunkin jakson (kuukausi tai vuosi) päättyessä kulloinkin voimassa olevaan hintaan, ellet irtisano sitä **vähintään 24 tuntia ennen** kuluvan jakson päättymistä. Google veloittaa uusimisen maksuvälineeltäsi.
 
@@ -108,7 +108,7 @@ Palvelun käytöllä on yläraja, jotta käsittelyn kustannukset pysyvät hallin
 
 Osa sisällöistä (persoonapaketit, kiintiön lisäkrediitit) myydään kappaleittain ilman tilausta.
 
-*Hinta tätä kirjoitettaessa: 2,99 € paketilta. Sinua sitova hinta on se, joka näytetään ostohetkellä.*
+*Hinta tätä kirjoitettaessa: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € paketilta. Sinua sitova hinta on se, joka näytetään ostohetkellä.*
 
 Ostettu paketti on **hankittu lopullisesti** ja liitetty tiliisi. Löydät sen uudelleen kirjautumalla toisella laitteella, ja sovelluksen toiminto ”Palauta ostokset” antaa sinun hakea sen tarvittaessa takaisin.
 
