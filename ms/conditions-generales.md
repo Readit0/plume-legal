@@ -92,7 +92,7 @@ Penggunaan perkhidmatan dihadkan, bagi mengawal kos pemprosesan.
 
 **Melanggan.** Langganan dibuat daripada aplikasi, melalui **Google Play**. Harga yang dipaparkan adalah dalam euro, termasuk semua cukai bagi pengguna Kesatuan Eropah. Google menukar dan memaparkan harga yang terpakai di negara dan mata wang anda.
 
-*Harga pada tarikh penulisan: 3.99 € sebulan, atau 29.99 € setahun. Harga yang mengikat anda ialah harga yang dipaparkan oleh Google Play pada masa melanggan.*
+*Harga pada tarikh penulisan: 6.99 € sebulan, atau 69.99 € setahun. Harga yang mengikat anda ialah harga yang dipaparkan oleh Google Play pada masa melanggan.*
 
 **Pembaharuan automatik.** **Langganan anda diperbaharui secara automatik** pada penghujung setiap tempoh (bulanan atau tahunan), pada harga yang berkuat kuasa ketika itu, kecuali anda menamatkannya **sekurang-kurangnya 24 jam sebelum** penghujung tempoh yang sedang berjalan. Pembaharuan itu didebitkan oleh Google daripada kaedah pembayaran anda.
 
@@ -108,7 +108,7 @@ Penggunaan perkhidmatan dihadkan, bagi mengawal kos pemprosesan.
 
 Sesetengah kandungan (pakej persona, kredit kuota tambahan) dijual seunit, tanpa langganan.
 
-*Harga pada tarikh penulisan: 2.99 € sepakej. Harga yang mengikat anda ialah harga yang dipaparkan pada masa pembelian.*
+*Harga pada tarikh penulisan: 2.39 € / 5.49 € / 11.99 € / 17.99 € / 23.99 € sepakej. Harga yang mengikat anda ialah harga yang dipaparkan pada masa pembelian.*
 
 Sesuatu pakej yang dibeli **dimiliki secara kekal** dan dikaitkan dengan akaun anda. Anda menemuinya semula apabila log masuk pada peranti lain, dan fungsi "Pulihkan pembelian saya" dalam aplikasi membolehkan anda mendapatkannya semula jika perlu.
 
