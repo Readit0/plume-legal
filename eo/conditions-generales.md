@@ -93,7 +93,7 @@ La uzo de la servo estas limigita, por regi la koston de la prilaborado.
 
 **Mendo.** La abonoj estas mendataj el la aplikaĵo, per **Google Play**. La montrataj prezoj estas en eŭroj, kun ĉiuj impostoj inkluzivitaj por la konsumantoj de la Eŭropa Unio. Google konvertas kaj montras la prezon aplikeblan en via lando kaj en via valuto.
 
-*Tarifoj je la dato de redaktado: 3,99 € monate, aŭ 29,99 € jare. La prezo, kiu ligas vin, estas tiu montrata de Google Play je la momento de la mendo.*
+*Tarifoj je la dato de redaktado: 6,99 € monate, aŭ 69,99 € jare. La prezo, kiu ligas vin, estas tiu montrata de Google Play je la momento de la mendo.*
 
 **Aŭtomata renovigo.** **Via abono renoviĝas aŭtomate** je la fino de ĉiu periodo (monata aŭ jara), laŭ la tiam valida tarifo, krom se vi nuligas ĝin **almenaŭ 24 horojn antaŭ** la fino de la kuranta periodo. La renovigon debetas Google el via pagorimedo.
 
@@ -109,7 +109,7 @@ La uzo de la servo estas limigita, por regi la koston de la prilaborado.
 
 Iuj enhavoj (pakoj da roluloj, kromaj kvotokreditoj) estas venditaj unuope, sen abono.
 
-*Tarifo je la dato de redaktado: 2,99 € por pako. La prezo, kiu ligas vin, estas tiu montrata je la momento de la aĉeto.*
+*Tarifo je la dato de redaktado: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € por pako. La prezo, kiu ligas vin, estas tiu montrata je la momento de la aĉeto.*
 
 Aĉetita pako estas **akirita definitive** kaj ligita al via konto. Vi retrovas ĝin rekonektiĝante sur alia aparato, kaj la funkcio «Restarigi miajn aĉetojn» de la aplikaĵo ebligas al vi reakiri ĝin se necese.
 
