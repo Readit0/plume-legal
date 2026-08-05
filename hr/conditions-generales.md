@@ -92,7 +92,7 @@ Korištenje usluge je ograničeno, radi nadzora troška obrade.
 
 **Ugovaranje.** Pretplate se ugovaraju iz aplikacije, putem **Google Playa**. Prikazane cijene izražene su u eurima, s uključenim svim porezima za potrošače iz Europske unije. Google pretvara i prikazuje cijenu koja se primjenjuje u vašoj zemlji i vašoj valuti.
 
-*Cijene na dan pisanja: 3,99 € mjesečno ili 29,99 € godišnje. Cijena koja vas obvezuje jest ona koju Google Play prikazuje u trenutku ugovaranja.*
+*Cijene na dan pisanja: 6,99 € mjesečno ili 69,99 € godišnje. Cijena koja vas obvezuje jest ona koju Google Play prikazuje u trenutku ugovaranja.*
 
 **Automatsko produljenje.** **Vaša se pretplata automatski produljuje** na kraju svakog razdoblja (mjesečnog ili godišnjeg), po tada važećoj cijeni, osim ako je raskinete **najmanje 24 sata prije** kraja tekućeg razdoblja. Produljenje naplaćuje Google s vašeg sredstva plaćanja.
 
@@ -108,7 +108,7 @@ Korištenje usluge je ograničeno, radi nadzora troška obrade.
 
 Određeni sadržaji (paketi persona, dodatni krediti kvote) prodaju se pojedinačno, bez pretplate.
 
-*Cijena na dan pisanja: 2,99 € po paketu. Cijena koja vas obvezuje jest ona prikazana u trenutku kupnje.*
+*Cijena na dan pisanja: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € po paketu. Cijena koja vas obvezuje jest ona prikazana u trenutku kupnje.*
 
 Kupljeni paket **stječe se trajno** i vezan je uz vaš račun. Pronaći ćete ga ponovnom prijavom na drugom uređaju, a funkcija „Vrati moje kupnje“ u aplikaciji omogućuje vam da ga po potrebi vratite.
 
