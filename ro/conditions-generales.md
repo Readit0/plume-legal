@@ -92,7 +92,7 @@ Utilizarea serviciului este plafonată, pentru a menține sub control costul pre
 
 **Subscrierea.** Abonamentele se contractează din aplicație, prin **Google Play**. Prețurile afișate sunt în euro, cu toate taxele incluse pentru consumatorii din Uniunea Europeană. Google convertește și afișează prețul aplicabil în țara și în moneda dumneavoastră.
 
-*Tarife la data redactării: 3,99 € pe lună sau 29,99 € pe an. Prețul care vă angajează este cel afișat de Google Play în momentul subscrierii.*
+*Tarife la data redactării: 6,99 € pe lună sau 69,99 € pe an. Prețul care vă angajează este cel afișat de Google Play în momentul subscrierii.*
 
 **Reînnoirea automată.** **Abonamentul dumneavoastră se reînnoiește automat** la sfârșitul fiecărei perioade (lunară sau anuală), la tariful în vigoare la acel moment, cu excepția rezilierii din partea dumneavoastră **cu cel puțin 24 de ore înainte** de sfârșitul perioadei în curs. Reînnoirea este debitată de Google de pe mijlocul dumneavoastră de plată.
 
@@ -108,7 +108,7 @@ Utilizarea serviciului este plafonată, pentru a menține sub control costul pre
 
 Anumite conținuturi (pachete de persone, credite suplimentare de cotă) sunt vândute unitar, fără abonament.
 
-*Tarif la data redactării: 2,99 € pe pachet. Prețul care vă angajează este cel afișat în momentul achiziției.*
+*Tarif la data redactării: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € pe pachet. Prețul care vă angajează este cel afișat în momentul achiziției.*
 
 Un pachet achiziționat este **dobândit definitiv** și asociat contului dumneavoastră. Îl regăsiți reconectându-vă pe un alt dispozitiv, iar funcția „Restaurați achizițiile mele” din aplicație vă permite să îl recuperați dacă este necesar.
 
