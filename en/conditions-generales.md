@@ -92,7 +92,7 @@ Use of the service is capped, in order to keep the cost of processing under cont
 
 **Subscribing.** Subscriptions are taken out from within the application, via **Google Play**. The prices displayed are in euros, inclusive of all taxes for consumers in the European Union. Google converts and displays the price applicable in your country and your currency.
 
-*Prices at the time of writing: €3.99 per month, or €29.99 per year. The price that binds you is the one displayed by Google Play at the time of subscribing.*
+*Prices at the time of writing: €6.99 per month, or €69.99 per year. The price that binds you is the one displayed by Google Play at the time of subscribing.*
 
 **Automatic renewal.** **Your subscription renews automatically** at the end of each period (monthly or yearly), at the rate then in force, unless you cancel **at least 24 hours before** the end of the current period. The renewal is charged by Google to your payment method.
 
@@ -108,7 +108,7 @@ Use of the service is capped, in order to keep the cost of processing under cont
 
 Certain content (persona packs, additional quota credits) is sold on a one-off basis, without a subscription.
 
-*Price at the time of writing: €2.99 per pack. The price that binds you is the one displayed at the time of purchase.*
+*Price at the time of writing: €2.39 / €5.49 / €11.99 / €17.99 / €23.99 per pack. The price that binds you is the one displayed at the time of purchase.*
 
 A purchased pack is **acquired permanently** and attached to your account. You find it again by signing in on another device, and the application's "Restore purchases" feature lets you recover it if necessary.
 
