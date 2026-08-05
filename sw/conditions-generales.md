@@ -92,7 +92,7 @@ Matumizi ya huduma yamewekewa kikomo, ili kudhibiti gharama ya uchakataji.
 
 **Kujisajili.** Usajili unafanyika kutoka ndani ya programu, kupitia **Google Play**. Bei zinazoonyeshwa ni kwa yuro, zikijumuisha kodi zote kwa walaji wa Umoja wa Ulaya. Google hubadilisha na kuonyesha bei inayotumika katika nchi yako na sarafu yako.
 
-*Bei hadi tarehe ya kuandikwa: 3.99 € kwa mwezi, au 29.99 € kwa mwaka. Bei inayokufunga ni ile inayoonyeshwa na Google Play wakati wa kujisajili.*
+*Bei hadi tarehe ya kuandikwa: 6.99 € kwa mwezi, au 69.99 € kwa mwaka. Bei inayokufunga ni ile inayoonyeshwa na Google Play wakati wa kujisajili.*
 
 **Uhuishaji otomatiki.** **Usajili wako hujihuisha wenyewe** mwishoni mwa kila kipindi (cha mwezi au cha mwaka), kwa bei inayotumika wakati huo, isipokuwa ukiusitisha **angalau saa 24 kabla** ya mwisho wa kipindi kinachoendelea. Uhuishaji hutozwa na Google kwenye njia yako ya malipo.
 
@@ -108,7 +108,7 @@ Matumizi ya huduma yamewekewa kikomo, ili kudhibiti gharama ya uchakataji.
 
 Baadhi ya maudhui (vifurushi vya persona, mikopo ya kiwango cha ziada) huuzwa kipande kimoja kimoja, bila usajili.
 
-*Bei hadi tarehe ya kuandikwa: 2.99 € kwa kifurushi. Bei inayokufunga ni ile inayoonyeshwa wakati wa ununuzi.*
+*Bei hadi tarehe ya kuandikwa: 2.39 € / 5.49 € / 11.99 € / 17.99 € / 23.99 € kwa kifurushi. Bei inayokufunga ni ile inayoonyeshwa wakati wa ununuzi.*
 
 Kifurushi kilichonunuliwa ni **chako milele** na kimeunganishwa na akaunti yako. Unakikuta tena unapoingia kwenye kifaa kingine, na kipengele cha "Rejesha ununuzi wangu" cha programu kinakuwezesha kukirudisha ikiwa ni lazima.
 
