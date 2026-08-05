@@ -92,7 +92,7 @@ Việc sử dụng dịch vụ bị giới hạn trần, nhằm kiểm soát chi
 
 **Đăng ký.** Các gói đăng ký được mua từ trong ứng dụng, qua **Google Play**. Giá hiển thị bằng euro, đã bao gồm mọi loại thuế đối với người tiêu dùng thuộc Liên minh châu Âu. Google quy đổi và hiển thị mức giá áp dụng tại quốc gia và bằng đơn vị tiền tệ của bạn.
 
-*Giá vào thời điểm soạn thảo: 3,99 € mỗi tháng, hoặc 29,99 € mỗi năm. Mức giá ràng buộc bạn là mức giá do Google Play hiển thị tại thời điểm đăng ký.*
+*Giá vào thời điểm soạn thảo: 6,99 € mỗi tháng, hoặc 69,99 € mỗi năm. Mức giá ràng buộc bạn là mức giá do Google Play hiển thị tại thời điểm đăng ký.*
 
 **Tự động gia hạn.** **Gói đăng ký của bạn tự động gia hạn** vào cuối mỗi kỳ (theo tháng hoặc theo năm), theo mức giá có hiệu lực khi đó, trừ khi bạn hủy **ít nhất 24 giờ trước** khi kết thúc kỳ đang chạy. Việc gia hạn được Google ghi nợ vào phương thức thanh toán của bạn.
 
@@ -108,7 +108,7 @@ Việc sử dụng dịch vụ bị giới hạn trần, nhằm kiểm soát chi
 
 Một số nội dung (gói persona, tín dụng hạn mức bổ sung) được bán lẻ, không kèm gói đăng ký.
 
-*Giá vào thời điểm soạn thảo: 2,99 € mỗi gói. Mức giá ràng buộc bạn là mức giá hiển thị tại thời điểm mua.*
+*Giá vào thời điểm soạn thảo: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € mỗi gói. Mức giá ràng buộc bạn là mức giá hiển thị tại thời điểm mua.*
 
 Một gói đã mua là **thuộc về bạn vĩnh viễn** và gắn với tài khoản của bạn. Bạn tìm lại được nó khi đăng nhập trên một thiết bị khác, và chức năng "Khôi phục giao dịch mua" của ứng dụng cho phép bạn lấy lại nó nếu cần.
 
