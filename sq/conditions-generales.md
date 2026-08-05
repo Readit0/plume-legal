@@ -92,7 +92,7 @@ Përdorimi i shërbimit është i kufizuar, për të kontrolluar koston e përpu
 
 **Nënshkrimi.** Abonimet nënshkruhen nga aplikacioni, përmes **Google Play**. Çmimet e shfaqura janë në euro, me të gjitha taksat e përfshira për konsumatorët e Bashkimit Evropian. Google e konverton dhe e shfaq çmimin e zbatueshëm në vendin tuaj dhe në monedhën tuaj.
 
-*Tarifat në datën e hartimit: 3,99 € në muaj, ose 29,99 € në vit. Çmimi që ju detyron është ai i shfaqur nga Google Play në çastin e nënshkrimit.*
+*Tarifat në datën e hartimit: 6,99 € në muaj, ose 69,99 € në vit. Çmimi që ju detyron është ai i shfaqur nga Google Play në çastin e nënshkrimit.*
 
 **Rinovimi automatik.** **Abonimi juaj rinovohet automatikisht** në fund të çdo periudhe (mujore ose vjetore), me tarifën në fuqi atëherë, përveç rastit kur e anuloni **të paktën 24 orë para** përfundimit të periudhës në vazhdim. Rinovimi debitohet nga Google në mjetin tuaj të pagesës.
 
@@ -108,7 +108,7 @@ Përdorimi i shërbimit është i kufizuar, për të kontrolluar koston e përpu
 
 Disa përmbajtje (paketa personash, kredite kuote shtesë) shiten me copë, pa abonim.
 
-*Tarifa në datën e hartimit: 2,99 € për paketë. Çmimi që ju detyron është ai i shfaqur në çastin e blerjes.*
+*Tarifa në datën e hartimit: 2,39 € / 5,49 € / 11,99 € / 17,99 € / 23,99 € për paketë. Çmimi që ju detyron është ai i shfaqur në çastin e blerjes.*
 
 Një paketë e blerë **fitohet përfundimisht** dhe lidhet me llogarinë tuaj. Ju e gjeni sërish duke u rilidhur në një pajisje tjetër, dhe funksioni «Restauro blerjet e mia» i aplikacionit ju lejon ta rimerrni nëse është e nevojshme.
 
