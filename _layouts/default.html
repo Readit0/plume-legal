@@ -1,5 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+<!--
+  [10/08/2026] `dir` AJOUTÉ. Sans lui, les pages arabe, persane, hébraïque et
+  ourdoue étaient rendues de gauche à droite : visible sur la capture du
+  fondateur, où l'adresse postale et l'e-mail se mêlaient au texte arabe
+  (« …18100 Vierzon, France جهة الاتصال: »). Le sens de lecture est porté par le
+  dossier de langue (bloc `defaults` de _config.yml), comme `lang` et
+  `description`. Défaut « ltr » : une langue sans réglage garde EXACTEMENT le
+  rendu qu'elle avait.
+-->
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}" dir="{{ page.dir | default: "ltr" }}">
   <head>
     <meta charset="UTF-8">
 

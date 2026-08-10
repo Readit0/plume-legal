@@ -2,3 +2,259 @@ title: Plume — Informations légales
 description: Politique de confidentialité, conditions générales et suppression de compte de l'application Plume.
 theme: jekyll-theme-cayman
 lang: fr
+
+# ── LE BANDEAU PARLE LA LANGUE DE LA PAGE ───────────────────────────────
+#
+# GitHub Pages DÉDUIT le titre de la première ligne « # » du fichier, donc il
+# était déjà traduit. La DESCRIPTION, elle, n'est jamais déduite : le gabarit
+# retombait sur celle du site et affichait du français sur les 59 autres
+# langues, sur les trois pages de chacune (constat du fondateur, capture à
+# l'appui, 10/08/2026).
+#
+# Deux défauts de la même racine sont corrigés ici : `lang` valait « fr »
+# partout — un lecteur d'écran annonçait donc l'arabe en français — et aucune
+# page n'était marquée RTL, d'où les adresses et e-mails désordonnés.
+#
+# Porté par le DOSSIER : aucune des ~180 pages n'a besoin d'en-tête, et une
+# langue ajoutée demain ne demandera qu'une entrée ici.
+defaults:
+  - scope: { path: "af" }
+    values:
+      lang: "af"
+      description: "Privaatheidsbeleid, algemene voorwaardes en rekeningskrapping vir die Plume-toepassing."
+  - scope: { path: "ar" }
+    values:
+      lang: "ar"
+      description: "سياسة الخصوصية والشروط العامة وحذف الحساب لتطبيق Plume."
+      dir: "rtl"
+  - scope: { path: "be" }
+    values:
+      lang: "be"
+      description: "Палітыка прыватнасці, агульныя ўмовы і выдаленне ўліковага запісу праграмы Plume."
+  - scope: { path: "bg" }
+    values:
+      lang: "bg"
+      description: "Политика за поверителност, общи условия и изтриване на акаунт за приложението Plume."
+  - scope: { path: "bn" }
+    values:
+      lang: "bn"
+      description: "Plume অ্যাপের গোপনীয়তা নীতি, সাধারণ শর্তাবলী এবং অ্যাকাউন্ট মুছে ফেলা।"
+  - scope: { path: "ca" }
+    values:
+      lang: "ca"
+      description: "Política de privadesa, condicions generals i supressió del compte de l'aplicació Plume."
+  - scope: { path: "cs" }
+    values:
+      lang: "cs"
+      description: "Zásady ochrany osobních údajů, obchodní podmínky a smazání účtu aplikace Plume."
+  - scope: { path: "cy" }
+    values:
+      lang: "cy"
+      description: "Polisi preifatrwydd, telerau cyffredinol a dileu cyfrif ar gyfer yr ap Plume."
+  - scope: { path: "da" }
+    values:
+      lang: "da"
+      description: "Privatlivspolitik, generelle betingelser og sletning af konto for Plume-appen."
+  - scope: { path: "de" }
+    values:
+      lang: "de"
+      description: "Datenschutzerklärung, allgemeine Geschäftsbedingungen und Kontolöschung der Plume-App."
+  - scope: { path: "el" }
+    values:
+      lang: "el"
+      description: "Πολιτική απορρήτου, γενικοί όροι και διαγραφή λογαριασμού της εφαρμογής Plume."
+  - scope: { path: "en" }
+    values:
+      lang: "en"
+      description: "Privacy policy, terms and conditions, and account deletion for the Plume app."
+  - scope: { path: "eo" }
+    values:
+      lang: "eo"
+      description: "Privateca politiko, ĝeneralaj kondiĉoj kaj konto-forigo por la aplikaĵo Plume."
+  - scope: { path: "es" }
+    values:
+      lang: "es"
+      description: "Política de privacidad, condiciones generales y eliminación de cuenta de la aplicación Plume."
+  - scope: { path: "et" }
+    values:
+      lang: "et"
+      description: "Plume'i rakenduse privaatsuspoliitika, üldtingimused ja konto kustutamine."
+  - scope: { path: "fa" }
+    values:
+      lang: "fa"
+      description: "سیاست حریم خصوصی، شرایط عمومی و حذف حساب برنامهٔ Plume."
+      dir: "rtl"
+  - scope: { path: "fi" }
+    values:
+      lang: "fi"
+      description: "Plume-sovelluksen tietosuojakäytäntö, yleiset ehdot ja tilin poistaminen."
+  - scope: { path: "ga" }
+    values:
+      lang: "ga"
+      description: "Polasaí príobháideachais, téarmaí ginearálta agus scriosadh cuntais d'aip Plume."
+  - scope: { path: "gl" }
+    values:
+      lang: "gl"
+      description: "Política de privacidade, condicións xerais e eliminación de conta da aplicación Plume."
+  - scope: { path: "gu" }
+    values:
+      lang: "gu"
+      description: "Plume ઍપ માટે ગોપનીયતા નીતિ, સામાન્ય શરતો અને ખાતું કાઢી નાખવું."
+  - scope: { path: "he" }
+    values:
+      lang: "he"
+      description: "מדיניות פרטיות, תנאים כלליים ומחיקת חשבון של אפליקציית Plume."
+      dir: "rtl"
+  - scope: { path: "hi" }
+    values:
+      lang: "hi"
+      description: "Plume ऐप की गोपनीयता नीति, सामान्य शर्तें और खाता हटाना।"
+  - scope: { path: "hr" }
+    values:
+      lang: "hr"
+      description: "Pravila o privatnosti, opći uvjeti i brisanje računa za aplikaciju Plume."
+  - scope: { path: "ht" }
+    values:
+      lang: "ht"
+      description: "Politik konfidansyalite, kondisyon jeneral ak efase kont pou aplikasyon Plume."
+  - scope: { path: "hu" }
+    values:
+      lang: "hu"
+      description: "A Plume alkalmazás adatvédelmi szabályzata, általános feltételei és fióktörlése."
+  - scope: { path: "id" }
+    values:
+      lang: "id"
+      description: "Kebijakan privasi, syarat dan ketentuan, serta penghapusan akun aplikasi Plume."
+  - scope: { path: "is" }
+    values:
+      lang: "is"
+      description: "Persónuverndarstefna, almennir skilmálar og eyðing reiknings fyrir Plume-appið."
+  - scope: { path: "it" }
+    values:
+      lang: "it"
+      description: "Informativa sulla privacy, condizioni generali ed eliminazione dell'account dell'app Plume."
+  - scope: { path: "ja" }
+    values:
+      lang: "ja"
+      description: "Plume アプリのプライバシーポリシー、利用規約、アカウント削除について。"
+  - scope: { path: "ka" }
+    values:
+      lang: "ka"
+      description: "Plume-ის აპლიკაციის კონფიდენციალურობის პოლიტიკა, ზოგადი პირობები და ანგარიშის წაშლა."
+  - scope: { path: "kn" }
+    values:
+      lang: "kn"
+      description: "Plume ಆ್ಯಪ್‌ನ ಗೌಪ್ಯತಾ ನೀತಿ, ಸಾಮಾನ್ಯ ನಿಯಮಗಳು ಮತ್ತು ಖಾತೆ ಅಳಿಸುವಿಕೆ."
+  - scope: { path: "ko" }
+    values:
+      lang: "ko"
+      description: "Plume 앱의 개인정보 처리방침, 이용약관 및 계정 삭제 안내."
+  - scope: { path: "lt" }
+    values:
+      lang: "lt"
+      description: "Plume programėlės privatumo politika, bendrosios sąlygos ir paskyros ištrynimas."
+  - scope: { path: "lv" }
+    values:
+      lang: "lv"
+      description: "Plume lietotnes privātuma politika, vispārīgie noteikumi un konta dzēšana."
+  - scope: { path: "mk" }
+    values:
+      lang: "mk"
+      description: "Политика за приватност, општи услови и бришење сметка за апликацијата Plume."
+  - scope: { path: "mr" }
+    values:
+      lang: "mr"
+      description: "Plume अ‍ॅपचे गोपनीयता धोरण, सर्वसाधारण अटी आणि खाते हटवणे."
+  - scope: { path: "ms" }
+    values:
+      lang: "ms"
+      description: "Dasar privasi, terma dan syarat, serta pemadaman akaun untuk aplikasi Plume."
+  - scope: { path: "mt" }
+    values:
+      lang: "mt"
+      description: "Politika ta' privatezza, termini ġenerali u tħassir tal-kont għall-app Plume."
+  - scope: { path: "nl" }
+    values:
+      lang: "nl"
+      description: "Privacybeleid, algemene voorwaarden en accountverwijdering van de Plume-app."
+  - scope: { path: "no" }
+    values:
+      lang: "no"
+      description: "Personvernerklæring, generelle vilkår og sletting av konto for Plume-appen."
+  - scope: { path: "pa" }
+    values:
+      lang: "pa"
+      description: "Plume ਐਪ ਲਈ ਪਰਦੇਦਾਰੀ ਨੀਤੀ, ਆਮ ਸ਼ਰਤਾਂ ਅਤੇ ਖਾਤਾ ਮਿਟਾਉਣਾ।"
+  - scope: { path: "pl" }
+    values:
+      lang: "pl"
+      description: "Polityka prywatności, ogólne warunki i usuwanie konta aplikacji Plume."
+  - scope: { path: "pt" }
+    values:
+      lang: "pt"
+      description: "Política de privacidade, condições gerais e eliminação de conta da aplicação Plume."
+  - scope: { path: "ro" }
+    values:
+      lang: "ro"
+      description: "Politica de confidențialitate, condițiile generale și ștergerea contului aplicației Plume."
+  - scope: { path: "ru" }
+    values:
+      lang: "ru"
+      description: "Политика конфиденциальности, общие условия и удаление аккаунта приложения Plume."
+  - scope: { path: "sk" }
+    values:
+      lang: "sk"
+      description: "Zásady ochrany osobných údajov, všeobecné podmienky a zmazanie účtu aplikácie Plume."
+  - scope: { path: "sl" }
+    values:
+      lang: "sl"
+      description: "Pravilnik o zasebnosti, splošni pogoji in izbris računa za aplikacijo Plume."
+  - scope: { path: "sq" }
+    values:
+      lang: "sq"
+      description: "Politika e privatësisë, kushtet e përgjithshme dhe fshirja e llogarisë për aplikacionin Plume."
+  - scope: { path: "sv" }
+    values:
+      lang: "sv"
+      description: "Integritetspolicy, allmänna villkor och radering av konto för Plume-appen."
+  - scope: { path: "sw" }
+    values:
+      lang: "sw"
+      description: "Sera ya faragha, masharti ya jumla na kufuta akaunti kwa programu ya Plume."
+  - scope: { path: "ta" }
+    values:
+      lang: "ta"
+      description: "Plume செயலியின் தனியுரிமைக் கொள்கை, பொது விதிமுறைகள் மற்றும் கணக்கு நீக்கம்."
+  - scope: { path: "te" }
+    values:
+      lang: "te"
+      description: "Plume యాప్ గోప్యతా విధానం, సాధారణ నిబంధనలు మరియు ఖాతా తొలగింపు."
+  - scope: { path: "th" }
+    values:
+      lang: "th"
+      description: "นโยบายความเป็นส่วนตัว ข้อกำหนดทั่วไป และการลบบัญชีของแอป Plume"
+  - scope: { path: "tl" }
+    values:
+      lang: "tl"
+      description: "Patakaran sa privacy, pangkalahatang tuntunin, at pagbura ng account para sa app na Plume."
+  - scope: { path: "tr" }
+    values:
+      lang: "tr"
+      description: "Plume uygulamasının gizlilik politikası, genel koşulları ve hesap silme bilgileri."
+  - scope: { path: "uk" }
+    values:
+      lang: "uk"
+      description: "Політика конфіденційності, загальні умови та видалення облікового запису застосунку Plume."
+  - scope: { path: "ur" }
+    values:
+      lang: "ur"
+      description: "Plume ایپ کی رازداری کی پالیسی، عمومی شرائط اور اکاؤنٹ حذف کرنا۔"
+      dir: "rtl"
+  - scope: { path: "vi" }
+    values:
+      lang: "vi"
+      description: "Chính sách quyền riêng tư, điều khoản chung và xóa tài khoản của ứng dụng Plume."
+  - scope: { path: "zh" }
+    values:
+      lang: "zh"
+      description: "Plume 应用的隐私政策、通用条款和账号删除说明。"
