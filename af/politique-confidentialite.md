@@ -1,6 +1,8 @@
 # Plume se privaatheidsbeleid
 
-**Laas bygewerk: 31 Julie 2026** — Weergawe 1.0
+**Laas bygewerk: 12 September 2026** — Weergawe 2.0
+
+> *Wat verander het sedert weergawe 1.0, en waarom jy dalk die toestemmingskerm weer in die app sien:* ons stel twee bewerings reg wat nie meer korrek was nie. Eerstens bewaar die **persoonlike tale**-funksie op ons bedieners die inhoud wat jy skep (naam, alfabet, leksikon) — weergawe 1.0 het verkeerdelik beweer dat geen teks gestoor word nie. Tweedens gebruik ons nou 'n **tegniese ineenstortingsverslag**-hulpmiddel (Sentry) — weergawe 1.0 het beweer dat geen sodanige hulpmiddel bestaan nie. Die besonderhede van hierdie twee punte is by "In een minuut" hieronder, sowel as by §3 en §9. Dit is presies die twee kategorieë verandering wat, in die app, 'n nuwe toestemmingsversoek ontketen (sien §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume help jou om te skryf: dit herformuleer jou teks direk in die app waarin jy
 
 Drie dinge om te onthou:
 
-1. **Plume bewaar geen van jou tekste op sy bedieners nie.** Nie jou herformuleerde tekste nie, en ook nie die teks wat van die skerm gelees word nie. Ons hou nóg 'n kopie nóg 'n logboek daarvan.
+1. **Plume bewaar nie die tekste wat jy herformuleer nie, en ook nie die teks wat op die skerm gelees word nie.** Ons hou nóg 'n kopie nóg 'n logboek daarvan. **Bewuste, doelbewuste uitsondering:** as jy 'n **persoonlike taal** skep (jou eie saamgestelde taal, met sy leksikon van woorde en hulle definisies), word die inhoud van daardie taal wél op ons bedieners bewaar — dit is die enigste manier om jou toe te laat om dit op 'n ander toestel terug te vind, dit te laat ontwikkel en dit te deel. Die besonderhede is by §3.
 2. **Na gelang van die enjin wat jy kies, verlaat jou teks jou foon — of nie.** Twee enjins (die plaaslike stel en die plaaslike KI) werk heeltemal op die toestel. Die derde (die wolk-KI) stuur die teks na 'n diens vir kunsmatige intelligensie **wat buite die Europese Unie geleë is**. Jy kies, en die wolk-KI word nooit sonder jou uitdruklike toestemming geaktiveer nie.
 3. **Plume het kragtige toestemmings nodig** (om die inhoud te lees wat in ander programme vertoon word, en om die skerm op te neem). Hieronder verduidelik ons presies waarvoor hulle dien en waarvoor hulle nie dien nie.
 
@@ -91,7 +93,7 @@ Die teks wat gestuur word, het 'n boonste grens: 1 200 karakters vir 'n herformu
 
 ## 3. Die data wat ons bewaar
 
-Ons gebruik **geen hulpmiddel vir gehoorontleding, geen advertensiespoorder van 'n derde party en geen hulpmiddel vir ineenstortingsverslae nie**. Die app bevat geen meet-SDK nie.
+Ons gebruik **geen hulpmiddel vir gehoorontleding en geen advertensiespoorder van 'n derde party nie**, buiten die advertensies wat in §5 beskryf word. **Ons gebruik 'n hulpmiddel vir tegniese ineenstortingsverslae** (Sentry): dit sien slegs programfoute (foutsoort, tegniese oproepstapel, app-weergawe, bedryfstelsel), nooit jou gebruik of jou trajek nie, en nooit die teks wat jy skryf nie — 'n toegewyde filter verbied dit voor enige versending. Die besonderhede is by §9.
 
 Hier is alles wat op ons bedieners gestoor word:
 
@@ -104,6 +106,8 @@ Hier is alles wat op ons bedieners gestoor word:
 | **Voorstelle wat vrywillig gestuur is** (as jy vir ons 'n persona-voorstel uit die app skryf) | Om die katalogus te verbeter. Hierdie voorstelle word nooit gepubliseer nie. | Tot jou rekening geskrap word |
 | **Tegniese seine van misbruik** (herhaalde oorskrydings, mislukte integriteitskontrole — sonder enige teks) | Sekuriteit, bestryding van bedrog | Word van jou identiteit losgemaak wanneer die rekening geskrap word |
 | **Taal en weergawe van die app** | Om die regte inhoud te lewer | Tot jou rekening geskrap word |
+| **Die inhoud van die persoonlike tale wat jy skep** (sy naam, sy alfabet, en sy leksikon — die woorde en die definisies wat jy, of ander mense, daarin geskryf het) | Om jou toe te laat om jou taal op 'n ander toestel terug te vind, dit te laat ontwikkel, en dit met ander gebruikers te deel | Solank die taal bestaan. As jy dit skrap, verdwyn sy profiel — maar 'n kopie wat reeds **deur iemand anders ingevoer is**, behoort voortaan aan daardie persoon en **oorleef**, soos 'n boodskap wat reeds deur 'n derde party ontvang is wat ons nie by hulle kan gaan uitvee nie |
+| **Tegniese ineenstortingsverslae** (foutsoort, verkorte tegniese oproepstapel, app-weergawe, bedryfstelsel — nooit teksinhoud nie) | Om die app se ineenstortings te diagnoseer en reg te stel | Gereguleer deur ons diensverskaffer Sentry (sien §9). Hierdie versameling is onderworpe aan jou toestemming en 'n skakelaar wat ons te eniger tyd kan afskakel, sonder 'n app-opdatering |
 
 **Wat ons nie insamel nie:** jou naam, jou kontakte, jou ligging, jou adresboek, jou foto's, jou kalender, die geskiedenis van jou programme. Plume vra geen van hierdie toestemmings nie.
 
@@ -180,22 +184,25 @@ Aangesien die app dit moontlik maak om vrye teks te herformuleer en advertensies
 | **Google Play / Google Billing** | Betaling, intekeninge | Google Ireland / Verenigde State |
 | **Google AdMob** | Beloningsadvertensies | Google Ireland / Verenigde State |
 | **Google (die foon se stelseldienste)** | Spraakherkenning, vanlyn vertaalmodules | Na gelang van jou toestel |
+| **Sentry** (Functional Software, Inc.) | Tegniese ineenstortingsverslae — slegs foute van die program, gefiltreer voor versending: nooit jou teks nie | Verenigde State |
 
 **Ons verkoop geen data nie en dra geen data aan datamakelaars oor nie.**
 
-**Oordragte buite die Europese Unie:** die gebruik van OpenRouter, Google Play en AdMob behels 'n oordrag van data buite die Europese Unie. Die regsraamwerk van hierdie oordragte (standaardkontrakbepalings, toereikendheidsbesluit) **moet deur 'n professionele persoon nagegaan en gedokumenteer word voor publikasie** — sien die nota aan die einde van die dokument.
+**Oordragte buite die Europese Unie:** die gebruik van OpenRouter, Google Play, AdMob en Sentry behels 'n oordrag van data buite die Europese Unie. Die regsraamwerk van hierdie oordragte (standaardkontrakbepalings, toereikendheidsbesluit) **moet deur 'n professionele persoon nagegaan en gedokumenteer word voor publikasie** — sien die nota aan die einde van die dokument.
 
 ---
 
 ## 10. Sekuriteit
 
-Die uitruilings tussen die app en ons bedieners is geïnkripteer (HTTPS/TLS). Toegang tot die data in die databasis word deur bedienerreëls beperk: die sensitiewe funksies is nie vanuit die app toeganklik nie. Geen stelsel is volmaak veilig nie, maar geen teks wat jy herformuleer, word by ons gestoor nie — wat meganies beperk wat 'n inbraak sou kon onthul.
+Die uitruilings tussen die app en ons bedieners is geïnkripteer (HTTPS/TLS). Toegang tot die data in die databasis word deur bedienerreëls beperk: die sensitiewe funksies is nie vanuit die app toeganklik nie. Geen stelsel is volmaak veilig nie. Die teks wat jy herformuleer en dié wat Ondersteunde Lees op die skerm vertoon, word nie by ons gestoor nie, wat meganies beperk wat 'n inbraak daaroor sou kon onthul. **Dit geld nie vir alles nie:** die leksikon van die persoonlike tale wat jy skep, word wél gestoor (sien §3), en sou blootgestel word soos enige ander data van hierdie beleid in die geval van 'n werklike inbraak — ons beskerm dit met dieselfde bedieners-toegangsreëls as die res.
 
 ---
 
 ## 11. Wysigings
 
 Enige wysiging van hierdie beleid sal by die adres `https://readit0.github.io/plume-legal` met 'n nuwe datum gepubliseer word. In die geval van 'n belangrike verandering aan die beweging van jou data, sal ons jou daarvan in die app in kennis stel.
+
+**Sedert weergawe 2.0 het hierdie belofte 'n konkrete meganisme daaragter.** 'n Blote vormkorreksie ('n datum, 'n adres, 'n verduideliking) vra niks verder van jou nie. Maar 'n MATERIËLE verandering — 'n nuwe ontvanger van jou data, 'n nuwe kategorie ingesamelde data, 'n nuwe doel, of 'n verandering aan jou regte of die prys — laat die toestemmingskerm eenmalig weer in die app verskyn, met 'n opsomming van wat verander en die twee bygewerkte dokumente. Dit is presies wat met hierdie weergawe 2.0 gebeur het (sien die inset aan die begin van hierdie dokument).
 
 ---
 

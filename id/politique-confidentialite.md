@@ -1,6 +1,16 @@
 # Kebijakan Privasi Plume
 
-**Terakhir diperbarui: 31 Juli 2026** — Versi 1.0
+**Terakhir diperbarui: 12 September 2026** — Versi 2.0
+
+> *Apa yang berubah sejak versi 1.0, dan mengapa Anda mungkin melihat kembali layar
+> persetujuan di dalam aplikasi:* kami memperbaiki dua pernyataan yang sudah tidak
+> lagi akurat. Pertama, fitur **bahasa pribadi** menyimpan di server kami konten yang
+> Anda buat (nama, aksara, kosakata) — versi 1.0 keliru menyatakan bahwa tidak ada
+> teks yang disimpan. Kedua, kami sekarang menggunakan sebuah alat **pelaporan
+> kerusakan teknis** (Sentry) — versi 1.0 menyatakan bahwa tidak ada alat semacam itu.
+> Rincian kedua hal ini terdapat di "Dalam satu menit" di bawah, serta di §3 dan §9.
+> Inilah tepatnya dua kategori perubahan yang, di dalam aplikasi, memicu permintaan
+> persetujuan baru (lihat §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume membantu Anda menulis: ia menyusun ulang teks Anda langsung di dalam aplik
 
 Tiga hal yang perlu diingat:
 
-1. **Plume tidak menyimpan satu pun teks Anda di servernya.** Baik teks yang Anda susun ulang, maupun teks yang dibaca di layar. Kami tidak menyimpan salinannya, tidak pula catatannya.
+1. **Plume tidak menyimpan teks yang Anda susun ulang, maupun teks yang dibaca di layar.** Kami tidak menyimpan salinannya, tidak pula catatannya. **Pengecualian yang disadari, dan disengaja:** jika Anda membuat sebuah **bahasa pribadi** (bahasa buatan Anda sendiri, dengan kosakata kata-kata dan definisinya), konten bahasa tersebut **justru** disimpan di server kami — itulah satu-satunya cara untuk memungkinkan Anda menemukannya kembali di perangkat lain, mengembangkannya, dan membagikannya. Rinciannya ada di §3.
 2. **Bergantung pada mesin yang Anda pilih, teks Anda keluar atau tidak keluar dari ponsel Anda.** Dua mesin (Kit lokal dan AI lokal) bekerja sepenuhnya di perangkat. Yang ketiga (AI Cloud) mengirimkan teks ke sebuah layanan kecerdasan buatan yang **berada di luar Uni Eropa**. Anda yang memilih, dan AI Cloud tidak pernah aktif tanpa persetujuan tegas dari Anda.
 3. **Plume memerlukan izin-izin yang berdaya besar** (membaca konten yang ditampilkan di aplikasi lain, menangkap layar). Di bawah ini kami menjelaskan dengan tepat untuk apa izin itu digunakan dan untuk apa tidak.
 
@@ -91,7 +101,7 @@ Teks yang dikirim dibatasi: 1.200 karakter untuk satu penyusunan ulang, 4.000 ka
 
 ## 3. Data yang kami simpan
 
-Kami tidak menggunakan **alat analitik audiens apa pun, pelacak iklan pihak ketiga apa pun, maupun alat pelaporan kerusakan apa pun**. Aplikasi tidak memuat SDK pengukuran.
+Kami tidak menggunakan **alat analitik audiens apa pun maupun pelacak iklan pihak ketiga apa pun** di luar iklan yang dijelaskan di §5. **Kami menggunakan sebuah alat pelaporan kerusakan teknis** (Sentry): alat ini hanya melihat kesalahan program (jenis kesalahan, jejak panggilan teknis, versi aplikasi, sistem operasi), tidak pernah penggunaan atau alur Anda, dan tidak pernah teks yang Anda tulis — sebuah penyaring khusus mencegahnya sebelum setiap pengiriman. Rinciannya ada di §9.
 
 Berikut keseluruhan yang disimpan di server kami:
 
@@ -104,6 +114,8 @@ Berikut keseluruhan yang disimpan di server kami:
 | **Saran yang dikirim secara sukarela** (jika Anda menulis kepada kami sebuah usulan persona dari dalam aplikasi) | Menyempurnakan katalog. Saran-saran ini tidak pernah dipublikasikan. | Sampai akun Anda dihapus |
 | **Sinyal teknis penyalahgunaan** (pelampauan berulang, kegagalan pemeriksaan integritas — tanpa teks apa pun) | Keamanan, pemberantasan kecurangan | Dilepaskan dari identitas Anda saat akun dihapus |
 | **Bahasa dan versi aplikasi** | Menyajikan konten yang tepat | Sampai akun Anda dihapus |
+| **Konten bahasa pribadi yang Anda buat** (namanya, aksaranya, dan kosakatanya — kata-kata dan definisi yang Anda, atau orang lain, tuliskan di dalamnya) | Memungkinkan Anda menemukan kembali bahasa Anda di perangkat lain, mengembangkannya, dan membagikannya dengan pengguna lain | Selama bahasa itu ada. Jika Anda menghapusnya, entrinya hilang — tetapi salinan yang sudah **diimpor oleh orang lain** sejak itu menjadi milik orang tersebut dan **tetap ada**, seperti pesan yang sudah diterima oleh pihak ketiga yang tidak dapat kami hapuskan di sisi mereka |
+| **Laporan kerusakan teknis** (jenis kesalahan, jejak panggilan teknis yang dipotong, versi aplikasi, sistem operasi — tidak pernah konten teks) | Mendiagnosis dan memperbaiki kerusakan aplikasi | Dikelola oleh penyedia kami, Sentry (lihat §9). Pengumpulan ini tunduk pada persetujuan Anda dan sebuah saklar yang dapat kami matikan kapan saja, tanpa pembaruan aplikasi |
 
 **Apa yang tidak kami kumpulkan:** nama Anda, kontak Anda, lokasi Anda, buku alamat Anda, foto Anda, kalender Anda, riwayat aplikasi Anda. Plume tidak meminta satu pun izin tersebut.
 
@@ -180,22 +192,25 @@ Karena aplikasi ini memungkinkan penyusunan ulang teks bebas dan menampilkan ikl
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Serikat |
 | **Google AdMob** | Iklan berhadiah | Google Ireland / Amerika Serikat |
 | **Google (layanan sistem ponsel)** | Pengenalan suara, modul terjemahan luring | Sesuai perangkat Anda |
+| **Sentry** (Functional Software, Inc.) | Pelaporan kerusakan teknis — hanya kesalahan program, disaring sebelum dikirim: tidak pernah teks Anda | Amerika Serikat |
 
 **Kami tidak menjual data apa pun dan tidak menyerahkan data apa pun kepada pialang data.**
 
-**Transfer ke luar Uni Eropa:** penggunaan OpenRouter, Google Play, dan AdMob menimbulkan transfer data ke luar Uni Eropa. Kerangka hukum transfer tersebut (klausul kontraktual standar, keputusan kecukupan) **harus diverifikasi dan didokumentasikan oleh seorang profesional sebelum publikasi** — lihat catatan di akhir dokumen.
+**Transfer ke luar Uni Eropa:** penggunaan OpenRouter, Google Play, AdMob, dan Sentry menimbulkan transfer data ke luar Uni Eropa. Kerangka hukum transfer tersebut (klausul kontraktual standar, keputusan kecukupan) **harus diverifikasi dan didokumentasikan oleh seorang profesional sebelum publikasi** — lihat catatan di akhir dokumen.
 
 ---
 
 ## 10. Keamanan
 
-Pertukaran antara aplikasi dan server kami dienkripsi (HTTPS/TLS). Akses ke data di basis data dibatasi oleh aturan server: fungsi-fungsi sensitif tidak dapat dijangkau dari aplikasi. Tidak ada sistem yang sepenuhnya aman, tetapi tidak satu pun teks yang Anda susun ulang disimpan pada kami — sehingga secara mekanis hal itu membatasi apa yang dapat diungkap oleh sebuah pembobolan.
+Pertukaran antara aplikasi dan server kami dienkripsi (HTTPS/TLS). Akses ke data di basis data dibatasi oleh aturan server: fungsi-fungsi sensitif tidak dapat dijangkau dari aplikasi. Tidak ada sistem yang sepenuhnya aman. Teks yang Anda susun ulang dan teks yang ditampilkan Bacaan Terbantu di layar tidak disimpan pada kami, sehingga secara mekanis hal itu membatasi apa yang dapat diungkap oleh sebuah pembobolan mengenai keduanya. **Ini tidak berlaku untuk semuanya:** kosakata bahasa pribadi yang Anda buat, justru, **disimpan** (lihat §3), dan akan terpapar seperti data lain mana pun dalam kebijakan ini jika terjadi pembobolan yang sesungguhnya — kami melindunginya dengan aturan akses server yang sama seperti yang lainnya.
 
 ---
 
 ## 11. Perubahan
 
 Setiap perubahan kebijakan ini akan dipublikasikan di alamat `https://readit0.github.io/plume-legal` dengan tanggal yang baru. Jika terjadi perubahan penting mengenai peredaran data Anda, kami akan memberi tahu Anda di dalam aplikasi.
+
+**Sejak versi 2.0, janji ini memiliki mekanisme nyata di baliknya.** Sebuah perbaikan bentuk sederhana (sebuah tanggal, sebuah alamat, sebuah klarifikasi) tidak menuntut apa pun tambahan dari Anda. Namun perubahan MATERIAL — penerima baru untuk data Anda, kategori baru data yang dikumpulkan, tujuan baru, atau perubahan hak Anda atau harga — akan memunculkan kembali, sekali, layar persetujuan di dalam aplikasi, disertai ringkasan apa yang berubah dan kedua dokumen yang telah diperbarui. Itulah tepatnya yang terjadi untuk versi 2.0 ini (lihat kotak di awal dokumen ini).
 
 ---
 

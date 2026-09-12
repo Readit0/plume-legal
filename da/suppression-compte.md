@@ -1,6 +1,6 @@
 # Slet din konto og dine oplysninger — Plume
 
-**Sidst opdateret: 31. juli 2026** — Version 1.0
+**Sidst opdateret: 12. september 2026** — Version 2.0
 
 Berørt app: **Plume** (`com.plume.plume`), udgivet af **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — offentliggjort på Google Play under navnet **openfunworld**.
 
@@ -36,11 +36,12 @@ Sletningen fjerner **endeligt**:
 - **dine forslag** — de forslag, du måtte have sendt os fra appen. Det er den eneste frie tekst, vi gemmer;
 - **dine anmodningsidentifikatorer** — de tekniske referencer for de omformuleringer, der er blevet anmodet om;
 - **dine kreditter og kvoteoplåsninger** — købte kreditter, der ikke er brugt, oplåsninger opnået via annoncer, justerede lofter;
-- **tilknytningen af dine enheder til din konto** — dine andre telefoner eller tablets frigøres og bliver igen almindelige anonyme enheder.
+- **tilknytningen af dine enheder til din konto** — dine andre telefoner eller tablets frigøres og bliver igen almindelige anonyme enheder;
+- **de personlige sprog, du har oprettet** — deres navn, deres alfabet, deres ordbog, dine delingstokens og din importhistorik. **Hvad denne sletning ikke kan gøre:** hvis en anden person allerede har importeret en kopi af dit sprog hos sig selv, tilhører den kopi derefter vedkommende og **overlever** din sletning — ligesom en besked, en tredjepart allerede har modtaget, som vi ikke kan slette hos den pågældende.
 
 Den enhed, som du beder om sletningen fra, bliver **neutraliseret**: dens tilknytning til din konto slettes, dens identifikationsnøgle destrueres og erstattes af en død værdi, og dens sprog og appversion slettes. Tilbage er kun et uigennemsigtigt nummer, som hverken gør det muligt at identificere dig eller at finde enheden.
 
-**Vi har aldrig gemt dine tekster.** Hverken de tekster, du har omformuleret, eller den tekst, som Assisteret læsning har læst på skærmen: de blev ikke opbevaret nogen steder på vores servere, og der er derfor intet at slette af dem.
+**Vi har aldrig gemt de tekster, du har omformuleret, eller den tekst, Assisteret læsning har læst på skærmen**: de bliver ikke opbevaret nogen steder på vores servere, og der er derfor intet at slette af dem. **Det gælder ikke for ordbogen i et personligt sprog, du måtte have oprettet:** dets indhold (navn, alfabet, ord og betydninger) bliver rent faktisk gemt på vores servere — sletning af din konto sletter det, ligesom resten af det, der tilhører dig (se nedenfor).
 
 **På din telefon** er dine personaer, dine avatarer, dine indstillinger og dine regler pr. app gemt lokalt. De slettes ved sletningen fra appen, og de forsvinder under alle omstændigheder, **når du afinstallerer Plume**.
 

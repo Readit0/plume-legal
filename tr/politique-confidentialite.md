@@ -1,6 +1,15 @@
 # Plume Gizlilik Politikası
 
-**Son güncelleme: 31 Temmuz 2026** — Sürüm 1.0
+**Son güncelleme: 12 Eylül 2026** — Sürüm 2.0
+
+> *Sürüm 1.0'dan bu yana neler değişti ve uygulamada onay ekranını neden yeniden görebilirsiniz:*
+> artık doğru olmayan iki ifadeyi düzeltiyoruz. Öncelikle, **kişisel diller** özelliği,
+> oluşturduğunuz içeriği (ad, alfabe, sözlük) sunucularımızda saklar — Sürüm 1.0 hiçbir
+> metnin saklanmadığını yanlış biçimde belirtmişti. İkincisi, artık bir **teknik çökme
+> raporlama** aracı (Sentry) kullanıyoruz — Sürüm 1.0 bu tür bir aracın bulunmadığını
+> belirtiyordu. Bu iki noktanın ayrıntısı aşağıdaki «Bir dakikada» bölümünde, ayrıca §3
+> ve §9'dadır. Uygulamada yeni bir onay talebini tetikleyen değişiklik kategorileri
+> tam olarak bunlardır (bkz. §11).
 
 ---
 
@@ -23,7 +32,7 @@ Plume yazmanıza yardımcı olur: metninizi, yazmakta olduğunuz uygulamanın i�
 
 Aklınızda tutmanız gereken üç şey:
 
-1. **Plume metinlerinizin hiçbirini sunucularında saklamaz.** Ne yeniden ifade edilen metinlerinizi, ne de ekrandan okunan metni. Bunların ne bir kopyasını ne de bir kaydını tutarız.
+1. **Plume, ne yeniden ifade ettiğiniz metinleri ne de ekrandan okunan metni saklamaz.** Bunların ne bir kopyasını ne de bir kaydını tutarız. **Bilinçli olarak kabul edilmiş, gönüllü bir istisna:** bir **kişisel dil** (kendi oluşturduğunuz, sözlüğü ve tanımlarıyla kendi diliniz) oluşturursanız, bu dilin içeriği sunucularımızda **saklanır** — bunu başka bir cihazda yeniden bulmanızı, geliştirmenizi ve paylaşmanızı sağlayan tek yol budur. Ayrıntı §3'tedir.
 2. **Seçtiğiniz motora göre metniniz telefonunuzdan çıkar ya da çıkmaz.** İki motor (yerel Kit ve yerel yapay zekâ) tamamen cihaz üzerinde çalışır. Üçüncüsü (Bulut yapay zekâ), metni **Avrupa Birliği dışında bulunan** bir yapay zekâ hizmetine gönderir. Seçim sizindir ve Bulut yapay zekâ, açık rızanız olmadan asla etkinleşmez.
 3. **Plume'ün güçlü izinlere ihtiyacı vardır** (diğer uygulamalarda görüntülenen içeriği okumak, ekranı yakalamak). Bunların tam olarak neye yaradığını ve neye yaramadığını aşağıda açıklıyoruz.
 
@@ -91,7 +100,7 @@ Gönderilen metin sınırlıdır: bir yeniden ifade için 1 200 karakter, bir ek
 
 ## 3. Sakladığımız veriler
 
-**Hiçbir kitle ölçüm aracı, hiçbir üçüncü taraf reklam izleyicisi, hiçbir çökme raporlama aracı** kullanmıyoruz. Uygulama, ölçüm SDK'sı içermez.
+§5'te açıklanan reklam dışında **hiçbir kitle ölçüm aracı, hiçbir üçüncü taraf reklam izleyicisi** kullanmıyoruz. **Bir teknik çökme raporlama aracı (Sentry) kullanıyoruz:** bu araç yalnızca program hatalarını görür (hata türü, teknik çağrı yığını, uygulama sürümü, işletim sistemi), kullanımınızı ya da izlediğiniz yolu asla görmez, yazdığınız metni de asla görmez — herhangi bir gönderimden önce buna özel bir filtre engel olur. Ayrıntı §9'dadır.
 
 Sunucularımızda saklananların tamamı şudur:
 
@@ -104,6 +113,8 @@ Sunucularımızda saklananların tamamı şudur:
 | **Gönüllü olarak gönderilen öneriler** (uygulamadan bize bir persona önerisi yazarsanız) | Kataloğu iyileştirmek. Bu öneriler asla yayımlanmaz. | Hesabınızın silinmesine kadar |
 | **Teknik kötüye kullanım sinyalleri** (tekrarlanan aşımlar, bütünlük denetimi başarısızlığı — hiçbir metin içermez) | Güvenlik, dolandırıcılıkla mücadele | Hesap silindiğinde kimliğinizden ayrılır |
 | **Uygulamanın dili ve sürümü** | Doğru içeriği sunmak | Hesabınızın silinmesine kadar |
+| **Oluşturduğunuz kişisel dillerin içeriği** (adı, alfabesi ve sözlüğü — sizin ya da başkalarının buraya yazdığı sözcükler ve tanımlar) | Dilinizi başka bir cihazda yeniden bulmanızı, geliştirmenizi ve başka kullanıcılarla paylaşmanızı sağlamak | Dil var olduğu sürece. Onu silerseniz kaydı ortadan kalkar — ancak **başka biri tarafından zaten içe aktarılmış** bir kopya artık ona aittir ve **varlığını sürdürür**, üçüncü bir kişinin çoktan aldığı bir mesaj gibi; onu kendi tarafından silmemiz mümkün değildir |
+| **Teknik çökme raporları** (hata türü, kısaltılmış teknik çağrı yığını, uygulama sürümü, işletim sistemi — asla metin içeriği değil) | Uygulamanın çökmelerini teşhis etmek ve düzeltmek | Sağlayıcımız Sentry tarafından yönetilir (bkz. §9). Bu toplama, rızanıza ve uygulamayı güncellemeden istediğimiz zaman kapatabileceğimiz bir anahtara tabidir |
 
 **Toplamadıklarımız:** adınız, kişileriniz, konumunuz, adres defteriniz, fotoğraflarınız, takviminiz, uygulama geçmişiniz. Plume bu izinlerin hiçbirini istemez.
 
@@ -180,22 +191,25 @@ Uygulama serbest bir metnin yeniden ifade edilmesine izin verdiği ve reklam gö
 | **Google Play / Google Billing** | Ödeme, abonelikler | Google Ireland / Amerika Birleşik Devletleri |
 | **Google AdMob** | Ödüllü reklam | Google Ireland / Amerika Birleşik Devletleri |
 | **Google (telefonun sistem hizmetleri)** | Konuşma tanıma, çevrimdışı çeviri modülleri | Cihazınıza göre değişir |
+| **Sentry** (Functional Software, Inc.) | Teknik çökme raporlama — yalnızca gönderilmeden önce filtrelenmiş program hataları: metniniz asla değil | Amerika Birleşik Devletleri |
 
 **Hiçbir veriyi satmıyoruz ve hiçbirini veri simsarlarına devretmiyoruz.**
 
-**Avrupa Birliği dışına aktarımlar:** OpenRouter'a, Google Play'e ve AdMob'a başvurulması, Avrupa Birliği dışına bir veri aktarımı içerir. Bu aktarımların hukuki çerçevesi (standart sözleşme hükümleri, yeterlilik kararı) **yayımdan önce bir uzman tarafından doğrulanmalı ve belgelenmelidir** — belgenin sonundaki nota bakın.
+**Avrupa Birliği dışına aktarımlar:** OpenRouter'a, Google Play'e, AdMob'a ve Sentry'ye başvurulması, Avrupa Birliği dışına bir veri aktarımı içerir. Bu aktarımların hukuki çerçevesi (standart sözleşme hükümleri, yeterlilik kararı) **yayımdan önce bir uzman tarafından doğrulanmalı ve belgelenmelidir** — belgenin sonundaki nota bakın.
 
 ---
 
 ## 10. Güvenlik
 
-Uygulama ile sunucularımız arasındaki alışverişler şifrelidir (HTTPS/TLS). Veritabanındaki verilere erişim sunucu kurallarıyla sınırlandırılmıştır: hassas işlevlere uygulamadan erişilemez. Hiçbir sistem tam olarak güvenli değildir, ancak yeniden ifade ettiğiniz hiçbir metin bizde saklanmaz — bu da bir izinsiz girişin açığa çıkarabileceğini mekanik olarak sınırlar.
+Uygulama ile sunucularımız arasındaki alışverişler şifrelidir (HTTPS/TLS). Veritabanındaki verilere erişim sunucu kurallarıyla sınırlandırılmıştır: hassas işlevlere uygulamadan erişilemez. Hiçbir sistem tam olarak güvenli değildir. Yeniden ifade ettiğiniz metin ve Destekli Okuma'nın ekranda gösterdiği metin bizde saklanmaz; bu da bir izinsiz girişin bunlar hakkında açığa çıkarabileceğini mekanik olarak sınırlar. **Bu, her şey için geçerli değildir:** oluşturduğunuz kişisel dillerin sözlüğü ise **saklanır** (bkz. §3) ve gerçek bir izinsiz giriş hâlinde bu politikadaki diğer herhangi bir veri gibi açığa çıkabilir — onu da geri kalanla aynı sunucu erişim kurallarıyla koruyoruz.
 
 ---
 
 ## 11. Değişiklikler
 
 Bu politikadaki her değişiklik, `https://readit0.github.io/plume-legal` adresinde yeni bir tarihle yayımlanacaktır. Verilerinizin dolaşımıyla ilgili önemli bir değişiklik olması hâlinde sizi uygulama içinde bilgilendireceğiz.
+
+**Sürüm 2.0'dan itibaren, bu vaadin arkasında somut bir mekanizma bulunmaktadır.** Basit bir biçim düzeltmesi (bir tarih, bir adres, bir açıklama) sizden başka hiçbir şey istemez. Ancak **maddi** bir değişiklik — verilerinizin yeni bir alıcısı, toplanan verilerin yeni bir kategorisi, yeni bir amaç ya da haklarınızda veya fiyatta bir değişiklik — uygulamada onay ekranını, neyin değiştiğine dair bir özetle ve güncel iki belgeyle birlikte, bir kez daha ortaya çıkarır. Bu Sürüm 2.0 için tam olarak gerçekleşen de budur (bu belgenin başındaki kutuya bakın).
 
 ---
 

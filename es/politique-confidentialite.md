@@ -1,6 +1,8 @@
 # Política de privacidad de Plume
 
-**Última actualización: 31 de julio de 2026** — Versión 1.0
+**Última actualización: 12 de septiembre de 2026** — Versión 2.0
+
+> *Qué ha cambiado desde la versión 1.0, y por qué es posible que vuelva a ver la pantalla de aceptación en la aplicación:* corregimos dos afirmaciones que ya no eran exactas. En primer lugar, la función **idiomas personales** conserva en nuestros servidores el contenido que usted crea (nombre, alfabeto, léxico) — la versión 1.0 afirmaba erróneamente que no se almacenaba ningún texto. En segundo lugar, ahora utilizamos una herramienta de **informe técnico de fallos** (Sentry) — la versión 1.0 afirmaba que no existía ninguna herramienta de este tipo. El detalle de estos dos puntos está en «En un minuto» más abajo, así como en los §3 y §9. Son exactamente las dos categorías de cambio que, dentro de la aplicación, activan una nueva solicitud de consentimiento (véase el §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume le ayuda a escribir: reformula su texto directamente en la aplicación en 
 
 Tres cosas que conviene recordar:
 
-1. **Plume no conserva ninguno de sus textos en sus servidores.** Ni sus textos reformulados, ni el texto leído en la pantalla. No guardamos de ellos ni copia ni registro.
+1. **Plume no conserva ni los textos que usted reformula, ni el texto leído en la pantalla.** No guardamos de ellos ni copia ni registro. **Excepción asumida y voluntaria:** si crea un **idioma personal** (su propio idioma construido, con su léxico de palabras y sus definiciones), el contenido de ese idioma **sí se conserva** en nuestros servidores — es la única forma de permitirle recuperarlo en otro dispositivo, hacerlo evolucionar y compartirlo. El detalle está en el §3.
 2. **Según el motor que elija, su texto sale o no sale de su teléfono.** Dos motores (el Kit local y la IA local) funcionan íntegramente en el dispositivo. El tercero (la IA en la nube) envía el texto a un servicio de inteligencia artificial **situado fuera de la Unión Europea**. Usted elige, y la IA en la nube nunca se activa sin su consentimiento explícito.
 3. **Plume necesita permisos potentes** (leer el contenido mostrado en las demás aplicaciones, capturar la pantalla). A continuación explicamos con precisión para qué sirven y para qué no sirven.
 
@@ -91,7 +93,7 @@ El texto enviado está limitado: 1200 caracteres para una reformulación, 4000 c
 
 ## 3. Los datos que conservamos
 
-No utilizamos **ninguna herramienta de analítica de audiencia, ningún rastreador publicitario de terceros, ninguna herramienta de informe de fallos**. La aplicación no contiene ningún SDK de medición.
+No utilizamos **ninguna herramienta de analítica de audiencia ni ningún rastreador publicitario de terceros**, al margen de la publicidad descrita en el §5. **Utilizamos una herramienta de informe técnico de fallos** (Sentry): solo ve errores de programa (tipo de error, pila de llamadas técnica, versión de la aplicación, sistema operativo), nunca su uso ni su recorrido, y nunca el texto que escribe — un filtro específico se lo impide antes de cualquier envío. El detalle está en el §9.
 
 Esto es la totalidad de lo que se almacena en nuestros servidores:
 
@@ -104,6 +106,8 @@ Esto es la totalidad de lo que se almacena en nuestros servidores:
 | **Sugerencias enviadas voluntariamente** (si nos escribe una sugerencia de persona desde la aplicación) | Mejorar el catálogo. Estas sugerencias nunca se publican. | Hasta la supresión de su cuenta |
 | **Señales técnicas de abuso** (excesos repetidos, fallo de control de integridad, sin ningún texto) | Seguridad, lucha contra el fraude | Desvinculadas de su identidad al suprimirse la cuenta |
 | **Idioma y versión de la aplicación** | Servir el contenido correcto | Hasta la supresión de su cuenta |
+| **El contenido de los idiomas personales que usted crea** (su nombre, su alfabeto y su léxico: las palabras y las definiciones que usted, u otras personas, hayan escrito en él) | Permitirle recuperar su idioma en otro dispositivo, hacerlo evolucionar y compartirlo con otros usuarios | Mientras exista el idioma. Si lo suprime, su ficha desaparece, pero una copia ya **importada por otra persona** pasa a pertenecerle a esta y **sobrevive**, como un mensaje ya recibido por un tercero que no podemos ir a borrar en su lado |
+| **Informes técnicos de fallos** (tipo de error, pila de llamadas técnica truncada, versión de la aplicación, sistema operativo — nunca contenido de texto) | Diagnosticar y corregir los fallos de la aplicación | Regidos por nuestro proveedor Sentry (véase el §9). Esta recogida está sujeta a su consentimiento y a un interruptor que podemos desactivar en cualquier momento, sin actualización de la aplicación |
 
 **Lo que no recogemos:** su nombre, sus contactos, su ubicación, su libreta de direcciones, sus fotos, su calendario, el historial de sus aplicaciones. Plume no solicita ninguno de estos permisos.
 
@@ -180,22 +184,25 @@ Como la aplicación permite reformular un texto libre y muestra publicidad, no e
 | **Google Play / Google Billing** | Pago, suscripciones | Google Ireland / Estados Unidos |
 | **Google AdMob** | Publicidad recompensada | Google Ireland / Estados Unidos |
 | **Google (servicios del sistema del teléfono)** | Reconocimiento de voz, módulos de traducción sin conexión | Según su dispositivo |
+| **Sentry** (Functional Software, Inc.) | Informe técnico de fallos: únicamente errores del programa, filtrados antes del envío; nunca su texto | Estados Unidos |
 
 **No vendemos ningún dato ni cedemos ninguno a intermediarios de datos.**
 
-**Transferencias fuera de la Unión Europea:** el recurso a OpenRouter, a Google Play y a AdMob implica una transferencia de datos fuera de la Unión Europea. El marco jurídico de estas transferencias (cláusulas contractuales tipo, decisión de adecuación) **debe ser verificado y documentado por un profesional antes de la publicación**; véase la nota al final del documento.
+**Transferencias fuera de la Unión Europea:** el recurso a OpenRouter, a Google Play, a AdMob y a Sentry implica una transferencia de datos fuera de la Unión Europea. El marco jurídico de estas transferencias (cláusulas contractuales tipo, decisión de adecuación) **debe ser verificado y documentado por un profesional antes de la publicación**; véase la nota al final del documento.
 
 ---
 
 ## 10. Seguridad
 
-Los intercambios entre la aplicación y nuestros servidores están cifrados (HTTPS/TLS). El acceso a los datos en la base está restringido por reglas de servidor: las funciones sensibles no son accesibles desde la aplicación. Ningún sistema es perfectamente seguro, pero ningún texto que usted reformula se almacena en nuestros sistemas, lo que limita mecánicamente lo que una intrusión podría revelar.
+Los intercambios entre la aplicación y nuestros servidores están cifrados (HTTPS/TLS). El acceso a los datos en la base está restringido por reglas de servidor: las funciones sensibles no son accesibles desde la aplicación. Ningún sistema es perfectamente seguro. El texto que usted reformula y el que la Lectura Asistida muestra en la pantalla no se almacenan en nuestros sistemas, lo que limita mecánicamente lo que una intrusión podría revelar sobre ellos. **Esto no es cierto de todo:** el léxico de los idiomas personales que usted crea **sí se almacena** (véase el §3), y quedaría expuesto como cualquier otro dato de esta política en caso de una intrusión real; lo protegemos con las mismas reglas de acceso de servidor que el resto.
 
 ---
 
 ## 11. Modificaciones
 
 Toda modificación de esta política se publicará en la dirección `https://readit0.github.io/plume-legal` con una nueva fecha. En caso de cambio importante en la circulación de sus datos, se lo comunicaremos en la aplicación.
+
+**Desde la versión 2.0, esta promesa cuenta con un mecanismo concreto detrás.** Una simple corrección de forma (una fecha, una dirección, una precisión) no le exige nada más. Pero un cambio MATERIAL —un nuevo destinatario de sus datos, una nueva categoría de datos recogidos, una nueva finalidad, o un cambio en sus derechos o en el precio— hace reaparecer, una vez, la pantalla de aceptación dentro de la aplicación, con un resumen de lo que cambia y los dos documentos actualizados. Esto es exactamente lo que ha ocurrido con esta versión 2.0 (véase el recuadro al principio de este documento).
 
 ---
 

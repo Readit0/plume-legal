@@ -1,6 +1,16 @@
 # Chính sách quyền riêng tư của Plume
 
-**Cập nhật lần cuối: ngày 31 tháng 7 năm 2026** — Phiên bản 1.0
+**Cập nhật lần cuối: ngày 12 tháng 9 năm 2026** — Phiên bản 2.0
+
+> *Những gì đã thay đổi kể từ phiên bản 1.0, và vì sao bạn có thể thấy lại màn hình chấp
+> thuận trong ứng dụng:* chúng tôi đang sửa lại hai điều khẳng định không còn chính xác.
+> Thứ nhất, tính năng **ngôn ngữ cá nhân** lưu giữ trên máy chủ của chúng tôi nội dung mà
+> bạn tạo ra (tên gọi, bảng chữ cái, từ điển) — phiên bản 1.0 đã khẳng định sai rằng không
+> có văn bản nào được lưu giữ. Thứ hai, hiện nay chúng tôi sử dụng một công cụ **báo cáo
+> sự cố kỹ thuật** (Sentry) — phiên bản 1.0 khẳng định rằng không tồn tại công cụ loại này.
+> Chi tiết của hai điểm này nằm trong mục «Trong một phút» bên dưới, cũng như tại §3 và §9.
+> Đây chính xác là hai loại thay đổi khiến ứng dụng đưa ra một yêu cầu chấp thuận mới
+> (xem §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume giúp bạn viết: ứng dụng viết lại văn bản của bạn ngay 
 
 Ba điều cần nhớ:
 
-1. **Plume không lưu giữ bất kỳ văn bản nào của bạn trên máy chủ của mình.** Không lưu văn bản đã được viết lại, cũng không lưu văn bản đọc được trên màn hình. Chúng tôi không giữ bản sao, cũng không giữ nhật ký.
+1. **Plume không lưu giữ văn bản đã được viết lại, cũng không lưu văn bản đọc được trên màn hình.** Chúng tôi không giữ bản sao, cũng không giữ nhật ký. **Ngoại lệ có chủ đích và tự nguyện:** nếu bạn tạo một **ngôn ngữ cá nhân** (ngôn ngữ do chính bạn xây dựng, với từ điển các từ và định nghĩa của chúng), nội dung của ngôn ngữ đó, ngược lại, **được lưu giữ** trên máy chủ của chúng tôi — đây là cách duy nhất để giúp bạn tìm lại nó trên một thiết bị khác, phát triển nó và chia sẻ nó. Chi tiết ở §3.
 2. **Tùy theo bộ máy xử lý bạn chọn, văn bản của bạn rời khỏi hoặc không rời khỏi điện thoại.** Hai bộ máy (Bộ công cụ cục bộ và AI cục bộ) hoạt động hoàn toàn trên thiết bị. Bộ máy thứ ba (AI đám mây) gửi văn bản đến một dịch vụ trí tuệ nhân tạo **đặt bên ngoài Liên minh châu Âu**. Bạn là người lựa chọn, và AI đám mây không bao giờ được kích hoạt nếu không có sự đồng ý rõ ràng của bạn.
 3. **Plume cần những quyền rất mạnh** (đọc nội dung hiển thị trong các ứng dụng khác, chụp màn hình). Dưới đây chúng tôi giải thích chính xác các quyền đó dùng để làm gì và không dùng để làm gì.
 
@@ -91,7 +101,7 @@ Văn bản được gửi đi có giới hạn trần: 1.200 ký tự cho một 
 
 ## 3. Những dữ liệu chúng tôi lưu giữ
 
-Chúng tôi **không sử dụng bất kỳ công cụ phân tích người dùng nào, bất kỳ trình theo dõi quảng cáo của bên thứ ba nào, bất kỳ công cụ báo cáo sự cố nào**. Ứng dụng không chứa SDK đo lường.
+Ngoài quảng cáo được mô tả ở §5, chúng tôi **không sử dụng bất kỳ công cụ phân tích người dùng nào, bất kỳ trình theo dõi quảng cáo của bên thứ ba nào**. **Chúng tôi sử dụng một công cụ báo cáo sự cố kỹ thuật** (Sentry): công cụ này chỉ thấy các lỗi chương trình (loại lỗi, ngăn xếp lệnh gọi kỹ thuật, phiên bản ứng dụng, hệ điều hành), không bao giờ thấy cách bạn sử dụng hay hành trình của bạn, và không bao giờ thấy văn bản mà bạn viết — một bộ lọc riêng biệt ngăn điều đó trước bất kỳ lần gửi nào. Chi tiết ở §9.
 
 Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng tôi:
 
@@ -104,6 +114,8 @@ Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng
 | **Góp ý gửi tự nguyện** (nếu bạn gửi cho chúng tôi một đề xuất persona từ trong ứng dụng) | Cải thiện danh mục. Những góp ý này không bao giờ được công bố. | Cho đến khi bạn xóa tài khoản |
 | **Tín hiệu kỹ thuật về lạm dụng** (vượt hạn mức nhiều lần, kiểm tra tính toàn vẹn thất bại — không kèm bất kỳ văn bản nào) | An ninh, chống gian lận | Được tách rời khỏi danh tính của bạn khi xóa tài khoản |
 | **Ngôn ngữ và phiên bản ứng dụng** | Cung cấp đúng nội dung | Cho đến khi bạn xóa tài khoản |
+| **Nội dung của các ngôn ngữ cá nhân mà bạn tạo ra** (tên gọi, bảng chữ cái, và từ điển của nó — các từ và định nghĩa mà bạn, hoặc những người khác, đã viết vào đó) | Giúp bạn tìm lại ngôn ngữ của mình trên một thiết bị khác, phát triển nó, và chia sẻ nó với những người dùng khác | Chừng nào ngôn ngữ đó còn tồn tại. Nếu bạn xóa nó, hồ sơ của nó biến mất — nhưng một bản sao **đã được người khác nhập vào** thì từ đó thuộc về người đó và **vẫn tồn tại**, giống như một tin nhắn mà một bên thứ ba đã nhận được và chúng tôi không thể xóa khỏi phía họ |
+| **Báo cáo sự cố kỹ thuật** (loại lỗi, ngăn xếp lệnh gọi kỹ thuật đã được rút gọn, phiên bản ứng dụng, hệ điều hành — không bao giờ là nội dung văn bản) | Chẩn đoán và khắc phục các sự cố của ứng dụng | Do nhà cung cấp Sentry của chúng tôi quản lý (xem §9). Việc thu thập này phụ thuộc vào sự đồng ý của bạn và một công tắc mà chúng tôi có thể tắt bất cứ lúc nào, không cần cập nhật ứng dụng |
 
 **Những gì chúng tôi không thu thập:** tên của bạn, danh bạ của bạn, vị trí của bạn, sổ địa chỉ của bạn, ảnh của bạn, lịch của bạn, lịch sử các ứng dụng của bạn. Plume không yêu cầu bất kỳ quyền nào trong số đó.
 
@@ -180,22 +192,25 @@ Vì ứng dụng cho phép viết lại văn bản tự do và có hiển thị 
 | **Google Play / Google Billing** | Thanh toán, gói đăng ký | Google Ireland / Hoa Kỳ |
 | **Google AdMob** | Quảng cáo có thưởng | Google Ireland / Hoa Kỳ |
 | **Google (các dịch vụ hệ thống của điện thoại)** | Nhận dạng giọng nói, các gói dịch ngoại tuyến | Tùy theo thiết bị của bạn |
+| **Sentry** (Functional Software, Inc.) | Báo cáo sự cố kỹ thuật — chỉ các lỗi chương trình, đã được lọc trước khi gửi: không bao giờ là văn bản của bạn | Hoa Kỳ |
 
 **Chúng tôi không bán bất kỳ dữ liệu nào và không nhượng bất kỳ dữ liệu nào cho các bên môi giới dữ liệu.**
 
-**Chuyển dữ liệu ra ngoài Liên minh châu Âu:** việc sử dụng OpenRouter, Google Play và AdMob kéo theo một hoạt động chuyển dữ liệu ra ngoài Liên minh châu Âu. Khung pháp lý của các hoạt động chuyển này (điều khoản hợp đồng tiêu chuẩn, quyết định về mức độ bảo vệ tương xứng) **phải được một chuyên gia kiểm tra và ghi thành văn bản trước khi công bố** — xem ghi chú ở cuối tài liệu.
+**Chuyển dữ liệu ra ngoài Liên minh châu Âu:** việc sử dụng OpenRouter, Google Play, AdMob và Sentry kéo theo một hoạt động chuyển dữ liệu ra ngoài Liên minh châu Âu. Khung pháp lý của các hoạt động chuyển này (điều khoản hợp đồng tiêu chuẩn, quyết định về mức độ bảo vệ tương xứng) **phải được một chuyên gia kiểm tra và ghi thành văn bản trước khi công bố** — xem ghi chú ở cuối tài liệu.
 
 ---
 
 ## 10. An ninh
 
-Các trao đổi giữa ứng dụng và máy chủ của chúng tôi được mã hóa (HTTPS/TLS). Việc truy cập dữ liệu trong cơ sở dữ liệu bị giới hạn bởi các quy tắc phía máy chủ: các hàm nhạy cảm không thể được gọi từ ứng dụng. Không hệ thống nào an toàn tuyệt đối, nhưng không một văn bản nào bạn viết lại được lưu ở chỗ chúng tôi — điều đó tự nó giới hạn những gì một vụ xâm nhập có thể tiết lộ.
+Các trao đổi giữa ứng dụng và máy chủ của chúng tôi được mã hóa (HTTPS/TLS). Việc truy cập dữ liệu trong cơ sở dữ liệu bị giới hạn bởi các quy tắc phía máy chủ: các hàm nhạy cảm không thể được gọi từ ứng dụng. Không hệ thống nào an toàn tuyệt đối. Văn bản mà bạn viết lại và văn bản mà Đọc Có Hỗ Trợ hiển thị trên màn hình không được lưu ở chỗ chúng tôi, điều đó tự nó giới hạn những gì một vụ xâm nhập có thể tiết lộ về chúng. **Điều này không đúng với tất cả:** từ điển của các ngôn ngữ cá nhân mà bạn tạo ra, ngược lại, **được lưu giữ** (xem §3), và sẽ bị lộ ra như bất kỳ dữ liệu nào khác trong chính sách này nếu có một vụ xâm nhập thực sự — chúng tôi bảo vệ nó bằng đúng những quy tắc truy cập phía máy chủ như phần còn lại.
 
 ---
 
 ## 11. Sửa đổi
 
 Mọi sửa đổi của chính sách này sẽ được công bố tại địa chỉ `https://readit0.github.io/plume-legal` kèm một ngày mới. Trong trường hợp có thay đổi quan trọng về đường đi của dữ liệu của bạn, chúng tôi sẽ thông báo cho bạn trong ứng dụng.
+
+**Kể từ phiên bản 2.0, lời hứa này có một cơ chế cụ thể đứng sau nó.** Một sửa đổi hình thức đơn thuần (một ngày tháng, một địa chỉ, một điểm làm rõ) sẽ không yêu cầu thêm gì ở bạn. Nhưng một thay đổi **mang tính thực chất** — một bên nhận mới đối với dữ liệu của bạn, một loại dữ liệu thu thập mới, một mục đích mới, hoặc một thay đổi về quyền của bạn hay về giá — sẽ làm xuất hiện lại, một lần, màn hình chấp thuận trong ứng dụng, kèm theo một bản tóm tắt những gì thay đổi và hai tài liệu đã được cập nhật. Đây chính xác là điều đã xảy ra với phiên bản 2.0 này (xem khung thông tin ở đầu tài liệu này).
 
 ---
 

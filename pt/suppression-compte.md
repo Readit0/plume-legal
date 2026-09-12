@@ -1,6 +1,6 @@
 # Eliminar a sua conta e os seus dados — Plume
 
-**Última atualização: 31 de julho de 2026** — Versão 1.0
+**Última atualização: 12 de setembro de 2026** — Versão 2.0
 
 Aplicação em causa: **Plume** (`com.plume.plume`), editada pela **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicada no Google Play com o nome **openfunworld**.
 
@@ -36,11 +36,12 @@ A eliminação apaga **definitivamente**:
 - **as suas sugestões** — as propostas que nos tenha enviado a partir da aplicação. É o único texto livre que armazenamos;
 - **os seus identificadores de pedidos** — as referências técnicas das reformulações solicitadas;
 - **os seus créditos e desbloqueios de quota** — créditos comprados não consumidos, desbloqueios obtidos por publicidade, tetos ajustados;
-- **a associação dos seus dispositivos à sua conta** — os seus outros telemóveis ou tablets são desassociados e voltam a ser simples dispositivos anónimos.
+- **a associação dos seus dispositivos à sua conta** — os seus outros telemóveis ou tablets são desassociados e voltam a ser simples dispositivos anónimos;
+- **as línguas pessoais que criou** — o seu nome, o seu alfabeto, o seu léxico, os seus tokens de partilha e o seu histórico de importação. **O que esta eliminação não pode fazer:** se outra pessoa já tiver importado uma cópia da sua língua, essa cópia passa a pertencer-lhe e **sobrevive** à sua eliminação — como uma mensagem já recebida por um terceiro, que não podemos apagar do lado dele.
 
 O dispositivo a partir do qual pede a eliminação é **neutralizado**: a sua associação à sua conta é apagada, a sua chave de identificação é destruída e substituída por um valor morto, o seu idioma e a sua versão da aplicação são apagados. Resta apenas um número opaco, que já não permite identificá-lo nem encontrar o dispositivo.
 
-**Nunca armazenámos os seus textos.** Nem os textos que reformulou, nem o texto lido no ecrã pela Leitura Assistida: não eram conservados em lado nenhum nos nossos servidores, pelo que não há nada a eliminar quanto a isso.
+**Nunca armazenámos os textos que reformulou, nem o texto lido no ecrã pela Leitura Assistida**: não são conservados em lado nenhum nos nossos servidores, pelo que não há nada a eliminar quanto a isso. **Isto não é verdade para o léxico de uma língua pessoal que tenha criado:** o seu conteúdo (nome, alfabeto, palavras e definições) está sim armazenado nos nossos servidores — a eliminação da sua conta apaga-o, tal como o resto do que lhe pertence (ver abaixo).
 
 **No seu telemóvel**, os seus personas, os seus avatares, as suas definições e as suas regras por aplicação estão armazenados localmente. São apagados pela eliminação feita a partir da aplicação e, em qualquer caso, **desaparecem quando desinstala a Plume**.
 

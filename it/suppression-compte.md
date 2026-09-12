@@ -1,6 +1,6 @@
 # Cancellare il suo account e i suoi dati — Plume
 
-**Ultimo aggiornamento: 31 luglio 2026** — Versione 1.0
+**Ultimo aggiornamento: 12 settembre 2026** — Versione 2.0
 
 Applicazione interessata: **Plume** (`com.plume.plume`), pubblicata da **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — distribuita su Google Play con il nome **openfunworld**.
 
@@ -37,10 +37,11 @@ La cancellazione elimina **definitivamente**:
 - **i suoi identificativi di richiesta** — i riferimenti tecnici delle riformulazioni richieste;
 - **i suoi crediti e sblocchi di quota** — crediti acquistati non consumati, sblocchi ottenuti tramite pubblicità, tetti adeguati;
 - **il collegamento dei suoi dispositivi al suo account** — i suoi altri telefoni o tablet vengono scollegati e ridiventano semplici dispositivi anonimi.
+- **le lingue personali che lei ha creato** — il loro nome, il loro alfabeto, il loro lessico, i suoi token di condivisione e la sua cronologia di importazione. **Ciò che questa cancellazione non può fare:** se qualcun altro ha già importato una copia della sua lingua presso di sé, questa copia gli appartiene ormai e **sopravvive** alla sua cancellazione — come un messaggio già ricevuto da un terzo, non possiamo cancellarlo dal suo lato.
 
 Il dispositivo dal quale richiede la cancellazione viene **neutralizzato**: il suo collegamento al suo account è cancellato, la sua chiave di identificazione è distrutta e sostituita da un valore morto, la sua lingua e la sua versione dell'applicazione sono cancellate. Resta soltanto un numero opaco, che non consente più di identificarla né di ritrovare il dispositivo.
 
-**Non abbiamo mai memorizzato i suoi testi.** Né i testi che lei ha riformulato, né il testo letto sullo schermo dalla Lettura Assistita: non erano conservati da nessuna parte sui nostri server, non c'è quindi nulla da cancellare al riguardo.
+**Non abbiamo mai memorizzato i testi che lei ha riformulato, né il testo letto sullo schermo dalla Lettura Assistita**: non sono conservati da nessuna parte sui nostri server, non c'è quindi nulla da cancellare al riguardo. **Questo non vale per il lessico di una lingua personale che lei avesse creato**: il suo contenuto (nome, alfabeto, parole e definizioni) è effettivamente memorizzato sui nostri server — la cancellazione del suo account lo elimina, come il resto di ciò che le appartiene (vedere sotto).
 
 **Sul suo telefono**, i suoi persona, i suoi avatar, le sue impostazioni e le sue regole per applicazione sono memorizzati localmente. Vengono cancellati dalla cancellazione effettuata dall'applicazione e, in ogni caso, **scompaiono quando disinstalla Plume**.
 

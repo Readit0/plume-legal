@@ -1,7 +1,8 @@
 # Politique de confidentialité de Plume
 
-**Dernière mise à jour : 31 juillet 2026** — Version 1.0
+**Dernière mise à jour : 12 septembre 2026** — Version 2.0
 
+> *Ce qui a changé depuis la version 1.0, et pourquoi vous revoyez peut-être l'écran d'acceptation dans l'application :* nous corrigeons deux affirmations qui n'étaient plus exactes. D'abord, la fonctionnalité **langues personnelles** conserve sur nos serveurs le contenu que vous créez (nom, alphabet, lexique) — la version 1.0 affirmait à tort qu'aucun texte n'était stocké. Ensuite, nous utilisons désormais un outil de **rapport de plantage technique** (Sentry) — la version 1.0 affirmait qu'aucun outil de ce type n'existait. Le détail de ces deux points est en « En une minute » ci-dessous, ainsi qu'aux §3 et §9. Ce sont exactement les deux catégories de changement qui, dans l'application, déclenchent une nouvelle demande d'accord (voir §11).
 
 ---
 
@@ -24,7 +25,7 @@ Plume vous aide à écrire : elle reformule votre texte directement dans l'appli
 
 Trois choses à retenir :
 
-1. **Plume ne conserve aucun de vos textes sur ses serveurs.** Ni vos textes reformulés, ni le texte lu à l'écran. Nous n'en gardons ni copie, ni journal.
+1. **Plume ne conserve ni les textes que vous reformulez, ni le texte lu à l'écran.** Nous n'en gardons ni copie, ni journal. **Exception assumée, et volontaire :** si vous créez une **langue personnelle** (votre propre langue construite, avec son lexique de mots et leurs définitions), le contenu de cette langue **est**, lui, conservé sur nos serveurs — c'est le seul moyen de vous permettre de la retrouver sur un autre appareil, de la faire évoluer et de la partager. Le détail est au §3.
 2. **Selon le moteur que vous choisissez, votre texte quitte ou ne quitte pas votre téléphone.** Deux moteurs (le Kit local et l'IA locale) travaillent entièrement sur l'appareil. Le troisième (l'IA Cloud) envoie le texte à un service d'intelligence artificielle **situé hors de l'Union européenne**. Vous choisissez, et l'IA Cloud ne s'active jamais sans votre accord explicite.
 3. **Plume a besoin d'autorisations puissantes** (lire le contenu affiché dans les autres applications, capturer l'écran). Nous expliquons ci-dessous précisément ce qu'elles servent et ce qu'elles ne servent pas.
 
@@ -92,7 +93,7 @@ Le texte envoyé est plafonné : 1 200 caractères pour une reformulation, 4 000
 
 ## 3. Les données que nous conservons
 
-Nous n'utilisons **aucun outil d'analyse d'audience, aucun traceur publicitaire tiers, aucun outil de rapport de plantage**. L'application ne contient pas de SDK de mesure.
+Nous n'utilisons **aucun outil d'analyse d'audience et aucun traceur publicitaire tiers** en dehors de la publicité décrite au §5. **Nous utilisons un outil de rapport de plantage technique** (Sentry) : il ne voit que des erreurs de programme (type d'erreur, pile d'appel technique, version de l'app, système d'exploitation), jamais votre usage ni votre parcours, et jamais le texte que vous écrivez — un filtre dédié le lui interdit avant tout envoi. Le détail est au §9.
 
 Voici l'intégralité de ce qui est stocké sur nos serveurs :
 
@@ -105,6 +106,8 @@ Voici l'intégralité de ce qui est stocké sur nos serveurs :
 | **Suggestions envoyées volontairement** (si vous nous écrivez une suggestion de persona depuis l'application) | Améliorer le catalogue. Ces suggestions ne sont jamais publiées. | Jusqu'à la suppression de votre compte |
 | **Signaux techniques d'abus** (dépassements répétés, échec de contrôle d'intégrité — sans aucun texte) | Sécurité, lutte contre la fraude | Détachés de votre identité à la suppression du compte |
 | **Langue et version de l'application** | Servir le bon contenu | Jusqu'à la suppression de votre compte |
+| **Le contenu des langues personnelles que vous créez** (son nom, son alphabet, et son lexique — les mots et les définitions que vous, ou d'autres personnes, y avez écrits) | Vous permettre de retrouver votre langue sur un autre appareil, de la faire évoluer, et de la partager avec d'autres utilisateurs | Tant que la langue existe. Si vous la supprimez, sa fiche disparaît — mais une copie déjà **importée par une autre personne** lui appartient désormais et **survit**, comme un message déjà reçu par un tiers que nous ne pouvons pas aller effacer chez lui |
+| **Rapports de plantage technique** (type d'erreur, pile d'appel technique tronquée, version de l'app, système d'exploitation — jamais un contenu de texte) | Diagnostiquer et corriger les plantages de l'application | Régie par notre prestataire Sentry (voir §9). Cette collecte est soumise à votre consentement et à un interrupteur que nous pouvons couper à tout moment, sans mise à jour de l'application |
 
 **Ce que nous ne collectons pas :** votre nom, vos contacts, votre localisation, votre carnet d'adresses, vos photos, votre agenda, l'historique de vos applications. Plume ne demande aucune de ces autorisations.
 
@@ -181,22 +184,25 @@ Comme l'application permet de reformuler un texte libre et affiche de la publici
 | **Google Play / Google Billing** | Paiement, abonnements | Google Ireland / États-Unis |
 | **Google AdMob** | Publicité récompensée | Google Ireland / États-Unis |
 | **Google (services système du téléphone)** | Reconnaissance vocale, modules de traduction hors ligne | Selon votre appareil |
+| **Sentry** (Functional Software, Inc.) | Rapport de plantage technique — uniquement des erreurs du programme, filtrées avant envoi : jamais votre texte | États-Unis |
 
 **Nous ne vendons aucune donnée et n'en cédons aucune à des courtiers en données.**
 
-**Transferts hors Union européenne :** le recours à OpenRouter, à Google Play et à AdMob implique un transfert de données hors de l'Union européenne.
+**Transferts hors Union européenne :** le recours à OpenRouter, à Google Play, à AdMob et à Sentry implique un transfert de données hors de l'Union européenne.
 
 ---
 
 ## 10. Sécurité
 
-Les échanges entre l'application et nos serveurs sont chiffrés (HTTPS/TLS). L'accès aux données en base est restreint par des règles serveur : les fonctions sensibles ne sont pas accessibles depuis l'application. Aucun système n'est parfaitement sûr, mais aucun texte que vous reformulez n'est stocké chez nous — ce qui limite mécaniquement ce qu'une intrusion pourrait révéler.
+Les échanges entre l'application et nos serveurs sont chiffrés (HTTPS/TLS). L'accès aux données en base est restreint par des règles serveur : les fonctions sensibles ne sont pas accessibles depuis l'application. Aucun système n'est parfaitement sûr. Le texte que vous reformulez et celui que la Lecture Assistée affiche à l'écran ne sont pas stockés chez nous, ce qui limite mécaniquement ce qu'une intrusion pourrait révéler à leur sujet. **Ce n'est pas vrai de tout :** le lexique des langues personnelles que vous créez, lui, **est** stocké (voir §3), et serait exposé comme n'importe quelle autre donnée de cette politique en cas d'intrusion réelle — nous le protégeons avec les mêmes règles d'accès serveur que le reste.
 
 ---
 
 ## 11. Modifications
 
 Toute modification de cette politique sera publiée à l'adresse `https://readit0.github.io/plume-legal` avec une nouvelle date. En cas de changement important sur la circulation de vos données, nous vous en informerons dans l'application.
+
+**Depuis la version 2.0, cette promesse a un mécanisme concret derrière elle.** Une simple correction de forme (une date, une adresse, une précision) ne vous demande rien de plus. Mais un changement MATÉRIEL — un nouveau destinataire de vos données, une nouvelle catégorie de données collectées, une nouvelle finalité, ou un changement de vos droits ou du prix — fait réapparaître, une fois, l'écran d'acceptation dans l'application, avec un résumé de ce qui change et les deux documents à jour. C'est exactement ce qui s'est produit pour cette version 2.0 (voir l'encart en tête de ce document).
 
 ---
 

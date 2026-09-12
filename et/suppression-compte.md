@@ -1,6 +1,6 @@
 # Oma konto ja andmete kustutamine — Plume
 
-**Viimati uuendatud: 31. juuli 2026** — Versioon 1.0
+**Viimati uuendatud: 12. september 2026** — Versioon 2.0
 
 Asjaomane rakendus: **Plume** (`com.plume.plume`), välja andnud **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — avaldatud Google Play poes nime **openfunworld** all.
 
@@ -36,11 +36,12 @@ Kustutamine kaotab **lõplikult**:
 - **teie ettepanekud** — soovitused, mille olete meile rakendusest saatnud. See on ainus vabatekst, mida me talletame;
 - **teie päringute identifikaatorid** — tellitud ümbersõnastuste tehnilised viited;
 - **teie kvoodikrediidid ja avatud lisakasutused** — ostetud tarbimata krediidid, reklaami eest saadud lisakasutused, kohandatud ülempiirid;
-- **teie seadmete seotus teie kontoga** — teie muud telefonid või tahvelarvutid lahutatakse kontost ja neist saavad taas lihtsalt anonüümsed seadmed.
+- **teie seadmete seotus teie kontoga** — teie muud telefonid või tahvelarvutid lahutatakse kontost ja neist saavad taas lihtsalt anonüümsed seadmed;
+- **teie loodud isiklikud keeled** — nende nimi, tähestik, sõnavara, teie jagamisžetoonid ja teie importimisajalugu. **Mida see kustutamine ei suuda teha:** kui keegi teine on juba importinud koopia teie keelest, kuulub see koopia nüüd temale ja **jääb alles** ka pärast teie kustutamist — nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada.
 
 Seade, millest te kustutamist taotlete, **neutraliseeritakse**: selle seos teie kontoga kustutatakse, selle identifitseerimisvõti hävitatakse ja asendatakse surnud väärtusega, selle keel ja rakenduse versioon kustutatakse. Alles jääb ainult läbipaistmatu number, mis ei võimalda enam teid tuvastada ega seadet üles leida.
 
-**Me ei ole kunagi teie tekste talletanud.** Ei tekste, mida te ümber sõnastasite, ega teksti, mille abistatud lugemine ekraanilt luges: neid ei säilitatud meie serverites kusagil, seega ei ole seal midagi kustutada.
+**Me ei ole kunagi talletanud tekste, mida te ümber sõnastasite, ega teksti, mille abistatud lugemine ekraanilt luges**: neid ei säilitata meie serverites kusagil, seega ei ole seal midagi kustutada. **See ei kehti isikliku keele sõnavara kohta, mille te olete võib-olla loonud**: selle sisu (nimi, tähestik, sõnad ja määratlused) säilitatakse tõepoolest meie serverites — teie konto kustutamine kustutab selle, nagu kõik muu, mis teile kuulub (vt allpool).
 
 **Teie telefonis** on teie personad, teie avatarid, teie seaded ja teie rakendusepõhised reeglid salvestatud kohapeal. Rakendusest tehtud kustutamine kaotab need ning igal juhul **kaovad need siis, kui te Plume'i desinstallite**.
 

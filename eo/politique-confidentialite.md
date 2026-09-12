@@ -1,7 +1,8 @@
 # Politiko pri privateco de Plume
 
-**Lasta ĝisdatigo: la 31-a de julio 2026** — Versio 1.0
+**Lasta ĝisdatigo: la 12-a de septembro 2026** — Versio 2.0
 
+> *Kio ŝanĝiĝis de post la versio 1.0, kaj kial vi eble revidas la akcepto-ekranon en la aplikaĵo:* ni korektas du asertojn, kiuj ne plu estis precizaj. Unue, la funkcio **propraj lingvoj** konservas sur niaj serviloj la enhavon, kiun vi kreas (nomo, alfabeto, vortaro) — la versio 1.0 asertis erare, ke neniu teksto estis konservata. Due, ni nun uzas ilon pri **teknika kraŝo-raportado** (Sentry) — la versio 1.0 asertis, ke neniu tia ilo ekzistis. La detalo de tiuj du punktoj troviĝas en «En unu minuto» sube, kaj ankaŭ en §3 kaj §9. Tio estas ĝuste la du kategorioj de ŝanĝo, kiuj, en la aplikaĵo, ekigas novan konsentopeton (vidu §11).
 
 ---
 
@@ -24,7 +25,7 @@ Plume helpas vin skribi: ĝi reformulas vian tekston rekte en la aplikaĵo, en k
 
 Tri memorindaj aferoj:
 
-1. **Plume konservas neniun el viaj tekstoj sur siaj serviloj.** Nek viajn reformulitajn tekstojn, nek la tekston legitan sur la ekrano. Ni gardas pri ili nek kopion, nek protokolon.
+1. **Plume konservas nek la tekstojn, kiujn vi reformulas, nek la tekston legitan sur la ekrano.** Ni gardas pri ili nek kopion, nek protokolon. **Konscia kaj memvola escepto:** se vi kreas **propran lingvon** (vian propran konstruitan lingvon, kun ĝia vortaro de vortoj kaj iliaj difinoj), la enhavo de tiu lingvo **ja estas** konservata sur niaj serviloj — tio estas la sola maniero ebligi al vi retrovi ĝin sur alia aparato, evoluigi ĝin kaj kunhavigi ĝin. La detalo troviĝas en §3.
 2. **Laŭ la motoro, kiun vi elektas, via teksto forlasas aŭ ne forlasas vian telefonon.** Du motoroj (la loka Ilaro kaj la loka AI) laboras tute sur la aparato. La tria (la Nuba AI) sendas la tekston al servo de artefarita inteligenteco **situanta ekster la Eŭropa Unio**. Vi elektas, kaj la Nuba AI neniam aktiviĝas sen via eksplicita konsento.
 3. **Plume bezonas potencajn permesojn** (legi la enhavon montratan en la aliaj aplikaĵoj, kapti la ekranon). Ni klarigas sube precize, por kio ili servas kaj por kio ili ne servas.
 
@@ -92,7 +93,7 @@ La sendata teksto estas limigita: 1 200 signoj por reformulo, 4 000 signoj por e
 
 ## 3. La datumoj, kiujn ni konservas
 
-Ni uzas **neniun spektantar-analizilon, neniun eksteran reklaman spurilon, neniun ilon pri kraŝo-raportado**. La aplikaĵo enhavas neniun mezuran SDK-on.
+Ni uzas **neniun spektantar-analizilon kaj neniun eksteran reklaman spurilon**, krom la reklamado priskribita en §5. **Ni uzas ilon pri teknika kraŝo-raportado** (Sentry): ĝi vidas nur programajn erarojn (tipo de eraro, teknika voko-stako, versio de la aplikaĵo, operaciumo), neniam vian uzadon nek vian vojon, kaj neniam la tekston, kiun vi skribas — dediĉita filtrilo malpermesas tion antaŭ ĉia sendo. La detalo troviĝas en §9.
 
 Jen la tuto de tio, kio estas konservata sur niaj serviloj:
 
@@ -105,6 +106,8 @@ Jen la tuto de tio, kio estas konservata sur niaj serviloj:
 | **Sugestoj senditaj memvole** (se vi skribas al ni sugeston pri rolulo el la aplikaĵo) | Plibonigi la katalogon. Tiuj sugestoj neniam estas publikigataj. | Ĝis la forigo de via konto |
 | **Teknikaj signaloj pri misuzo** (ripetaj superpasoj, malsukceso de integreca kontrolo — sen ia ajn teksto) | Sekureco, batalo kontraŭ fraŭdo | Malligataj de via identeco ĉe la forigo de la konto |
 | **Lingvo kaj versio de la aplikaĵo** | Servi la ĝustan enhavon | Ĝis la forigo de via konto |
+| **La enhavo de la propraj lingvoj, kiujn vi kreas** (ĝia nomo, ĝia alfabeto, kaj ĝia vortaro — la vortoj kaj la difinoj, kiujn vi, aŭ aliaj personoj, skribis en ĝi) | Ebligi al vi retrovi vian lingvon sur alia aparato, evoluigi ĝin, kaj kunhavigi ĝin kun aliaj uzantoj | Dum la lingvo ekzistas. Se vi forigas ĝin, ĝia registro malaperas — sed kopio jam **importita de alia persono** apartenas de nun al tiu persono kaj **postvivas**, kiel mesaĝo jam ricevita de triulo, kiun ni ne povas iri forviŝi ĉe tiu |
+| **Teknikaj kraŝo-raportoj** (tipo de eraro, mallongigita teknika voko-stako, versio de la aplikaĵo, operaciumo — neniam teksta enhavo) | Diagnozi kaj ripari la kraŝojn de la aplikaĵo | Regata de nia provizanto Sentry (vidu §9). Tiu kolektado estas kondiĉigita de via konsento kaj de ŝaltilo, kiun ni povas malŝalti iam ajn, sen ĝisdatigo de la aplikaĵo |
 
 **Kion ni ne kolektas:** vian nomon, viajn kontaktojn, vian lokon, vian adresaron, viajn fotojn, vian kalendaron, la historion de viaj aplikaĵoj. Plume petas neniun el tiuj permesoj.
 
@@ -181,22 +184,25 @@ Plume estas ilo helpa por redaktado, destinita al publiko **de 16 jaroj kaj pli*
 | **Google Play / Google Billing** | Pago, abonoj | Google Ireland / Usono |
 | **Google AdMob** | Rekompenca reklamado | Google Ireland / Usono |
 | **Google (sistemaj servoj de la telefono)** | Voĉrekono, eksterretaj tradukaj moduloj | Laŭ via aparato |
+| **Sentry** (Functional Software, Inc.) | Teknika kraŝo-raportado — nur programaj eraroj, filtritaj antaŭ la sendo: neniam via teksto | Usono |
 
 **Ni vendas neniun datumon kaj cedas neniun al datum-makleristoj.**
 
-**Transdonoj ekster la Eŭropan Union:** la uzo de OpenRouter, de Google Play kaj de AdMob implicas transdonon de datumoj ekster la Eŭropan Union. La jura kadro de tiuj transdonoj (normaj kontraktaj klaŭzoj, adekvateca decido) **devas esti kontrolita kaj dokumentita de profesiulo antaŭ la publikigo** — vidu la noton je la fino de la dokumento.
+**Transdonoj ekster la Eŭropan Union:** la uzo de OpenRouter, de Google Play, de AdMob kaj de Sentry implicas transdonon de datumoj ekster la Eŭropan Union. La jura kadro de tiuj transdonoj (normaj kontraktaj klaŭzoj, adekvateca decido) **devas esti kontrolita kaj dokumentita de profesiulo antaŭ la publikigo** — vidu la noton je la fino de la dokumento.
 
 ---
 
 ## 10. Sekureco
 
-La interŝanĝoj inter la aplikaĵo kaj niaj serviloj estas ĉifritaj (HTTPS/TLS). La aliro al la datumoj en la datumbazo estas limigita per servilaj reguloj: la sentemaj funkcioj ne estas atingeblaj el la aplikaĵo. Neniu sistemo estas perfekte sekura, sed neniu teksto, kiun vi reformulas, estas konservata ĉe ni — kio mekanike limigas tion, kion entrudiĝo povus malkaŝi.
+La interŝanĝoj inter la aplikaĵo kaj niaj serviloj estas ĉifritaj (HTTPS/TLS). La aliro al la datumoj en la datumbazo estas limigita per servilaj reguloj: la sentemaj funkcioj ne estas atingeblaj el la aplikaĵo. Neniu sistemo estas perfekte sekura. La teksto, kiun vi reformulas, kaj tiu, kiun la Asistata Legado montras sur la ekrano, ne estas konservataj ĉe ni, kio mekanike limigas tion, kion entrudiĝo povus malkaŝi pri ili. **Tio ne validas por ĉio:** la vortaro de la propraj lingvoj, kiujn vi kreas, **ja estas** konservata (vidu §3), kaj estus malkaŝata kiel ĉia alia datumo de ĉi tiu politiko en okazo de reala entrudiĝo — ni protektas ĝin per la samaj servilaj alirreguloj kiel la ceteron.
 
 ---
 
 ## 11. Modifoj
 
 Ĉia modifo de ĉi tiu politiko estos publikigita ĉe la adreso `https://readit0.github.io/plume-legal` kun nova dato. Okaze de grava ŝanĝo pri la cirkulado de viaj datumoj, ni informos vin en la aplikaĵo.
+
+**De post la versio 2.0, tiu promeso havas konkretan mekanismon malantaŭ si.** Simpla forma korekto (dato, adreso, precizigo) petas de vi nenion plian. Sed GRAVA ŝanĝo — nova ricevanto de viaj datumoj, nova kategorio de kolektataj datumoj, nova celo, aŭ ŝanĝo de viaj rajtoj aŭ de la prezo — reaperigas, unufoje, la akcepto-ekranon en la aplikaĵo, kun resumo de tio, kio ŝanĝiĝas, kaj la du ĝisdatigitaj dokumentoj. Tio estas ĝuste tio, kio okazis por ĉi tiu versio 2.0 (vidu la enkadrigon ĉe la komenco de ĉi tiu dokumento).
 
 ---
 

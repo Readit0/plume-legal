@@ -1,6 +1,8 @@
 # Plume'i privaatsuspoliitika
 
-**Viimati uuendatud: 31. juuli 2026** — Versioon 1.0
+**Viimati uuendatud: 12. september 2026** — Versioon 2.0
+
+> *Mis on muutunud alates versioonist 1.0 ja miks te võite rakenduses uuesti näha nõustumisekraani:* parandame kaks väidet, mis ei olnud enam täpsed. Esiteks, funktsioon **isiklikud keeled** säilitab meie serverites sisu, mille te loote (nimi, tähestik, sõnavara) — versioon 1.0 väitis ekslikult, et ühtegi teksti ei säilitata. Teiseks kasutame nüüd **tehnilise vealogimise** tööriista (Sentry) — versioon 1.0 väitis, et ühtegi sellist tööriista ei ole olemas. Nende kahe punkti üksikasjad on allpool jaotises „Ühe minutiga“ ning samuti §3-s ja §9-s. Need on täpselt need kaks muudatuste kategooriat, mis rakenduses käivitavad uue nõusolekutaotluse (vt § 11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume aitab teil kirjutada: see sõnastab teie teksti ümber otse selles rakendu
 
 Kolm asja, mida meeles pidada:
 
-1. **Plume ei säilita ühtegi teie teksti oma serverites.** Ei teie ümbersõnastatud tekste ega ekraanilt loetud teksti. Me ei hoia neist ei koopiat ega logi.
+1. **Plume ei säilita ei teie ümbersõnastatud tekste ega ekraanilt loetud teksti.** Me ei hoia neist ei koopiat ega logi. **Teadlik ja tahtlik erand:** kui te loote **isikliku keele** (oma isikliku loodud keele koos selle sõnade ja määratluste sõnavaraga), siis selle keele sisu **säilitatakse** meie serverites — see on ainus viis võimaldada teil see leida uuest seadmest, seda edasi arendada ja jagada. Üksikasjad on §3-s.
 2. **Sõltuvalt sellest, millise mootori te valite, kas teie tekst lahkub teie telefonist või mitte.** Kaks mootorit (kohalik komplekt ja kohalik tehisintellekt) töötavad täielikult seadmes. Kolmas (pilve-tehisintellekt) saadab teksti tehisintellekti teenusele, mis **asub väljaspool Euroopa Liitu**. Valiku teete teie ja pilve-tehisintellekt ei lülitu kunagi sisse ilma teie selgesõnalise nõusolekuta.
 3. **Plume vajab võimsaid lubasid** (lugeda teistes rakendustes kuvatavat sisu, jäädvustada ekraani). Allpool selgitame täpselt, milleks need on ja milleks need ei ole.
 
@@ -91,7 +93,7 @@ Saadetaval tekstil on ülempiir: 1 200 tähemärki ümbersõnastuse puhul ja 4 0
 
 ## 3. Andmed, mida me säilitame
 
-Me ei kasuta **ühtegi külastatavuse analüüsi tööriista, ühtegi kolmanda isiku reklaamijälgijat ega ühtegi tõrketeadete tööriista**. Rakendus ei sisalda mõõtmis-SDK-d.
+Me ei kasuta **ühtegi külastatavuse analüüsi tööriista ega ühtegi kolmanda isiku reklaamijälgijat**, välja arvatud § 5-s kirjeldatud reklaam. **Kasutame tehnilise vealogimise tööriista** (Sentry): see näeb ainult programmivigu (vea tüüp, tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem), mitte kunagi teie kasutust ega teie tegevusteed ning mitte kunagi teksti, mida te kirjutate — spetsiaalne filter keelab selle enne igasugust saatmist. Üksikasjad on §9-s.
 
 Siin on kõik, mis meie serverites talletatakse:
 
@@ -104,6 +106,8 @@ Siin on kõik, mis meie serverites talletatakse:
 | **Vabatahtlikult saadetud ettepanekud** (kui saadate meile rakendusest persona ettepaneku) | Kataloogi täiendamiseks. Neid ettepanekuid ei avaldata kunagi. | Kuni teie konto kustutamiseni |
 | **Kuritarvituse tehnilised signaalid** (korduvad ületamised, terviklikkuse kontrolli ebaõnnestumine — ilma ühegi tekstita) | Turvalisus, pettusevastane võitlus | Konto kustutamisel teie isikust lahutatud |
 | **Rakenduse keel ja versioon** | Õige sisu edastamiseks | Kuni teie konto kustutamiseni |
+| **Isiklike keelte sisu, mille te loote** (selle nimi, tähestik ja sõnavara — sõnad ja määratlused, mille teie või teised isikud on sinna kirjutanud) | Võimaldada teil oma keel teises seadmes leida, seda edasi arendada ja teiste kasutajatega jagada | Seni, kuni keel eksisteerib. Kui te selle kustutate, kaob selle kirje — kuid koopia, mille **on juba importinud teine isik**, kuulub nüüd sellele isikule ja **jääb alles**, nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada |
+| **Tehnilised vearaportid** (vea tüüp, lühendatud tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem — mitte kunagi tekstisisu) | Rakenduse tõrgete diagnoosimine ja parandamine | Seda reguleerib meie teenusepakkuja Sentry (vt §9). See kogumine sõltub teie nõusolekust ja lülitist, mille võime igal ajal välja lülitada, ilma rakendust uuendamata |
 
 **Mida me ei kogu:** teie nime, teie kontakte, teie asukohta, teie aadressiraamatut, teie fotosid, teie kalendrit, teie rakenduste ajalugu. Plume ei küsi ühtegi neist lubadest.
 
@@ -180,22 +184,25 @@ Kuna rakendus võimaldab vaba teksti ümber sõnastada ja kuvab reklaami, ei sob
 | **Google Play / Google Billing** | Makse, tellimused | Google Ireland / Ameerika Ühendriigid |
 | **Google AdMob** | Preemiareklaam | Google Ireland / Ameerika Ühendriigid |
 | **Google (telefoni süsteemiteenused)** | Kõnetuvastus, võrguühenduseta tõlkemoodulid | Sõltub teie seadmest |
+| **Sentry** (Functional Software, Inc.) | Tehniline vealogimine — ainult programmivead, filtreeritud enne saatmist: mitte kunagi teie tekst | Ameerika Ühendriigid |
 
 **Me ei müü ühtegi andmet ega loovuta neid andmemaakleritele.**
 
-**Edastamine väljapoole Euroopa Liitu:** OpenRouteri, Google Play ja AdMobi kasutamine tähendab andmete edastamist väljapoole Euroopa Liitu. Nende edastamiste õiguslik raamistik (lepingu tüüptingimused, kaitse piisavuse otsus) **tuleb enne avaldamist spetsialistil kontrollida ja dokumenteerida** — vt märkust dokumendi lõpus.
+**Edastamine väljapoole Euroopa Liitu:** OpenRouteri, Google Play, AdMobi ja Sentry kasutamine tähendab andmete edastamist väljapoole Euroopa Liitu. Nende edastamiste õiguslik raamistik (lepingu tüüptingimused, kaitse piisavuse otsus) **tuleb enne avaldamist spetsialistil kontrollida ja dokumenteerida** — vt märkust dokumendi lõpus.
 
 ---
 
 ## 10. Turvalisus
 
-Rakenduse ja meie serverite vaheline andmevahetus on krüpteeritud (HTTPS/TLS). Juurdepääsu andmebaasis olevatele andmetele piiravad serveripoolsed reeglid: tundlikud funktsioonid ei ole rakendusest ligipääsetavad. Ükski süsteem ei ole täiuslikult turvaline, kuid ühtegi teie ümbersõnastatud teksti meil ei säilitata — see piirab paratamatult seda, mida sissetung võiks paljastada.
+Rakenduse ja meie serverite vaheline andmevahetus on krüpteeritud (HTTPS/TLS). Juurdepääsu andmebaasis olevatele andmetele piiravad serveripoolsed reeglid: tundlikud funktsioonid ei ole rakendusest ligipääsetavad. Ükski süsteem ei ole täiuslikult turvaline. Teksti, mida te ümber sõnastate, ja teksti, mida abistatud lugemine ekraanil kuvab, meil ei säilitata, mis piirab paratamatult seda, mida sissetung võiks selle kohta paljastada. **See ei kehti kõige kohta:** isiklike keelte sõnavara, mille te loote, **säilitatakse** (vt §3) ja see paljastuks tegeliku sissetungi korral nagu iga muu käesolevas poliitikas nimetatud andmed — me kaitseme seda samade serveripoolsete juurdepääsureeglitega nagu kõike muud.
 
 ---
 
 ## 11. Muudatused
 
 Igast käesoleva poliitika muudatusest teatatakse aadressil `https://readit0.github.io/plume-legal` koos uue kuupäevaga. Kui teie andmete liikumises toimub oluline muudatus, teavitame teid sellest rakenduses.
+
+**Alates versioonist 2.0 on sellel lubadusel konkreetne mehhanism selle taga.** Lihtne vormiline parandus (kuupäev, aadress, täpsustus) ei nõua teilt midagi enamat. Kuid OLULINE muudatus — uus andmete saaja, uus kogutavate andmete kategooria, uus eesmärk või muudatus teie õigustes või hinnas — toob rakenduses üks kord tagasi nõustumisekraani koos kokkuvõttega sellest, mis muutub, ning kahe ajakohastatud dokumendiga. Täpselt see juhtus käesoleva versiooniga 2.0 (vt selgitust käesoleva dokumendi alguses).
 
 ---
 

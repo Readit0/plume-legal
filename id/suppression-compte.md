@@ -1,6 +1,6 @@
 # Menghapus akun dan data Anda — Plume
 
-**Terakhir diperbarui: 31 Juli 2026** — Versi 1.0
+**Terakhir diperbarui: 12 September 2026** — Versi 2.0
 
 Aplikasi yang bersangkutan: **Plume** (`com.plume.plume`), diterbitkan oleh **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — dipublikasikan di Google Play dengan nama **openfunworld**.
 
@@ -37,10 +37,11 @@ Penghapusan menghilangkan **secara permanen**:
 - **identitas permintaan Anda** — rujukan teknis penyusunan ulang yang diminta;
 - **kredit dan pembukaan kuota Anda** — kredit yang dibeli tetapi belum terpakai, pembukaan yang diperoleh lewat iklan, batas yang telah disesuaikan;
 - **penautan perangkat Anda ke akun Anda** — ponsel atau tablet Anda yang lain dilepaskan dan kembali menjadi sekadar perangkat anonim.
+- **bahasa pribadi yang telah Anda buat** — namanya, aksaranya, kosakatanya, token berbagi Anda, dan riwayat impor Anda. **Apa yang tidak dapat dilakukan oleh penghapusan ini:** jika orang lain telah mengimpor sebuah salinan bahasa Anda ke perangkatnya, salinan itu sejak itu menjadi miliknya dan **tetap ada** setelah penghapusan Anda — seperti sebuah pesan yang sudah diterima oleh pihak ketiga, yang tidak dapat kami hapuskan di sisi mereka.
 
 Perangkat yang Anda gunakan untuk meminta penghapusan **dinetralkan**: penautannya ke akun Anda dihapus, kunci identifikasinya dimusnahkan dan diganti dengan sebuah nilai mati, bahasa dan versi aplikasinya dihapus. Yang tersisa hanyalah sebuah nomor buram, yang tidak lagi memungkinkan siapa pun mengenali Anda maupun menemukan perangkat itu.
 
-**Kami tidak pernah menyimpan teks Anda.** Baik teks yang Anda susun ulang, maupun teks yang dibaca di layar oleh Bacaan Terbantu: keduanya tidak tersimpan di mana pun pada server kami, jadi tidak ada yang perlu dihapus.
+**Kami tidak pernah menyimpan teks yang Anda susun ulang, maupun teks yang dibaca di layar oleh Bacaan Terbantu**: keduanya tidak tersimpan di mana pun pada server kami, jadi tidak ada yang perlu dihapus. **Ini tidak berlaku untuk kosakata sebuah bahasa pribadi yang mungkin telah Anda buat**: kontennya (nama, aksara, kata-kata, dan definisi) memang disimpan di server kami — penghapusan akun Anda menghapusnya juga, seperti hal-hal lain yang menjadi milik Anda (lihat di bawah).
 
 **Di ponsel Anda**, persona Anda, avatar Anda, pengaturan Anda, dan aturan per aplikasi Anda tersimpan secara lokal. Semuanya dihapus oleh penghapusan dari dalam aplikasi, dan bagaimanapun juga **hilang ketika Anda menghapus instalasi Plume**.
 

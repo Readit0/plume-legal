@@ -1,6 +1,8 @@
 # Lietotnes Plume privātuma politika
 
-**Pēdējoreiz atjaunināts: 2026. gada 31. jūlijs** — Versija 1.0
+**Pēdējoreiz atjaunināts: 2026. gada 12. septembris** — Versija 2.0
+
+> *Kas ir mainījies kopš versijas 1.0 un kāpēc jūs, iespējams, lietotnē atkal redzēsiet piekrišanas ekrānu:* mēs labojam divus apgalvojumus, kas vairs nebija precīzi. Pirmkārt, funkcija **personiskās valodas** mūsu serveros saglabā jūsu izveidoto saturu (nosaukumu, alfabētu, vārdnīcu) — versijā 1.0 tika kļūdaini apgalvots, ka neviens teksts netiek saglabāts. Otrkārt, mēs tagad izmantojam **tehnisko avāriju ziņošanas** rīku (Sentry) — versijā 1.0 tika apgalvots, ka šāda rīka nav. Sīkāka informācija par abiem šiem punktiem ir sadaļā „Vienā minūtē" tālāk, kā arī 3. un 9. sadaļā. Tieši šīs divas izmaiņu kategorijas lietotnē izraisa jaunu piekrišanas pieprasījumu (skatīt 11. sadaļu).
 
 ---
 
@@ -23,7 +25,7 @@ Plume palīdz jums rakstīt: tā pārformulē jūsu tekstu tieši tajā lietotn�
 
 Trīs lietas, kas jāatceras:
 
-1. **Plume nesaglabā nevienu jūsu tekstu savos serveros.** Ne jūsu pārformulētos tekstus, ne no ekrāna nolasīto tekstu. Mēs neglabājam ne kopiju, ne žurnālierakstu.
+1. **Plume nesaglabā ne jūsu pārformulētos tekstus, ne no ekrāna nolasīto tekstu.** Mēs neglabājam ne to kopiju, ne žurnālierakstu. **Apzināts un labprātīgs izņēmums:** ja jūs izveidojat **personisko valodu** (savu paša izveidotu valodu ar vārdu un to definīciju vārdnīcu), šīs valodas saturs **gan tiek** saglabāts mūsu serveros — tas ir vienīgais veids, kā ļaut jums to atrast citā ierīcē, to attīstīt un ar to dalīties. Sīkāk sk. 3. sadaļā.
 2. **Atkarībā no izvēlētā dzinēja jūsu teksts vai nu pamet, vai nepamet jūsu tālruni.** Divi dzinēji (vietējais komplekts un vietējais MI) darbojas pilnībā ierīcē. Trešais (mākoņa MI) nosūta tekstu mākslīgā intelekta pakalpojumam, kas **atrodas ārpus Eiropas Savienības**. Izvēle ir jūsu, un mākoņa MI nekad neieslēdzas bez jūsu skaidri paustas piekrišanas.
 3. **Plume ir vajadzīgas jaudīgas atļaujas** (lasīt citās lietotnēs redzamo saturu, tvert ekrānu). Turpmāk mēs precīzi paskaidrojam, kam tās kalpo un kam nekalpo.
 
@@ -91,7 +93,7 @@ Nosūtāmajam tekstam ir noteikts ierobežojums: 1 200 rakstzīmes pārformulē�
 
 ## 3. Dati, ko mēs saglabājam
 
-Mēs neizmantojam **nevienu auditorijas analīzes rīku, nevienu trešās puses reklāmas izsekotāju, nevienu avāriju ziņošanas rīku**. Lietotnē nav mērīšanas SDK.
+Mēs neizmantojam **nevienu auditorijas analīzes rīku un nevienu trešās puses reklāmas izsekotāju**, izņemot 5. sadaļā aprakstīto reklāmu. **Mēs izmantojam tehnisko avāriju ziņošanas rīku** (Sentry): tas redz tikai programmas kļūdas (kļūdas veidu, tehnisko izsaukumu steku, lietotnes versiju, operētājsistēmu), nekad jūsu lietojumu vai darbību secību, un nekad jūsu rakstīto tekstu — īpašs filtrs to aizliedz pirms jebkādas nosūtīšanas. Sīkāk sk. 9. sadaļā.
 
 Lūk, viss, kas tiek glabāts mūsu serveros:
 
@@ -104,6 +106,8 @@ Lūk, viss, kas tiek glabāts mūsu serveros:
 | **Brīvprātīgi nosūtīti ieteikumi** (ja no lietotnes atsūtāt mums personas ieteikumu) | Papildināt katalogu. Šie ieteikumi nekad netiek publiskoti. | Līdz jūsu konta dzēšanai |
 | **Tehniskie ļaunprātīgas izmantošanas signāli** (atkārtoti pārsniegumi, integritātes pārbaudes neizdošanās — bez jebkāda teksta) | Drošība, cīņa pret krāpšanu | Konta dzēšanas brīdī atdalīti no jūsu identitātes |
 | **Lietotnes valoda un versija** | Piegādāt pareizo saturu | Līdz jūsu konta dzēšanai |
+| **Jūsu izveidoto personisko valodu saturs** (to nosaukums, alfabēts un vārdnīca — vārdi un definīcijas, ko jūs vai citas personas tajā ir ierakstījušas) | Ļaut jums atrast savu valodu citā ierīcē, to attīstīt un ar to dalīties ar citiem lietotājiem | Kamēr valoda pastāv. Ja jūs to dzēšat, tās ieraksts pazūd — taču jau **citas personas importēta** kopija tad pieder šai personai un **turpina pastāvēt**, tāpat kā ziņa, ko jau saņēmusi trešā puse un ko mēs nevaram aiziet izdzēst pie viņas |
+| **Tehniskās avāriju ziņošanas** (kļūdas veids, saīsināts tehniskais izsaukumu steks, lietotnes versija, operētājsistēma — nekad teksta saturs) | Diagnosticēt un labot lietotnes avārijas | Regulē mūsu pakalpojumu sniedzējs Sentry (skatīt 9. sadaļu). Šī vākšana ir pakļauta jūsu piekrišanai un slēdzim, ko mēs jebkurā brīdī varam izslēgt bez lietotnes atjauninājuma |
 
 **Ko mēs nevācam:** jūsu vārdu, jūsu kontaktus, jūsu atrašanās vietu, jūsu adrešu grāmatu, jūsu fotoattēlus, jūsu kalendāru, jūsu lietotņu vēsturi. Plume nepieprasa nevienu no šīm atļaujām.
 
@@ -180,22 +184,25 @@ Tā kā lietotne ļauj pārformulēt brīvu tekstu un rāda reklāmu, tā nav at
 | **Google Play / Google Billing** | Maksājumi, abonementi | Google Ireland / Amerikas Savienotās Valstis |
 | **Google AdMob** | Apbalvotā reklāma | Google Ireland / Amerikas Savienotās Valstis |
 | **Google (tālruņa sistēmas pakalpojumi)** | Runas atpazīšana, bezsaistes tulkošanas moduļi | Atkarībā no jūsu ierīces |
+| **Sentry** (Functional Software, Inc.) | Tehniskā avāriju ziņošana — tikai programmas kļūdas, filtrētas pirms nosūtīšanas: nekad jūsu teksts | Amerikas Savienotās Valstis |
 
 **Mēs nepārdodam nekādus datus un nenododam tos datu brokeriem.**
 
-**Nosūtīšana ārpus Eiropas Savienības:** OpenRouter, Google Play un AdMob izmantošana nozīmē datu nosūtīšanu ārpus Eiropas Savienības. Šo nosūtīšanu juridiskais ietvars (līguma standartklauzulas, lēmums par aizsardzības līmeņa pietiekamību) **pirms publicēšanas ir jāpārbauda un jādokumentē profesionālim** — sk. piezīmi dokumenta beigās.
+**Nosūtīšana ārpus Eiropas Savienības:** OpenRouter, Google Play, AdMob un Sentry izmantošana nozīmē datu nosūtīšanu ārpus Eiropas Savienības. Šo nosūtīšanu juridiskais ietvars (līguma standartklauzulas, lēmums par aizsardzības līmeņa pietiekamību) **pirms publicēšanas ir jāpārbauda un jādokumentē profesionālim** — sk. piezīmi dokumenta beigās.
 
 ---
 
 ## 10. Drošība
 
-Apmaiņa starp lietotni un mūsu serveriem ir šifrēta (HTTPS/TLS). Piekļuvi datiem datubāzē ierobežo servera puses noteikumi: jutīgās funkcijas nav pieejamas no lietotnes. Neviena sistēma nav pilnīgi droša, taču neviens jūsu pārformulētais teksts pie mums netiek glabāts — kas mehāniski ierobežo to, ko ielaušanās varētu atklāt.
+Apmaiņa starp lietotni un mūsu serveriem ir šifrēta (HTTPS/TLS). Piekļuvi datiem datubāzē ierobežo servera puses noteikumi: jutīgās funkcijas nav pieejamas no lietotnes. Neviena sistēma nav pilnīgi droša. Teksts, ko jūs pārformulējat, un teksts, ko Asistētā lasīšana parāda ekrānā, pie mums netiek glabāts, kas mehāniski ierobežo to, ko ielaušanās par tiem varētu atklāt. **Tas neattiecas uz visu:** jūsu izveidoto personisko valodu vārdnīca gan **tiek** glabāta (skatīt 3. sadaļu) un reālas ielaušanās gadījumā tiktu atklāta tāpat kā jebkurš cits šajā politikā minētais dati — mēs to aizsargājam ar tādiem pašiem servera piekļuves noteikumiem kā pārējo.
 
 ---
 
 ## 11. Grozījumi
 
 Ikviens šīs politikas grozījums tiks publicēts adresē `https://readit0.github.io/plume-legal` ar jaunu datumu. Ja notiks būtiskas izmaiņas jūsu datu apritē, mēs jūs par to informēsim lietotnē.
+
+**Kopš versijas 2.0 šim solījumam ir konkrēts mehānisms.** Vienkārša formas labošana (datums, adrese, precizējums) no jums neko papildu neprasa. Taču BŪTISKAS izmaiņas — jauns jūsu datu saņēmējs, jauna vākto datu kategorija, jauns nolūks vai jūsu tiesību vai cenas maiņa — liek lietotnē vienreiz atkal parādīties piekrišanas ekrānam ar izmaiņu kopsavilkumu un abiem atjauninātajiem dokumentiem. Tieši tas ir noticis ar šo versiju 2.0 (skatīt ievadu šā dokumenta sākumā).
 
 ---
 

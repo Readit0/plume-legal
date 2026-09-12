@@ -1,6 +1,6 @@
 # Skrap jou rekening en jou data — Plume
 
-**Laas bygewerk: 31 Julie 2026** — Weergawe 1.0
+**Laas bygewerk: 12 September 2026** — Weergawe 2.0
 
 Betrokke app: **Plume** (`com.plume.plume`), uitgegee deur **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — op Google Play gepubliseer onder die naam **openfunworld**.
 
@@ -36,11 +36,12 @@ Die skrapping vee **finaal** uit:
 - **jou voorstelle** — die voorstelle wat jy dalk uit die app aan ons gestuur het. Dit is die enigste vrye teks wat ons stoor;
 - **jou versoekidentifiseerders** — die tegniese verwysings van die herformulerings wat aangevra is;
 - **jou krediete en kwota-ontsluitings** — gekoopte krediete wat nie verbruik is nie, ontsluitings wat deur advertensies verkry is, aangepaste plafonne;
-- **die koppeling van jou toestelle aan jou rekening** — jou ander fone of tablette word ontkoppel en word weer eenvoudige anonieme toestelle.
+- **die koppeling van jou toestelle aan jou rekening** — jou ander fone of tablette word ontkoppel en word weer eenvoudige anonieme toestelle;
+- **die persoonlike tale wat jy geskep het** — hulle naam, hulle alfabet, hulle leksikon, jou deel-tekens en jou invoergeskiedenis. **Wat hierdie skrapping nie kan doen nie:** as iemand anders reeds 'n kopie van jou taal by hulle ingevoer het, behoort daardie kopie voortaan aan hulle en **oorleef** dit jou skrapping — soos 'n boodskap wat reeds deur 'n derde party ontvang is, wat ons nie aan hulle kant kan uitvee nie.
 
 Die toestel waarvandaan jy die skrapping aanvra, word **geneutraliseer**: die koppeling daarvan aan jou rekening word uitgevee, die identifikasiesleutel daarvan word vernietig en deur 'n dooie waarde vervang, en die taal en die appweergawe daarvan word uitgevee. Daar bly net 'n ondeursigtige nommer oor, wat dit nie meer moontlik maak om jou te identifiseer of om die toestel op te spoor nie.
 
-**Ons het jou tekste nooit gestoor nie.** Nie die tekste wat jy herformuleer het nie, en ook nie die teks wat deur Ondersteunde Lees van die skerm gelees is nie: hulle is nêrens op ons bedieners bewaar nie, en daar is dus niks daarvan om te skrap nie.
+**Ons het die tekste wat jy herformuleer het, en die teks wat deur Ondersteunde Lees van die skerm gelees is, nooit gestoor nie**: hulle word nêrens op ons bedieners bewaar nie, en daar is dus niks daarvan om te skrap nie. **Dit geld nie vir die leksikon van 'n persoonlike taal wat jy dalk geskep het nie:** die inhoud daarvan (naam, alfabet, woorde en definisies) word wél op ons bedieners gestoor — die skrapping van jou rekening vee dit uit, soos die res van wat aan jou behoort (sien hieronder).
 
 **Op jou foon** word jou personas, jou avatars, jou instellings en jou reëls per app plaaslik gestoor. Hulle word deur die skrapping vanuit die app uitgevee, en verdwyn in elk geval **wanneer jy Plume deïnstalleer**.
 

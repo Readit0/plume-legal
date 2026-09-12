@@ -1,6 +1,6 @@
 # Usunięcie Twojego konta i Twoich danych — Plume
 
-**Ostatnia aktualizacja: 31 lipca 2026 r.** — Wersja 1.0
+**Ostatnia aktualizacja: 12 września 2026 r.** — Wersja 2.0
 
 Aplikacja, której dotyczy: **Plume** (`com.plume.plume`), wydawana przez **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikowana w Google Play pod nazwą **openfunworld**.
 
@@ -36,11 +36,12 @@ Usunięcie kasuje **bezpowrotnie**:
 - **Twoje sugestie** — propozycje, które zostałyby nam przez Ciebie przesłane z poziomu aplikacji. To jedyny dowolny tekst, jaki przechowywaliśmy;
 - **Twoje identyfikatory żądań** — techniczne odniesienia zleconych przeformułowań;
 - **Twoje kredyty i odblokowania limitu** — zakupione, a niewykorzystane kredyty, odblokowania uzyskane za reklamy, skorygowane limity;
-- **powiązanie Twoich urządzeń z Twoim kontem** — Twoje pozostałe telefony lub tablety zostają odłączone i stają się z powrotem zwykłymi anonimowymi urządzeniami.
+- **powiązanie Twoich urządzeń z Twoim kontem** — Twoje pozostałe telefony lub tablety zostają odłączone i stają się z powrotem zwykłymi anonimowymi urządzeniami;
+- **języki własne, które zostały przez Ciebie stworzone** — ich nazwa, alfabet, słownik, Twoje tokeny udostępniania i historia importu. **Czego to usunięcie nie może zrobić:** jeśli ktoś inny zaimportował już u siebie kopię Twojego języka, ta kopia należy odtąd do niego i **przetrwa** Twoje usunięcie — tak jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć z jej strony.
 
 Urządzenie, z którego żądasz usunięcia, zostaje **zneutralizowane**: jego powiązanie z Twoim kontem zostaje skasowane, jego klucz identyfikacyjny zostaje zniszczony i zastąpiony wartością martwą, jego język i wersja aplikacji zostają skasowane. Pozostaje wyłącznie nieprzejrzysty numer, który nie pozwala już ani Cię zidentyfikować, ani odnaleźć urządzenia.
 
-**Nigdy nie przechowywaliśmy Twoich tekstów.** Ani tekstów, które zostały przez Ciebie przeformułowane, ani tekstu odczytanego z ekranu przez Czytanie Wspomagane: nie były one nigdzie zachowywane na naszych serwerach, nie ma zatem czego usuwać.
+**Nigdy nie przechowywaliśmy tekstów, które zostały przez Ciebie przeformułowane, ani tekstu odczytanego z ekranu przez Czytanie Wspomagane**: nie są one nigdzie zachowywane na naszych serwerach, nie ma zatem czego usuwać. **Nie dotyczy to słownika ewentualnie stworzonego przez Ciebie języka własnego:** jego treść (nazwa, alfabet, słowa i definicje) jest rzeczywiście przechowywana na naszych serwerach — usunięcie Twojego konta ją kasuje, tak jak resztę tego, co do Ciebie należy (zob. poniżej).
 
 **W Twoim telefonie** Twoje persony, Twoje awatary, Twoje ustawienia i Twoje reguły dla poszczególnych aplikacji są przechowywane lokalnie. Są kasowane przez usunięcie wykonane z poziomu aplikacji, a w każdym razie **znikają, gdy odinstalujesz Plume**.
 

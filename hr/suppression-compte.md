@@ -1,6 +1,6 @@
 # Brisanje vašeg računa i vaših podataka — Plume
 
-**Posljednje ažuriranje: 31. srpnja 2026.** — Verzija 1.0
+**Posljednje ažuriranje: 12. rujna 2026.** — Verzija 2.0
 
 Obuhvaćena aplikacija: **Plume** (`com.plume.plume`), koju izdaje **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — objavljena na Google Playu pod imenom **openfunworld**.
 
@@ -37,10 +37,11 @@ Brisanje **trajno** uklanja:
 - **vaše identifikatore zahtjeva** — tehničke reference zatraženih preoblikovanja;
 - **vaše kredite i otključavanja kvote** — kupljene neiskorištene kredite, otključavanja dobivena oglasom, prilagođene gornje granice;
 - **povezanost vaših uređaja s vašim računom** — vaši drugi telefoni ili tableti odvezuju se i ponovno postaju obični anonimni uređaji.
+- **osobne jezike koje ste stvorili** — njihov naziv, njihovo pismo, njihov rječnik, vaše tokene za dijeljenje i vašu povijest uvoza. **Što ovo brisanje ne može učiniti:** ako je netko drugi već uvezao kopiju vašeg jezika kod sebe, ta kopija od tada pripada njemu i **opstaje** nakon vašeg brisanja — poput poruke koju je treća strana već primila, ne možemo je izbrisati kod nje.
 
 Uređaj s kojeg tražite brisanje **neutralizira se**: njegova povezanost s vašim računom briše se, njegov identifikacijski ključ uništava se i zamjenjuje mrtvom vrijednošću, njegov jezik i verzija aplikacije brišu se. Ostaje samo neproziran broj, koji više ne omogućuje ni da se vas identificira ni da se pronađe uređaj.
 
-**Nikada nismo pohranjivali vaše tekstove.** Ni tekstove koje ste preoblikovali ni tekst koji je Potpomognuto čitanje pročitalo sa zaslona: nisu se čuvali nigdje na našim poslužiteljima, pa od njih nema ništa za izbrisati.
+**Nikada nismo pohranjivali tekstove koje ste preoblikovali ni tekst koji je Potpomognuto čitanje pročitalo sa zaslona**: ne čuvaju se nigdje na našim poslužiteljima, pa od njih nema ništa za izbrisati. **To ne vrijedi za rječnik osobnog jezika koji ste eventualno stvorili**: njegov sadržaj (naziv, pismo, riječi i značenja) doista se pohranjuje na našim poslužiteljima — brisanje vašeg računa briše i njega, kao i sve ostalo što vam pripada (vidjeti dolje).
 
 **Na vašem telefonu** vaše persone, vaši avatari, vaše postavke i vaša pravila po aplikaciji pohranjeni su lokalno. Briše ih brisanje pokrenuto iz aplikacije, a u svakom slučaju **nestaju kada deinstalirate Plume**.
 

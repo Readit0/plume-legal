@@ -1,6 +1,6 @@
 # Savo paskyros ir duomenų ištrynimas — Plume
 
-**Paskutinį kartą atnaujinta: 2026 m. liepos 31 d.** — Versija 1.0
+**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 12 d.** — Versija 2.0
 
 Susijusi programėlė: **Plume** (`com.plume.plume`), kurią leidžia **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — paskelbta Google Play parduotuvėje vardu **openfunworld**.
 
@@ -36,11 +36,12 @@ Ištrynimas **negrįžtamai** panaikina:
 - **jūsų pasiūlymus** — pasiūlymus, kuriuos mums atsiuntėte iš programėlės. Tai vienintelis laisvas tekstas, kurį saugome;
 - **jūsų užklausų identifikatorius** — prašytų performulavimų technines nuorodas;
 - **jūsų kvotos kreditus ir atrakinimus** — nupirktus nesunaudotus kreditus, už reklamą gautus atrakinimus, pakoreguotas ribas;
-- **jūsų įrenginių susiejimą su jūsų paskyra** — kiti jūsų telefonai ar planšetiniai kompiuteriai atsiejami ir vėl tampa paprastais anoniminiais įrenginiais.
+- **jūsų įrenginių susiejimą su jūsų paskyra** — kiti jūsų telefonai ar planšetiniai kompiuteriai atsiejami ir vėl tampa paprastais anoniminiais įrenginiais;
+- **jūsų sukurtos individualios kalbos** — jų pavadinimas, abėcėlė, žodynas, jūsų dalijimosi žetonai ir importavimo istorija. **Ko šis ištrynimas negali padaryti:** jei kas nors kitas jau importavo jūsų kalbos kopiją pas save, ta kopija dabar priklauso jam ir **išlieka** po jūsų ištrynimo — kaip jau trečiosios šalies gautas pranešimas, kurio negalime pas juos ištrinti.
 
 Įrenginys, iš kurio prašote ištrynimo, yra **neutralizuojamas**: jo susiejimas su jūsų paskyra ištrinamas, jo identifikavimo raktas sunaikinamas ir pakeičiamas negyva reikšme, jo kalba ir programėlės versija ištrinamos. Lieka tik neperprantamas numeris, kuris nebeleidžia nei jūsų identifikuoti, nei rasti įrenginio.
 
-**Mes niekada nesaugojome jūsų tekstų.** Nei tekstų, kuriuos performulavote, nei teksto, kurį nuo ekrano nuskaitė pagalbinis skaitymas: jie niekur mūsų serveriuose nebuvo saugomi, todėl ten nėra ko trinti.
+**Mes niekada nesaugojome tekstų, kuriuos performulavote, nei teksto, kurį nuo ekrano nuskaitė pagalbinis skaitymas**: jie niekur mūsų serveriuose nesaugomi, todėl ten nėra ko trinti. **Tai negalioja individualios kalbos, kurią būtumėte sukūrę, žodynui**: jo turinys (pavadinimas, abėcėlė, žodžiai ir apibrėžimai) iš tiesų saugomas mūsų serveriuose — jūsų paskyros ištrynimas jį pašalina, kaip ir likusią jums priklausančią nuosavybę (žr. toliau).
 
 **Jūsų telefone** jūsų personos, jūsų avatarai, jūsų nustatymai ir jūsų taisyklės kiekvienai programėlei saugomi vietoje. Juos ištrina ištrynimas iš programėlės, ir bet kuriuo atveju jie **dingsta, kai pašalinate Plume**.
 

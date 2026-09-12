@@ -1,6 +1,16 @@
 # Persónuverndarstefna Plume
 
-**Síðast uppfært: 31. júlí 2026** — Útgáfa 1.0
+**Síðast uppfært: 12. september 2026** — Útgáfa 2.0
+
+> *Hvað breyttist frá útgáfu 1.0, og hvers vegna þú gætir séð samþykkisskjáinn
+> aftur í forritinu:* við leiðréttum tvær fullyrðingar sem voru ekki lengur réttar.
+> Í fyrsta lagi geymir eiginleikinn **eigin tungumál** á netþjónum okkar það efni
+> sem þú býrð til (nafn, stafróf, orðasafn) — útgáfa 1.0 fullyrti ranglega að enginn
+> texti væri geymdur. Í öðru lagi notum við nú tól til **tæknilegrar hrunskýrslu**
+> (Sentry) — útgáfa 1.0 fullyrti að ekkert slíkt tól væri til. Nánar er fjallað um
+> þessi tvö atriði í „Á einni mínútu“ hér á eftir, sem og í §3 og §9. Þetta eru
+> nákvæmlega þær tvær tegundir breytinga sem, í forritinu, kalla fram nýja
+> samþykkisbeiðni (sjá §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume hjálpar þér að skrifa: forritið umorðar textann þinn beint í því
 
 Þrennt er vert að muna:
 
-1. **Plume geymir engan af textunum þínum á netþjónum sínum.** Hvorki umorðaða textana þína né textann sem lesinn er af skjánum. Við geymum hvorki afrit né atburðaskrá.
+1. **Plume geymir hvorki umorðaða textana þína né textann sem lesinn er af skjánum.** Við geymum hvorki afrit né atburðaskrá. **Undantekning sem við tökum meðvitað á okkur, og af fúsum vilja:** ef þú býrð til **eigið tungumál** (eigið uppspunnið tungumál, með orðasafni orða og merkinga þeirra), þá **er** efni þess tungumáls geymt á netþjónum okkar — það er eina leiðin til að gera þér kleift að finna það aftur í öðru tæki, þróa það áfram og deila því. Nánar er fjallað um það í §3.
 2. **Eftir því hvaða vél þú velur fer textinn þinn út úr símanum þínum — eða ekki.** Tvær vélar (Staðbundni búnaðurinn og Staðbundna gervigreindin) vinna alfarið í tækinu. Sú þriðja (Skýjagervigreindin) sendir textann til gervigreindarþjónustu **sem er staðsett utan Evrópusambandsins**. Þú ræður valinu, og Skýjagervigreindin fer aldrei í gang án skýlauss samþykkis þíns.
 3. **Plume þarf víðtækar heimildir** (að lesa efnið sem birtist í öðrum forritum og að taka upp skjáinn). Hér á eftir útskýrum við nákvæmlega til hvers þær eru notaðar og til hvers þær eru ekki notaðar.
 
@@ -91,7 +101,7 @@ Textinn sem sendur er hefur þak: 1.200 stafir fyrir umorðun, 4.000 stafir fyri
 
 ## 3. Gögnin sem við geymum
 
-Við notum **ekkert tól til notendagreiningar, engan auglýsingarekjara frá þriðja aðila og ekkert tól til hrunskýrslna**. Forritið inniheldur ekkert mælinga-SDK.
+Við notum **ekkert tól til notendagreiningar og engan auglýsingarekjara frá þriðja aðila** fyrir utan auglýsingarnar sem lýst er í §5. **Við notum tól til tæknilegrar hrunskýrslu** (Sentry): það sér aðeins forritsvillur (tegund villu, tækniferil kalla, útgáfu forritsins, stýrikerfið), aldrei notkun þína eða feril þinn, og aldrei textann sem þú skrifar — sérstök sía kemur í veg fyrir það áður en nokkuð er sent. Nánar er fjallað um það í §9.
 
 Hér er allt sem geymt er á netþjónum okkar:
 
@@ -104,6 +114,8 @@ Hér er allt sem geymt er á netþjónum okkar:
 | **Ábendingar sem sendar eru af fúsum vilja** (ef þú sendir okkur tillögu að persónu úr forritinu) | Bæta safnið. Þessar ábendingar eru aldrei birtar opinberlega. | Þar til aðgangi þínum er eytt |
 | **Tæknileg merki um misnotkun** (endurtekin yfirkeyrsla marka, misheppnuð heilleikaprófun — án nokkurs texta) | Öryggi, barátta gegn svikum | Aftengd persónu þinni þegar aðgangi er eytt |
 | **Tungumál og útgáfa forritsins** | Afhenda rétt efni | Þar til aðgangi þínum er eytt |
+| **Efni þeirra eigin tungumála sem þú býrð til** (nafn þess, stafróf þess og orðasafn þess — orðin og merkingarnar sem þú, eða aðrir, hafið skrifað í það) | Gera þér kleift að finna tungumálið þitt aftur í öðru tæki, þróa það áfram og deila því með öðrum notendum | Á meðan tungumálið er til. Ef þú eyðir því hverfur færslan — en afrit sem þegar hefur verið **flutt inn af öðrum aðila** tilheyrir þá honum og **lifir áfram**, líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti og við getum ekki fengið eytt hjá honum |
+| **Tæknilegar hrunskýrslur** (tegund villu, stytt tækniferill kalla, útgáfa forritsins, stýrikerfið — aldrei textaefni) | Greina og laga hrun forritsins | Í umsjá þjónustuaðila okkar, Sentry (sjá §9). Þessi söfnun er háð samþykki þínu og rofa sem við getum slökkt á hvenær sem er, án uppfærslu á forritinu |
 
 **Það sem við söfnum ekki:** nafnið þitt, tengiliðina þína, staðsetningu þína, netfangaskrána þína, myndirnar þínar, dagatalið þitt, sögu forritanotkunar þinnar. Plume biður ekki um neina af þessum heimildum.
 
@@ -180,22 +192,25 @@ Plume er hjálpartæki við ritun, ætlað notendum **16 ára og eldri**. Við s
 | **Google Play / Google Billing** | Greiðslur, áskriftir | Google Ireland / Bandaríkin |
 | **Google AdMob** | Verðlaunaauglýsingar | Google Ireland / Bandaríkin |
 | **Google (kerfisþjónustur símans)** | Talgreining, þýðingareiningar án nettengingar | Eftir tækinu þínu |
+| **Sentry** (Functional Software, Inc.) | Tæknileg hrunskýrsla — aðeins forritsvillur, síaðar áður en þær eru sendar: aldrei textinn þinn | Bandaríkin |
 
 **Við seljum engin gögn og látum engin gögn af hendi til gagnamiðlara.**
 
-**Flutningar út fyrir Evrópusambandið:** notkun OpenRouter, Google Play og AdMob felur í sér flutning gagna út fyrir Evrópusambandið. Lagalega umgjörð þessara flutninga (stöðluð samningsákvæði, ákvörðun um fullnægjandi vernd) **þarf fagaðili að sannreyna og skjalfesta fyrir birtingu** — sjá athugasemdina aftast í skjalinu.
+**Flutningar út fyrir Evrópusambandið:** notkun OpenRouter, Google Play, AdMob og Sentry felur í sér flutning gagna út fyrir Evrópusambandið. Lagalega umgjörð þessara flutninga (stöðluð samningsákvæði, ákvörðun um fullnægjandi vernd) **þarf fagaðili að sannreyna og skjalfesta fyrir birtingu** — sjá athugasemdina aftast í skjalinu.
 
 ---
 
 ## 10. Öryggi
 
-Samskipti forritsins og netþjóna okkar eru dulkóðuð (HTTPS/TLS). Aðgangur að gögnunum í gagnagrunninum er takmarkaður með reglum netþjónsmegin: viðkvæmu aðgerðirnar eru ekki aðgengilegar úr forritinu. Ekkert kerfi er fullkomlega öruggt, en enginn texti sem þú umorðar er geymdur hjá okkur — sem takmarkar með vélrænum hætti hvað innbrot gæti leitt í ljós.
+Samskipti forritsins og netþjóna okkar eru dulkóðuð (HTTPS/TLS). Aðgangur að gögnunum í gagnagrunninum er takmarkaður með reglum netþjónsmegin: viðkvæmu aðgerðirnar eru ekki aðgengilegar úr forritinu. Ekkert kerfi er fullkomlega öruggt. Textinn sem þú umorðar og sá texti sem Studdur lestur birtir á skjánum eru ekki geymdir hjá okkur, sem takmarkar með vélrænum hætti hvað innbrot gæti leitt í ljós um þau. **Þetta á ekki við um allt:** orðasafn þeirra eigin tungumála sem þú býrð til er hins vegar geymt (sjá §3), og yrði afhjúpað eins og önnur gögn í þessari stefnu ef til raunverulegs innbrots kæmi — við verjum það með sömu reglum um aðgang netþjónsmegin og annað.
 
 ---
 
 ## 11. Breytingar
 
 Sérhver breyting á þessari stefnu verður birt á slóðinni `https://readit0.github.io/plume-legal` með nýrri dagsetningu. Verði mikilvæg breyting á því hvernig gögnin þín ferðast látum við þig vita í forritinu.
+
+**Frá og með útgáfu 2.0 hefur þetta loforð áþreifanlegan búnað á bak við sig.** Einföld formleg leiðrétting (dagsetning, heimilisfang, skýring) krefst einskis frekar af þér. En VERULEG breyting — nýr viðtakandi gagna þinna, nýr flokkur safnaðra gagna, nýr tilgangur, eða breyting á réttindum þínum eða verði — lætur samþykkisskjáinn birtast aftur, í eitt skipti, í forritinu, ásamt samantekt á því sem breytist og báðum uppfærðu skjölunum. Það er nákvæmlega það sem gerðist fyrir þessa útgáfu 2.0 (sjá rammann fremst í þessu skjali).
 
 ---
 

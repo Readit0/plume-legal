@@ -1,6 +1,6 @@
 # Xóa tài khoản và dữ liệu của bạn — Plume
 
-**Cập nhật lần cuối: ngày 31 tháng 7 năm 2026** — Phiên bản 1.0
+**Cập nhật lần cuối: ngày 12 tháng 9 năm 2026** — Phiên bản 2.0
 
 Ứng dụng liên quan: **Plume** (`com.plume.plume`), do **SASU RedLine Music** phát hành, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — phát hành trên Google Play dưới tên **openfunworld**.
 
@@ -37,10 +37,11 @@ Việc xóa sẽ xóa **vĩnh viễn**:
 - **các mã yêu cầu của bạn** — những tham chiếu kỹ thuật của các lượt viết lại đã yêu cầu;
 - **các tín dụng và lượt mở khóa hạn mức của bạn** — tín dụng đã mua chưa dùng, lượt mở khóa có được nhờ quảng cáo, các mức trần đã điều chỉnh;
 - **việc gắn các thiết bị của bạn với tài khoản** — những điện thoại hay máy tính bảng khác của bạn được gỡ liên kết và trở lại thành những thiết bị ẩn danh đơn thuần.
+- **các ngôn ngữ cá nhân mà bạn đã tạo ra** — tên gọi, bảng chữ cái, từ điển, các mã chia sẻ và lịch sử nhập của bạn. **Điều mà việc xóa này không thể làm được:** nếu một người khác đã nhập một bản sao ngôn ngữ của bạn về máy của họ, bản sao đó từ nay thuộc về họ và **vẫn tồn tại** sau khi bạn xóa — giống như một tin nhắn mà một bên thứ ba đã nhận được, chúng tôi không thể xóa nó khỏi phía họ.
 
 Thiết bị mà từ đó bạn yêu cầu xóa sẽ được **vô hiệu hóa**: việc gắn nó với tài khoản của bạn bị xóa, khóa định danh của nó bị hủy và được thay bằng một giá trị chết, ngôn ngữ và phiên bản ứng dụng của nó bị xóa. Chỉ còn lại một dãy số vô nghĩa, không còn cho phép nhận dạng bạn cũng như tìm lại thiết bị.
 
-**Chúng tôi chưa bao giờ lưu trữ văn bản của bạn.** Không lưu những văn bản bạn đã viết lại, cũng không lưu văn bản mà Đọc Có Hỗ Trợ đọc trên màn hình: chúng chưa từng được giữ ở bất kỳ đâu trên máy chủ của chúng tôi, nên không có gì để xóa cả.
+**Chúng tôi chưa bao giờ lưu trữ những văn bản bạn đã viết lại, cũng như văn bản mà Đọc Có Hỗ Trợ đọc trên màn hình**: chúng chưa từng được giữ ở bất kỳ đâu trên máy chủ của chúng tôi, nên không có gì để xóa cả. **Điều này không đúng với từ điển của một ngôn ngữ cá nhân mà bạn có thể đã tạo ra**: nội dung của nó (tên gọi, bảng chữ cái, các từ và định nghĩa) thực sự được lưu giữ trên máy chủ của chúng tôi — việc xóa tài khoản của bạn sẽ xóa nó, cũng như phần còn lại của những gì thuộc về bạn (xem bên dưới).
 
 **Trên điện thoại của bạn**, các persona, ảnh đại diện, thiết lập và quy tắc theo từng ứng dụng của bạn được lưu cục bộ. Chúng bị xóa khi bạn thực hiện việc xóa từ trong ứng dụng, và trong mọi trường hợp **chúng biến mất khi bạn gỡ cài đặt Plume**.
 

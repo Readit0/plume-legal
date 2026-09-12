@@ -1,6 +1,15 @@
 # Politika e privatësisë e Plume
 
-**Përditësimi i fundit: 31 korrik 2026** — Versioni 1.0
+**Përditësimi i fundit: 12 shtator 2026** — Versioni 2.0
+
+> *Çfarë ka ndryshuar që nga versioni 1.0, dhe pse ndoshta po e shihni sërish ekranin e pranimit
+> në aplikacion:* po korrigjojmë dy pohime që nuk ishin më të sakta. Së pari, funksioni i
+> **gjuhëve personale** ruan në serverët tanë përmbajtjen që krijoni (emrin, alfabetin, leksikun)
+> — versioni 1.0 pohonte gabimisht se asnjë tekst nuk ruhej. Së dyti, tani përdorim një mjet
+> **raportimi të plantimeve teknike** (Sentry) — versioni 1.0 pohonte se nuk ekzistonte asnjë mjet
+> i këtij lloji. Hollësitë e këtyre dy pikave gjenden te «Në një minutë» më poshtë, si dhe te §3
+> dhe §9. Këto janë saktësisht dy kategoritë e ndryshimit që, në aplikacion, aktivizojnë një
+> kërkesë të re pëlqimi (shih §11).
 
 ---
 
@@ -23,7 +32,7 @@ Plume ju ndihmon të shkruani: ajo e riformulon tekstin tuaj drejtpërdrejt në 
 
 Tri gjëra për t'i mbajtur mend:
 
-1. **Plume nuk ruan asnjë nga tekstet tuaja në serverët e saj.** As tekstet tuaja të riformuluara, as tekstin e lexuar në ekran. Nuk mbajmë as kopje, as regjistër të tyre.
+1. **Plume nuk ruan as tekstet që riformuloni, as tekstin e lexuar në ekran.** Nuk mbajmë as kopje, as regjistër të tyre. **Përjashtim i pranuar, dhe i vullnetar:** nëse krijoni një **gjuhë personale** (gjuhën tuaj të ndërtuar, me leksikun e saj të fjalëve dhe përkufizimeve të tyre), përmbajtja e kësaj gjuhe **ruhet** në serverët tanë — kjo është mënyra e vetme për t'ju lejuar ta gjeni përsëri në një pajisje tjetër, ta zhvilloni dhe ta ndani me të tjerët. Hollësitë gjenden te §3.
 2. **Në varësi të motorit që zgjidhni, teksti juaj del ose nuk del nga telefoni juaj.** Dy motorë (Kiti lokal dhe IA-ja lokale) punojnë tërësisht në pajisje. I treti (IA-ja Cloud) ia dërgon tekstin një shërbimi të inteligjencës artificiale **të vendosur jashtë Bashkimit Evropian**. Ju zgjidhni, dhe IA-ja Cloud nuk aktivizohet kurrë pa pëlqimin tuaj të shprehur.
 3. **Plume ka nevojë për leje të fuqishme** (të lexojë përmbajtjen e shfaqur në aplikacionet e tjera, të kapë ekranin). Më poshtë shpjegojmë saktësisht për çfarë shërbejnë dhe për çfarë nuk shërbejnë.
 
@@ -91,7 +100,7 @@ Teksti i dërguar është i kufizuar: 1 200 karaktere për një riformulim, 4 00
 
 ## 3. Të dhënat që ruajmë
 
-Nuk përdorim **asnjë mjet analize të audiencës, asnjë gjurmues reklamash të palëve të treta, asnjë mjet raportimi të përplasjeve**. Aplikacioni nuk përmban SDK matjeje.
+Ne nuk përdorim **asnjë mjet analize të audiencës dhe asnjë gjurmues reklamash të palëve të treta** përveç reklamave të përshkruara në §5. **Ne përdorim një mjet raportimi të plantimeve teknike** (Sentry): ai sheh vetëm gabime të programit (llojin e gabimit, stivën teknike të thirrjeve, versionin e aplikacionit, sistemin operativ), asnjëherë përdorimin tuaj apo rrugëtimin tuaj, dhe asnjëherë tekstin që shkruani — një filtër i posaçëm ia ndalon këtë para çdo dërgimi. Hollësitë gjenden te §9.
 
 Ja gjithçka që ruhet në serverët tanë:
 
@@ -104,6 +113,8 @@ Ja gjithçka që ruhet në serverët tanë:
 | **Sugjerimet e dërguara vullnetarisht** (nëse na shkruani një sugjerim persona nga aplikacioni) | Të përmirësojë katalogun. Këto sugjerime nuk publikohen kurrë. | Deri në fshirjen e llogarisë suaj |
 | **Sinjalet teknike të abuzimit** (tejkalime të përsëritura, dështim i kontrollit të integritetit — pa asnjë tekst) | Siguria, lufta kundër mashtrimit | Të shkëputura nga identiteti juaj në fshirjen e llogarisë |
 | **Gjuha dhe versioni i aplikacionit** | Të shërbejë përmbajtjen e duhur | Deri në fshirjen e llogarisë suaj |
+| **Përmbajtja e gjuhëve personale që krijoni** (emri i saj, alfabeti i saj, dhe leksiku i saj — fjalët dhe përkufizimet që ju, ose persona të tjerë, keni shkruar në të) | T'ju lejojë ta gjeni gjuhën tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani me përdorues të tjerë | Për sa kohë që gjuha ekziston. Nëse e fshini, skeda e saj zhduket — por një kopje tashmë **e importuar nga një person tjetër** i përket tashmë atij dhe **mbijeton**, si një mesazh i marrë tashmë nga një palë e tretë, të cilin ne nuk mund të shkojmë ta fshijmë te ai |
+| **Raportet e plantimeve teknike** (lloji i gabimit, stiva teknike e thirrjeve e shkurtuar, versioni i aplikacionit, sistemi operativ — asnjëherë përmbajtje teksti) | Të diagnostikojë dhe të korrigjojë plantimet e aplikacionit | Rregulluar nga ofruesi ynë Sentry (shih §9). Kjo mbledhje i nënshtrohet pëlqimit tuaj dhe një çelësi që mund ta fikim në çdo kohë, pa asnjë përditësim të aplikacionit |
 
 **Çfarë nuk mbledhim:** emrin tuaj, kontaktet tuaja, vendndodhjen tuaj, adresarin tuaj, fotografitë tuaja, kalendarin tuaj, historikun e aplikacioneve tuaja. Plume nuk kërkon asnjë nga këto leje.
 
@@ -180,22 +191,25 @@ Meqenëse aplikacioni lejon riformulimin e një teksti të lirë dhe shfaq rekla
 | **Google Play / Google Billing** | Pagesa, abonimet | Google Ireland / Shtetet e Bashkuara |
 | **Google AdMob** | Reklamat me shpërblim | Google Ireland / Shtetet e Bashkuara |
 | **Google (shërbimet e sistemit të telefonit)** | Njohja e zërit, modulet e përkthimit jashtë linje | Sipas pajisjes suaj |
+| **Sentry** (Functional Software, Inc.) | Raportim i plantimeve teknike — vetëm gabime të programit, të filtruara para dërgimit: asnjëherë teksti juaj | Shtetet e Bashkuara |
 
 **Nuk shesim asnjë të dhënë dhe nuk i japim asnjë ndërmjetësi të dhënash.**
 
-**Transferimet jashtë Bashkimit Evropian:** përdorimi i OpenRouter, i Google Play dhe i AdMob nënkupton një transferim të të dhënave jashtë Bashkimit Evropian. Korniza juridike e këtyre transferimeve (klauzolat kontraktuale standarde, vendimi i përshtatshmërisë) **duhet të verifikohet dhe të dokumentohet nga një profesionist para publikimit** — shih shënimin në fund të dokumentit.
+**Transferimet jashtë Bashkimit Evropian:** përdorimi i OpenRouter, i Google Play, i AdMob dhe i Sentry nënkupton një transferim të të dhënave jashtë Bashkimit Evropian. Korniza juridike e këtyre transferimeve (klauzolat kontraktuale standarde, vendimi i përshtatshmërisë) **duhet të verifikohet dhe të dokumentohet nga një profesionist para publikimit** — shih shënimin në fund të dokumentit.
 
 ---
 
 ## 10. Siguria
 
-Shkëmbimet mes aplikacionit dhe serverëve tanë janë të koduara (HTTPS/TLS). Aksesi te të dhënat në bazë kufizohet nga rregulla serverike: funksionet e ndjeshme nuk janë të arritshme nga aplikacioni. Asnjë sistem nuk është përsosmërisht i sigurt, por asnjë tekst që ju riformuloni nuk ruhet te ne — çka e kufizon mekanikisht atë që një ndërhyrje do të mund të zbulonte.
+Shkëmbimet mes aplikacionit dhe serverëve tanë janë të koduara (HTTPS/TLS). Aksesi te të dhënat në bazë kufizohet nga rregulla serverike: funksionet e ndjeshme nuk janë të arritshme nga aplikacioni. Asnjë sistem nuk është përsosmërisht i sigurt. Teksti që ju riformuloni dhe ai që Leximi i Asistuar shfaq në ekran nuk ruhen te ne, çka e kufizon mekanikisht atë që një ndërhyrje do të mund të zbulonte për to. **Kjo nuk vlen për gjithçka:** leksiku i gjuhëve personale që krijoni, ai, **ruhet** (shih §3), dhe do të ekspozohej si çdo e dhënë tjetër e kësaj politike në rast të një ndërhyrjeje reale — ne e mbrojmë atë me të njëjtat rregulla aksesi serverik si gjithçka tjetër.
 
 ---
 
 ## 11. Ndryshimet
 
 Çdo ndryshim i kësaj politike do të publikohet në adresën `https://readit0.github.io/plume-legal` me një datë të re. Në rast ndryshimi të rëndësishëm në qarkullimin e të dhënave tuaja, do t'ju informojmë brenda aplikacionit.
+
+**Që nga versioni 2.0, ky premtim mbështetet nga një mekanizëm konkret.** Një korrigjim i thjeshtë forme (një datë, një adresë, një saktësim) nuk ju kërkon asgjë më shumë. Por një ndryshim MATERIAL — një marrës i ri i të dhënave tuaja, një kategori e re e të dhënave të mbledhura, një qëllim i ri, ose një ndryshim i të drejtave tuaja apo i çmimit — bën që ekrani i pranimit në aplikacion të rishfaqet një herë, me një përmbledhje të asaj që ndryshon dhe të dy dokumentet e përditësuara. Kjo është saktësisht ajo që ndodhi për këtë version 2.0 (shih kutinë në krye të këtij dokumenti).
 
 ---
 

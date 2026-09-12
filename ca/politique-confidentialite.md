@@ -1,7 +1,8 @@
 # Política de privadesa de Plume
 
-**Última actualització: 31 de juliol de 2026** — Versió 1.0
+**Última actualització: 12 de setembre de 2026** — Versió 2.0
 
+> *Què ha canviat des de la versió 1.0, i per què és possible que torni a aparèixer la pantalla d'acceptació a l'aplicació:* corregim dues afirmacions que ja no eren exactes. En primer lloc, la funció **idiomes personals** conserva als nostres servidors el contingut que crea (nom, alfabet, lèxic) — la versió 1.0 afirmava erròniament que no es guardava cap text. En segon lloc, ara utilitzem una eina d'**informe d'errors tècnics** (Sentry) — la versió 1.0 afirmava que no existia cap eina d'aquest tipus. El detall d'aquests dos punts és a «En un minut» més avall, així com als §3 i §9. Aquestes són exactament les dues categories de canvi que, a l'aplicació, desencadenen una nova sol·licitud d'acord (vegeu §11).
 
 ---
 
@@ -24,7 +25,7 @@ Plume l'ajuda a escriure: reformula el seu text directament a l'aplicació on es
 
 Tres coses que cal recordar:
 
-1. **Plume no conserva cap dels seus textos als seus servidors.** Ni els textos reformulats, ni el text llegit a la pantalla. No en guardem ni còpia ni registre.
+1. **Plume no conserva els textos que reformula, ni el text llegit a la pantalla.** No en guardem ni còpia ni registre. **Excepció assumida i voluntària:** si crea un **idioma personal** (el seu propi idioma construït, amb el seu lèxic de paraules i les seves definicions), el contingut d'aquest idioma **sí que es conserva** als nostres servidors — és l'única manera de permetre-li retrobar-lo en un altre dispositiu, fer-lo evolucionar i compartir-lo. El detall és al §3.
 2. **Segons el motor que triï, el seu text surt o no surt del seu telèfon.** Dos motors (el Kit local i la IA local) treballen íntegrament al dispositiu. El tercer (la IA Cloud) envia el text a un servei d'intel·ligència artificial **situat fora de la Unió Europea**. Vostè tria, i la IA Cloud no s'activa mai sense el seu acord explícit.
 3. **Plume necessita permisos potents** (llegir el contingut que es mostra a les altres aplicacions, capturar la pantalla). Més avall expliquem amb precisió per a què serveixen i per a què no serveixen.
 
@@ -92,7 +93,7 @@ El text enviat té un límit: 1.200 caràcters per a una reformulació, 4.000 ca
 
 ## 3. Les dades que conservem
 
-No utilitzem **cap eina d'analítica d'audiència, cap rastrejador publicitari de tercers, cap eina d'informe d'errors**. L'aplicació no conté cap SDK de mesurament.
+No utilitzem **cap eina d'analítica d'audiència ni cap rastrejador publicitari de tercers**, fora de la publicitat descrita al §5. **Utilitzem una eina d'informe d'errors tècnics** (Sentry): només veu errors de programa (tipus d'error, pila de trucades tècnica, versió de l'aplicació, sistema operatiu), mai el seu ús ni el seu recorregut, i mai el text que escriu — un filtre dedicat ho impedeix abans de qualsevol enviament. El detall és al §9.
 
 Això és tot el que s'emmagatzema als nostres servidors:
 
@@ -105,6 +106,8 @@ Això és tot el que s'emmagatzema als nostres servidors:
 | **Suggeriments enviats voluntàriament** (si ens escriu un suggeriment de persona des de l'aplicació) | Millorar el catàleg. Aquests suggeriments no es publiquen mai. | Fins a la supressió del seu compte |
 | **Senyals tècnics d'abús** (excessos repetits, fallada del control d'integritat, sense cap text) | Seguretat, lluita contra el frau | Desvinculats de la seva identitat en suprimir el compte |
 | **Idioma i versió de l'aplicació** | Servir el contingut correcte | Fins a la supressió del seu compte |
+| **El contingut dels idiomes personals que crea** (el seu nom, el seu alfabet i el seu lèxic — les paraules i les definicions que vostè, o altres persones, hi han escrit) | Permetre-li retrobar el seu idioma en un altre dispositiu, fer-lo evolucionar, i compartir-lo amb altres usuaris | Mentre l'idioma existeixi. Si el suprimeix, la seva fitxa desapareix — però una còpia ja **importada per una altra persona** passa a pertànyer-li i **sobreviu**, com un missatge ja rebut per un tercer que no podem anar a esborrar a casa seva |
+| **Informes d'errors tècnics** (tipus d'error, pila de trucades tècnica truncada, versió de l'aplicació, sistema operatiu — mai un contingut de text) | Diagnosticar i corregir els errors de l'aplicació | Regit pel nostre proveïdor Sentry (vegeu §9). Aquesta recollida està subjecta al seu consentiment i a un interruptor que podem desactivar en qualsevol moment, sense actualització de l'aplicació |
 
 **El que no recollim:** el seu nom, els seus contactes, la seva ubicació, la seva llibreta d'adreces, les seves fotos, la seva agenda, l'historial de les seves aplicacions. Plume no demana cap d'aquests permisos.
 
@@ -181,22 +184,25 @@ Com que l'aplicació permet reformular un text lliure i mostra publicitat, no é
 | **Google Play / Google Billing** | Pagament, subscripcions | Google Ireland / Estats Units |
 | **Google AdMob** | Publicitat amb recompensa | Google Ireland / Estats Units |
 | **Google (serveis de sistema del telèfon)** | Reconeixement de veu, mòduls de traducció fora de línia | Segons el seu dispositiu |
+| **Sentry** (Functional Software, Inc.) | Informe d'errors tècnics — únicament errors del programa, filtrats abans de l'enviament: mai el seu text | Estats Units |
 
 **No venem cap dada ni en cedim cap a corredors de dades.**
 
-**Transferències fora de la Unió Europea:** el recurs a OpenRouter, a Google Play i a AdMob implica una transferència de dades fora de la Unió Europea. L'enquadrament jurídic d'aquestes transferències (clàusules contractuals tipus, decisió d'adequació) **ha de ser verificat i documentat per un professional abans de la publicació**: vegeu la nota al final del document.
+**Transferències fora de la Unió Europea:** el recurs a OpenRouter, a Google Play, a AdMob i a Sentry implica una transferència de dades fora de la Unió Europea. L'enquadrament jurídic d'aquestes transferències (clàusules contractuals tipus, decisió d'adequació) **ha de ser verificat i documentat per un professional abans de la publicació**: vegeu la nota al final del document.
 
 ---
 
 ## 10. Seguretat
 
-Els intercanvis entre l'aplicació i els nostres servidors estan xifrats (HTTPS/TLS). L'accés a les dades de la base està restringit per regles de servidor: les funcions sensibles no són accessibles des de l'aplicació. Cap sistema no és perfectament segur, però cap text que vostè reformula no s'emmagatzema a casa nostra, cosa que limita mecànicament el que una intrusió podria revelar.
+Els intercanvis entre l'aplicació i els nostres servidors estan xifrats (HTTPS/TLS). L'accés a les dades de la base està restringit per regles de servidor: les funcions sensibles no són accessibles des de l'aplicació. Cap sistema no és perfectament segur. El text que vostè reformula i el que la Lectura Assistida mostra a la pantalla no s'emmagatzemen a casa nostra, cosa que limita mecànicament el que una intrusió en podria revelar. **Això no és cert de tot:** el lèxic dels idiomes personals que crea, en canvi, **sí que s'emmagatzema** (vegeu §3), i quedaria exposat com qualsevol altra dada d'aquesta política en cas d'una intrusió real — el protegim amb les mateixes regles d'accés de servidor que la resta.
 
 ---
 
 ## 11. Modificacions
 
 Qualsevol modificació d'aquesta política es publicarà a l'adreça `https://readit0.github.io/plume-legal` amb una data nova. En cas de canvi important en la circulació de les seves dades, l'informarem dins de l'aplicació.
+
+**Des de la versió 2.0, aquesta promesa té un mecanisme concret al darrere.** Una simple correcció de forma (una data, una adreça, una precisió) no li demana res més. Però un canvi MATERIAL — un nou destinatari de les seves dades, una nova categoria de dades recollides, una nova finalitat, o un canvi dels seus drets o del preu — fa reaparèixer, una vegada, la pantalla d'acceptació a l'aplicació, amb un resum del que canvia i els dos documents actualitzats. Això és exactament el que ha passat amb aquesta versió 2.0 (vegeu el requadre a l'inici d'aquest document).
 
 ---
 

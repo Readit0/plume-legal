@@ -1,6 +1,8 @@
 # Zásady ochrany osobních údajů aplikace Plume
 
-**Poslední aktualizace: 31. července 2026** — Verze 1.0
+**Poslední aktualizace: 12. září 2026** — Verze 2.0
+
+> *Co se změnilo od verze 1.0 a proč se vám v aplikaci může znovu zobrazit obrazovka se souhlasem:* opravujeme dvě tvrzení, která už neodpovídala skutečnosti. Zaprvé, funkce **vlastní jazyky** uchovává na našich serverech obsah, který vytvoříte (název, abecedu, slovník) — verze 1.0 mylně tvrdila, že se neukládá žádný text. Zadruhé nyní používáme nástroj pro **hlášení technických pádů** (Sentry) — verze 1.0 tvrdila, že žádný takový nástroj neexistuje. Podrobnosti k oběma bodům najdete níže v části „V jedné minutě“ a také v §3 a §9. Jde přesně o dvě kategorie změn, které v aplikaci vyvolají novou žádost o souhlas (viz §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume vám pomáhá psát: přeformuluje váš text přímo v aplikaci, ve kter�
 
 Tři věci, které je třeba si zapamatovat:
 
-1. **Plume neuchovává žádný z vašich textů na svých serverech.** Ani vaše přeformulované texty, ani text přečtený z obrazovky. Neuchováváme o nich ani kopii, ani záznam v protokolech.
+1. **Plume neuchovává texty, které přeformulujete, ani text přečtený z obrazovky.** Neuchováváme o nich ani kopii, ani záznam v protokolech. **Vědomá a záměrná výjimka:** pokud vytvoříte **vlastní jazyk** (svůj vlastní zkonstruovaný jazyk se slovníkem slov a jejich definic), obsah tohoto jazyka **je** uchováván na našich serverech — je to jediný způsob, jak vám umožnit najít jej na jiném zařízení, rozvíjet jej a sdílet jej. Podrobnosti jsou v §3.
 2. **Podle toho, který engine zvolíte, váš text opustí, nebo neopustí váš telefon.** Dva enginy (Místní sada a Místní AI) pracují výhradně v zařízení. Třetí (Cloudová AI) odesílá text službě umělé inteligence **umístěné mimo Evropskou unii**. Volba je na vás a Cloudová AI se nikdy neaktivuje bez vašeho výslovného souhlasu.
 3. **Plume potřebuje silná oprávnění** (číst obsah zobrazený v jiných aplikacích, snímat obrazovku). Níže přesně vysvětlujeme, k čemu slouží a k čemu neslouží.
 
@@ -91,7 +93,7 @@ Odesílaný text je omezen: 1 200 znaků pro přeformulování, 4 000 znaků pro
 
 ## 3. Údaje, které uchováváme
 
-Nepoužíváme **žádný nástroj pro analýzu návštěvnosti, žádný reklamní tracker třetí strany, žádný nástroj pro hlášení pádů**. Aplikace neobsahuje žádnou měřicí sadu SDK.
+Nepoužíváme **žádný nástroj pro analýzu návštěvnosti ani žádný reklamní tracker třetí strany**, mimo reklamu popsanou v §5. **Používáme nástroj pro hlášení technických pádů** (Sentry): vidí pouze chyby programu (typ chyby, technický zásobník volání, verzi aplikace, operační systém), nikdy vaše používání ani váš postup a nikdy text, který píšete — tomu před jakýmkoli odesláním brání vyhrazený filtr. Podrobnosti jsou v §9.
 
 Zde je vše, co je uloženo na našich serverech:
 
@@ -104,6 +106,8 @@ Zde je vše, co je uloženo na našich serverech:
 | **Dobrovolně zaslané návrhy** (pokud nám z aplikace napíšete návrh persony) | Vylepšovat katalog. Tyto návrhy nejsou nikdy zveřejňovány. | Do smazání vašeho účtu |
 | **Technické signály zneužití** (opakovaná překročení, selhání kontroly integrity — bez jakéhokoli textu) | Bezpečnost, boj proti podvodům | Odděleny od vaší totožnosti při smazání účtu |
 | **Jazyk a verze aplikace** | Doručovat správný obsah | Do smazání vašeho účtu |
+| **Obsah vlastních jazyků, které vytvoříte** (jeho název, abeceda a slovník — slova a definice, které jste do něj vy, nebo jiní lidé, zapsali) | Umožnit vám najít váš jazyk na jiném zařízení, rozvíjet jej a sdílet jej s dalšími uživateli | Dokud jazyk existuje. Pokud jej smažete, jeho záznam zmizí — ale kopie, kterou **již importovala jiná osoba**, jí od té chvíle patří a **přežije**, podobně jako zpráva, kterou už přijala třetí strana a kterou nemůžeme jít smazat u ní |
+| **Hlášení technických pádů** (typ chyby, zkrácený technický zásobník volání, verze aplikace, operační systém — nikdy obsah textu) | Diagnostikovat a opravovat pády aplikace | Řídí se naším poskytovatelem Sentry (viz §9). Tento sběr podléhá vašemu souhlasu a přepínači, který můžeme kdykoli vypnout, bez nutnosti aktualizace aplikace |
 
 **Co neshromažďujeme:** vaše jméno, vaše kontakty, vaši polohu, váš adresář, vaše fotografie, váš kalendář, historii vašich aplikací. Plume o žádné z těchto oprávnění nežádá.
 
@@ -180,22 +184,25 @@ Protože aplikace umožňuje přeformulovat volný text a zobrazuje reklamu, nen
 | **Google Play / Google Billing** | Platba, předplatné | Google Ireland / Spojené státy |
 | **Google AdMob** | Odměňovaná reklama | Google Ireland / Spojené státy |
 | **Google (systémové služby telefonu)** | Rozpoznávání řeči, moduly offline překladu | Podle vašeho zařízení |
+| **Sentry** (Functional Software, Inc.) | Hlášení technických pádů — pouze chyby programu, filtrované před odesláním: nikdy váš text | Spojené státy |
 
 **Žádné údaje neprodáváme a žádné nepostupujeme datovým brokerům.**
 
-**Předávání mimo Evropskou unii:** využití služeb OpenRouter, Google Play a AdMob zahrnuje předání údajů mimo Evropskou unii. Právní rámec těchto předání (standardní smluvní doložky, rozhodnutí o odpovídající ochraně) **musí být před zveřejněním ověřen a zdokumentován odborníkem** — viz poznámku na konci dokumentu.
+**Předávání mimo Evropskou unii:** využití služeb OpenRouter, Google Play, AdMob a Sentry zahrnuje předání údajů mimo Evropskou unii. Právní rámec těchto předání (standardní smluvní doložky, rozhodnutí o odpovídající ochraně) **musí být před zveřejněním ověřen a zdokumentován odborníkem** — viz poznámku na konci dokumentu.
 
 ---
 
 ## 10. Bezpečnost
 
-Komunikace mezi aplikací a našimi servery je šifrovaná (HTTPS/TLS). Přístup k údajům v databázi je omezen pravidly na straně serveru: citlivé funkce nejsou z aplikace dostupné. Žádný systém není dokonale bezpečný, ale žádný text, který přeformulujete, u nás není uložen — což mechanicky omezuje to, co by mohlo vniknutí do systému odhalit.
+Komunikace mezi aplikací a našimi servery je šifrovaná (HTTPS/TLS). Přístup k údajům v databázi je omezen pravidly na straně serveru: citlivé funkce nejsou z aplikace dostupné. Žádný systém není dokonale bezpečný. Text, který přeformulujete, a text, který na obrazovce zobrazuje Asistované čtení, u nás nejsou uloženy, což mechanicky omezuje to, co by o nich mohlo vniknutí do systému odhalit. **To ale neplatí o všem:** slovník vlastních jazyků, které vytvoříte, je naopak **uložen** (viz §3) a v případě skutečného vniknutí by byl vystaven stejně jako jakékoli jiné údaje z těchto zásad — chráníme jej stejnými pravidly přístupu na straně serveru jako vše ostatní.
 
 ---
 
 ## 11. Změny
 
 Každá změna těchto zásad bude zveřejněna na adrese `https://readit0.github.io/plume-legal` s novým datem. V případě podstatné změny v pohybu vašich údajů vás o tom uvědomíme v aplikaci.
+
+**Od verze 2.0 má tento slib za sebou konkrétní mechanismus.** Pouhá formální oprava (datum, adresa, upřesnění) od vás nevyžaduje nic dalšího. Ale PODSTATNÁ změna — nový příjemce vašich údajů, nová kategorie shromažďovaných údajů, nový účel, nebo změna vašich práv či ceny — jednorázově znovu zobrazí obrazovku se souhlasem v aplikaci, se shrnutím toho, co se mění, a oběma aktualizovanými dokumenty. Přesně to se stalo u této verze 2.0 (viz rámeček v úvodu tohoto dokumentu).
 
 ---
 

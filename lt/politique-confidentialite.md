@@ -1,6 +1,8 @@
 # Programėlės Plume privatumo politika
 
-**Paskutinį kartą atnaujinta: 2026 m. liepos 31 d.** — Versija 1.0
+**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 12 d.** — Versija 2.0
+
+> *Kas pasikeitė nuo versijos 1.0 ir kodėl programėlėje galite vėl pamatyti sutikimo ekraną:* taisome du teiginius, kurie nebebuvo tikslūs. Pirma, funkcija **individualios kalbos** saugo mūsų serveriuose jūsų sukurtą turinį (pavadinimą, abėcėlę, žodyną) — versijoje 1.0 buvo klaidingai teigiama, kad joks tekstas nesaugomas. Antra, dabar naudojame **techninių strigčių ataskaitų** įrankį (Sentry) — versijoje 1.0 buvo teigiama, kad tokio įrankio nėra. Šių dviejų punktų detalės pateiktos skyriuje „Per vieną minutę" toliau, taip pat 3 ir 9 skyriuose. Būtent šios dvi pakeitimų kategorijos programėlėje sukelia naują sutikimo prašymą (žr. 11 skyrių).
 
 ---
 
@@ -23,7 +25,7 @@ Plume padeda jums rašyti: ji performuluoja jūsų tekstą tiesiai toje program�
 
 Trys dalykai, kuriuos verta įsiminti:
 
-1. **Plume nesaugo jokių jūsų tekstų savo serveriuose.** Nei jūsų performuluotų tekstų, nei nuo ekrano nuskaityto teksto. Nesaugome nei kopijos, nei žurnalo įrašo.
+1. **Plume nesaugo nei jūsų performuluotų tekstų, nei nuo ekrano nuskaityto teksto.** Nesaugome nei kopijos, nei žurnalo įrašo. **Sąmoningai daroma ir savanoriška išimtis:** jei sukuriate **individualią kalbą** (savo paties sukonstruotą kalbą su žodžių ir jų reikšmių žodynu), tos kalbos turinys **yra** saugomas mūsų serveriuose — tai vienintelis būdas leisti jums ją rasti kitame įrenginyje, ją plėtoti ir ja dalytis. Išsamiau — 3 skyriuje.
 2. **Priklausomai nuo pasirinkto variklio jūsų tekstas iš jūsų telefono arba išeina, arba neišeina.** Du varikliai (vietinis rinkinys ir vietinis DI) veikia visiškai įrenginyje. Trečiasis (debesų DI) siunčia tekstą dirbtinio intelekto paslaugai, kuri **yra už Europos Sąjungos ribų**. Renkatės jūs, ir debesų DI niekada neįsijungia be aiškaus jūsų sutikimo.
 3. **Plume reikia galingų leidimų** (skaityti kitose programėlėse rodomą turinį, fiksuoti ekraną). Toliau tiksliai paaiškiname, kam jie skirti ir kam neskirti.
 
@@ -91,7 +93,7 @@ Siunčiamas tekstas yra ribojamas: 1 200 simbolių performulavimui, 4 000 simbol
 
 ## 3. Duomenys, kuriuos saugome
 
-Nenaudojame **jokio auditorijos analizės įrankio, jokio trečiosios šalies reklamos sekiklio, jokio strigčių ataskaitų įrankio**. Programėlėje nėra matavimo SDK.
+Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies reklamos sekiklio**, išskyrus 5 skyriuje aprašytą reklamą. **Naudojame techninių strigčių ataskaitų įrankį** (Sentry): jis mato tik programos klaidas (klaidos tipą, techninį iškvietimų dėklą, programėlės versiją, operacinę sistemą), niekada jūsų naudojimosi būdo ar veiksmų sekos, ir niekada jūsų rašomo teksto — tam skirtas filtras tai draudžia prieš bet kokį siuntimą. Išsamiau — 9 skyriuje.
 
 Štai viskas, kas saugoma mūsų serveriuose:
 
@@ -104,6 +106,8 @@ Nenaudojame **jokio auditorijos analizės įrankio, jokio trečiosios šalies re
 | **Savanoriškai atsiųsti pasiūlymai** (jei atsiunčiate mums personos pasiūlymą iš programėlės) | Papildyti katalogą. Šie pasiūlymai niekada nėra skelbiami. | Iki jūsų paskyros ištrynimo |
 | **Techniniai piktnaudžiavimo signalai** (pakartotiniai viršijimai, vientisumo patikros nesėkmė — be jokio teksto) | Saugumas, kova su sukčiavimu | Ištrynus paskyrą atsiejami nuo jūsų tapatybės |
 | **Programėlės kalba ir versija** | Pateikti tinkamą turinį | Iki jūsų paskyros ištrynimo |
+| **Jūsų kuriamų individualių kalbų turinys** (jos pavadinimas, abėcėlė ir žodynas — žodžiai ir apibrėžimai, kuriuos jūs arba kiti asmenys į ją įrašė) | Leisti jums rasti savo kalbą kitame įrenginyje, ją plėtoti ir dalytis ja su kitais naudotojais | Kol kalba egzistuoja. Jei ją ištrinate, jos kortelė išnyksta — tačiau jau **kito asmens importuota** kopija tampa jo nuosavybe ir **išlieka**, kaip jau trečiosios šalies gautas pranešimas, kurio negalime nueiti ištrinti pas jį |
+| **Techninės strigčių ataskaitos** (klaidos tipas, sutrumpintas techninis iškvietimų dėklas, programėlės versija, operacinė sistema — niekada teksto turinys) | Diagnozuoti ir taisyti programėlės strigtis | Reguliuoja mūsų paslaugų teikėjas Sentry (žr. 9 skyrių). Šis rinkimas priklauso nuo jūsų sutikimo ir jungiklio, kurį galime bet kada išjungti, be programėlės atnaujinimo |
 
 **Ko nerenkame:** jūsų vardo, jūsų kontaktų, jūsų buvimo vietos, jūsų adresų knygos, jūsų nuotraukų, jūsų kalendoriaus, jūsų programėlių istorijos. Plume neprašo nė vieno iš šių leidimų.
 
@@ -180,22 +184,25 @@ Kadangi programėlė leidžia performuluoti laisvą tekstą ir rodo reklamą, ji
 | **Google Play / Google Billing** | Mokėjimai, prenumeratos | Google Ireland / Jungtinės Amerikos Valstijos |
 | **Google AdMob** | Apdovanojamoji reklama | Google Ireland / Jungtinės Amerikos Valstijos |
 | **Google (telefono sistemos paslaugos)** | Kalbos atpažinimas, vertimo neprisijungus moduliai | Priklausomai nuo jūsų įrenginio |
+| **Sentry** (Functional Software, Inc.) | Techninių strigčių ataskaitos — tik programos klaidos, filtruojamos prieš siuntimą: niekada jūsų tekstas | Jungtinės Amerikos Valstijos |
 
 **Mes neparduodame jokių duomenų ir neperleidžiame jų duomenų brokeriams.**
 
-**Perdavimas už Europos Sąjungos ribų:** naudojantis OpenRouter, Google Play ir AdMob, duomenys perduodami už Europos Sąjungos ribų. Šių perdavimų teisinį pagrindą (standartines sutarčių sąlygas, sprendimą dėl tinkamumo) **prieš paskelbiant turi patikrinti ir dokumentuoti specialistas** — žr. pastabą dokumento pabaigoje.
+**Perdavimas už Europos Sąjungos ribų:** naudojantis OpenRouter, Google Play, AdMob ir Sentry, duomenys perduodami už Europos Sąjungos ribų. Šių perdavimų teisinį pagrindą (standartines sutarčių sąlygas, sprendimą dėl tinkamumo) **prieš paskelbiant turi patikrinti ir dokumentuoti specialistas** — žr. pastabą dokumento pabaigoje.
 
 ---
 
 ## 10. Saugumas
 
-Mainai tarp programėlės ir mūsų serverių yra šifruoti (HTTPS/TLS). Prieigą prie duomenų bazėje esančių duomenų riboja serverio taisyklės: jautrios funkcijos nepasiekiamos iš programėlės. Nė viena sistema nėra visiškai saugi, tačiau nė vienas jūsų performuluojamas tekstas pas mus nėra saugomas — tai savaime riboja tai, ką įsilaužimas galėtų atskleisti.
+Mainai tarp programėlės ir mūsų serverių yra šifruoti (HTTPS/TLS). Prieigą prie duomenų bazėje esančių duomenų riboja serverio taisyklės: jautrios funkcijos nepasiekiamos iš programėlės. Nė viena sistema nėra visiškai saugi. Tekstas, kurį performuluojate, ir tekstas, kurį Pagalbinis skaitymas rodo ekrane, pas mus nesaugomi, ir tai savaime riboja tai, ką įsilaužimas galėtų apie juos atskleisti. **Tai galioja ne viskam:** jūsų kuriamų individualių kalbų žodynas **yra** saugomas (žr. 3 skyrių) ir realaus įsilaužimo atveju būtų atskleistas kaip bet kuris kitas šioje politikoje minimas duomuo — jį saugome tomis pačiomis serverio prieigos taisyklėmis kaip ir likusius duomenis.
 
 ---
 
 ## 11. Pakeitimai
 
 Bet koks šios politikos pakeitimas bus paskelbtas adresu `https://readit0.github.io/plume-legal` su nauja data. Jei jūsų duomenų judėjime įvyktų svarbus pokytis, informuosime jus apie tai programėlėje.
+
+**Nuo versijos 2.0 šis pažadas turi konkretų mechanizmą.** Paprastas formos pataisymas (data, adresas, patikslinimas) iš jūsų nieko papildomai nereikalauja. Tačiau ESMINIS pakeitimas — naujas jūsų duomenų gavėjas, nauja renkamų duomenų kategorija, naujas tikslas arba jūsų teisių ar kainos pasikeitimas — vieną kartą vėl parodo sutikimo ekraną programėlėje, kartu su pakeitimų santrauka ir dviem atnaujintais dokumentais. Būtent tai ir įvyko šioje versijoje 2.0 (žr. įžangą šio dokumento pradžioje).
 
 ---
 

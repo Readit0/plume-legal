@@ -1,6 +1,6 @@
 # Suprimir el seu compte i les seves dades — Plume
 
-**Última actualització: 31 de juliol de 2026** — Versió 1.0
+**Última actualització: 12 de setembre de 2026** — Versió 2.0
 
 
 Aplicació afectada: **Plume** (`com.plume.plume`), editada per **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France, publicada a Google Play amb el nom **openfunworld**.
@@ -37,11 +37,12 @@ La supressió esborra **definitivament**:
 - **els seus suggeriments**: les propostes que ens hagi enviat des de l'aplicació. És l'únic text lliure que emmagatzemem;
 - **els seus identificadors de sol·licitud**: les referències tècniques de les reformulacions demanades;
 - **els seus crèdits i desbloquejos de quota**: crèdits comprats no consumits, desbloquejos obtinguts amb publicitat, topalls ajustats;
-- **la vinculació dels seus dispositius al seu compte**: els seus altres telèfons o tauletes queden deslligats i tornen a ser simples dispositius anònims.
+- **la vinculació dels seus dispositius al seu compte**: els seus altres telèfons o tauletes queden deslligats i tornen a ser simples dispositius anònims;
+- **els idiomes personals que ha creat**: el seu nom, el seu alfabet, el seu lèxic, els seus testimonis de compartició i el seu historial d'importació. **El que aquesta supressió no pot fer:** si algú altre ja ha importat una còpia del seu idioma a casa seva, aquesta còpia passa a pertànyer-li i **sobreviu** a la seva supressió — com un missatge ja rebut per un tercer, que no podem esborrar de la seva banda.
 
 El dispositiu des del qual demana la supressió queda **neutralitzat**: la seva vinculació al compte s'esborra, la seva clau d'identificació es destrueix i se substitueix per un valor mort, i el seu idioma i la seva versió de l'aplicació s'esborren. Només queda un número opac, que ja no permet identificar-lo ni retrobar el dispositiu.
 
-**Mai no hem emmagatzemat els seus textos.** Ni els textos que ha reformulat, ni el text llegit a la pantalla per la Lectura Assistida: no es conservaven enlloc dels nostres servidors, de manera que no hi ha res a suprimir-ne.
+**Mai no hem emmagatzemat els textos que ha reformulat, ni el text llegit a la pantalla per la Lectura Assistida**: no es conserven enlloc dels nostres servidors, de manera que no hi ha res a suprimir-ne. **Això no és cert del lèxic d'un idioma personal que hagi pogut crear:** el seu contingut (nom, alfabet, paraules i definicions) sí que s'emmagatzema als nostres servidors — la supressió del seu compte l'esborra, com la resta del que li pertany (vegeu més avall).
 
 **Al seu telèfon**, les seves personas, els seus avatars, els seus paràmetres i les seves regles per aplicació s'emmagatzemen localment. S'esborren amb la supressió feta des de l'aplicació i, en tot cas, **desapareixen quan desinstal·la Plume**.
 

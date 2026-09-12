@@ -1,6 +1,6 @@
 # Uw account en uw gegevens verwijderen — Plume
 
-**Laatst bijgewerkt: 31 juli 2026** — Versie 1.0
+**Laatst bijgewerkt: 12 september 2026** — Versie 2.0
 
 Betrokken app: **Plume** (`com.plume.plume`), uitgegeven door **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — gepubliceerd op Google Play onder de naam **openfunworld**.
 
@@ -36,11 +36,12 @@ De verwijdering wist **definitief**:
 - **uw suggesties** — de voorstellen die u ons vanuit de app hebt gestuurd. Dat is de enige vrije tekst die wij opslaan;
 - **uw aanvraagidentificaties** — de technische referenties van de gevraagde herschrijvingen;
 - **uw tegoeden en quotavrijspelingen** — gekochte, niet verbruikte tegoeden, via advertenties verkregen vrijspelingen, aangepaste plafonds;
-- **de koppeling van uw apparaten aan uw account** — uw andere telefoons of tablets worden losgekoppeld en worden weer gewone, anonieme apparaten.
+- **de koppeling van uw apparaten aan uw account** — uw andere telefoons of tablets worden losgekoppeld en worden weer gewone, anonieme apparaten;
+- **de persoonlijke talen die u hebt aangemaakt** — hun naam, hun alfabet, hun lexicon, uw deeltokens en uw importgeschiedenis. **Wat deze verwijdering niet kan doen:** als iemand anders al een kopie van uw taal heeft geïmporteerd, behoort die kopie voortaan aan die persoon toe en **blijft zij bestaan** na uw verwijdering — zoals een bericht dat al door een derde is ontvangen, wij kunnen het niet bij hem wissen.
 
 Het apparaat van waaruit u de verwijdering vraagt, wordt **geneutraliseerd**: de koppeling aan uw account wordt gewist, de identificatiesleutel wordt vernietigd en vervangen door een dode waarde, en de taal en de app-versie worden gewist. Er blijft alleen een ondoorzichtig nummer over, waarmee u niet meer kunt worden geïdentificeerd en het apparaat niet meer kan worden teruggevonden.
 
-**Wij hebben uw teksten nooit opgeslagen.** Noch de teksten die u hebt herschreven, noch de tekst die door de Leeshulp van het scherm is gelezen: die werden nergens op onze servers bewaard, er valt dus niets van te verwijderen.
+**Wij hebben nooit de teksten opgeslagen die u hebt herschreven, noch de tekst die door de Leeshulp van het scherm is gelezen**: die worden nergens op onze servers bewaard, er valt dus niets van te verwijderen. **Dat geldt niet voor het lexicon van een persoonlijke taal die u zou hebben aangemaakt**: de inhoud ervan (naam, alfabet, woorden en definities) wordt wel op onze servers opgeslagen — het verwijderen van uw account wist die, zoals de rest van wat u toebehoort (zie hieronder).
 
 **Op uw telefoon** worden uw persona's, uw avatars, uw instellingen en uw regels per app lokaal opgeslagen. Zij worden gewist door de verwijdering vanuit de app, en zij **verdwijnen hoe dan ook wanneer u Plume verwijdert van uw telefoon**.
 

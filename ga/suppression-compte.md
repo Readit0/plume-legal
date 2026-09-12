@@ -1,6 +1,6 @@
 # Do chuntas agus do chuid sonraí a scriosadh — Plume
 
-**Nuashonrú deireanach: 31 Iúil 2026** — Leagan 1.0
+**Nuashonrú deireanach: 12 Meán Fómhair 2026** — Leagan 2.0
 
 Feidhmchlár lena mbaineann: **Plume** (`com.plume.plume`), arna fhoilsiú ag **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — foilsithe ar Google Play faoin ainm **openfunworld**.
 
@@ -36,11 +36,12 @@ Scriosann an scriosadh **go buan**:
 - **do chuid moltaí** — na moltaí a bheadh seolta agat chugainn ón bhfeidhmchlár. Is é sin an t-aon téacs saor a stórálaimid;
 - **aitheantóirí d'iarratas** — tagairtí teicniúla na n-athfhocluithe a iarradh;
 - **do chreidmheasanna agus do dhíghlasálacha cuóta** — creidmheasanna ceannaithe nach bhfuil caite, díghlasálacha a fuarthas trí fhógraíocht, uasteorainneacha coigeartaithe;
-- **ceangal do ghléasanna le do chuntas** — scaoiltear do ghutháin nó do thaibléid eile agus filleann siad ar a bheith ina ngléasanna anaithnide simplí.
+- **ceangal do ghléasanna le do chuntas** — scaoiltear do ghutháin nó do thaibléid eile agus filleann siad ar a bheith ina ngléasanna anaithnide simplí;
+- **na teangacha pearsanta a chruthaigh tú** — a n-ainm, a n-aibítir, a bhfoclóir, do chomharthaí comhroinnte agus do stair iompórtála. **A bhfuil sé dodhéanta don scriosadh seo a dhéanamh:** má tá cóip de do theanga iompórtáilte cheana ag duine eile, is leis an duine sin anois an chóip sin agus **maireann sí** tar éis do scriosta — cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn a scriosadh ar a thaobh siúd.
 
 Déantar an gléas óna n-iarrann tú an scriosadh a **neodrú**: scriostar a cheangal le do chuntas, scriostar a eochair aitheantais agus cuirtear luach marbh ina háit, agus scriostar a theanga agus leagan a fheidhmchláir. Níl fágtha ach uimhir dhoiléir, nach gceadaíonn a thuilleadh tú a aithint ná an gléas a aimsiú.
 
-**Níor stóráileamar do chuid téacsanna riamh.** Ná na téacsanna a d'athfhocluigh tú, ná an téacs a léigh an Léitheoireacht Chuidithe ón scáileán: ní raibh siad coinnithe in aon áit ar ár bhfreastalaithe, agus mar sin níl aon rud le scriosadh ina leith.
+**Níor stóráileamar riamh na téacsanna a d'athfhocluigh tú, ná an téacs a léigh an Léitheoireacht Chuidithe ón scáileán**: ní choinnítear iad in aon áit ar ár bhfreastalaithe, agus mar sin níl aon rud le scriosadh ina leith. **Ní fíor sin faoi fhoclóir aon teanga pearsanta a bheadh cruthaithe agat**: coinnítear a hábhar (ainm, aibítir, focail agus mínithe) go deimhin ar ár bhfreastalaithe — scriosann scriosadh do chuntais é, mar an chuid eile dá bhfuil leatsa (féach thíos).
 
 **Ar do ghuthán**, tá do chuid personaí, d'abhatáir, do chuid socruithe agus do chuid rialacha de réir feidhmchláir stóráilte go háitiúil. Scriostar iad leis an scriosadh ón bhfeidhmchlár, agus ar aon chuma **imíonn siad nuair a dhíshuiteálann tú Plume**.
 

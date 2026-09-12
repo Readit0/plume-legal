@@ -1,6 +1,6 @@
 # Efase kont ou ak done ou yo — Plume
 
-**Dènye mizajou: 31 jiyè 2026** — Vèsyon 1.0
+**Dènye mizajou: 12 septanm 2026** — Vèsyon 2.0
 
 Aplikasyon konsène a: **Plume** (`com.plume.plume`), se **SASU RedLine Music** ki edite l, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — li pibliye sou Google Play anba non **openfunworld**.
 
@@ -37,10 +37,11 @@ Sipresyon an efase **pou tout bon**:
 - **idantifyan demann ou yo** — referans teknik reformilasyon ou te mande yo;
 - **kredi ou yo ak deblokaj kota ou yo** — kredi ou achte men ou pa konsome, deblokaj ou jwenn ak reklam, plafon yo ajiste yo;
 - **lyen ant aparèy ou yo ak kont ou** — lòt telefòn oswa tablèt ou yo demare epi yo tounen senp aparèy anonim.
+- **lang pèsonèl ou te kreye yo** — non yo, alfabè yo, vokabilè yo, jeton pataj ou yo ak istorik enpòtasyon ou. **Sa sipresyon sa a pa ka fè:** si yon lòt moun te deja enpòte yon kopi lang ou a lakay li, kopi sa a vin pou li depi lè sa a epi li **kontinye egziste** apre sipresyon ou a — tankou yon mesaj yon twazyèm moun deja resevwa, nou pa ka al efase l lakay li.
 
 Aparèy kote w mande sipresyon an **netralize**: yo efase lyen li ak kont ou, yo detwi kle idantifikasyon l epi yo ranplase l ak yon valè mouri, yo efase lang li ak vèsyon aplikasyon l. Sa ki rete se yon nimewo opak sèlman, ki pa pèmèt ni idantifye w ni jwenn aparèy la ankò.
 
-**Nou pa janm estoke tèks ou yo.** Ni tèks ou te fè reformile yo, ni tèks Lekti Asiste te li sou ekran an: yo pa t konsève okenn kote sou sèvè nou yo, donk pa gen anyen pou efase.
+**Nou pa janm estoke tèks ou te fè reformile yo, ni tèks Lekti Asiste te li sou ekran an**: yo pa konsève okenn kote sou sèvè nou yo, donk pa gen anyen pou efase. **Sa pa vre pou vokabilè yon lang pèsonèl ou ta kreye**: kontni li (non, alfabè, mo ak definisyon) vrèman estoke sou sèvè nou yo — sipresyon kont ou efase l tou, menm jan ak tout lòt bagay ki pou ou (gade pi ba a).
 
 **Sou telefòn ou**, pèsona ou yo, avata ou yo, paramèt ou yo ak règ ou yo pou chak aplikasyon estoke lokalman. Sipresyon an depi nan aplikasyon an efase yo, epi nan tout ka **yo disparèt lè w dezenstale Plume**.
 

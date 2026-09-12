@@ -1,6 +1,6 @@
 # Supprimer votre compte et vos données — Plume
 
-**Dernière mise à jour : 31 juillet 2026** — Version 1.0
+**Dernière mise à jour : 12 septembre 2026** — Version 2.0
 
 
 Application concernée : **Plume** (`com.plume.plume`), éditée par **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publiée sur Google Play sous le nom **openfunworld**.
@@ -37,11 +37,12 @@ La suppression efface **définitivement** :
 - **vos suggestions** — les propositions que vous nous auriez envoyées depuis l'application. C'est le seul texte libre que nous stockions ;
 - **vos identifiants de requêtes** — les références techniques des reformulations demandées ;
 - **vos crédits et déblocages de quota** — crédits achetés non consommés, déblocages obtenus par publicité, plafonds ajustés ;
-- **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes.
+- **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes ;
+- **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
 
 L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son rattachement à votre compte est effacé, sa clé d'identification est détruite et remplacée par une valeur morte, sa langue et sa version d'application sont effacées. Il ne reste qu'un numéro opaque, qui ne permet plus de vous identifier ni de retrouver l'appareil.
 
-**Nous n'avons jamais stocké vos textes.** Ni les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée : ils n'étaient conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer.
+**Nous n'avons jamais stocké les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai du lexique d'une langue personnelle que vous auriez créée** : son contenu (nom, alphabet, mots et définitions) est bien stocké sur nos serveurs — la suppression de votre compte l'efface, comme le reste de ce qui vous appartient (voir ci-dessous).
 
 **Sur votre téléphone**, vos personas, vos avatars, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
 
@@ -87,6 +88,6 @@ Outre la suppression, vous disposez des droits d'accès, de rectification, de li
 
 Le détail des données traitées figure dans notre politique de confidentialité : `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
-Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr).
+Vous pouvez introduire une réclamation auprès de la **CNIL** (www.cnil.fr), autorité de contrôle de l'éditeur, ou, **si vous résidez dans l'Union européenne**, auprès de l'autorité de contrôle de votre pays de résidence.
 
 ---

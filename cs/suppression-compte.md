@@ -1,6 +1,6 @@
 # Smazání vašeho účtu a vašich údajů — Plume
 
-**Poslední aktualizace: 31. července 2026** — Verze 1.0
+**Poslední aktualizace: 12. září 2026** — Verze 2.0
 
 Dotčená aplikace: **Plume** (`com.plume.plume`), vydávaná společností **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — zveřejněná v Google Play pod jménem **openfunworld**.
 
@@ -36,11 +36,12 @@ Smazání **trvale** vymaže:
 - **vaše návrhy** — podněty, které jste nám případně z aplikace zaslali. Jde o jediný volný text, který jsme uchovávali;
 - **vaše identifikátory požadavků** — technické odkazy na vyžádaná přeformulování;
 - **vaše kredity a odemčení limitu** — zakoupené a nespotřebované kredity, odemčení získaná za reklamu, upravené stropy;
-- **vazbu vašich zařízení na váš účet** — vaše ostatní telefony či tablety jsou odpojeny a stávají se opět prostými anonymními zařízeními.
+- **vazbu vašich zařízení na váš účet** — vaše ostatní telefony či tablety jsou odpojeny a stávají se opět prostými anonymními zařízeními;
+- **vlastní jazyky, které jste vytvořili** — jejich název, abecedu, slovník, vaše sdílecí tokeny a vaši historii importu. **Co toto smazání nedokáže:** pokud si někdo jiný již naimportoval kopii vašeho jazyka, tato kopie mu od té chvíle patří a **přežije** vaše smazání — podobně jako zpráva, kterou už přijala třetí strana a kterou nemůžeme smazat u ní.
 
 Zařízení, ze kterého o smazání žádáte, je **neutralizováno**: jeho vazba na váš účet je vymazána, jeho identifikační klíč je zničen a nahrazen mrtvou hodnotou, jeho jazyk a verze aplikace jsou vymazány. Zůstává jen neprůhledné číslo, které již neumožňuje ani vás identifikovat, ani zařízení dohledat.
 
-**Vaše texty jsme nikdy neukládali.** Ani texty, které jste přeformulovali, ani text přečtený z obrazovky Asistovaným čtením: nebyly nikde na našich serverech uchovávány, není tedy co mazat.
+**Nikdy jsme neukládali texty, které jste přeformulovali, ani text přečtený z obrazovky Asistovaným čtením**: nejsou nikde na našich serverech uchovávány, není tedy co mazat. **To ale neplatí pro slovník vlastního jazyka, který jste případně vytvořili:** jeho obsah (název, abeceda, slova a definice) je na našich serverech skutečně uložen — smazáním vašeho účtu se smaže i on, stejně jako zbytek toho, co vám patří (viz níže).
 
 **Ve vašem telefonu** jsou vaše persony, vaši avataři, vaše nastavení a vaše pravidla pro jednotlivé aplikace uloženy místně. Smazáním z aplikace jsou vymazány a v každém případě **zmizí, když Plume odinstalujete**.
 

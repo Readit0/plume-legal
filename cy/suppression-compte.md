@@ -1,6 +1,6 @@
 # Dileu eich cyfrif a'ch data — Plume
 
-**Diweddarwyd ddiwethaf: 31 Gorffennaf 2026** — Fersiwn 1.0
+**Diweddarwyd ddiwethaf: 12 Medi 2026** — Fersiwn 2.0
 
 Yr ap dan sylw: **Plume** (`com.plume.plume`), a gyhoeddir gan **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ar gael ar Google Play o dan yr enw **openfunworld**.
 
@@ -36,11 +36,12 @@ Mae'r dileu yn dileu **yn barhaol**:
 - **eich awgrymiadau** — y cynigion y byddech wedi'u hanfon atom o'r ap. Dyma'r unig destun rhydd rydym yn ei storio;
 - **dynodyddion eich ceisiadau** — cyfeirnodau technegol yr ailysgrifennu y gofynnwyd amdano;
 - **eich credydau a'ch datgloadau cwota** — credydau a brynwyd ac na chawsant eu defnyddio, datgloadau a gafwyd drwy hysbyseb, terfynau wedi'u haddasu;
-- **cysylltiad eich dyfeisiau â'ch cyfrif** — mae eich ffonau neu dabledi eraill yn cael eu datgysylltu ac yn dychwelyd i fod yn ddyfeisiau dienw syml.
+- **cysylltiad eich dyfeisiau â'ch cyfrif** — mae eich ffonau neu dabledi eraill yn cael eu datgysylltu ac yn dychwelyd i fod yn ddyfeisiau dienw syml;
+- **yr ieithoedd personol rydych chi wedi'u creu** — eu henw, eu gwyddor, eu geirfa, eich tocynnau rhannu a'ch hanes mewnforio. **Yr hyn na all y dileu hwn ei wneud:** os yw rhywun arall eisoes wedi mewnforio copi o'ch iaith ganddo, mae'r copi hwnnw'n perthyn iddo ef o hynny ymlaen ac yn **goroesi** eich dileu — fel neges y mae trydydd parti eisoes wedi'i derbyn, na allwn ei dileu ganddo ef.
 
 Mae'r ddyfais rydych yn gofyn am y dileu ohoni yn cael ei **niwtraleiddio**: mae ei chysylltiad â'ch cyfrif yn cael ei ddileu, mae ei hallwedd adnabod yn cael ei dinistrio a'i disodli gan werth marw, ac mae ei hiaith a'i fersiwn o'r ap yn cael eu dileu. Nid oes ar ôl ond rhif afloyw, nad yw'n caniatáu eich adnabod chi na dod o hyd i'r ddyfais mwyach.
 
-**Nid ydym erioed wedi storio eich testunau.** Na'r testunau rydych wedi'u hailysgrifennu, na'r testun a ddarllenwyd ar y sgrin gan Darllen â Chymorth: nid oeddent yn cael eu cadw yn unman ar ein gweinyddion, felly nid oes dim i'w ddileu.
+**Nid ydym erioed wedi storio'r testunau rydych wedi'u hailysgrifennu, na'r testun a ddarllenwyd ar y sgrin gan Darllen â Chymorth**: nid ydynt yn cael eu cadw yn unman ar ein gweinyddion, felly nid oes dim i'w ddileu. **Nid yw hyn yn wir am eirfa unrhyw iaith bersonol y gallech fod wedi'i chreu:** mae ei chynnwys (enw, gwyddor, geiriau a diffiniadau) yn cael ei storio ar ein gweinyddion mewn gwirionedd — mae dileu eich cyfrif yn ei ddileu, fel gweddill yr hyn sy'n perthyn i chi (gweler isod).
 
 **Ar eich ffôn**, mae eich personas, eich afatarau, eich gosodiadau a'ch rheolau fesul ap yn cael eu storio'n lleol. Cânt eu dileu gan y dileu o'r ap, ac yn y pen draw **maent yn diflannu pan fyddwch yn dadosod Plume**.
 

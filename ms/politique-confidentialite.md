@@ -1,6 +1,8 @@
 # Dasar Privasi Plume
 
-**Kemas kini terakhir: 31 Julai 2026** — Versi 1.0
+**Kemas kini terakhir: 12 September 2026** — Versi 2.0
+
+> *Apa yang berubah sejak versi 1.0, dan sebab anda mungkin melihat semula skrin persetujuan dalam aplikasi:* kami membetulkan dua kenyataan yang tidak lagi tepat. Pertama, ciri **bahasa peribadi** menyimpan kandungan yang anda cipta (nama, abjad, leksikon) pada pelayan kami — versi 1.0 mendakwa secara salah bahawa tiada teks disimpan. Kedua, kami kini menggunakan satu alat **laporan ranap teknikal** (Sentry) — versi 1.0 mendakwa bahawa tiada alat sedemikian wujud. Butiran kedua-dua perkara ini terdapat dalam "Dalam satu minit" di bawah, serta dalam §3 dan §9. Inilah tepatnya dua kategori perubahan yang, dalam aplikasi, mencetuskan permintaan persetujuan baharu (lihat §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume membantu anda menulis: ia merumus semula teks anda terus di dalam aplikasi
 
 Tiga perkara yang perlu diingat:
 
-1. **Plume tidak menyimpan satu pun teks anda pada pelayannya.** Baik teks yang anda rumus semula, mahupun teks yang dibaca pada skrin. Kami tidak menyimpan salinannya, tidak juga lognya.
+1. **Plume tidak menyimpan teks yang anda rumus semula, mahupun teks yang dibaca pada skrin.** Kami tidak menyimpan salinannya, tidak juga lognya. **Pengecualian yang disedari, dan disengajakan:** jika anda mencipta satu **bahasa peribadi** (bahasa rekaan anda sendiri, dengan leksikon perkataan dan takrifannya), kandungan bahasa tersebut **turut** disimpan pada pelayan kami — inilah satu-satunya cara untuk membolehkan anda menemuinya semula pada peranti lain, mengembangkannya dan berkongsinya. Butirannya terdapat dalam §3.
 2. **Bergantung pada enjin yang anda pilih, teks anda keluar atau tidak keluar daripada telefon anda.** Dua enjin (Kit tempatan dan AI tempatan) berfungsi sepenuhnya pada peranti. Enjin ketiga (AI Awan) menghantar teks kepada sebuah perkhidmatan kecerdasan buatan yang **terletak di luar Kesatuan Eropah**. Anda yang memilih, dan AI Awan tidak pernah diaktifkan tanpa persetujuan jelas daripada anda.
 3. **Plume memerlukan kebenaran yang berkuasa** (membaca kandungan yang dipaparkan dalam aplikasi lain, menangkap skrin). Di bawah ini kami menerangkan dengan tepat untuk apa kebenaran itu digunakan dan untuk apa ia tidak digunakan.
 
@@ -91,7 +93,7 @@ Teks yang dihantar dihadkan: 1,200 aksara untuk satu rumusan semula, 4,000 aksar
 
 ## 3. Data yang kami simpan
 
-Kami **tidak menggunakan sebarang alat analitis khalayak, sebarang penjejak pengiklanan pihak ketiga, mahupun sebarang alat laporan ranap**. Aplikasi ini tidak mengandungi SDK pengukuran.
+Kami **tidak menggunakan sebarang alat analitis khalayak dan sebarang penjejak pengiklanan pihak ketiga** selain daripada pengiklanan yang diterangkan dalam §5. **Kami menggunakan satu alat laporan ranap teknikal** (Sentry): ia hanya melihat ralat program (jenis ralat, tindanan panggilan teknikal, versi aplikasi, sistem pengendalian), tidak pernah penggunaan atau perjalanan anda, dan tidak pernah teks yang anda tulis — satu penapis khusus melarangnya sebelum sebarang penghantaran. Butirannya terdapat dalam §9.
 
 Berikut ialah keseluruhan apa yang disimpan pada pelayan kami:
 
@@ -104,6 +106,8 @@ Berikut ialah keseluruhan apa yang disimpan pada pelayan kami:
 | **Cadangan yang dihantar secara sukarela** (jika anda menulis kepada kami satu cadangan persona daripada aplikasi) | Menambah baik katalog. Cadangan ini tidak pernah diterbitkan. | Sehingga akaun anda dipadam |
 | **Isyarat teknikal penyalahgunaan** (pelanggaran had berulang, kegagalan semakan integriti — tanpa sebarang teks) | Keselamatan, pembanterasan penipuan | Dilepaskan daripada identiti anda apabila akaun dipadam |
 | **Bahasa dan versi aplikasi** | Menyampaikan kandungan yang betul | Sehingga akaun anda dipadam |
+| **Kandungan bahasa peribadi yang anda cipta** (namanya, abjadnya, dan leksikonnya — perkataan dan takrifan yang anda, atau orang lain, telah tulis di dalamnya) | Membolehkan anda menemui semula bahasa anda pada peranti lain, mengembangkannya, dan berkongsinya dengan pengguna lain | Selagi bahasa itu wujud. Jika anda memadamnya, rekodnya hilang — tetapi salinan yang telah **diimport oleh orang lain** kini menjadi milik orang itu dan **terus wujud**, seperti mesej yang telah diterima oleh pihak ketiga yang tidak dapat kami pergi padamkan di sisinya |
+| **Laporan ranap teknikal** (jenis ralat, tindanan panggilan teknikal yang dipendekkan, versi aplikasi, sistem pengendalian — tidak pernah kandungan teks) | Mendiagnosis dan membetulkan ranap aplikasi | Dikawal oleh pembekal kami Sentry (lihat §9). Pengumpulan ini tertakluk kepada persetujuan anda dan kepada suis yang boleh kami matikan pada bila-bila masa, tanpa kemas kini aplikasi |
 
 **Apa yang tidak kami kumpul:** nama anda, kenalan anda, lokasi anda, buku alamat anda, gambar anda, kalendar anda, sejarah aplikasi anda. Plume tidak meminta satu pun kebenaran tersebut.
 
@@ -180,22 +184,25 @@ Oleh sebab aplikasi ini membolehkan perumusan semula teks bebas dan memaparkan i
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Syarikat |
 | **Google AdMob** | Pengiklanan berganjaran | Google Ireland / Amerika Syarikat |
 | **Google (perkhidmatan sistem telefon)** | Pengecaman suara, modul terjemahan luar talian | Mengikut peranti anda |
+| **Sentry** (Functional Software, Inc.) | Laporan ranap teknikal — hanya ralat program, ditapis sebelum penghantaran: tidak pernah teks anda | Amerika Syarikat |
 
 **Kami tidak menjual sebarang data dan tidak menyerahkan sebarang data kepada broker data.**
 
-**Pemindahan ke luar Kesatuan Eropah:** penggunaan OpenRouter, Google Play dan AdMob melibatkan pemindahan data ke luar Kesatuan Eropah. Rangka kerja undang-undang bagi pemindahan tersebut (klausa kontrak standard, keputusan kecukupan) **mesti disemak dan didokumentasikan oleh seorang profesional sebelum penerbitan** — lihat nota di penghujung dokumen.
+**Pemindahan ke luar Kesatuan Eropah:** penggunaan OpenRouter, Google Play, AdMob dan Sentry melibatkan pemindahan data ke luar Kesatuan Eropah. Rangka kerja undang-undang bagi pemindahan tersebut (klausa kontrak standard, keputusan kecukupan) **mesti disemak dan didokumentasikan oleh seorang profesional sebelum penerbitan** — lihat nota di penghujung dokumen.
 
 ---
 
 ## 10. Keselamatan
 
-Pertukaran antara aplikasi dan pelayan kami disulitkan (HTTPS/TLS). Akses kepada data dalam pangkalan data dihadkan oleh peraturan pelayan: fungsi sensitif tidak boleh dicapai daripada aplikasi. Tiada sistem yang sempurna selamat, tetapi tiada satu pun teks yang anda rumus semula disimpan pada kami — yang secara mekanikal menghadkan apa yang boleh didedahkan oleh sesuatu pencerobohan.
+Pertukaran antara aplikasi dan pelayan kami disulitkan (HTTPS/TLS). Akses kepada data dalam pangkalan data dihadkan oleh peraturan pelayan: fungsi sensitif tidak boleh dicapai daripada aplikasi. Tiada sistem yang sempurna selamat. Teks yang anda rumus semula dan teks yang dipaparkan oleh Bacaan Berbantu pada skrin tidak disimpan pada kami, yang secara mekanikal menghadkan apa yang boleh didedahkan oleh sesuatu pencerobohan mengenainya. **Ini tidak benar bagi semuanya:** leksikon bahasa peribadi yang anda cipta pula **disimpan** (lihat §3), dan akan terdedah seperti mana-mana data lain dalam dasar ini sekiranya berlaku pencerobohan sebenar — kami melindunginya dengan peraturan akses pelayan yang sama seperti selebihnya.
 
 ---
 
 ## 11. Pindaan
 
 Setiap pindaan kepada dasar ini akan diterbitkan di alamat `https://readit0.github.io/plume-legal` dengan tarikh yang baharu. Sekiranya berlaku perubahan penting mengenai peredaran data anda, kami akan memaklumkan anda di dalam aplikasi.
+
+**Sejak versi 2.0, janji ini mempunyai mekanisme konkrit di sebaliknya.** Pembetulan bentuk yang ringkas (satu tarikh, satu alamat, satu penjelasan) tidak meminta apa-apa lagi daripada anda. Tetapi perubahan MATERIAL — penerima baharu bagi data anda, kategori baharu data yang dikumpul, tujuan baharu, atau perubahan hak anda atau harga — akan memaparkan semula, sekali, skrin persetujuan dalam aplikasi, berserta ringkasan perubahan dan kedua-dua dokumen yang dikemas kini. Inilah tepatnya yang berlaku bagi versi 2.0 ini (lihat kotak di bahagian atas dokumen ini).
 
 ---
 

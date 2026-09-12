@@ -1,6 +1,8 @@
 # Politika ta' Privatezza ta' Plume
 
-**L-aħħar aġġornament: 31 ta' Lulju 2026** — Verżjoni 1.0
+**L-aħħar aġġornament: 12 ta' Settembru 2026** — Verżjoni 2.0
+
+> *X'inbidel minn mindu kienet il-verżjoni 1.0, u għaliex forsi qed terġa' tara l-iskrin tal-aċċettazzjoni fl-applikazzjoni:* qed nikkoreġu żewġ affermazzjonijiet li ma kinux għadhom eżatti. L-ewwel, il-funzjoni **lingwi personali** żżomm fuq is-servers tagħna l-kontenut li toħloq (isem, alfabett, leksiku) — il-verżjoni 1.0 kienet tafferma bi żball li ebda test ma kien maħżun. It-tieni, issa nużaw għodda ta' **rappurtar ta' crashes tekniku** (Sentry) — il-verżjoni 1.0 kienet tafferma li ebda għodda ta' dan it-tip ma kienet teżisti. Id-dettall ta' dawn iż-żewġ punti jinsab f'"F'minuta" hawn taħt, kif ukoll fis-§3 u fis-§9. Dawn huma eżattament iż-żewġ kategoriji ta' bidla li, fl-applikazzjoni, jattivaw talba ġdida għal ftehim (ara s-§11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume tgħinek tikteb: tirriformula t-test tiegħek direttament fl-applikazzjoni
 
 Tliet affarijiet li għandek tiftakar:
 
-1. **Plume ma żżomm ebda wieħed mit-testi tiegħek fuq is-servers tagħha.** La t-testi rriformulati tiegħek, u lanqas it-test moqri mill-iskrin. Ma nżommu la kopja u lanqas reġistru tagħhom.
+1. **Plume ma żżommx it-testi li tirriformula, u lanqas it-test moqri mill-iskrin.** Ma nżommu la kopja u lanqas reġistru tagħhom. **Eċċezzjoni assunta, u volontarja:** jekk toħloq **lingwa personali** (il-lingwa mibnija tiegħek stess, bil-leksiku ta' kliem u t-tifsiriet tagħhom), il-kontenut ta' din il-lingwa **jinżamm**, hu, fuq is-servers tagħna — huwa l-uniku mod kif nistgħu nippermettulek terġa' ssibha fuq apparat ieħor, tiżviluppaha u taqsamha. Id-dettall jinsab fis-§3.
 2. **Skont il-mutur li tagħżel, it-test tiegħek jitlaq jew ma jitlaqx mit-telefown tiegħek.** Żewġ muturi (il-Kit lokali u l-IA lokali) jaħdmu kompletament fuq l-apparat. It-tielet wieħed (l-IA tal-Cloud) jibgħat it-test lil servizz ta' intelliġenza artifiċjali **li jinsab barra mill-Unjoni Ewropea**. Int tagħżel, u l-IA tal-Cloud qatt ma tiġi attivata mingħajr il-kunsens espliċitu tiegħek.
 3. **Plume għandha bżonn permessi qawwija** (li taqra l-kontenut muri f'applikazzjonijiet oħra, li taqbad l-iskrin). Hawn taħt nispjegaw preċiżament għal xiex iservu u għal xiex ma jservux.
 
@@ -91,7 +93,7 @@ It-test mibgħut għandu limitu massimu: 1 200 karattru għal riformulazzjoni, 4
 
 ## 3. Id-data li nżommu
 
-Ma nużaw **ebda għodda ta' analitika tal-udjenza, ebda tracker pubbliċitarju ta' terza parti, ebda għodda ta' rappurtar ta' crashes**. L-applikazzjoni ma fihiex SDK ta' kejl.
+Ma nużaw **ebda għodda ta' analitika tal-udjenza u ebda tracker pubbliċitarju ta' terza parti**, apparti mir-reklamar deskritt fis-§5. **Nużaw għodda ta' rappurtar ta' crashes tekniku** (Sentry): din tara biss żbalji tal-programm (tip ta' żball, stack tas-sejħiet tekniku, verżjoni tal-app, sistema operattiva), qatt l-użu jew il-mixja tiegħek, u qatt it-test li tikteb — filtru dedikat jipprojbixxi dan qabel kull bgħit. Id-dettall jinsab fis-§9.
 
 Dan hu kollox dak li huwa maħżun fuq is-servers tagħna:
 
@@ -104,6 +106,8 @@ Dan hu kollox dak li huwa maħżun fuq is-servers tagħna:
 | **Suġġerimenti mibgħuta volontarjament** (jekk tiktbilna suġġeriment ta' persona mill-applikazzjoni) | Ittejjeb il-katalgu. Dawn is-suġġerimenti qatt ma jiġu ppubblikati. | Sat-tħassir tal-kont tiegħek |
 | **Sinjali tekniċi ta' abbuż** (qbiż ripetut tal-limiti, falliment ta' kontroll tal-integrità — mingħajr ebda test) | Sigurtà, ġlieda kontra l-frodi | Maqtugħa mill-identità tiegħek mat-tħassir tal-kont |
 | **Lingwa u verżjoni tal-applikazzjoni** | Isservi l-kontenut it-tajjeb | Sat-tħassir tal-kont tiegħek |
+| **Il-kontenut tal-lingwi personali li toħloq** (isimha, l-alfabett tagħha, u l-leksiku tagħha — il-kliem u t-tifsiriet li int, jew persuni oħra, ktibtu fiha) | Tippermettilek terġa' ssib il-lingwa tiegħek fuq apparat ieħor, tiżviluppaha, u taqsamha ma' utenti oħra | Sakemm il-lingwa teżisti. Jekk tħassarha, il-fajl tagħha jisparixxi — iżda kopja diġà **importata minn persuna oħra** issir tagħha stess u **tibqa' teżisti**, bħal messaġġ li diġà rċieva terza persuna u li ma nistgħux immorru nħassru għandha |
+| **Rapporti ta' crashes tekniċi** (tip ta' żball, stack tas-sejħiet tekniku mqassar, verżjoni tal-app, sistema operattiva — qatt kontenut ta' test) | Tiddijanjostika u ssewwi l-crashes tal-applikazzjoni | Irregolata mill-fornitur tagħna Sentry (ara s-§9). Din il-ġbir hija soġġetta għall-kunsens tiegħek u għal swiċċ li nistgħu nitfu fi kwalunkwe ħin, mingħajr aġġornament tal-applikazzjoni |
 
 **Dak li ma niġbrux:** ismek, il-kuntatti tiegħek, il-lokalizzazzjoni tiegħek, il-ktieb tal-indirizzi tiegħek, ir-ritratti tiegħek, il-kalendarju tiegħek, l-istorja tal-applikazzjonijiet tiegħek. Plume ma titlob ebda wieħed minn dawn il-permessi.
 
@@ -180,22 +184,25 @@ Peress li l-applikazzjoni tippermetti li jiġi rriformulat test liberu u turi re
 | **Google Play / Google Billing** | Ħlas, abbonamenti | Google Ireland / Stati Uniti |
 | **Google AdMob** | Reklamar bi premju | Google Ireland / Stati Uniti |
 | **Google (servizzi tas-sistema tat-telefown)** | Rikonoxximent tal-vuċi, moduli ta' traduzzjoni offline | Skont l-apparat tiegħek |
+| **Sentry** (Functional Software, Inc.) | Rappurtar ta' crashes tekniku — biss żbalji tal-programm, iffiltrati qabel il-bgħit: qatt it-test tiegħek | L-Istati Uniti |
 
 **Ma nbigħu ebda data u ma nċedu ebda data lil sensara tad-data.**
 
-**Trasferimenti barra mill-Unjoni Ewropea:** l-użu ta' OpenRouter, ta' Google Play u ta' AdMob jimplika trasferiment ta' data barra mill-Unjoni Ewropea. Il-qafas legali ta' dawn it-trasferimenti (klawżoli kuntrattwali standard, deċiżjoni ta' adegwatezza) **irid jiġi vverifikat u ddokumentat minn professjonist qabel il-pubblikazzjoni** — ara n-nota fi tmiem id-dokument.
+**Trasferimenti barra mill-Unjoni Ewropea:** l-użu ta' OpenRouter, ta' Google Play, ta' AdMob u ta' Sentry jimplika trasferiment ta' data barra mill-Unjoni Ewropea. Il-qafas legali ta' dawn it-trasferimenti (klawżoli kuntrattwali standard, deċiżjoni ta' adegwatezza) **irid jiġi vverifikat u ddokumentat minn professjonist qabel il-pubblikazzjoni** — ara n-nota fi tmiem id-dokument.
 
 ---
 
 ## 10. Sigurtà
 
-L-iskambji bejn l-applikazzjoni u s-servers tagħna huma kriptati (HTTPS/TLS). L-aċċess għad-data fil-bażi huwa ristrett minn regoli fuq is-server: il-funzjonijiet sensittivi mhumiex aċċessibbli mill-applikazzjoni. Ebda sistema mhi perfettament sigura, iżda ebda test li tirriformula ma huwa maħżun għandna — u dan jillimita b'mod mekkaniku dak li intrużjoni tista' tikxef.
+L-iskambji bejn l-applikazzjoni u s-servers tagħna huma kriptati (HTTPS/TLS). L-aċċess għad-data fil-bażi huwa ristrett minn regoli fuq is-server: il-funzjonijiet sensittivi mhumiex aċċessibbli mill-applikazzjoni. Ebda sistema mhi perfettament sigura. It-test li tirriformula u dak li l-Qari Assistit juri fuq l-iskrin mhumiex maħżuna għandna, u dan jillimita b'mod mekkaniku dak li intrużjoni tista' tikxef dwarhom. **Dan mhux minnu għal kollox:** il-leksiku tal-lingwi personali li toħloq, hu, **huwa** maħżun (ara s-§3), u jkun espost bħal kwalunkwe data oħra ta' din il-politika f'każ ta' intrużjoni reali — nipproteġuh bl-istess regoli ta' aċċess tas-server bħall-bqija.
 
 ---
 
 ## 11. Modifiki
 
 Kull modifika ta' din il-politika tiġi ppubblikata fl-indirizz `https://readit0.github.io/plume-legal` b'data ġdida. F'każ ta' bidla importanti fiċ-ċirkolazzjoni tad-data tiegħek, ninformawk fl-applikazzjoni.
+
+**Mill-verżjoni 2.0, dan il-wegħda għandha mekkaniżmu konkret warajha.** Korrezzjoni sempliċi ta' forma (data, indirizz, preċiżazzjoni) ma titlob xejn iżjed mingħandek. Iżda bidla MATERJALI — riċevitur ġdid tad-data tiegħek, kategorija ġdida ta' data miġbura, għan ġdid, jew bidla fid-drittijiet tiegħek jew fil-prezz — iġġiegħel l-iskrin tal-aċċettazzjoni fl-applikazzjoni jerġa' jidher, darba, b'sommarju ta' dak li qed jinbidel u ż-żewġ dokumenti aġġornati. Dan huwa eżattament dak li ġara għal din il-verżjoni 2.0 (ara l-kaxxa fil-bidu ta' dan id-dokument).
 
 ---
 

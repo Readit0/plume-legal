@@ -1,6 +1,6 @@
 # A fiókja és adatai törlése — Plume
 
-**Utolsó frissítés: 2026. július 31.** — 1.0-s verzió
+**Utolsó frissítés: 2026. szeptember 12.** — 2.0-s verzió
 
 Érintett alkalmazás: **Plume** (`com.plume.plume`), kiadója a **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — a Google Play áruházban az **openfunworld** néven közzétéve.
 
@@ -37,10 +37,11 @@ A törlés **véglegesen** eltávolítja:
 - **a kéréseinek azonosítóit** — a kért átfogalmazások technikai hivatkozásait;
 - **a kvótakreditjeit és -feloldásait** — a megvásárolt, fel nem használt krediteket, a hirdetéssel szerzett feloldásokat, a módosított felső korlátokat;
 - **a készülékeinek a fiókjához való hozzárendelését** — a többi telefonja vagy táblagépe leválik, és újra egyszerű, névtelen készülékké válik.
+- **az Ön által létrehozott saját nyelveket** — azok neve, ábécéje, szókincse, az Ön megosztási tokenjei és az importálási előzményei. **Amit ez a törlés nem tud megtenni:** ha valaki más már importálta az Ön nyelvének egy másolatát a saját gépére, az a másolat ettől kezdve az övé, és **fennmarad** az Ön törlése után is — mint egy harmadik fél által már megkapott üzenet, amelyet nem tudunk töröltetni nála.
 
 Azt a készüléket, amelyről a törlést kéri, **hatástalanítjuk**: a fiókjához való hozzárendelését töröljük, az azonosítókulcsát megsemmisítjük és egy holt értékkel helyettesítjük, a nyelvét és az alkalmazásverzióját töröljük. Nem marad más, mint egy átláthatatlan szám, amely már nem teszi lehetővé sem az Ön azonosítását, sem a készülék megtalálását.
 
-**Soha nem tároltuk az Ön szövegeit.** Sem az Ön által átfogalmazott szövegeket, sem azt a szöveget, amelyet a Segített Olvasás beolvasott a képernyőről: ezeket sehol nem őriztük meg a szervereinken, tehát nincs mit törölni belőlük.
+**Soha nem tároltuk az Ön által átfogalmazott szövegeket, sem azt a szöveget, amelyet a Segített Olvasás beolvasott a képernyőről**: ezeket sehol nem őriztük meg a szervereinken, tehát nincs mit törölni belőlük. **Ez nem igaz egy Ön által esetlegesen létrehozott saját nyelv szókincsére**: annak tartalmát (nevét, ábécéjét, szavait és jelentéseit) valóban tároljuk a szervereinken — a fiókja törlése ezt is eltávolítja, csakúgy mint mindent, ami Önhöz tartozik (lásd lentebb).
 
 **A telefonján** a personái, az avatarjai, a beállításai és az alkalmazásonkénti szabályai helyileg tárolódnak. Ezeket az alkalmazásból indított törlés eltávolítja, és mindenesetre **eltűnnek, amikor eltávolítja a Plume-ot**.
 

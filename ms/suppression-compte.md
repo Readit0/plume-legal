@@ -1,6 +1,6 @@
 # Memadam akaun dan data anda — Plume
 
-**Kemas kini terakhir: 31 Julai 2026** — Versi 1.0
+**Kemas kini terakhir: 12 September 2026** — Versi 2.0
 
 Aplikasi berkenaan: **Plume** (`com.plume.plume`), diterbitkan oleh **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — diterbitkan di Google Play di bawah nama **openfunworld**.
 
@@ -36,11 +36,12 @@ Pemadaman menghapuskan **secara kekal**:
 - **cadangan anda** — cadangan yang mungkin anda hantar kepada kami daripada aplikasi. Itulah satu-satunya teks bebas yang kami simpan;
 - **pengecam permintaan anda** — rujukan teknikal bagi rumusan semula yang diminta;
 - **kredit dan pembukaan kuota anda** — kredit yang dibeli tetapi belum digunakan, pembukaan yang diperoleh melalui iklan, had yang telah dilaraskan;
-- **pengaitan peranti anda dengan akaun anda** — telefon atau tablet anda yang lain dileraikan dan kembali menjadi sekadar peranti tanpa nama.
+- **pengaitan peranti anda dengan akaun anda** — telefon atau tablet anda yang lain dileraikan dan kembali menjadi sekadar peranti tanpa nama;
+- **bahasa peribadi yang telah anda cipta** — nama, abjad, leksikon, token perkongsian dan sejarah import anda. **Apa yang tidak dapat dilakukan oleh pemadaman ini:** jika orang lain telah mengimport satu salinan bahasa anda di pihaknya, salinan itu kini menjadi miliknya dan **terus wujud** selepas pemadaman anda — seperti mesej yang telah diterima oleh pihak ketiga, kami tidak dapat memadamnya di sisi mereka.
 
 Peranti yang anda gunakan untuk meminta pemadaman itu **dineutralkan**: pengaitannya dengan akaun anda dipadam, kunci pengenalannya dimusnahkan dan digantikan dengan satu nilai mati, bahasa dan versi aplikasinya dipadam. Yang tinggal hanyalah satu nombor legap, yang tidak lagi membolehkan sesiapa mengenal pasti anda mahupun mencari peranti itu.
 
-**Kami tidak pernah menyimpan teks anda.** Baik teks yang anda rumus semula, mahupun teks yang dibaca pada skrin oleh Bacaan Berbantu: kedua-duanya tidak disimpan di mana-mana pada pelayan kami, jadi tiada apa-apa yang perlu dipadam.
+**Kami tidak pernah menyimpan teks yang anda rumus semula, mahupun teks yang dibaca pada skrin oleh Bacaan Berbantu**: kedua-duanya tidak disimpan di mana-mana pada pelayan kami, jadi tiada apa-apa yang perlu dipadam. **Ini tidak benar bagi leksikon sesuatu bahasa peribadi yang mungkin anda cipta**: kandungannya (nama, abjad, perkataan dan takrifan) memang disimpan pada pelayan kami — pemadaman akaun anda memadamnya, seperti selebihnya yang menjadi milik anda (lihat di bawah).
 
 **Pada telefon anda**, persona anda, avatar anda, tetapan anda dan peraturan setiap aplikasi anda disimpan secara setempat. Semuanya dipadam oleh pemadaman daripada aplikasi, dan bagaimanapun juga **hilang apabila anda menyahpasang Plume**.
 

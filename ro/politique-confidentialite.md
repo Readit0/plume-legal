@@ -1,6 +1,16 @@
 # Politica de confidențialitate a Plume
 
-**Ultima actualizare: 31 iulie 2026** — Versiunea 1.0
+**Ultima actualizare: 12 septembrie 2026** — Versiunea 2.0
+
+> *Ce s-a schimbat față de versiunea 1.0, și de ce este posibil să revedeți ecranul de
+> acceptare din aplicație:* corectăm două afirmații care nu mai erau exacte. În primul rând,
+> funcționalitatea **limbi personale** păstrează pe serverele noastre conținutul pe care îl
+> creați (nume, alfabet, lexic) — versiunea 1.0 afirma în mod eronat că niciun text nu era
+> stocat. În al doilea rând, folosim acum un instrument de **raportare a plantărilor
+> tehnice** (Sentry) — versiunea 1.0 afirma că nu exista niciun instrument de acest tip.
+> Detaliile acestor două puncte se află la „Într-un minut” mai jos, precum și la §3 și §9.
+> Acestea sunt exact cele două categorii de schimbare care, în aplicație, declanșează o nouă
+> cerere de acord (a se vedea §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume vă ajută să scrieți: reformulează textul dumneavoastră direct în ap
 
 Trei lucruri de reținut:
 
-1. **Plume nu păstrează niciunul dintre textele dumneavoastră pe serverele sale.** Nici textele reformulate, nici textul citit de pe ecran. Nu păstrăm nici copie, nici jurnal.
+1. **Plume nu păstrează nici textele pe care le reformulați, nici textul citit de pe ecran.** Nu păstrăm nici copie, nici jurnal. **Excepție asumată și voluntară:** dacă vă creați o **limbă personală** (propria dumneavoastră limbă construită, cu lexicul ei de cuvinte și definițiile lor), conținutul acestei limbi **este**, el, păstrat pe serverele noastre — este singurul mijloc de a vă permite să o regăsiți pe un alt dispozitiv, să o dezvoltați și să o partajați. Detaliul este la §3.
 2. **În funcție de motorul pe care îl alegeți, textul dumneavoastră iese sau nu iese din telefon.** Două motoare (Kitul local și IA locală) lucrează în întregime pe dispozitiv. Al treilea (IA Cloud) trimite textul către un serviciu de inteligență artificială **situat în afara Uniunii Europene**. Dumneavoastră alegeți, iar IA Cloud nu se activează niciodată fără acordul dumneavoastră explicit.
 3. **Plume are nevoie de permisiuni puternice** (citirea conținutului afișat în celelalte aplicații, capturarea ecranului). Explicăm mai jos exact la ce servesc și la ce nu servesc.
 
@@ -91,7 +101,7 @@ Textul trimis este plafonat: 1 200 de caractere pentru o reformulare, 4 000 de c
 
 ## 3. Datele pe care le păstrăm
 
-Nu folosim **niciun instrument de analiză a audienței, niciun tracker publicitar terț, niciun instrument de raportare a erorilor**. Aplicația nu conține niciun SDK de măsurare.
+Nu folosim **niciun instrument de analiză a audienței și niciun tracker publicitar terț** în afara publicității descrise la §5. **Folosim un instrument de raportare a plantărilor tehnice** (Sentry): acesta vede doar erori de program (tipul erorii, stiva de apeluri tehnică, versiunea aplicației, sistemul de operare), niciodată utilizarea sau parcursul dumneavoastră, și niciodată textul pe care îl scrieți — un filtru dedicat îi interzice acest lucru înainte de orice trimitere. Detaliul este la §9.
 
 Iată tot ceea ce este stocat pe serverele noastre:
 
@@ -104,6 +114,8 @@ Iată tot ceea ce este stocat pe serverele noastre:
 | **Sugestii trimise în mod voluntar** (dacă ne scrieți o sugestie de persona din aplicație) | Îmbunătățirea catalogului. Aceste sugestii nu sunt niciodată publicate. | Până la ștergerea contului dumneavoastră |
 | **Semnale tehnice de abuz** (depășiri repetate, eșec al controlului de integritate — fără niciun text) | Securitate, combaterea fraudei | Detașate de identitatea dumneavoastră la ștergerea contului |
 | **Limba și versiunea aplicației** | Livrarea conținutului potrivit | Până la ștergerea contului dumneavoastră |
+| **Conținutul limbilor personale pe care le creați** (numele, alfabetul și lexicul acesteia — cuvintele și definițiile pe care dumneavoastră, sau alte persoane, le-ați scris în ea) | A vă permite să vă regăsiți limba pe un alt dispozitiv, să o dezvoltați și să o partajați cu alți utilizatori | Atât timp cât limba există. Dacă o ștergeți, fișa ei dispare — dar o copie deja **importată de altă persoană** îi aparține de acum acesteia și **supraviețuiește**, precum un mesaj deja primit de un terț pe care nu îl putem șterge la el |
+| **Rapoarte de plantare tehnică** (tipul erorii, stiva de apeluri tehnică trunchiată, versiunea aplicației, sistemul de operare — niciodată un conținut de text) | Diagnosticarea și corectarea plantărilor aplicației | Guvernată de prestatorul nostru Sentry (a se vedea §9). Această colectare este supusă consimțământului dumneavoastră și unui întrerupător pe care îl putem opri în orice moment, fără actualizare a aplicației |
 
 **Ce nu colectăm:** numele dumneavoastră, contactele dumneavoastră, localizarea dumneavoastră, agenda dumneavoastră de adrese, fotografiile dumneavoastră, calendarul dumneavoastră, istoricul aplicațiilor dumneavoastră. Plume nu solicită niciuna dintre aceste permisiuni.
 
@@ -180,22 +192,25 @@ Plume este un instrument de asistență la redactare, destinat unui public **de 
 | **Google Play / Google Billing** | Plată, abonamente | Google Ireland / Statele Unite |
 | **Google AdMob** | Publicitate cu recompensă | Google Ireland / Statele Unite |
 | **Google (serviciile de sistem ale telefonului)** | Recunoaștere vocală, module de traducere offline | În funcție de dispozitivul dumneavoastră |
+| **Sentry** (Functional Software, Inc.) | Raportare a plantărilor tehnice — doar erori ale programului, filtrate înainte de trimitere: niciodată textul dumneavoastră | Statele Unite ale Americii |
 
 **Nu vindem niciun fel de date și nu cedăm date către brokeri de date.**
 
-**Transferuri în afara Uniunii Europene:** recurgerea la OpenRouter, la Google Play și la AdMob implică un transfer de date în afara Uniunii Europene. Cadrul juridic al acestor transferuri (clauze contractuale standard, decizie privind caracterul adecvat al nivelului de protecție) **trebuie verificat și documentat de un profesionist înainte de publicare** — a se vedea nota de la sfârșitul documentului.
+**Transferuri în afara Uniunii Europene:** recurgerea la OpenRouter, la Google Play, la AdMob și la Sentry implică un transfer de date în afara Uniunii Europene. Cadrul juridic al acestor transferuri (clauze contractuale standard, decizie privind caracterul adecvat al nivelului de protecție) **trebuie verificat și documentat de un profesionist înainte de publicare** — a se vedea nota de la sfârșitul documentului.
 
 ---
 
 ## 10. Securitatea
 
-Schimburile dintre aplicație și serverele noastre sunt criptate (HTTPS/TLS). Accesul la datele din baza de date este restricționat prin reguli de server: funcțiile sensibile nu sunt accesibile din aplicație. Niciun sistem nu este perfect sigur, dar niciun text pe care îl reformulați nu este stocat la noi — ceea ce limitează în mod mecanic ceea ce ar putea dezvălui o intruziune.
+Schimburile dintre aplicație și serverele noastre sunt criptate (HTTPS/TLS). Accesul la datele din baza de date este restricționat prin reguli de server: funcțiile sensibile nu sunt accesibile din aplicație. Niciun sistem nu este perfect sigur. Textul pe care îl reformulați și cel pe care Citirea Asistată îl afișează pe ecran nu sunt stocate la noi, ceea ce limitează în mod mecanic ceea ce ar putea dezvălui o intruziune în privința lor. **Acest lucru nu este valabil pentru tot:** lexicul limbilor personale pe care le creați, el, **este** stocat (a se vedea §3) și ar fi expus ca orice altă dată din prezenta politică în cazul unei intruziuni reale — îl protejăm cu aceleași reguli de acces server ca și restul.
 
 ---
 
 ## 11. Modificări
 
 Orice modificare a prezentei politici va fi publicată la adresa `https://readit0.github.io/plume-legal`, cu o dată nouă. În cazul unei schimbări importante privind circulația datelor dumneavoastră, vă vom informa în aplicație.
+
+**Începând cu versiunea 2.0, această promisiune are un mecanism concret în spatele ei.** O simplă corectură de formă (o dată, o adresă, o precizare) nu vă cere nimic în plus. Însă o schimbare MATERIALĂ — un nou destinatar al datelor dumneavoastră, o nouă categorie de date colectate, o nouă finalitate, sau o schimbare a drepturilor dumneavoastră ori a prețului — face să reapară, o singură dată, ecranul de acceptare din aplicație, cu un rezumat al a ceea ce se schimbă și cele două documente actualizate. Este exact ceea ce s-a întâmplat pentru această versiune 2.0 (a se vedea caseta de la începutul acestui document).
 
 ---
 

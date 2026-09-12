@@ -1,6 +1,16 @@
 # Patakaran sa Privacy ng Plume
 
-**Huling na-update: 31 Hulyo 2026** — Bersyon 1.0
+**Huling na-update: 12 Setyembre 2026** — Bersyon 2.0
+
+> *Ang nagbago mula sa Bersyon 1.0, at kung bakit posibleng makita ninyong muli ang consent
+> screen sa application:* itinatama namin ang dalawang pahayag na hindi na tumpak. Una,
+> pinananatili ng feature na **mga personal na wika** sa aming mga server ang nilalamang
+> nililikha ninyo (pangalan, alpabeto, bokabularyo) — mali ang sinabi ng Bersyon 1.0 na
+> walang anumang tekstong iniimbak. Pangalawa, gumagamit na kami ngayon ng isang kasangkapan
+> ng **teknikal na crash reporting** (Sentry) — sinabi ng Bersyon 1.0 na walang ganitong
+> uring kasangkapan. Ang detalye ng dalawang puntong ito ay nasa «Sa loob ng isang minuto»
+> sa ibaba, gayundin sa §3 at §9. Ito mismo ang dalawang kategorya ng pagbabago na
+> nagpapasimula, sa application, ng isang bagong hiling ng pagsang-ayon (tingnan ang §11).
 
 ---
 
@@ -23,7 +33,7 @@ Tinutulungan kayo ng Plume na magsulat: ni-re-rephrase nito ang inyong teksto di
 
 Tatlong bagay na dapat tandaan:
 
-1. **Walang anumang teksto ninyo ang iniimbak ng Plume sa mga server nito.** Hindi ang mga tekstong ni-rephrase ninyo, hindi rin ang tekstong binasa sa screen. Wala kaming itinatagong kopya, wala rin kaming log nito.
+1. **Hindi iniimbak ng Plume ang mga tekstong ni-rephrase ninyo, ni ang tekstong binasa sa screen.** Wala kaming itinatagong kopya, wala rin kaming log nito. **Sinasadya at kusang-loob na eksepsiyon:** kung gagawa kayo ng isang **personal na wika** (ang inyong sariling likhang wika, may bokabularyo ng mga salita at ang mga kahulugan ng mga ito), ang nilalaman ng wikang iyon ay **iniimbak** naman sa aming mga server — ito ang tanging paraan upang mahanap ninyo ito muli sa ibang device, mapaunlad ito, at maibahagi ito. Nasa §3 ang detalye.
 2. **Depende sa engine na pipiliin ninyo, lumalabas o hindi lumalabas ang inyong teksto sa inyong telepono.** Dalawang engine (ang Local Kit at ang Local AI) ang gumagana nang buo sa loob mismo ng device. Ang pangatlo (ang Cloud AI) ay nagpapadala ng teksto sa isang serbisyo ng artificial intelligence na **nasa labas ng European Union**. Kayo ang pumipili, at hindi kailanman gumagana ang Cloud AI nang wala ang inyong tahasang pahintulot.
 3. **Kailangan ng Plume ang mga makapangyarihang permission** (pagbasa sa nilalamang ipinapakita sa ibang application, pagkuha ng screen). Ipinapaliwanag namin sa ibaba nang eksakto kung para saan ang mga ito at kung para saan hindi.
 
@@ -91,7 +101,7 @@ May takda ang tekstong ipinapadala: 1,200 karakter para sa isang pag-rephrase, 4
 
 ## 3. Ang datos na aming itinatago
 
-**Wala kaming ginagamit na anumang analytics tool, anumang third-party advertising tracker, ni anumang crash reporting tool.** Walang measurement SDK ang application.
+**Wala kaming ginagamit na anumang analytics tool, ni anumang third-party advertising tracker** maliban sa advertising na inilarawan sa §5. **Gumagamit kami ng isang kasangkapan ng teknikal na crash reporting** (Sentry): nakikita lamang nito ang mga error ng programa (uri ng error, teknikal na call stack, bersyon ng application, operating system), hindi kailanman ang inyong paggamit ni ang inyong landas, at hindi kailanman ang tekstong isinusulat ninyo — pinipigilan ito ng isang natatanging filter bago anumang pagpapadala. Nasa §9 ang detalye.
 
 Ito ang kabuuan ng nakaimbak sa aming mga server:
 
@@ -104,6 +114,8 @@ Ito ang kabuuan ng nakaimbak sa aming mga server:
 | **Mga mungkahing kusang ipinadala** (kung susulat kayo sa amin ng mungkahing persona mula sa application) | Pagandahin ang katalogo. Hindi kailanman inilalathala ang mga mungkahing ito. | Hanggang sa mabura ang inyong account |
 | **Mga teknikal na senyales ng pang-aabuso** (paulit-ulit na paglagpas sa takda, palya sa integrity check — walang anumang teksto) | Seguridad, laban sa pandaraya | Inihihiwalay sa inyong pagkakakilanlan kapag binura ang account |
 | **Wika at bersyon ng application** | Ihatid ang tamang nilalaman | Hanggang sa mabura ang inyong account |
+| **Ang nilalaman ng mga personal na wikang nililikha ninyo** (ang pangalan nito, ang alpabeto nito, at ang bokabularyo nito — ang mga salita at ang mga kahulugang isinulat ninyo, o ng ibang tao, dito) | Bigyan kayo ng access na mahanap muli ang inyong wika sa ibang device, mapaunlad ito, at maibahagi ito sa ibang gumagamit | Habang umiiral ang wika. Kung buburahin ninyo ito, mawawala ang talaan nito — ngunit ang isang kopyang **na-import na ng ibang tao** ay pagmamay-ari na niya at **mananatili**, tulad ng isang mensaheng natanggap na ng isang ikatlong panig na hindi namin kayang burahin sa panig niya |
+| **Mga teknikal na crash report** (uri ng error, pinaikling teknikal na call stack, bersyon ng application, operating system — hindi kailanman anumang nilalamang teksto) | Suriin at ayusin ang mga crash ng application | Pinamamahalaan ng aming provider na Sentry (tingnan ang §9). Ang koleksiyong ito ay nakasalalay sa inyong pahintulot at sa isang switch na puwede naming patayin anumang oras, nang walang update sa application |
 
 **Ang hindi namin kinokolekta:** ang inyong pangalan, ang inyong mga contact, ang inyong lokasyon, ang inyong address book, ang inyong mga larawan, ang inyong kalendaryo, ang kasaysayan ng inyong mga application. Wala ni isa sa mga permission na iyan ang hinihingi ng Plume.
 
@@ -180,22 +192,25 @@ Dahil pinapayagan ng application ang pag-rephrase ng malayang teksto at nagpapak
 | **Google Play / Google Billing** | Bayad, mga subscription | Google Ireland / Estados Unidos |
 | **Google AdMob** | Rewarded advertising | Google Ireland / Estados Unidos |
 | **Google (mga system service ng telepono)** | Speech recognition, mga offline na translation module | Depende sa inyong device |
+| **Sentry** (Functional Software, Inc.) | Teknikal na crash reporting — mga error lamang ng programa, sinala bago ipadala: hindi kailanman ang inyong teksto | Estados Unidos |
 
 **Wala kaming ibinebentang anumang datos at wala kaming ibinibigay na anuman sa mga data broker.**
 
-**Paglilipat sa labas ng European Union:** ang paggamit sa OpenRouter, sa Google Play at sa AdMob ay nagsasangkot ng paglilipat ng datos sa labas ng European Union. Ang legal na balangkas ng mga paglilipat na ito (standard contractual clauses, adequacy decision) ay **kailangang beripikahin at idokumento ng isang propesyonal bago ilathala** — tingnan ang paalala sa dulo ng dokumento.
+**Paglilipat sa labas ng European Union:** ang paggamit sa OpenRouter, sa Google Play, sa AdMob at sa Sentry ay nagsasangkot ng paglilipat ng datos sa labas ng European Union. Ang legal na balangkas ng mga paglilipat na ito (standard contractual clauses, adequacy decision) ay **kailangang beripikahin at idokumento ng isang propesyonal bago ilathala** — tingnan ang paalala sa dulo ng dokumento.
 
 ---
 
 ## 10. Seguridad
 
-Ang palitan sa pagitan ng application at ng aming mga server ay naka-encrypt (HTTPS/TLS). Ang access sa datos sa database ay pinaghihigpitan ng mga panuntunan sa server: ang mga sensitibong function ay hindi maaabot mula sa application. Walang sistemang ganap na ligtas, ngunit wala ni isang tekstong ni-rephrase ninyo ang nakaimbak sa amin — na mekanikal na naglilimita sa kung ano ang maibubunyag ng isang panghihimasok.
+Ang palitan sa pagitan ng application at ng aming mga server ay naka-encrypt (HTTPS/TLS). Ang access sa datos sa database ay pinaghihigpitan ng mga panuntunan sa server: ang mga sensitibong function ay hindi maaabot mula sa application. Walang sistemang ganap na ligtas. Ang tekstong ni-rephrase ninyo at ang tekstong ipinapakita ng Assisted Reading sa screen ay hindi iniimbak sa amin, na mekanikal na naglilimita sa kung ano ang maibubunyag tungkol sa mga ito ng isang panghihimasok. **Hindi ito totoo sa lahat:** ang bokabularyo ng mga personal na wikang nililikha ninyo ay **iniimbak** naman (tingnan ang §3), at mabubunyag ito tulad ng anumang iba pang datos sa patakarang ito kung magkaroon ng tunay na panghihimasok — pinoprotektahan namin ito ng parehong mga panuntunan sa access sa server tulad ng iba pa.
 
 ---
 
 ## 11. Mga pagbabago
 
 Anumang pagbabago sa patakarang ito ay ilalathala sa `https://readit0.github.io/plume-legal` na may bagong petsa. Kung may mahalagang pagbabago sa daloy ng inyong datos, ipapaalam namin ito sa inyo sa loob ng application.
+
+**Mula sa Bersyon 2.0, may konkretong mekanismo na sa likod ng pangakong ito.** Ang isang simpleng pagwawasto sa anyo (isang petsa, isang address, isang paglilinaw) ay hindi na humihingi ng anuman pa mula sa inyo. Ngunit ang isang **materyal** na pagbabago — isang bagong tatanggap ng inyong datos, isang bagong kategorya ng nangongolektang datos, isang bagong layunin, o isang pagbabago sa inyong mga karapatan o sa presyo — ay magpapalabas muli, nang isang beses, sa consent screen sa application, kasama ang isang buod ng nagbabago at ang dalawang na-update na dokumento. Ito mismo ang nangyari para sa Bersyon 2.0 na ito (tingnan ang kahon sa simula ng dokumentong ito).
 
 ---
 

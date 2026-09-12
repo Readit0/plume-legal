@@ -1,6 +1,6 @@
 # Hesabınızı ve verilerinizi silme — Plume
 
-**Son güncelleme: 31 Temmuz 2026** — Sürüm 1.0
+**Son güncelleme: 12 Eylül 2026** — Sürüm 2.0
 
 İlgili uygulama: **Plume** (`com.plume.plume`), yayıncısı **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — Google Play'de **openfunworld** adıyla yayımlanmaktadır.
 
@@ -37,10 +37,11 @@ Silme işlemi şunları **kesin olarak** yok eder:
 - **istek kimlikleriniz** — talep edilen yeniden ifadelerin teknik referansları;
 - **kredileriniz ve kota kilit açmalarınız** — tüketilmemiş satın alınan krediler, reklamla elde edilen kilit açmalar, ayarlanmış tavanlar;
 - **cihazlarınızın hesabınıza bağlanması** — diğer telefonlarınız ya da tabletleriniz bağlantısız hâle gelir ve yeniden basit anonim cihazlara dönüşür.
+- **oluşturduğunuz kişisel diller** — adı, alfabesi, sözlüğü, paylaşım jetonlarınız ve içe aktarma geçmişiniz. **Bu silmenin yapamayacağı şey:** başka biri zaten dilinizin bir kopyasını kendi tarafına içe aktarmışsa, bu kopya artık ona aittir ve silme işleminizden sonra da **varlığını sürdürür** — üçüncü bir kişinin çoktan aldığı bir mesaj gibi, onu kendi tarafından silmemiz mümkün değildir.
 
 Silme talebinde bulunduğunuz cihaz **etkisiz hâle getirilir**: hesabınızla bağlantısı silinir, kimlik anahtarı yok edilerek ölü bir değerle değiştirilir, dili ve uygulama sürümü silinir. Geriye yalnızca, artık ne sizi tanımlamaya ne de cihazı bulmaya imkân veren opak bir numara kalır.
 
-**Metinlerinizi hiçbir zaman saklamadık.** Ne yeniden ifade ettiğiniz metinleri, ne de Destekli Okuma'nın ekrandan okuduğu metni: bunlar sunucularımızda hiçbir yerde tutulmuyordu, dolayısıyla silinecek bir şey de yok.
+**Ne yeniden ifade ettiğiniz metinleri ne de Destekli Okuma'nın ekrandan okuduğu metni hiçbir zaman saklamadık**: bunlar sunucularımızda hiçbir yerde tutulmuyordu, dolayısıyla silinecek bir şey de yok. **Bu, oluşturmuş olabileceğiniz bir kişisel dilin sözlüğü için geçerli değildir**: onun içeriği (adı, alfabesi, sözcükler ve tanımlar) sunucularımızda gerçekten saklanır — hesabınızın silinmesi bunu da yok eder, size ait diğer her şey gibi (aşağıya bakın).
 
 **Telefonunuzda** personalarınız, avatarlarınız, ayarlarınız ve uygulama başına kurallarınız yerel olarak saklanır. Bunlar uygulamadan yapılan silme işlemiyle silinir ve her hâlükârda **Plume'ü kaldırdığınızda ortadan kalkar**.
 

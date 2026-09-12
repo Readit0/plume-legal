@@ -1,6 +1,6 @@
 # Jūsu konta un datu dzēšana — Plume
 
-**Pēdējoreiz atjaunināts: 2026. gada 31. jūlijs** — Versija 1.0
+**Pēdējoreiz atjaunināts: 2026. gada 12. septembris** — Versija 2.0
 
 Attiecīgā lietotne: **Plume** (`com.plume.plume`), ko izdod **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicēta Google Play veikalā ar nosaukumu **openfunworld**.
 
@@ -36,11 +36,12 @@ Dzēšana **neatgriezeniski** izdzēš:
 - **jūsu ieteikumus** — priekšlikumus, ko esat mums nosūtījis no lietotnes. Tas ir vienīgais brīvais teksts, ko mēs glabājam;
 - **jūsu pieprasījumu identifikatorus** — pieprasīto pārformulējumu tehniskās atsauces;
 - **jūsu kvotas kredītus un atbloķējumus** — nopirktos nepatērētos kredītus, ar reklāmu iegūtos atbloķējumus, pielāgotos ierobežojumus;
-- **jūsu ierīču piesaisti jūsu kontam** — jūsu pārējie tālruņi vai planšetdatori tiek atsaistīti un atkal kļūst par vienkāršām anonīmām ierīcēm.
+- **jūsu ierīču piesaisti jūsu kontam** — jūsu pārējie tālruņi vai planšetdatori tiek atsaistīti un atkal kļūst par vienkāršām anonīmām ierīcēm;
+- **personiskās valodas, ko esat izveidojis** — to nosaukumu, alfabētu, vārdnīcu, jūsu koplietošanas marķierus un importēšanas vēsturi. **Ko šī dzēšana nevar izdarīt:** ja kāds cits jau ir importējis jūsu valodas kopiju pie sevis, šī kopija tagad pieder viņam un **turpina pastāvēt** pēc jūsu dzēšanas — tāpat kā ziņa, ko jau saņēmusi trešā puse, mēs nevaram to izdzēst pie viņa.
 
 Ierīce, no kuras jūs pieprasāt dzēšanu, tiek **neitralizēta**: tās piesaiste jūsu kontam tiek izdzēsta, tās identifikācijas atslēga tiek iznīcināta un aizstāta ar mirušu vērtību, tās valoda un lietotnes versija tiek izdzēstas. Paliek tikai necaurredzams numurs, kas vairs neļauj ne jūs identificēt, ne atrast ierīci.
 
-**Mēs nekad neesam glabājuši jūsu tekstus.** Ne tekstus, ko esat pārformulējis, ne tekstu, ko no ekrāna nolasīja asistētā lasīšana: tie nekur mūsu serveros netika saglabāti, tāpēc nav nekā, ko tur dzēst.
+**Mēs nekad neesam glabājuši tekstus, ko esat pārformulējis, ne tekstu, ko no ekrāna nolasīja asistētā lasīšana**: tie nekur mūsu serveros netiek glabāti, tāpēc nav nekā, ko tur dzēst. **Tas neattiecas uz vārdnīcu personiskajai valodai, ko jūs varētu būt izveidojis**: tās saturs (nosaukums, alfabēts, vārdi un definīcijas) tiešām tiek glabāts mūsu serveros — jūsu konta dzēšana to izdzēš, tāpat kā pārējo jums piederošo (skatīt tālāk).
 
 **Jūsu tālrunī** jūsu personas, jūsu avatāri, jūsu iestatījumi un jūsu noteikumi katrai lietotnei ir saglabāti lokāli. Tos izdzēš dzēšana no lietotnes, un jebkurā gadījumā tie **pazūd, kad jūs atinstalējat Plume**.
 

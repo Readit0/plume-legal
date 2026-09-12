@@ -1,6 +1,15 @@
 # Sera ya faragha ya Plume
 
-**Sasisho la mwisho: 31 Julai 2026** — Toleo la 1.0
+**Sasisho la mwisho: 12 Septemba 2026** — Toleo la 2.0
+
+> *Kilichobadilika tangu toleo la 1.0, na kwa nini huenda ukaona tena skrini ya kukubali ndani
+> ya programu:* tunarekebisha kauli mbili ambazo hazikuwa sahihi tena. Kwanza, kipengele cha
+> **lugha za kibinafsi** kinahifadhi kwenye seva zetu maudhui unayounda (jina, alfabeti,
+> msamiati) — toleo la 1.0 lilidai kimakosa kwamba hakuna maandishi yaliyokuwa yakihifadhiwa.
+> Pili, sasa tunatumia zana ya **kuripoti hitilafu za kiufundi** (Sentry) — toleo la 1.0 lilidai
+> kwamba hakuna zana ya aina hiyo iliyokuwepo. Maelezo ya mambo haya mawili yako katika
+> "Kwa dakika moja" hapa chini, pamoja na katika §3 na §9. Haya ndiyo hasa aina mbili za
+> mabadiliko ambazo, ndani ya programu, huchochea ombi jipya la kukubali (angalia §11).
 
 ---
 
@@ -23,7 +32,7 @@ Plume inakusaidia kuandika: inaandika upya maandishi yako moja kwa moja ndani ya
 
 Mambo matatu ya kukumbuka:
 
-1. **Plume haihifadhi maandishi yako yoyote kwenye seva zake.** Wala maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini. Hatuwekei nakala wala kumbukumbu ya matumizi.
+1. **Plume haihifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini.** Hatuwekei nakala wala kumbukumbu ya matumizi. **Ubaguzi tunaoukubali kwa makusudi:** ukiunda **lugha ya kibinafsi** (lugha yako mwenyewe uliyoitunga, yenye msamiati wa maneno na maana zake), maudhui ya lugha hiyo **yanahifadhiwa** kwenye seva zetu — hii ndiyo njia pekee ya kukuwezesha kuipata tena kwenye kifaa kingine, kuiendeleza, na kuishiriki. Maelezo yako katika §3.
 2. **Kutegemea injini unayochagua, maandishi yako yanatoka au hayatoki kwenye simu yako.** Injini mbili (Seti ya Ndani na AI ya Ndani) hufanya kazi yote ndani ya kifaa. Ya tatu (AI ya Wingu) hutuma maandishi kwenye huduma ya akili bandia **iliyoko nje ya Umoja wa Ulaya**. Wewe ndiye unayechagua, na AI ya Wingu haiwashwi kamwe bila ridhaa yako ya wazi.
 3. **Plume inahitaji ruhusa zenye nguvu kubwa** (kusoma maudhui yanayoonyeshwa katika programu nyingine, kupiga picha ya skrini). Hapa chini tunaeleza kwa usahihi zinatumika kwa nini na hazitumiki kwa nini.
 
@@ -91,7 +100,7 @@ Maandishi yanayotumwa yana kikomo: herufi 1,200 kwa uandishi upya, na herufi 4,0
 
 ## 3. Data tunayohifadhi
 
-Hatutumii **zana yoyote ya uchanganuzi wa hadhira, kifuatiliaji chochote cha matangazo cha mtu wa tatu, wala zana yoyote ya kuripoti hitilafu**. Programu haina SDK ya kupima matumizi.
+Hatutumii **zana yoyote ya uchanganuzi wa hadhira wala kifuatiliaji chochote cha matangazo cha mtu wa tatu** zaidi ya matangazo yaliyoelezwa katika §5. **Tunatumia zana ya kuripoti hitilafu za kiufundi** (Sentry): inaona tu hitilafu za programu (aina ya hitilafu, mfuatano wa wito wa kiufundi, toleo la programu, mfumo wa uendeshaji), kamwe matumizi yako wala mwenendo wako, na kamwe maandishi unayoandika — kichujio maalum kinakizuia kufanya hivyo kabla ya utumaji wowote. Maelezo yako katika §9.
 
 Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 
@@ -104,6 +113,8 @@ Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 | **Mapendekezo uliyotuma kwa hiari** (ikiwa unatuandikia pendekezo la persona kutoka ndani ya programu) | Kuboresha katalogi. Mapendekezo haya hayachapishwi kamwe. | Mpaka utakapofuta akaunti yako |
 | **Ishara za kiufundi za matumizi mabaya** (kuvuka vikomo mara kwa mara, kushindwa kwa ukaguzi wa uadilifu — bila maandishi yoyote) | Usalama, kupambana na udanganyifu | Hutenganishwa na utambulisho wako unapofuta akaunti |
 | **Lugha na toleo la programu** | Kutoa maudhui sahihi | Mpaka utakapofuta akaunti yako |
+| **Maudhui ya lugha za kibinafsi unazounda** (jina lake, alfabeti yake, na msamiati wake — maneno na maana zilizoandikwa na wewe, au watu wengine, ndani yake) | Kukuwezesha kuipata tena lugha yako kwenye kifaa kingine, kuiendeleza, na kuishiriki na watumiaji wengine | Mradi lugha ipo. Ukiifuta, faili lake hutoweka — lakini nakala ambayo tayari **imeingizwa na mtu mwingine** sasa ni mali yake na **inaendelea kuwepo**, kama ujumbe ambao tayari umepokewa na mtu wa tatu ambao hatuwezi kwenda kuufuta kwake |
+| **Ripoti za hitilafu za kiufundi** (aina ya hitilafu, mfuatano wa wito wa kiufundi uliopunguzwa, toleo la programu, mfumo wa uendeshaji — kamwe maudhui ya maandishi) | Kubaini na kurekebisha hitilafu za programu | Inasimamiwa na mtoa huduma wetu Sentry (angalia §9). Ukusanyaji huu unategemea ridhaa yako na swichi tunayoweza kuizima wakati wowote, bila kuhitaji sasisho la programu |
 
 **Kile tusichokusanya:** jina lako, anwani zako za mawasiliano, mahali ulipo, kitabu chako cha anwani, picha zako, kalenda yako, historia ya programu zako. Plume haiombi ruhusa yoyote kati ya hizo.
 
@@ -180,22 +191,25 @@ Kwa kuwa programu inaruhusu kuandika upya maandishi huru na inaonyesha matangazo
 | **Google Play / Google Billing** | Malipo, usajili | Google Ireland / Marekani |
 | **Google AdMob** | Matangazo yenye zawadi | Google Ireland / Marekani |
 | **Google (huduma za mfumo za simu)** | Utambuzi wa sauti, moduli za tafsiri bila mtandao | Kutegemea kifaa chako |
+| **Sentry** (Functional Software, Inc.) | Ripoti ya hitilafu za kiufundi — hitilafu za programu pekee, zilizochujwa kabla ya kutumwa: kamwe maandishi yako | Marekani |
 
 **Hatuuzi data yoyote wala hatukabidhi data yoyote kwa madalali wa data.**
 
-**Uhamishaji nje ya Umoja wa Ulaya:** matumizi ya OpenRouter, Google Play na AdMob yanahusisha uhamishaji wa data nje ya Umoja wa Ulaya. Mfumo wa kisheria wa uhamishaji huu (vifungu vya kimkataba vya kawaida, uamuzi wa utoshelevu wa ulinzi) **lazima uhakikiwe na uandikwe na mtaalamu kabla ya kuchapishwa** — ona dokezo mwishoni mwa hati.
+**Uhamishaji nje ya Umoja wa Ulaya:** matumizi ya OpenRouter, Google Play, AdMob na Sentry yanahusisha uhamishaji wa data nje ya Umoja wa Ulaya. Mfumo wa kisheria wa uhamishaji huu (vifungu vya kimkataba vya kawaida, uamuzi wa utoshelevu wa ulinzi) **lazima uhakikiwe na uandikwe na mtaalamu kabla ya kuchapishwa** — ona dokezo mwishoni mwa hati.
 
 ---
 
 ## 10. Usalama
 
-Mawasiliano kati ya programu na seva zetu yamesimbwa (HTTPS/TLS). Ufikiaji wa data katika hifadhidata umewekewa mipaka na kanuni za seva: kazi nyeti hazifikiki kutoka kwenye programu. Hakuna mfumo ulio salama kikamilifu, lakini hakuna maandishi unayoyaandika upya yanayohifadhiwa kwetu — jambo linalopunguza kimaumbile kile ambacho uvamizi ungeweza kufichua.
+Mawasiliano kati ya programu na seva zetu yamesimbwa (HTTPS/TLS). Ufikiaji wa data katika hifadhidata umewekewa mipaka na kanuni za seva: kazi nyeti hazifikiki kutoka kwenye programu. Hakuna mfumo ulio salama kikamilifu. Maandishi unayoyaandika upya na yale ambayo Usomaji Saidizi huonyesha kwenye skrini hayahifadhiwi kwetu, jambo linalopunguza kimaumbile kile ambacho uvamizi ungeweza kufichua kuyahusu. **Hii si kweli kwa kila kitu:** msamiati wa lugha za kibinafsi unazounda, wenyewe, **unahifadhiwa** (angalia §3), na ungeweza kufichuliwa kama data nyingine yoyote ya sera hii endapo kutatokea uvamizi halisi — tunauulinda kwa kanuni zile zile za ufikiaji wa seva kama data nyingine.
 
 ---
 
 ## 11. Mabadiliko
 
 Mabadiliko yoyote ya sera hii yatachapishwa kwenye anwani `https://readit0.github.io/plume-legal` yakiwa na tarehe mpya. Iwapo kutakuwa na mabadiliko muhimu kuhusu mzunguko wa data yako, tutakuarifu ndani ya programu.
+
+**Kuanzia toleo la 2.0, ahadi hii ina utaratibu halisi nyuma yake.** Marekebisho madogo ya kimuundo (tarehe, anwani, ufafanuzi) hayakuhitaji chochote zaidi kwako. Lakini mabadiliko MUHIMU — mpokeaji mpya wa data zako, aina mpya ya data inayokusanywa, kusudi jipya, au mabadiliko ya haki zako au ya bei — huifanya skrini ya kukubali kuonekana tena, mara moja, ndani ya programu, ikiwa na muhtasari wa kinachobadilika na hati mbili zilizosasishwa. Hii ndiyo hasa iliyotokea kwa toleo hili la 2.0 (angalia kisanduku mwanzoni mwa hati hii).
 
 ---
 

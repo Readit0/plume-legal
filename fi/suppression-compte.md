@@ -1,6 +1,6 @@
 # Poista tilisi ja tietosi — Plume
 
-**Viimeksi päivitetty: 31. heinäkuuta 2026** — Versio 1.0
+**Viimeksi päivitetty: 12. syyskuuta 2026** — Versio 2.0
 
 Sovellus, jota tämä koskee: **Plume** (`com.plume.plume`), julkaisija **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — julkaistu Google Playssä nimellä **openfunworld**.
 
@@ -36,11 +36,12 @@ Poisto pyyhkii **lopullisesti**:
 - **ehdotuksesi** — ne ehdotukset, jotka olet mahdollisesti lähettänyt meille sovelluksesta. Se on ainoa vapaa teksti, jota säilytämme;
 - **pyyntötunnisteesi** — pyydettyjen uudelleenkirjoitusten tekniset viitteet;
 - **krediittisi ja kiintiön avaukset** — käyttämättömät ostetut krediitit, mainoksilla saadut avaukset, mukautetut ylärajat;
-- **laitteidesi liitoksen tiliisi** — muut puhelimesi tai taulutietokoneesi irrotetaan, ja niistä tulee jälleen tavallisia nimettömiä laitteita.
+- **laitteidesi liitoksen tiliisi** — muut puhelimesi tai taulutietokoneesi irrotetaan, ja niistä tulee jälleen tavallisia nimettömiä laitteita;
+- **luomasi omat kielet** — niiden nimen, aakkoston, sanaston, jakotunnuksesi ja tuontihistoriasi. **Mitä tämä poisto ei voi tehdä:** jos joku toinen on jo tuonut kopion kielestäsi, kyseinen kopio kuuluu tästä lähtien hänelle ja **säilyy** poistostasi huolimatta — kuten kolmannelle jo vastaanotettu viesti, jota emme voi poistaa hänen puoleltaan.
 
 Laite, jolta pyydät poistoa, **tehdään tehottomaksi**: sen liitos tiliisi pyyhitään, sen tunnistusavain tuhotaan ja korvataan kuolleella arvolla, ja sen kieli ja sovellusversio pyyhitään. Jäljelle jää vain läpinäkymätön numero, jonka avulla sinua ei voi enää tunnistaa eikä laitetta löytää.
 
-**Emme ole koskaan tallentaneet tekstejäsi.** Emme uudelleen kirjoittamiasi tekstejä emmekä tekstiä, jonka Lukuapu on lukenut näytöltä: niitä ei säilytetty missään palvelimillamme, joten niistä ei ole mitään poistettavaa.
+**Emme ole koskaan tallentaneet uudelleen kirjoittamiasi tekstejä emmekä tekstiä, jonka Lukuapu on lukenut näytöltä**: niitä ei säilytetä missään palvelimillamme, joten niistä ei ole mitään poistettavaa. **Tämä ei päde mahdollisesti luomasi oman kielen sanastoon**: sen sisältö (nimi, aakkosto, sanat ja määritelmät) todella tallennetaan palvelimillemme — tilisi poistaminen poistaa sen, kuten kaiken muunkin sinulle kuuluvan (katso alta).
 
 **Puhelimessasi** persoonasi, avatarisi, asetuksesi ja sovelluskohtaiset sääntösi on tallennettu paikallisesti. Ne pyyhitään, kun teet poiston sovelluksesta, ja ne katoavat joka tapauksessa, **kun poistat Plumen laitteestasi**.
 

@@ -1,6 +1,16 @@
 # A Plume adatkezelési tájékoztatója
 
-**Utolsó frissítés: 2026. július 31.** — 1.0-s verzió
+**Utolsó frissítés: 2026. szeptember 12.** — 2.0-s verzió
+
+> *Mi változott az 1.0-s verzió óta, és miért lehet, hogy újra látja az elfogadási
+> képernyőt az alkalmazásban:* két állítást pontosítunk, amelyek már nem voltak pontosak.
+> Egyrészt, a **saját nyelvek** funkció megőrzi a szervereinken az Ön által létrehozott
+> tartalmat (nevet, ábécét, szókincset) — az 1.0-s verzió tévesen azt állította, hogy
+> semmilyen szöveget nem tárolunk. Másrészt, mostantól egy **technikai hibajelentő**
+> eszközt (Sentry) használunk — az 1.0-s verzió azt állította, hogy nem létezik ilyen
+> eszköz. E két pont részletei az alábbi „Egy percben” szakaszban, valamint a 3. és a
+> 9. pontban találhatók. Pontosan ez az a két változáskategória, amely az alkalmazásban
+> új hozzájárulási kérést vált ki (lásd a 11. pontot).
 
 ---
 
@@ -23,7 +33,7 @@ A Plume az írásban segíti Önt: átfogalmazza a szövegét közvetlenül abba
 
 Három dolgot érdemes megjegyezni:
 
-1. **A Plume egyetlen szövegét sem őrzi meg a szerverein.** Sem az átfogalmazott szövegeit, sem a képernyőről beolvasott szöveget. Nem tartunk meg róluk sem másolatot, sem naplóbejegyzést.
+1. **A Plume nem őrzi meg sem az Ön által átfogalmazott szövegeket, sem a képernyőről beolvasott szöveget.** Nem tartunk meg róluk sem másolatot, sem naplóbejegyzést. **Vállalt és szándékos kivétel:** ha létrehoz egy **saját nyelvet** (egy saját, kitalált nyelvet, a hozzá tartozó szavak és jelentések szókincsével), ennek a nyelvnek a tartalmát **igen**, megőrizzük a szervereinken — csak így tudjuk lehetővé tenni, hogy egy másik készüléken is megtalálja, hogy továbbfejlessze, és hogy megossza. A részletek a 3. pontban találhatók.
 2. **Attól függően, hogy melyik motort választja, a szövege elhagyja a telefonját, vagy nem.** Két motor (a Helyi Kit és a Helyi MI) teljes egészében a készüléken dolgozik. A harmadik (a Felhő MI) elküldi a szöveget egy **az Európai Unión kívül található** mesterségesintelligencia-szolgáltatásnak. A választás az Öné, és a Felhő MI soha nem aktiválódik az Ön kifejezett hozzájárulása nélkül.
 3. **A Plume erős engedélyeket igényel** (a más alkalmazásokban megjelenő tartalom olvasása, a képernyő rögzítése). Az alábbiakban pontosan elmagyarázzuk, mire szolgálnak, és mire nem.
 
@@ -91,7 +101,7 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 
 ## 3. Az általunk megőrzött adatok
 
-**Semmilyen látogatottságelemző eszközt, semmilyen harmadik féltől származó hirdetési nyomkövetőt, semmilyen összeomlás-jelentő eszközt nem használunk.** Az alkalmazás nem tartalmaz mérési SDK-t.
+**Semmilyen látogatottságelemző eszközt és semmilyen harmadik féltől származó hirdetési nyomkövetőt nem használunk** az 5. pontban leírt hirdetéseken kívül. **Egy technikai hibajelentő eszközt használunk** (Sentry): ez kizárólag programhibákat lát (a hiba típusát, a technikai hívási láncot, az alkalmazás verzióját, az operációs rendszert), soha az Ön használatát vagy útját, és soha az Ön által írt szöveget — ezt egy erre szolgáló szűrő minden küldés előtt megakadályozza. A részletek a 9. pontban találhatók.
 
 Íme mindaz, amit a szervereinken tárolunk:
 
@@ -104,6 +114,8 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 | **Önként elküldött javaslatok** (ha az alkalmazásból persona-javaslatot ír nekünk) | A katalógus fejlesztése. Ezeket a javaslatokat soha nem tesszük közzé. | A fiókja törléséig |
 | **Visszaélésre utaló technikai jelzések** (ismételt túllépések, sikertelen integritás-ellenőrzés — mindenféle szöveg nélkül) | Biztonság, csalás elleni küzdelem | A fiók törlésekor elválasztjuk őket az Ön személyazonosságától |
 | **Az alkalmazás nyelve és verziója** | A megfelelő tartalom kiszolgálása | A fiókja törléséig |
+| **Az Ön által létrehozott saját nyelvek tartalma** (a neve, az ábécéje és a szókincse — a szavak és jelentések, amelyeket Ön, vagy mások, beírtak) | Lehetővé tenni, hogy egy másik készüléken is megtalálja a nyelvét, hogy továbbfejlessze, és hogy megossza más felhasználókkal | Amíg a nyelv létezik. Ha törli, a lapja eltűnik — de egy már **más személy által importált** másolat ettől kezdve az övé, és **fennmarad**, mint egy harmadik fél által már megkapott üzenet, amelyet nem tudunk töröltetni nála |
+| **Technikai hibajelentések** (a hiba típusa, a lecsonkított technikai hívási lánc, az alkalmazás verziója, az operációs rendszer — soha szöveges tartalom) | Az alkalmazás összeomlásainak diagnosztizálása és javítása | A Sentry szolgáltatónk kezeli (lásd a 9. pontot). Ez a gyűjtés az Ön hozzájárulásához kötött, és egy kapcsolóhoz, amelyet bármikor kikapcsolhatunk, az alkalmazás frissítése nélkül |
 
 **Amit nem gyűjtünk:** az Ön nevét, a névjegyeit, a tartózkodási helyét, a címjegyzékét, a fényképeit, a naptárát, az alkalmazásai előzményeit. A Plume egyik ilyen engedélyt sem kéri.
 
@@ -180,22 +192,25 @@ Mivel az alkalmazás lehetővé teszi szabad szöveg átfogalmazását és hirde
 | **Google Play / Google Billing** | Fizetés, előfizetések | Google Ireland / Egyesült Államok |
 | **Google AdMob** | Jutalmazott hirdetések | Google Ireland / Egyesült Államok |
 | **Google (a telefon rendszerszolgáltatásai)** | Beszédfelismerés, offline fordítási modulok | A készülékétől függően |
+| **Sentry** (Functional Software, Inc.) | Technikai hibajelentés — kizárólag programhibák, küldés előtt kiszűrve: soha az Ön szövege | Egyesült Államok |
 
 **Semmilyen adatot nem adunk el, és semmilyen adatot nem adunk át adatkereskedőknek.**
 
-**Adattovábbítás az Európai Unión kívülre:** az OpenRouter, a Google Play és az AdMob igénybevétele adattovábbítással jár az Európai Unión kívülre. Ezen adattovábbítások jogi kereteit (általános adatvédelmi kikötések, megfelelőségi határozat) **a közzététel előtt szakembernek kell ellenőriznie és dokumentálnia** — lásd a dokumentum végén lévő megjegyzést.
+**Adattovábbítás az Európai Unión kívülre:** az OpenRouter, a Google Play, az AdMob és a Sentry igénybevétele adattovábbítással jár az Európai Unión kívülre. Ezen adattovábbítások jogi kereteit (általános adatvédelmi kikötések, megfelelőségi határozat) **a közzététel előtt szakembernek kell ellenőriznie és dokumentálnia** — lásd a dokumentum végén lévő megjegyzést.
 
 ---
 
 ## 10. Biztonság
 
-Az alkalmazás és a szervereink közötti adatcserét titkosítjuk (HTTPS/TLS). Az adatbázisban tárolt adatokhoz való hozzáférést szerveroldali szabályok korlátozzák: az érzékeny funkciók az alkalmazásból nem érhetők el. Egyetlen rendszer sem tökéletesen biztonságos, de az Ön által átfogalmazott szövegek egyikét sem tároljuk nálunk — ez pedig eleve korlátozza azt, amit egy behatolás felfedhetne.
+Az alkalmazás és a szervereink közötti adatcserét titkosítjuk (HTTPS/TLS). Az adatbázisban tárolt adatokhoz való hozzáférést szerveroldali szabályok korlátozzák: az érzékeny funkciók az alkalmazásból nem érhetők el. Egyetlen rendszer sem tökéletesen biztonságos. Az Ön által átfogalmazott szöveget és azt, amelyet a Segített Olvasás megjelenít a képernyőn, nem tároljuk nálunk, ami eleve korlátozza azt, amit egy behatolás felfedhetne velük kapcsolatban. **Ez nem igaz mindenre:** az Ön által létrehozott saját nyelvek szókincsét **igen**, tároljuk (lásd a 3. pontot), és ez egy valós behatolás esetén ugyanúgy ki lenne téve, mint bármely más, e tájékoztatóban szereplő adat — ugyanazokkal a szerveroldali hozzáférési szabályokkal védjük, mint a többit.
 
 ---
 
 ## 11. Módosítások
 
 A jelen tájékoztató minden módosítását a `https://readit0.github.io/plume-legal` címen tesszük közzé, új dátummal. Ha lényegesen változik az adatai áramlása, arról az alkalmazásban tájékoztatjuk Önt.
+
+**A 2.0-s verzió óta ennek az ígéretnek konkrét mechanizmusa van.** Egy egyszerű formai javítás (egy dátum, egy cím, egy pontosítás) semmi többletet nem igényel Öntől. De egy LÉNYEGI változás — az Ön adatainak új címzettje, az összegyűjtött adatok új kategóriája, egy új cél, vagy az Ön jogainak vagy az árnak a változása — egyszer újra megjeleníti az elfogadási képernyőt az alkalmazásban, a változások összefoglalásával és a két naprakész dokumentummal. Pontosan ez történt ezzel a 2.0-s verzióval is (lásd a dokumentum elején található kiemelést).
 
 ---
 

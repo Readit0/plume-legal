@@ -1,6 +1,8 @@
 # Beartas Príobháideachais Plume
 
-**Nuashonrú deireanach: 31 Iúil 2026** — Leagan 1.0
+**Nuashonrú deireanach: 12 Meán Fómhair 2026** — Leagan 2.0
+
+> *A bhfuil athraithe ó leagan 1.0, agus cén fáth a bhféadfá scáileán an ghlactha a fheiceáil arís san fheidhmchlár:* táimid ag ceartú dhá ráiteas nach raibh cruinn a thuilleadh. Ar an gcéad dul síos, coinníonn an ghné **teangacha pearsanta** an t-ábhar a chruthaíonn tú (ainm, aibítir, foclóir) ar ár bhfreastalaithe — dúirt leagan 1.0 go mícheart nach raibh aon téacs stóráilte. Ar an dara dul síos, úsáidimid anois uirlis **tuairiscithe teicniúil tuairte** (Sentry) — dúirt leagan 1.0 nach raibh a leithéid d'uirlis ann. Tá sonraí an dá phointe sin le fáil in «In aon nóiméad amháin» thíos, chomh maith le §3 agus §9. Sin go díreach an dá chatagóir athraithe a spreagann iarratas nua toilithe san fheidhmchlár (féach §11).
 
 ---
 
@@ -23,7 +25,7 @@ Cuidíonn Plume leat scríobh: athfhoclaíonn sé do théacs go díreach san fhe
 
 Trí rud atá le coinneáil i gcuimhne:
 
-1. **Ní choinníonn Plume aon cheann de do chuid téacsanna ar a chuid freastalaithe.** Ná do chuid téacsanna athfhoclaithe, ná an téacs a léadh ón scáileán. Ní choinnímid cóip ná loga díobh.
+1. **Ní choinníonn Plume do chuid téacsanna athfhoclaithe ná an téacs a léadh ón scáileán.** Ní choinnímid cóip ná loga díobh. **Eisceacht chomhfhiosach, agus deonach:** má chruthaíonn tú **teanga phearsanta** (do theanga tógtha féin, lena foclóir focal agus a mínithe), coinnítear ábhar na teanga sin **go deimhin** ar ár bhfreastalaithe — is é sin an t-aon bhealach a cheadaíonn duit í a aimsiú ar ghléas eile, í a fhorbairt agus í a roinnt. Tá na sonraí ag §3.
 2. **Ag brath ar an inneall a roghnaíonn tú, fágann do théacs do ghuthán nó ní fhágann.** Oibríonn dhá inneall (an Kit áitiúil agus an IS áitiúil) go hiomlán ar an ngléas. Seolann an tríú ceann (an IS Néil) an téacs chuig seirbhís intleachta saorga **atá lonnaithe lasmuigh den Aontas Eorpach**. Is tusa a roghnaíonn, agus ní ghníomhachtaítear an IS Néil riamh gan do thoiliú sainráite.
 3. **Teastaíonn ceadanna cumhachtacha ó Plume** (an t-ábhar a thaispeántar i bhfeidhmchláir eile a léamh, an scáileán a ghabháil). Mínímid thíos go beacht cad chuige a bhfuil siad, agus cad nach bhfuil siad.
 
@@ -91,7 +93,7 @@ Tá uasteorainn leis an téacs a sheoltar: 1 200 carachtar d'athfhoclú, 4 000 c
 
 ## 3. Na sonraí a choinnímid
 
-Ní úsáidimid **aon uirlis anailíse lucht féachana, aon rianaire fógraíochta tríú páirtí, aon uirlis tuairiscithe tuairte**. Níl aon SDK tomhais san fheidhmchlár.
+Ní úsáidimid **aon uirlis anailíse lucht féachana ná aon rianaire fógraíochta tríú páirtí**, seachas an fhógraíocht atá luaite ag §5. **Úsáidimid uirlis tuairiscithe teicniúil tuairte** (Sentry): ní fheiceann sí ach earráidí ríomhchláir (cineál na hearráide, cruach glaonna theicniúil, leagan an fheidhmchláir, córas oibriúcháin), ní d'úsáid ná do chonair riamh, agus ní an téacs a scríobhann tú riamh — cuireann scagaire tiomnaithe cosc air sin sula seoltar aon rud. Tá na sonraí ag §9.
 
 Seo a bhfuil stóráilte ar ár bhfreastalaithe, ina iomláine:
 
@@ -104,6 +106,8 @@ Seo a bhfuil stóráilte ar ár bhfreastalaithe, ina iomláine:
 | **Moltaí a sheoltar go deonach** (má scríobhann tú chugainn le moladh persona ón bhfeidhmchlár) | An catalóg a fheabhsú. Ní fhoilsítear na moltaí sin riamh. | Go dtí go scriostar do chuntas |
 | **Comharthaí teicniúla mí-úsáide** (sáruithe athdhéanta, teip ar sheiceáil sláine — gan aon téacs) | Slándáil, comhrac na calaoise | Scartha ó d'aitheantas nuair a scriostar an cuntas |
 | **Teanga agus leagan an fheidhmchláir** | An t-ábhar ceart a sheirbheáil | Go dtí go scriostar do chuntas |
+| **Ábhar na dteangacha pearsanta a chruthaíonn tú** (a hainm, a haibítir, agus a foclóir — na focail agus na mínithe a scríobh tusa, nó daoine eile, inti) | Cead a thabhairt duit do theanga a aimsiú ar ghléas eile, í a fhorbairt, agus í a roinnt le húsáideoirí eile | Fad is atá an teanga ann. Má scriosann tú í, imíonn a taifead — ach cóip a bhfuil **iompórtáilte ag duine eile cheana**, is leis an duine sin anois í agus **maireann sí**, cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn dul á scriosadh ar a thaobh siúd |
+| **Tuairiscí teicniúla tuairte** (cineál na hearráide, cruach glaonna theicniúil giorraithe, leagan an fheidhmchláir, córas oibriúcháin — ábhar téacs riamh) | Diagnóisiú agus deisiú tuairtí an fheidhmchláir | Rialaithe ag ár soláthraí Sentry (féach §9). Tá an bailiúchán seo faoi réir do thoilithe agus lasc gur féidir linn a mhúchadh am ar bith, gan nuashonrú feidhmchláir |
 
 **A bhfuil nach mbailímid:** d'ainm, do theagmhálaithe, do shuíomh, do leabhar seoltaí, do ghrianghraif, d'fhéilire, stair d'fheidhmchlár. Ní iarrann Plume aon cheann de na ceadanna sin.
 
@@ -180,22 +184,25 @@ Toisc go gceadaíonn an feidhmchlár téacs saor a athfhoclú agus go dtaispeán
 | **Google Play / Google Billing** | Íocaíocht, síntiúis | Google Ireland / Stáit Aontaithe Mheiriceá |
 | **Google AdMob** | Fógraíocht luaíochta | Google Ireland / Stáit Aontaithe Mheiriceá |
 | **Google (seirbhísí córais an ghutháin)** | Aithint chainte, modúil aistriúcháin as líne | De réir do ghléis |
+| **Sentry** (Functional Software, Inc.) | Tuairisciú teicniúil tuairte — earráidí ríomhchláir amháin, scagtha sula seoltar iad: ní do théacs riamh | Stáit Aontaithe Mheiriceá |
 
 **Ní dhíolaimid aon sonraí agus ní thugaimid aon sonraí do bhróicéirí sonraí.**
 
-**Aistrithe lasmuigh den Aontas Eorpach:** is ionann úsáid OpenRouter, Google Play agus AdMob agus aistriú sonraí lasmuigh den Aontas Eorpach. **Ní mór do ghairmí creat dlíthiúil na n-aistrithe sin (clásail chonarthacha chaighdeánacha, cinneadh leordhóthanachta) a fhíorú agus a dhoiciméadú roimh fhoilsiú** — féach an nóta ag deireadh an doiciméid.
+**Aistrithe lasmuigh den Aontas Eorpach:** is ionann úsáid OpenRouter, Google Play, AdMob agus Sentry agus aistriú sonraí lasmuigh den Aontas Eorpach. **Ní mór do ghairmí creat dlíthiúil na n-aistrithe sin (clásail chonarthacha chaighdeánacha, cinneadh leordhóthanachta) a fhíorú agus a dhoiciméadú roimh fhoilsiú** — féach an nóta ag deireadh an doiciméid.
 
 ---
 
 ## 10. Slándáil
 
-Tá na malartuithe idir an feidhmchlár agus ár bhfreastalaithe criptithe (HTTPS/TLS). Tá an rochtain ar na sonraí sa bhunachar srianta ag rialacha freastalaí: níl na feidhmeanna íogaire inrochtana ón bhfeidhmchlár. Níl aon chóras foirfe slán, ach ní stóráiltear aon téacs a athfhoclaíonn tú againne — rud a chuireann teorainn mheicniúil leis an méid a d'fhéadfadh cúpla ionradh a nochtadh.
+Tá na malartuithe idir an feidhmchlár agus ár bhfreastalaithe criptithe (HTTPS/TLS). Tá an rochtain ar na sonraí sa bhunachar srianta ag rialacha freastalaí: níl na feidhmeanna íogaire inrochtana ón bhfeidhmchlár. Níl aon chóras foirfe slán. Ní stóráiltear an téacs a athfhoclaíonn tú ná an téacs a thaispeánann an Léitheoireacht Chuidithe ar an scáileán againne, rud a chuireann teorainn mheicniúil leis an méid a d'fhéadfadh ionradh a nochtadh ina dtaobh. **Ní fíor sin faoi gach rud:** coinnítear foclóir na dteangacha pearsanta a chruthaíonn tú **go deimhin** (féach §3), agus nochtfaí é cosúil le haon sonraí eile sa bheartas seo i gcás ionradh iarbhír — cosnaímid é leis na rialacha rochtana freastalaí céanna leis an gcuid eile.
 
 ---
 
 ## 11. Athruithe
 
 Foilseofar aon athrú ar an mbeartas seo ag an seoladh `https://readit0.github.io/plume-legal` le dáta nua. I gcás athrú tábhachtach ar chúrsaíocht do chuid sonraí, cuirfimid ar an eolas thú san fheidhmchlár.
+
+**Ó leagan 2.0 amach, tá sásra nithiúil taobh thiar den ghealltanas sin.** Ní iarrann ceartúchán foirmiúil simplí (dáta, seoladh, sonrú) tada breise ort. Ach athrú ÁBHARACH — faighteoir nua do chuid sonraí, catagóir nua sonraí a bhailítear, cuspóir nua, nó athrú ar do chearta nó ar an bpraghas — tugann sé ar ais, uair amháin, scáileán an ghlactha san fheidhmchlár, mar aon le hachoimre ar a bhfuil ag athrú agus an dá dhoiciméad nuashonraithe. Sin go díreach a tharla don leagan 2.0 seo (féach an bosca ag tús an doiciméid seo).
 
 ---
 

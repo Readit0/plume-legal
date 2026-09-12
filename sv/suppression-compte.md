@@ -1,6 +1,6 @@
 # Radera ditt konto och dina uppgifter — Plume
 
-**Senast uppdaterad: 31 juli 2026** — Version 1.0
+**Senast uppdaterad: 12 september 2026** — Version 2.0
 
 Berörd app: **Plume** (`com.plume.plume`), utgiven av **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicerad på Google Play under namnet **openfunworld**.
 
@@ -36,11 +36,12 @@ Raderingen tar **definitivt** bort:
 - **dina förslag** — de förslag som du kan ha skickat oss från appen. Det är den enda fria text som vi lagrar;
 - **dina förfrågningsidentifierare** — de tekniska referenserna för de omformuleringar som begärts;
 - **dina krediter och kvotupplåsningar** — köpta krediter som inte förbrukats, upplåsningar som erhållits genom annonser, justerade tak;
-- **kopplingen mellan dina enheter och ditt konto** — dina andra telefoner eller surfplattor kopplas loss och blir vanliga anonyma enheter igen.
+- **kopplingen mellan dina enheter och ditt konto** — dina andra telefoner eller surfplattor kopplas loss och blir vanliga anonyma enheter igen;
+- **de egna språk du har skapat** — deras namn, alfabet, lexikon, dina delningstoken och din importhistorik. **Vad den här raderingen inte kan göra:** om någon annan redan har importerat en kopia av ditt språk hos sig, tillhör den kopian numera den personen och **lever kvar** efter din radering — precis som ett meddelande som redan har mottagits av en tredje part, vilket vi inte kan radera hos denne.
 
 Den enhet som du begär raderingen från **neutraliseras**: dess koppling till ditt konto raderas, dess identifieringsnyckel förstörs och ersätts med ett dött värde, och dess språk och appversion raderas. Kvar blir bara ett ogenomskinligt nummer, som varken gör det möjligt att identifiera dig eller att hitta enheten.
 
-**Vi har aldrig lagrat dina texter.** Varken de texter som du har formulerat om eller den text som Assisterad läsning har läst av på skärmen: de sparades ingenstans på våra servrar, och det finns därför ingenting att radera av dem.
+**Vi har aldrig lagrat de texter du har omformulerat, eller den text som Assisterad läsning har läst av på skärmen:** de sparas ingenstans på våra servrar, och det finns därför ingenting att radera av dem. **Det gäller inte lexikonet för ett eget språk som du eventuellt har skapat:** dess innehåll (namn, alfabet, ord och definitioner) är faktiskt lagrat på våra servrar — när du raderar ditt konto raderas det, precis som allt annat som tillhör dig (se nedan).
 
 **I din telefon** lagras dina personas, dina avatarer, dina inställningar och dina regler per app lokalt. De raderas när du raderar från appen, och de försvinner i vilket fall som helst **när du avinstallerar Plume**.
 

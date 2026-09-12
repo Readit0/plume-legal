@@ -1,6 +1,6 @@
 # Ihr Konto und Ihre Daten löschen — Plume
 
-**Letzte Aktualisierung: 31. Juli 2026** — Version 1.0
+**Letzte Aktualisierung: 12. September 2026** — Version 2.0
 
 Betroffene App: **Plume** (`com.plume.plume`), herausgegeben von **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — veröffentlicht auf Google Play unter dem Namen **openfunworld**.
 
@@ -36,11 +36,12 @@ Die Löschung entfernt **endgültig**:
 - **Ihre Vorschläge** — die Anregungen, die Sie uns aus der App geschickt haben. Das ist der einzige freie Text, den wir speichern;
 - **Ihre Anfragekennungen** — die technischen Referenzen der angeforderten Umschreibungen;
 - **Ihre Guthaben und Kontingentfreischaltungen** — gekaufte, nicht verbrauchte Guthaben, durch Werbung erlangte Freischaltungen, angepasste Obergrenzen;
-- **die Zuordnung Ihrer Geräte zu Ihrem Konto** — Ihre anderen Handys oder Tablets werden abgetrennt und sind wieder einfache, anonyme Geräte.
+- **die Zuordnung Ihrer Geräte zu Ihrem Konto** — Ihre anderen Handys oder Tablets werden abgetrennt und sind wieder einfache, anonyme Geräte;
+- **die eigenen Sprachen, die Sie erstellt haben** — ihr Name, ihr Alphabet, ihr Lexikon, Ihre Freigabe-Tokens und Ihr Import-Verlauf. **Was diese Löschung nicht bewirken kann:** Wenn eine andere Person bereits eine Kopie Ihrer Sprache bei sich importiert hat, gehört diese Kopie fortan ihr und **bleibt erhalten**, auch nach Ihrer Löschung — wie eine Nachricht, die ein Dritter bereits empfangen hat und die wir bei ihm nicht löschen können.
 
 Das Gerät, von dem aus Sie die Löschung verlangen, wird **neutralisiert**: Seine Zuordnung zu Ihrem Konto wird gelöscht, sein Identifikationsschlüssel wird vernichtet und durch einen toten Wert ersetzt, seine Sprache und seine App-Version werden gelöscht. Es bleibt nur eine undurchsichtige Nummer, die es nicht mehr erlaubt, Sie zu identifizieren oder das Gerät wiederzufinden.
 
-**Wir haben Ihre Texte niemals gespeichert.** Weder die Texte, die Sie umgeschrieben haben, noch den vom Assistierten Lesen auf dem Bildschirm gelesenen Text: Sie wurden nirgends auf unseren Servern aufbewahrt, also gibt es davon nichts zu löschen.
+**Wir haben die Texte, die Sie umgeschrieben haben, und den vom Assistierten Lesen auf dem Bildschirm gelesenen Text niemals gespeichert**: Sie werden nirgends auf unseren Servern aufbewahrt, also gibt es davon nichts zu löschen. **Das gilt nicht für das Lexikon einer eigenen Sprache, die Sie erstellt haben sollten:** Ihr Inhalt (Name, Alphabet, Wörter und Definitionen) wird tatsächlich auf unseren Servern gespeichert — die Löschung Ihres Kontos entfernt ihn, wie den Rest dessen, was Ihnen gehört (siehe unten).
 
 **Auf Ihrem Handy** sind Ihre Personas, Ihre Avatare, Ihre Einstellungen und Ihre Regeln pro App lokal gespeichert. Sie werden durch die aus der App heraus vorgenommene Löschung entfernt und **verschwinden in jedem Fall, wenn Sie Plume deinstallieren**.
 

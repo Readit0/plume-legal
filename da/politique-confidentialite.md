@@ -1,6 +1,8 @@
 # Plumes privatlivspolitik
 
-**Sidst opdateret: 31. juli 2026** — Version 1.0
+**Sidst opdateret: 12. september 2026** — Version 2.0
+
+> *Hvad der er ændret siden version 1.0, og hvorfor du måske ser samtykkeskærmen igen i appen:* vi retter to udsagn, der ikke længere var korrekte. For det første gemmer funktionen **personlige sprog** på vores servere det indhold, du opretter (navn, alfabet, ordbog) — version 1.0 hævdede fejlagtigt, at ingen tekst blev gemt. For det andet bruger vi nu et værktøj til **tekniske fejlrapporter** (Sentry) — version 1.0 hævdede, at der ikke fandtes et sådant værktøj. Detaljerne om disse to punkter findes i »På et minut« nedenfor samt i §3 og §9. Det er netop disse to kategorier af ændring, der i appen udløser en ny anmodning om samtykke (se §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume hjælper dig med at skrive: den omformulerer din tekst direkte i den app, 
 
 Tre ting, du skal huske:
 
-1. **Plume gemmer ingen af dine tekster på sine servere.** Hverken dine omformulerede tekster eller den tekst, der læses på skærmen. Vi beholder hverken kopi eller log.
+1. **Plume gemmer hverken de tekster, du omformulerer, eller den tekst, der læses på skærmen.** Vi beholder hverken kopi eller log. **Bevidst og tilsigtet undtagelse:** hvis du opretter et **personligt sprog** (dit eget konstruerede sprog med en ordbog af ord og deres betydninger), bliver indholdet af dette sprog **rent faktisk** gemt på vores servere — det er den eneste måde, vi kan lade dig genfinde det på en anden enhed, udvikle det og dele det. Detaljerne findes i §3.
 2. **Afhængigt af den motor, du vælger, forlader din tekst din telefon — eller gør det ikke.** To motorer (det lokale kit og den lokale AI) arbejder udelukkende på enheden. Den tredje (Cloud-AI) sender teksten til en tjeneste for kunstig intelligens, **der ligger uden for Den Europæiske Union**. Du vælger, og Cloud-AI aktiveres aldrig uden dit udtrykkelige samtykke.
 3. **Plume har brug for vidtgående tilladelser** (at læse det indhold, der vises i andre apps, og at optage skærmen). Vi forklarer nedenfor præcist, hvad de bruges til, og hvad de ikke bruges til.
 
@@ -91,7 +93,7 @@ Den tekst, der sendes, har et loft: 1.200 tegn for en omformulering, 4.000 tegn 
 
 ## 3. De oplysninger, vi gemmer
 
-Vi bruger **intet værktøj til publikumsanalyse, ingen tredjeparts reklamesporing og intet værktøj til nedbrudsrapportering**. Appen indeholder intet måle-SDK.
+Vi bruger **intet værktøj til publikumsanalyse og ingen tredjeparts reklamesporing**, ud over den reklame, der er beskrevet i §5. **Vi bruger et værktøj til tekniske fejlrapporter** (Sentry): det ser kun programfejl (fejltype, teknisk kaldstak, appversion, styresystem), aldrig din brug eller dit forløb, og aldrig den tekst, du skriver — et dedikeret filter forhindrer det, inden noget sendes. Detaljerne findes i §9.
 
 Her er alt, hvad der gemmes på vores servere:
 
@@ -104,6 +106,8 @@ Her er alt, hvad der gemmes på vores servere:
 | **Forslag sendt frivilligt** (hvis du sender os et forslag til en persona fra appen) | Forbedre kataloget. Disse forslag offentliggøres aldrig. | Indtil din konto slettes |
 | **Tekniske signaler om misbrug** (gentagne overskridelser, mislykket integritetskontrol af appen — uden nogen tekst) | Sikkerhed, bekæmpelse af svindel | Løsrives fra din identitet, når kontoen slettes |
 | **Appens sprog og version** | Levere det rigtige indhold | Indtil din konto slettes |
+| **Indholdet af de personlige sprog, du opretter** (dets navn, dets alfabet og dets ordbog — de ord og betydninger, du eller andre har skrevet i det) | Lade dig genfinde dit sprog på en anden enhed, udvikle det og dele det med andre brugere | Så længe sproget findes. Hvis du sletter det, forsvinder dets profil — men en kopi, der allerede er **importeret af en anden person**, tilhører derefter den pågældende og **overlever**, ligesom en besked, en tredjepart allerede har modtaget, og som vi ikke kan slette hos vedkommende |
+| **Tekniske fejlrapporter** (fejltype, forkortet teknisk kaldstak, appversion, styresystem — aldrig et tekstindhold) | Diagnosticere og rette appens fejl | Styret af vores leverandør Sentry (se §9). Denne indsamling er underlagt dit samtykke og en kontakt, vi til enhver tid kan slå fra uden en appopdatering |
 
 **Hvad vi ikke indsamler:** dit navn, dine kontakter, din placering, din adressebog, dine billeder, din kalender, historikken over dine apps. Plume beder ikke om nogen af disse tilladelser.
 
@@ -180,22 +184,25 @@ Da appen gør det muligt at omformulere fri tekst og viser reklame, er den ikke 
 | **Google Play / Google Billing** | Betaling, abonnementer | Google Ireland / USA |
 | **Google AdMob** | Belønnet reklame | Google Ireland / USA |
 | **Google (telefonens systemtjenester)** | Talegenkendelse, offlinemoduler til oversættelse | Afhængigt af din enhed |
+| **Sentry** (Functional Software, Inc.) | Tekniske fejlrapporter — kun programfejl, filtreret inden afsendelse: aldrig din tekst | USA |
 
 **Vi sælger ingen oplysninger og videregiver ingen oplysninger til databrokere.**
 
-**Overførsler til lande uden for Den Europæiske Union:** brugen af OpenRouter, Google Play og AdMob indebærer en overførsel af oplysninger til et land uden for Den Europæiske Union. De juridiske rammer for disse overførsler (standardkontraktbestemmelser, afgørelse om tilstrækkeligt beskyttelsesniveau) **skal kontrolleres og dokumenteres af en fagperson inden offentliggørelse** — se noten sidst i dokumentet.
+**Overførsler til lande uden for Den Europæiske Union:** brugen af OpenRouter, Google Play, AdMob og Sentry indebærer en overførsel af oplysninger til et land uden for Den Europæiske Union. De juridiske rammer for disse overførsler (standardkontraktbestemmelser, afgørelse om tilstrækkeligt beskyttelsesniveau) **skal kontrolleres og dokumenteres af en fagperson inden offentliggørelse** — se noten sidst i dokumentet.
 
 ---
 
 ## 10. Sikkerhed
 
-Udvekslingen mellem appen og vores servere er krypteret (HTTPS/TLS). Adgangen til oplysningerne i databasen er begrænset af serverregler: de følsomme funktioner kan ikke tilgås fra appen. Intet system er fuldkommen sikkert, men ingen tekst, du omformulerer, gemmes hos os — hvilket rent mekanisk begrænser, hvad et indbrud ville kunne afsløre.
+Udvekslingen mellem appen og vores servere er krypteret (HTTPS/TLS). Adgangen til oplysningerne i databasen er begrænset af serverregler: de følsomme funktioner kan ikke tilgås fra appen. Intet system er fuldkommen sikkert. Den tekst, du omformulerer, og den, Assisteret læsning viser på skærmen, gemmes ikke hos os, hvilket rent mekanisk begrænser, hvad et indbrud ville kunne afsløre om dem. **Det gælder ikke for alt:** ordbogen for de personlige sprog, du opretter, bliver derimod **gemt** (se §3) og ville blive afsløret som alle andre oplysninger i denne politik i tilfælde af et reelt indbrud — vi beskytter den med de samme serveradgangsregler som resten.
 
 ---
 
 ## 11. Ændringer
 
 Enhver ændring af denne politik vil blive offentliggjort på adressen `https://readit0.github.io/plume-legal` med en ny dato. I tilfælde af en væsentlig ændring af, hvordan dine oplysninger bevæger sig, informerer vi dig i appen.
+
+**Siden version 2.0 har dette løfte en konkret mekanisme bag sig.** En simpel formel rettelse (en dato, en adresse, en præcisering) kræver ikke mere af dig. Men en VÆSENTLIG ændring — en ny modtager af dine oplysninger, en ny kategori af indsamlede oplysninger, et nyt formål eller en ændring af dine rettigheder eller prisen — får samtykkeskærmen til at dukke op igen, én gang, i appen, med et resumé af, hvad der ændrer sig, og de to opdaterede dokumenter. Det er præcis, hvad der er sket med denne version 2.0 (se boksen i begyndelsen af dette dokument).
 
 ---
 

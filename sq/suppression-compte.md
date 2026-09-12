@@ -1,6 +1,6 @@
 # Fshirja e llogarisë dhe e të dhënave tuaja — Plume
 
-**Përditësimi i fundit: 31 korrik 2026** — Versioni 1.0
+**Përditësimi i fundit: 12 shtator 2026** — Versioni 2.0
 
 Aplikacioni i përfshirë: **Plume** (`com.plume.plume`), botuar nga **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikuar në Google Play me emrin **openfunworld**.
 
@@ -37,10 +37,11 @@ Fshirja e zhduk **përfundimisht**:
 - **identifikuesit tuaj të kërkesave** — referencat teknike të riformulimeve të kërkuara;
 - **kreditet dhe zhbllokimet tuaja të kuotës** — kreditet e blera e të pakonsumuara, zhbllokimet e fituara nga reklamat, kufijtë e përshtatur;
 - **lidhjen e pajisjeve tuaja me llogarinë tuaj** — telefonat ose tabletët tuaj të tjerë shkëputen dhe rikthehen në pajisje thjesht anonime.
+- **gjuhët personale që keni krijuar** — emrin e tyre, alfabetin e tyre, leksikun e tyre, kodet tuaja të ndarjes dhe historikun tuaj të importimit. **Çfarë nuk mund ta bëjë kjo fshirje:** nëse dikush tjetër ka importuar tashmë një kopje të gjuhës suaj te vetja, ajo kopje i përket tashmë atij dhe **mbijeton** fshirjes suaj — si një mesazh tashmë i marrë nga një palë e tretë, ne nuk mund ta fshijmë nga ana e tij.
 
 Pajisja nga e cila kërkoni fshirjen **neutralizohet**: lidhja e saj me llogarinë tuaj fshihet, çelësi i saj i identifikimit shkatërrohet dhe zëvendësohet me një vlerë të vdekur, gjuha e saj dhe versioni i saj i aplikacionit fshihen. Mbetet vetëm një numër i patejdukshëm, i cili nuk lejon më as t'ju identifikojë, as të gjendet pajisja.
 
-**Ne nuk i kemi ruajtur kurrë tekstet tuaja.** As tekstet që keni riformuluar, as tekstin e lexuar në ekran nga Leximi i Asistuar: ato nuk ruheshin askund në serverët tanë, prandaj nuk ka asgjë për t'u fshirë prej tyre.
+**Ne nuk i kemi ruajtur kurrë tekstet që keni riformuluar, as tekstin e lexuar në ekran nga Leximi i Asistuar**: ato nuk ruhen askund në serverët tanë, prandaj nuk ka asgjë për t'u fshirë prej tyre. **Kjo nuk vlen për leksikun e një gjuhe personale që mund të keni krijuar**: përmbajtja e saj (emri, alfabeti, fjalët dhe përkufizimet) ruhet vërtet në serverët tanë — fshirja e llogarisë suaj e fshin atë, ashtu si pjesa tjetër e asaj që ju përket (shih më poshtë).
 
 **Në telefonin tuaj**, personat tuaj, avatarët tuaj, cilësimet tuaja dhe rregullat tuaja për çdo aplikacion ruhen lokalisht. Ato fshihen nga fshirja e kryer prej aplikacionit dhe, në çdo rast, **zhduken kur e çinstaloni Plume-n**.
 

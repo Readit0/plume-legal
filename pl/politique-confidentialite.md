@@ -1,6 +1,8 @@
 # Polityka prywatności aplikacji Plume
 
-**Ostatnia aktualizacja: 31 lipca 2026 r.** — Wersja 1.0
+**Ostatnia aktualizacja: 12 września 2026 r.** — Wersja 2.0
+
+> *Co się zmieniło od wersji 1.0 i dlaczego być może ponownie widzisz ekran akceptacji w aplikacji:* poprawiamy dwa stwierdzenia, które przestały być prawdziwe. Po pierwsze, funkcja **języki własne** zachowuje na naszych serwerach treść, którą tworzysz (nazwę, alfabet, słownik) — wersja 1.0 błędnie twierdziła, że żaden tekst nie jest przechowywany. Po drugie, korzystamy teraz z narzędzia do **raportowania awarii technicznych** (Sentry) — wersja 1.0 twierdziła, że takie narzędzie nie istnieje. Szczegóły tych dwóch kwestii znajdują się w sekcji „W jedną minutę” poniżej, a także w §3 i §9. To dokładnie te dwie kategorie zmian, które w aplikacji wywołują nową prośbę o zgodę (zob. §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume pomaga Ci pisać: przeformułowuje Twój tekst bezpośrednio w aplikacji, 
 
 Trzy rzeczy, o których trzeba pamiętać:
 
-1. **Plume nie przechowuje żadnego z Twoich tekstów na swoich serwerach.** Ani tekstów przeformułowanych, ani tekstu odczytanego z ekranu. Nie zachowujemy ani ich kopii, ani zapisu w dziennikach.
+1. **Plume nie przechowuje ani tekstów, które przeformułowujesz, ani tekstu odczytanego z ekranu.** Nie zachowujemy ani ich kopii, ani zapisu w dziennikach. **Świadomy i celowy wyjątek:** jeśli tworzysz **język własny** (swój własny skonstruowany język, wraz ze słownikiem słów i ich definicji), treść tego języka **jest** przechowywana na naszych serwerach — to jedyny sposób, aby umożliwić Ci odnalezienie go na innym urządzeniu, rozwijanie go i udostępnianie go innym. Szczegóły w §3.
 2. **Zależnie od wybranego silnika Twój tekst opuszcza telefon albo go nie opuszcza.** Dwa silniki (Zestaw lokalny i Lokalna AI) pracują w całości na urządzeniu. Trzeci (AI w chmurze) wysyła tekst do usługi sztucznej inteligencji **znajdującej się poza Unią Europejską**. Wybór należy do Ciebie, a AI w chmurze nigdy nie włącza się bez Twojej wyraźnej zgody.
 3. **Plume potrzebuje daleko idących uprawnień** (odczyt treści wyświetlanej w innych aplikacjach, przechwytywanie obrazu ekranu). Poniżej wyjaśniamy dokładnie, do czego one służą i do czego nie służą.
 
@@ -91,7 +93,7 @@ Wysyłany tekst jest ograniczony: 1 200 znaków dla przeformułowania, 4 000 zna
 
 ## 3. Dane, które przechowujemy
 
-Nie korzystamy z **żadnego narzędzia analityki ruchu, żadnego zewnętrznego trackera reklamowego, żadnego narzędzia do raportowania awarii**. Aplikacja nie zawiera pakietu SDK do pomiarów.
+Nie korzystamy z **żadnego narzędzia analityki ruchu ani żadnego zewnętrznego trackera reklamowego**, poza reklamą opisaną w §5. **Korzystamy z narzędzia do raportowania awarii technicznych** (Sentry): widzi ono wyłącznie błędy programu (typ błędu, techniczny stos wywołań, wersję aplikacji, system operacyjny), nigdy Twój sposób korzystania z aplikacji ani Twoją ścieżkę użytkowania, i nigdy tekst, który piszesz — zanim cokolwiek zostanie wysłane, zabrania tego dedykowany filtr. Szczegóły w §9.
 
 Oto całość tego, co jest przechowywane na naszych serwerach:
 
@@ -104,6 +106,8 @@ Oto całość tego, co jest przechowywane na naszych serwerach:
 | **Sugestie przesłane dobrowolnie** (jeśli napiszesz do nas propozycję persony z poziomu aplikacji) | Ulepszanie katalogu. Sugestie te nigdy nie są publikowane. | Do usunięcia Twojego konta |
 | **Techniczne sygnały nadużyć** (powtarzające się przekroczenia, niepowodzenie kontroli integralności — bez żadnego tekstu) | Bezpieczeństwo, przeciwdziałanie oszustwom | Odłączane od Twojej tożsamości przy usunięciu konta |
 | **Język i wersja aplikacji** | Dostarczanie właściwej treści | Do usunięcia Twojego konta |
+| **Treść języków własnych, które tworzysz** (ich nazwa, alfabet i słownik — słowa i definicje, które Ty lub inne osoby tam wpisaliście) | Umożliwienie Ci odnalezienia Twojego języka na innym urządzeniu, jego rozwijania i udostępniania innym użytkownikom | Dopóki język istnieje. Jeśli go usuniesz, jego karta znika — ale kopia już **zaimportowana przez inną osobę** należy odtąd do niej i **przetrwa**, podobnie jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć u niej |
+| **Raporty o awariach technicznych** (typ błędu, skrócony techniczny stos wywołań, wersja aplikacji, system operacyjny — nigdy treść tekstu) | Diagnozowanie i naprawianie awarii aplikacji | Zarządzane przez naszego dostawcę Sentry (zob. §9). Ta zbiórka danych podlega Twojej zgodzie oraz przełącznikowi, który możemy wyłączyć w dowolnym momencie, bez aktualizacji aplikacji |
 
 **Czego nie zbieramy:** Twojego imienia i nazwiska, Twoich kontaktów, Twojej lokalizacji, Twojej książki adresowej, Twoich zdjęć, Twojego kalendarza, historii Twoich aplikacji. Plume nie prosi o żadne z tych uprawnień.
 
@@ -180,22 +184,25 @@ Ponieważ aplikacja pozwala przeformułować dowolny tekst i wyświetla reklamy,
 | **Google Play / Google Billing** | Płatność, subskrypcje | Google Ireland / Stany Zjednoczone |
 | **Google AdMob** | Reklama z nagrodą | Google Ireland / Stany Zjednoczone |
 | **Google (usługi systemowe telefonu)** | Rozpoznawanie mowy, moduły tłumaczenia offline | Zależnie od Twojego urządzenia |
+| **Sentry** (Functional Software, Inc.) | Raportowanie awarii technicznych — wyłącznie błędy programu, filtrowane przed wysłaniem: nigdy Twój tekst | Stany Zjednoczone |
 
 **Nie sprzedajemy żadnych danych i nie przekazujemy żadnych danych brokerom danych.**
 
-**Przekazywanie poza Unię Europejską:** korzystanie z OpenRouter, z Google Play i z AdMob wiąże się z przekazywaniem danych poza Unię Europejską. Ramy prawne tych przekazań (standardowe klauzule umowne, decyzja stwierdzająca odpowiedni stopień ochrony) **muszą zostać zweryfikowane i udokumentowane przez profesjonalistę przed publikacją** — zob. uwagę na końcu dokumentu.
+**Przekazywanie poza Unię Europejską:** korzystanie z OpenRouter, z Google Play, z AdMob i z Sentry wiąże się z przekazywaniem danych poza Unię Europejską. Ramy prawne tych przekazań (standardowe klauzule umowne, decyzja stwierdzająca odpowiedni stopień ochrony) **muszą zostać zweryfikowane i udokumentowane przez profesjonalistę przed publikacją** — zob. uwagę na końcu dokumentu.
 
 ---
 
 ## 10. Bezpieczeństwo
 
-Wymiana danych między aplikacją a naszymi serwerami jest szyfrowana (HTTPS/TLS). Dostęp do danych w bazie jest ograniczony regułami po stronie serwera: funkcje wrażliwe nie są dostępne z poziomu aplikacji. Żaden system nie jest doskonale bezpieczny, ale żaden przeformułowywany przez Ciebie tekst nie jest u nas przechowywany — co mechanicznie ogranicza to, co mogłoby ujawnić włamanie.
+Wymiana danych między aplikacją a naszymi serwerami jest szyfrowana (HTTPS/TLS). Dostęp do danych w bazie jest ograniczony regułami po stronie serwera: funkcje wrażliwe nie są dostępne z poziomu aplikacji. Żaden system nie jest doskonale bezpieczny. Tekst, który przeformułowujesz, oraz ten, który Czytanie Wspomagane wyświetla na ekranie, nie są u nas przechowywane, co mechanicznie ogranicza to, co mogłoby ujawnić włamanie w ich zakresie. **Nie dotyczy to wszystkiego:** słownik języków własnych, które tworzysz, **jest** przechowywany (zob. §3) i w razie rzeczywistego włamania byłby narażony tak samo jak każda inna dana objęta niniejszą polityką — chronimy go tymi samymi regułami dostępu po stronie serwera co resztę.
 
 ---
 
 ## 11. Zmiany
 
 Każda zmiana niniejszej polityki będzie publikowana pod adresem `https://readit0.github.io/plume-legal` wraz z nową datą. W razie istotnej zmiany dotyczącej obiegu Twoich danych poinformujemy Cię o niej w aplikacji.
+
+**Od wersji 2.0 ta obietnica ma za sobą konkretny mechanizm.** Zwykła poprawka formalna (data, adres, doprecyzowanie) niczego więcej od Ciebie nie wymaga. Ale zmiana ISTOTNA — nowy odbiorca Twoich danych, nowa kategoria zbieranych danych, nowy cel przetwarzania albo zmiana Twoich praw lub ceny — sprawia, że w aplikacji jednorazowo ponownie pojawia się ekran akceptacji, wraz z podsumowaniem tego, co się zmienia, oraz dwoma aktualnymi dokumentami. Dokładnie to wydarzyło się w przypadku tej wersji 2.0 (zob. wstawkę na początku niniejszego dokumentu).
 
 ---
 

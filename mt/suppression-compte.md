@@ -1,6 +1,6 @@
 # Ħassar il-kont u d-data tiegħek — Plume
 
-**L-aħħar aġġornament: 31 ta' Lulju 2026** — Verżjoni 1.0
+**L-aħħar aġġornament: 12 ta' Settembru 2026** — Verżjoni 2.0
 
 Applikazzjoni kkonċernata: **Plume** (`com.plume.plume`), ippubblikata minn **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ippubblikata fuq Google Play taħt l-isem **openfunworld**.
 
@@ -36,11 +36,12 @@ It-tħassir iħassar **b'mod definittiv**:
 - **is-suġġerimenti tiegħek** — il-proposti li tkun bgħattilna mill-applikazzjoni. Huwa l-uniku test liberu li naħżnu;
 - **l-identifikaturi tat-talbiet tiegħek** — ir-referenzi tekniċi tar-riformulazzjonijiet mitluba;
 - **il-krediti u l-iżblokki ta' kwota tiegħek** — krediti mixtrija mhux ikkonsmati, żblokki miksuba permezz ta' reklami, limiti aġġustati;
-- **ir-rabta tal-apparati tiegħek mal-kont tiegħek** — it-telefowns jew it-tablets l-oħra tiegħek jinħallu u jerġgħu jsiru sempliċi apparati anonimi.
+- **ir-rabta tal-apparati tiegħek mal-kont tiegħek** — it-telefowns jew it-tablets l-oħra tiegħek jinħallu u jerġgħu jsiru sempliċi apparati anonimi;
+- **il-lingwi personali li ħloqt** — isimhom, l-alfabett tagħhom, il-leksiku tagħhom, it-tokens ta' kondiviżjoni tiegħek u l-istorja tiegħek ta' importazzjoni. **Dak li dan it-tħassir ma jistax jagħmel:** jekk xi ħadd ieħor diġà importa kopja tal-lingwa tiegħek għandu, dik il-kopja issa tibqa' tiegħu u **tibqa' teżisti** wara t-tħassir tiegħek — bħal messaġġ li diġà rċieva terza persuna, ma nistgħux immorru nħassruh għandu.
 
 L-apparat li minnu titlob it-tħassir jiġi **newtralizzat**: ir-rabta tiegħu mal-kont tiegħek titħassar, iċ-ċavetta ta' identifikazzjoni tiegħu tinqered u tiġi sostitwita b'valur mejjet, il-lingwa tiegħu u l-verżjoni tal-applikazzjoni tiegħu jitħassru. Ma jibqa' xejn ħlief numru opak, li ma jippermettix aktar li tiġi identifikat int u lanqas li jinstab l-apparat.
 
-**Qatt ma ħżinna t-testi tiegħek.** La t-testi li rriformulajt, u lanqas it-test moqri mill-iskrin mill-Qari Assistit: ma kinux miżmuma imkien fuq is-servers tagħna, u għalhekk m'hemm xejn x'jitħassar minnhom.
+**Qatt ma ħżinna t-testi li rriformulajt, u lanqas it-test moqri mill-iskrin mill-Qari Assistit**: dawn ma jinżammux imkien fuq is-servers tagħna, u għalhekk m'hemm xejn x'jitħassar minnhom. **Dan mhux minnu għal-leksiku ta' lingwa personali li tkun ħloqt**: il-kontenut tagħha (isem, alfabett, kliem u tifsiriet) huwa tabilħaqq maħżun fuq is-servers tagħna — it-tħassir tal-kont tiegħek iħassru, bħall-bqija ta' dak li huwa tiegħek (ara hawn taħt).
 
 **Fuq it-telefown tiegħek**, il-personas tiegħek, l-avatars tiegħek, is-settings tiegħek u r-regoli tiegħek għal kull applikazzjoni huma maħżuna lokalment. Jitħassru bit-tħassir mill-applikazzjoni, u f'kull każ **jisparixxu meta tiżżarma Plume**.
 

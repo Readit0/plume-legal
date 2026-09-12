@@ -1,6 +1,6 @@
 # Suprimir su cuenta y sus datos — Plume
 
-**Última actualización: 31 de julio de 2026** — Versión 1.0
+**Última actualización: 12 de septiembre de 2026** — Versión 2.0
 
 Aplicación afectada: **Plume** (`com.plume.plume`), editada por **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France, publicada en Google Play bajo el nombre **openfunworld**.
 
@@ -36,11 +36,12 @@ La supresión borra **definitivamente**:
 - **sus sugerencias**: las propuestas que nos hubiera enviado desde la aplicación. Es el único texto libre que almacenamos;
 - **sus identificadores de solicitud**: las referencias técnicas de las reformulaciones solicitadas;
 - **sus créditos y desbloqueos de cuota**: créditos comprados no consumidos, desbloqueos obtenidos mediante publicidad, topes ajustados;
-- **la vinculación de sus dispositivos a su cuenta**: sus otros teléfonos o tabletas quedan desvinculados y vuelven a ser simples dispositivos anónimos.
+- **la vinculación de sus dispositivos a su cuenta**: sus otros teléfonos o tabletas quedan desvinculados y vuelven a ser simples dispositivos anónimos;
+- **los idiomas personales que usted creó**: su nombre, su alfabeto, su léxico, sus tokens de compartición y su historial de importación. **Lo que esta supresión no puede hacer:** si otra persona ya ha importado una copia de su idioma, esa copia pasa a pertenecerle a ella y **sobrevive** a su supresión, como un mensaje ya recibido por un tercero que no podemos borrar en su lado.
 
 El dispositivo desde el que solicita la supresión queda **neutralizado**: su vinculación a su cuenta se borra, su clave de identificación se destruye y se sustituye por un valor muerto, y su idioma y su versión de la aplicación se borran. Solo queda un número opaco, que ya no permite identificarle ni localizar el dispositivo.
 
-**Nunca hemos almacenado sus textos.** Ni los textos que usted ha reformulado, ni el texto leído en la pantalla por la Lectura Asistida: no se conservaban en ninguna parte de nuestros servidores, así que no hay nada que suprimir al respecto.
+**Nunca hemos almacenado los textos que usted ha reformulado, ni el texto leído en la pantalla por la Lectura Asistida**: no se conservan en ninguna parte de nuestros servidores, así que no hay nada que suprimir al respecto. **Esto no es cierto del léxico de un idioma personal que usted pudiera haber creado**: su contenido (nombre, alfabeto, palabras y definiciones) sí se almacena en nuestros servidores — la supresión de su cuenta lo borra, como el resto de lo que le pertenece (véase más abajo).
 
 **En su teléfono**, sus personas, sus avatares, sus ajustes y sus reglas por aplicación se almacenan localmente. Se borran con la supresión efectuada desde la aplicación y, en cualquier caso, **desaparecen cuando desinstala Plume**.
 

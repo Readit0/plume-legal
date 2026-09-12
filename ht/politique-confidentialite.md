@@ -1,6 +1,16 @@
 # Politik konfidansyalite Plume
 
-**Dènye mizajou: 31 jiyè 2026** — Vèsyon 1.0
+**Dènye mizajou: 12 septanm 2026** — Vèsyon 2.0
+
+> *Sa ki chanje depi vèsyon 1.0, epi poukisa ou ka wè ekran akò a ankò
+> nan aplikasyon an:* n ap korije de deklarasyon ki pa t egzat ankò. Premyèman,
+> fonksyon **lang pèsonèl yo** konsève sou sèvè nou yo kontni ou kreye a (non,
+> alfabè, vokabilè) — vèsyon 1.0 te afime pa erè pa gen okenn tèks ki estoke.
+> Dezyèmman, kounye a nou sèvi ak yon zouti **rapò teknik krach** (Sentry) —
+> vèsyon 1.0 te afime pa gen okenn zouti konsa ki egziste. Detay de pwen sa yo
+> nan seksyon 'Nan yon minit' pi ba a, ansanm ak nan §3 ak §9. Se egzakteman de
+> kategori chanjman sa yo ki, nan aplikasyon an, deklanche yon nouvo demann
+> konsantman (gade §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume ede w ekri: li reformile tèks ou dirèkteman nan aplikasyon kote w ap tap
 
 Twa bagay pou w sonje:
 
-1. **Plume pa konsève okenn nan tèks ou yo sou sèvè li yo.** Ni tèks li reformile yo, ni tèks li li sou ekran an. Nou pa kenbe ni kopi, ni jounal sou yo.
+1. **Plume pa konsève ni tèks ou reformile yo, ni tèks li li sou ekran an.** Nou pa kenbe ni kopi, ni jounal sou yo. **Eksepsyon nou aksepte, epi nou fè espre pou li:** si w kreye yon **lang pèsonèl** (pwòp lang ou envante, ak yon vokabilè mo ak definisyon yo), kontni lang sa a **konsève**, pito, sou sèvè nou yo — se sèl fason pou n pèmèt ou jwenn li ankò sou yon lòt aparèy, fè l evolye epi pataje l. Detay la nan §3.
 2. **Selon motè ou chwazi a, tèks ou a kite telefòn ou oswa li pa kite l.** De motè (Kit Lokal la ak IA Lokal la) travay nèt sou aparèy la. Twazyèm nan (IA Cloud la) voye tèks la bay yon sèvis entèlijans atifisyèl ki **chita andeyò Inyon Ewopeyen an**. Se ou menm ki chwazi, epi IA Cloud la pa janm aktive san akò eksplisit ou.
 3. **Plume bezwen otorizasyon ki gen anpil pouvwa** (li kontni ki parèt nan lòt aplikasyon yo, kaptire ekran an). Pi ba a nou eksplike egzakteman a kisa yo sèvi, epi a kisa yo pa sèvi.
 
@@ -91,7 +101,7 @@ Gen yon limit sou tèks yo voye a: 1 200 karaktè pou yon reformilasyon, 4 000 k
 
 ## 3. Done nou konsève yo
 
-Nou pa sèvi ak **okenn zouti analiz odyans, okenn trakè piblisite lòt konpayi, okenn zouti rapò krach**. Aplikasyon an pa gen SDK mezi ladan l.
+Nou pa sèvi ak **okenn zouti analiz odyans ni okenn trakè piblisite lòt konpayi** apa de piblisite yo dekri nan §5 la. **Nou sèvi ak yon zouti rapò teknik krach** (Sentry): li wè sèlman erè pwogram (kalite erè a, chemen apèl teknik, vèsyon aplikasyon an, sistèm dopresyon an), pa janm itilizasyon w ni chemen w pran nan aplikasyon an, epi pa janm tèks ou ekri a — yon filtè espesyal anpeche sa anvan chak voye. Detay la nan §9.
 
 Men tout sa ki estoke sou sèvè nou yo:
 
@@ -104,6 +114,8 @@ Men tout sa ki estoke sou sèvè nou yo:
 | **Sijesyon ou voye volontèman** (si w voye yon sijesyon pèsona ban nou depi nan aplikasyon an) | Amelyore katalòg la. Sijesyon sa yo pa janm pibliye. | Jiskaske ou efase kont ou |
 | **Siyal teknik abi** (depasman repete, echèk kontwòl entegrite — san okenn tèks) | Sekirite, lit kont fwod | Detache ak idantite w lè yo efase kont lan |
 | **Lang ak vèsyon aplikasyon an** | Bay bon kontni an | Jiskaske ou efase kont ou |
+| **Kontni lang pèsonèl ou kreye yo** (non li, alfabè li ak vokabilè li — mo ak definisyon ou menm, oswa lòt moun, te ekri ladan l) | Pèmèt ou jwenn lang ou a ankò sou yon lòt aparèy, fè l evolye, epi pataje l ak lòt itilizatè | Toutotan lang lan egziste. Si w efase l, fich li a disparèt — men yon kopi yon lòt moun **te deja enpòte** vin pou moun sa a depi lè sa a epi li **kontinye egziste**, tankou yon mesaj yon twazyèm moun deja resevwa ke nou pa ka al efase lakay li |
+| **Rapò teknik krach yo** (kalite erè a, chemen apèl teknik ki koupe, vèsyon aplikasyon an, sistèm dopresyon an — pa janm yon kontni tèks) | Dyagnostike epi korije krach aplikasyon an | Se founisè nou an, Sentry, ki jere sa (gade §9). Koleksyon sa a soumèt ak konsantman ou ak yon switch nou ka koupe nenpòt ki lè, san mizajou aplikasyon an |
 
 **Sa nou pa kolekte:** non ou, kontak ou yo, kote w ye, kanè adrès ou, foto ou yo, ajanda ou, istorik aplikasyon ou yo. Plume pa mande okenn nan otorizasyon sa yo.
 
@@ -180,22 +192,25 @@ Kòm aplikasyon an pèmèt reformile yon tèks lib epi li afiche reklam, li pa e
 | **Google Play / Google Billing** | Peman, abònman | Google Ireland / Etazini |
 | **Google AdMob** | Reklam ak rekonpans | Google Ireland / Etazini |
 | **Google (sèvis sistèm telefòn nan)** | Rekonesans vokal, modil tradiksyon san koneksyon | Selon aparèy ou |
+| **Sentry** (Functional Software, Inc.) | Rapò teknik krach — sèlman erè pwogram, filtre anvan yo voye yo: pa janm tèks ou | Etazini |
 
 **Nou pa vann okenn done epi nou pa sede okenn done bay koutye done.**
 
-**Transfè andeyò Inyon Ewopeyen an:** lè nou sèvi ak OpenRouter, ak Google Play epi ak AdMob, sa vle di gen transfè done andeyò Inyon Ewopeyen an. **Fòk yon pwofesyonèl verifye epi dokimante ankadreman jiridik transfè sa yo** (kloz kontraktyèl tip, desizyon adekwasyon) **anvan piblikasyon** — gade nòt ki nan fen dokiman an.
+**Transfè andeyò Inyon Ewopeyen an:** lè nou sèvi ak OpenRouter, ak Google Play, ak AdMob epi ak Sentry, sa vle di gen transfè done andeyò Inyon Ewopeyen an. **Fòk yon pwofesyonèl verifye epi dokimante ankadreman jiridik transfè sa yo** (kloz kontraktyèl tip, desizyon adekwasyon) **anvan piblikasyon** — gade nòt ki nan fen dokiman an.
 
 ---
 
 ## 10. Sekirite
 
-Echanj ant aplikasyon an ak sèvè nou yo chifre (HTTPS/TLS). Aksè ak done ki nan baz la limite ak règ sou sèvè a: fonksyon ki sansib yo pa aksesib depi nan aplikasyon an. Pa gen sistèm ki pafètman an sekirite, men okenn tèks ou reformile pa estoke lakay nou — sa ki limite mekanikman sa yon entrizyon ta ka revele.
+Echanj ant aplikasyon an ak sèvè nou yo chifre (HTTPS/TLS). Aksè ak done ki nan baz la limite ak règ sou sèvè a: fonksyon ki sansib yo pa aksesib depi nan aplikasyon an. Pa gen sistèm ki pafètman an sekirite. Tèks ou reformile a ak sa Lekti Asiste afiche sou ekran an pa estoke lakay nou, sa ki limite mekanikman sa yon entrizyon ta ka revele sou yo. **Sa pa vre pou tout bagay:** vokabilè lang pèsonèl ou kreye yo, pou pa l, **estoke** (gade §3), epi li ta ekspoze menm jan ak nenpòt lòt done nan politik sa a si gen yon vrè entrizyon — nou pwoteje l ak menm règ aksè sèvè a menm jan ak rès la.
 
 ---
 
 ## 11. Chanjman
 
 N ap pibliye tout chanjman nan politik sa a nan adrès `https://readit0.github.io/plume-legal` ak yon nouvo dat. Si gen yon chanjman enpòtan sou fason done ou yo sikile, n ap fè w konnen sa nan aplikasyon an.
+
+**Depi vèsyon 2.0, pwomès sa a gen yon mekanis konkrè dèyè l.** Yon senp koreksyon fòm (yon dat, yon adrès, yon presizyon) pa mande w anyen anplis. Men yon chanjman MATERYÈL — yon nouvo destinatè pou done ou yo, yon nouvo kategori done nou kolekte, yon nouvo objektif, oswa yon chanjman nan dwa ou yo oswa nan pri a — fè ekran akò a parèt ankò, yon sèl fwa, nan aplikasyon an, ak yon rezime sa k ap chanje a ak de dokiman yo mete ajou. Se egzakteman sa ki te pase pou vèsyon 2.0 sa a (gade ankadre ki nan kòmansman dokiman sa a).
 
 ---
 

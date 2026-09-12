@@ -1,6 +1,6 @@
 # Ștergerea contului și a datelor dumneavoastră — Plume
 
-**Ultima actualizare: 31 iulie 2026** — Versiunea 1.0
+**Ultima actualizare: 12 septembrie 2026** — Versiunea 2.0
 
 Aplicația vizată: **Plume** (`com.plume.plume`), editată de **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicată pe Google Play sub numele **openfunworld**.
 
@@ -36,11 +36,12 @@ Verificăm dacă cererea provine într-adevăr de la titularul contului, apoi pr
 - **sugestiile dumneavoastră** — propunerile pe care ni le-ați fi trimis din aplicație. Este singurul text liber pe care îl stocăm;
 - **identificatorii cererilor dumneavoastră** — referințele tehnice ale reformulărilor solicitate;
 - **creditele și deblocările dumneavoastră de cotă** — credite achiziționate neconsumate, deblocări obținute prin publicitate, plafoane ajustate;
-- **asocierea dispozitivelor dumneavoastră cu contul dumneavoastră** — celelalte telefoane sau tablete ale dumneavoastră sunt dezlegate și redevin simple dispozitive anonime.
+- **asocierea dispozitivelor dumneavoastră cu contul dumneavoastră** — celelalte telefoane sau tablete ale dumneavoastră sunt dezlegate și redevin simple dispozitive anonime;
+- **limbile personale pe care le-ați creat** — numele lor, alfabetul lor, lexicul lor, jetoanele dumneavoastră de partajare și istoricul dumneavoastră de import. **Ceea ce această ștergere nu poate face:** dacă altcineva a importat deja o copie a limbii dumneavoastră la el, această copie îi aparține de acum și **supraviețuiește** ștergerii dumneavoastră — precum un mesaj deja primit de un terț, nu îl putem șterge la el.
 
 Dispozitivul de pe care solicitați ștergerea este **neutralizat**: asocierea sa cu contul dumneavoastră este ștearsă, cheia sa de identificare este distrusă și înlocuită cu o valoare moartă, limba și versiunea sa de aplicație sunt șterse. Nu mai rămâne decât un număr opac, care nu mai permite nici identificarea dumneavoastră, nici regăsirea dispozitivului.
 
-**Nu am stocat niciodată textele dumneavoastră.** Nici textele pe care le-ați reformulat, nici textul citit pe ecran de Citirea Asistată: acestea nu erau păstrate nicăieri pe serverele noastre, prin urmare nu există nimic de șters.
+**Nu am stocat niciodată textele pe care le-ați reformulat, nici textul citit pe ecran de Citirea Asistată**: acestea nu sunt păstrate nicăieri pe serverele noastre, prin urmare nu există nimic de șters. **Acest lucru nu este valabil pentru lexicul unei limbi personale pe care ați fi creat-o**: conținutul acesteia (nume, alfabet, cuvinte și definiții) este într-adevăr stocat pe serverele noastre — ștergerea contului dumneavoastră îl elimină, la fel ca restul a ceea ce vă aparține (a se vedea mai jos).
 
 **Pe telefonul dumneavoastră**, personele, avatarurile, setările și regulile dumneavoastră per aplicație sunt stocate local. Ele sunt șterse prin ștergerea efectuată din aplicație și, în orice caz, **dispar atunci când dezinstalați Plume**.
 

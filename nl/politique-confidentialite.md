@@ -1,6 +1,8 @@
 # Privacybeleid van Plume
 
-**Laatst bijgewerkt: 31 juli 2026** — Versie 1.0
+**Laatst bijgewerkt: 12 september 2026** — Versie 2.0
+
+> *Wat er is veranderd sinds versie 1.0, en waarom u mogelijk het toestemmingsscherm opnieuw ziet in de app:* wij corrigeren twee beweringen die niet langer juist waren. Ten eerste bewaart de functie **persoonlijke talen** op onze servers de inhoud die u aanmaakt (naam, alfabet, lexicon) — versie 1.0 beweerde ten onrechte dat er geen enkele tekst werd opgeslagen. Ten tweede gebruiken wij nu een hulpmiddel voor **technische crashrapportage** (Sentry) — versie 1.0 beweerde dat er geen enkel hulpmiddel van dit type bestond. De details van deze twee punten vindt u hieronder bij "In één minuut", en in §3 en §9. Dit zijn precies de twee categorieën wijzigingen die in de app een nieuwe toestemmingsvraag doen verschijnen (zie §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume helpt u bij het schrijven: de app herschrijft uw tekst rechtstreeks in de 
 
 Drie dingen om te onthouden:
 
-1. **Plume bewaart geen enkele van uw teksten op zijn servers.** Noch uw herschreven teksten, noch de tekst die van het scherm is gelezen. Wij bewaren daarvan geen kopie en geen logboek.
+1. **Plume bewaart noch de teksten die u herschrijft, noch de tekst die op het scherm wordt gelezen.** Wij bewaren daarvan geen kopie en geen logboek. **Een bewuste, en vrijwillige, uitzondering:** als u een **persoonlijke taal** aanmaakt (uw eigen zelfbedachte taal, met een lexicon van woorden en hun betekenissen), dan wordt de inhoud van die taal wél op onze servers bewaard — dat is de enige manier om u in staat te stellen haar op een ander apparaat terug te vinden, haar verder te ontwikkelen en haar te delen. De details staan in §3.
 2. **Afhankelijk van de motor die u kiest, verlaat uw tekst uw telefoon of niet.** Twee motoren (de Lokale kit en de Lokale AI) werken volledig op het apparaat. De derde (de Cloud-AI) stuurt de tekst naar een dienst voor kunstmatige intelligentie **buiten de Europese Unie**. U kiest, en de Cloud-AI wordt nooit ingeschakeld zonder uw uitdrukkelijke toestemming.
 3. **Plume heeft ingrijpende machtigingen nodig** (de inhoud lezen die in andere apps wordt weergegeven, het scherm vastleggen). Hieronder leggen wij precies uit waarvoor ze dienen en waarvoor niet.
 
@@ -91,7 +93,7 @@ De verzonden tekst is begrensd: 1.200 tekens voor een herschrijving, 4.000 teken
 
 ## 3. De gegevens die wij bewaren
 
-Wij gebruiken **geen enkel hulpmiddel voor publieksmeting, geen enkele advertentietracker van derden en geen enkel hulpmiddel voor crashrapportage**. De app bevat geen meet-SDK.
+Wij gebruiken **geen enkel hulpmiddel voor publieksmeting en geen enkele advertentietracker van derden**, afgezien van de advertenties die in §5 worden beschreven. **Wij gebruiken wel een hulpmiddel voor technische crashrapportage** (Sentry): dat ziet alleen programmafouten (type fout, technische call stack, versie van de app, besturingssysteem), nooit uw gebruik of uw traject, en nooit de tekst die u schrijft — een speciaal filter verbiedt dat vóór elke verzending. De details staan in §9.
 
 Hier is alles wat op onze servers wordt opgeslagen:
 
@@ -104,6 +106,8 @@ Hier is alles wat op onze servers wordt opgeslagen:
 | **Vrijwillig verzonden suggesties** (als u ons vanuit de app een persona-suggestie stuurt) | De catalogus verbeteren. Deze suggesties worden nooit gepubliceerd. | Tot uw account wordt verwijderd |
 | **Technische misbruiksignalen** (herhaalde overschrijdingen, mislukte integriteitscontrole — zonder enige tekst) | Beveiliging, fraudebestrijding | Losgekoppeld van uw identiteit bij verwijdering van het account |
 | **Taal en versie van de app** | De juiste inhoud aanbieden | Tot uw account wordt verwijderd |
+| **De inhoud van de persoonlijke talen die u aanmaakt** (de naam ervan, het alfabet ervan, en het lexicon ervan — de woorden en de definities die u, of andere personen, erin hebben geschreven) | U in staat stellen uw taal op een ander apparaat terug te vinden, haar verder te ontwikkelen, en haar met andere gebruikers te delen | Zolang de taal bestaat. Als u haar verwijdert, verdwijnt haar eigen kaart — maar een kopie die al **door iemand anders is geïmporteerd**, behoort dan aan die persoon toe en **blijft bestaan**, zoals een bericht dat al door een derde is ontvangen en dat wij niet bij hem kunnen gaan wissen |
+| **Technische crashrapporten** (type fout, ingekorte technische call stack, versie van de app, besturingssysteem — nooit tekstuele inhoud) | Crashes van de app diagnosticeren en verhelpen | Geregeld door onze dienstverlener Sentry (zie §9). Deze verzameling is onderworpen aan uw toestemming en aan een schakelaar die wij op elk moment kunnen uitzetten, zonder app-update |
 
 **Wat wij niet verzamelen:** uw naam, uw contacten, uw locatie, uw adresboek, uw foto's, uw agenda, de geschiedenis van uw apps. Plume vraagt geen enkele van deze machtigingen.
 
@@ -180,22 +184,25 @@ Omdat de app het herschrijven van vrije tekst mogelijk maakt en advertenties too
 | **Google Play / Google Billing** | Betaling, abonnementen | Google Ireland / Verenigde Staten |
 | **Google AdMob** | Beloonde advertenties | Google Ireland / Verenigde Staten |
 | **Google (systeemdiensten van de telefoon)** | Spraakherkenning, offline vertaalmodules | Afhankelijk van uw apparaat |
+| **Sentry** (Functional Software, Inc.) | Technische crashrapportage — uitsluitend programmafouten, gefilterd vóór verzending: nooit uw tekst | Verenigde Staten |
 
 **Wij verkopen geen enkel gegeven en dragen er geen enkel over aan datahandelaren.**
 
-**Doorgiften buiten de Europese Unie:** het gebruik van OpenRouter, Google Play en AdMob houdt een doorgifte van gegevens buiten de Europese Unie in. Het juridische kader van die doorgiften (modelcontractbepalingen, adequaatheidsbesluit) **moet vóór publicatie door een professional worden geverifieerd en gedocumenteerd** — zie de noot aan het einde van dit document.
+**Doorgiften buiten de Europese Unie:** het gebruik van OpenRouter, Google Play, AdMob en Sentry houdt een doorgifte van gegevens buiten de Europese Unie in. Het juridische kader van die doorgiften (modelcontractbepalingen, adequaatheidsbesluit) **moet vóór publicatie door een professional worden geverifieerd en gedocumenteerd** — zie de noot aan het einde van dit document.
 
 ---
 
 ## 10. Beveiliging
 
-Het verkeer tussen de app en onze servers is versleuteld (HTTPS/TLS). De toegang tot de gegevens in de database is beperkt door regels aan de serverzijde: gevoelige functies zijn niet bereikbaar vanuit de app. Geen enkel systeem is volmaakt veilig, maar geen enkele tekst die u herschrijft wordt bij ons opgeslagen — wat als vanzelf beperkt wat een inbraak zou kunnen onthullen.
+Het verkeer tussen de app en onze servers is versleuteld (HTTPS/TLS). De toegang tot de gegevens in de database is beperkt door regels aan de serverzijde: gevoelige functies zijn niet bereikbaar vanuit de app. Geen enkel systeem is volmaakt veilig. De tekst die u herschrijft en de tekst die de Leeshulp op het scherm weergeeft, worden niet bij ons opgeslagen, wat als vanzelf beperkt wat een inbraak daarover zou kunnen onthullen. **Dat geldt niet voor alles:** het lexicon van de persoonlijke talen die u aanmaakt, wordt namelijk wél opgeslagen (zie §3), en zou bij een daadwerkelijke inbraak net als elk ander gegeven uit dit beleid blootgesteld kunnen worden — wij beschermen het met dezelfde serverregels als de rest.
 
 ---
 
 ## 11. Wijzigingen
 
 Elke wijziging van dit beleid wordt gepubliceerd op `https://readit0.github.io/plume-legal` met een nieuwe datum. Bij een belangrijke wijziging in de route van uw gegevens brengen wij u daarvan in de app op de hoogte.
+
+**Sinds versie 2.0 zit er een concreet mechanisme achter deze belofte.** Een eenvoudige vormcorrectie (een datum, een adres, een precisering) vraagt niets extra's van u. Maar een MATERIËLE wijziging — een nieuwe ontvanger van uw gegevens, een nieuwe categorie verzamelde gegevens, een nieuw doel, of een wijziging van uw rechten of van de prijs — laat het toestemmingsscherm in de app eenmalig opnieuw verschijnen, met een samenvatting van wat er verandert en de twee bijgewerkte documenten. Dat is precies wat er is gebeurd voor deze versie 2.0 (zie het kader bovenaan dit document).
 
 ---
 

@@ -1,6 +1,8 @@
 # Polisi preifatrwydd Plume
 
-**Diweddarwyd ddiwethaf: 31 Gorffennaf 2026** — Fersiwn 1.0
+**Diweddarwyd ddiwethaf: 12 Medi 2026** — Fersiwn 2.0
+
+> *Beth sydd wedi newid ers fersiwn 1.0, a pham efallai y byddwch chi'n gweld sgrin dderbyn eto yn yr ap:* rydym yn cywiro dau ddatganiad nad oeddent yn gywir mwyach. Yn gyntaf, mae'r nodwedd **ieithoedd personol** yn cadw ar ein gweinyddion y cynnwys rydych chi'n ei greu (enw, gwyddor, geirfa) — roedd fersiwn 1.0 yn honni ar gam nad oedd unrhyw destun yn cael ei gadw. Yn ail, rydym bellach yn defnyddio offeryn **adrodd am ddamweiniau technegol** (Sentry) — roedd fersiwn 1.0 yn honni nad oedd unrhyw offeryn o'r math hwn yn bodoli. Mae manylion y ddau bwynt hyn yn 'Mewn munud' isod, yn ogystal ag yn §3 a §9. Dyma'n union y ddwy gategori o newid sy'n sbarduno, yn yr ap, gais newydd am gytundeb (gweler §11).
 
 ---
 
@@ -23,7 +25,7 @@ Mae Plume yn eich helpu i ysgrifennu: mae'n ailysgrifennu eich testun yn uniongy
 
 Tri pheth i'w cofio:
 
-1. **Nid yw Plume yn cadw'r un o'ch testunau ar ei weinyddion.** Na'ch testunau wedi'u hailysgrifennu, na'r testun sy'n cael ei ddarllen ar y sgrin. Nid ydym yn cadw copi na chofnod ohonynt.
+1. **Nid yw Plume yn cadw'r testunau rydych chi'n eu hailysgrifennu, na'r testun sy'n cael ei ddarllen ar y sgrin.** Nid ydym yn cadw copi na chofnod ohonynt. **Eithriad ymwybodol, a bwriadol:** os byddwch chi'n creu **iaith bersonol** (eich iaith gyffredin eich hun wedi'i llunio, gyda'i geirfa o eiriau a'u diffiniadau), mae cynnwys yr iaith honno **yn cael ei gadw** ar ein gweinyddion — dyma'r unig ffordd i'ch galluogi i'w hadfer ar ddyfais arall, ei datblygu, a'i rhannu. Mae'r manylion yn §3.
 2. **Yn dibynnu ar y peiriant rydych chi'n ei ddewis, mae eich testun yn gadael eich ffôn neu ddim.** Mae dau beiriant (y Pecyn Lleol a'r AI Lleol) yn gweithio'n gyfan gwbl ar y ddyfais. Mae'r trydydd (AI y Cwmwl) yn anfon y testun at wasanaeth deallusrwydd artiffisial **sydd wedi'i leoli y tu allan i'r Undeb Ewropeaidd**. Chi sy'n dewis, ac nid yw AI y Cwmwl byth yn cael ei actifadu heb eich cytundeb penodol.
 3. **Mae angen caniatadau pwerus ar Plume** (darllen y cynnwys sy'n cael ei ddangos mewn apiau eraill, cipio'r sgrin). Rydym yn egluro isod yn union at beth y maent yn cael eu defnyddio, ac at beth nad ydynt yn cael eu defnyddio.
 
@@ -91,7 +93,7 @@ Mae terfyn ar y testun a anfonir: 1,200 o gymeriadau ar gyfer ailysgrifennu, 4,0
 
 ## 3. Y data rydym yn ei gadw
 
-Nid ydym yn defnyddio **unrhyw offeryn dadansoddi cynulleidfa, unrhyw draciwr hysbysebu trydydd parti, nac unrhyw offeryn adrodd am ddamweiniau meddalwedd**. Nid yw'r ap yn cynnwys SDK mesur.
+Nid ydym yn defnyddio **unrhyw offeryn dadansoddi cynulleidfa nac unrhyw draciwr hysbysebu trydydd parti**, ar wahân i'r hysbysebu a ddisgrifir yn §5. **Rydym yn defnyddio offeryn adrodd am ddamweiniau technegol** (Sentry): nid yw'n gweld dim ond gwallau rhaglen (math y gwall, pentwr galwadau technegol, fersiwn yr ap, system weithredu), byth eich defnydd na'ch taith, a byth y testun rydych chi'n ei ysgrifennu — mae hidlydd pwrpasol yn gwahardd hynny cyn unrhyw anfoniad. Mae'r manylion yn §9.
 
 Dyma'r cyfan sy'n cael ei storio ar ein gweinyddion:
 
@@ -104,6 +106,8 @@ Dyma'r cyfan sy'n cael ei storio ar ein gweinyddion:
 | **Awgrymiadau a anfonir yn wirfoddol** (os byddwch yn anfon awgrym persona atom o'r ap) | Gwella'r catalog. Nid yw'r awgrymiadau hyn byth yn cael eu cyhoeddi. | Hyd nes y bydd eich cyfrif yn cael ei ddileu |
 | **Signalau technegol o gamddefnydd** (mynd dros y terfyn dro ar ôl tro, methiant gwiriad cywirdeb — heb unrhyw destun) | Diogelwch, atal twyll | Yn cael eu datgysylltu oddi wrth eich hunaniaeth pan gaiff y cyfrif ei ddileu |
 | **Iaith a fersiwn yr ap** | Darparu'r cynnwys cywir | Hyd nes y bydd eich cyfrif yn cael ei ddileu |
+| **Cynnwys yr ieithoedd personol rydych chi'n eu creu** (ei enw, ei gwyddor, a'i geirfa — y geiriau a'r diffiniadau rydych chi, neu bobl eraill, wedi'u hysgrifennu ynddi) | Eich galluogi i adfer eich iaith ar ddyfais arall, ei datblygu, a'i rhannu â defnyddwyr eraill | Cyhyd ag y bydd yr iaith yn bodoli. Os byddwch yn ei dileu, mae ei chofnod yn diflannu — ond mae copi sydd eisoes **wedi'i mewnforio gan berson arall** yn perthyn iddo ef o hynny ymlaen ac yn **goroesi**, fel neges y mae trydydd parti eisoes wedi'i derbyn na allwn fynd i'w dileu ganddo |
+| **Adroddiadau am ddamweiniau technegol** (math y gwall, pentwr galwadau technegol wedi'i dorri'n fyr, fersiwn yr ap, system weithredu — byth gynnwys testun) | Diagnosio a chywiro damweiniau'r ap | Yn cael ei reoli gan ein darparwr Sentry (gweler §9). Mae'r casglu hwn yn amodol ar eich caniatâd ac ar switsh y gallwn ei ddiffodd unrhyw bryd, heb ddiweddariad i'r ap |
 
 **Yr hyn nad ydym yn ei gasglu:** eich enw, eich cysylltiadau, eich lleoliad, eich llyfr cyfeiriadau, eich lluniau, eich calendr, hanes eich apiau. Nid yw Plume yn gofyn am yr un o'r caniatadau hyn.
 
@@ -180,22 +184,25 @@ Gan fod yr ap yn caniatáu ailysgrifennu testun rhydd ac yn dangos hysbysebion, 
 | **Google Play / Google Billing** | Talu, tanysgrifiadau | Google Ireland / Yr Unol Daleithiau |
 | **Google AdMob** | Hysbysebu gwobrwyol | Google Ireland / Yr Unol Daleithiau |
 | **Google (gwasanaethau system y ffôn)** | Adnabod llais, modiwlau cyfieithu all-lein | Yn dibynnu ar eich dyfais |
+| **Sentry** (Functional Software, Inc.) | Adrodd am ddamweiniau technegol — gwallau'r rhaglen yn unig, wedi'u hidlo cyn eu hanfon: byth eich testun | Yr Unol Daleithiau |
 
 **Nid ydym yn gwerthu unrhyw ddata ac nid ydym yn trosglwyddo dim ohono i froceriaid data.**
 
-**Trosglwyddiadau y tu allan i'r Undeb Ewropeaidd:** mae defnyddio OpenRouter, Google Play ac AdMob yn golygu trosglwyddo data y tu allan i'r Undeb Ewropeaidd. **Rhaid i weithiwr proffesiynol wirio a dogfennu'r fframwaith cyfreithiol ar gyfer y trosglwyddiadau hyn** (cymalau contractiol safonol, penderfyniad digonolrwydd) **cyn cyhoeddi** — gweler y nodyn ar ddiwedd y ddogfen.
+**Trosglwyddiadau y tu allan i'r Undeb Ewropeaidd:** mae defnyddio OpenRouter, Google Play, AdMob a Sentry yn golygu trosglwyddo data y tu allan i'r Undeb Ewropeaidd. **Rhaid i weithiwr proffesiynol wirio a dogfennu'r fframwaith cyfreithiol ar gyfer y trosglwyddiadau hyn** (cymalau contractiol safonol, penderfyniad digonolrwydd) **cyn cyhoeddi** — gweler y nodyn ar ddiwedd y ddogfen.
 
 ---
 
 ## 10. Diogelwch
 
-Mae'r cyfnewid rhwng yr ap a'n gweinyddion wedi'i amgryptio (HTTPS/TLS). Mae mynediad at y data yn y gronfa wedi'i gyfyngu gan reolau ar y gweinydd: nid oes modd cyrraedd y swyddogaethau sensitif o'r ap. Nid oes yr un system yn hollol ddiogel, ond nid oes yr un testun rydych yn ei ailysgrifennu yn cael ei storio gennym ni — sy'n cyfyngu'n fecanyddol ar yr hyn y gallai ymyrraeth ei ddatgelu.
+Mae'r cyfnewid rhwng yr ap a'n gweinyddion wedi'i amgryptio (HTTPS/TLS). Mae mynediad at y data yn y gronfa wedi'i gyfyngu gan reolau ar y gweinydd: nid oes modd cyrraedd y swyddogaethau sensitif o'r ap. Nid oes yr un system yn hollol ddiogel. Nid yw'r testun rydych yn ei ailysgrifennu na'r un y mae Darllen â Chymorth yn ei ddangos ar y sgrin yn cael eu storio gennym ni, sy'n cyfyngu'n fecanyddol ar yr hyn y gallai ymyrraeth ei ddatgelu amdanynt. **Nid yw hyn yn wir am bopeth:** mae geirfa'r ieithoedd personol rydych chi'n eu creu, i'r gwrthwyneb, **yn cael ei storio** (gweler §3), a byddai'n cael ei ddatgelu fel unrhyw ddata arall yn y polisi hwn petai ymyrraeth wirioneddol yn digwydd — rydym yn ei ddiogelu â'r un rheolau mynediad gweinydd â'r gweddill.
 
 ---
 
 ## 11. Newidiadau
 
 Bydd unrhyw newid i'r polisi hwn yn cael ei gyhoeddi yn `https://readit0.github.io/plume-legal` gyda dyddiad newydd. Os bydd newid pwysig yn y ffordd y mae eich data'n cylchredeg, byddwn yn rhoi gwybod i chi yn yr ap.
+
+**Ers fersiwn 2.0, mae gan yr addewid hwn fecanwaith pendant y tu ôl iddo.** Nid yw cywiriad ffurfiol syml (dyddiad, cyfeiriad, eglurhad) yn gofyn dim mwy gennych chi. Ond mae newid SYLWEDDOL — derbynnydd newydd o'ch data, categori newydd o ddata a gesglir, diben newydd, neu newid i'ch hawliau neu i'r pris — yn gwneud i'r sgrin dderbyn ymddangos eto, unwaith, yn yr ap, gyda chrynodeb o'r hyn sy'n newid a'r ddwy ddogfen wedi'u diweddaru. Dyma'n union a ddigwyddodd gyda'r fersiwn 2.0 hon (gweler y blwch ar ddechrau'r ddogfen hon).
 
 ---
 

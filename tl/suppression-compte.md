@@ -1,6 +1,6 @@
 # Pagbura ng inyong account at ng inyong datos — Plume
 
-**Huling na-update: 31 Hulyo 2026** — Bersyon 1.0
+**Huling na-update: 12 Setyembre 2026** — Bersyon 2.0
 
 Kaugnay na application: **Plume** (`com.plume.plume`), inilalathala ng **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — inilathala sa Google Play sa ilalim ng pangalang **openfunworld**.
 
@@ -37,10 +37,11 @@ Bineberipika namin na ang hiling ay tunay na nagmumula sa may hawak ng account, 
 - **ang inyong mga request identifier** — ang mga teknikal na sanggunian ng mga hiniling na pag-rephrase;
 - **ang inyong mga credit at na-unlock na quota** — biniling credit na hindi pa nagagamit, na-unlock sa pamamagitan ng ad, mga hangganang naisaayos;
 - **ang pagkakaugnay ng inyong mga device sa inyong account** — ang iba ninyong telepono o tablet ay inaalisan ng ugnayan at nagbabalik na simpleng anonymous na device lamang.
+- **ang mga personal na wikang nilikha ninyo** — ang pangalan nito, ang alpabeto nito, ang bokabularyo nito, ang inyong mga sharing token at ang inyong kasaysayan ng pag-import. **Ang hindi kayang gawin ng pagburang ito:** kung may ibang taong nag-import na ng kopya ng inyong wika sa kanilang panig, ang kopyang iyon ay pagmamay-ari na niya at **mananatili** matapos ang inyong pagbura — tulad ng isang mensaheng natanggap na ng isang ikatlong panig, hindi namin ito kayang burahin sa panig niya.
 
 Ang device kung saan ninyo hiniling ang pagbura ay **nine-neutralize**: binubura ang pagkakaugnay nito sa inyong account, winawasak ang identification key nito at pinapalitan ng isang patay na halaga, at binubura ang wika at bersyon ng application nito. Isang malabong numero na lamang ang natitira, na hindi na maaaring gamitin upang makilala kayo ni upang matagpuan ang device.
 
-**Hindi namin kailanman iniimbak ang inyong mga teksto.** Hindi ang mga tekstong ni-rephrase ninyo, hindi rin ang tekstong binasa sa screen ng Assisted Reading: hindi ang mga ito nakaimbak kahit saan sa aming mga server, kaya wala ring anumang buburahin doon.
+**Hindi namin kailanman iniimbak ang mga tekstong ni-rephrase ninyo, ni ang tekstong binasa sa screen ng Assisted Reading**: hindi ang mga ito nakaimbak kahit saan sa aming mga server, kaya wala ring anumang buburahin doon. **Hindi ito totoo sa bokabularyo ng isang personal na wikang maaaring nilikha ninyo**: ang nilalaman nito (pangalan, alpabeto, mga salita at kahulugan) ay talagang iniimbak sa aming mga server — binubura ito ng pagbura ng inyong account, tulad ng iba pang bagay na pagmamay-ari ninyo (tingnan sa ibaba).
 
 **Sa inyong telepono**, ang inyong mga persona, ang inyong mga avatar, ang inyong mga setting at ang inyong mga panuntunan kada application ay nakaimbak nang lokal. Binubura ang mga ito ng pagbura mula sa application, at sa anumang kaso **nawawala ang mga ito kapag na-uninstall ninyo ang Plume**.
 

@@ -1,6 +1,8 @@
 # Plumen tietosuojaseloste
 
-**Viimeksi päivitetty: 31. heinäkuuta 2026** — Versio 1.0
+**Viimeksi päivitetty: 12. syyskuuta 2026** — Versio 2.0
+
+> *Mikä on muuttunut versiosta 1.0, ja miksi saatat nähdä hyväksyntänäytön uudelleen sovelluksessa:* korjaamme kaksi väitettä, jotka eivät enää pitäneet paikkaansa. Ensinnäkin **omat kielet** -toiminto säilyttää palvelimillamme sisällön, jonka luot (nimi, aakkosto, sanasto) — versio 1.0 väitti virheellisesti, ettei mitään tekstiä tallenneta. Toiseksi käytämme nyt **teknisen kaatumisraportoinnin** työkalua (Sentry) — versio 1.0 väitti, ettei tällaista työkalua ole olemassa. Näiden kahden kohdan yksityiskohdat löytyvät alta kohdasta ”Minuutissa” sekä §3:sta ja §9:stä. Nämä ovat juuri ne kaksi muutosluokkaa, jotka käynnistävät sovelluksessa uuden suostumuspyynnön (ks. §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume auttaa sinua kirjoittamaan: se kirjoittaa tekstisi uudelleen suoraan siin�
 
 Kolme muistettavaa asiaa:
 
-1. **Plume ei säilytä mitään tekstejäsi palvelimillaan.** Ei uudelleen kirjoitettuja tekstejäsi eikä näytöltä luettua tekstiä. Emme säilytä niistä kopiota emmekä lokia.
+1. **Plume ei säilytä uudelleen kirjoittamiasi tekstejä eikä näytöltä luettua tekstiä.** Emme säilytä niistä kopiota emmekä lokia. **Tietoinen ja vapaaehtoinen poikkeus:** jos luot **oman kielen** (oman rakentamasi kielen, jolla on sanoista ja niiden määritelmistä koostuva sanasto), kyseisen kielen sisältö **säilytetään** palvelimillamme — se on ainoa tapa, jolla voit löytää sen uudelleen toisella laitteella, kehittää sitä ja jakaa sen. Yksityiskohdat ovat §3:ssa.
 2. **Valitsemastasi moottorista riippuu, poistuuko tekstisi puhelimestasi vai ei.** Kaksi moottoria (paikallinen työkalupaketti ja paikallinen tekoäly) toimivat kokonaan laitteessa. Kolmas (Pilvitekoäly) lähettää tekstin tekoälypalveluun, joka **sijaitsee Euroopan unionin ulkopuolella**. Sinä valitset, eikä Pilvitekoäly kytkeydy koskaan päälle ilman nimenomaista suostumustasi.
 3. **Plume tarvitsee laajoja käyttöoikeuksia** (muissa sovelluksissa näkyvän sisällön lukeminen, näytön kaappaaminen). Kerromme jäljempänä täsmälleen, mihin niitä käytetään ja mihin ei.
 
@@ -91,7 +93,7 @@ Lähetettävällä tekstillä on yläraja: 1 200 merkkiä uudelleenkirjoitusta v
 
 ## 3. Tiedot, joita säilytämme
 
-Emme käytä **mitään kävijäseurannan työkalua, kolmannen osapuolen mainosseurainta emmekä kaatumisraportoinnin työkalua**. Sovellus ei sisällä mittauskirjastoa.
+Emme käytä **mitään kävijäseurannan työkalua emmekä kolmannen osapuolen mainosseurainta**, lukuun ottamatta §5:ssä kuvattua mainontaa. **Käytämme teknisen kaatumisraportoinnin työkalua** (Sentry): se näkee vain ohjelmavirheitä (virhetyyppi, tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä), ei koskaan käyttöäsi tai polkuasi, eikä koskaan kirjoittamaasi tekstiä — erillinen suodatin estää sen ennen mitään lähetystä. Yksityiskohdat ovat §9:ssä.
 
 Tässä on kaikki, mitä palvelimillemme tallennetaan:
 
@@ -104,6 +106,8 @@ Tässä on kaikki, mitä palvelimillemme tallennetaan:
 | **Vapaaehtoisesti lähetetyt ehdotukset** (jos lähetät meille sovelluksesta ehdotuksen persoonasta) | Valikoiman parantaminen. Näitä ehdotuksia ei koskaan julkaista. | Tilisi poistamiseen asti |
 | **Väärinkäytösten tekniset merkit** (toistuvat ylitykset, epäonnistunut sovelluksen eheystarkistus — ilman mitään tekstiä) | Turvallisuus, väärinkäytösten torjunta | Irrotetaan henkilöllisyydestäsi tilin poistamisen yhteydessä |
 | **Sovelluksen kieli ja versio** | Oikean sisällön tarjoaminen | Tilisi poistamiseen asti |
+| **Luomiesi omien kielten sisältö** (sen nimi, aakkosto ja sanasto — sanat ja määritelmät, jotka sinä tai muut henkilöt olette siihen kirjoittaneet) | Mahdollistaa kielesi löytämisen uudelleen toisella laitteella, sen kehittämisen ja jakamisen muiden käyttäjien kanssa | Niin kauan kuin kieli on olemassa. Jos poistat sen, sen tietue katoaa — mutta kopio, jonka **toinen henkilö on jo tuonut**, kuuluu tästä lähtien hänelle ja **säilyy**, kuten kolmannelle jo vastaanotettu viesti, jota emme voi käydä poistamassa hänen puoleltaan |
+| **Tekniset kaatumisraportit** (virhetyyppi, katkaistu tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä — ei koskaan tekstisisältöä) | Sovelluksen kaatumisten diagnosointi ja korjaaminen | Hallinnoi palveluntarjoajamme Sentry (ks. §9). Tämä keräys edellyttää suostumustasi ja kytkintä, jonka voimme sammuttaa milloin tahansa ilman sovelluspäivitystä |
 
 **Mitä emme kerää:** nimeäsi, yhteystietojasi, sijaintiasi, osoitekirjaasi, valokuviasi, kalenteriasi tai sovellustesi käyttöhistoriaa. Plume ei pyydä mitään näistä käyttöoikeuksista.
 
@@ -180,22 +184,25 @@ Koska sovellus mahdollistaa vapaan tekstin uudelleenkirjoittamisen ja näyttää
 | **Google Play / Google Billing** | Maksaminen, tilaukset | Google Ireland / Yhdysvallat |
 | **Google AdMob** | Palkkiomainonta | Google Ireland / Yhdysvallat |
 | **Google (puhelimen järjestelmäpalvelut)** | Puheentunnistus, verkottomat käännöspaketit | Laitteestasi riippuen |
+| **Sentry** (Functional Software, Inc.) | Tekninen kaatumisraportointi — vain ohjelmavirheitä, suodatettu ennen lähetystä: ei koskaan tekstiäsi | Yhdysvallat |
 
 **Emme myy mitään tietoja emmekä luovuta niitä tietovälittäjille.**
 
-**Siirrot Euroopan unionin ulkopuolelle:** OpenRouterin, Google Playn ja AdMobin käyttö merkitsee tietojen siirtoa Euroopan unionin ulkopuolelle. Näiden siirtojen oikeudellinen perusta (vakiosopimuslausekkeet, tietosuojan riittävyyttä koskeva päätös) **on ammattilaisen tarkistettava ja dokumentoitava ennen julkaisua** — ks. asiakirjan lopussa oleva huomautus.
+**Siirrot Euroopan unionin ulkopuolelle:** OpenRouterin, Google Playn, AdMobin ja Sentryn käyttö merkitsee tietojen siirtoa Euroopan unionin ulkopuolelle. Näiden siirtojen oikeudellinen perusta (vakiosopimuslausekkeet, tietosuojan riittävyyttä koskeva päätös) **on ammattilaisen tarkistettava ja dokumentoitava ennen julkaisua** — ks. asiakirjan lopussa oleva huomautus.
 
 ---
 
 ## 10. Tietoturva
 
-Sovelluksen ja palvelimiemme välinen liikenne on salattu (HTTPS/TLS). Pääsyä tietokannan tietoihin rajoitetaan palvelimen säännöillä: arkaluonteisiin toimintoihin ei pääse sovelluksesta käsin. Mikään järjestelmä ei ole täydellisen turvallinen, mutta yhtäkään uudelleen kirjoittamaasi tekstiä ei tallenneta meille — mikä rajoittaa mekaanisesti sitä, mitä tunkeutuminen voisi paljastaa.
+Sovelluksen ja palvelimiemme välinen liikenne on salattu (HTTPS/TLS). Pääsyä tietokannan tietoihin rajoitetaan palvelimen säännöillä: arkaluonteisiin toimintoihin ei pääse sovelluksesta käsin. Mikään järjestelmä ei ole täydellisen turvallinen. Tekstiä, jota kirjoitat uudelleen, ja tekstiä, jonka Lukuapu näyttää näytöllä, ei tallenneta meille, mikä rajoittaa mekaanisesti sitä, mitä tunkeutuminen voisi paljastaa niistä. **Tämä ei päde kaikkeen:** luomiesi omien kielten sanasto **tallennetaan** (ks. §3), ja se paljastuisi todellisen tunkeutumisen sattuessa kuten mikä tahansa muu tämän selosteen tieto — suojaamme sitä samoilla palvelimen käyttöoikeussäännöillä kuin muutakin.
 
 ---
 
 ## 11. Muutokset
 
 Jokainen tähän selosteeseen tehtävä muutos julkaistaan osoitteessa `https://readit0.github.io/plume-legal` uudella päivämäärällä. Jos tietojesi kulussa tapahtuu merkittävä muutos, ilmoitamme siitä sinulle sovelluksessa.
+
+**Versiosta 2.0 lähtien tällä lupauksella on konkreettinen mekanismi takanaan.** Pelkkä muotoseikan korjaus (päivämäärä, osoite, tarkennus) ei vaadi sinulta mitään lisää. Mutta OLENNAINEN muutos — uusi tietojesi vastaanottaja, uusi kerättävien tietojen luokka, uusi käyttötarkoitus tai muutos oikeuksiisi tai hintaan — tuo sovelluksessa kertaalleen takaisin hyväksyntänäytön, jossa on yhteenveto muutoksista ja kaksi päivitettyä asiakirjaa. Juuri näin kävi tämän version 2.0 kohdalla (ks. tämän asiakirjan alussa oleva laatikko).
 
 ---
 

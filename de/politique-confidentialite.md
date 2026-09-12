@@ -1,6 +1,8 @@
 # Datenschutzerklärung von Plume
 
-**Letzte Aktualisierung: 31. Juli 2026** — Version 1.0
+**Letzte Aktualisierung: 12. September 2026** — Version 2.0
+
+> *Was sich seit Version 1.0 geändert hat, und warum Ihnen in der App möglicherweise erneut der Zustimmungsbildschirm angezeigt wird:* Wir korrigieren zwei Aussagen, die nicht mehr zutrafen. Erstens speichert die Funktion **eigene Sprachen** auf unseren Servern den Inhalt, den Sie erstellen (Name, Alphabet, Lexikon) — Version 1.0 behauptete fälschlich, dass kein Text gespeichert werde. Zweitens verwenden wir inzwischen ein Werkzeug für **technische Absturzberichte** (Sentry) — Version 1.0 behauptete, dass kein derartiges Werkzeug existiere. Die Einzelheiten zu diesen beiden Punkten finden Sie weiter unten unter „In einer Minute“ sowie in Abschnitt 3 und Abschnitt 9. Genau diese beiden Kategorien von Änderungen lösen in der App eine neue Zustimmungsanfrage aus (siehe Abschnitt 11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume hilft Ihnen beim Schreiben: Die App schreibt Ihren Text direkt in der Anwe
 
 Drei Dinge, die Sie sich merken sollten:
 
-1. **Plume speichert keinen Ihrer Texte auf seinen Servern.** Weder Ihre umgeschriebenen Texte noch den vom Bildschirm gelesenen Text. Wir bewahren davon weder eine Kopie noch ein Protokoll auf.
+1. **Plume speichert weder die Texte, die Sie umschreiben lassen, noch den auf dem Bildschirm vorgelesenen Text.** Wir bewahren davon weder eine Kopie noch ein Protokoll auf. **Bewusste und gewollte Ausnahme:** Wenn Sie eine **eigene Sprache** erstellen (Ihre eigene konstruierte Sprache mit einem Lexikon aus Wörtern und deren Definitionen), wird der Inhalt dieser Sprache auf unseren Servern gespeichert — nur so können Sie sie auf einem anderen Gerät wiederfinden, weiterentwickeln und teilen. Die Einzelheiten finden Sie in Abschnitt 3.
 2. **Je nachdem, welche Engine Sie wählen, verlässt Ihr Text Ihr Handy oder nicht.** Zwei Engines (das Lokale Kit und die Lokale KI) arbeiten vollständig auf dem Gerät. Die dritte (die Cloud-KI) sendet den Text an einen Dienst für künstliche Intelligenz **außerhalb der Europäischen Union**. Sie entscheiden, und die Cloud-KI wird niemals ohne Ihre ausdrückliche Zustimmung aktiviert.
 3. **Plume benötigt weitreichende Berechtigungen** (Lesen der in anderen Apps angezeigten Inhalte, Aufnahme des Bildschirms). Nachfolgend erklären wir genau, wozu sie dienen und wozu nicht.
 
@@ -91,7 +93,7 @@ Der gesendete Text ist begrenzt: 1.200 Zeichen für eine Umschreibung, 4.000 Zei
 
 ## 3. Die Daten, die wir speichern
 
-Wir verwenden **kein Tool zur Reichweitenmessung, keinen Werbetracker Dritter und kein Tool für Absturzberichte**. Die App enthält kein Mess-SDK.
+Wir verwenden **kein Tool zur Reichweitenmessung und keinen Werbetracker Dritter** außerhalb der in Abschnitt 5 beschriebenen Werbung. **Wir verwenden ein Werkzeug für technische Absturzberichte** (Sentry): Es sieht ausschließlich Programmfehler (Fehlertyp, technischer Aufrufstapel, App-Version, Betriebssystem), niemals Ihre Nutzung oder Ihren Verlauf, und niemals den Text, den Sie schreiben — ein eigener Filter verhindert das vor jeder Übermittlung. Die Einzelheiten finden Sie in Abschnitt 9.
 
 Hier ist alles, was auf unseren Servern gespeichert wird:
 
@@ -104,6 +106,8 @@ Hier ist alles, was auf unseren Servern gespeichert wird:
 | **Freiwillig gesendete Vorschläge** (wenn Sie uns aus der App einen Persona-Vorschlag schicken) | Den Katalog verbessern. Diese Vorschläge werden niemals veröffentlicht. | Bis zur Löschung Ihres Kontos |
 | **Technische Missbrauchssignale** (wiederholte Überschreitungen, fehlgeschlagene Integritätsprüfung — ohne jeglichen Text) | Sicherheit, Betrugsbekämpfung | Werden bei der Löschung des Kontos von Ihrer Identität getrennt |
 | **Sprache und Version der App** | Die richtigen Inhalte ausliefern | Bis zur Löschung Ihres Kontos |
+| **Der Inhalt der eigenen Sprachen, die Sie erstellen** (ihr Name, ihr Alphabet und ihr Lexikon — die Wörter und Definitionen, die Sie oder andere Personen darin geschrieben haben) | Ihnen ermöglichen, Ihre Sprache auf einem anderen Gerät wiederzufinden, sie weiterzuentwickeln und mit anderen Nutzerinnen und Nutzern zu teilen | Solange die Sprache besteht. Wenn Sie sie löschen, verschwindet ihr Eintrag — aber eine Kopie, die bereits **von einer anderen Person importiert wurde**, gehört fortan dieser Person und **bleibt erhalten**, wie eine Nachricht, die ein Dritter bereits empfangen hat und die wir bei ihm nicht löschen können |
+| **Technische Absturzberichte** (Fehlertyp, gekürzter technischer Aufrufstapel, App-Version, Betriebssystem — niemals ein Textinhalt) | Abstürze der App diagnostizieren und beheben | Geregelt durch unseren Dienstleister Sentry (siehe Abschnitt 9). Diese Erhebung unterliegt Ihrer Einwilligung und einem Schalter, den wir jederzeit ohne App-Update deaktivieren können |
 
 **Was wir nicht erheben:** Ihren Namen, Ihre Kontakte, Ihren Standort, Ihr Adressbuch, Ihre Fotos, Ihren Kalender, den Verlauf Ihrer Apps. Plume fordert keine dieser Berechtigungen an.
 
@@ -180,22 +184,25 @@ Da die App das Umschreiben freier Texte erlaubt und Werbung anzeigt, ist sie fü
 | **Google Play / Google Billing** | Zahlung, Abonnements | Google Ireland / Vereinigte Staaten |
 | **Google AdMob** | Werbung mit Belohnung | Google Ireland / Vereinigte Staaten |
 | **Google (Systemdienste des Handys)** | Spracherkennung, Offline-Übersetzungsmodule | Je nach Ihrem Gerät |
+| **Sentry** (Functional Software, Inc.) | Technische Absturzberichte — ausschließlich Programmfehler, vor der Übermittlung gefiltert: niemals Ihr Text | Vereinigte Staaten |
 
 **Wir verkaufen keine Daten und geben keine an Datenhändler weiter.**
 
-**Übermittlungen außerhalb der Europäischen Union:** Die Nutzung von OpenRouter, Google Play und AdMob bedeutet eine Übermittlung von Daten außerhalb der Europäischen Union. Der rechtliche Rahmen dieser Übermittlungen (Standardvertragsklauseln, Angemessenheitsbeschluss) **muss vor der Veröffentlichung von einer fachkundigen Person geprüft und dokumentiert werden** — siehe die Anmerkung am Ende des Dokuments.
+**Übermittlungen außerhalb der Europäischen Union:** Die Nutzung von OpenRouter, Google Play, AdMob und Sentry bedeutet eine Übermittlung von Daten außerhalb der Europäischen Union. Der rechtliche Rahmen dieser Übermittlungen (Standardvertragsklauseln, Angemessenheitsbeschluss) **muss vor der Veröffentlichung von einer fachkundigen Person geprüft und dokumentiert werden** — siehe die Anmerkung am Ende des Dokuments.
 
 ---
 
 ## 10. Sicherheit
 
-Der Austausch zwischen der App und unseren Servern ist verschlüsselt (HTTPS/TLS). Der Zugriff auf die Daten in der Datenbank ist durch serverseitige Regeln beschränkt: Sensible Funktionen sind aus der App heraus nicht erreichbar. Kein System ist vollkommen sicher, aber keiner der von Ihnen umgeschriebenen Texte wird bei uns gespeichert — was schon rein mechanisch begrenzt, was ein Eindringen offenlegen könnte.
+Der Austausch zwischen der App und unseren Servern ist verschlüsselt (HTTPS/TLS). Der Zugriff auf die Daten in der Datenbank ist durch serverseitige Regeln beschränkt: Sensible Funktionen sind aus der App heraus nicht erreichbar. Kein System ist vollkommen sicher. Der Text, den Sie umschreiben lassen, und der von der Assistierten Lesefunktion auf dem Bildschirm angezeigte Text werden bei uns nicht gespeichert, was schon rein mechanisch begrenzt, was ein Eindringen darüber offenlegen könnte. **Das gilt nicht für alles:** Das Lexikon der eigenen Sprachen, die Sie erstellen, wird hingegen gespeichert (siehe Abschnitt 3) und wäre bei einem tatsächlichen Eindringen offengelegt wie jede andere Angabe dieser Datenschutzerklärung — wir schützen es mit denselben serverseitigen Zugriffsregeln wie den Rest.
 
 ---
 
 ## 11. Änderungen
 
 Jede Änderung dieser Datenschutzerklärung wird unter `https://readit0.github.io/plume-legal` mit einem neuen Datum veröffentlicht. Bei einer wesentlichen Änderung des Wegs Ihrer Daten informieren wir Sie in der App.
+
+**Seit Version 2.0 steckt hinter diesem Versprechen ein konkreter Mechanismus.** Eine einfache formale Korrektur (ein Datum, eine Adresse, eine Präzisierung) verlangt von Ihnen nichts weiter. Aber eine WESENTLICHE Änderung — ein neuer Empfänger Ihrer Daten, eine neue Kategorie erhobener Daten, ein neuer Zweck oder eine Änderung Ihrer Rechte oder des Preises — lässt in der App einmalig erneut den Zustimmungsbildschirm erscheinen, mit einer Zusammenfassung der Änderungen und den beiden aktuellen Dokumenten. Genau das ist bei dieser Version 2.0 der Fall (siehe den Kasten am Anfang dieses Dokuments).
 
 ---
 

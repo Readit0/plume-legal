@@ -1,6 +1,8 @@
 # Política de privacidade da Plume
 
-**Última atualização: 31 de julho de 2026** — Versão 1.0
+**Última atualização: 12 de setembro de 2026** — Versão 2.0
+
+> *O que mudou desde a versão 1.0, e porque poderá ver novamente o ecrã de aceitação na aplicação:* corrigimos duas afirmações que já não eram exatas. Em primeiro lugar, a funcionalidade **línguas pessoais** conserva nos nossos servidores o conteúdo que cria (nome, alfabeto, léxico) — a versão 1.0 afirmava, erradamente, que nenhum texto era armazenado. Em seguida, passámos a utilizar uma ferramenta de **relatório de falhas técnicas** (Sentry) — a versão 1.0 afirmava que não existia nenhuma ferramenta deste tipo. O detalhe destes dois pontos encontra-se em «Num minuto» abaixo, bem como nos §3 e §9. São exatamente as duas categorias de alteração que, na aplicação, desencadeiam um novo pedido de acordo (ver §11).
 
 ---
 
@@ -23,7 +25,7 @@ A Plume ajuda-o a escrever: reformula o seu texto diretamente na aplicação ond
 
 Três coisas a reter:
 
-1. **A Plume não conserva nenhum dos seus textos nos seus servidores.** Nem os textos reformulados, nem o texto lido no ecrã. Não guardamos deles nem cópia nem registo.
+1. **A Plume não conserva os textos que reformula, nem o texto lido no ecrã.** Não guardamos deles nem cópia nem registo. **Exceção assumida, e voluntária:** se criar uma **língua pessoal** (a sua própria língua construída, com o seu léxico de palavras e das respetivas definições), o conteúdo dessa língua **é**, esse sim, conservado nos nossos servidores — é a única forma de lhe permitir voltar a encontrá-la noutro dispositivo, de a fazer evoluir e de a partilhar. O detalhe está no §3.
 2. **Consoante o motor que escolher, o seu texto sai ou não sai do seu telemóvel.** Dois motores (o Kit local e a IA local) trabalham inteiramente no dispositivo. O terceiro (a IA na nuvem) envia o texto para um serviço de inteligência artificial **situado fora da União Europeia**. A escolha é sua, e a IA na nuvem nunca se ativa sem o seu consentimento explícito.
 3. **A Plume precisa de autorizações poderosas** (ler o conteúdo apresentado nas outras aplicações, capturar o ecrã). Explicamos abaixo, com precisão, para que servem e para que não servem.
 
@@ -91,7 +93,7 @@ O texto enviado tem um limite máximo: 1200 caracteres para uma reformulação, 
 
 ## 3. Os dados que conservamos
 
-Não utilizamos **qualquer ferramenta de análise de audiência, qualquer rastreador publicitário de terceiros, qualquer ferramenta de relatório de falhas**. A aplicação não contém qualquer SDK de medição.
+Não utilizamos **qualquer ferramenta de análise de audiência nem qualquer rastreador publicitário de terceiros**, à exceção da publicidade descrita no §5. **Utilizamos uma ferramenta de relatório de falhas técnicas** (Sentry): esta só vê erros de programa (tipo de erro, pilha de chamadas técnica, versão da aplicação, sistema operativo), nunca a sua utilização nem o seu percurso, e nunca o texto que escreve — um filtro dedicado impede-o de o ver antes de qualquer envio. O detalhe está no §9.
 
 Eis a totalidade do que é armazenado nos nossos servidores:
 
@@ -104,6 +106,8 @@ Eis a totalidade do que é armazenado nos nossos servidores:
 | **Sugestões enviadas voluntariamente** (se nos escrever uma sugestão de persona a partir da aplicação) | Melhorar o catálogo. Estas sugestões nunca são publicadas. | Até à eliminação da sua conta |
 | **Sinais técnicos de abuso** (excessos repetidos, falha do controlo de integridade — sem qualquer texto) | Segurança, luta contra a fraude | Desligados da sua identidade aquando da eliminação da conta |
 | **Idioma e versão da aplicação** | Servir o conteúdo correto | Até à eliminação da sua conta |
+| **O conteúdo das línguas pessoais que cria** (o seu nome, o seu alfabeto, e o seu léxico — as palavras e as definições que o utilizador, ou outras pessoas, aí escreveram) | Permitir-lhe voltar a encontrar a sua língua noutro dispositivo, fazê-la evoluir, e partilhá-la com outros utilizadores | Enquanto a língua existir. Se a eliminar, a sua ficha desaparece — mas uma cópia já **importada por outra pessoa** passa a pertencer-lhe e **sobrevive**, tal como uma mensagem já recebida por um terceiro que não podemos ir apagar do lado dele |
+| **Relatórios de falhas técnicas** (tipo de erro, pilha de chamadas técnica truncada, versão da aplicação, sistema operativo — nunca um conteúdo de texto) | Diagnosticar e corrigir as falhas da aplicação | Regida pelo nosso prestador Sentry (ver §9). Esta recolha está sujeita ao seu consentimento e a um interruptor que podemos desligar a qualquer momento, sem atualização da aplicação |
 
 **O que não recolhemos:** o seu nome, os seus contactos, a sua localização, a sua lista de contactos, as suas fotografias, o seu calendário, o histórico das suas aplicações. A Plume não pede nenhuma destas autorizações.
 
@@ -180,22 +184,25 @@ Uma vez que a aplicação permite reformular texto livre e apresenta publicidade
 | **Google Play / Google Billing** | Pagamento, subscrições | Google Ireland / Estados Unidos |
 | **Google AdMob** | Publicidade com recompensa | Google Ireland / Estados Unidos |
 | **Google (serviços de sistema do telemóvel)** | Reconhecimento de voz, módulos de tradução offline | Consoante o seu dispositivo |
+| **Sentry** (Functional Software, Inc.) | Relatório de falhas técnicas — apenas erros do programa, filtrados antes do envio: nunca o seu texto | Estados Unidos |
 
 **Não vendemos quaisquer dados nem os cedemos a corretores de dados.**
 
-**Transferências para fora da União Europeia:** o recurso ao OpenRouter, ao Google Play e à AdMob implica uma transferência de dados para fora da União Europeia. O enquadramento jurídico destas transferências (cláusulas contratuais-tipo, decisão de adequação) **tem de ser verificado e documentado por um profissional antes da publicação** — ver a nota no final do documento.
+**Transferências para fora da União Europeia:** o recurso ao OpenRouter, ao Google Play, à AdMob e à Sentry implica uma transferência de dados para fora da União Europeia. O enquadramento jurídico destas transferências (cláusulas contratuais-tipo, decisão de adequação) **tem de ser verificado e documentado por um profissional antes da publicação** — ver a nota no final do documento.
 
 ---
 
 ## 10. Segurança
 
-As trocas entre a aplicação e os nossos servidores são cifradas (HTTPS/TLS). O acesso aos dados na base é restringido por regras do servidor: as funções sensíveis não são acessíveis a partir da aplicação. Nenhum sistema é perfeitamente seguro, mas nenhum texto que reformula fica armazenado connosco — o que limita mecanicamente aquilo que uma intrusão poderia revelar.
+As trocas entre a aplicação e os nossos servidores são cifradas (HTTPS/TLS). O acesso aos dados na base é restringido por regras do servidor: as funções sensíveis não são acessíveis a partir da aplicação. Nenhum sistema é perfeitamente seguro. O texto que reformula e o que a Leitura Assistida apresenta no ecrã não ficam armazenados connosco, o que limita mecanicamente aquilo que uma intrusão poderia revelar a esse respeito. **Isto não é verdade para tudo:** o léxico das línguas pessoais que cria, esse sim, **é** armazenado (ver §3), e ficaria exposto como qualquer outro dado desta política em caso de intrusão real — protegemo-lo com as mesmas regras de acesso do servidor que o resto.
 
 ---
 
 ## 11. Alterações
 
 Qualquer alteração desta política será publicada no endereço `https://readit0.github.io/plume-legal` com uma nova data. Em caso de alteração importante na circulação dos seus dados, informá-lo-emos na aplicação.
+
+**Desde a versão 2.0, esta promessa tem um mecanismo concreto por trás dela.** Uma simples correção de forma (uma data, um endereço, uma precisão) não lhe exige mais nada. Mas uma alteração MATERIAL — um novo destinatário dos seus dados, uma nova categoria de dados recolhidos, uma nova finalidade, ou uma alteração dos seus direitos ou do preço — faz reaparecer, uma vez, o ecrã de aceitação na aplicação, com um resumo do que muda e os dois documentos atualizados. Foi exatamente isso que aconteceu com esta versão 2.0 (ver a nota no início deste documento).
 
 ---
 

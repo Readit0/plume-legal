@@ -1,6 +1,8 @@
 # Plume Privacy Policy
 
-**Last updated: 31 July 2026** — Version 1.0
+**Last updated: 12 September 2026** — Version 2.0
+
+> *What has changed since version 1.0, and why you might see the acceptance screen again in the app:* we are correcting two statements that were no longer accurate. First, the **custom languages** feature stores on our servers the content you create (name, alphabet, lexicon) — version 1.0 incorrectly stated that no text was stored. Second, we now use a **technical crash reporting** tool (Sentry) — version 1.0 stated that no such tool existed. The details of both points are under "In one minute" below, as well as in §3 and §9. These are exactly the two categories of change that, within the app, trigger a new consent request (see §11).
 
 ---
 
@@ -23,7 +25,7 @@ Plume helps you write: it rewrites your text directly in the application where y
 
 Three things to remember:
 
-1. **Plume keeps none of your texts on its servers.** Neither the texts you have rewritten, nor the text read from your screen. We keep no copy and no log of them.
+1. **Plume keeps neither the texts you rewrite, nor the text read from your screen.** We keep no copy and no log of them. **A deliberate, acknowledged exception:** if you create a **custom language** (your own constructed language, with its lexicon of words and their definitions), the content of that language **is** kept on our servers — it is the only way to let you find it again on another device, develop it, and share it. Details are in §3.
 2. **Depending on the engine you choose, your text either leaves your phone or does not.** Two engines (the Local Kit and the On-device AI) work entirely on the device. The third (the Cloud AI) sends the text to an artificial intelligence service **located outside the European Union**. You choose, and the Cloud AI is never activated without your explicit agreement.
 3. **Plume needs powerful permissions** (reading the content displayed in other applications, capturing the screen). Below we explain precisely what they are used for and what they are not used for.
 
@@ -91,7 +93,7 @@ The text sent is capped: 1,200 characters for a rewrite, 4,000 characters for a 
 
 ## 3. The data we keep
 
-We use **no audience analytics tool, no third-party advertising tracker and no crash reporting tool**. The application contains no measurement SDK.
+We use **no audience analytics tool and no third-party advertising tracker**, other than the advertising described in §5. **We use a technical crash reporting tool** (Sentry): it sees only program errors (error type, technical call stack, app version, operating system), never your usage or your journey, and never the text you write — a dedicated filter forbids this before anything is sent. Details are in §9.
 
 Here is everything that is stored on our servers:
 
@@ -104,6 +106,8 @@ Here is everything that is stored on our servers:
 | **Suggestions sent voluntarily** (if you send us a persona suggestion from the application) | Improve the catalogue. These suggestions are never published. | Until your account is deleted |
 | **Technical abuse signals** (repeated overruns, integrity check failures — without any text) | Security, fraud prevention | Detached from your identity when the account is deleted |
 | **Language and application version** | Serve the right content | Until your account is deleted |
+| **The content of the custom languages you create** (its name, its alphabet, and its lexicon — the words and definitions that you, or other people, have written in it) | Let you find your language again on another device, develop it, and share it with other users | For as long as the language exists. If you delete it, its record disappears — but a copy already **imported by someone else** now belongs to them and **survives**, like a message already received by a third party that we cannot go and erase on their end |
+| **Technical crash reports** (error type, truncated technical call stack, app version, operating system — never any text content) | Diagnose and fix application crashes | Governed by our provider Sentry (see §9). This collection is subject to your consent and to a switch that we can turn off at any time, without an app update |
 
 **What we do not collect:** your name, your contacts, your location, your address book, your photos, your calendar, your application history. Plume requests none of these permissions.
 
@@ -180,22 +184,25 @@ As the application allows free text to be rewritten and displays advertising, it
 | **Google Play / Google Billing** | Payment, subscriptions | Google Ireland / United States |
 | **Google AdMob** | Rewarded advertising | Google Ireland / United States |
 | **Google (phone system services)** | Speech recognition, offline translation modules | Depending on your device |
+| **Sentry** (Functional Software, Inc.) | Technical crash reporting — only program errors, filtered before sending: never your text | United States |
 
 **We sell no data and transfer none to data brokers.**
 
-**Transfers outside the European Union:** the use of OpenRouter, Google Play and AdMob involves a transfer of data outside the European Union.
+**Transfers outside the European Union:** the use of OpenRouter, Google Play, AdMob and Sentry involves a transfer of data outside the European Union.
 
 ---
 
 ## 10. Security
 
-Exchanges between the application and our servers are encrypted (HTTPS/TLS). Access to the data in the database is restricted by server-side rules: sensitive functions are not accessible from the application. No system is perfectly secure, but none of the text you rewrite is stored with us — which mechanically limits what an intrusion could reveal.
+Exchanges between the application and our servers are encrypted (HTTPS/TLS). Access to the data in the database is restricted by server-side rules: sensitive functions are not accessible from the application. No system is perfectly secure. The text you rewrite and the text that Assisted Reading displays on screen are not stored with us, which mechanically limits what an intrusion could reveal about them. **This is not true of everything:** the lexicon of the custom languages you create **is** stored (see §3), and would be exposed like any other data in this policy in the event of a real intrusion — we protect it with the same server-side access rules as everything else.
 
 ---
 
 ## 11. Changes
 
 Any change to this policy will be published at `https://readit0.github.io/plume-legal` with a new date. If there is a significant change in how your data circulates, we will inform you within the application.
+
+**Since version 2.0, this promise has a concrete mechanism behind it.** A simple formatting correction (a date, an address, a clarification) requires nothing further from you. But a MATERIAL change — a new recipient of your data, a new category of data collected, a new purpose, or a change to your rights or to the price — brings back, once, the acceptance screen within the application, with a summary of what is changing and the two up-to-date documents. This is exactly what happened for this version 2.0 (see the box at the top of this document).
 
 ---
 

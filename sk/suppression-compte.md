@@ -1,6 +1,6 @@
 # Vymazanie vášho účtu a vašich údajov — Plume
 
-**Posledná aktualizácia: 31. júla 2026** — Verzia 1.0
+**Posledná aktualizácia: 12. septembra 2026** — Verzia 2.0
 
 Dotknutá aplikácia: **Plume** (`com.plume.plume`), vydávaná spoločnosťou **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — zverejnená v Google Play pod menom **openfunworld**.
 
@@ -36,11 +36,12 @@ Vymazanie **natrvalo** odstráni:
 - **vaše návrhy** — podnety, ktoré ste nám prípadne z aplikácie zaslali. Ide o jediný voľný text, ktorý sme uchovávali;
 - **vaše identifikátory požiadaviek** — technické odkazy na vyžiadané preformulovania;
 - **vaše kredity a odomknutia limitu** — zakúpené a nespotrebované kredity, odomknutia získané za reklamu, upravené stropy;
-- **väzbu vašich zariadení na váš účet** — vaše ostatné telefóny či tablety sú odpojené a stávajú sa opäť jednoduchými anonymnými zariadeniami.
+- **väzbu vašich zariadení na váš účet** — vaše ostatné telefóny či tablety sú odpojené a stávajú sa opäť jednoduchými anonymnými zariadeniami;
+- **vlastné jazyky, ktoré ste vytvorili** — ich názov, ich abecedu, ich slovník, vaše zdieľacie tokeny a vašu históriu importov. **Čo toto vymazanie nedokáže:** ak si niekto iný už importoval kópiu vášho jazyka, táto kópia mu odvtedy patrí a **pretrváva** aj po vašom vymazaní — podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme z jej strany vymazať.
 
 Zariadenie, z ktorého o vymazanie žiadate, je **neutralizované**: jeho väzba na váš účet je vymazaná, jeho identifikačný kľúč je zničený a nahradený mŕtvou hodnotou, jeho jazyk a verzia aplikácie sú vymazané. Zostáva iba nepriehľadné číslo, ktoré už neumožňuje ani vás identifikovať, ani zariadenie dohľadať.
 
-**Vaše texty sme nikdy neukladali.** Ani texty, ktoré ste preformulovali, ani text prečítaný z obrazovky Asistovaným čítaním: neboli nikde na našich serveroch uchovávané, nie je teda čo vymazávať.
+**Nikdy sme neukladali texty, ktoré ste preformulovali, ani text prečítaný z obrazovky Asistovaným čítaním**: neboli nikde na našich serveroch uchovávané, nie je teda čo vymazávať. **To neplatí o slovníku vlastného jazyka, ktorý ste si prípadne vytvorili:** jeho obsah (názov, abeceda, slová a definície) sa na našich serveroch skutočne uchováva — vymazaním vášho účtu sa vymaže aj on, rovnako ako všetko ostatné, čo vám patrí (pozri nižšie).
 
 **Vo vašom telefóne** sú vaše persony, vaši avatari, vaše nastavenia a vaše pravidlá pre jednotlivé aplikácie uložené lokálne. Vymazaním z aplikácie sú odstránené a v každom prípade **zmiznú, keď Plume odinštalujete**.
 

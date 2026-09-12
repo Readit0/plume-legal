@@ -1,6 +1,6 @@
 # Izbris vašega računa in vaših podatkov — Plume
 
-**Zadnja posodobitev: 31. julij 2026** — Različica 1.0
+**Zadnja posodobitev: 12. september 2026** — Različica 2.0
 
 Zadevna aplikacija: **Plume** (`com.plume.plume`), ki jo izdaja **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — objavljena v Google Play pod imenom **openfunworld**.
 
@@ -36,11 +36,12 @@ Izbris **dokončno** odstrani:
 - **vaše predloge** — predloge, ki ste nam jih poslali iz aplikacije. To je edino prosto besedilo, ki smo ga hranili;
 - **vaše identifikatorje zahtev** — tehnične reference zahtevanih preoblikovanj;
 - **vaše dobropise in odklepe kvote** — kupljene neporabljene dobropise, odklepe, pridobljene z oglasom, prilagojene zgornje meje;
-- **povezanost vaših naprav z vašim računom** — vaši drugi telefoni ali tablice se odvežejo in spet postanejo navadne anonimne naprave.
+- **povezanost vaših naprav z vašim računom** — vaši drugi telefoni ali tablice se odvežejo in spet postanejo navadne anonimne naprave;
+- **osebni jeziki, ki ste jih ustvarili** — njihovo ime, abeceda, besednjak, vaši žetoni za deljenje in vaša zgodovina uvozov. **Česa ta izbris ne more storiti:** če je nekdo drug že uvozil kopijo vašega jezika k sebi, ta kopija odslej pripada njemu in **preživi** vaš izbris — kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati.
 
 Naprava, s katere zahtevate izbris, se **nevtralizira**: njena povezanost z vašim računom se izbriše, njen identifikacijski ključ se uniči in nadomesti z mrtvo vrednostjo, njen jezik in različica aplikacije se izbrišeta. Ostane le neprozorna številka, ki ne omogoča več niti vaše identifikacije niti najdbe naprave.
 
-**Vaših besedil nismo nikoli hranili.** Ne besedil, ki ste jih preoblikovali, ne besedila, ki ga je Asistirano branje prebralo z zaslona: nikjer na naših strežnikih se niso hranila, zato od njih ni ničesar za izbrisati.
+**Nikoli nismo hranili besedil, ki ste jih preoblikovali, niti besedila, ki ga je Asistirano branje prebralo z zaslona:** nikjer na naših strežnikih se ne hranijo, zato od njih ni ničesar za izbrisati. **To ne velja za besednjak morebitnega osebnega jezika, ki ste ga ustvarili:** njegova vsebina (ime, abeceda, besede in pomeni) je res shranjena na naših strežnikih — izbris vašega računa jo izbriše, tako kot vse ostalo, kar vam pripada (glejte spodaj).
 
 **Na vašem telefonu** so vaše persone, vaši avatarji, vaše nastavitve in vaša pravila po aplikaciji shranjeni lokalno. Izbriše jih izbris, sprožen iz aplikacije, v vsakem primeru pa **izginejo, ko odstranite Plume**.
 

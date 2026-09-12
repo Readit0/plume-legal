@@ -1,6 +1,16 @@
 # Pravila o privatnosti aplikacije Plume
 
-**Posljednje ažuriranje: 31. srpnja 2026.** — Verzija 1.0
+**Posljednje ažuriranje: 12. rujna 2026.** — Verzija 2.0
+
+> *Što se promijenilo od verzije 1.0 i zašto je moguće da ponovno vidite zaslon
+> za prihvaćanje u aplikaciji:* ispravljamo dvije tvrdnje koje više nisu bile točne.
+> Prvo, značajka **osobni jezici** čuva na našim poslužiteljima sadržaj koji stvorite
+> (naziv, pismo, rječnik) — verzija 1.0 pogrešno je tvrdila da se nikakav tekst ne
+> pohranjuje. Drugo, sada koristimo alat za **tehničko prijavljivanje rušenja**
+> (Sentry) — verzija 1.0 tvrdila je da takav alat ne postoji. Pojedinosti o te dvije
+> točke nalaze se u odjeljku „U jednoj minuti“ u nastavku, kao i u §3 i §9. To su
+> upravo dvije kategorije promjena koje u aplikaciji izazivaju novi zahtjev za
+> privolu (vidjeti §11).
 
 ---
 
@@ -23,7 +33,7 @@ Plume vam pomaže pisati: preoblikuje vaš tekst izravno u aplikaciji u kojoj up
 
 Tri stvari koje treba zapamtiti:
 
-1. **Plume ne pohranjuje nijedan vaš tekst na svojim poslužiteljima.** Ni vaše preoblikovane tekstove ni tekst pročitan sa zaslona. Ne čuvamo ni kopiju ni zapisnik.
+1. **Plume ne pohranjuje ni tekstove koje preoblikujete ni tekst pročitan sa zaslona.** Ne čuvamo ni kopiju ni zapisnik. **Prihvaćena i namjerna iznimka:** ako stvorite **osobni jezik** (vlastiti izmišljeni jezik, s rječnikom riječi i njihovih značenja), sadržaj tog jezika **se**, naprotiv, čuva na našim poslužiteljima — to je jedini način da vam omogućimo da ga pronađete na drugom uređaju, da ga razvijate i da ga dijelite. Pojedinosti su u §3.
 2. **Ovisno o pogonu koji odaberete, vaš tekst napušta ili ne napušta vaš telefon.** Dva pogona (Lokalni komplet i Lokalna umjetna inteligencija) rade u cijelosti na uređaju. Treći (Umjetna inteligencija u oblaku) šalje tekst usluzi umjetne inteligencije **smještenoj izvan Europske unije**. Vi birate, a Umjetna inteligencija u oblaku nikada se ne aktivira bez vaše izričite privole.
 3. **Plumeu su potrebna snažna dopuštenja** (čitanje sadržaja prikazanog u drugim aplikacijama, snimanje zaslona). U nastavku objašnjavamo točno čemu služe i čemu ne služe.
 
@@ -91,7 +101,7 @@ Poslani tekst je ograničen: 1.200 znakova za preoblikovanje i 4.000 znakova za 
 
 ## 3. Podaci koje pohranjujemo
 
-Ne upotrebljavamo **nijedan alat za analitiku posjećenosti, nijedan oglašivački pratitelj treće strane, nijedan alat za prijavu rušenja**. Aplikacija ne sadrži SDK za mjerenje.
+Ne upotrebljavamo **nijedan alat za analitiku posjećenosti ni ikakav oglašivački pratitelj treće strane** izvan oglašavanja opisanog u §5. **Upotrebljavamo alat za tehničko prijavljivanje rušenja** (Sentry): on vidi samo programske pogreške (vrstu pogreške, tehnički poziv, verziju aplikacije, operacijski sustav), nikada vaše korištenje ni vaš put kroz aplikaciju, i nikada tekst koji pišete — poseban filtar to sprječava prije svakog slanja. Pojedinosti su u §9.
 
 Evo svega što se pohranjuje na našim poslužiteljima:
 
@@ -104,6 +114,8 @@ Evo svega što se pohranjuje na našim poslužiteljima:
 | **Dobrovoljno poslani prijedlozi** (ako nam iz aplikacije pošaljete prijedlog persone) | Poboljšanje kataloga. Ti se prijedlozi nikada ne objavljuju. | Do brisanja vašeg računa |
 | **Tehnički signali zlouporabe** (ponovljena prekoračenja, neuspjela provjera cjelovitosti — bez ikakvog teksta) | Sigurnost, borba protiv prijevara | Odvajaju se od vašeg identiteta pri brisanju računa |
 | **Jezik i verzija aplikacije** | Isporuka ispravnog sadržaja | Do brisanja vašeg računa |
+| **Sadržaj osobnih jezika koje stvorite** (njegov naziv, njegovo pismo i njegov rječnik — riječi i značenja koje ste vi, ili druge osobe, u njega upisali) | Omogućiti vam da svoj jezik pronađete na drugom uređaju, da ga razvijate i da ga dijelite s drugim korisnicima | Dok jezik postoji. Ako ga izbrišete, njegov zapis nestaje — ali kopija koju je već **uvezla druga osoba** od tada pripada njoj i **opstaje**, poput poruke koju je treća strana već primila, a koju ne možemo izbrisati kod nje |
+| **Tehnička izvješća o rušenju** (vrsta pogreške, skraćeni tehnički poziv, verzija aplikacije, operacijski sustav — nikada tekstualni sadržaj) | Dijagnosticiranje i ispravljanje rušenja aplikacije | Njima upravlja naš pružatelj usluge Sentry (vidjeti §9). To prikupljanje podliježe vašoj privoli i prekidaču koji možemo isključiti u bilo kojem trenutku, bez ažuriranja aplikacije |
 
 **Što ne prikupljamo:** vaše ime, vaše kontakte, vašu lokaciju, vaš adresar, vaše fotografije, vaš kalendar, povijest vaših aplikacija. Plume ne traži nijedno od tih dopuštenja.
 
@@ -180,22 +192,25 @@ Budući da aplikacija omogućuje preoblikovanje slobodnog teksta i prikazuje ogl
 | **Google Play / Google Billing** | Plaćanje, pretplate | Google Ireland / Sjedinjene Američke Države |
 | **Google AdMob** | Nagrađivano oglašavanje | Google Ireland / Sjedinjene Američke Države |
 | **Google (sustavne usluge telefona)** | Prepoznavanje govora, moduli za izvanmrežno prevođenje | Ovisno o vašem uređaju |
+| **Sentry** (Functional Software, Inc.) | Tehničko prijavljivanje rušenja — samo pogreške programa, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
 
 **Ne prodajemo nikakve podatke niti ih ustupamo posrednicima u trgovini podacima.**
 
-**Prijenosi izvan Europske unije:** korištenje OpenRoutera, Google Playa i AdMoba podrazumijeva prijenos podataka izvan Europske unije. Pravni okvir tih prijenosa (standardne ugovorne klauzule, odluka o primjerenosti) **mora prije objave provjeriti i dokumentirati stručnjak** — vidjeti napomenu na kraju dokumenta.
+**Prijenosi izvan Europske unije:** korištenje OpenRoutera, Google Playa, AdMoba i Sentryja podrazumijeva prijenos podataka izvan Europske unije. Pravni okvir tih prijenosa (standardne ugovorne klauzule, odluka o primjerenosti) **mora prije objave provjeriti i dokumentirati stručnjak** — vidjeti napomenu na kraju dokumenta.
 
 ---
 
 ## 10. Sigurnost
 
-Razmjena između aplikacije i naših poslužitelja je šifrirana (HTTPS/TLS). Pristup podacima u bazi ograničen je poslužiteljskim pravilima: osjetljive funkcije nisu dostupne iz aplikacije. Nijedan sustav nije savršeno siguran, ali nijedan tekst koji preoblikujete ne pohranjuje se kod nas — što mehanički ograničava ono što bi upad mogao otkriti.
+Razmjena između aplikacije i naših poslužitelja je šifrirana (HTTPS/TLS). Pristup podacima u bazi ograničen je poslužiteljskim pravilima: osjetljive funkcije nisu dostupne iz aplikacije. Nijedan sustav nije savršeno siguran. Tekst koji preoblikujete i onaj koji Potpomognuto čitanje prikazuje na zaslonu ne pohranjuju se kod nas, što mehanički ograničava ono što bi upad mogao o njima otkriti. **To ne vrijedi za sve:** rječnik osobnih jezika koje stvorite, naprotiv, **se** pohranjuje (vidjeti §3) i bio bi izložen poput bilo kojeg drugog podatka iz ovih pravila u slučaju stvarnog upada — štitimo ga istim poslužiteljskim pravilima pristupa kao i ostatak.
 
 ---
 
 ## 11. Izmjene
 
 Svaka izmjena ovih pravila bit će objavljena na adresi `https://readit0.github.io/plume-legal` s novim datumom. U slučaju važne promjene u kretanju vaših podataka, obavijestit ćemo vas o tome u aplikaciji.
+
+**Od verzije 2.0 to obećanje ima konkretan mehanizam iza sebe.** Jednostavan formalni ispravak (datum, adresa, pojašnjenje) od vas ne traži ništa dodatno. No BITNA promjena — novi primatelj vaših podataka, nova kategorija prikupljenih podataka, nova svrha ili promjena vaših prava ili cijene — jednom ponovno prikazuje zaslon za prihvaćanje u aplikaciji, sa sažetkom onoga što se mijenja i s oba ažurirana dokumenta. Upravo se to dogodilo s ovom verzijom 2.0 (vidjeti okvir na početku ovog dokumenta).
 
 ---
 
