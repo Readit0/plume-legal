@@ -2,7 +2,7 @@
 
 **Paskutinį kartą atnaujinta: 2026 m. rugsėjo 12 d.** — Versija 2.0
 
-> *Kas pasikeitė nuo versijos 1.0 ir kodėl programėlėje galite vėl pamatyti sutikimo ekraną:* taisome du teiginius, kurie nebebuvo tikslūs. Pirma, funkcija **individualios kalbos** saugo mūsų serveriuose jūsų sukurtą turinį (pavadinimą, abėcėlę, žodyną) — versijoje 1.0 buvo klaidingai teigiama, kad joks tekstas nesaugomas. Antra, dabar naudojame **techninių strigčių ataskaitų** įrankį (Sentry) — versijoje 1.0 buvo teigiama, kad tokio įrankio nėra. Šių dviejų punktų detalės pateiktos skyriuje „Per vieną minutę" toliau, taip pat 3 ir 9 skyriuose. Būtent šios dvi pakeitimų kategorijos programėlėje sukelia naują sutikimo prašymą (žr. 11 skyrių).
+> *Kas pasikeitė nuo versijos 1.0 ir kodėl programėlėje galite vėl pamatyti sutikimo ekraną:* taisome du teiginius, kurie nebebuvo tikslūs. Pirma, funkcija **individualios kalbos** saugo mūsų serveriuose jūsų sukurtą turinį (pavadinimą, abėcėlę, žodyną) — versijoje 1.0 buvo klaidingai teigiama, kad joks tekstas nesaugomas. Antra, dabar naudojame **techninių strigčių ataskaitų** įrankį — versijoje 1.0 buvo teigiama, kad tokio įrankio nėra. Šių dviejų punktų detalės pateiktos skyriuje „Per vieną minutę" toliau, taip pat 3 ir 9 skyriuose. Būtent šios dvi pakeitimų kategorijos programėlėje sukelia naują sutikimo prašymą (žr. 11 skyrių).
 
 ---
 
@@ -79,8 +79,8 @@ Kai pasirenkate debesų DI arba kai jūsų įrenginys nėra pakankamai galingas 
 
 **Reikia aiškiai pasakyti, koks yra tikrasis kelias:**
 
-- Tekstas eina per mūsų infrastruktūrą (Supabase), talpinamą **Europos Sąjungoje** (Vidurio Europos regionas, Frankfurtas).
-- Paskui jis perduodamas paslaugai **openrouter.ai**, maršruto parinkimo tarpininkui, kuris **yra už Europos Sąjungos ribų** ir kuris leidžia tekstą apdoroti modeliui **Mistral Small**.
+- Tekstas eina per mūsų serverių infrastruktūrą, talpinamą **Europos Sąjungoje** (Vidurio Europos regionas, Frankfurtas).
+- Paskui jis perduodamas maršruto parinkimo tarpininkui, kuris **yra už Europos Sąjungos ribų** ir kuris leidžia tekstą apdoroti trečiosios šalies dirbtinio intelekto modeliui.
 - **Taigi tai yra duomenų perdavimas už Europos Sąjungos ribų.** Neteigiame priešingai ir neskelbiame jokio pažado dėl talpinimo Europoje šiame etape.
 - **Plume nesaugo jūsų teksto.** Nė viena mūsų serverio funkcija neįrašo jūsų teksto turinio: registruojame tik techninį užklausos identifikatorių ir jūsų įrenginio identifikatorių, kad suskaičiuotume jūsų kvotą ir aptiktume piktnaudžiavimą.
 - **Ko šie paslaugų teikėjai imasi savo pusėje, mes negalime garantuoti.** Verčiau jums tai pasakome, negu žadame nulinį saugojimą, kurio nesame pajėgūs patikrinti.
@@ -93,7 +93,7 @@ Siunčiamas tekstas yra ribojamas: 1 200 simbolių performulavimui, 4 000 simbol
 
 ## 3. Duomenys, kuriuos saugome
 
-Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies reklamos sekiklio**, išskyrus 5 skyriuje aprašytą reklamą. **Naudojame techninių strigčių ataskaitų įrankį** (Sentry): jis mato tik programos klaidas (klaidos tipą, techninį iškvietimų dėklą, programėlės versiją, operacinę sistemą), niekada jūsų naudojimosi būdo ar veiksmų sekos, ir niekada jūsų rašomo teksto — tam skirtas filtras tai draudžia prieš bet kokį siuntimą. Išsamiau — 9 skyriuje.
+Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies reklamos sekiklio**, išskyrus 5 skyriuje aprašytą reklamą. **Naudojame techninių strigčių ataskaitų įrankį**: jis mato tik programos klaidas (klaidos tipą, techninį iškvietimų dėklą, programėlės versiją, operacinę sistemą), niekada jūsų naudojimosi būdo ar veiksmų sekos, ir niekada jūsų rašomo teksto — tam skirtas filtras tai draudžia prieš bet kokį siuntimą. Išsamiau — 9 skyriuje.
 
 Štai viskas, kas saugoma mūsų serveriuose:
 
@@ -107,7 +107,7 @@ Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies 
 | **Techniniai piktnaudžiavimo signalai** (pakartotiniai viršijimai, vientisumo patikros nesėkmė — be jokio teksto) | Saugumas, kova su sukčiavimu | Ištrynus paskyrą atsiejami nuo jūsų tapatybės |
 | **Programėlės kalba ir versija** | Pateikti tinkamą turinį | Iki jūsų paskyros ištrynimo |
 | **Jūsų kuriamų individualių kalbų turinys** (jos pavadinimas, abėcėlė ir žodynas — žodžiai ir apibrėžimai, kuriuos jūs arba kiti asmenys į ją įrašė) | Leisti jums rasti savo kalbą kitame įrenginyje, ją plėtoti ir dalytis ja su kitais naudotojais | Kol kalba egzistuoja. Jei ją ištrinate, jos kortelė išnyksta — tačiau jau **kito asmens importuota** kopija tampa jo nuosavybe ir **išlieka**, kaip jau trečiosios šalies gautas pranešimas, kurio negalime nueiti ištrinti pas jį |
-| **Techninės strigčių ataskaitos** (klaidos tipas, sutrumpintas techninis iškvietimų dėklas, programėlės versija, operacinė sistema — niekada teksto turinys) | Diagnozuoti ir taisyti programėlės strigtis | Reguliuoja mūsų paslaugų teikėjas Sentry (žr. 9 skyrių). Šis rinkimas priklauso nuo jūsų sutikimo ir jungiklio, kurį galime bet kada išjungti, be programėlės atnaujinimo |
+| **Techninės strigčių ataskaitos** (klaidos tipas, sutrumpintas techninis iškvietimų dėklas, programėlės versija, operacinė sistema — niekada teksto turinys) | Diagnozuoti ir taisyti programėlės strigtis | Reguliuoja mūsų strigčių ataskaitų paslaugų teikėjas (žr. 9 skyrių). Šis rinkimas priklauso nuo jūsų sutikimo ir jungiklio, kurį galime bet kada išjungti, be programėlės atnaujinimo |
 
 **Ko nerenkame:** jūsų vardo, jūsų kontaktų, jūsų buvimo vietos, jūsų adresų knygos, jūsų nuotraukų, jūsų kalendoriaus, jūsų programėlių istorijos. Plume neprašo nė vieno iš šių leidimų.
 
@@ -178,17 +178,16 @@ Kadangi programėlė leidžia performuluoti laisvą tekstą ir rodo reklamą, ji
 
 | Paslaugų teikėjas | Vaidmuo | Kur |
 |---|---|---|
-| **Supabase** | Duomenų bazės talpinimas, autentifikavimas, serverio funkcijos | Europos Sąjunga (Frankfurtas) |
-| **OpenRouter** | Užklausų nukreipimas į DI modelį | **Už Europos Sąjungos ribų** |
-| **Mistral AI** (per OpenRouter) | Modelis, kuris tvarko tekstą (Mistral Small) | Tvarkymas per pirmiau nurodytą tarpininką |
+| **Mūsų talpinimo paslaugų teikėjas** | Duomenų bazės talpinimas, autentifikavimas, serverio funkcijos | Europos Sąjunga (Frankfurtas) |
+| **Mūsų DI apdorojimo paslaugų teikėjas** | Užklausų nukreipimas ir teksto apdorojimas trečiosios šalies dirbtinio intelekto modeliu | **Už Europos Sąjungos ribų** |
 | **Google Play / Google Billing** | Mokėjimai, prenumeratos | Google Ireland / Jungtinės Amerikos Valstijos |
 | **Google AdMob** | Apdovanojamoji reklama | Google Ireland / Jungtinės Amerikos Valstijos |
 | **Google (telefono sistemos paslaugos)** | Kalbos atpažinimas, vertimo neprisijungus moduliai | Priklausomai nuo jūsų įrenginio |
-| **Sentry** (Functional Software, Inc.) | Techninių strigčių ataskaitos — tik programos klaidos, filtruojamos prieš siuntimą: niekada jūsų tekstas | Jungtinės Amerikos Valstijos |
+| **Mūsų strigčių ataskaitų paslaugų teikėjas** | Techninių strigčių ataskaitos — tik programos klaidos, filtruojamos prieš siuntimą: niekada jūsų tekstas | Jungtinės Amerikos Valstijos |
 
 **Mes neparduodame jokių duomenų ir neperleidžiame jų duomenų brokeriams.**
 
-**Perdavimas už Europos Sąjungos ribų:** naudojantis OpenRouter, Google Play, AdMob ir Sentry, duomenys perduodami už Europos Sąjungos ribų. Šių perdavimų teisinį pagrindą (standartines sutarčių sąlygas, sprendimą dėl tinkamumo) **prieš paskelbiant turi patikrinti ir dokumentuoti specialistas** — žr. pastabą dokumento pabaigoje.
+**Perdavimas už Europos Sąjungos ribų:** naudojantis mūsų DI apdorojimo paslaugų teikėju, Google Play, AdMob ir mūsų strigčių ataskaitų paslaugų teikėju, duomenys perduodami už Europos Sąjungos ribų. Šių perdavimų teisinį pagrindą (standartines sutarčių sąlygas, sprendimą dėl tinkamumo) **prieš paskelbiant turi patikrinti ir dokumentuoti specialistas** — žr. pastabą dokumento pabaigoje.
 
 ---
 
@@ -211,15 +210,6 @@ Bet koks šios politikos pakeitimas bus paskelbtas adresu `https://readit0.githu
 Paslaugos naudojimo sąlygos (kvotos, prenumeratos, atšaukimas) išdėstytos atskirame dokumente: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Duoti peržiūrėti specialistui
->
-> Šis dokumentas parengtas išmatavus tikrąjį programėlės veikimą, tačiau **jo parengė ne teisininkas**. Keturi punktai pirmiausia reikalauja specialisto nuomonės:
->
-> 1. **Duomenų perdavimas už Europos Sąjungos ribų** į OpenRouter. Tai jautriausias punktas: reikia nustatyti taikytiną perdavimo mechanizmą, patikrinti, ar su šiuo paslaugų teikėju sudaryta duomenų tvarkymo sutartis, ir tai čia įrašyti. Kol tai nepadaryta, šis dokumentas aprašo perdavimą, neteigdamas, kad jis yra teisiškai sureguliuotas.
-> 2. **Teisiniai pagrindai**, pasirinkti 7 skyriuje, ypač sutikimo ir teisėto intereso pasiskirstymas pritaikymo neįgaliesiems paslaugos atveju.
-> 3. **Minimalus amžius** (16 metų) ir jo suderinamumas su Google Play turinio klasifikavimo klausimynu.
-> 4. **Nuoroda dėl dirbtinio intelekto** pagal Europos dirbtinio intelekto reglamentą (skaidrumo prievolė ribotos rizikos sistemai).
 
 ---
 

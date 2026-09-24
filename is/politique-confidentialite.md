@@ -7,7 +7,7 @@
 > Í fyrsta lagi geymir eiginleikinn **eigin tungumál** á netþjónum okkar það efni
 > sem þú býrð til (nafn, stafróf, orðasafn) — útgáfa 1.0 fullyrti ranglega að enginn
 > texti væri geymdur. Í öðru lagi notum við nú tól til **tæknilegrar hrunskýrslu**
-> (Sentry) — útgáfa 1.0 fullyrti að ekkert slíkt tól væri til. Nánar er fjallað um
+> — útgáfa 1.0 fullyrti að ekkert slíkt tól væri til. Nánar er fjallað um
 > þessi tvö atriði í „Á einni mínútu“ hér á eftir, sem og í §3 og §9. Þetta eru
 > nákvæmlega þær tvær tegundir breytinga sem, í forritinu, kalla fram nýja
 > samþykkisbeiðni (sjá §11).
@@ -87,8 +87,8 @@ Með þessum tveimur vélum **fer textinn sem lesinn er eða umorðaður ekki ú
 
 **Það þarf að vera skýrt hver raunveruleg leið textans er:**
 
-- Textinn fer um innviði okkar (Supabase), sem hýstir eru í **Evrópusambandinu** (svæðið Mið-Evrópa, Frankfurt).
-- Hann er síðan sendur til **openrouter.ai**, milliliðar sem beinir fyrirspurnum og er **staðsettur utan Evrópusambandsins**, sem lætur líkanið **Mistral Small** vinna hann.
+- Textinn fer um netþjónainnviði okkar, sem hýstir eru í **Evrópusambandinu** (svæðið Mið-Evrópa, Frankfurt).
+- Hann er síðan sendur til milliliðar sem beinir fyrirspurnum og er **staðsettur utan Evrópusambandsins**, sem lætur gervigreindarlíkan þriðja aðila vinna hann.
 - **Hér er því um að ræða flutning gagna út fyrir Evrópusambandið.** Við höldum ekki öðru fram og gefum ekkert loforð um evrópska hýsingu fyrir þetta þrep.
 - **Plume geymir ekki textann þinn.** Engin af netþjónsaðgerðum okkar skrifar niður efni textans þíns: við skráum aðeins tæknilegt auðkenni fyrirspurnar og auðkenni tækisins þíns, til að telja kvótann þinn og greina misnotkun.
 - **Það sem þessir þjónustuaðilar gera sín megin getum við ekki ábyrgst.** Við kjósum að segja þér það hreint út frekar en að lofa þér engri geymslu sem við erum ekki í aðstöðu til að staðfesta.
@@ -101,7 +101,7 @@ Textinn sem sendur er hefur þak: 1.200 stafir fyrir umorðun, 4.000 stafir fyri
 
 ## 3. Gögnin sem við geymum
 
-Við notum **ekkert tól til notendagreiningar og engan auglýsingarekjara frá þriðja aðila** fyrir utan auglýsingarnar sem lýst er í §5. **Við notum tól til tæknilegrar hrunskýrslu** (Sentry): það sér aðeins forritsvillur (tegund villu, tækniferil kalla, útgáfu forritsins, stýrikerfið), aldrei notkun þína eða feril þinn, og aldrei textann sem þú skrifar — sérstök sía kemur í veg fyrir það áður en nokkuð er sent. Nánar er fjallað um það í §9.
+Við notum **ekkert tól til notendagreiningar og engan auglýsingarekjara frá þriðja aðila** fyrir utan auglýsingarnar sem lýst er í §5. **Við notum tól til tæknilegrar hrunskýrslu**: það sér aðeins forritsvillur (tegund villu, tækniferil kalla, útgáfu forritsins, stýrikerfið), aldrei notkun þína eða feril þinn, og aldrei textann sem þú skrifar — sérstök sía kemur í veg fyrir það áður en nokkuð er sent. Nánar er fjallað um það í §9.
 
 Hér er allt sem geymt er á netþjónum okkar:
 
@@ -115,7 +115,7 @@ Hér er allt sem geymt er á netþjónum okkar:
 | **Tæknileg merki um misnotkun** (endurtekin yfirkeyrsla marka, misheppnuð heilleikaprófun — án nokkurs texta) | Öryggi, barátta gegn svikum | Aftengd persónu þinni þegar aðgangi er eytt |
 | **Tungumál og útgáfa forritsins** | Afhenda rétt efni | Þar til aðgangi þínum er eytt |
 | **Efni þeirra eigin tungumála sem þú býrð til** (nafn þess, stafróf þess og orðasafn þess — orðin og merkingarnar sem þú, eða aðrir, hafið skrifað í það) | Gera þér kleift að finna tungumálið þitt aftur í öðru tæki, þróa það áfram og deila því með öðrum notendum | Á meðan tungumálið er til. Ef þú eyðir því hverfur færslan — en afrit sem þegar hefur verið **flutt inn af öðrum aðila** tilheyrir þá honum og **lifir áfram**, líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti og við getum ekki fengið eytt hjá honum |
-| **Tæknilegar hrunskýrslur** (tegund villu, stytt tækniferill kalla, útgáfa forritsins, stýrikerfið — aldrei textaefni) | Greina og laga hrun forritsins | Í umsjá þjónustuaðila okkar, Sentry (sjá §9). Þessi söfnun er háð samþykki þínu og rofa sem við getum slökkt á hvenær sem er, án uppfærslu á forritinu |
+| **Tæknilegar hrunskýrslur** (tegund villu, stytt tækniferill kalla, útgáfa forritsins, stýrikerfið — aldrei textaefni) | Greina og laga hrun forritsins | Í umsjá hrunskýrsluþjónustuaðila okkar (sjá §9). Þessi söfnun er háð samþykki þínu og rofa sem við getum slökkt á hvenær sem er, án uppfærslu á forritinu |
 
 **Það sem við söfnum ekki:** nafnið þitt, tengiliðina þína, staðsetningu þína, netfangaskrána þína, myndirnar þínar, dagatalið þitt, sögu forritanotkunar þinnar. Plume biður ekki um neina af þessum heimildum.
 
@@ -186,17 +186,16 @@ Plume er hjálpartæki við ritun, ætlað notendum **16 ára og eldri**. Við s
 
 | Þjónustuaðili | Hlutverk | Hvar |
 |---|---|---|
-| **Supabase** | Hýsing gagnagrunnsins, auðkenning, netþjónsaðgerðir | Evrópusambandið (Frankfurt) |
-| **OpenRouter** | Beining fyrirspurna til gervigreindarlíkansins | **Utan Evrópusambandsins** |
-| **Mistral AI** (um OpenRouter) | Líkanið sem vinnur textann (Mistral Small) | Vinnsla um milliliðinn hér að ofan |
+| **Hýsingaraðilinn okkar** | Hýsing gagnagrunnsins, auðkenning, netþjónsaðgerðir | Evrópusambandið (Frankfurt) |
+| **Gervigreindarvinnsluaðilinn okkar** | Beining fyrirspurna og vinnsla textans með gervigreindarlíkani þriðja aðila | **Utan Evrópusambandsins** |
 | **Google Play / Google Billing** | Greiðslur, áskriftir | Google Ireland / Bandaríkin |
 | **Google AdMob** | Verðlaunaauglýsingar | Google Ireland / Bandaríkin |
 | **Google (kerfisþjónustur símans)** | Talgreining, þýðingareiningar án nettengingar | Eftir tækinu þínu |
-| **Sentry** (Functional Software, Inc.) | Tæknileg hrunskýrsla — aðeins forritsvillur, síaðar áður en þær eru sendar: aldrei textinn þinn | Bandaríkin |
+| **Hrunskýrsluþjónustuaðilinn okkar** | Tæknileg hrunskýrsla — aðeins forritsvillur, síaðar áður en þær eru sendar: aldrei textinn þinn | Bandaríkin |
 
 **Við seljum engin gögn og látum engin gögn af hendi til gagnamiðlara.**
 
-**Flutningar út fyrir Evrópusambandið:** notkun OpenRouter, Google Play, AdMob og Sentry felur í sér flutning gagna út fyrir Evrópusambandið. Lagalega umgjörð þessara flutninga (stöðluð samningsákvæði, ákvörðun um fullnægjandi vernd) **þarf fagaðili að sannreyna og skjalfesta fyrir birtingu** — sjá athugasemdina aftast í skjalinu.
+**Flutningar út fyrir Evrópusambandið:** notkun gervigreindarvinnsluaðilans okkar, Google Play, AdMob og hrunskýrsluþjónustuaðilans okkar felur í sér flutning gagna út fyrir Evrópusambandið. Lagalega umgjörð þessara flutninga (stöðluð samningsákvæði, ákvörðun um fullnægjandi vernd) **þarf fagaðili að sannreyna og skjalfesta fyrir birtingu** — sjá athugasemdina aftast í skjalinu.
 
 ---
 
@@ -219,15 +218,6 @@ Sérhver breyting á þessari stefnu verður birt á slóðinni `https://readit0
 Skilmálar um notkun þjónustunnar (kvótar, áskriftir, uppsögn) eru í sérstöku skjali: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Þarf yfirlestur fagaðila
->
-> Þetta skjal var samið með því að mæla raunverulega hegðun forritsins, en **það var ekki samið af lögfræðingi**. Fjögur atriði kalla fyrst og fremst á álit fagaðila:
->
-> 1. **Flutningur gagna út fyrir Evrópusambandið** til OpenRouter. Þetta er viðkvæmasta atriðið: ákvarða þarf hvaða flutningsheimild á við, sannreyna að vinnslusamningur sé fyrir hendi við þennan þjónustuaðila og skrá það hér. Þar til það hefur verið gert lýsir þetta skjal flutningnum án þess að fullyrða að hann sé innan lagaramma.
-> 2. **Vinnsluheimildirnar** sem valdar eru í §7, einkum skiptingin milli samþykkis og lögmætra hagsmuna fyrir aðgengisþjónustuna.
-> 3. **Lágmarksaldurinn** (16 ár) og samræmi hans við spurningalista Google Play um efnisflokkun.
-> 4. **Upplýsingagjöfin um gervigreind** samkvæmt reglugerð Evrópusambandsins um gervigreind (gagnsæisskylda fyrir kerfi með takmarkaða áhættu).
 
 ---
 

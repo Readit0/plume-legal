@@ -2,7 +2,7 @@
 
 **Pēdējoreiz atjaunināts: 2026. gada 12. septembris** — Versija 2.0
 
-> *Kas ir mainījies kopš versijas 1.0 un kāpēc jūs, iespējams, lietotnē atkal redzēsiet piekrišanas ekrānu:* mēs labojam divus apgalvojumus, kas vairs nebija precīzi. Pirmkārt, funkcija **personiskās valodas** mūsu serveros saglabā jūsu izveidoto saturu (nosaukumu, alfabētu, vārdnīcu) — versijā 1.0 tika kļūdaini apgalvots, ka neviens teksts netiek saglabāts. Otrkārt, mēs tagad izmantojam **tehnisko avāriju ziņošanas** rīku (Sentry) — versijā 1.0 tika apgalvots, ka šāda rīka nav. Sīkāka informācija par abiem šiem punktiem ir sadaļā „Vienā minūtē" tālāk, kā arī 3. un 9. sadaļā. Tieši šīs divas izmaiņu kategorijas lietotnē izraisa jaunu piekrišanas pieprasījumu (skatīt 11. sadaļu).
+> *Kas ir mainījies kopš versijas 1.0 un kāpēc jūs, iespējams, lietotnē atkal redzēsiet piekrišanas ekrānu:* mēs labojam divus apgalvojumus, kas vairs nebija precīzi. Pirmkārt, funkcija **personiskās valodas** mūsu serveros saglabā jūsu izveidoto saturu (nosaukumu, alfabētu, vārdnīcu) — versijā 1.0 tika kļūdaini apgalvots, ka neviens teksts netiek saglabāts. Otrkārt, mēs tagad izmantojam **tehnisko avāriju ziņošanas** rīku — versijā 1.0 tika apgalvots, ka šāda rīka nav. Sīkāka informācija par abiem šiem punktiem ir sadaļā „Vienā minūtē" tālāk, kā arī 3. un 9. sadaļā. Tieši šīs divas izmaiņu kategorijas lietotnē izraisa jaunu piekrišanas pieprasījumu (skatīt 11. sadaļu).
 
 ---
 
@@ -79,8 +79,8 @@ Kad izvēlaties mākoņa MI vai kad jūsu ierīce nav pietiekami jaudīga vietē
 
 **Ir jāsaka skaidri, kāds ir patiesais ceļš:**
 
-- Teksts iet caur mūsu infrastruktūru (Supabase), kas tiek mitināta **Eiropas Savienībā** (Centrāleiropas reģions, Frankfurte).
-- Pēc tam tas tiek nodots pakalpojumam **openrouter.ai**, maršrutēšanas starpniekam, kas **atrodas ārpus Eiropas Savienības** un liek tekstu apstrādāt modelim **Mistral Small**.
+- Teksts iet caur mūsu serveru infrastruktūru, kas tiek mitināta **Eiropas Savienībā** (Centrāleiropas reģions, Frankfurte).
+- Pēc tam tas tiek nodots maršrutēšanas starpniekam, kas **atrodas ārpus Eiropas Savienības** un liek tekstu apstrādāt trešās puses mākslīgā intelekta modelim.
 - **Tātad tā ir datu nosūtīšana ārpus Eiropas Savienības.** Mēs neapgalvojam pretējo un nesniedzam nekādu solījumu par mitināšanu Eiropā attiecībā uz šo posmu.
 - **Plume nesaglabā jūsu tekstu.** Neviena no mūsu servera funkcijām neieraksta jūsu teksta saturu: mēs reģistrējam tikai pieprasījuma tehnisko identifikatoru un jūsu ierīces identifikatoru, lai saskaitītu jūsu kvotu un atklātu ļaunprātīgu izmantošanu.
 - **Ko šie pakalpojumu sniedzēji dara no savas puses, to mēs nevaram garantēt.** Mēs labāk jums to pasakām, nekā solām nulles saglabāšanu, ko neesam spējīgi pārbaudīt.
@@ -93,7 +93,7 @@ Nosūtāmajam tekstam ir noteikts ierobežojums: 1 200 rakstzīmes pārformulē�
 
 ## 3. Dati, ko mēs saglabājam
 
-Mēs neizmantojam **nevienu auditorijas analīzes rīku un nevienu trešās puses reklāmas izsekotāju**, izņemot 5. sadaļā aprakstīto reklāmu. **Mēs izmantojam tehnisko avāriju ziņošanas rīku** (Sentry): tas redz tikai programmas kļūdas (kļūdas veidu, tehnisko izsaukumu steku, lietotnes versiju, operētājsistēmu), nekad jūsu lietojumu vai darbību secību, un nekad jūsu rakstīto tekstu — īpašs filtrs to aizliedz pirms jebkādas nosūtīšanas. Sīkāk sk. 9. sadaļā.
+Mēs neizmantojam **nevienu auditorijas analīzes rīku un nevienu trešās puses reklāmas izsekotāju**, izņemot 5. sadaļā aprakstīto reklāmu. **Mēs izmantojam tehnisko avāriju ziņošanas rīku**: tas redz tikai programmas kļūdas (kļūdas veidu, tehnisko izsaukumu steku, lietotnes versiju, operētājsistēmu), nekad jūsu lietojumu vai darbību secību, un nekad jūsu rakstīto tekstu — īpašs filtrs to aizliedz pirms jebkādas nosūtīšanas. Sīkāk sk. 9. sadaļā.
 
 Lūk, viss, kas tiek glabāts mūsu serveros:
 
@@ -107,7 +107,7 @@ Lūk, viss, kas tiek glabāts mūsu serveros:
 | **Tehniskie ļaunprātīgas izmantošanas signāli** (atkārtoti pārsniegumi, integritātes pārbaudes neizdošanās — bez jebkāda teksta) | Drošība, cīņa pret krāpšanu | Konta dzēšanas brīdī atdalīti no jūsu identitātes |
 | **Lietotnes valoda un versija** | Piegādāt pareizo saturu | Līdz jūsu konta dzēšanai |
 | **Jūsu izveidoto personisko valodu saturs** (to nosaukums, alfabēts un vārdnīca — vārdi un definīcijas, ko jūs vai citas personas tajā ir ierakstījušas) | Ļaut jums atrast savu valodu citā ierīcē, to attīstīt un ar to dalīties ar citiem lietotājiem | Kamēr valoda pastāv. Ja jūs to dzēšat, tās ieraksts pazūd — taču jau **citas personas importēta** kopija tad pieder šai personai un **turpina pastāvēt**, tāpat kā ziņa, ko jau saņēmusi trešā puse un ko mēs nevaram aiziet izdzēst pie viņas |
-| **Tehniskās avāriju ziņošanas** (kļūdas veids, saīsināts tehniskais izsaukumu steks, lietotnes versija, operētājsistēma — nekad teksta saturs) | Diagnosticēt un labot lietotnes avārijas | Regulē mūsu pakalpojumu sniedzējs Sentry (skatīt 9. sadaļu). Šī vākšana ir pakļauta jūsu piekrišanai un slēdzim, ko mēs jebkurā brīdī varam izslēgt bez lietotnes atjauninājuma |
+| **Tehniskās avāriju ziņošanas** (kļūdas veids, saīsināts tehniskais izsaukumu steks, lietotnes versija, operētājsistēma — nekad teksta saturs) | Diagnosticēt un labot lietotnes avārijas | Regulē mūsu avāriju ziņošanas pakalpojumu sniedzējs (skatīt 9. sadaļu). Šī vākšana ir pakļauta jūsu piekrišanai un slēdzim, ko mēs jebkurā brīdī varam izslēgt bez lietotnes atjauninājuma |
 
 **Ko mēs nevācam:** jūsu vārdu, jūsu kontaktus, jūsu atrašanās vietu, jūsu adrešu grāmatu, jūsu fotoattēlus, jūsu kalendāru, jūsu lietotņu vēsturi. Plume nepieprasa nevienu no šīm atļaujām.
 
@@ -178,17 +178,16 @@ Tā kā lietotne ļauj pārformulēt brīvu tekstu un rāda reklāmu, tā nav at
 
 | Pakalpojumu sniedzējs | Loma | Kur |
 |---|---|---|
-| **Supabase** | Datubāzes mitināšana, autentifikācija, servera funkcijas | Eiropas Savienība (Frankfurte) |
-| **OpenRouter** | Pieprasījumu maršrutēšana uz MI modeli | **Ārpus Eiropas Savienības** |
-| **Mistral AI** (caur OpenRouter) | Modelis, kas apstrādā tekstu (Mistral Small) | Apstrāde ar iepriekš minētā starpnieka palīdzību |
+| **Mūsu mitināšanas pakalpojumu sniedzējs** | Datubāzes mitināšana, autentifikācija, servera funkcijas | Eiropas Savienība (Frankfurte) |
+| **Mūsu MI apstrādes pakalpojumu sniedzējs** | Pieprasījumu maršrutēšana un teksta apstrāde ar trešās puses mākslīgā intelekta modeli | **Ārpus Eiropas Savienības** |
 | **Google Play / Google Billing** | Maksājumi, abonementi | Google Ireland / Amerikas Savienotās Valstis |
 | **Google AdMob** | Apbalvotā reklāma | Google Ireland / Amerikas Savienotās Valstis |
 | **Google (tālruņa sistēmas pakalpojumi)** | Runas atpazīšana, bezsaistes tulkošanas moduļi | Atkarībā no jūsu ierīces |
-| **Sentry** (Functional Software, Inc.) | Tehniskā avāriju ziņošana — tikai programmas kļūdas, filtrētas pirms nosūtīšanas: nekad jūsu teksts | Amerikas Savienotās Valstis |
+| **Mūsu avāriju ziņošanas pakalpojumu sniedzējs** | Tehniskā avāriju ziņošana — tikai programmas kļūdas, filtrētas pirms nosūtīšanas: nekad jūsu teksts | Amerikas Savienotās Valstis |
 
 **Mēs nepārdodam nekādus datus un nenododam tos datu brokeriem.**
 
-**Nosūtīšana ārpus Eiropas Savienības:** OpenRouter, Google Play, AdMob un Sentry izmantošana nozīmē datu nosūtīšanu ārpus Eiropas Savienības. Šo nosūtīšanu juridiskais ietvars (līguma standartklauzulas, lēmums par aizsardzības līmeņa pietiekamību) **pirms publicēšanas ir jāpārbauda un jādokumentē profesionālim** — sk. piezīmi dokumenta beigās.
+**Nosūtīšana ārpus Eiropas Savienības:** mūsu MI apstrādes pakalpojumu sniedzēja, Google Play, AdMob un mūsu avāriju ziņošanas pakalpojumu sniedzēja izmantošana nozīmē datu nosūtīšanu ārpus Eiropas Savienības. Šo nosūtīšanu juridiskais ietvars (līguma standartklauzulas, lēmums par aizsardzības līmeņa pietiekamību) **pirms publicēšanas ir jāpārbauda un jādokumentē profesionālim** — sk. piezīmi dokumenta beigās.
 
 ---
 
@@ -211,15 +210,6 @@ Ikviens šīs politikas grozījums tiks publicēts adresē `https://readit0.gith
 Pakalpojuma lietošanas noteikumi (kvotas, abonementi, atcelšana) ir izklāstīti atsevišķā dokumentā: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Jāiedod pārskatīt profesionālim
->
-> Šis dokuments ir sagatavots, izmērot lietotnes patieso darbību, taču **to nav sagatavojis jurists**. Četri punkti prioritāri prasa profesionāļa viedokli:
->
-> 1. **Datu nosūtīšana ārpus Eiropas Savienības** uz OpenRouter. Tas ir jutīgākais punkts: ir jānosaka piemērojamais nosūtīšanas mehānisms, jāpārbauda, vai ar šo pakalpojumu sniedzēju pastāv datu apstrādes līgums, un tas jāieraksta šeit. Kamēr tas nav izdarīts, šis dokuments apraksta nosūtīšanu, neapgalvojot, ka tā ir juridiski noregulēta.
-> 2. **Juridiskais pamats**, kas izvēlēts 7. sadaļā, jo īpaši sadalījums starp piekrišanu un leģitīmajām interesēm attiecībā uz pieejamības pakalpojumu.
-> 3. **Minimālais vecums** (16 gadi) un tā saskaņotība ar Google Play satura klasifikācijas anketu.
-> 4. **Norāde par mākslīgo intelektu** saskaņā ar Eiropas regulu par mākslīgo intelektu (pārredzamības pienākums ierobežota riska sistēmai).
 
 ---
 

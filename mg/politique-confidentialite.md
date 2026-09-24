@@ -2,7 +2,7 @@
 
 **Nohavaozina farany : 12 septambra 2026** — Version 2.0
 
-> *Izay niova hatramin'ny version 1.0, ary ny antony mety hahitanao indray ny efijeran'ny fanekena ao amin'ny fampiharana :* manitsy fanambarana roa izay tsy marina intsony izahay. Voalohany, ny endri-javatra **fiteny manokana** dia mitahiry ao amin'ny mpizaranay ny votoaty noforoninao (anarana, abidy, rakibolana) — ny version 1.0 dia nanambara diso fa tsy nisy lahatsoratra notehirizina. Faharoa, mampiasa fitaovana **tatitra momba ny fisian'olana ara-teknika** izahay ankehitriny (Sentry) — ny version 1.0 dia nanambara fa tsy nisy fitaovana toy izany. Ny antsipirian'ireo teboka roa ireo dia hita ao amin'ny « Ao anatin'ny iray minitra » etsy ambany, ary koa ao amin'ny §3 sy §9. Ireo indrindra no ilay sokajin-tsavana roa izay, ao amin'ny fampiharana, mahatonga fangatahana fanekena vaovao (jereo ny §11).
+> *Izay niova hatramin'ny version 1.0, ary ny antony mety hahitanao indray ny efijeran'ny fanekena ao amin'ny fampiharana :* manitsy fanambarana roa izay tsy marina intsony izahay. Voalohany, ny endri-javatra **fiteny manokana** dia mitahiry ao amin'ny mpizaranay ny votoaty noforoninao (anarana, abidy, rakibolana) — ny version 1.0 dia nanambara diso fa tsy nisy lahatsoratra notehirizina. Faharoa, mampiasa fitaovana **tatitra momba ny fisian'olana ara-teknika** izahay ankehitriny — ny version 1.0 dia nanambara fa tsy nisy fitaovana toy izany. Ny antsipirian'ireo teboka roa ireo dia hita ao amin'ny « Ao anatin'ny iray minitra » etsy ambany, ary koa ao amin'ny §3 sy §9. Ireo indrindra no ilay sokajin-tsavana roa izay, ao amin'ny fampiharana, mahatonga fangatahana fanekena vaovao (jereo ny §11).
 
 ---
 
@@ -79,8 +79,8 @@ Rehefa misafidy ny IA Cloud ianao, na rehefa tsy matanjaka ampy ho an'ny IA an-t
 
 **Ilaina ny mazava tsara momba ny lalana marina nalehany :**
 
-- Mandalo amin'ny fotodrafitrasanay (Supabase) ny lahatsoratra, izay ampiantranoina ao amin'ny **Vondrona Eoropeana** (faritra Eoropa Afovoany, Francfort).
-- Alefa avy eo any amin'ny **openrouter.ai** izy, mpanelanelana amin'ny fandrindrana lalana **any ivelan'ny Vondrona Eoropeana**, izay mampikirakira azy amin'ny alalan'ny maodely **Mistral Small**.
+- Mandalo amin'ny fotodrafitrasa mpizara anay ny lahatsoratra, izay ampiantranoina ao amin'ny **Vondrona Eoropeana** (faritra Eoropa Afovoany, Francfort).
+- Alefa avy eo any amin'ny mpanelanelana amin'ny fandrindrana lalana iray izy, **any ivelan'ny Vondrona Eoropeana**, izay mampikirakira azy amin'ny alalan'ny maodely IA an'ny antoko fahatelo.
 - **Famindrana angona any ivelan'ny Vondrona Eoropeana àry izany.** Tsy mihambo ny mifanohitra amin'izany izahay, ary tsy manolotra fampanantenana fampiantranoana eoropeana ho an'ity dingana ity.
 - **Tsy tehirizin'i Plume ny lahatsoratrao.** Tsy misy amin'ny asa ataon'ny mpizaranay manoratra ny votoatin'ny lahatsoratrao : famantarana ara-teknika ny fangatahana sy ny famantaran'ny fitaovanao ihany no raiketinay, mba hanisana ny quota-nao sy hamantarana ny fanararaotana.
 - **Tsy azonay antoka izay ataon'ireo mpanome serivisy ireo eo amin'ny lafiny azy ireo.** Aleonay milaza izany aminao toy izay manome antoka fitahirizana aotra izay tsy azonay hamarinina.
@@ -93,7 +93,7 @@ Voafetra ny lahatsoratra alefa : 1 200 tarehin-tsoratra ho an'ny fanoratana indr
 
 ## 3. Ny angona tehirizinay
 
-Tsy mampiasa **fitaovana famakafakana mpampiasa na fitaovana fanaraha-maso fanentanana any amin'olon-kafa** izahay ivelan'ny fanentanana faritana ao amin'ny §5. **Mampiasa fitaovana tatitra momba ny fisian'olana ara-teknika** izahay (Sentry) : tsy mahita afa-tsy ny fahadisoan'ny rindrankajy izy io (karazana fahadisoana, antontan'antso ara-teknika, version an'ny fampiharana, rafitra fampandehanana), tsy ny fampiasanao na ny dianao mihitsy, ary tsy ny lahatsoratra sorataninao mihitsy — sivana manokana no mandrara izany alohan'ny fandefasana rehetra. Ny antsipiriany dia ao amin'ny §9.
+Tsy mampiasa **fitaovana famakafakana mpampiasa na fitaovana fanaraha-maso fanentanana any amin'olon-kafa** izahay ivelan'ny fanentanana faritana ao amin'ny §5. **Mampiasa fitaovana tatitra momba ny fisian'olana ara-teknika** izahay : tsy mahita afa-tsy ny fahadisoan'ny rindrankajy izy io (karazana fahadisoana, antontan'antso ara-teknika, version an'ny fampiharana, rafitra fampandehanana), tsy ny fampiasanao na ny dianao mihitsy, ary tsy ny lahatsoratra sorataninao mihitsy — sivana manokana no mandrara izany alohan'ny fandefasana rehetra. Ny antsipiriany dia ao amin'ny §9.
 
 Ity manaraka ity no fehin-kevitry ny zava-drehetra voatahiry ao amin'ny mpizaranay :
 
@@ -107,7 +107,7 @@ Ity manaraka ity no fehin-kevitry ny zava-drehetra voatahiry ao amin'ny mpizaran
 | **Mariky ara-teknikan'ny fanararaotana** (fihoaram-pefy miverimberina, tsy fahombiazan'ny fanamarinam-pahamarinana — tsy misy lahatsoratra na kely akory) | Fiarovana, ady amin'ny hosoka | Voafahana amin'ny maha-ianao anao rehefa mamafa ny kaonty |
 | **Fiteny sy version an'ny fampiharana** | Fanomezana ny votoaty mety | Mandra-pamafana ny kaontinao |
 | **Ny votoatin'ny fiteny manokana forominao** (ny anarany, ny abidiny, ary ny rakibolany — ny teny sy ny famaritana nosoratanao, na nosoratan'olon-kafa, tao aminy) | Fahafahanao mahita ny fiteninao indray amin'ny fitaovana hafa, mampandroso azy, ary mizara azy amin'ny mpampiasa hafa | Raha mbola misy ilay fiteny. Raha fafànao izy, dia lasa ny firaketany — saingy kopia efa **nampidirin'olon-kafa** dia an'io olona io izao ary **mbola miaina**, toy ny hafatra efa noraisin'olon-kafa izay tsy azonay esorina any aminy |
-| **Tatitra momba ny fisian'olana ara-teknika** (karazana fahadisoana, antontan'antso ara-teknika voafetsy, version an'ny fampiharana, rafitra fampandehanana — tsy misy votoaty lahatsoratra mihitsy) | Fitiliana sy fanitsiana ny fisian'olan'ny fampiharana | Fehezin'ny mpanome serivisinay Sentry (jereo §9). Io fanangonana io dia miankina amin'ny fanekenao sy amin'ny fahafahanay hampijanona izany amin'ny fotoana rehetra, tsy misy fanavaozana ny fampiharana |
+| **Tatitra momba ny fisian'olana ara-teknika** (karazana fahadisoana, antontan'antso ara-teknika voafetsy, version an'ny fampiharana, rafitra fampandehanana — tsy misy votoaty lahatsoratra mihitsy) | Fitiliana sy fanitsiana ny fisian'olan'ny fampiharana | Fehezin'ny mpanome serivisy tatitra momba ny fisian'olana anay (jereo §9). Io fanangonana io dia miankina amin'ny fanekenao sy amin'ny fahafahanay hampijanona izany amin'ny fotoana rehetra, tsy misy fanavaozana ny fampiharana |
 
 **Izay tsy angoninay :** ny anaranao, ny mpifandraisanao, ny toerana misy anao, ny bokinao misy adiresy, ny sarinao, ny fandaharam-potoananao, ny tantaran'ny fampiharana nampiasainao. Tsy mangataka na iray amin'ireo alalana ireo i Plume.
 
@@ -178,17 +178,16 @@ Satria ahafahana manoratra indray lahatsoratra malalaka ny fampiharana ary mampi
 
 | Mpanome serivisy | Anjara asa | Aiza |
 |---|---|---|
-| **Supabase** | Fampiantranoana ny fototr'angona, fanamarinam-piarahana, asan'ny mpizara | Vondrona Eoropeana (Francfort) |
-| **OpenRouter** | Fandefasana ny fangatahana mankany amin'ny maodelin'ny IA | **Ivelan'ny Vondrona Eoropeana** |
-| **Mistral AI** (amin'ny alalan'ny OpenRouter) | Maodely mikirakira ny lahatsoratra (Mistral Small) | Fikirakirana amin'ny alalan'ny mpanelanelana voalaza etsy ambony |
+| **Ny mpanome serivisy fampiantranoana anay** | Fampiantranoana ny fototr'angona, fanamarinam-piarahana, asan'ny mpizara | Vondrona Eoropeana (Francfort) |
+| **Ny mpanome serivisy fikirakirana IA anay** | Fandefasana ny fangatahana sy fikirakirana ny lahatsoratra amin'ny maodely IA an'ny antoko fahatelo | **Ivelan'ny Vondrona Eoropeana** |
 | **Google Play / Google Billing** | Fandoavam-bola, famandrihana | Google Ireland / Etazonia |
 | **Google AdMob** | Fanentanana mahazoana valisoa | Google Ireland / Etazonia |
 | **Google (serivisin'ny rafitry ny finday)** | Fanekena feo, singa fandikan-teny tsy misy aterineto | Arakaraka ny fitaovanao |
-| **Sentry** (Functional Software, Inc.) | Tatitra momba ny fisian'olana ara-teknika — fahadisoan'ny rindrankajy ihany, sivanina alohan'ny fandefasana : tsy ny lahatsoratrao mihitsy | Etazonia |
+| **Ny mpanome serivisy tatitra momba ny fisian'olana anay** | Tatitra momba ny fisian'olana ara-teknika — fahadisoan'ny rindrankajy ihany, sivanina alohan'ny fandefasana : tsy ny lahatsoratrao mihitsy | Etazonia |
 
 **Tsy mivarotra angona na inona na inona izahay ary tsy manome izany amin'ny mpanelanelana angona.**
 
-**Famindrana any ivelan'ny Vondrona Eoropeana :** ny fampiasana ny OpenRouter, ny Google Play, ny AdMob ary ny Sentry dia mitaky famindrana angona any ivelan'ny Vondrona Eoropeana.
+**Famindrana any ivelan'ny Vondrona Eoropeana :** ny fampiasana ny mpanome serivisy fikirakirana IA anay, ny Google Play, ny AdMob ary ny mpanome serivisy tatitra momba ny fisian'olana anay dia mitaky famindrana angona any ivelan'ny Vondrona Eoropeana.
 
 ---
 

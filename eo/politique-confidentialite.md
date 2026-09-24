@@ -2,7 +2,7 @@
 
 **Lasta ĝisdatigo: la 12-a de septembro 2026** — Versio 2.0
 
-> *Kio ŝanĝiĝis de post la versio 1.0, kaj kial vi eble revidas la akcepto-ekranon en la aplikaĵo:* ni korektas du asertojn, kiuj ne plu estis precizaj. Unue, la funkcio **propraj lingvoj** konservas sur niaj serviloj la enhavon, kiun vi kreas (nomo, alfabeto, vortaro) — la versio 1.0 asertis erare, ke neniu teksto estis konservata. Due, ni nun uzas ilon pri **teknika kraŝo-raportado** (Sentry) — la versio 1.0 asertis, ke neniu tia ilo ekzistis. La detalo de tiuj du punktoj troviĝas en «En unu minuto» sube, kaj ankaŭ en §3 kaj §9. Tio estas ĝuste la du kategorioj de ŝanĝo, kiuj, en la aplikaĵo, ekigas novan konsentopeton (vidu §11).
+> *Kio ŝanĝiĝis de post la versio 1.0, kaj kial vi eble revidas la akcepto-ekranon en la aplikaĵo:* ni korektas du asertojn, kiuj ne plu estis precizaj. Unue, la funkcio **propraj lingvoj** konservas sur niaj serviloj la enhavon, kiun vi kreas (nomo, alfabeto, vortaro) — la versio 1.0 asertis erare, ke neniu teksto estis konservata. Due, ni nun uzas ilon pri **teknika kraŝo-raportado** — la versio 1.0 asertis, ke neniu tia ilo ekzistis. La detalo de tiuj du punktoj troviĝas en «En unu minuto» sube, kaj ankaŭ en §3 kaj §9. Tio estas ĝuste la du kategorioj de ŝanĝo, kiuj, en la aplikaĵo, ekigas novan konsentopeton (vidu §11).
 
 ---
 
@@ -79,8 +79,8 @@ Kiam vi elektas la Nuban AI, aŭ kiam via aparato ne estas sufiĉe potenca por l
 
 **Necesas esti klara pri la reala vojo:**
 
-- La teksto trapasas nian infrastrukturon (Supabase), gastigatan en la **Eŭropa Unio** (regiono de Centra Eŭropo, Frankfurto).
-- Ĝi estas poste transsendata al **openrouter.ai**, vojiga peranto **situanta ekster la Eŭropa Unio**, kiu igas la modelon **Mistral Small** prilabori ĝin.
+- La teksto trapasas nian servilan infrastrukturon, gastigatan en la **Eŭropa Unio** (regiono de Centra Eŭropo, Frankfurto).
+- Ĝi estas poste transsendata al vojiga peranto **situanta ekster la Eŭropa Unio**, kiu igas trian modelon de artefarita inteligenteco prilabori ĝin.
 - **Temas do pri transdono de datumoj ekster la Eŭropan Union.** Ni ne pretendas la malon, kaj ni montras neniun promeson pri eŭropa gastigado por tiu etapo.
 - **Plume ne konservas vian tekston.** Neniu el niaj servilaj funkcioj skribas la enhavon de via teksto: ni registras nur teknikan identigilon de peto kaj la identigilon de via aparato, por kalkuli vian kvoton kaj detekti misuzojn.
 - **Kion tiuj provizantoj faras siaflanke, tion ni ne povas garantii.** Ni preferas diri tion al vi ol promesi al vi nulan konservadon, kiun ni ne kapablas kontroli.
@@ -93,7 +93,7 @@ La sendata teksto estas limigita: 1 200 signoj por reformulo, 4 000 signoj por e
 
 ## 3. La datumoj, kiujn ni konservas
 
-Ni uzas **neniun spektantar-analizilon kaj neniun eksteran reklaman spurilon**, krom la reklamado priskribita en §5. **Ni uzas ilon pri teknika kraŝo-raportado** (Sentry): ĝi vidas nur programajn erarojn (tipo de eraro, teknika voko-stako, versio de la aplikaĵo, operaciumo), neniam vian uzadon nek vian vojon, kaj neniam la tekston, kiun vi skribas — dediĉita filtrilo malpermesas tion antaŭ ĉia sendo. La detalo troviĝas en §9.
+Ni uzas **neniun spektantar-analizilon kaj neniun eksteran reklaman spurilon**, krom la reklamado priskribita en §5. **Ni uzas ilon pri teknika kraŝo-raportado**: ĝi vidas nur programajn erarojn (tipo de eraro, teknika voko-stako, versio de la aplikaĵo, operaciumo), neniam vian uzadon nek vian vojon, kaj neniam la tekston, kiun vi skribas — dediĉita filtrilo malpermesas tion antaŭ ĉia sendo. La detalo troviĝas en §9.
 
 Jen la tuto de tio, kio estas konservata sur niaj serviloj:
 
@@ -107,7 +107,7 @@ Jen la tuto de tio, kio estas konservata sur niaj serviloj:
 | **Teknikaj signaloj pri misuzo** (ripetaj superpasoj, malsukceso de integreca kontrolo — sen ia ajn teksto) | Sekureco, batalo kontraŭ fraŭdo | Malligataj de via identeco ĉe la forigo de la konto |
 | **Lingvo kaj versio de la aplikaĵo** | Servi la ĝustan enhavon | Ĝis la forigo de via konto |
 | **La enhavo de la propraj lingvoj, kiujn vi kreas** (ĝia nomo, ĝia alfabeto, kaj ĝia vortaro — la vortoj kaj la difinoj, kiujn vi, aŭ aliaj personoj, skribis en ĝi) | Ebligi al vi retrovi vian lingvon sur alia aparato, evoluigi ĝin, kaj kunhavigi ĝin kun aliaj uzantoj | Dum la lingvo ekzistas. Se vi forigas ĝin, ĝia registro malaperas — sed kopio jam **importita de alia persono** apartenas de nun al tiu persono kaj **postvivas**, kiel mesaĝo jam ricevita de triulo, kiun ni ne povas iri forviŝi ĉe tiu |
-| **Teknikaj kraŝo-raportoj** (tipo de eraro, mallongigita teknika voko-stako, versio de la aplikaĵo, operaciumo — neniam teksta enhavo) | Diagnozi kaj ripari la kraŝojn de la aplikaĵo | Regata de nia provizanto Sentry (vidu §9). Tiu kolektado estas kondiĉigita de via konsento kaj de ŝaltilo, kiun ni povas malŝalti iam ajn, sen ĝisdatigo de la aplikaĵo |
+| **Teknikaj kraŝo-raportoj** (tipo de eraro, mallongigita teknika voko-stako, versio de la aplikaĵo, operaciumo — neniam teksta enhavo) | Diagnozi kaj ripari la kraŝojn de la aplikaĵo | Regata de nia provizanto de kraŝo-raportado (vidu §9). Tiu kolektado estas kondiĉigita de via konsento kaj de ŝaltilo, kiun ni povas malŝalti iam ajn, sen ĝisdatigo de la aplikaĵo |
 
 **Kion ni ne kolektas:** vian nomon, viajn kontaktojn, vian lokon, vian adresaron, viajn fotojn, vian kalendaron, la historion de viaj aplikaĵoj. Plume petas neniun el tiuj permesoj.
 
@@ -178,17 +178,16 @@ Plume estas ilo helpa por redaktado, destinita al publiko **de 16 jaroj kaj pli*
 
 | Provizanto | Rolo | Kie |
 |---|---|---|
-| **Supabase** | Gastigado de la datumbazo, aŭtentigo, servilaj funkcioj | Eŭropa Unio (Frankfurto) |
-| **OpenRouter** | Vojigo de la petoj al la AI-modelo | **Ekster la Eŭropa Unio** |
-| **Mistral AI** (per OpenRouter) | Modelo, kiu prilaboras la tekston (Mistral Small) | Prilaborado per la supra peranto |
+| **Nia provizanto de gastigado** | Gastigado de la datumbazo, aŭtentigo, servilaj funkcioj | Eŭropa Unio (Frankfurto) |
+| **Nia provizanto de AI-prilaborado** | Vojigo de la petoj kaj prilaborado de la teksto per tria modelo de artefarita inteligenteco | **Ekster la Eŭropa Unio** |
 | **Google Play / Google Billing** | Pago, abonoj | Google Ireland / Usono |
 | **Google AdMob** | Rekompenca reklamado | Google Ireland / Usono |
 | **Google (sistemaj servoj de la telefono)** | Voĉrekono, eksterretaj tradukaj moduloj | Laŭ via aparato |
-| **Sentry** (Functional Software, Inc.) | Teknika kraŝo-raportado — nur programaj eraroj, filtritaj antaŭ la sendo: neniam via teksto | Usono |
+| **Nia provizanto de kraŝo-raportado** | Teknika kraŝo-raportado — nur programaj eraroj, filtritaj antaŭ la sendo: neniam via teksto | Usono |
 
 **Ni vendas neniun datumon kaj cedas neniun al datum-makleristoj.**
 
-**Transdonoj ekster la Eŭropan Union:** la uzo de OpenRouter, de Google Play, de AdMob kaj de Sentry implicas transdonon de datumoj ekster la Eŭropan Union. La jura kadro de tiuj transdonoj (normaj kontraktaj klaŭzoj, adekvateca decido) **devas esti kontrolita kaj dokumentita de profesiulo antaŭ la publikigo** — vidu la noton je la fino de la dokumento.
+**Transdonoj ekster la Eŭropan Union:** la uzo de nia provizanto de AI-prilaborado, de Google Play, de AdMob kaj de nia provizanto de kraŝo-raportado implicas transdonon de datumoj ekster la Eŭropan Union. La jura kadro de tiuj transdonoj (normaj kontraktaj klaŭzoj, adekvateca decido) **devas esti kontrolita kaj dokumentita de profesiulo antaŭ la publikigo** — vidu la noton je la fino de la dokumento.
 
 ---
 
@@ -211,15 +210,6 @@ La interŝanĝoj inter la aplikaĵo kaj niaj serviloj estas ĉifritaj (HTTPS/TLS
 La kondiĉoj de uzo de la servo (kvotoj, abonoj, nuligo) troviĝas en aparta dokumento: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Relegenda de profesiulo
->
-> Ĉi tiu dokumento estis redaktita per mezurado de la reala konduto de la aplikaĵo, sed **ĝi ne estis redaktita de juristo**. Kvar punktoj bezonas prioritate profesian opinion:
->
-> 1. **La transdono de datumoj ekster la Eŭropan Union** al OpenRouter. Tio estas la plej delikata punkto: necesas difini la aplikeblan mekanismon de transdono, kontroli, ke ekzistas prilaboranta interkonsento kun tiu provizanto, kaj skribi tion ĉi tie. Dum tio ne estas farita, ĉi tiu dokumento priskribas la transdonon sen aserti, ke ĝi estas jure kadrita.
-> 2. **La juraj bazoj** elektitaj en §7, precipe la dispartigo inter konsento kaj legitima intereso por la alirebleca servo.
-> 3. **La minimuma aĝo** (16 jaroj) kaj ĝia kohereco kun la enhav-klasifika demandaro de Google Play.
-> 4. **La mencio pri la AI** laŭ la eŭropa regularo pri artefarita inteligenteco (deviga travidebleco por sistemo kun limigita risko).
 
 ---
 

@@ -7,7 +7,7 @@
 > funcționalitatea **limbi personale** păstrează pe serverele noastre conținutul pe care îl
 > creați (nume, alfabet, lexic) — versiunea 1.0 afirma în mod eronat că niciun text nu era
 > stocat. În al doilea rând, folosim acum un instrument de **raportare a plantărilor
-> tehnice** (Sentry) — versiunea 1.0 afirma că nu exista niciun instrument de acest tip.
+> tehnice** — versiunea 1.0 afirma că nu exista niciun instrument de acest tip.
 > Detaliile acestor două puncte se află la „Într-un minut” mai jos, precum și la §3 și §9.
 > Acestea sunt exact cele două categorii de schimbare care, în aplicație, declanșează o nouă
 > cerere de acord (a se vedea §11).
@@ -87,8 +87,8 @@ Când alegeți IA Cloud sau când dispozitivul dumneavoastră nu este suficient 
 
 **Trebuie să fim clari cu privire la traseul real:**
 
-- Textul tranzitează infrastructura noastră (Supabase), găzduită în **Uniunea Europeană** (regiunea Europa Centrală, Frankfurt).
-- Este apoi transmis către **openrouter.ai**, un intermediar de rutare **situat în afara Uniunii Europene**, care îl dă spre prelucrare modelului **Mistral Small**.
+- Textul tranzitează infrastructura noastră de servere, găzduită în **Uniunea Europeană** (regiunea Europa Centrală, Frankfurt).
+- Este apoi transmis către un intermediar de rutare **situat în afara Uniunii Europene**, care îl dă spre prelucrare unui model de inteligență artificială terț.
 - **Este vorba, prin urmare, despre un transfer de date în afara Uniunii Europene.** Nu pretindem contrariul și nu afișăm nicio promisiune de găzduire europeană pentru această etapă.
 - **Plume nu păstrează textul dumneavoastră.** Niciuna dintre funcțiile noastre de server nu scrie conținutul textului dumneavoastră: înregistrăm doar un identificator tehnic al cererii și identificatorul dispozitivului dumneavoastră, pentru a vă contoriza cota și pentru a detecta abuzurile.
 - **Ceea ce fac acești furnizori la rândul lor nu putem garanta.** Preferăm să vă spunem acest lucru decât să vă promitem o păstrare zero pe care nu suntem în măsură să o verificăm.
@@ -101,7 +101,7 @@ Textul trimis este plafonat: 1 200 de caractere pentru o reformulare, 4 000 de c
 
 ## 3. Datele pe care le păstrăm
 
-Nu folosim **niciun instrument de analiză a audienței și niciun tracker publicitar terț** în afara publicității descrise la §5. **Folosim un instrument de raportare a plantărilor tehnice** (Sentry): acesta vede doar erori de program (tipul erorii, stiva de apeluri tehnică, versiunea aplicației, sistemul de operare), niciodată utilizarea sau parcursul dumneavoastră, și niciodată textul pe care îl scrieți — un filtru dedicat îi interzice acest lucru înainte de orice trimitere. Detaliul este la §9.
+Nu folosim **niciun instrument de analiză a audienței și niciun tracker publicitar terț** în afara publicității descrise la §5. **Folosim un instrument de raportare a plantărilor tehnice**: acesta vede doar erori de program (tipul erorii, stiva de apeluri tehnică, versiunea aplicației, sistemul de operare), niciodată utilizarea sau parcursul dumneavoastră, și niciodată textul pe care îl scrieți — un filtru dedicat îi interzice acest lucru înainte de orice trimitere. Detaliul este la §9.
 
 Iată tot ceea ce este stocat pe serverele noastre:
 
@@ -115,7 +115,7 @@ Iată tot ceea ce este stocat pe serverele noastre:
 | **Semnale tehnice de abuz** (depășiri repetate, eșec al controlului de integritate — fără niciun text) | Securitate, combaterea fraudei | Detașate de identitatea dumneavoastră la ștergerea contului |
 | **Limba și versiunea aplicației** | Livrarea conținutului potrivit | Până la ștergerea contului dumneavoastră |
 | **Conținutul limbilor personale pe care le creați** (numele, alfabetul și lexicul acesteia — cuvintele și definițiile pe care dumneavoastră, sau alte persoane, le-ați scris în ea) | A vă permite să vă regăsiți limba pe un alt dispozitiv, să o dezvoltați și să o partajați cu alți utilizatori | Atât timp cât limba există. Dacă o ștergeți, fișa ei dispare — dar o copie deja **importată de altă persoană** îi aparține de acum acesteia și **supraviețuiește**, precum un mesaj deja primit de un terț pe care nu îl putem șterge la el |
-| **Rapoarte de plantare tehnică** (tipul erorii, stiva de apeluri tehnică trunchiată, versiunea aplicației, sistemul de operare — niciodată un conținut de text) | Diagnosticarea și corectarea plantărilor aplicației | Guvernată de prestatorul nostru Sentry (a se vedea §9). Această colectare este supusă consimțământului dumneavoastră și unui întrerupător pe care îl putem opri în orice moment, fără actualizare a aplicației |
+| **Rapoarte de plantare tehnică** (tipul erorii, stiva de apeluri tehnică trunchiată, versiunea aplicației, sistemul de operare — niciodată un conținut de text) | Diagnosticarea și corectarea plantărilor aplicației | Guvernată de prestatorul nostru de raportare a erorilor (a se vedea §9). Această colectare este supusă consimțământului dumneavoastră și unui întrerupător pe care îl putem opri în orice moment, fără actualizare a aplicației |
 
 **Ce nu colectăm:** numele dumneavoastră, contactele dumneavoastră, localizarea dumneavoastră, agenda dumneavoastră de adrese, fotografiile dumneavoastră, calendarul dumneavoastră, istoricul aplicațiilor dumneavoastră. Plume nu solicită niciuna dintre aceste permisiuni.
 
@@ -186,17 +186,16 @@ Plume este un instrument de asistență la redactare, destinat unui public **de 
 
 | Furnizor | Rol | Unde |
 |---|---|---|
-| **Supabase** | Găzduirea bazei de date, autentificare, funcții de server | Uniunea Europeană (Frankfurt) |
-| **OpenRouter** | Direcționarea cererilor către modelul de IA | **În afara Uniunii Europene** |
-| **Mistral AI** (prin OpenRouter) | Modelul care prelucrează textul (Mistral Small) | Prelucrare prin intermediarul de mai sus |
+| **Prestatorul nostru de găzduire** | Găzduirea bazei de date, autentificare, funcții de server | Uniunea Europeană (Frankfurt) |
+| **Prestatorul nostru de prelucrare prin IA** | Direcționarea cererilor și prelucrarea textului de către un model de inteligență artificială terț | **În afara Uniunii Europene** |
 | **Google Play / Google Billing** | Plată, abonamente | Google Ireland / Statele Unite |
 | **Google AdMob** | Publicitate cu recompensă | Google Ireland / Statele Unite |
 | **Google (serviciile de sistem ale telefonului)** | Recunoaștere vocală, module de traducere offline | În funcție de dispozitivul dumneavoastră |
-| **Sentry** (Functional Software, Inc.) | Raportare a plantărilor tehnice — doar erori ale programului, filtrate înainte de trimitere: niciodată textul dumneavoastră | Statele Unite ale Americii |
+| **Prestatorul nostru de raportare a erorilor** | Raportare a plantărilor tehnice — doar erori ale programului, filtrate înainte de trimitere: niciodată textul dumneavoastră | Statele Unite ale Americii |
 
 **Nu vindem niciun fel de date și nu cedăm date către brokeri de date.**
 
-**Transferuri în afara Uniunii Europene:** recurgerea la OpenRouter, la Google Play, la AdMob și la Sentry implică un transfer de date în afara Uniunii Europene. Cadrul juridic al acestor transferuri (clauze contractuale standard, decizie privind caracterul adecvat al nivelului de protecție) **trebuie verificat și documentat de un profesionist înainte de publicare** — a se vedea nota de la sfârșitul documentului.
+**Transferuri în afara Uniunii Europene:** recurgerea la prestatorul nostru de prelucrare prin IA, la Google Play, la AdMob și la prestatorul nostru de raportare a erorilor implică un transfer de date în afara Uniunii Europene. Cadrul juridic al acestor transferuri (clauze contractuale standard, decizie privind caracterul adecvat al nivelului de protecție) **trebuie verificat și documentat de un profesionist înainte de publicare** — a se vedea nota de la sfârșitul documentului.
 
 ---
 
@@ -219,15 +218,6 @@ Orice modificare a prezentei politici va fi publicată la adresa `https://readit
 Condițiile de utilizare a serviciului (cote, abonamente, reziliere) figurează într-un document distinct: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### De dat spre verificare unui profesionist
->
-> Prezentul document a fost redactat prin măsurarea comportamentului real al aplicației, dar **nu a fost redactat de un jurist**. Patru aspecte necesită cu prioritate un aviz profesional:
->
-> 1. **Transferul de date în afara Uniunii Europene** către OpenRouter. Este aspectul cel mai sensibil: trebuie stabilit mecanismul de transfer aplicabil, trebuie verificat că există un acord de prelucrare a datelor cu acest furnizor și trebuie consemnat acest lucru aici. Atât timp cât acest lucru nu este făcut, prezentul document descrie transferul fără a afirma că este încadrat juridic.
-> 2. **Temeiurile juridice** reținute la §7, în special repartizarea între consimțământ și interes legitim pentru serviciul de accesibilitate.
-> 3. **Vârsta minimă** (16 ani) și coerența acesteia cu chestionarul de clasificare a conținutului din Google Play.
-> 4. **Mențiunea referitoare la IA** în temeiul regulamentului european privind inteligența artificială (obligația de transparență pentru un sistem cu risc limitat).
 
 ---
 

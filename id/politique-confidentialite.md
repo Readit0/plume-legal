@@ -7,7 +7,7 @@
 > lagi akurat. Pertama, fitur **bahasa pribadi** menyimpan di server kami konten yang
 > Anda buat (nama, aksara, kosakata) — versi 1.0 keliru menyatakan bahwa tidak ada
 > teks yang disimpan. Kedua, kami sekarang menggunakan sebuah alat **pelaporan
-> kerusakan teknis** (Sentry) — versi 1.0 menyatakan bahwa tidak ada alat semacam itu.
+> kerusakan teknis** — versi 1.0 menyatakan bahwa tidak ada alat semacam itu.
 > Rincian kedua hal ini terdapat di "Dalam satu menit" di bawah, serta di §3 dan §9.
 > Inilah tepatnya dua kategori perubahan yang, di dalam aplikasi, memicu permintaan
 > persetujuan baru (lihat §11).
@@ -87,8 +87,8 @@ Ketika Anda memilih AI Cloud, atau ketika perangkat Anda tidak cukup bertenaga u
 
 **Perjalanan yang sebenarnya harus dijelaskan dengan terus terang:**
 
-- Teks melewati infrastruktur kami (Supabase), yang dihosting di **Uni Eropa** (wilayah Eropa Tengah, Frankfurt).
-- Teks kemudian dikirimkan ke **openrouter.ai**, sebuah perantara perutean yang **berada di luar Uni Eropa**, yang menyerahkan pemrosesannya kepada model **Mistral Small**.
+- Teks melewati infrastruktur server kami, yang dihosting di **Uni Eropa** (wilayah Eropa Tengah, Frankfurt).
+- Teks kemudian dikirimkan ke sebuah perantara perutean yang **berada di luar Uni Eropa**, yang menyerahkan pemrosesannya kepada sebuah model kecerdasan buatan pihak ketiga.
 - **Jadi, ini merupakan transfer data ke luar Uni Eropa.** Kami tidak menyatakan sebaliknya, dan kami tidak menampilkan janji hosting Eropa apa pun untuk tahap ini.
 - **Plume tidak menyimpan teks Anda.** Tidak satu pun fungsi server kami menuliskan isi teks Anda: kami hanya mencatat sebuah identitas teknis permintaan dan identitas perangkat Anda, untuk menghitung kuota Anda dan mendeteksi penyalahgunaan.
 - **Apa yang dilakukan para penyedia itu di pihak mereka, tidak dapat kami jamin.** Kami lebih memilih mengatakannya kepada Anda daripada menjanjikan penyimpanan nol yang tidak mampu kami verifikasi.
@@ -101,7 +101,7 @@ Teks yang dikirim dibatasi: 1.200 karakter untuk satu penyusunan ulang, 4.000 ka
 
 ## 3. Data yang kami simpan
 
-Kami tidak menggunakan **alat analitik audiens apa pun maupun pelacak iklan pihak ketiga apa pun** di luar iklan yang dijelaskan di §5. **Kami menggunakan sebuah alat pelaporan kerusakan teknis** (Sentry): alat ini hanya melihat kesalahan program (jenis kesalahan, jejak panggilan teknis, versi aplikasi, sistem operasi), tidak pernah penggunaan atau alur Anda, dan tidak pernah teks yang Anda tulis — sebuah penyaring khusus mencegahnya sebelum setiap pengiriman. Rinciannya ada di §9.
+Kami tidak menggunakan **alat analitik audiens apa pun maupun pelacak iklan pihak ketiga apa pun** di luar iklan yang dijelaskan di §5. **Kami menggunakan sebuah alat pelaporan kerusakan teknis**: alat ini hanya melihat kesalahan program (jenis kesalahan, jejak panggilan teknis, versi aplikasi, sistem operasi), tidak pernah penggunaan atau alur Anda, dan tidak pernah teks yang Anda tulis — sebuah penyaring khusus mencegahnya sebelum setiap pengiriman. Rinciannya ada di §9.
 
 Berikut keseluruhan yang disimpan di server kami:
 
@@ -115,7 +115,7 @@ Berikut keseluruhan yang disimpan di server kami:
 | **Sinyal teknis penyalahgunaan** (pelampauan berulang, kegagalan pemeriksaan integritas — tanpa teks apa pun) | Keamanan, pemberantasan kecurangan | Dilepaskan dari identitas Anda saat akun dihapus |
 | **Bahasa dan versi aplikasi** | Menyajikan konten yang tepat | Sampai akun Anda dihapus |
 | **Konten bahasa pribadi yang Anda buat** (namanya, aksaranya, dan kosakatanya — kata-kata dan definisi yang Anda, atau orang lain, tuliskan di dalamnya) | Memungkinkan Anda menemukan kembali bahasa Anda di perangkat lain, mengembangkannya, dan membagikannya dengan pengguna lain | Selama bahasa itu ada. Jika Anda menghapusnya, entrinya hilang — tetapi salinan yang sudah **diimpor oleh orang lain** sejak itu menjadi milik orang tersebut dan **tetap ada**, seperti pesan yang sudah diterima oleh pihak ketiga yang tidak dapat kami hapuskan di sisi mereka |
-| **Laporan kerusakan teknis** (jenis kesalahan, jejak panggilan teknis yang dipotong, versi aplikasi, sistem operasi — tidak pernah konten teks) | Mendiagnosis dan memperbaiki kerusakan aplikasi | Dikelola oleh penyedia kami, Sentry (lihat §9). Pengumpulan ini tunduk pada persetujuan Anda dan sebuah saklar yang dapat kami matikan kapan saja, tanpa pembaruan aplikasi |
+| **Laporan kerusakan teknis** (jenis kesalahan, jejak panggilan teknis yang dipotong, versi aplikasi, sistem operasi — tidak pernah konten teks) | Mendiagnosis dan memperbaiki kerusakan aplikasi | Dikelola oleh penyedia pelaporan kerusakan kami (lihat §9). Pengumpulan ini tunduk pada persetujuan Anda dan sebuah saklar yang dapat kami matikan kapan saja, tanpa pembaruan aplikasi |
 
 **Apa yang tidak kami kumpulkan:** nama Anda, kontak Anda, lokasi Anda, buku alamat Anda, foto Anda, kalender Anda, riwayat aplikasi Anda. Plume tidak meminta satu pun izin tersebut.
 
@@ -186,17 +186,16 @@ Karena aplikasi ini memungkinkan penyusunan ulang teks bebas dan menampilkan ikl
 
 | Penyedia | Peran | Di mana |
 |---|---|---|
-| **Supabase** | Hosting basis data, autentikasi, fungsi server | Uni Eropa (Frankfurt) |
-| **OpenRouter** | Perutean permintaan menuju model AI | **Di luar Uni Eropa** |
-| **Mistral AI** (melalui OpenRouter) | Model yang memproses teks (Mistral Small) | Pemrosesan melalui perantara di atas |
+| **Penyedia hosting kami** | Hosting basis data, autentikasi, fungsi server | Uni Eropa (Frankfurt) |
+| **Penyedia pemrosesan AI kami** | Perutean permintaan dan pemrosesan teks oleh sebuah model kecerdasan buatan pihak ketiga | **Di luar Uni Eropa** |
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Serikat |
 | **Google AdMob** | Iklan berhadiah | Google Ireland / Amerika Serikat |
 | **Google (layanan sistem ponsel)** | Pengenalan suara, modul terjemahan luring | Sesuai perangkat Anda |
-| **Sentry** (Functional Software, Inc.) | Pelaporan kerusakan teknis — hanya kesalahan program, disaring sebelum dikirim: tidak pernah teks Anda | Amerika Serikat |
+| **Penyedia pelaporan kerusakan kami** | Pelaporan kerusakan teknis — hanya kesalahan program, disaring sebelum dikirim: tidak pernah teks Anda | Amerika Serikat |
 
 **Kami tidak menjual data apa pun dan tidak menyerahkan data apa pun kepada pialang data.**
 
-**Transfer ke luar Uni Eropa:** penggunaan OpenRouter, Google Play, AdMob, dan Sentry menimbulkan transfer data ke luar Uni Eropa. Kerangka hukum transfer tersebut (klausul kontraktual standar, keputusan kecukupan) **harus diverifikasi dan didokumentasikan oleh seorang profesional sebelum publikasi** — lihat catatan di akhir dokumen.
+**Transfer ke luar Uni Eropa:** penggunaan penyedia pemrosesan AI kami, Google Play, AdMob, dan penyedia pelaporan kerusakan kami menimbulkan transfer data ke luar Uni Eropa. Kerangka hukum transfer tersebut (klausul kontraktual standar, keputusan kecukupan) **harus diverifikasi dan didokumentasikan oleh seorang profesional sebelum publikasi** — lihat catatan di akhir dokumen.
 
 ---
 
@@ -219,15 +218,6 @@ Setiap perubahan kebijakan ini akan dipublikasikan di alamat `https://readit0.gi
 Syarat penggunaan layanan (kuota, langganan, pengakhiran) terdapat dalam dokumen terpisah: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Untuk ditinjau oleh seorang profesional
->
-> Dokumen ini ditulis dengan mengukur perilaku nyata aplikasi, tetapi **tidak ditulis oleh seorang ahli hukum**. Empat hal yang paling memerlukan pendapat profesional:
->
-> 1. **Transfer data ke luar Uni Eropa** menuju OpenRouter. Inilah titik yang paling sensitif: perlu ditetapkan mekanisme transfer yang berlaku, diverifikasi bahwa terdapat perjanjian pemrosesan data dengan penyedia tersebut, dan hal itu dituliskan di sini. Selama hal itu belum dilakukan, dokumen ini menjelaskan transfer tersebut tanpa menyatakan bahwa transfer itu telah diberi kerangka hukum.
-> 2. **Dasar hukum** yang dipilih pada §7, khususnya pembagian antara persetujuan dan kepentingan sah untuk layanan aksesibilitas.
-> 3. **Usia minimum** (16 tahun) dan kesesuaiannya dengan kuesioner klasifikasi konten Google Play.
-> 4. **Pernyataan mengenai AI** berdasarkan peraturan Eropa tentang kecerdasan buatan (kewajiban transparansi untuk sistem berisiko terbatas).
 
 ---
 

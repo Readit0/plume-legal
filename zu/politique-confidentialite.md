@@ -2,7 +2,7 @@
 
 **Ukubuyekezwa kokugcina: 12 Septhemba 2026** — Uhlobo 2.0
 
-> *Okushintshile kusukela ohlotsheni 1.0, nokuthi kungani ningase nibone futhi isikrini sokuvuma ohlelweni lokusebenza:* silungisa izitatimende ezimbili ebezingasenaso iqiniso. Okokuqala, umsebenzi **wezilimi zomuntu siqu** ugcina esiphathelwane sethu okuqukethwe eniyakudalayo (igama, uhlamvu lwezinhlamvu, isichazamazwi) — uhlobo 1.0 lwathi ngephutha akukho mbhalo owugcinayo. Okwesibili, sesisebenzisa ithuluzi **lokubika iphutha lobuchwepheshe** (Sentry) — uhlobo 1.0 lwathi alukho ithuluzi elinjalo. Imininingwane yalezi zinto ezimbili ikuse-"Ngomzuzu owodwa" ngezansi, kanye no-§3 no-§9. Lezi izinhlobo ezimbili zoshintsho eziqala isicelo esisha sokuvuma ohlelweni lokusebenza (bheka i-§11).
+> *Okushintshile kusukela ohlotsheni 1.0, nokuthi kungani ningase nibone futhi isikrini sokuvuma ohlelweni lokusebenza:* silungisa izitatimende ezimbili ebezingasenaso iqiniso. Okokuqala, umsebenzi **wezilimi zomuntu siqu** ugcina esiphathelwane sethu okuqukethwe eniyakudalayo (igama, uhlamvu lwezinhlamvu, isichazamazwi) — uhlobo 1.0 lwathi ngephutha akukho mbhalo owugcinayo. Okwesibili, sesisebenzisa ithuluzi **lokubika iphutha lobuchwepheshe** — uhlobo 1.0 lwathi alukho ithuluzi elinjalo. Imininingwane yalezi zinto ezimbili ikuse-"Ngomzuzu owodwa" ngezansi, kanye no-§3 no-§9. Lezi izinhlobo ezimbili zoshintsho eziqala isicelo esisha sokuvuma ohlelweni lokusebenza (bheka i-§11).
 
 ---
 
@@ -79,8 +79,8 @@ Uma ukhetha i-Cloud AI, noma uma idivayisi yakho ingenamandla anele ye-Local AI,
 
 **Kubalulekile ukucacisa ngendlela yangempela:**
 
-- Umbhalo udlula ngengqalasizinda yethu (Supabase), etholakala **eNyunyaneni yaseYurophu** (isifunda saseYurophu Emaphakathi, iFrankfurt).
-- Bese uthunyelwa ku-**openrouter.ai**, umlamuleli wokuqondisa **otholakala ngaphandle kweNyunyana yaseYurophu**, ovumela imodeli **Mistral Small** ukuthi iwucubungule.
+- Umbhalo udlula ngengqalasizinda yethu yeseva, etholakala **eNyunyaneni yaseYurophu** (isifunda saseYurophu Emaphakathi, iFrankfurt).
+- Bese uthunyelwa kumlamuleli wokuqondisa **otholakala ngaphandle kweNyunyana yaseYurophu**, ovumela imodeli ye-AI yenkampani yesithathu ukuthi iwucubungule.
 - **Kungakho, lokhu kungukudluliswa kwedatha ngaphandle kweNyunyana yaseYurophu.** Asikuphiki lokhu, futhi asethuli sithembiso sokuqoshwa saseYurophu kulesi sinyathelo.
 - **I-Plume ayiwugcini umbhalo wakho.** Awukho umsebenzi wethu weseva obhala okuqukethwe kombhalo wakho: sirekhoda kuphela isibonisi sobuchwepheshe sesicelo nesibonisi sedivayisi yakho, ukuze sibale isabelo sakho futhi sithole ukusetshenziswa okubi.
 - **Lokho abahlinzeki laba abakwenzayo ohlangothini lwabo, asikwazi ukukuqinisekisa.** Sithanda ukukutshela lokhu kunokukuthembisa ukugcinwa okulinganiselwa ku-0 esingakwazi ukukuqinisekisa.
@@ -93,7 +93,7 @@ Umbhalo othunyelwe unomkhawulo: izinhlamvu ezingu-1,200 ekubuyekezeni, izinhlamv
 
 ## 3. Idatha esiyigcinayo
 
-Asisebenzisi **lithuluzi lokulinganisa izilaleli noma ithuluzi lokulandelela lezokukhangisa lomunye umuntu wesithathu** ngaphandle kokukhangisa okuchazwe ku-§5. **Sisebenzisa ithuluzi lokubika iphutha lobuchwepheshe** (Sentry): ibona kuphela amaphutha ohlelo (uhlobo lwephutha, isiteki sokushayelwa kobuchwepheshe, uhlobo lohlelo lokusebenza, isistimu yokusebenza), akubonisi ukusetshenziswa kwakho noma indlela yakho, futhi ayibonisi umbhalo owubhalayo — isihlungi esikhethekile sikuvimba lokhu ngaphambi kokuthunyelwa. Imininingwane iku-§9.
+Asisebenzisi **lithuluzi lokulinganisa izilaleli noma ithuluzi lokulandelela lezokukhangisa lomunye umuntu wesithathu** ngaphandle kokukhangisa okuchazwe ku-§5. **Sisebenzisa ithuluzi lokubika iphutha lobuchwepheshe**: ibona kuphela amaphutha ohlelo (uhlobo lwephutha, isiteki sokushayelwa kobuchwepheshe, uhlobo lohlelo lokusebenza, isistimu yokusebenza), akubonisi ukusetshenziswa kwakho noma indlela yakho, futhi ayibonisi umbhalo owubhalayo — isihlungi esikhethekile sikuvimba lokhu ngaphambi kokuthunyelwa. Imininingwane iku-§9.
 
 Nampa konke okugcinwe kumaseva ethu:
 
@@ -107,7 +107,7 @@ Nampa konke okugcinwe kumaseva ethu:
 | **Izibonisi zobuchwepheshe zokusetshenziswa okubi** (ukudlula amakhefu okuphindiwe, ukwehluleka kokuhlola ubuqotho — ngaphandle kombhalo) | Ukuphepha, ukulwa nenkohliso | Kuhlukaniswa nobunye bakho lapho kususwa i-akhawunti |
 | **Ulimi nohlobo loHlelo lokuSebenza** | Ukuletha okuqukethwe okufanele | Kuze kube yilapho kususwa i-akhawunti yakho |
 | **Okuqukethwe kwezilimi zomuntu siqu ozidalayo** (igama lalo, uhlamvu lwazo lwezinhlamvu, kanye nesichazamazwi salo — amagama nezincazelo eniwabhale wena, noma abanye abantu, kulo) | Ukukuvumela ukuthi uthole ulimi lwakho kwenye idivayisi, ulithuthukise, futhi wabelane nabo bonke abasebenzisi | Inqobo nje uma ulimi lukhona. Uma ulususa, ikhadi lalo liyanyamalala — kodwa ikhophi ese**ithengiwe kakade omunye umuntu** manje isiba ngeyakhe futhi **isala** ngemva kokuthi ususile, njengomlayezo owatholwa kakade umuntu wesithathu, esingakwazi ukuwususa ohlangothini lwakhe |
-| **Imibiko yamaphutha obuchwepheshe** (uhlobo lwephutha, isiteki sokushayelwa kobuchwepheshe esifushanisiwe, uhlobo lohlelo lokusebenza, isistimu yokusebenza — akusiyona okuqukethwe kombhalo) | Ukuhlonza nokulungisa amaphutha ohlelo lokusebenza | Kulawulwa umhlinzeki wethu iSentry (bheka i-§9). Lokhu kuqoqwa kudinga imvume yakho kanye nesiswiphi esingavalwa noma nini, ngaphandle kokubuyekeza uhlelo lokusebenza |
+| **Imibiko yamaphutha obuchwepheshe** (uhlobo lwephutha, isiteki sokushayelwa kobuchwepheshe esifushanisiwe, uhlobo lohlelo lokusebenza, isistimu yokusebenza — akusiyona okuqukethwe kombhalo) | Ukuhlonza nokulungisa amaphutha ohlelo lokusebenza | Kulawulwa umhlinzeki wethu wemibiko yamaphutha (bheka i-§9). Lokhu kuqoqwa kudinga imvume yakho kanye nesiswiphi esingavalwa noma nini, ngaphandle kokubuyekeza uhlelo lokusebenza |
 
 **Lokho esingakuqoqi:** igama lakho, oxhumana nabo, indawo okuyo, incwadi yamakheli akho, izithombe zakho, ikhalenda yakho, umlando wezinhlelo zakho zokusebenza. I-Plume ayiceli noma iyiphi yalezi zimvume.
 
@@ -178,17 +178,16 @@ Njengoba uhlelo lokusebenza luvumela ukubuyekezwa kombhalo omahhala futhi luboni
 
 | Umhlinzeki | Indima | Kuphi |
 |---|---|---|
-| **Supabase** | Ukubuka isizinda sedatha, ukuqinisekiswa, imisebenzi yeseva | INyunyana yaseYurophu (iFrankfurt) |
-| **OpenRouter** | Ukuqondisa izicelo kumodeli ye-AI | **Ngaphandle kweNyunyana yaseYurophu** |
-| **Mistral AI** (nge-OpenRouter) | Imodeli ecubungula umbhalo (Mistral Small) | Ukucubungula ngomlamuleli ongenhla |
+| **Umhlinzeki wethu wokubamba** | Ukubuka isizinda sedatha, ukuqinisekiswa, imisebenzi yeseva | INyunyana yaseYurophu (iFrankfurt) |
+| **Umhlinzeki wethu wokucubungula nge-AI** | Ukuqondisa izicelo nokucubungula umbhalo ngemodeli ye-AI yenkampani yesithathu | **Ngaphandle kweNyunyana yaseYurophu** |
 | **Google Play / Google Billing** | Inkokhelo, ukubhalisela | Google Ireland / Amazwe Ahlangene aseMelika |
 | **Google AdMob** | Ukukhangisa okunomvuzo | Google Ireland / Amazwe Ahlangene aseMelika |
 | **Google (izinsizakalo zesistimu zefoni)** | Ukubona izwi, izingxenye zokuhumusha ngaphandle kwe-inthanethi | Kuya ngedivayisi yakho |
-| **Sentry** (Functional Software, Inc.) | Ukubika iphutha lobuchwepheshe — amaphutha ohlelo kuphela, ahlungwa ngaphambi kokuthunyelwa: akusoze umbhalo wakho | Amazwe Ahlangene aseMelika |
+| **Umhlinzeki wethu wemibiko yamaphutha** | Ukubika iphutha lobuchwepheshe — amaphutha ohlelo kuphela, ahlungwa ngaphambi kokuthunyelwa: akusoze umbhalo wakho | Amazwe Ahlangene aseMelika |
 
 **Asithengisi noma iyiphi idatha futhi asiyidluliseli kubathengisi bedatha.**
 
-**Ukudluliswa ngaphandle kweNyunyana yaseYurophu:** ukusebenzisa i-OpenRouter, i-Google Play, i-AdMob ne-Sentry kuphakamisa ukudluliswa kwedatha ngaphandle kweNyunyana yaseYurophu.
+**Ukudluliswa ngaphandle kweNyunyana yaseYurophu:** ukusebenzisa umhlinzeki wethu wokucubungula nge-AI, i-Google Play, i-AdMob nomhlinzeki wethu wemibiko yamaphutha kuphakamisa ukudluliswa kwedatha ngaphandle kweNyunyana yaseYurophu.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Diweddarwyd ddiwethaf: 12 Medi 2026** — Fersiwn 2.0
 
-> *Beth sydd wedi newid ers fersiwn 1.0, a pham efallai y byddwch chi'n gweld sgrin dderbyn eto yn yr ap:* rydym yn cywiro dau ddatganiad nad oeddent yn gywir mwyach. Yn gyntaf, mae'r nodwedd **ieithoedd personol** yn cadw ar ein gweinyddion y cynnwys rydych chi'n ei greu (enw, gwyddor, geirfa) — roedd fersiwn 1.0 yn honni ar gam nad oedd unrhyw destun yn cael ei gadw. Yn ail, rydym bellach yn defnyddio offeryn **adrodd am ddamweiniau technegol** (Sentry) — roedd fersiwn 1.0 yn honni nad oedd unrhyw offeryn o'r math hwn yn bodoli. Mae manylion y ddau bwynt hyn yn 'Mewn munud' isod, yn ogystal ag yn §3 a §9. Dyma'n union y ddwy gategori o newid sy'n sbarduno, yn yr ap, gais newydd am gytundeb (gweler §11).
+> *Beth sydd wedi newid ers fersiwn 1.0, a pham efallai y byddwch chi'n gweld sgrin dderbyn eto yn yr ap:* rydym yn cywiro dau ddatganiad nad oeddent yn gywir mwyach. Yn gyntaf, mae'r nodwedd **ieithoedd personol** yn cadw ar ein gweinyddion y cynnwys rydych chi'n ei greu (enw, gwyddor, geirfa) — roedd fersiwn 1.0 yn honni ar gam nad oedd unrhyw destun yn cael ei gadw. Yn ail, rydym bellach yn defnyddio offeryn **adrodd am ddamweiniau technegol** — roedd fersiwn 1.0 yn honni nad oedd unrhyw offeryn o'r math hwn yn bodoli. Mae manylion y ddau bwynt hyn yn 'Mewn munud' isod, yn ogystal ag yn §3 a §9. Dyma'n union y ddwy gategori o newid sy'n sbarduno, yn yr ap, gais newydd am gytundeb (gweler §11).
 
 ---
 
@@ -79,8 +79,8 @@ Pan fyddwch chi'n dewis AI y Cwmwl, neu pan nad yw eich dyfais yn ddigon pwerus 
 
 **Rhaid bod yn glir am y daith wirioneddol:**
 
-- Mae'r testun yn mynd drwy ein seilwaith (Supabase), sy'n cael ei gynnal yn yr **Undeb Ewropeaidd** (rhanbarth Canolbarth Ewrop, Frankfurt).
-- Yna caiff ei drosglwyddo i **openrouter.ai**, cyfryngwr llwybro **sydd wedi'i leoli y tu allan i'r Undeb Ewropeaidd**, sy'n ei roi i'w brosesu gan y model **Mistral Small**.
+- Mae'r testun yn mynd drwy ein seilwaith gweinydd, sy'n cael ei gynnal yn yr **Undeb Ewropeaidd** (rhanbarth Canolbarth Ewrop, Frankfurt).
+- Yna caiff ei drosglwyddo i gyfryngwr llwybro **sydd wedi'i leoli y tu allan i'r Undeb Ewropeaidd**, sy'n ei roi i'w brosesu gan fodel deallusrwydd artiffisial trydydd parti.
 - **Trosglwyddiad data y tu allan i'r Undeb Ewropeaidd yw hyn, felly.** Nid ydym yn honni'n wahanol, ac nid ydym yn arddangos unrhyw addewid o gynnal Ewropeaidd ar gyfer y cam hwn.
 - **Nid yw Plume yn cadw eich testun.** Nid oes yr un o'n swyddogaethau gweinydd yn ysgrifennu cynnwys eich testun: nid ydym yn cofnodi ond dynodydd technegol y cais a dynodydd eich dyfais, er mwyn cyfrif eich cwota a chanfod camddefnydd.
 - **Ni allwn warantu'r hyn y mae'r darparwyr hyn yn ei wneud o'u hochr nhw.** Mae'n well gennym ddweud hynny wrthych na'ch addo dim cadw o gwbl, rhywbeth nad ydym mewn sefyllfa i'w wirio.
@@ -93,7 +93,7 @@ Mae terfyn ar y testun a anfonir: 1,200 o gymeriadau ar gyfer ailysgrifennu, 4,0
 
 ## 3. Y data rydym yn ei gadw
 
-Nid ydym yn defnyddio **unrhyw offeryn dadansoddi cynulleidfa nac unrhyw draciwr hysbysebu trydydd parti**, ar wahân i'r hysbysebu a ddisgrifir yn §5. **Rydym yn defnyddio offeryn adrodd am ddamweiniau technegol** (Sentry): nid yw'n gweld dim ond gwallau rhaglen (math y gwall, pentwr galwadau technegol, fersiwn yr ap, system weithredu), byth eich defnydd na'ch taith, a byth y testun rydych chi'n ei ysgrifennu — mae hidlydd pwrpasol yn gwahardd hynny cyn unrhyw anfoniad. Mae'r manylion yn §9.
+Nid ydym yn defnyddio **unrhyw offeryn dadansoddi cynulleidfa nac unrhyw draciwr hysbysebu trydydd parti**, ar wahân i'r hysbysebu a ddisgrifir yn §5. **Rydym yn defnyddio offeryn adrodd am ddamweiniau technegol**: nid yw'n gweld dim ond gwallau rhaglen (math y gwall, pentwr galwadau technegol, fersiwn yr ap, system weithredu), byth eich defnydd na'ch taith, a byth y testun rydych chi'n ei ysgrifennu — mae hidlydd pwrpasol yn gwahardd hynny cyn unrhyw anfoniad. Mae'r manylion yn §9.
 
 Dyma'r cyfan sy'n cael ei storio ar ein gweinyddion:
 
@@ -107,7 +107,7 @@ Dyma'r cyfan sy'n cael ei storio ar ein gweinyddion:
 | **Signalau technegol o gamddefnydd** (mynd dros y terfyn dro ar ôl tro, methiant gwiriad cywirdeb — heb unrhyw destun) | Diogelwch, atal twyll | Yn cael eu datgysylltu oddi wrth eich hunaniaeth pan gaiff y cyfrif ei ddileu |
 | **Iaith a fersiwn yr ap** | Darparu'r cynnwys cywir | Hyd nes y bydd eich cyfrif yn cael ei ddileu |
 | **Cynnwys yr ieithoedd personol rydych chi'n eu creu** (ei enw, ei gwyddor, a'i geirfa — y geiriau a'r diffiniadau rydych chi, neu bobl eraill, wedi'u hysgrifennu ynddi) | Eich galluogi i adfer eich iaith ar ddyfais arall, ei datblygu, a'i rhannu â defnyddwyr eraill | Cyhyd ag y bydd yr iaith yn bodoli. Os byddwch yn ei dileu, mae ei chofnod yn diflannu — ond mae copi sydd eisoes **wedi'i mewnforio gan berson arall** yn perthyn iddo ef o hynny ymlaen ac yn **goroesi**, fel neges y mae trydydd parti eisoes wedi'i derbyn na allwn fynd i'w dileu ganddo |
-| **Adroddiadau am ddamweiniau technegol** (math y gwall, pentwr galwadau technegol wedi'i dorri'n fyr, fersiwn yr ap, system weithredu — byth gynnwys testun) | Diagnosio a chywiro damweiniau'r ap | Yn cael ei reoli gan ein darparwr Sentry (gweler §9). Mae'r casglu hwn yn amodol ar eich caniatâd ac ar switsh y gallwn ei ddiffodd unrhyw bryd, heb ddiweddariad i'r ap |
+| **Adroddiadau am ddamweiniau technegol** (math y gwall, pentwr galwadau technegol wedi'i dorri'n fyr, fersiwn yr ap, system weithredu — byth gynnwys testun) | Diagnosio a chywiro damweiniau'r ap | Yn cael ei reoli gan ein darparwr adrodd am ddamweiniau (gweler §9). Mae'r casglu hwn yn amodol ar eich caniatâd ac ar switsh y gallwn ei ddiffodd unrhyw bryd, heb ddiweddariad i'r ap |
 
 **Yr hyn nad ydym yn ei gasglu:** eich enw, eich cysylltiadau, eich lleoliad, eich llyfr cyfeiriadau, eich lluniau, eich calendr, hanes eich apiau. Nid yw Plume yn gofyn am yr un o'r caniatadau hyn.
 
@@ -178,17 +178,16 @@ Gan fod yr ap yn caniatáu ailysgrifennu testun rhydd ac yn dangos hysbysebion, 
 
 | Darparwr | Rôl | Ble |
 |---|---|---|
-| **Supabase** | Cynnal y gronfa ddata, dilysu, swyddogaethau gweinydd | Yr Undeb Ewropeaidd (Frankfurt) |
-| **OpenRouter** | Llwybro'r ceisiadau at y model AI | **Y tu allan i'r Undeb Ewropeaidd** |
-| **Mistral AI** (drwy OpenRouter) | Y model sy'n prosesu'r testun (Mistral Small) | Prosesu drwy'r cyfryngwr uchod |
+| **Ein darparwr cynnal** | Cynnal y gronfa ddata, dilysu, swyddogaethau gweinydd | Yr Undeb Ewropeaidd (Frankfurt) |
+| **Ein darparwr prosesu AI** | Llwybro'r ceisiadau a phrosesu'r testun gan fodel deallusrwydd artiffisial trydydd parti | **Y tu allan i'r Undeb Ewropeaidd** |
 | **Google Play / Google Billing** | Talu, tanysgrifiadau | Google Ireland / Yr Unol Daleithiau |
 | **Google AdMob** | Hysbysebu gwobrwyol | Google Ireland / Yr Unol Daleithiau |
 | **Google (gwasanaethau system y ffôn)** | Adnabod llais, modiwlau cyfieithu all-lein | Yn dibynnu ar eich dyfais |
-| **Sentry** (Functional Software, Inc.) | Adrodd am ddamweiniau technegol — gwallau'r rhaglen yn unig, wedi'u hidlo cyn eu hanfon: byth eich testun | Yr Unol Daleithiau |
+| **Ein darparwr adrodd am ddamweiniau** | Adrodd am ddamweiniau technegol — gwallau'r rhaglen yn unig, wedi'u hidlo cyn eu hanfon: byth eich testun | Yr Unol Daleithiau |
 
 **Nid ydym yn gwerthu unrhyw ddata ac nid ydym yn trosglwyddo dim ohono i froceriaid data.**
 
-**Trosglwyddiadau y tu allan i'r Undeb Ewropeaidd:** mae defnyddio OpenRouter, Google Play, AdMob a Sentry yn golygu trosglwyddo data y tu allan i'r Undeb Ewropeaidd. **Rhaid i weithiwr proffesiynol wirio a dogfennu'r fframwaith cyfreithiol ar gyfer y trosglwyddiadau hyn** (cymalau contractiol safonol, penderfyniad digonolrwydd) **cyn cyhoeddi** — gweler y nodyn ar ddiwedd y ddogfen.
+**Trosglwyddiadau y tu allan i'r Undeb Ewropeaidd:** mae defnyddio ein darparwr prosesu AI, Google Play, AdMob a'n darparwr adrodd am ddamweiniau yn golygu trosglwyddo data y tu allan i'r Undeb Ewropeaidd. **Rhaid i weithiwr proffesiynol wirio a dogfennu'r fframwaith cyfreithiol ar gyfer y trosglwyddiadau hyn** (cymalau contractiol safonol, penderfyniad digonolrwydd) **cyn cyhoeddi** — gweler y nodyn ar ddiwedd y ddogfen.
 
 ---
 
@@ -211,15 +210,6 @@ Bydd unrhyw newid i'r polisi hwn yn cael ei gyhoeddi yn `https://readit0.github.
 Mae telerau defnyddio'r gwasanaeth (cwotâu, tanysgrifiadau, canslo) mewn dogfen ar wahân: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### I'w adolygu gan weithiwr proffesiynol
->
-> Cafodd y ddogfen hon ei hysgrifennu drwy fesur ymddygiad gwirioneddol yr ap, ond **nid cyfreithiwr a'i hysgrifennodd**. Mae pedwar pwynt yn haeddu barn broffesiynol yn gyntaf:
->
-> 1. **Trosglwyddo data y tu allan i'r Undeb Ewropeaidd** at OpenRouter. Dyma'r pwynt mwyaf sensitif: rhaid pennu pa fecanwaith trosglwyddo sy'n berthnasol, gwirio bod cytundeb prosesu data yn bodoli gyda'r darparwr hwn, a'i ysgrifennu yma. Hyd nes y bydd hynny wedi'i wneud, mae'r ddogfen hon yn disgrifio'r trosglwyddo heb honni ei fod wedi'i fframio'n gyfreithiol.
-> 2. **Y seiliau cyfreithlon** a ddewiswyd yn §7, yn enwedig y rhaniad rhwng caniatâd a buddiant cyfreithlon ar gyfer y gwasanaeth hygyrchedd.
-> 3. **Yr oedran lleiaf** (16 oed) a'i gysondeb â holiadur dosbarthu cynnwys Google Play.
-> 4. **Y datganiad ynghylch AI** o dan y rheoliad Ewropeaidd ar ddeallusrwydd artiffisial (rhwymedigaeth tryloywder ar gyfer system risg gyfyngedig).
 
 ---
 

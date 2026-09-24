@@ -2,7 +2,7 @@
 
 **A yɛlɛmana laban: 12 sɛtanburu 2026** — Versiyɔn 2.0
 
-> *Min yɛlɛmana kabini versiyɔn 1.0, ani mun na i bɛ se ka nangu ekran ye kokura aplikasiyɔn kɔnɔ:* an bɛ ka fɔta fila latilen minnu tun tɛ tiɲɛ ye tugun. Fɔlɔ, **kan yɛrɛda** fɛɛn bɛ i ka daɲɛgafe kunnafoniw (tɔgɔ, alifabɛ, daɲɛgafe) mara an ka sɛrivɛriw kan — versiyɔn 1.0 tun b'a fɔ, filiw kan, ko sɛbɛn si tɛ mara yɔrɔ si. O kɔfɛ, an bɛ ka jumtukaay dɔ baara la sisan min bɛ wele **teknikitigi binni rapɔɔri** (Sentry) — versiyɔn 1.0 tun b'a fɔ ko jumtukaay sugu min tɛ yen. Ninnu ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ ka taa ɲɛ, ani §3 ni §9 fana kɔnɔ. O ye ninnu ye yɛlɛmali suguya fila minnu bɛ nangu kura ɲini aplikasiyɔn kɔnɔ (§11 lajɛ).
+> *Min yɛlɛmana kabini versiyɔn 1.0, ani mun na i bɛ se ka nangu ekran ye kokura aplikasiyɔn kɔnɔ:* an bɛ ka fɔta fila latilen minnu tun tɛ tiɲɛ ye tugun. Fɔlɔ, **kan yɛrɛda** fɛɛn bɛ i ka daɲɛgafe kunnafoniw (tɔgɔ, alifabɛ, daɲɛgafe) mara an ka sɛrivɛriw kan — versiyɔn 1.0 tun b'a fɔ, filiw kan, ko sɛbɛn si tɛ mara yɔrɔ si. O kɔfɛ, an bɛ ka jumtukaay dɔ baara la sisan min bɛ wele **teknikitigi binni rapɔɔri** — versiyɔn 1.0 tun b'a fɔ ko jumtukaay sugu min tɛ yen. Ninnu ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ ka taa ɲɛ, ani §3 ni §9 fana kɔnɔ. O ye ninnu ye yɛlɛmali suguya fila minnu bɛ nangu kura ɲini aplikasiyɔn kɔnɔ (§11 lajɛ).
 
 ---
 
@@ -79,8 +79,8 @@ Ni i ye IA Cloud sugandi, walima ni i ka sañse barika tɛ IA bataki bi bolo, s�
 
 A ka kan ka jɛya sira tiɲɛ kan :
 
-- Sɛbɛn bɛ tɛmɛ an ka enfrasitiriktiri (Supabase) fɛ, min bɛ to Ɛrɔpu Tɔn kɔnɔ (Ɛrɔpu Cɛmancɛ mara, Francfort).
-- O kɔfɛ a bɛ ci openrouter.ai ma, min ye siraɲɛnabɔ cɛtigi ye min bɛ Ɛrɔpu Tɔn kɔfɛ, min b'a to modɛli Mistral Small ka baara la a kan.
+- Sɛbɛn bɛ tɛmɛ an ka sɛrivɛri enfrasitiriktiri fɛ, min bɛ to Ɛrɔpu Tɔn kɔnɔ (Ɛrɔpu Cɛmancɛ mara, Francfort).
+- O kɔfɛ a bɛ ci siraɲɛnabɔ cɛtigi dɔ ma, min bɛ Ɛrɔpu Tɔn kɔfɛ, min b'a to mɔgɔ wɛrɛ ka IA modɛli ka baara la a kan.
 - O de kosɔn, o ye kunnafoni ɲɛnabɔli ye ka bɔ Ɛrɔpu Tɔn kɔfɛ. An t'a fɔ ko o tɛ ten, an tɛ layidu si ta ko baara nin bɛ kɛ Ɛrɔpu kɔnɔ.
 - Plume tɛ i ka sɛbɛn mara. An ka sɛrivɛri fɛɛn si tɛ i ka sɛbɛn kunnafoniw sɛbɛn : an bɛ ɲininiw idantifan teknik ni i ka sañse idantifan dɔrɔn de mara, walasa ka i ka kota jate ani ka baara juguw dɔn.
 - An tɛ se k'a lakana min bɛ kɛ dɛmɛbaga ninnu fɛ u yɛrɛ la. An b'a fɛ ka o fɔ i ye ka tɛmɛ ka layidu di i ma ko sɛbɛn si tɛ mara, an tɛ se ka o sɛgɛsɛgɛ.
@@ -93,7 +93,7 @@ Sɛbɛn min bɛ ci, a hakɛ dan bɛnna : kaɛrɛntɛri 1200 kɔsegin kelen na, k
 
 ## 3. Kunnafoni minnu an bɛ mara
 
-An tɛ lamɛnnikɛlaw sɛgɛsɛgɛli jumtukaay si baara la, an tɛ piblisite tati mɔgɔ saba nan si baara la fo piblisite min ɲɛfɔra §5 kɔnɔ. An bɛ teknikitigi binni rapɔɔri jumtukaay (Sentry) baara la : a bɛ porogaramu fili dɔrɔn ye (fili suguya, teknik wele sɛnɛ, aplikasiyɔn versiyɔn, sistɛmu jɔnjɔnnen), a tɛ i ka baarakɛcogo ye abada wala i ka sira ye, a tɛ i ka sɛbɛn ye abada — filitɛri kɛrɛnkɛrɛnnen b'a bali sani ciyɛn bɛɛ ka kɛ. Ɲɛfɔli bɛ §9 kɔnɔ.
+An tɛ lamɛnnikɛlaw sɛgɛsɛgɛli jumtukaay si baara la, an tɛ piblisite tati mɔgɔ saba nan si baara la fo piblisite min ɲɛfɔra §5 kɔnɔ. An bɛ teknikitigi binni rapɔɔri jumtukaay baara la : a bɛ porogaramu fili dɔrɔn ye (fili suguya, teknik wele sɛnɛ, aplikasiyɔn versiyɔn, sistɛmu jɔnjɔnnen), a tɛ i ka baarakɛcogo ye abada wala i ka sira ye, a tɛ i ka sɛbɛn ye abada — filitɛri kɛrɛnkɛrɛnnen b'a bali sani ciyɛn bɛɛ ka kɛ. Ɲɛfɔli bɛ §9 kɔnɔ.
 
 Ninnu bɛɛ ye min mara an ka sɛrivɛriw kan :
 
@@ -107,7 +107,7 @@ Ninnu bɛɛ ye min mara an ka sɛrivɛriw kan :
 | **Baara-jugu teknik taamasiyɛnw** (dan-tɛmɛli caman, sɛbɛnni-sɛbɛnnen sɛgɛsɛgɛli dɛsɛli — sɛbɛn si t'a la) | Lakana, nanbaraya kɛlɛ | A bɔlen bɛ i yɛrɛ la konti jɔsili waati |
 | **Aplikasiyɔn kan ni versiyɔn** | Ka kunnafoni bɛnnen di i ma | Fo i ka konti ka jɔsi tuma |
 | **Kan yɛrɛda minnu i bɛ dilan olu kunnafoniw** (a tɔgɔ, a alifabɛ, ani a daɲɛgafe — daɲɛw ni u kɔrɔfɔlenw i, walima mɔgɔ tɔw, ye minnu sɛbɛn a la) | Ka a to i ka se ka i ka kan sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa, k'a tila baarakɛla tɔw fɛ | Fo kan ka to yen. Ni i y'a jɔsi, a fisi bɛ tunun — nka mɔgɔ wɛrɛ ye kopi min ta ka a don a yɛrɛ la ka kɔrɔmɛ, o kopi bɛ kɛ o mɔgɔ ta ye ka to yen — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ |
-| **Teknikitigi binni rapɔɔriw** (fili suguya, teknik wele sɛnɛ tigɛlen, aplikasiyɔn versiyɔn, sistɛmu jɔnjɔnnen — sɛbɛn kunnafoni tɛ abada) | Ka aplikasiyɔn binniw dɔn ka u latilen | An ka dɛmɛbaga Sentry de b'a kunbɛn (§9 lajɛ). Kunnafoni lajɛli nin bɛ bɛn i ka nangu ma ani switi dɔ ma an bɛ se min tigɛ tuma o tuma, aplikasiyɔn yɛlɛmali t'a la |
+| **Teknikitigi binni rapɔɔriw** (fili suguya, teknik wele sɛnɛ tigɛlen, aplikasiyɔn versiyɔn, sistɛmu jɔnjɔnnen — sɛbɛn kunnafoni tɛ abada) | Ka aplikasiyɔn binniw dɔn ka u latilen | An ka binni rapɔɔri dɛmɛbaga de b'a kunbɛn (§9 lajɛ). Kunnafoni lajɛli nin bɛ bɛn i ka nangu ma ani switi dɔ ma an bɛ se min tigɛ tuma o tuma, aplikasiyɔn yɛlɛmali t'a la |
 
 An tɛ min lajɛ : i tɔgɔ, i ka mɔgɔw kontaki, i ka yɔrɔ, i ka adɛrɛsi gafe, i ka fotow, i ka pograamu-kalanda, i ka aplikasiyɔnw tariku. Plume tɛ yamaruya ninnu si ɲini.
 
@@ -178,17 +178,16 @@ Komi aplikasiyɔn b'a to sɛbɛn hɔrɔnyalen kɔsegin ani a bɛ piblisite jira,
 
 | Dɛmɛbaga | A ka baara | Yɔrɔ |
 |---|---|---|
-| **Supabase** | Kunnafoni-jɔyɔrɔ marayɔrɔ, sɛmɛntiyali, sɛrivɛri baaraw | Ɛrɔpu Tɔn (Francfort) |
-| **OpenRouter** | Ɲininiw sira jira IA modɛli ma | **Ɛrɔpu Tɔn kɔfɛ** |
-| **Mistral AI** (OpenRouter fɛ) | Modɛli min bɛ sɛbɛn baara la (Mistral Small) | Baara bɛ kɛ cɛtigi sanfɛla fɛ |
+| **An ka marayɔrɔ dɛmɛbaga** | Kunnafoni-jɔyɔrɔ marayɔrɔ, sɛmɛntiyali, sɛrivɛri baaraw | Ɛrɔpu Tɔn (Francfort) |
+| **An ka IA baara dɛmɛbaga** | Ɲininiw sira jirali ani sɛbɛn baara kɛli mɔgɔ wɛrɛ ka IA modɛli fɛ | **Ɛrɔpu Tɔn kɔfɛ** |
 | **Google Play / Google Billing** | Sara, Abɔnema | Google Ireland / Etazini |
 | **Google AdMob** | Piblisite sara | Google Ireland / Etazini |
 | **Google** (telefɔni sistɛmu sɛrivisiw) | Kumakan dɔnni, baabuli modɛli network t'a la | Ka bɛn i ka sañse ma |
-| **Sentry** (Functional Software, Inc.) | Teknikitigi binni rapɔɔri — porogaramu fili dɔrɔn, filitɛrilen sani ciyɛn : i ka sɛbɛn tɛ abada | Etazini |
+| **An ka binni rapɔɔri dɛmɛbaga** | Teknikitigi binni rapɔɔri — porogaramu fili dɔrɔn, filitɛrilen sani ciyɛn : i ka sɛbɛn tɛ abada | Etazini |
 
 An tɛ kunnafoni si feere, an tɛ kunnafoni si di kunnafoni-feerekɛlaw ma.
 
-Ɛrɔpu Tɔn kɔfɛ ɲɛnabɔliw : OpenRouter, Google Play, AdMob, ani Sentry ka baara bɛ kɛ sabu ye kunnafoni ɲɛnabɔli ka bɔ Ɛrɔpu Tɔn kɔfɛ.
+Ɛrɔpu Tɔn kɔfɛ ɲɛnabɔliw : An ka IA baara dɛmɛbaga, Google Play, AdMob, ani an ka binni rapɔɔri dɛmɛbaga ka baara bɛ kɛ sabu ye kunnafoni ɲɛnabɔli ka bɔ Ɛrɔpu Tɔn kɔfɛ.
 
 ---
 

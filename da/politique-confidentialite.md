@@ -2,7 +2,7 @@
 
 **Sidst opdateret: 12. september 2026** — Version 2.0
 
-> *Hvad der er ændret siden version 1.0, og hvorfor du måske ser samtykkeskærmen igen i appen:* vi retter to udsagn, der ikke længere var korrekte. For det første gemmer funktionen **personlige sprog** på vores servere det indhold, du opretter (navn, alfabet, ordbog) — version 1.0 hævdede fejlagtigt, at ingen tekst blev gemt. For det andet bruger vi nu et værktøj til **tekniske fejlrapporter** (Sentry) — version 1.0 hævdede, at der ikke fandtes et sådant værktøj. Detaljerne om disse to punkter findes i »På et minut« nedenfor samt i §3 og §9. Det er netop disse to kategorier af ændring, der i appen udløser en ny anmodning om samtykke (se §11).
+> *Hvad der er ændret siden version 1.0, og hvorfor du måske ser samtykkeskærmen igen i appen:* vi retter to udsagn, der ikke længere var korrekte. For det første gemmer funktionen **personlige sprog** på vores servere det indhold, du opretter (navn, alfabet, ordbog) — version 1.0 hævdede fejlagtigt, at ingen tekst blev gemt. For det andet bruger vi nu et værktøj til **tekniske fejlrapporter** — version 1.0 hævdede, at der ikke fandtes et sådant værktøj. Detaljerne om disse to punkter findes i »På et minut« nedenfor samt i §3 og §9. Det er netop disse to kategorier af ændring, der i appen udløser en ny anmodning om samtykke (se §11).
 
 ---
 
@@ -79,8 +79,8 @@ Når du vælger Cloud-AI, eller når din enhed ikke er kraftig nok til den lokal
 
 **Man skal være klar om den reelle vej:**
 
-- Teksten passerer gennem vores infrastruktur (Supabase), der hostes i **Den Europæiske Union** (regionen Centraleuropa, Frankfurt).
-- Den sendes derefter til **openrouter.ai**, en routingformidler, **der ligger uden for Den Europæiske Union**, som lader modellen **Mistral Small** behandle den.
+- Teksten passerer gennem vores serverinfrastruktur, der hostes i **Den Europæiske Union** (regionen Centraleuropa, Frankfurt).
+- Den sendes derefter til en routingformidler, **der ligger uden for Den Europæiske Union**, som lader en tredjeparts model for kunstig intelligens behandle den.
 - **Der er altså tale om en overførsel af oplysninger til et land uden for Den Europæiske Union.** Vi påstår ikke det modsatte, og vi giver ingen løfter om europæisk hosting for dette trin.
 - **Plume gemmer ikke din tekst.** Ingen af vores serverfunktioner skriver indholdet af din tekst ned: vi registrerer kun en teknisk identifikator for anmodningen og identifikatoren for din enhed for at tælle din kvote og opdage misbrug.
 - **Hvad disse leverandører gør på deres side, kan vi ikke garantere.** Vi foretrækker at sige det ligeud frem for at love dig en nulopbevaring, som vi ikke er i stand til at kontrollere.
@@ -93,7 +93,7 @@ Den tekst, der sendes, har et loft: 1.200 tegn for en omformulering, 4.000 tegn 
 
 ## 3. De oplysninger, vi gemmer
 
-Vi bruger **intet værktøj til publikumsanalyse og ingen tredjeparts reklamesporing**, ud over den reklame, der er beskrevet i §5. **Vi bruger et værktøj til tekniske fejlrapporter** (Sentry): det ser kun programfejl (fejltype, teknisk kaldstak, appversion, styresystem), aldrig din brug eller dit forløb, og aldrig den tekst, du skriver — et dedikeret filter forhindrer det, inden noget sendes. Detaljerne findes i §9.
+Vi bruger **intet værktøj til publikumsanalyse og ingen tredjeparts reklamesporing**, ud over den reklame, der er beskrevet i §5. **Vi bruger et værktøj til tekniske fejlrapporter**: det ser kun programfejl (fejltype, teknisk kaldstak, appversion, styresystem), aldrig din brug eller dit forløb, og aldrig den tekst, du skriver — et dedikeret filter forhindrer det, inden noget sendes. Detaljerne findes i §9.
 
 Her er alt, hvad der gemmes på vores servere:
 
@@ -107,7 +107,7 @@ Her er alt, hvad der gemmes på vores servere:
 | **Tekniske signaler om misbrug** (gentagne overskridelser, mislykket integritetskontrol af appen — uden nogen tekst) | Sikkerhed, bekæmpelse af svindel | Løsrives fra din identitet, når kontoen slettes |
 | **Appens sprog og version** | Levere det rigtige indhold | Indtil din konto slettes |
 | **Indholdet af de personlige sprog, du opretter** (dets navn, dets alfabet og dets ordbog — de ord og betydninger, du eller andre har skrevet i det) | Lade dig genfinde dit sprog på en anden enhed, udvikle det og dele det med andre brugere | Så længe sproget findes. Hvis du sletter det, forsvinder dets profil — men en kopi, der allerede er **importeret af en anden person**, tilhører derefter den pågældende og **overlever**, ligesom en besked, en tredjepart allerede har modtaget, og som vi ikke kan slette hos vedkommende |
-| **Tekniske fejlrapporter** (fejltype, forkortet teknisk kaldstak, appversion, styresystem — aldrig et tekstindhold) | Diagnosticere og rette appens fejl | Styret af vores leverandør Sentry (se §9). Denne indsamling er underlagt dit samtykke og en kontakt, vi til enhver tid kan slå fra uden en appopdatering |
+| **Tekniske fejlrapporter** (fejltype, forkortet teknisk kaldstak, appversion, styresystem — aldrig et tekstindhold) | Diagnosticere og rette appens fejl | Styret af vores leverandør af fejlrapportering (se §9). Denne indsamling er underlagt dit samtykke og en kontakt, vi til enhver tid kan slå fra uden en appopdatering |
 
 **Hvad vi ikke indsamler:** dit navn, dine kontakter, din placering, din adressebog, dine billeder, din kalender, historikken over dine apps. Plume beder ikke om nogen af disse tilladelser.
 
@@ -178,17 +178,16 @@ Da appen gør det muligt at omformulere fri tekst og viser reklame, er den ikke 
 
 | Leverandør | Rolle | Hvor |
 |---|---|---|
-| **Supabase** | Hosting af databasen, godkendelse, serverfunktioner | Den Europæiske Union (Frankfurt) |
-| **OpenRouter** | Videresendelse af anmodningerne til AI-modellen | **Uden for Den Europæiske Union** |
-| **Mistral AI** (via OpenRouter) | Model, der behandler teksten (Mistral Small) | Behandling via formidleren ovenfor |
+| **Vores hostingleverandør** | Hosting af databasen, godkendelse, serverfunktioner | Den Europæiske Union (Frankfurt) |
+| **Vores leverandør af AI-behandling** | Videresendelse af anmodningerne og behandling af teksten med en tredjeparts model for kunstig intelligens | **Uden for Den Europæiske Union** |
 | **Google Play / Google Billing** | Betaling, abonnementer | Google Ireland / USA |
 | **Google AdMob** | Belønnet reklame | Google Ireland / USA |
 | **Google (telefonens systemtjenester)** | Talegenkendelse, offlinemoduler til oversættelse | Afhængigt af din enhed |
-| **Sentry** (Functional Software, Inc.) | Tekniske fejlrapporter — kun programfejl, filtreret inden afsendelse: aldrig din tekst | USA |
+| **Vores leverandør af fejlrapportering** | Tekniske fejlrapporter — kun programfejl, filtreret inden afsendelse: aldrig din tekst | USA |
 
 **Vi sælger ingen oplysninger og videregiver ingen oplysninger til databrokere.**
 
-**Overførsler til lande uden for Den Europæiske Union:** brugen af OpenRouter, Google Play, AdMob og Sentry indebærer en overførsel af oplysninger til et land uden for Den Europæiske Union. De juridiske rammer for disse overførsler (standardkontraktbestemmelser, afgørelse om tilstrækkeligt beskyttelsesniveau) **skal kontrolleres og dokumenteres af en fagperson inden offentliggørelse** — se noten sidst i dokumentet.
+**Overførsler til lande uden for Den Europæiske Union:** brugen af vores leverandør af AI-behandling, Google Play, AdMob og vores leverandør af fejlrapportering indebærer en overførsel af oplysninger til et land uden for Den Europæiske Union. De juridiske rammer for disse overførsler (standardkontraktbestemmelser, afgørelse om tilstrækkeligt beskyttelsesniveau) **skal kontrolleres og dokumenteres af en fagperson inden offentliggørelse** — se noten sidst i dokumentet.
 
 ---
 
@@ -211,15 +210,6 @@ Enhver ændring af denne politik vil blive offentliggjort på adressen `https://
 Betingelserne for brug af tjenesten (kvoter, abonnementer, opsigelse) står i et særskilt dokument: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Bør gennemlæses af en fagperson
->
-> Dette dokument er skrevet ved at måle appens faktiske adfærd, men **det er ikke skrevet af en jurist**. Fire punkter fortjener først og fremmest en professionel vurdering:
->
-> 1. **Overførslen af oplysninger til et land uden for Den Europæiske Union** til OpenRouter. Det er det mest følsomme punkt: man skal fastlægge, hvilken overførselsmekanisme der finder anvendelse, kontrollere, at der findes en databehandleraftale med denne leverandør, og skrive det her. Så længe det ikke er gjort, beskriver dette dokument overførslen uden at hævde, at den er juridisk reguleret.
-> 2. **De retsgrundlag**, der er valgt i §7, navnlig fordelingen mellem samtykke og legitim interesse for tilgængelighedstjenesten.
-> 3. **Aldersgrænsen** (16 år) og dens sammenhæng med Google Plays spørgeskema om indholdsklassificering.
-> 4. **Oplysningen om AI** i henhold til Den Europæiske Unions forordning om kunstig intelligens (gennemsigtighedsforpligtelse for et system med begrænset risiko).
 
 ---
 

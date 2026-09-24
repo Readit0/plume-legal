@@ -2,7 +2,7 @@
 
 **Uhlaziyo lokugqibela: 12 kaSeptemba 2026** — Uhlobo 2.0
 
-> *Oko kutshintshileyo ukusukela kuhlobo 1.0, kwaye kutheni usenokubona iskrini sesivumelwano kwakhona kwiapp:* silungisa amabango amabini awayengasachanekile. Okokuqala, isicelo **seelwimi zabucala** sigcina kwiiseva zethu umxholo owenzileyo (igama, unobumba, isichazi-magama) — uhlobo 1.0 lwalubanga ngokungachanekanga ukuba akukho mbhalo ugciniweyo. Okwesibini, sisebenzisa ngoku isixhobo se**ngxelo yeengxaki zobuchwepheshe** (Sentry) — uhlobo 1.0 lwalubanga ukuba asikho isixhobo esinjalo. Iinkcukacha zezi zinto zombini zikwi "Ngomzuzu omnye" ngezantsi, kunye nakwi-§3 ne-§9. Ezi zezona ndidi zimbini zotshintsho ezenza, kwiapp, ukuba kuvele isicelo esitsha sesivumelwano (jonga i-§11).
+> *Oko kutshintshileyo ukusukela kuhlobo 1.0, kwaye kutheni usenokubona iskrini sesivumelwano kwakhona kwiapp:* silungisa amabango amabini awayengasachanekile. Okokuqala, isicelo **seelwimi zabucala** sigcina kwiiseva zethu umxholo owenzileyo (igama, unobumba, isichazi-magama) — uhlobo 1.0 lwalubanga ngokungachanekanga ukuba akukho mbhalo ugciniweyo. Okwesibini, sisebenzisa ngoku isixhobo se**ngxelo yeengxaki zobuchwepheshe** — uhlobo 1.0 lwalubanga ukuba asikho isixhobo esinjalo. Iinkcukacha zezi zinto zombini zikwi "Ngomzuzu omnye" ngezantsi, kunye nakwi-§3 ne-§9. Ezi zezona ndidi zimbini zotshintsho ezenza, kwiapp, ukuba kuvele isicelo esitsha sesivumelwano (jonga i-§11).
 
 ---
 
@@ -79,8 +79,8 @@ Xa ukhetha i-AI yeCloud, okanye xa idivayisi yakho ingenamandla aneleyo kwi-AI y
 
 **Kufuneka sicace ngendlela yokwenyani:**
 
-- Umbhalo udlula kwinkqubo yethu (Supabase), egcinwe **ngaphakathi kweManyano yaseYurophu** (ummandla weYurophu ephakathi, Frankfurt).
-- Emva koko uthunyelwa ku-**openrouter.ai**, umlamli wolathiso **okungaphandle kweManyano yaseYurophu**, othi wenze ukuba ucutywe yimodeli i-**Mistral Small**.
+- Umbhalo udlula kwinkqubo yethu yeseva, egcinwe **ngaphakathi kweManyano yaseYurophu** (ummandla weYurophu ephakathi, Frankfurt).
+- Emva koko uthunyelwa kumlamli wolathiso **okungaphandle kweManyano yaseYurophu**, othi wenze ukuba ucutywe yimodeli ye-AI yeqela lesithathu.
 - **Ngoko ke oku kukudlulisela idatha ngaphandle kweManyano yaseYurophu.** Asithi akunjalo, kwaye asenzi sithembiso saphi na ngokubekwa eYurophu kweli nyathelo.
 - **IPlume ayiwugcini umbhalo wakho.** Akukho msebenzi weseva yethu ubhala umxholo wombhalo wakho: sirekhoda kuphela isazisi sobuchwepheshe sesicelo kunye nesazisi sedivayisi yakho, ukuze sibale i-quota yakho size sibone ukusetyenziswa gwenxa.
 - **Oko abanikezeli beenkonzo bekwenza ngasecaleni labo, asinakukuqinisekisa.** Sikhetha ukukuxelela oku kunokukuthembisa ukugcinwa okulinganiselwa kwiqanda esingenakho amandla okuyihlola.
@@ -93,7 +93,7 @@ Umbhalo othunyelweyo unomlinganiselo: iikharektha ezingama-1 200 xa ulungisa, ii
 
 ## 3. Idatha esiyigcinayo
 
-**Asisebenzisi sixhobo saphi na sokuhlalutya abaphulaphuli okanye isilandeli sesibhengezo sasemva** ngaphandle kwesibhengezo esichazwe kwi-§5. **Sisebenzisa isixhobo se-ngxelo yeengxaki zobuchwepheshe** (Sentry): ibona kuphela iimpazamo zenkqubo (uhlobo lwempazamo, uxande lobuchwepheshe, uhlobo lwe-app, inkqubo yokusebenza), ayikhe ibone indlela osebenzisa ngayo okanye indlela ohambayo, ayikhe ibone umbhalo owubhalayo — isihluzo esithile siyayithintela oku phambi kwaso nasiphi na isithumelo. Iinkcukacha zikwi-§9.
+**Asisebenzisi sixhobo saphi na sokuhlalutya abaphulaphuli okanye isilandeli sesibhengezo sasemva** ngaphandle kwesibhengezo esichazwe kwi-§5. **Sisebenzisa isixhobo se-ngxelo yeengxaki zobuchwepheshe**: ibona kuphela iimpazamo zenkqubo (uhlobo lwempazamo, uxande lobuchwepheshe, uhlobo lwe-app, inkqubo yokusebenza), ayikhe ibone indlela osebenzisa ngayo okanye indlela ohambayo, ayikhe ibone umbhalo owubhalayo — isihluzo esithile siyayithintela oku phambi kwaso nasiphi na isithumelo. Iinkcukacha zikwi-§9.
 
 Nazi zonke izinto ezigcinwe kwiiseva zethu:
 
@@ -107,7 +107,7 @@ Nazi zonke izinto ezigcinwe kwiiseva zethu:
 | **Imiqondiso yobuchwepheshe yokusetyenziswa gwenxa** (ukugqitha umda ngokuphindaphindiweyo, ukwehluleka kokuhlolwa kobuqotho — ngaphandle kwawo nawuphi na umbhalo) | Ukhuseleko, ukulwa ubuqhetseba | Kwahlulwa kuwe xa kucinywa i-akhawunti |
 | **Ulwimi nohlobo lwe-app** | Ukunika umxholo ochanekileyo | Kude kucinywe i-akhawunti yakho |
 | **Umxholo weelwimi zabucala ozidalileyo** (igama lazo, unobumba, kunye nesichazi-magama — amagama neenkcazelo obhalwe nguwe okanye ngabanye abantu) | Ukukuvumela ukufumana ulwimi lwakho kwenye idivayisi, ukulukhulisa, nokulwabelana nabanye abasebenzisi | Ithutyana ulwimi lukhona. Ukuba uyalucima, ifayile yalo iyanyamalala — kodwa ikopi eseyi **ngenisiwe** ngomnye umntu ke ngoku yeyakhe kwaye **iyahlala** ikho, njengomyalezo osele ufunyenwe ngumntu wesithathu esingenakumcima kuye |
-| **Iingxelo zeengxaki zobuchwepheshe** (uhlobo lwengxaki, uxande lobuchwepheshe olunqunyelweyo, uhlobo lwe-app, inkqubo yokusebenza — hayi umxholo wombhalo) | Ukuxilonga nokulungisa iingxaki ze-app | Ilawulwa ngumnikezeli wethu iSentry (jonga i-§9). Oku kuqokelelwa kuxhomekeke kwimvume yakho nakwiqhosha esinokulicima nanini na, ngaphandle kohlaziyo lwe-app |
+| **Iingxelo zeengxaki zobuchwepheshe** (uhlobo lwengxaki, uxande lobuchwepheshe olunqunyelweyo, uhlobo lwe-app, inkqubo yokusebenza — hayi umxholo wombhalo) | Ukuxilonga nokulungisa iingxaki ze-app | Ilawulwa ngumnikezeli wethu weengxelo zeengxaki (jonga i-§9). Oku kuqokelelwa kuxhomekeke kwimvume yakho nakwiqhosha esinokulicima nanini na, ngaphandle kohlaziyo lwe-app |
 
 **Oko esingakuqokeleliyo:** igama lakho, unxibelelwano lwakho, indawo okuyo, incwadi yeedilesi zakho, imifanekiso yakho, ikhalenda yakho, imbali ye-app zakho. IPlume ayiceli nayiphi na kwezi mvume.
 
@@ -178,17 +178,16 @@ Njengoko i-app ivumela ukulungiswa kombhalo okhululekileyo kwaye ibonisa izibhen
 
 | Umnikezeli | Indima | Phi |
 |---|---|---|
-| **Supabase** | Ukubambisa isiseko sedatha, ukuqinisekisa, imisebenzi yeseva | IManyano yaseYurophu (Frankfurt) |
-| **OpenRouter** | Ukulathisa izicelo kwimodeli ye-AI | **Ngaphandle kweManyano yaseYurophu** |
-| **Mistral AI** (nge-OpenRouter) | Imodeli ecuta umbhalo (Mistral Small) | Ucutshwa nge-mlamli ongentla |
+| **Umnikezeli wethu wokubambisa** | Ukubambisa isiseko sedatha, ukuqinisekisa, imisebenzi yeseva | IManyano yaseYurophu (Frankfurt) |
+| **Umnikezeli wethu wokucutshwa nge-AI** | Ukulathisa izicelo nokucutshwa kombhalo yimodeli ye-AI yeqela lesithathu | **Ngaphandle kweManyano yaseYurophu** |
 | **Google Play / Google Billing** | Intlawulo, imirhumo | Google Ireland / i-United States |
 | **Google AdMob** | Isibhengezo esinomvuzo | Google Ireland / i-United States |
 | **Google (iinkonzo zenkqubo zefowuni)** | Ukwazi ilizwi, iimodyuli zoguqulelo ngaphandle kwe-intanethi | Kuxhomekeke kwidivayisi yakho |
-| **Sentry** (Functional Software, Inc.) | Ingxelo yeengxaki zobuchwepheshe — kuphela iimpazamo zenkqubo, zihluziwe phambi kokuthunyelwa: ayikhe ibe ngumbhalo wakho | I-United States |
+| **Umnikezeli wethu weengxelo zeengxaki** | Ingxelo yeengxaki zobuchwepheshe — kuphela iimpazamo zenkqubo, zihluziwe phambi kokuthunyelwa: ayikhe ibe ngumbhalo wakho | I-United States |
 
 **Asithengisi nayiphi na idatha kwaye asiyiniki nabaphi na abarhwebi bedatha.**
 
-**Ukudluliselwa ngaphandle kweManyano yaseYurophu:** ukusebenzisa i-OpenRouter, iGoogle Play, i-AdMob kunye neSentry kubandakanya ukudluliselwa kwedatha ngaphandle kweManyano yaseYurophu.
+**Ukudluliselwa ngaphandle kweManyano yaseYurophu:** ukusebenzisa umnikezeli wethu wokucutshwa nge-AI, iGoogle Play, i-AdMob kunye nomnikezeli wethu weengxelo zeengxaki kubandakanya ukudluliselwa kwedatha ngaphandle kweManyano yaseYurophu.
 
 ---
 

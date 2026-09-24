@@ -6,7 +6,7 @@
 > ya programu:* tunarekebisha kauli mbili ambazo hazikuwa sahihi tena. Kwanza, kipengele cha
 > **lugha za kibinafsi** kinahifadhi kwenye seva zetu maudhui unayounda (jina, alfabeti,
 > msamiati) — toleo la 1.0 lilidai kimakosa kwamba hakuna maandishi yaliyokuwa yakihifadhiwa.
-> Pili, sasa tunatumia zana ya **kuripoti hitilafu za kiufundi** (Sentry) — toleo la 1.0 lilidai
+> Pili, sasa tunatumia zana ya **kuripoti hitilafu za kiufundi** — toleo la 1.0 lilidai
 > kwamba hakuna zana ya aina hiyo iliyokuwepo. Maelezo ya mambo haya mawili yako katika
 > "Kwa dakika moja" hapa chini, pamoja na katika §3 na §9. Haya ndiyo hasa aina mbili za
 > mabadiliko ambazo, ndani ya programu, huchochea ombi jipya la kukubali (angalia §11).
@@ -86,8 +86,8 @@ Unapochagua AI ya Wingu, au wakati kifaa chako hakina nguvu za kutosha kwa AI ya
 
 **Ni lazima tuwe wazi kuhusu safari halisi ya maandishi hayo:**
 
-- Maandishi hupita katika miundombinu yetu (Supabase), inayopangishwa katika **Umoja wa Ulaya** (eneo la Ulaya ya Kati, Frankfurt).
-- Kisha hutumwa kwa **openrouter.ai**, mpatanishi wa uelekezaji **aliyeko nje ya Umoja wa Ulaya**, ambaye huyakabidhi modeli ya **Mistral Small** ili kuyachakata.
+- Maandishi hupita katika miundombinu yetu ya seva, inayopangishwa katika **Umoja wa Ulaya** (eneo la Ulaya ya Kati, Frankfurt).
+- Kisha hutumwa kwa mpatanishi wa uelekezaji **aliyeko nje ya Umoja wa Ulaya**, ambaye huyakabidhi modeli ya akili bandia ya mtu wa tatu ili kuyachakata.
 - **Kwa hiyo huu ni uhamishaji wa data nje ya Umoja wa Ulaya.** Hatudai kinyume chake, na hatutoi ahadi yoyote ya upangishaji ndani ya Ulaya kwa hatua hii.
 - **Plume haihifadhi maandishi yako.** Hakuna kazi yoyote ya seva zetu inayoandika maudhui ya maandishi yako: tunarekodi tu kitambulisho cha kiufundi cha ombi na kitambulisho cha kifaa chako, ili kuhesabu kiwango chako na kugundua matumizi mabaya.
 - **Kile watoa huduma hawa wanachofanya upande wao, hatuwezi kukidhamini.** Tunapendelea kukuambia hivi kuliko kukuahidi kutohifadhi kabisa jambo ambalo hatuko katika nafasi ya kulihakiki.
@@ -100,7 +100,7 @@ Maandishi yanayotumwa yana kikomo: herufi 1,200 kwa uandishi upya, na herufi 4,0
 
 ## 3. Data tunayohifadhi
 
-Hatutumii **zana yoyote ya uchanganuzi wa hadhira wala kifuatiliaji chochote cha matangazo cha mtu wa tatu** zaidi ya matangazo yaliyoelezwa katika §5. **Tunatumia zana ya kuripoti hitilafu za kiufundi** (Sentry): inaona tu hitilafu za programu (aina ya hitilafu, mfuatano wa wito wa kiufundi, toleo la programu, mfumo wa uendeshaji), kamwe matumizi yako wala mwenendo wako, na kamwe maandishi unayoandika — kichujio maalum kinakizuia kufanya hivyo kabla ya utumaji wowote. Maelezo yako katika §9.
+Hatutumii **zana yoyote ya uchanganuzi wa hadhira wala kifuatiliaji chochote cha matangazo cha mtu wa tatu** zaidi ya matangazo yaliyoelezwa katika §5. **Tunatumia zana ya kuripoti hitilafu za kiufundi**: inaona tu hitilafu za programu (aina ya hitilafu, mfuatano wa wito wa kiufundi, toleo la programu, mfumo wa uendeshaji), kamwe matumizi yako wala mwenendo wako, na kamwe maandishi unayoandika — kichujio maalum kinakizuia kufanya hivyo kabla ya utumaji wowote. Maelezo yako katika §9.
 
 Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 
@@ -114,7 +114,7 @@ Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 | **Ishara za kiufundi za matumizi mabaya** (kuvuka vikomo mara kwa mara, kushindwa kwa ukaguzi wa uadilifu — bila maandishi yoyote) | Usalama, kupambana na udanganyifu | Hutenganishwa na utambulisho wako unapofuta akaunti |
 | **Lugha na toleo la programu** | Kutoa maudhui sahihi | Mpaka utakapofuta akaunti yako |
 | **Maudhui ya lugha za kibinafsi unazounda** (jina lake, alfabeti yake, na msamiati wake — maneno na maana zilizoandikwa na wewe, au watu wengine, ndani yake) | Kukuwezesha kuipata tena lugha yako kwenye kifaa kingine, kuiendeleza, na kuishiriki na watumiaji wengine | Mradi lugha ipo. Ukiifuta, faili lake hutoweka — lakini nakala ambayo tayari **imeingizwa na mtu mwingine** sasa ni mali yake na **inaendelea kuwepo**, kama ujumbe ambao tayari umepokewa na mtu wa tatu ambao hatuwezi kwenda kuufuta kwake |
-| **Ripoti za hitilafu za kiufundi** (aina ya hitilafu, mfuatano wa wito wa kiufundi uliopunguzwa, toleo la programu, mfumo wa uendeshaji — kamwe maudhui ya maandishi) | Kubaini na kurekebisha hitilafu za programu | Inasimamiwa na mtoa huduma wetu Sentry (angalia §9). Ukusanyaji huu unategemea ridhaa yako na swichi tunayoweza kuizima wakati wowote, bila kuhitaji sasisho la programu |
+| **Ripoti za hitilafu za kiufundi** (aina ya hitilafu, mfuatano wa wito wa kiufundi uliopunguzwa, toleo la programu, mfumo wa uendeshaji — kamwe maudhui ya maandishi) | Kubaini na kurekebisha hitilafu za programu | Inasimamiwa na mtoa huduma wetu wa kuripoti hitilafu (angalia §9). Ukusanyaji huu unategemea ridhaa yako na swichi tunayoweza kuizima wakati wowote, bila kuhitaji sasisho la programu |
 
 **Kile tusichokusanya:** jina lako, anwani zako za mawasiliano, mahali ulipo, kitabu chako cha anwani, picha zako, kalenda yako, historia ya programu zako. Plume haiombi ruhusa yoyote kati ya hizo.
 
@@ -185,17 +185,16 @@ Kwa kuwa programu inaruhusu kuandika upya maandishi huru na inaonyesha matangazo
 
 | Mtoa huduma | Jukumu | Wapi |
 |---|---|---|
-| **Supabase** | Upangishaji wa hifadhidata, uthibitishaji, kazi za seva | Umoja wa Ulaya (Frankfurt) |
-| **OpenRouter** | Kuelekeza maombi kwenye modeli ya AI | **Nje ya Umoja wa Ulaya** |
-| **Mistral AI** (kupitia OpenRouter) | Modeli inayochakata maandishi (Mistral Small) | Uchakataji kupitia mpatanishi aliyetajwa hapo juu |
+| **Mtoa huduma wetu wa upangishaji** | Upangishaji wa hifadhidata, uthibitishaji, kazi za seva | Umoja wa Ulaya (Frankfurt) |
+| **Mtoa huduma wetu wa uchakataji wa AI** | Kuelekeza maombi na kuchakata maandishi kwa modeli ya akili bandia ya mtu wa tatu | **Nje ya Umoja wa Ulaya** |
 | **Google Play / Google Billing** | Malipo, usajili | Google Ireland / Marekani |
 | **Google AdMob** | Matangazo yenye zawadi | Google Ireland / Marekani |
 | **Google (huduma za mfumo za simu)** | Utambuzi wa sauti, moduli za tafsiri bila mtandao | Kutegemea kifaa chako |
-| **Sentry** (Functional Software, Inc.) | Ripoti ya hitilafu za kiufundi — hitilafu za programu pekee, zilizochujwa kabla ya kutumwa: kamwe maandishi yako | Marekani |
+| **Mtoa huduma wetu wa kuripoti hitilafu** | Ripoti ya hitilafu za kiufundi — hitilafu za programu pekee, zilizochujwa kabla ya kutumwa: kamwe maandishi yako | Marekani |
 
 **Hatuuzi data yoyote wala hatukabidhi data yoyote kwa madalali wa data.**
 
-**Uhamishaji nje ya Umoja wa Ulaya:** matumizi ya OpenRouter, Google Play, AdMob na Sentry yanahusisha uhamishaji wa data nje ya Umoja wa Ulaya. Mfumo wa kisheria wa uhamishaji huu (vifungu vya kimkataba vya kawaida, uamuzi wa utoshelevu wa ulinzi) **lazima uhakikiwe na uandikwe na mtaalamu kabla ya kuchapishwa** — ona dokezo mwishoni mwa hati.
+**Uhamishaji nje ya Umoja wa Ulaya:** matumizi ya mtoa huduma wetu wa uchakataji wa AI, Google Play, AdMob na mtoa huduma wetu wa kuripoti hitilafu yanahusisha uhamishaji wa data nje ya Umoja wa Ulaya. Mfumo wa kisheria wa uhamishaji huu (vifungu vya kimkataba vya kawaida, uamuzi wa utoshelevu wa ulinzi) **lazima uhakikiwe na uandikwe na mtaalamu kabla ya kuchapishwa** — ona dokezo mwishoni mwa hati.
 
 ---
 
@@ -218,15 +217,6 @@ Mabadiliko yoyote ya sera hii yatachapishwa kwenye anwani `https://readit0.githu
 Masharti ya matumizi ya huduma (viwango, usajili, kusitisha) yamo katika hati tofauti: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Ya kupitiwa na mtaalamu
->
-> Hati hii iliandikwa kwa kupima tabia halisi ya programu, lakini **haikuandikwa na mwanasheria**. Mambo manne yanahitaji ushauri wa kitaalamu kwanza:
->
-> 1. **Uhamishaji wa data nje ya Umoja wa Ulaya** kwenda OpenRouter. Hili ndilo jambo nyeti zaidi: ni lazima kubaini utaratibu wa uhamishaji unaotumika, kuhakiki kwamba kuna mkataba wa uchakataji wa data na mtoa huduma huyo, na kuandika hilo hapa. Mpaka hilo lifanyike, hati hii inaeleza uhamishaji bila kudai kwamba umewekewa ulinzi wa kisheria.
-> 2. **Misingi ya kisheria** iliyochaguliwa katika §7, hasa mgawanyo kati ya ridhaa na maslahi halali kwa huduma ya ufikivu.
-> 3. **Umri wa chini kabisa** (miaka 16) na upatanifu wake na dodoso la upangaji wa maudhui la Google Play.
-> 4. **Taarifa kuhusu AI** kwa mujibu wa kanuni ya Ulaya kuhusu akili bandia (wajibu wa uwazi kwa mfumo wenye hatari ndogo).
 
 ---
 

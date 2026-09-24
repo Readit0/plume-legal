@@ -2,7 +2,7 @@
 
 **Yeesalaat bu mujj: 12 sattumbar 2026** — Bindeef 2.0
 
-> *Lu soppiku ci bindeef 1.0 ba léegi, ak lu tax mën nga gis ekran wone nangu bi ci aplikasion bi:* danuy jubbanti ñaari wax yu meunul woon dëgg. Bu njëkk, jumtukaay bu **làkk yu bopp** yi dafay denc ci sunuy server kontenu bi nga sos (turam, alfabet, dictionnaire) — bindeef 1.0 wax na, lu meunul dëgg, ne amul benn mbind bu denc. Ci topp, dañu jëfandikoo léegi jumtukaay bu **rapoor ci njumte yu teknik** (Sentry) — bindeef 1.0 wax woon na ne amul benn jumtukaay bu mel noonu. Ndetaal bu ñaari lëkkalekaay yii nekk na ci "Ci benn diriit" ci suuf, walla itam ci §3 ak §9. Ñooy exactement ñaari melo yu soppiku, ci aplikasion bi, di jibal genn nangu gu bees (xool §11).
+> *Lu soppiku ci bindeef 1.0 ba léegi, ak lu tax mën nga gis ekran wone nangu bi ci aplikasion bi:* danuy jubbanti ñaari wax yu meunul woon dëgg. Bu njëkk, jumtukaay bu **làkk yu bopp** yi dafay denc ci sunuy server kontenu bi nga sos (turam, alfabet, dictionnaire) — bindeef 1.0 wax na, lu meunul dëgg, ne amul benn mbind bu denc. Ci topp, dañu jëfandikoo léegi jumtukaay bu **rapoor ci njumte yu teknik** — bindeef 1.0 wax woon na ne amul benn jumtukaay bu mel noonu. Ndetaal bu ñaari lëkkalekaay yii nekk na ci "Ci benn diriit" ci suuf, walla itam ci §3 ak §9. Ñooy exactement ñaari melo yu soppiku, ci aplikasion bi, di jibal genn nangu gu bees (xool §11).
 
 ---
 
@@ -79,8 +79,8 @@ Bu nga tann IA Cloud, walla bu sa sañse doyul doole ngir IA bu bopp bi, mbind m
 
 **War nañu leer ci yoon wu dëgg wi:**
 
-- Mbind mi dana jaar ci sunu infrastructure (Supabase), bu nekk ci **biir Bànq bu Ëropp** (Ëropp digg, Frankfurt).
-- Gannaaw loolu dañu koy yónnee ci **openrouter.ai**, benn moroom bu jottali bu nekk **ci biti Bànq bu Ëropp**, moo koy jox modèl bi **Mistral Small** ngir mu liggéeyal ko.
+- Mbind mi dana jaar ci sunu infrastructure server, bu nekk ci **biir Bànq bu Ëropp** (Ëropp digg, Frankfurt).
+- Gannaaw loolu dañu koy yónnee ci benn moroom bu jottali bu nekk **ci biti Bànq bu Ëropp**, moo koy jox benn modèl IA bu ñetteel moroom ngir mu liggéeyal ko.
 - **Kon lii yónnee done ci biti Bànq bu Ëropp la.** Duñu wax ni lu ko wor la, te duñu wax benn dëgg-dëgg wu wone ni hébergement bi nekk ci Ëropp ci diirub tàkkalu boobu.
 - **Plume duñu denc sa mbind.** Amul benn fonksiyon server yu Plume di bind kontenu bu sa mbind: dañuy denc rekk benn identifiant technique bu laaj bi ak identifiant bu sa sañse, ngir xayma sa quota ak gis njumte yi.
 - **Lu prestataire yii di def ci seen wetu, duñu ko garanti.** Bëgg nanu koy leeral ci yaw ci lu gën a fés wuute ak nu ñuy dige la ne mbind du denc mukk, fekk du nanu am doole ngir wér ci loolu.
@@ -93,7 +93,7 @@ Mbind mi ñu yónnee dafa am dayo: 1 200 lëttar ngir soppi, 4 000 lëttar ngir 
 
 ## 3. Done yi ñuy denc
 
-Duñu jëfandikoo **benn jumtukaay bu xool jëmm (audience) walla benn jumtukaay bu topp reklaam bu ñetteel moroom** su fekkéewul ci reklaam bi ñu leeral ci §5. **Dañuy jëfandikoo benn jumtukaay bu rapoor njumte yu teknik** (Sentry): du gis lu dul njumte yu programme (melo njumte, jubbanti technique, bindeef aplikasion bi, système d'exploitation), du gis mukk sa jëfandikoo walla sa yoon, te du gis mukk mbind mi nga bind — benn filtre jagleel moo ko tere laata yónnee bu nekk. Ndetaal ci §9.
+Duñu jëfandikoo **benn jumtukaay bu xool jëmm (audience) walla benn jumtukaay bu topp reklaam bu ñetteel moroom** su fekkéewul ci reklaam bi ñu leeral ci §5. **Dañuy jëfandikoo benn jumtukaay bu rapoor njumte yu teknik**: du gis lu dul njumte yu programme (melo njumte, jubbanti technique, bindeef aplikasion bi, système d'exploitation), du gis mukk sa jëfandikoo walla sa yoon, te du gis mukk mbind mi nga bind — benn filtre jagleel moo ko tere laata yónnee bu nekk. Ndetaal ci §9.
 
 Lii mooy lépp lu ñuy denc ci sunuy server:
 
@@ -107,7 +107,7 @@ Lii mooy lépp lu ñuy denc ci sunuy server:
 | **Marque technique bu njumte** (bàyyi wàll bu ñu def ay yoon, njumte ci contrôle bu intégrité — amul benn mbind) | Kaaraange, xeex njumte | Séddoo ci sa boppu bu kant bi far |
 | **Làkk ak bindeef bu aplikasion bi** | Jox lu baax ci kontenu | Ba kant bi dee far |
 | **Kontenu bu làkk yu bopp yi nga sos** (turam, alfabet, ak dictionnaire — baat yi ak tekki yi yaw walla ñeneen def ci) | Wallu la gis sa làkk ci beneen sañse, yokk ko, te séddale ko ak ñeneen jëfandikookat | Ba kañ làkk bi di nekk. Su nga far ko, fiche bi day mucc — waaye kopi bu ñu **jël** (import) ci beneen moom nekk na moom te dana **des** ni benn bataaxal ku ñeneen jot na ko, te duñu ko mën a far ci moom |
-| **Rapoor bu njumte teknik** (melo njumte, jubbanti technique bu wàññi, bindeef aplikasion bi, système d'exploitation — du benn mbind) | Xàmle ak jubbanti njumte yu aplikasion bi | Sentry moo koy yorë (xool §9). Dénc bii dafay aju ci sa nangu ak ci benn bouton bu mën nu tere sunu bopp bés bu nekk, te sonn a yeesal aplikasion bi |
+| **Rapoor bu njumte teknik** (melo njumte, jubbanti technique bu wàññi, bindeef aplikasion bi, système d'exploitation — du benn mbind) | Xàmle ak jubbanti njumte yu aplikasion bi | Sunu fournisseur bu rapoor njumte moo koy yorë (xool §9). Dénc bii dafay aju ci sa nangu ak ci benn bouton bu mën nu tere sunu bopp bés bu nekk, te sonn a yeesal aplikasion bi |
 
 **Lu duñu jël:** sa tur, sa jokkoo yi, sa nekkin, sa carnet adresse, sa nataal yi, sa calendrier, jaar-jaar bu sa aplikasion yi. Plume duñu laaj benn ci sañ-sañ yii.
 
@@ -178,17 +178,16 @@ Ci li aplikasion bi di may soppi mbind bu bopp te di won reklaam, aplikasion bi 
 
 | Prestataire | Njëwriñ | Fu mu nekk |
 |---|---|---|
-| **Supabase** | Hébergement bu base de données, authentification, fonksiyon server | Bànq bu Ëropp (Frankfurt) |
-| **OpenRouter** | Jottali laaj yi ci modèl IA bi | **Ci biti Bànq bu Ëropp** |
-| **Mistral AI** (jaar ci OpenRouter) | Modèl bu liggéeyal mbind mi (Mistral Small) | Jaar ci moroom bi ci kaw |
+| **Sunu fournisseur bu hébergement** | Hébergement bu base de données, authentification, fonksiyon server | Bànq bu Ëropp (Frankfurt) |
+| **Sunu fournisseur bu liggéey IA** | Jottali laaj yi ak liggéeyal mbind mi ci benn modèl IA bu ñetteel moroom | **Ci biti Bànq bu Ëropp** |
 | **Google Play / Google Billing** | Fey, abonemaa | Google Ireland / Amerik |
 | **Google AdMob** | Reklaam bu am njariñ | Google Ireland / Amerik |
 | **Google (service système bu téléphone)** | Xam baat, modul tekki bu suuf sanni internet | Ci lu aju ci sa sañse |
-| **Sentry** (Functional Software, Inc.) | Rapoor njumte teknik — njumte yu programme rekk, filtre laata ñu yónnee: du sa mbind mukk | Amerik |
+| **Sunu fournisseur bu rapoor njumte** | Rapoor njumte teknik — njumte yu programme rekk, filtre laata ñu yónnee: du sa mbind mukk | Amerik |
 
 **Duñu jaay benn done, te duñu leen jox courtier bu done yi.**
 
-**Yónnee bu génn ci Bànq bu Ëropp:** jëfandikoo OpenRouter, Google Play, AdMob ak Sentry dafay wone yónnee done bu génn ci Bànq bu Ëropp.
+**Yónnee bu génn ci Bànq bu Ëropp:** jëfandikoo sunu fournisseur bu liggéey IA, Google Play, AdMob ak sunu fournisseur bu rapoor njumte dafay wone yónnee done bu génn ci Bànq bu Ëropp.
 
 ---
 

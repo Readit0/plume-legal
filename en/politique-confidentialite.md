@@ -2,7 +2,7 @@
 
 **Last updated: 12 September 2026** — Version 2.0
 
-> *What has changed since version 1.0, and why you might see the acceptance screen again in the app:* we are correcting two statements that were no longer accurate. First, the **custom languages** feature stores on our servers the content you create (name, alphabet, lexicon) — version 1.0 incorrectly stated that no text was stored. Second, we now use a **technical crash reporting** tool (Sentry) — version 1.0 stated that no such tool existed. The details of both points are under "In one minute" below, as well as in §3 and §9. These are exactly the two categories of change that, within the app, trigger a new consent request (see §11).
+> *What has changed since version 1.0, and why you might see the acceptance screen again in the app:* we are correcting two statements that were no longer accurate. First, the **custom languages** feature stores on our servers the content you create (name, alphabet, lexicon) — version 1.0 incorrectly stated that no text was stored. Second, we now use a **technical crash reporting** tool — version 1.0 stated that no such tool existed. The details of both points are under "In one minute" below, as well as in §3 and §9. These are exactly the two categories of change that, within the app, trigger a new consent request (see §11).
 
 ---
 
@@ -79,8 +79,8 @@ When you choose the Cloud AI, or when your device is not powerful enough for the
 
 **We have to be clear about the actual journey:**
 
-- The text passes through our infrastructure (Supabase), hosted in the **European Union** (Central Europe region, Frankfurt).
-- It is then transmitted to **openrouter.ai**, a routing intermediary **located outside the European Union**, which has it processed by the **Mistral Small** model.
+- The text passes through our server infrastructure, hosted in the **European Union** (Central Europe region, Frankfurt).
+- It is then transmitted to a routing intermediary **located outside the European Union**, which has it processed by a third-party artificial intelligence model.
 - **This is therefore a transfer of data outside the European Union.** We do not claim otherwise, and we make no promise of European hosting for this step.
 - **Plume does not keep your text.** None of our server functions writes the content of your text: we record only a technical request identifier and your device identifier, in order to count your quota and detect abuse.
 - **What these providers do on their side, we cannot guarantee.** We prefer to tell you so rather than promise you zero retention that we are not in a position to verify.
@@ -93,7 +93,7 @@ The text sent is capped: 1,200 characters for a rewrite, 4,000 characters for a 
 
 ## 3. The data we keep
 
-We use **no audience analytics tool and no third-party advertising tracker**, other than the advertising described in §5. **We use a technical crash reporting tool** (Sentry): it sees only program errors (error type, technical call stack, app version, operating system), never your usage or your journey, and never the text you write — a dedicated filter forbids this before anything is sent. Details are in §9.
+We use **no audience analytics tool and no third-party advertising tracker**, other than the advertising described in §5. **We use a technical crash reporting tool**: it sees only program errors (error type, technical call stack, app version, operating system), never your usage or your journey, and never the text you write — a dedicated filter forbids this before anything is sent. Details are in §9.
 
 Here is everything that is stored on our servers:
 
@@ -107,7 +107,7 @@ Here is everything that is stored on our servers:
 | **Technical abuse signals** (repeated overruns, integrity check failures — without any text) | Security, fraud prevention | Detached from your identity when the account is deleted |
 | **Language and application version** | Serve the right content | Until your account is deleted |
 | **The content of the custom languages you create** (its name, its alphabet, and its lexicon — the words and definitions that you, or other people, have written in it) | Let you find your language again on another device, develop it, and share it with other users | For as long as the language exists. If you delete it, its record disappears — but a copy already **imported by someone else** now belongs to them and **survives**, like a message already received by a third party that we cannot go and erase on their end |
-| **Technical crash reports** (error type, truncated technical call stack, app version, operating system — never any text content) | Diagnose and fix application crashes | Governed by our provider Sentry (see §9). This collection is subject to your consent and to a switch that we can turn off at any time, without an app update |
+| **Technical crash reports** (error type, truncated technical call stack, app version, operating system — never any text content) | Diagnose and fix application crashes | Governed by our crash reporting provider (see §9). This collection is subject to your consent and to a switch that we can turn off at any time, without an app update |
 
 **What we do not collect:** your name, your contacts, your location, your address book, your photos, your calendar, your application history. Plume requests none of these permissions.
 
@@ -178,17 +178,16 @@ As the application allows free text to be rewritten and displays advertising, it
 
 | Provider | Role | Where |
 |---|---|---|
-| **Supabase** | Database hosting, authentication, server functions | European Union (Frankfurt) |
-| **OpenRouter** | Routing of requests to the AI model | **Outside the European Union** |
-| **Mistral AI** (via OpenRouter) | Model that processes the text (Mistral Small) | Processing via the intermediary above |
+| **Our hosting provider** | Database hosting, authentication, server functions | European Union (Frankfurt) |
+| **Our AI processing provider** | Routing of requests and processing of the text by a third-party artificial intelligence model | **Outside the European Union** |
 | **Google Play / Google Billing** | Payment, subscriptions | Google Ireland / United States |
 | **Google AdMob** | Rewarded advertising | Google Ireland / United States |
 | **Google (phone system services)** | Speech recognition, offline translation modules | Depending on your device |
-| **Sentry** (Functional Software, Inc.) | Technical crash reporting — only program errors, filtered before sending: never your text | United States |
+| **Our crash reporting provider** | Technical crash reporting — only program errors, filtered before sending: never your text | United States |
 
 **We sell no data and transfer none to data brokers.**
 
-**Transfers outside the European Union:** the use of OpenRouter, Google Play, AdMob and Sentry involves a transfer of data outside the European Union.
+**Transfers outside the European Union:** the use of our AI processing provider, Google Play, AdMob and our crash reporting provider involves a transfer of data outside the European Union.
 
 ---
 

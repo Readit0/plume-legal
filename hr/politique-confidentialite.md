@@ -7,7 +7,7 @@
 > Prvo, značajka **osobni jezici** čuva na našim poslužiteljima sadržaj koji stvorite
 > (naziv, pismo, rječnik) — verzija 1.0 pogrešno je tvrdila da se nikakav tekst ne
 > pohranjuje. Drugo, sada koristimo alat za **tehničko prijavljivanje rušenja**
-> (Sentry) — verzija 1.0 tvrdila je da takav alat ne postoji. Pojedinosti o te dvije
+> — verzija 1.0 tvrdila je da takav alat ne postoji. Pojedinosti o te dvije
 > točke nalaze se u odjeljku „U jednoj minuti“ u nastavku, kao i u §3 i §9. To su
 > upravo dvije kategorije promjena koje u aplikaciji izazivaju novi zahtjev za
 > privolu (vidjeti §11).
@@ -87,8 +87,8 @@ Kada odaberete Umjetnu inteligenciju u oblaku ili kada vaš uređaj nije dovoljn
 
 **Treba biti jasan oko stvarnog puta:**
 
-- Tekst prolazi kroz našu infrastrukturu (Supabase), smještenu u **Europskoj uniji** (regija Srednja Europa, Frankfurt).
-- Zatim se prenosi na **openrouter.ai**, posrednika za usmjeravanje **smještenog izvan Europske unije**, koji ga daje na obradu modelu **Mistral Small**.
+- Tekst prolazi kroz našu poslužiteljsku infrastrukturu, smještenu u **Europskoj uniji** (regija Srednja Europa, Frankfurt).
+- Zatim se prenosi na posrednika za usmjeravanje **smještenog izvan Europske unije**, koji ga daje na obradu modelu umjetne inteligencije treće strane.
 - **Riječ je dakle o prijenosu podataka izvan Europske unije.** Ne tvrdimo suprotno i za taj korak ne prikazujemo nikakvo obećanje o europskom smještaju.
 - **Plume ne pohranjuje vaš tekst.** Nijedna naša poslužiteljska funkcija ne zapisuje sadržaj vašeg teksta: bilježimo samo tehnički identifikator zahtjeva i identifikator vašeg uređaja, radi obračuna vaše kvote i otkrivanja zlouporaba.
 - **Što ti pružatelji usluga rade sa svoje strane, ne možemo jamčiti.** Radije vam to kažemo nego da vam obećavamo nulto zadržavanje koje nismo u mogućnosti provjeriti.
@@ -101,7 +101,7 @@ Poslani tekst je ograničen: 1.200 znakova za preoblikovanje i 4.000 znakova za 
 
 ## 3. Podaci koje pohranjujemo
 
-Ne upotrebljavamo **nijedan alat za analitiku posjećenosti ni ikakav oglašivački pratitelj treće strane** izvan oglašavanja opisanog u §5. **Upotrebljavamo alat za tehničko prijavljivanje rušenja** (Sentry): on vidi samo programske pogreške (vrstu pogreške, tehnički poziv, verziju aplikacije, operacijski sustav), nikada vaše korištenje ni vaš put kroz aplikaciju, i nikada tekst koji pišete — poseban filtar to sprječava prije svakog slanja. Pojedinosti su u §9.
+Ne upotrebljavamo **nijedan alat za analitiku posjećenosti ni ikakav oglašivački pratitelj treće strane** izvan oglašavanja opisanog u §5. **Upotrebljavamo alat za tehničko prijavljivanje rušenja**: on vidi samo programske pogreške (vrstu pogreške, tehnički poziv, verziju aplikacije, operacijski sustav), nikada vaše korištenje ni vaš put kroz aplikaciju, i nikada tekst koji pišete — poseban filtar to sprječava prije svakog slanja. Pojedinosti su u §9.
 
 Evo svega što se pohranjuje na našim poslužiteljima:
 
@@ -115,7 +115,7 @@ Evo svega što se pohranjuje na našim poslužiteljima:
 | **Tehnički signali zlouporabe** (ponovljena prekoračenja, neuspjela provjera cjelovitosti — bez ikakvog teksta) | Sigurnost, borba protiv prijevara | Odvajaju se od vašeg identiteta pri brisanju računa |
 | **Jezik i verzija aplikacije** | Isporuka ispravnog sadržaja | Do brisanja vašeg računa |
 | **Sadržaj osobnih jezika koje stvorite** (njegov naziv, njegovo pismo i njegov rječnik — riječi i značenja koje ste vi, ili druge osobe, u njega upisali) | Omogućiti vam da svoj jezik pronađete na drugom uređaju, da ga razvijate i da ga dijelite s drugim korisnicima | Dok jezik postoji. Ako ga izbrišete, njegov zapis nestaje — ali kopija koju je već **uvezla druga osoba** od tada pripada njoj i **opstaje**, poput poruke koju je treća strana već primila, a koju ne možemo izbrisati kod nje |
-| **Tehnička izvješća o rušenju** (vrsta pogreške, skraćeni tehnički poziv, verzija aplikacije, operacijski sustav — nikada tekstualni sadržaj) | Dijagnosticiranje i ispravljanje rušenja aplikacije | Njima upravlja naš pružatelj usluge Sentry (vidjeti §9). To prikupljanje podliježe vašoj privoli i prekidaču koji možemo isključiti u bilo kojem trenutku, bez ažuriranja aplikacije |
+| **Tehnička izvješća o rušenju** (vrsta pogreške, skraćeni tehnički poziv, verzija aplikacije, operacijski sustav — nikada tekstualni sadržaj) | Dijagnosticiranje i ispravljanje rušenja aplikacije | Njima upravlja naš pružatelj usluge prijavljivanja rušenja (vidjeti §9). To prikupljanje podliježe vašoj privoli i prekidaču koji možemo isključiti u bilo kojem trenutku, bez ažuriranja aplikacije |
 
 **Što ne prikupljamo:** vaše ime, vaše kontakte, vašu lokaciju, vaš adresar, vaše fotografije, vaš kalendar, povijest vaših aplikacija. Plume ne traži nijedno od tih dopuštenja.
 
@@ -186,17 +186,16 @@ Budući da aplikacija omogućuje preoblikovanje slobodnog teksta i prikazuje ogl
 
 | Pružatelj usluge | Uloga | Gdje |
 |---|---|---|
-| **Supabase** | Smještaj baze podataka, autentifikacija, poslužiteljske funkcije | Europska unija (Frankfurt) |
-| **OpenRouter** | Usmjeravanje zahtjeva prema modelu umjetne inteligencije | **Izvan Europske unije** |
-| **Mistral AI** (putem OpenRoutera) | Model koji obrađuje tekst (Mistral Small) | Obrada putem gore navedenog posrednika |
+| **Naš pružatelj usluge smještaja** | Smještaj baze podataka, autentifikacija, poslužiteljske funkcije | Europska unija (Frankfurt) |
+| **Naš pružatelj usluge obrade umjetnom inteligencijom** | Usmjeravanje zahtjeva i obrada teksta modelom umjetne inteligencije treće strane | **Izvan Europske unije** |
 | **Google Play / Google Billing** | Plaćanje, pretplate | Google Ireland / Sjedinjene Američke Države |
 | **Google AdMob** | Nagrađivano oglašavanje | Google Ireland / Sjedinjene Američke Države |
 | **Google (sustavne usluge telefona)** | Prepoznavanje govora, moduli za izvanmrežno prevođenje | Ovisno o vašem uređaju |
-| **Sentry** (Functional Software, Inc.) | Tehničko prijavljivanje rušenja — samo pogreške programa, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
+| **Naš pružatelj usluge prijavljivanja rušenja** | Tehničko prijavljivanje rušenja — samo pogreške programa, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
 
 **Ne prodajemo nikakve podatke niti ih ustupamo posrednicima u trgovini podacima.**
 
-**Prijenosi izvan Europske unije:** korištenje OpenRoutera, Google Playa, AdMoba i Sentryja podrazumijeva prijenos podataka izvan Europske unije. Pravni okvir tih prijenosa (standardne ugovorne klauzule, odluka o primjerenosti) **mora prije objave provjeriti i dokumentirati stručnjak** — vidjeti napomenu na kraju dokumenta.
+**Prijenosi izvan Europske unije:** korištenje našeg pružatelja usluge obrade umjetnom inteligencijom, Google Playa, AdMoba i našeg pružatelja usluge prijavljivanja rušenja podrazumijeva prijenos podataka izvan Europske unije. Pravni okvir tih prijenosa (standardne ugovorne klauzule, odluka o primjerenosti) **mora prije objave provjeriti i dokumentirati stručnjak** — vidjeti napomenu na kraju dokumenta.
 
 ---
 
@@ -219,15 +218,6 @@ Svaka izmjena ovih pravila bit će objavljena na adresi `https://readit0.github.
 Uvjeti korištenja usluge (kvote, pretplate, raskid) nalaze se u zasebnom dokumentu: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Za pregled od strane stručnjaka
->
-> Ovaj je dokument napisan mjerenjem stvarnog ponašanja aplikacije, ali **nije ga napisao pravnik**. Četiri točke prvenstveno zaslužuju stručno mišljenje:
->
-> 1. **Prijenos podataka izvan Europske unije** prema OpenRouteru. To je najosjetljivija točka: treba utvrditi primjenjiv mehanizam prijenosa, provjeriti postoji li ugovor o obradi s tim pružateljem usluge i to ovdje zapisati. Dok to nije učinjeno, ovaj dokument opisuje prijenos, a da ne tvrdi da je pravno uređen.
-> 2. **Pravne osnove** navedene u §7, osobito podjela između privole i legitimnog interesa za uslugu pristupačnosti.
-> 3. **Najniža dob** (16 godina) i njezina usklađenost s upitnikom za klasifikaciju sadržaja Google Playa.
-> 4. **Napomena o umjetnoj inteligenciji** na temelju europske uredbe o umjetnoj inteligenciji (obveza transparentnosti za sustav ograničenog rizika).
 
 ---
 

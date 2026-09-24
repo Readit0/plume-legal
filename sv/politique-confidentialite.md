@@ -6,7 +6,7 @@
 > appen:* vi korrigerar två påståenden som inte längre stämde. För det första sparar
 > funktionen **egna språk** på våra servrar det innehåll du skapar (namn, alfabet, lexikon) —
 > version 1.0 påstod felaktigt att ingen text lagrades. För det andra använder vi numera ett
-> verktyg för **teknisk kraschrapportering** (Sentry) — version 1.0 påstod att inget sådant
+> verktyg för **teknisk kraschrapportering** — version 1.0 påstod att inget sådant
 > verktyg fanns. Detaljerna om dessa två punkter finns under ”På en minut” nedan, samt i §3 och
 > §9. Det är exakt de två kategorierna av ändring som i appen utlöser en ny begäran om
 > godkännande (se §11).
@@ -86,8 +86,8 @@ När du väljer Moln-AI, eller när din enhet inte är tillräckligt kraftfull f
 
 **Det gäller att vara tydlig med den verkliga färdvägen:**
 
-- Texten passerar vår infrastruktur (Supabase), som ligger i **Europeiska unionen** (regionen Centraleuropa, Frankfurt).
-- Den skickas därefter till **openrouter.ai**, en routningsförmedlare **som ligger utanför Europeiska unionen**, som låter modellen **Mistral Small** behandla den.
+- Texten passerar vår serverinfrastruktur, som ligger i **Europeiska unionen** (regionen Centraleuropa, Frankfurt).
+- Den skickas därefter till en routningsförmedlare **som ligger utanför Europeiska unionen**, som låter en artificiell intelligens-modell från en tredje part behandla den.
 - **Det rör sig alltså om en överföring av uppgifter till ett land utanför Europeiska unionen.** Vi påstår inte motsatsen, och vi visar inget löfte om europeisk lagring för det steget.
 - **Plume sparar inte din text.** Ingen av våra serverfunktioner skriver ned innehållet i din text: vi registrerar bara en teknisk identifierare för förfrågan och identifieraren för din enhet, för att räkna din kvot och upptäcka missbruk.
 - **Vad de här leverantörerna gör på sin sida kan vi inte garantera.** Vi föredrar att säga det rakt ut i stället för att lova dig en nollagring som vi inte har möjlighet att kontrollera.
@@ -100,7 +100,7 @@ Den text som skickas har ett tak: 1 200 tecken för en omformulering, 4 000 teck
 
 ## 3. De uppgifter vi sparar
 
-Vi använder **inget verktyg för besöksanalys och ingen tredjepartsspårare för reklam**, bortsett från den reklam som beskrivs i §5. **Vi använder ett verktyg för teknisk kraschrapportering** (Sentry): det ser bara programfel (feltyp, teknisk anropsstack, appversion, operativsystem), aldrig din användning eller din väg genom appen, och aldrig den text du skriver — ett särskilt filter förbjuder det innan något skickas. Detaljerna finns i §9.
+Vi använder **inget verktyg för besöksanalys och ingen tredjepartsspårare för reklam**, bortsett från den reklam som beskrivs i §5. **Vi använder ett verktyg för teknisk kraschrapportering**: det ser bara programfel (feltyp, teknisk anropsstack, appversion, operativsystem), aldrig din användning eller din väg genom appen, och aldrig den text du skriver — ett särskilt filter förbjuder det innan något skickas. Detaljerna finns i §9.
 
 Här är allt som lagras på våra servrar:
 
@@ -114,7 +114,7 @@ Här är allt som lagras på våra servrar:
 | **Tekniska signaler om missbruk** (upprepade överskridanden, misslyckad äkthetskontroll av appen — utan någon text alls) | Säkerhet, bedrägeribekämpning | Frikopplas från din identitet när kontot raderas |
 | **Appens språk och version** | Leverera rätt innehåll | Till dess att ditt konto raderas |
 | **Innehållet i de egna språk du skapar** (namn, alfabet och lexikon — de ord och definitioner som du, eller andra personer, har skrivit i det) | Låta dig hitta ditt språk på en annan enhet, utveckla det och dela det med andra användare | Så länge språket finns kvar. Om du raderar det försvinner dess post — men en kopia som redan har **importerats av någon annan** tillhör då den personen och **lever kvar**, precis som ett meddelande som redan har mottagits av en tredje part och som vi inte kan radera hos denne |
-| **Rapporter om tekniska krascher** (feltyp, trunkerad teknisk anropsstack, appversion, operativsystem — aldrig något textinnehåll) | Diagnostisera och åtgärda kraschar i appen | Hanteras av vår leverantör Sentry (se §9). Denna insamling förutsätter ditt samtycke och en strömbrytare som vi kan stänga av när som helst, utan appuppdatering |
+| **Rapporter om tekniska krascher** (feltyp, trunkerad teknisk anropsstack, appversion, operativsystem — aldrig något textinnehåll) | Diagnostisera och åtgärda kraschar i appen | Hanteras av vår leverantör av kraschrapportering (se §9). Denna insamling förutsätter ditt samtycke och en strömbrytare som vi kan stänga av när som helst, utan appuppdatering |
 
 **Vad vi inte samlar in:** ditt namn, dina kontakter, din position, din adressbok, dina foton, din kalender, historiken över dina appar. Plume begär ingen av de behörigheterna.
 
@@ -185,17 +185,16 @@ Eftersom appen gör det möjligt att formulera om fri text och visar reklam är 
 
 | Leverantör | Roll | Var |
 |---|---|---|
-| **Supabase** | Databashotell, autentisering, serverfunktioner | Europeiska unionen (Frankfurt) |
-| **OpenRouter** | Vidarebefordran av förfrågningarna till AI-modellen | **Utanför Europeiska unionen** |
-| **Mistral AI** (via OpenRouter) | Modell som behandlar texten (Mistral Small) | Behandling via förmedlaren ovan |
+| **Vår värdtjänstleverantör** | Databashotell, autentisering, serverfunktioner | Europeiska unionen (Frankfurt) |
+| **Vår leverantör av AI-behandling** | Vidarebefordran av förfrågningarna och behandling av texten med en artificiell intelligens-modell från en tredje part | **Utanför Europeiska unionen** |
 | **Google Play / Google Billing** | Betalning, prenumerationer | Google Ireland / USA |
 | **Google AdMob** | Belönad reklam | Google Ireland / USA |
 | **Google (telefonens systemtjänster)** | Taligenkänning, offlinemoduler för översättning | Beroende på din enhet |
-| **Sentry** (Functional Software, Inc.) | Teknisk kraschrapportering — endast programfel, filtrerade innan de skickas: aldrig din text | USA |
+| **Vår leverantör av kraschrapportering** | Teknisk kraschrapportering — endast programfel, filtrerade innan de skickas: aldrig din text | USA |
 
 **Vi säljer inga uppgifter och lämnar inga uppgifter vidare till datamäklare.**
 
-**Överföringar till länder utanför Europeiska unionen:** användningen av OpenRouter, Google Play, AdMob och Sentry innebär en överföring av uppgifter till ett land utanför Europeiska unionen. Den rättsliga ramen för dessa överföringar (standardavtalsklausuler, beslut om adekvat skyddsnivå) **måste kontrolleras och dokumenteras av en yrkesperson före publicering** — se noten i slutet av dokumentet.
+**Överföringar till länder utanför Europeiska unionen:** användningen av vår leverantör av AI-behandling, Google Play, AdMob och vår leverantör av kraschrapportering innebär en överföring av uppgifter till ett land utanför Europeiska unionen. Den rättsliga ramen för dessa överföringar (standardavtalsklausuler, beslut om adekvat skyddsnivå) **måste kontrolleras och dokumenteras av en yrkesperson före publicering** — se noten i slutet av dokumentet.
 
 ---
 
@@ -218,15 +217,6 @@ Varje ändring av den här policyn kommer att publiceras på `https://readit0.gi
 Villkoren för att använda tjänsten (kvoter, prenumerationer, uppsägning) finns i ett separat dokument: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Bör granskas av en yrkesperson
->
-> Det här dokumentet har skrivits genom att appens faktiska beteende har mätts, men **det har inte skrivits av en jurist**. Fyra punkter förtjänar i första hand ett professionellt utlåtande:
->
-> 1. **Överföringen av uppgifter till ett land utanför Europeiska unionen** till OpenRouter. Det är den känsligaste punkten: man måste fastställa vilken överföringsmekanism som är tillämplig, kontrollera att det finns ett personuppgiftsbiträdesavtal med den leverantören, och skriva in det här. Så länge det inte är gjort beskriver det här dokumentet överföringen utan att påstå att den är rättsligt reglerad.
-> 2. **De rättsliga grunder** som valts i §7, särskilt fördelningen mellan samtycke och berättigat intresse för tillgänglighetstjänsten.
-> 3. **Åldersgränsen** (16 år) och dess överensstämmelse med Google Plays frågeformulär för innehållsklassificering.
-> 4. **Uppgiften om AI** enligt Europeiska unionens förordning om artificiell intelligens (öppenhetskrav för ett system med begränsad risk).
 
 ---
 

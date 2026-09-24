@@ -2,7 +2,7 @@
 
 **Posledná aktualizácia: 12. septembra 2026** — Verzia 2.0
 
-> *Čo sa zmenilo od verzie 1.0 a prečo sa vám možno v aplikácii znova zobrazila obrazovka so súhlasom:* opravujeme dve tvrdenia, ktoré už neboli presné. Po prvé, funkcia **vlastné jazyky** uchováva na našich serveroch obsah, ktorý vytvoríte (názov, abecedu, slovník) — verzia 1.0 nesprávne tvrdila, že sa neuchováva žiadny text. Po druhé, teraz používame nástroj na **technické hlásenie pádov** (Sentry) — verzia 1.0 tvrdila, že žiadny takýto nástroj neexistuje. Podrobnosti o oboch bodoch nájdete nižšie v časti „V jednej minúte“ a v §3 a §9. Ide presne o dve kategórie zmien, ktoré v aplikácii spúšťajú novú žiadosť o súhlas (pozri §11).
+> *Čo sa zmenilo od verzie 1.0 a prečo sa vám možno v aplikácii znova zobrazila obrazovka so súhlasom:* opravujeme dve tvrdenia, ktoré už neboli presné. Po prvé, funkcia **vlastné jazyky** uchováva na našich serveroch obsah, ktorý vytvoríte (názov, abecedu, slovník) — verzia 1.0 nesprávne tvrdila, že sa neuchováva žiadny text. Po druhé, teraz používame nástroj na **technické hlásenie pádov** — verzia 1.0 tvrdila, že žiadny takýto nástroj neexistuje. Podrobnosti o oboch bodoch nájdete nižšie v časti „V jednej minúte“ a v §3 a §9. Ide presne o dve kategórie zmien, ktoré v aplikácii spúšťajú novú žiadosť o súhlas (pozri §11).
 
 ---
 
@@ -79,8 +79,8 @@ Keď si zvolíte Cloudovú AI alebo keď vaše zariadenie nie je dosť výkonné
 
 **Treba jasne povedať, aká je skutočná trasa:**
 
-- Text prechádza našou infraštruktúrou (Supabase), umiestnenou v **Európskej únii** (región stredná Európa, Frankfurt).
-- Následne je odovzdaný službe **openrouter.ai**, smerovaciemu sprostredkovateľovi **nachádzajúcemu sa mimo Európskej únie**, ktorý ho dá spracovať modelu **Mistral Small**.
+- Text prechádza našou serverovou infraštruktúrou, umiestnenou v **Európskej únii** (región stredná Európa, Frankfurt).
+- Následne je odovzdaný smerovaciemu sprostredkovateľovi **nachádzajúcemu sa mimo Európskej únie**, ktorý ho dá spracovať modelu umelej inteligencie tretej strany.
 - **Ide teda o prenos údajov mimo Európskej únie.** Netvrdíme opak a pre tento krok neuvádzame žiadny prísľub európskeho hostingu.
 - **Plume váš text neuchováva.** Žiadna z našich serverových funkcií obsah vášho textu nezapisuje: zaznamenávame iba technický identifikátor požiadavky a identifikátor vášho zariadenia, aby sme počítali váš limit a odhaľovali zneužitia.
 - **To, čo títo poskytovatelia robia na svojej strane, zaručiť nevieme.** Radšej vám to povieme, než by sme vám sľubovali nulové uchovávanie, ktoré nie sme schopní overiť.
@@ -93,7 +93,7 @@ Odosielaný text je obmedzený: 1 200 znakov pre preformulovanie, 4 000 znakov p
 
 ## 3. Údaje, ktoré uchovávame
 
-Okrem reklamy opísanej v §5 nepoužívame **žiadny nástroj na analýzu návštevnosti a žiadny reklamný tracker tretej strany**. **Používame nástroj na technické hlásenie pádov** (Sentry): vidí iba chyby programu (typ chyby, technický zásobník volaní, verziu aplikácie, operačný systém), nikdy vaše používanie ani vašu cestu aplikáciou, a nikdy text, ktorý píšete — pred akýmkoľvek odoslaním mu v tom zabraňuje vyhradený filter. Podrobnosti sú v §9.
+Okrem reklamy opísanej v §5 nepoužívame **žiadny nástroj na analýzu návštevnosti a žiadny reklamný tracker tretej strany**. **Používame nástroj na technické hlásenie pádov**: vidí iba chyby programu (typ chyby, technický zásobník volaní, verziu aplikácie, operačný systém), nikdy vaše používanie ani vašu cestu aplikáciou, a nikdy text, ktorý píšete — pred akýmkoľvek odoslaním mu v tom zabraňuje vyhradený filter. Podrobnosti sú v §9.
 
 Tu je všetko, čo je uložené na našich serveroch:
 
@@ -107,7 +107,7 @@ Tu je všetko, čo je uložené na našich serveroch:
 | **Technické signály zneužitia** (opakované prekročenia, zlyhanie kontroly integrity — bez akéhokoľvek textu) | Bezpečnosť, boj proti podvodom | Oddelené od vašej totožnosti pri vymazaní účtu |
 | **Jazyk a verzia aplikácie** | Doručovať správny obsah | Do vymazania vášho účtu |
 | **Obsah vlastných jazykov, ktoré vytvoríte** (jeho názov, jeho abeceda a jeho slovník — slová a definície, ktoré ste doň zapísali vy alebo iné osoby) | Umožniť vám nájsť váš jazyk na inom zariadení, ďalej ho rozvíjať a zdieľať s inými používateľmi | Kým jazyk existuje. Ak ho vymažete, jeho záznam zmizne — kópia, ktorú si však už **importovala iná osoba**, jej odvtedy patrí a **pretrváva**, podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme ísť vymazať |
-| **Technické hlásenia pádov** (typ chyby, skrátený technický zásobník volaní, verzia aplikácie, operačný systém — nikdy obsah textu) | Diagnostikovať a opravovať pády aplikácie | Riadi ich náš poskytovateľ Sentry (pozri §9). Toto zhromažďovanie podlieha vášmu súhlasu a prepínaču, ktorý môžeme kedykoľvek vypnúť bez aktualizácie aplikácie |
+| **Technické hlásenia pádov** (typ chyby, skrátený technický zásobník volaní, verzia aplikácie, operačný systém — nikdy obsah textu) | Diagnostikovať a opravovať pády aplikácie | Riadi ich náš poskytovateľ hlásenia pádov (pozri §9). Toto zhromažďovanie podlieha vášmu súhlasu a prepínaču, ktorý môžeme kedykoľvek vypnúť bez aktualizácie aplikácie |
 
 **Čo nezhromažďujeme:** vaše meno, vaše kontakty, vašu polohu, váš adresár, vaše fotografie, váš kalendár, históriu vašich aplikácií. Plume o žiadne z týchto oprávnení nežiada.
 
@@ -178,17 +178,16 @@ Keďže aplikácia umožňuje preformulovať voľný text a zobrazuje reklamu, n
 
 | Poskytovateľ | Úloha | Kde |
 |---|---|---|
-| **Supabase** | Hosting databázy, overovanie, serverové funkcie | Európska únia (Frankfurt) |
-| **OpenRouter** | Smerovanie požiadaviek k modelu AI | **Mimo Európskej únie** |
-| **Mistral AI** (cez OpenRouter) | Model, ktorý text spracúva (Mistral Small) | Spracúvanie prostredníctvom vyššie uvedeného sprostredkovateľa |
+| **Náš poskytovateľ hostingu** | Hosting databázy, overovanie, serverové funkcie | Európska únia (Frankfurt) |
+| **Náš poskytovateľ spracúvania pomocou AI** | Smerovanie požiadaviek a spracúvanie textu modelom umelej inteligencie tretej strany | **Mimo Európskej únie** |
 | **Google Play / Google Billing** | Platba, predplatné | Google Ireland / Spojené štáty |
 | **Google AdMob** | Reklama s odmenou | Google Ireland / Spojené štáty |
 | **Google (systémové služby telefónu)** | Rozpoznávanie reči, moduly offline prekladu | Podľa vášho zariadenia |
-| **Sentry** (Functional Software, Inc.) | Technické hlásenie pádov — iba chyby programu, filtrované pred odoslaním: nikdy váš text | Spojené štáty |
+| **Náš poskytovateľ hlásenia pádov** | Technické hlásenie pádov — iba chyby programu, filtrované pred odoslaním: nikdy váš text | Spojené štáty |
 
 **Žiadne údaje nepredávame a žiadne nepostupujeme dátovým brokerom.**
 
-**Prenosy mimo Európskej únie:** využitie služieb OpenRouter, Google Play, AdMob a Sentry zahŕňa prenos údajov mimo Európskej únie. Právny rámec týchto prenosov (štandardné zmluvné doložky, rozhodnutie o primeranosti) **musí byť pred zverejnením overený a zdokumentovaný odborníkom** — pozri poznámku na konci dokumentu.
+**Prenosy mimo Európskej únie:** využitie nášho poskytovateľa spracúvania pomocou AI a služieb Google Play, AdMob a nášho poskytovateľa hlásenia pádov zahŕňa prenos údajov mimo Európskej únie. Právny rámec týchto prenosov (štandardné zmluvné doložky, rozhodnutie o primeranosti) **musí byť pred zverejnením overený a zdokumentovaný odborníkom** — pozri poznámku na konci dokumentu.
 
 ---
 
@@ -211,15 +210,6 @@ Každá zmena týchto zásad bude zverejnená na adrese `https://readit0.github.
 Podmienky používania služby (limity, predplatné, ukončenie) sú uvedené v samostatnom dokumente: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Na posúdenie odborníkom
->
-> Tento dokument bol napísaný meraním skutočného správania aplikácie, **nebol však napísaný právnikom**. Štyri body si prednostne zaslúžia odborné stanovisko:
->
-> 1. **Prenos údajov mimo Európskej únie** službe OpenRouter. Ide o najcitlivejší bod: treba určiť použiteľný mechanizmus prenosu, overiť, že s týmto poskytovateľom existuje zmluva o spracúvaní osobných údajov, a uviesť to tu. Kým sa tak nestane, tento dokument prenos opisuje bez toho, aby tvrdil, že je právne ošetrený.
-> 2. **Právne základy** zvolené v §7, najmä rozdelenie medzi súhlas a oprávnený záujem pri službe prístupnosti.
-> 3. **Minimálny vek** (16 rokov) a jeho súlad s dotazníkom klasifikácie obsahu Google Play.
-> 4. **Zmienka o umelej inteligencii** podľa európskeho nariadenia o umelej inteligencii (povinnosť transparentnosti pre systém s obmedzeným rizikom).
 
 ---
 

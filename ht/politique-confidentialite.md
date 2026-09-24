@@ -6,7 +6,7 @@
 > nan aplikasyon an:* n ap korije de deklarasyon ki pa t egzat ankò. Premyèman,
 > fonksyon **lang pèsonèl yo** konsève sou sèvè nou yo kontni ou kreye a (non,
 > alfabè, vokabilè) — vèsyon 1.0 te afime pa erè pa gen okenn tèks ki estoke.
-> Dezyèmman, kounye a nou sèvi ak yon zouti **rapò teknik krach** (Sentry) —
+> Dezyèmman, kounye a nou sèvi ak yon zouti **rapò teknik krach** —
 > vèsyon 1.0 te afime pa gen okenn zouti konsa ki egziste. Detay de pwen sa yo
 > nan seksyon 'Nan yon minit' pi ba a, ansanm ak nan §3 ak §9. Se egzakteman de
 > kategori chanjman sa yo ki, nan aplikasyon an, deklanche yon nouvo demann
@@ -87,8 +87,8 @@ Lè w chwazi IA Cloud la, oswa lè aparèy ou pa gen ase pisans pou IA Lokal la,
 
 **Fòk nou klè sou wout reyèl la:**
 
-- Tèks la pase nan enfrastrikti nou an (Supabase), ki ebèje nan **Inyon Ewopeyen an** (rejyon Ewòp santral, Frankfurt).
-- Apre sa yo voye l bay **openrouter.ai**, yon entèmedyè woutaj ki **chita andeyò Inyon Ewopeyen an**, ki fè modèl **Mistral Small** trete l.
+- Tèks la pase nan enfrastrikti sèvè nou an, ki ebèje nan **Inyon Ewopeyen an** (rejyon Ewòp santral, Frankfurt).
+- Apre sa yo voye l bay yon entèmedyè woutaj ki **chita andeyò Inyon Ewopeyen an**, ki fè yon modèl entèlijans atifisyèl lòt konpayi trete l.
 - **Donk se yon transfè done andeyò Inyon Ewopeyen an.** Nou pa pretann se pa sa, epi nou pa afiche okenn pwomès ebèjman ewopeyen pou etap sa a.
 - **Plume pa konsève tèks ou.** Okenn nan fonksyon sèvè nou yo pa ekri kontni tèks ou: nou anrejistre sèlman yon idantifyan teknik demann nan ak idantifyan aparèy ou, pou konte kota ou epi detekte abi.
 - **Sa founisè sa yo fè bò kote pa yo, nou pa ka garanti l.** Nou pito di w sa olye pou nou pwomèt ou zewo konsèvasyon lè nou pa an mezi pou verifye sa.
@@ -101,7 +101,7 @@ Gen yon limit sou tèks yo voye a: 1 200 karaktè pou yon reformilasyon, 4 000 k
 
 ## 3. Done nou konsève yo
 
-Nou pa sèvi ak **okenn zouti analiz odyans ni okenn trakè piblisite lòt konpayi** apa de piblisite yo dekri nan §5 la. **Nou sèvi ak yon zouti rapò teknik krach** (Sentry): li wè sèlman erè pwogram (kalite erè a, chemen apèl teknik, vèsyon aplikasyon an, sistèm dopresyon an), pa janm itilizasyon w ni chemen w pran nan aplikasyon an, epi pa janm tèks ou ekri a — yon filtè espesyal anpeche sa anvan chak voye. Detay la nan §9.
+Nou pa sèvi ak **okenn zouti analiz odyans ni okenn trakè piblisite lòt konpayi** apa de piblisite yo dekri nan §5 la. **Nou sèvi ak yon zouti rapò teknik krach**: li wè sèlman erè pwogram (kalite erè a, chemen apèl teknik, vèsyon aplikasyon an, sistèm dopresyon an), pa janm itilizasyon w ni chemen w pran nan aplikasyon an, epi pa janm tèks ou ekri a — yon filtè espesyal anpeche sa anvan chak voye. Detay la nan §9.
 
 Men tout sa ki estoke sou sèvè nou yo:
 
@@ -115,7 +115,7 @@ Men tout sa ki estoke sou sèvè nou yo:
 | **Siyal teknik abi** (depasman repete, echèk kontwòl entegrite — san okenn tèks) | Sekirite, lit kont fwod | Detache ak idantite w lè yo efase kont lan |
 | **Lang ak vèsyon aplikasyon an** | Bay bon kontni an | Jiskaske ou efase kont ou |
 | **Kontni lang pèsonèl ou kreye yo** (non li, alfabè li ak vokabilè li — mo ak definisyon ou menm, oswa lòt moun, te ekri ladan l) | Pèmèt ou jwenn lang ou a ankò sou yon lòt aparèy, fè l evolye, epi pataje l ak lòt itilizatè | Toutotan lang lan egziste. Si w efase l, fich li a disparèt — men yon kopi yon lòt moun **te deja enpòte** vin pou moun sa a depi lè sa a epi li **kontinye egziste**, tankou yon mesaj yon twazyèm moun deja resevwa ke nou pa ka al efase lakay li |
-| **Rapò teknik krach yo** (kalite erè a, chemen apèl teknik ki koupe, vèsyon aplikasyon an, sistèm dopresyon an — pa janm yon kontni tèks) | Dyagnostike epi korije krach aplikasyon an | Se founisè nou an, Sentry, ki jere sa (gade §9). Koleksyon sa a soumèt ak konsantman ou ak yon switch nou ka koupe nenpòt ki lè, san mizajou aplikasyon an |
+| **Rapò teknik krach yo** (kalite erè a, chemen apèl teknik ki koupe, vèsyon aplikasyon an, sistèm dopresyon an — pa janm yon kontni tèks) | Dyagnostike epi korije krach aplikasyon an | Se founisè rapò krach nou an ki jere sa (gade §9). Koleksyon sa a soumèt ak konsantman ou ak yon switch nou ka koupe nenpòt ki lè, san mizajou aplikasyon an |
 
 **Sa nou pa kolekte:** non ou, kontak ou yo, kote w ye, kanè adrès ou, foto ou yo, ajanda ou, istorik aplikasyon ou yo. Plume pa mande okenn nan otorizasyon sa yo.
 
@@ -186,17 +186,16 @@ Kòm aplikasyon an pèmèt reformile yon tèks lib epi li afiche reklam, li pa e
 
 | Founisè | Wòl | Ki kote |
 |---|---|---|
-| **Supabase** | Ebèjman baz done a, otantifikasyon, fonksyon sèvè | Inyon Ewopeyen (Frankfurt) |
-| **OpenRouter** | Achemine demann yo bay modèl IA a | **Andeyò Inyon Ewopeyen an** |
-| **Mistral AI** (atravè OpenRouter) | Modèl ki trete tèks la (Mistral Small) | Tretman atravè entèmedyè ki anwo a |
+| **Founisè ebèjman nou an** | Ebèjman baz done a, otantifikasyon, fonksyon sèvè | Inyon Ewopeyen (Frankfurt) |
+| **Founisè tretman IA nou an** | Achemine demann yo epi trete tèks la ak yon modèl entèlijans atifisyèl lòt konpayi | **Andeyò Inyon Ewopeyen an** |
 | **Google Play / Google Billing** | Peman, abònman | Google Ireland / Etazini |
 | **Google AdMob** | Reklam ak rekonpans | Google Ireland / Etazini |
 | **Google (sèvis sistèm telefòn nan)** | Rekonesans vokal, modil tradiksyon san koneksyon | Selon aparèy ou |
-| **Sentry** (Functional Software, Inc.) | Rapò teknik krach — sèlman erè pwogram, filtre anvan yo voye yo: pa janm tèks ou | Etazini |
+| **Founisè rapò krach nou an** | Rapò teknik krach — sèlman erè pwogram, filtre anvan yo voye yo: pa janm tèks ou | Etazini |
 
 **Nou pa vann okenn done epi nou pa sede okenn done bay koutye done.**
 
-**Transfè andeyò Inyon Ewopeyen an:** lè nou sèvi ak OpenRouter, ak Google Play, ak AdMob epi ak Sentry, sa vle di gen transfè done andeyò Inyon Ewopeyen an. **Fòk yon pwofesyonèl verifye epi dokimante ankadreman jiridik transfè sa yo** (kloz kontraktyèl tip, desizyon adekwasyon) **anvan piblikasyon** — gade nòt ki nan fen dokiman an.
+**Transfè andeyò Inyon Ewopeyen an:** lè nou sèvi ak founisè tretman IA nou an, ak Google Play, ak AdMob epi ak founisè rapò krach nou an, sa vle di gen transfè done andeyò Inyon Ewopeyen an. **Fòk yon pwofesyonèl verifye epi dokimante ankadreman jiridik transfè sa yo** (kloz kontraktyèl tip, desizyon adekwasyon) **anvan piblikasyon** — gade nòt ki nan fen dokiman an.
 
 ---
 
@@ -219,15 +218,6 @@ N ap pibliye tout chanjman nan politik sa a nan adrès `https://readit0.github.i
 Kondisyon pou itilize sèvis la (kota, abònman, rezilyasyon) nan yon dokiman apa: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Yon pwofesyonèl dwe relè dokiman sa a
->
-> Nou te ekri dokiman sa a lè nou t ap mezire konpòtman reyèl aplikasyon an, men **se pa yon jiris ki te ekri l**. Kat pwen merite yon avi pwofesyonèl an premye:
->
-> 1. **Transfè done andeyò Inyon Ewopeyen an** bay OpenRouter. Se pwen ki pi sansib la: fòk yo detèmine ki mekanis transfè ki aplikab, fòk yo verifye gen yon akò tretman done ak founisè sa a, epi fòk yo ekri sa isit la. Toutotan sa poko fèt, dokiman sa a dekri transfè a san li pa afime li ankadre.
-> 2. **Baz legal yo** yo chwazi nan §7 la, sitou fason yo separe konsantman ak enterè lejitim pou sèvis aksesibilite a.
-> 3. **Laj minimòm nan** (16 an) ak koyerans li ak kesyonè klasifikasyon kontni Google Play la.
-> 4. **Mansyon ki gen rapò ak IA a** dapre règleman ewopeyen sou entèlijans atifisyèl la (obligasyon transparans pou yon sistèm ki gen risk limite).
 
 ---
 

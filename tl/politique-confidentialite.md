@@ -7,7 +7,7 @@
 > pinananatili ng feature na **mga personal na wika** sa aming mga server ang nilalamang
 > nililikha ninyo (pangalan, alpabeto, bokabularyo) — mali ang sinabi ng Bersyon 1.0 na
 > walang anumang tekstong iniimbak. Pangalawa, gumagamit na kami ngayon ng isang kasangkapan
-> ng **teknikal na crash reporting** (Sentry) — sinabi ng Bersyon 1.0 na walang ganitong
+> ng **teknikal na crash reporting** — sinabi ng Bersyon 1.0 na walang ganitong
 > uring kasangkapan. Ang detalye ng dalawang puntong ito ay nasa «Sa loob ng isang minuto»
 > sa ibaba, gayundin sa §3 at §9. Ito mismo ang dalawang kategorya ng pagbabago na
 > nagpapasimula, sa application, ng isang bagong hiling ng pagsang-ayon (tingnan ang §11).
@@ -87,8 +87,8 @@ Kapag pinili ninyo ang Cloud AI, o kapag hindi sapat ang lakas ng inyong device 
 
 **Kailangang maging malinaw tungkol sa tunay na dinaraanan nito:**
 
-- Dumaraan ang teksto sa aming infrastructure (Supabase), na naka-host sa **European Union** (rehiyon ng Central Europe, Frankfurt).
-- Pagkatapos ay ipinapadala ito sa **openrouter.ai**, isang routing intermediary na **nasa labas ng European Union**, na siyang nagpapaproseso nito sa modelong **Mistral Small**.
+- Dumaraan ang teksto sa aming server infrastructure, na naka-host sa **European Union** (rehiyon ng Central Europe, Frankfurt).
+- Pagkatapos ay ipinapadala ito sa isang routing intermediary na **nasa labas ng European Union**, na siyang nagpapaproseso nito sa isang third-party na modelo ng artificial intelligence.
 - **Kaya isa itong paglilipat ng data sa labas ng European Union.** Hindi namin sinasabi ang kabaligtaran, at wala kaming ipinapakitang pangako ng European hosting para sa hakbang na ito.
 - **Hindi iniimbak ng Plume ang inyong teksto.** Wala ni isa sa aming mga server function ang nagsusulat ng laman ng inyong teksto: isang teknikal na identifier lamang ng request at ang identifier ng inyong device ang aming itinatala, upang mabilang ang inyong quota at matukoy ang mga pang-aabuso.
 - **Ang ginagawa ng mga provider na ito sa kanilang panig ay hindi namin magagarantiya.** Mas gusto naming sabihin ito sa inyo kaysa mangako ng zero retention na hindi naman namin kayang beripikahin.
@@ -101,7 +101,7 @@ May takda ang tekstong ipinapadala: 1,200 karakter para sa isang pag-rephrase, 4
 
 ## 3. Ang datos na aming itinatago
 
-**Wala kaming ginagamit na anumang analytics tool, ni anumang third-party advertising tracker** maliban sa advertising na inilarawan sa §5. **Gumagamit kami ng isang kasangkapan ng teknikal na crash reporting** (Sentry): nakikita lamang nito ang mga error ng programa (uri ng error, teknikal na call stack, bersyon ng application, operating system), hindi kailanman ang inyong paggamit ni ang inyong landas, at hindi kailanman ang tekstong isinusulat ninyo — pinipigilan ito ng isang natatanging filter bago anumang pagpapadala. Nasa §9 ang detalye.
+**Wala kaming ginagamit na anumang analytics tool, ni anumang third-party advertising tracker** maliban sa advertising na inilarawan sa §5. **Gumagamit kami ng isang kasangkapan ng teknikal na crash reporting**: nakikita lamang nito ang mga error ng programa (uri ng error, teknikal na call stack, bersyon ng application, operating system), hindi kailanman ang inyong paggamit ni ang inyong landas, at hindi kailanman ang tekstong isinusulat ninyo — pinipigilan ito ng isang natatanging filter bago anumang pagpapadala. Nasa §9 ang detalye.
 
 Ito ang kabuuan ng nakaimbak sa aming mga server:
 
@@ -115,7 +115,7 @@ Ito ang kabuuan ng nakaimbak sa aming mga server:
 | **Mga teknikal na senyales ng pang-aabuso** (paulit-ulit na paglagpas sa takda, palya sa integrity check — walang anumang teksto) | Seguridad, laban sa pandaraya | Inihihiwalay sa inyong pagkakakilanlan kapag binura ang account |
 | **Wika at bersyon ng application** | Ihatid ang tamang nilalaman | Hanggang sa mabura ang inyong account |
 | **Ang nilalaman ng mga personal na wikang nililikha ninyo** (ang pangalan nito, ang alpabeto nito, at ang bokabularyo nito — ang mga salita at ang mga kahulugang isinulat ninyo, o ng ibang tao, dito) | Bigyan kayo ng access na mahanap muli ang inyong wika sa ibang device, mapaunlad ito, at maibahagi ito sa ibang gumagamit | Habang umiiral ang wika. Kung buburahin ninyo ito, mawawala ang talaan nito — ngunit ang isang kopyang **na-import na ng ibang tao** ay pagmamay-ari na niya at **mananatili**, tulad ng isang mensaheng natanggap na ng isang ikatlong panig na hindi namin kayang burahin sa panig niya |
-| **Mga teknikal na crash report** (uri ng error, pinaikling teknikal na call stack, bersyon ng application, operating system — hindi kailanman anumang nilalamang teksto) | Suriin at ayusin ang mga crash ng application | Pinamamahalaan ng aming provider na Sentry (tingnan ang §9). Ang koleksiyong ito ay nakasalalay sa inyong pahintulot at sa isang switch na puwede naming patayin anumang oras, nang walang update sa application |
+| **Mga teknikal na crash report** (uri ng error, pinaikling teknikal na call stack, bersyon ng application, operating system — hindi kailanman anumang nilalamang teksto) | Suriin at ayusin ang mga crash ng application | Pinamamahalaan ng aming provider ng crash reporting (tingnan ang §9). Ang koleksiyong ito ay nakasalalay sa inyong pahintulot at sa isang switch na puwede naming patayin anumang oras, nang walang update sa application |
 
 **Ang hindi namin kinokolekta:** ang inyong pangalan, ang inyong mga contact, ang inyong lokasyon, ang inyong address book, ang inyong mga larawan, ang inyong kalendaryo, ang kasaysayan ng inyong mga application. Wala ni isa sa mga permission na iyan ang hinihingi ng Plume.
 
@@ -186,17 +186,16 @@ Dahil pinapayagan ng application ang pag-rephrase ng malayang teksto at nagpapak
 
 | Provider | Papel | Saan |
 |---|---|---|
-| **Supabase** | Hosting ng database, authentication, mga server function | European Union (Frankfurt) |
-| **OpenRouter** | Pagruruta ng mga request patungo sa AI model | **Labas ng European Union** |
-| **Mistral AI** (sa pamamagitan ng OpenRouter) | Modelong nagpoproseso ng teksto (Mistral Small) | Pagproseso sa pamamagitan ng nabanggit na intermediary |
+| **Ang aming provider ng hosting** | Hosting ng database, authentication, mga server function | European Union (Frankfurt) |
+| **Ang aming provider ng AI processing** | Pagruruta ng mga request at pagproseso ng teksto ng isang third-party na modelo ng artificial intelligence | **Labas ng European Union** |
 | **Google Play / Google Billing** | Bayad, mga subscription | Google Ireland / Estados Unidos |
 | **Google AdMob** | Rewarded advertising | Google Ireland / Estados Unidos |
 | **Google (mga system service ng telepono)** | Speech recognition, mga offline na translation module | Depende sa inyong device |
-| **Sentry** (Functional Software, Inc.) | Teknikal na crash reporting — mga error lamang ng programa, sinala bago ipadala: hindi kailanman ang inyong teksto | Estados Unidos |
+| **Ang aming provider ng crash reporting** | Teknikal na crash reporting — mga error lamang ng programa, sinala bago ipadala: hindi kailanman ang inyong teksto | Estados Unidos |
 
 **Wala kaming ibinebentang anumang datos at wala kaming ibinibigay na anuman sa mga data broker.**
 
-**Paglilipat sa labas ng European Union:** ang paggamit sa OpenRouter, sa Google Play, sa AdMob at sa Sentry ay nagsasangkot ng paglilipat ng datos sa labas ng European Union. Ang legal na balangkas ng mga paglilipat na ito (standard contractual clauses, adequacy decision) ay **kailangang beripikahin at idokumento ng isang propesyonal bago ilathala** — tingnan ang paalala sa dulo ng dokumento.
+**Paglilipat sa labas ng European Union:** ang paggamit sa aming provider ng AI processing, sa Google Play, sa AdMob at sa aming provider ng crash reporting ay nagsasangkot ng paglilipat ng datos sa labas ng European Union. Ang legal na balangkas ng mga paglilipat na ito (standard contractual clauses, adequacy decision) ay **kailangang beripikahin at idokumento ng isang propesyonal bago ilathala** — tingnan ang paalala sa dulo ng dokumento.
 
 ---
 
@@ -219,15 +218,6 @@ Anumang pagbabago sa patakarang ito ay ilalathala sa `https://readit0.github.io/
 Ang mga kundisyon sa paggamit ng serbisyo (mga quota, subscription, pagtatapos) ay nasa hiwalay na dokumento: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Dapat suriin ng isang propesyonal
->
-> Ang dokumentong ito ay isinulat sa pamamagitan ng pagsukat sa tunay na kilos ng application, ngunit **hindi ito isinulat ng isang abogado**. Apat na punto ang unang-unang nangangailangan ng propesyonal na payo:
->
-> 1. **Ang paglilipat ng datos sa labas ng European Union** patungo sa OpenRouter. Ito ang pinakasensitibong punto: kailangang matukoy ang naaangkop na mekanismo ng paglilipat, maberipika na may umiiral na data processing agreement sa provider na iyon, at maisulat ito rito. Hangga't hindi pa ito nagagawa, inilalarawan ng dokumentong ito ang paglilipat nang hindi iginigiit na ito ay may wastong balangkas.
-> 2. **Ang mga legal na batayan** na pinili sa §7, lalo na ang paghahati sa pagitan ng pahintulot at lehitimong interes para sa accessibility service.
-> 3. **Ang pinakamababang edad** (16 taon) at ang pagkakatugma nito sa content rating questionnaire ng Google Play.
-> 4. **Ang pahayag hinggil sa AI** sa ilalim ng regulasyong Europeo tungkol sa artificial intelligence (obligasyon sa transparency para sa isang limited-risk na sistema).
 
 ---
 

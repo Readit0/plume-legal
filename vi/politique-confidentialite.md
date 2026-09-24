@@ -7,7 +7,7 @@
 > Thứ nhất, tính năng **ngôn ngữ cá nhân** lưu giữ trên máy chủ của chúng tôi nội dung mà
 > bạn tạo ra (tên gọi, bảng chữ cái, từ điển) — phiên bản 1.0 đã khẳng định sai rằng không
 > có văn bản nào được lưu giữ. Thứ hai, hiện nay chúng tôi sử dụng một công cụ **báo cáo
-> sự cố kỹ thuật** (Sentry) — phiên bản 1.0 khẳng định rằng không tồn tại công cụ loại này.
+> sự cố kỹ thuật** — phiên bản 1.0 khẳng định rằng không tồn tại công cụ loại này.
 > Chi tiết của hai điểm này nằm trong mục «Trong một phút» bên dưới, cũng như tại §3 và §9.
 > Đây chính xác là hai loại thay đổi khiến ứng dụng đưa ra một yêu cầu chấp thuận mới
 > (xem §11).
@@ -87,8 +87,8 @@ Khi bạn chọn AI đám mây, hoặc khi thiết bị của bạn không đủ
 
 **Cần nói rõ về hành trình thực sự của nó:**
 
-- Văn bản đi qua hạ tầng của chúng tôi (Supabase), đặt tại **Liên minh châu Âu** (khu vực Trung Âu, Frankfurt).
-- Sau đó nó được truyền đến **openrouter.ai**, một bên trung gian định tuyến **đặt bên ngoài Liên minh châu Âu**, nơi giao cho mô hình **Mistral Small** xử lý.
+- Văn bản đi qua hạ tầng máy chủ của chúng tôi, đặt tại **Liên minh châu Âu** (khu vực Trung Âu, Frankfurt).
+- Sau đó nó được truyền đến một bên trung gian định tuyến **đặt bên ngoài Liên minh châu Âu**, nơi giao cho một mô hình trí tuệ nhân tạo của bên thứ ba xử lý.
 - **Vì vậy đây là một hoạt động chuyển dữ liệu ra ngoài Liên minh châu Âu.** Chúng tôi không nói khác đi, và chúng tôi không đưa ra bất kỳ lời hứa nào về việc lưu trữ tại châu Âu cho bước này.
 - **Plume không lưu giữ văn bản của bạn.** Không một hàm máy chủ nào của chúng tôi ghi lại nội dung văn bản của bạn: chúng tôi chỉ ghi lại một mã kỹ thuật của yêu cầu và mã định danh thiết bị của bạn, để đếm hạn mức của bạn và phát hiện hành vi lạm dụng.
 - **Những gì các nhà cung cấp này làm ở phía họ, chúng tôi không thể bảo đảm.** Chúng tôi thà nói thẳng với bạn còn hơn hứa hẹn một mức lưu giữ bằng không mà chúng tôi không ở vị thế kiểm chứng được.
@@ -101,7 +101,7 @@ Văn bản được gửi đi có giới hạn trần: 1.200 ký tự cho một 
 
 ## 3. Những dữ liệu chúng tôi lưu giữ
 
-Ngoài quảng cáo được mô tả ở §5, chúng tôi **không sử dụng bất kỳ công cụ phân tích người dùng nào, bất kỳ trình theo dõi quảng cáo của bên thứ ba nào**. **Chúng tôi sử dụng một công cụ báo cáo sự cố kỹ thuật** (Sentry): công cụ này chỉ thấy các lỗi chương trình (loại lỗi, ngăn xếp lệnh gọi kỹ thuật, phiên bản ứng dụng, hệ điều hành), không bao giờ thấy cách bạn sử dụng hay hành trình của bạn, và không bao giờ thấy văn bản mà bạn viết — một bộ lọc riêng biệt ngăn điều đó trước bất kỳ lần gửi nào. Chi tiết ở §9.
+Ngoài quảng cáo được mô tả ở §5, chúng tôi **không sử dụng bất kỳ công cụ phân tích người dùng nào, bất kỳ trình theo dõi quảng cáo của bên thứ ba nào**. **Chúng tôi sử dụng một công cụ báo cáo sự cố kỹ thuật**: công cụ này chỉ thấy các lỗi chương trình (loại lỗi, ngăn xếp lệnh gọi kỹ thuật, phiên bản ứng dụng, hệ điều hành), không bao giờ thấy cách bạn sử dụng hay hành trình của bạn, và không bao giờ thấy văn bản mà bạn viết — một bộ lọc riêng biệt ngăn điều đó trước bất kỳ lần gửi nào. Chi tiết ở §9.
 
 Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng tôi:
 
@@ -115,7 +115,7 @@ Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng
 | **Tín hiệu kỹ thuật về lạm dụng** (vượt hạn mức nhiều lần, kiểm tra tính toàn vẹn thất bại — không kèm bất kỳ văn bản nào) | An ninh, chống gian lận | Được tách rời khỏi danh tính của bạn khi xóa tài khoản |
 | **Ngôn ngữ và phiên bản ứng dụng** | Cung cấp đúng nội dung | Cho đến khi bạn xóa tài khoản |
 | **Nội dung của các ngôn ngữ cá nhân mà bạn tạo ra** (tên gọi, bảng chữ cái, và từ điển của nó — các từ và định nghĩa mà bạn, hoặc những người khác, đã viết vào đó) | Giúp bạn tìm lại ngôn ngữ của mình trên một thiết bị khác, phát triển nó, và chia sẻ nó với những người dùng khác | Chừng nào ngôn ngữ đó còn tồn tại. Nếu bạn xóa nó, hồ sơ của nó biến mất — nhưng một bản sao **đã được người khác nhập vào** thì từ đó thuộc về người đó và **vẫn tồn tại**, giống như một tin nhắn mà một bên thứ ba đã nhận được và chúng tôi không thể xóa khỏi phía họ |
-| **Báo cáo sự cố kỹ thuật** (loại lỗi, ngăn xếp lệnh gọi kỹ thuật đã được rút gọn, phiên bản ứng dụng, hệ điều hành — không bao giờ là nội dung văn bản) | Chẩn đoán và khắc phục các sự cố của ứng dụng | Do nhà cung cấp Sentry của chúng tôi quản lý (xem §9). Việc thu thập này phụ thuộc vào sự đồng ý của bạn và một công tắc mà chúng tôi có thể tắt bất cứ lúc nào, không cần cập nhật ứng dụng |
+| **Báo cáo sự cố kỹ thuật** (loại lỗi, ngăn xếp lệnh gọi kỹ thuật đã được rút gọn, phiên bản ứng dụng, hệ điều hành — không bao giờ là nội dung văn bản) | Chẩn đoán và khắc phục các sự cố của ứng dụng | Do nhà cung cấp dịch vụ báo cáo sự cố của chúng tôi quản lý (xem §9). Việc thu thập này phụ thuộc vào sự đồng ý của bạn và một công tắc mà chúng tôi có thể tắt bất cứ lúc nào, không cần cập nhật ứng dụng |
 
 **Những gì chúng tôi không thu thập:** tên của bạn, danh bạ của bạn, vị trí của bạn, sổ địa chỉ của bạn, ảnh của bạn, lịch của bạn, lịch sử các ứng dụng của bạn. Plume không yêu cầu bất kỳ quyền nào trong số đó.
 
@@ -186,17 +186,16 @@ Vì ứng dụng cho phép viết lại văn bản tự do và có hiển thị 
 
 | Nhà cung cấp | Vai trò | Ở đâu |
 |---|---|---|
-| **Supabase** | Lưu trữ cơ sở dữ liệu, xác thực, các hàm máy chủ | Liên minh châu Âu (Frankfurt) |
-| **OpenRouter** | Định tuyến các yêu cầu đến mô hình AI | **Ngoài Liên minh châu Âu** |
-| **Mistral AI** (qua OpenRouter) | Mô hình xử lý văn bản (Mistral Small) | Xử lý qua bên trung gian nêu trên |
+| **Nhà cung cấp dịch vụ lưu trữ của chúng tôi** | Lưu trữ cơ sở dữ liệu, xác thực, các hàm máy chủ | Liên minh châu Âu (Frankfurt) |
+| **Nhà cung cấp dịch vụ xử lý bằng AI của chúng tôi** | Định tuyến các yêu cầu và xử lý văn bản bằng một mô hình trí tuệ nhân tạo của bên thứ ba | **Ngoài Liên minh châu Âu** |
 | **Google Play / Google Billing** | Thanh toán, gói đăng ký | Google Ireland / Hoa Kỳ |
 | **Google AdMob** | Quảng cáo có thưởng | Google Ireland / Hoa Kỳ |
 | **Google (các dịch vụ hệ thống của điện thoại)** | Nhận dạng giọng nói, các gói dịch ngoại tuyến | Tùy theo thiết bị của bạn |
-| **Sentry** (Functional Software, Inc.) | Báo cáo sự cố kỹ thuật — chỉ các lỗi chương trình, đã được lọc trước khi gửi: không bao giờ là văn bản của bạn | Hoa Kỳ |
+| **Nhà cung cấp dịch vụ báo cáo sự cố của chúng tôi** | Báo cáo sự cố kỹ thuật — chỉ các lỗi chương trình, đã được lọc trước khi gửi: không bao giờ là văn bản của bạn | Hoa Kỳ |
 
 **Chúng tôi không bán bất kỳ dữ liệu nào và không nhượng bất kỳ dữ liệu nào cho các bên môi giới dữ liệu.**
 
-**Chuyển dữ liệu ra ngoài Liên minh châu Âu:** việc sử dụng OpenRouter, Google Play, AdMob và Sentry kéo theo một hoạt động chuyển dữ liệu ra ngoài Liên minh châu Âu. Khung pháp lý của các hoạt động chuyển này (điều khoản hợp đồng tiêu chuẩn, quyết định về mức độ bảo vệ tương xứng) **phải được một chuyên gia kiểm tra và ghi thành văn bản trước khi công bố** — xem ghi chú ở cuối tài liệu.
+**Chuyển dữ liệu ra ngoài Liên minh châu Âu:** việc sử dụng nhà cung cấp dịch vụ xử lý bằng AI của chúng tôi, Google Play, AdMob và nhà cung cấp dịch vụ báo cáo sự cố của chúng tôi kéo theo một hoạt động chuyển dữ liệu ra ngoài Liên minh châu Âu. Khung pháp lý của các hoạt động chuyển này (điều khoản hợp đồng tiêu chuẩn, quyết định về mức độ bảo vệ tương xứng) **phải được một chuyên gia kiểm tra và ghi thành văn bản trước khi công bố** — xem ghi chú ở cuối tài liệu.
 
 ---
 
@@ -219,15 +218,6 @@ Mọi sửa đổi của chính sách này sẽ được công bố tại địa
 Các điều kiện sử dụng dịch vụ (hạn mức, gói đăng ký, hủy đăng ký) nằm trong một tài liệu riêng: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Cần được một chuyên gia rà soát
->
-> Tài liệu này được soạn ra bằng cách đo lường hành vi thực tế của ứng dụng, nhưng **nó không do một luật sư soạn thảo**. Bốn điểm cần ý kiến chuyên môn trước tiên:
->
-> 1. **Việc chuyển dữ liệu ra ngoài Liên minh châu Âu** đến OpenRouter. Đây là điểm nhạy cảm nhất: cần xác định cơ chế chuyển dữ liệu được áp dụng, kiểm tra rằng có một thỏa thuận xử lý dữ liệu với nhà cung cấp này, và ghi điều đó vào đây. Chừng nào việc đó chưa được làm, tài liệu này mô tả hoạt động chuyển dữ liệu mà không khẳng định rằng nó đã có khung pháp lý bảo đảm.
-> 2. **Các cơ sở pháp lý** được chọn ở §7, đặc biệt là sự phân chia giữa sự đồng ý và lợi ích hợp pháp đối với dịch vụ trợ năng.
-> 3. **Độ tuổi tối thiểu** (16 tuổi) và tính nhất quán của nó với bảng câu hỏi phân loại nội dung của Google Play.
-> 4. **Nội dung nêu về AI** theo quy định của châu Âu về trí tuệ nhân tạo (nghĩa vụ minh bạch đối với một hệ thống có rủi ro hạn chế).
 
 ---
 

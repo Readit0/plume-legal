@@ -7,7 +7,7 @@
 > Egyrészt, a **saját nyelvek** funkció megőrzi a szervereinken az Ön által létrehozott
 > tartalmat (nevet, ábécét, szókincset) — az 1.0-s verzió tévesen azt állította, hogy
 > semmilyen szöveget nem tárolunk. Másrészt, mostantól egy **technikai hibajelentő**
-> eszközt (Sentry) használunk — az 1.0-s verzió azt állította, hogy nem létezik ilyen
+> eszközt használunk — az 1.0-s verzió azt állította, hogy nem létezik ilyen
 > eszköz. E két pont részletei az alábbi „Egy percben” szakaszban, valamint a 3. és a
 > 9. pontban találhatók. Pontosan ez az a két változáskategória, amely az alkalmazásban
 > új hozzájárulási kérést vált ki (lásd a 11. pontot).
@@ -87,8 +87,8 @@ Amikor a Felhő MI-t választja, vagy amikor a készüléke nem elég erős a He
 
 **A valódi útvonalról világosan kell beszélni:**
 
-- A szöveg áthalad az infrastruktúránkon (Supabase), amely az **Európai Unióban** (közép-európai régió, Frankfurt) található.
-- Ezután továbbítjuk az **openrouter.ai** részére, amely egy **az Európai Unión kívül található** útválasztó közvetítő, és amely a **Mistral Small** modellel dolgoztatja fel.
+- A szöveg áthalad a szerverinfrastruktúránkon, amely az **Európai Unióban** (közép-európai régió, Frankfurt) található.
+- Ezután továbbítjuk egy **az Európai Unión kívül található** útválasztó közvetítő részére, amely egy harmadik fél mesterséges intelligencia modelljével dolgoztatja fel.
 - **Ez tehát adattovábbítás az Európai Unión kívülre.** Nem állítjuk az ellenkezőjét, és erre a lépésre nem hirdetünk semmiféle európai tárhelyre vonatkozó ígéretet.
 - **A Plume nem őrzi meg az Ön szövegét.** Egyik szerverfüggvényünk sem írja ki a szövege tartalmát: kizárólag egy technikai kérésazonosítót és a készüléke azonosítóját rögzítjük, hogy számon tartsuk a kvótáját, és felderítsük a visszaéléseket.
 - **Azt, hogy ezek a szolgáltatók a maguk részéről mit tesznek, nem tudjuk garantálni.** Inkább megmondjuk Önnek, mintsem hogy nulla adatmegőrzést ígérjünk, amelyet nem áll módunkban ellenőrizni.
@@ -101,7 +101,7 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 
 ## 3. Az általunk megőrzött adatok
 
-**Semmilyen látogatottságelemző eszközt és semmilyen harmadik féltől származó hirdetési nyomkövetőt nem használunk** az 5. pontban leírt hirdetéseken kívül. **Egy technikai hibajelentő eszközt használunk** (Sentry): ez kizárólag programhibákat lát (a hiba típusát, a technikai hívási láncot, az alkalmazás verzióját, az operációs rendszert), soha az Ön használatát vagy útját, és soha az Ön által írt szöveget — ezt egy erre szolgáló szűrő minden küldés előtt megakadályozza. A részletek a 9. pontban találhatók.
+**Semmilyen látogatottságelemző eszközt és semmilyen harmadik féltől származó hirdetési nyomkövetőt nem használunk** az 5. pontban leírt hirdetéseken kívül. **Egy technikai hibajelentő eszközt használunk**: ez kizárólag programhibákat lát (a hiba típusát, a technikai hívási láncot, az alkalmazás verzióját, az operációs rendszert), soha az Ön használatát vagy útját, és soha az Ön által írt szöveget — ezt egy erre szolgáló szűrő minden küldés előtt megakadályozza. A részletek a 9. pontban találhatók.
 
 Íme mindaz, amit a szervereinken tárolunk:
 
@@ -115,7 +115,7 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 | **Visszaélésre utaló technikai jelzések** (ismételt túllépések, sikertelen integritás-ellenőrzés — mindenféle szöveg nélkül) | Biztonság, csalás elleni küzdelem | A fiók törlésekor elválasztjuk őket az Ön személyazonosságától |
 | **Az alkalmazás nyelve és verziója** | A megfelelő tartalom kiszolgálása | A fiókja törléséig |
 | **Az Ön által létrehozott saját nyelvek tartalma** (a neve, az ábécéje és a szókincse — a szavak és jelentések, amelyeket Ön, vagy mások, beírtak) | Lehetővé tenni, hogy egy másik készüléken is megtalálja a nyelvét, hogy továbbfejlessze, és hogy megossza más felhasználókkal | Amíg a nyelv létezik. Ha törli, a lapja eltűnik — de egy már **más személy által importált** másolat ettől kezdve az övé, és **fennmarad**, mint egy harmadik fél által már megkapott üzenet, amelyet nem tudunk töröltetni nála |
-| **Technikai hibajelentések** (a hiba típusa, a lecsonkított technikai hívási lánc, az alkalmazás verziója, az operációs rendszer — soha szöveges tartalom) | Az alkalmazás összeomlásainak diagnosztizálása és javítása | A Sentry szolgáltatónk kezeli (lásd a 9. pontot). Ez a gyűjtés az Ön hozzájárulásához kötött, és egy kapcsolóhoz, amelyet bármikor kikapcsolhatunk, az alkalmazás frissítése nélkül |
+| **Technikai hibajelentések** (a hiba típusa, a lecsonkított technikai hívási lánc, az alkalmazás verziója, az operációs rendszer — soha szöveges tartalom) | Az alkalmazás összeomlásainak diagnosztizálása és javítása | A hibajelentő szolgáltatónk kezeli (lásd a 9. pontot). Ez a gyűjtés az Ön hozzájárulásához kötött, és egy kapcsolóhoz, amelyet bármikor kikapcsolhatunk, az alkalmazás frissítése nélkül |
 
 **Amit nem gyűjtünk:** az Ön nevét, a névjegyeit, a tartózkodási helyét, a címjegyzékét, a fényképeit, a naptárát, az alkalmazásai előzményeit. A Plume egyik ilyen engedélyt sem kéri.
 
@@ -186,17 +186,16 @@ Mivel az alkalmazás lehetővé teszi szabad szöveg átfogalmazását és hirde
 
 | Szolgáltató | Szerep | Hol |
 |---|---|---|
-| **Supabase** | Az adatbázis tárhelye, hitelesítés, szerverfüggvények | Európai Unió (Frankfurt) |
-| **OpenRouter** | A kérések továbbítása az MI-modell felé | **Az Európai Unión kívül** |
-| **Mistral AI** (az OpenRouteren keresztül) | A szöveget feldolgozó modell (Mistral Small) | Feldolgozás a fenti közvetítőn keresztül |
+| **Tárhelyszolgáltatónk** | Az adatbázis tárhelye, hitelesítés, szerverfüggvények | Európai Unió (Frankfurt) |
+| **MI-feldolgozási szolgáltatónk** | A kérések továbbítása és a szöveg feldolgozása harmadik fél mesterséges intelligencia modelljével | **Az Európai Unión kívül** |
 | **Google Play / Google Billing** | Fizetés, előfizetések | Google Ireland / Egyesült Államok |
 | **Google AdMob** | Jutalmazott hirdetések | Google Ireland / Egyesült Államok |
 | **Google (a telefon rendszerszolgáltatásai)** | Beszédfelismerés, offline fordítási modulok | A készülékétől függően |
-| **Sentry** (Functional Software, Inc.) | Technikai hibajelentés — kizárólag programhibák, küldés előtt kiszűrve: soha az Ön szövege | Egyesült Államok |
+| **Hibajelentő szolgáltatónk** | Technikai hibajelentés — kizárólag programhibák, küldés előtt kiszűrve: soha az Ön szövege | Egyesült Államok |
 
 **Semmilyen adatot nem adunk el, és semmilyen adatot nem adunk át adatkereskedőknek.**
 
-**Adattovábbítás az Európai Unión kívülre:** az OpenRouter, a Google Play, az AdMob és a Sentry igénybevétele adattovábbítással jár az Európai Unión kívülre. Ezen adattovábbítások jogi kereteit (általános adatvédelmi kikötések, megfelelőségi határozat) **a közzététel előtt szakembernek kell ellenőriznie és dokumentálnia** — lásd a dokumentum végén lévő megjegyzést.
+**Adattovábbítás az Európai Unión kívülre:** az MI-feldolgozási szolgáltatónk, a Google Play, az AdMob és a hibajelentő szolgáltatónk igénybevétele adattovábbítással jár az Európai Unión kívülre. Ezen adattovábbítások jogi kereteit (általános adatvédelmi kikötések, megfelelőségi határozat) **a közzététel előtt szakembernek kell ellenőriznie és dokumentálnia** — lásd a dokumentum végén lévő megjegyzést.
 
 ---
 
@@ -219,15 +218,6 @@ A jelen tájékoztató minden módosítását a `https://readit0.github.io/plume
 A szolgáltatás használati feltételeit (kvóták, előfizetések, felmondás) külön dokumentum tartalmazza: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Szakemberrel átnézendő
->
-> Ez a dokumentum az alkalmazás tényleges viselkedésének megmérésével készült, de **nem jogász írta**. Négy pont igényel elsősorban szakmai véleményt:
->
-> 1. **Az Európai Unión kívülre irányuló adattovábbítás** az OpenRouter felé. Ez a legérzékenyebb pont: meg kell határozni az alkalmazandó adattovábbítási mechanizmust, ellenőrizni kell, hogy létezik-e adatfeldolgozási szerződés ezzel a szolgáltatóval, és ezt itt le kell írni. Amíg ez nem történik meg, ez a dokumentum leírja az adattovábbítást anélkül, hogy azt állítaná, hogy az jogilag keretezett.
-> 2. **A 7. pontban** kiválasztott **jogalapok**, különösen a hozzájárulás és a jogos érdek közötti megosztás a kisegítő lehetőségek szolgáltatása esetében.
-> 3. **A korhatár** (16 év) és annak összhangja a Google Play tartalombesorolási kérdőívével.
-> 4. **Az MI-re vonatkozó tájékoztatás** a mesterséges intelligenciáról szóló európai rendelet alapján (átláthatósági kötelezettség korlátozott kockázatú rendszer esetén).
 
 ---
 

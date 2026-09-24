@@ -2,7 +2,7 @@
 
 **Son yenilənmə: 12 sentyabr 2026** — Versiya 2.0
 
-> *Versiya 1.0-dan bəri nə dəyişib və tətbiqdə qəbul ekranını yenidən niyə görə bilərsiniz:* artıq doğru olmayan iki iddianı düzəldirik. Birincisi, **şəxsi dillər** funksiyası yaratdığınız məzmunu (ad, əlifba, lüğət) serverlərimizdə saxlayır — versiya 1.0 səhvən heç bir mətnin saxlanmadığını bildirirdi. İkincisi, artıq bir **texniki nasazlıq hesabatı** aləti (Sentry) istifadə edirik — versiya 1.0 belə bir alətin mövcud olmadığını bildirirdi. Bu iki nöqtənin təfərrüatı aşağıdakı «Bir dəqiqədə» bölməsində, həmçinin §3 və §9-da yer alır. Bunlar tətbiqdə yeni razılıq tələbini yaradan tam olaraq iki dəyişiklik kateqoriyasıdır (bax §11).
+> *Versiya 1.0-dan bəri nə dəyişib və tətbiqdə qəbul ekranını yenidən niyə görə bilərsiniz:* artıq doğru olmayan iki iddianı düzəldirik. Birincisi, **şəxsi dillər** funksiyası yaratdığınız məzmunu (ad, əlifba, lüğət) serverlərimizdə saxlayır — versiya 1.0 səhvən heç bir mətnin saxlanmadığını bildirirdi. İkincisi, artıq bir **texniki nasazlıq hesabatı** aləti istifadə edirik — versiya 1.0 belə bir alətin mövcud olmadığını bildirirdi. Bu iki nöqtənin təfərrüatı aşağıdakı «Bir dəqiqədə» bölməsində, həmçinin §3 və §9-da yer alır. Bunlar tətbiqdə yeni razılıq tələbini yaradan tam olaraq iki dəyişiklik kateqoriyasıdır (bax §11).
 
 ---
 
@@ -79,8 +79,8 @@ Bulud SI-ni seçdiyinizdə, və ya cihazınız Lokal SI üçün kifayət qədər
 
 **Real marşrut haqqında aydın olmaq lazımdır:**
 
-- Mətn **Avropa İttifaqında** (Mərkəzi Avropa regionu, Frankfurt) yerləşdirilən infrastrukturumuz (Supabase) vasitəsilə keçir.
-- Sonra o, Avropa İttifaqından **kənarda** yerləşən marşrutlaşdırma vasitəçisi **openrouter.ai**-a ötürülür, bu da onu **Mistral Small** modeli ilə işlətdirir.
+- Mətn **Avropa İttifaqında** (Mərkəzi Avropa regionu, Frankfurt) yerləşdirilən server infrastrukturumuz vasitəsilə keçir.
+- Sonra o, Avropa İttifaqından **kənarda** yerləşən bir marşrutlaşdırma vasitəçisinə ötürülür, bu da onu üçüncü tərəfin süni intellekt modeli ilə işlətdirir.
 - **Deməli, bu, Avropa İttifaqından kənara məlumat ötürülməsidir.** Biz əksini iddia etmirik və bu mərhələ üçün heç bir Avropa hostinq vədi vermirik.
 - **Plume mətninizi saxlamır.** Server funksiyalarımızın heç biri mətninizin məzmununu yazmır: yalnız kvotanızı saymaq və sui-istifadəni aşkar etmək üçün texniki sorğu identifikatoru və cihazınızın identifikatorunu qeyd edirik.
 - **Bu təchizatçıların öz tərəflərində nə etdiklərini zəmanət verə bilmirik.** Bunu sizə deməyi, yoxlaya bilmədiyimiz sıfır saxlama vəd etməkdən üstün tuturuq.
@@ -93,7 +93,7 @@ Göndərilən mətn məhdudlaşdırılıb: yenidən tərtib üçün 1200 simvol,
 
 ## 3. Saxladığımız məlumatlar
 
-§5-də təsvir olunan reklamdan başqa **heç bir auditoriya təhlili aləti və heç bir üçüncü tərəf reklam izləyicisi** istifadə etmirik. **Texniki nasazlıq hesabatı aləti (Sentry) istifadə edirik**: o, yalnız proqram xətalarını görür (xəta növü, texniki çağırış yığını, tətbiqin versiyası, əməliyyat sistemi), heç vaxt istifadənizi və ya marşrutunuzu görmür, və heç vaxt yazdığınız mətni görmür — hər hansı göndərilişdən əvvəl xüsusi bir filtr buna qadağa qoyur. Təfərrüat §9-da yer alır.
+§5-də təsvir olunan reklamdan başqa **heç bir auditoriya təhlili aləti və heç bir üçüncü tərəf reklam izləyicisi** istifadə etmirik. **Texniki nasazlıq hesabatı aləti istifadə edirik**: o, yalnız proqram xətalarını görür (xəta növü, texniki çağırış yığını, tətbiqin versiyası, əməliyyat sistemi), heç vaxt istifadənizi və ya marşrutunuzu görmür, və heç vaxt yazdığınız mətni görmür — hər hansı göndərilişdən əvvəl xüsusi bir filtr buna qadağa qoyur. Təfərrüat §9-da yer alır.
 
 Serverlərimizdə saxlanılan hər şey budur:
 
@@ -107,7 +107,7 @@ Serverlərimizdə saxlanılan hər şey budur:
 | **Sui-istifadənin texniki siqnalları** (təkrarlanan aşımlar, tamlıq yoxlamasının uğursuzluğu — heç bir mətn olmadan) | Təhlükəsizlik, fırıldaqçılıqla mübarizə | Hesabın silinməsi zamanı kimliyinizdən ayrılır |
 | **Tətbiqin dili və versiyası** | Doğru məzmunu təqdim etmək | Hesabınız silinənə qədər |
 | **Yaratdığınız şəxsi dillərin məzmunu** (adı, əlifbası və lüğəti — sizin və ya digər şəxslərin orada yazdığı sözlər və tərifləri) | Dilinizi başqa cihazda tapmağınıza, onu inkişaf etdirməyinizə və digər istifadəçilərlə paylaşmağınıza imkan vermək | Dil mövcud olduğu müddətcə. Onu silsəniz, onun kartı yox olur — lakin artıq **başqa bir şəxs tərəfindən idxal edilmiş** bir surət artıq ona məxsusdur və **yaşamağa davam edir**, üçüncü tərəfin artıq aldığı bir mesaj kimi ki, onu onların yanında silə bilmirik |
-| **Texniki nasazlıq hesabatları** (xəta növü, kəsilmiş texniki çağırış yığını, tətbiqin versiyası, əməliyyat sistemi — heç vaxt mətn məzmunu deyil) | Tətbiqin nasazlıqlarını diaqnoz qoymaq və düzəltmək | Sentry təchizatçımız tərəfindən idarə olunur (bax §9). Bu toplama razılığınıza və istənilən vaxt, tətbiq yeniləməsi olmadan, söndürə biləcəyimiz bir açara tabedir |
+| **Texniki nasazlıq hesabatları** (xəta növü, kəsilmiş texniki çağırış yığını, tətbiqin versiyası, əməliyyat sistemi — heç vaxt mətn məzmunu deyil) | Tətbiqin nasazlıqlarını diaqnoz qoymaq və düzəltmək | Nasazlıq hesabatı təchizatçımız tərəfindən idarə olunur (bax §9). Bu toplama razılığınıza və istənilən vaxt, tətbiq yeniləməsi olmadan, söndürə biləcəyimiz bir açara tabedir |
 
 **Toplamadığımız:** adınız, kontaktlarınız, məkanınız, ünvan kitabçanız, fotolarınız, təqviminiz, tətbiqlərinizin tarixçəsi. Plume bu icazələrdən heç birini tələb etmir.
 
@@ -178,17 +178,16 @@ Tətbiq sərbəst mətnin yenidən tərtibinə imkan verdiyi və reklam göstər
 
 | Təchizatçı | Rolu | Harada |
 |---|---|---|
-| **Supabase** | Verilənlər bazasının hostinqi, doğrulama, server funksiyaları | Avropa İttifaqı (Frankfurt) |
-| **OpenRouter** | Sorğuların SI modelinə yönləndirilməsi | **Avropa İttifaqından kənarda** |
-| **Mistral AI** (OpenRouter vasitəsilə) | Mətni emal edən model (Mistral Small) | Yuxarıdakı vasitəçi vasitəsilə emal |
+| **Hostinq təchizatçımız** | Verilənlər bazasının hostinqi, doğrulama, server funksiyaları | Avropa İttifaqı (Frankfurt) |
+| **SI emalı təchizatçımız** | Sorğuların yönləndirilməsi və mətnin üçüncü tərəfin süni intellekt modeli ilə emalı | **Avropa İttifaqından kənarda** |
 | **Google Play / Google Billing** | Ödəniş, abunəliklər | Google Ireland / ABŞ |
 | **Google AdMob** | Mükafatlı reklam | Google Ireland / ABŞ |
 | **Google (telefonun sistem xidmətləri)** | Səs tanıma, oflayn tərcümə modulları | Cihazınızdan asılı olaraq |
-| **Sentry** (Functional Software, Inc.) | Texniki nasazlıq hesabatı — yalnız göndərilməzdən əvvəl filtrlənmiş proqram xətaları: heç vaxt mətniniz deyil | ABŞ |
+| **Nasazlıq hesabatı təchizatçımız** | Texniki nasazlıq hesabatı — yalnız göndərilməzdən əvvəl filtrlənmiş proqram xətaları: heç vaxt mətniniz deyil | ABŞ |
 
 **Heç bir məlumat satmırıq və heç birini məlumat brokerlərinə ötürmürük.**
 
-**Avropa İttifaqından kənar ötürmələr:** OpenRouter, Google Play, AdMob və Sentry-dən istifadə Avropa İttifaqından kənara məlumat ötürülməsini nəzərdə tutur.
+**Avropa İttifaqından kənar ötürmələr:** SI emalı təchizatçımızdan, Google Play, AdMob və nasazlıq hesabatı təchizatçımızdan istifadə Avropa İttifaqından kənara məlumat ötürülməsini nəzərdə tutur.
 
 ---
 

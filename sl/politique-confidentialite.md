@@ -2,7 +2,7 @@
 
 **Zadnja posodobitev: 12. september 2026** — Različica 2.0
 
-> *Kaj se je spremenilo od različice 1.0 in zakaj morda znova vidite zaslon za sprejem v aplikaciji:* popravljamo dve trditvi, ki nista bili več točni. Prvič, funkcija **osebni jeziki** na naših strežnikih hrani vsebino, ki jo ustvarite (ime, abecedo, besednjak) — različica 1.0 je napačno trdila, da se ne shranjuje nobeno besedilo. Drugič, zdaj uporabljamo orodje za **poročanje o tehničnih sesutjih** (Sentry) — različica 1.0 je trdila, da tako orodje ne obstaja. Podrobnosti o obeh točkah so v razdelku »V eni minuti« spodaj ter v §3 in §9. To sta natanko dve kategoriji sprememb, ki v aplikaciji sprožita novo zahtevo za soglasje (glejte §11).
+> *Kaj se je spremenilo od različice 1.0 in zakaj morda znova vidite zaslon za sprejem v aplikaciji:* popravljamo dve trditvi, ki nista bili več točni. Prvič, funkcija **osebni jeziki** na naših strežnikih hrani vsebino, ki jo ustvarite (ime, abecedo, besednjak) — različica 1.0 je napačno trdila, da se ne shranjuje nobeno besedilo. Drugič, zdaj uporabljamo orodje za **poročanje o tehničnih sesutjih** — različica 1.0 je trdila, da tako orodje ne obstaja. Podrobnosti o obeh točkah so v razdelku »V eni minuti« spodaj ter v §3 in §9. To sta natanko dve kategoriji sprememb, ki v aplikaciji sprožita novo zahtevo za soglasje (glejte §11).
 
 ---
 
@@ -79,8 +79,8 @@ Ko izberete Umetno inteligenco v oblaku ali ko vaša naprava ni dovolj zmogljiva
 
 **Glede dejanske poti je treba biti jasen:**
 
-- Besedilo gre skozi našo infrastrukturo (Supabase), ki gostuje v **Evropski uniji** (regija Srednja Evropa, Frankfurt).
-- Nato se prenese na **openrouter.ai**, posrednika za usmerjanje, ki je **zunaj Evropske unije** in ga da v obdelavo modelu **Mistral Small**.
+- Besedilo gre skozi našo strežniško infrastrukturo, ki gostuje v **Evropski uniji** (regija Srednja Evropa, Frankfurt).
+- Nato se prenese na posrednika za usmerjanje, ki je **zunaj Evropske unije** in ga da v obdelavo modelu umetne inteligence tretje osebe.
 - **Gre torej za prenos podatkov zunaj Evropske unije.** Ne trdimo nasprotnega in za ta korak ne prikazujemo nobene obljube o evropskem gostovanju.
 - **Plume vašega besedila ne hrani.** Nobena naša strežniška funkcija ne zapisuje vsebine vašega besedila: zabeležimo le tehnični identifikator zahteve in identifikator vaše naprave, da preštejemo vašo kvoto in zaznamo zlorabe.
 - **Kaj ti ponudniki počnejo na svoji strani, ne moremo jamčiti.** Raje vam to povemo, kot da vam obljubljamo ničelno hrambo, ki je ne moremo preveriti.
@@ -93,7 +93,7 @@ Poslano besedilo je omejeno: 1.200 znakov za preoblikovanje in 4.000 znakov za a
 
 ## 3. Podatki, ki jih hranimo
 
-Ne uporabljamo **nobenega orodja za analitiko obiskanosti in nobenega oglaševalskega sledilnika tretjih oseb**, razen oglaševanja, opisanega v §5. **Uporabljamo orodje za poročanje o tehničnih sesutjih** (Sentry): vidi le napake programa (vrsto napake, tehnično sled klicev, različico aplikacije, operacijski sistem), nikoli vaše uporabe ali poti po aplikaciji, in nikoli besedila, ki ga pišete — to mu pred vsakim pošiljanjem prepreči poseben filter. Podrobnosti so v §9.
+Ne uporabljamo **nobenega orodja za analitiko obiskanosti in nobenega oglaševalskega sledilnika tretjih oseb**, razen oglaševanja, opisanega v §5. **Uporabljamo orodje za poročanje o tehničnih sesutjih**: vidi le napake programa (vrsto napake, tehnično sled klicev, različico aplikacije, operacijski sistem), nikoli vaše uporabe ali poti po aplikaciji, in nikoli besedila, ki ga pišete — to mu pred vsakim pošiljanjem prepreči poseben filter. Podrobnosti so v §9.
 
 Tukaj je vse, kar je shranjeno na naših strežnikih:
 
@@ -107,7 +107,7 @@ Tukaj je vse, kar je shranjeno na naših strežnikih:
 | **Tehnični signali zlorabe** (ponavljajoče se prekoračitve, neuspešno preverjanje celovitosti — brez vsakršnega besedila) | Varnost, boj proti goljufijam | Ob izbrisu računa se ločijo od vaše identitete |
 | **Jezik in različica aplikacije** | Dostava ustrezne vsebine | Do izbrisa vašega računa |
 | **Vsebina osebnih jezikov, ki jih ustvarite** (njihovo ime, abeceda in besednjak — besede in pomeni, ki ste jih vanj vpisali vi ali druge osebe) | Da lahko svoj jezik najdete na drugi napravi, ga razvijate naprej in delite z drugimi uporabniki | Dokler jezik obstaja. Če ga izbrišete, njegov zapis izgine — vendar kopija, ki jo je že **uvozila druga oseba**, odslej pripada njej in **preživi**, tako kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati |
-| **Poročila o tehničnih sesutjih** (vrsta napake, skrajšana tehnična sled klicev, različica aplikacije, operacijski sistem — nikoli vsebina besedila) | Diagnosticiranje in odpravljanje sesutij aplikacije | Ureja jih naš ponudnik Sentry (glejte §9). Ta zbirka podatkov je odvisna od vaše privolitve in stikala, ki ga lahko kadar koli izklopimo, brez posodobitve aplikacije |
+| **Poročila o tehničnih sesutjih** (vrsta napake, skrajšana tehnična sled klicev, različica aplikacije, operacijski sistem — nikoli vsebina besedila) | Diagnosticiranje in odpravljanje sesutij aplikacije | Ureja jih naš ponudnik poročanja o sesutjih (glejte §9). Ta zbirka podatkov je odvisna od vaše privolitve in stikala, ki ga lahko kadar koli izklopimo, brez posodobitve aplikacije |
 
 **Česa ne zbiramo:** vašega imena, vaših stikov, vaše lokacije, vašega imenika, vaših fotografij, vašega koledarja, zgodovine vaših aplikacij. Plume ne zahteva nobenega od teh dovoljenj.
 
@@ -178,17 +178,16 @@ Ker aplikacija omogoča preoblikovanje prostega besedila in prikazuje oglase, ni
 
 | Ponudnik | Vloga | Kje |
 |---|---|---|
-| **Supabase** | Gostovanje podatkovne baze, preverjanje pristnosti, strežniške funkcije | Evropska unija (Frankfurt) |
-| **OpenRouter** | Usmerjanje zahtev do modela umetne inteligence | **Zunaj Evropske unije** |
-| **Mistral AI** (prek OpenRouterja) | Model, ki obdela besedilo (Mistral Small) | Obdelava prek zgoraj navedenega posrednika |
+| **Naš ponudnik gostovanja** | Gostovanje podatkovne baze, preverjanje pristnosti, strežniške funkcije | Evropska unija (Frankfurt) |
+| **Naš ponudnik obdelave z umetno inteligenco** | Usmerjanje zahtev in obdelava besedila z modelom umetne inteligence tretje osebe | **Zunaj Evropske unije** |
 | **Google Play / Google Billing** | Plačilo, naročnine | Google Ireland / Združene države |
 | **Google AdMob** | Nagrajeno oglaševanje | Google Ireland / Združene države |
 | **Google (sistemske storitve telefona)** | Prepoznavanje govora, moduli za prevajanje brez povezave | Odvisno od vaše naprave |
-| **Sentry** (Functional Software, Inc.) | Poročanje o tehničnih sesutjih — le napake programa, filtrirane pred pošiljanjem: nikoli vaše besedilo | Združene države |
+| **Naš ponudnik poročanja o sesutjih** | Poročanje o tehničnih sesutjih — le napake programa, filtrirane pred pošiljanjem: nikoli vaše besedilo | Združene države |
 
 **Nobenih podatkov ne prodajamo in jih ne odstopamo posrednikom s podatki.**
 
-**Prenosi zunaj Evropske unije:** uporaba OpenRouterja, Google Play, AdMoba in Sentryja pomeni prenos podatkov zunaj Evropske unije. Pravni okvir teh prenosov (standardne pogodbene klavzule, sklep o ustreznosti) **mora pred objavo preveriti in dokumentirati strokovnjak** — glejte opombo na koncu dokumenta.
+**Prenosi zunaj Evropske unije:** uporaba našega ponudnika obdelave z umetno inteligenco, Google Play, AdMoba in našega ponudnika poročanja o sesutjih pomeni prenos podatkov zunaj Evropske unije. Pravni okvir teh prenosov (standardne pogodbene klavzule, sklep o ustreznosti) **mora pred objavo preveriti in dokumentirati strokovnjak** — glejte opombo na koncu dokumenta.
 
 ---
 
@@ -211,15 +210,6 @@ Vsaka sprememba te politike bo objavljena na naslovu `https://readit0.github.io/
 Pogoji uporabe storitve (kvote, naročnine, odpoved) so v ločenem dokumentu: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### V pregled strokovnjaku
->
-> Ta dokument je bil napisan z merjenjem dejanskega vedenja aplikacije, vendar **ga ni napisal pravnik**. Štiri točke prednostno zaslužijo strokovno mnenje:
->
-> 1. **Prenos podatkov zunaj Evropske unije** k OpenRouterju. To je najobčutljivejša točka: treba je določiti veljavni mehanizem prenosa, preveriti, ali s tem ponudnikom obstaja pogodba o obdelavi, in to zapisati sem. Dokler to ni storjeno, ta dokument prenos opisuje, ne da bi trdil, da je pravno urejen.
-> 2. **Pravne podlage**, navedene v §7, zlasti razdelitev med privolitvijo in zakonitim interesom za storitev za dostopnost.
-> 3. **Najnižja starost** (16 let) in njena skladnost z vprašalnikom za razvrstitev vsebine v Google Play.
-> 4. **Navedba glede umetne inteligence** na podlagi evropske uredbe o umetni inteligenci (obveznost preglednosti za sistem z omejenim tveganjem).
 
 ---
 

@@ -2,7 +2,7 @@
 
 **L-aħħar aġġornament: 12 ta' Settembru 2026** — Verżjoni 2.0
 
-> *X'inbidel minn mindu kienet il-verżjoni 1.0, u għaliex forsi qed terġa' tara l-iskrin tal-aċċettazzjoni fl-applikazzjoni:* qed nikkoreġu żewġ affermazzjonijiet li ma kinux għadhom eżatti. L-ewwel, il-funzjoni **lingwi personali** żżomm fuq is-servers tagħna l-kontenut li toħloq (isem, alfabett, leksiku) — il-verżjoni 1.0 kienet tafferma bi żball li ebda test ma kien maħżun. It-tieni, issa nużaw għodda ta' **rappurtar ta' crashes tekniku** (Sentry) — il-verżjoni 1.0 kienet tafferma li ebda għodda ta' dan it-tip ma kienet teżisti. Id-dettall ta' dawn iż-żewġ punti jinsab f'"F'minuta" hawn taħt, kif ukoll fis-§3 u fis-§9. Dawn huma eżattament iż-żewġ kategoriji ta' bidla li, fl-applikazzjoni, jattivaw talba ġdida għal ftehim (ara s-§11).
+> *X'inbidel minn mindu kienet il-verżjoni 1.0, u għaliex forsi qed terġa' tara l-iskrin tal-aċċettazzjoni fl-applikazzjoni:* qed nikkoreġu żewġ affermazzjonijiet li ma kinux għadhom eżatti. L-ewwel, il-funzjoni **lingwi personali** żżomm fuq is-servers tagħna l-kontenut li toħloq (isem, alfabett, leksiku) — il-verżjoni 1.0 kienet tafferma bi żball li ebda test ma kien maħżun. It-tieni, issa nużaw għodda ta' **rappurtar ta' crashes tekniku** — il-verżjoni 1.0 kienet tafferma li ebda għodda ta' dan it-tip ma kienet teżisti. Id-dettall ta' dawn iż-żewġ punti jinsab f'"F'minuta" hawn taħt, kif ukoll fis-§3 u fis-§9. Dawn huma eżattament iż-żewġ kategoriji ta' bidla li, fl-applikazzjoni, jattivaw talba ġdida għal ftehim (ara s-§11).
 
 ---
 
@@ -79,8 +79,8 @@ Meta tagħżel l-IA tal-Cloud, jew meta l-apparat tiegħek ma jkunx qawwi biżż
 
 **Irridu nkunu ċari dwar il-mixja reali:**
 
-- It-test jgħaddi mill-infrastruttura tagħna (Supabase), ospitata fl-**Unjoni Ewropea** (reġjun tal-Ewropa Ċentrali, Frankfurt).
-- Imbagħad jintbagħat lil **openrouter.ai**, intermedjarju tar-routing **li jinsab barra mill-Unjoni Ewropea**, li jgħaddih biex jiġi pproċessat mill-mudell **Mistral Small**.
+- It-test jgħaddi mill-infrastruttura tas-servers tagħna, ospitata fl-**Unjoni Ewropea** (reġjun tal-Ewropa Ċentrali, Frankfurt).
+- Imbagħad jintbagħat lil intermedjarju tar-routing **li jinsab barra mill-Unjoni Ewropea**, li jgħaddih biex jiġi pproċessat minn mudell ta' intelliġenza artifiċjali ta' terza parti.
 - **Għaldaqstant dan huwa trasferiment ta' data barra mill-Unjoni Ewropea.** Ma nippretendux il-kuntrarju, u ma nuru ebda wegħda ta' ospitar Ewropew għal dan il-pass.
 - **Plume ma żżommx it-test tiegħek.** Ebda waħda mill-funzjonijiet tagħna fuq is-server ma tikteb il-kontenut tat-test tiegħek: nirreġistraw biss identifikatur tekniku tat-talba u l-identifikatur tal-apparat tiegħek, biex ngħoddu l-kwota tiegħek u nsibu l-abbużi.
 - **Dak li dawn il-fornituri jagħmlu min-naħa tagħhom, ma nistgħux niggarantuh.** Nippreferu ngħidulek dan milli nwegħduk żamma żero li mhux f'pożizzjoni li nivverifikaw.
@@ -93,7 +93,7 @@ It-test mibgħut għandu limitu massimu: 1 200 karattru għal riformulazzjoni, 4
 
 ## 3. Id-data li nżommu
 
-Ma nużaw **ebda għodda ta' analitika tal-udjenza u ebda tracker pubbliċitarju ta' terza parti**, apparti mir-reklamar deskritt fis-§5. **Nużaw għodda ta' rappurtar ta' crashes tekniku** (Sentry): din tara biss żbalji tal-programm (tip ta' żball, stack tas-sejħiet tekniku, verżjoni tal-app, sistema operattiva), qatt l-użu jew il-mixja tiegħek, u qatt it-test li tikteb — filtru dedikat jipprojbixxi dan qabel kull bgħit. Id-dettall jinsab fis-§9.
+Ma nużaw **ebda għodda ta' analitika tal-udjenza u ebda tracker pubbliċitarju ta' terza parti**, apparti mir-reklamar deskritt fis-§5. **Nużaw għodda ta' rappurtar ta' crashes tekniku**: din tara biss żbalji tal-programm (tip ta' żball, stack tas-sejħiet tekniku, verżjoni tal-app, sistema operattiva), qatt l-użu jew il-mixja tiegħek, u qatt it-test li tikteb — filtru dedikat jipprojbixxi dan qabel kull bgħit. Id-dettall jinsab fis-§9.
 
 Dan hu kollox dak li huwa maħżun fuq is-servers tagħna:
 
@@ -107,7 +107,7 @@ Dan hu kollox dak li huwa maħżun fuq is-servers tagħna:
 | **Sinjali tekniċi ta' abbuż** (qbiż ripetut tal-limiti, falliment ta' kontroll tal-integrità — mingħajr ebda test) | Sigurtà, ġlieda kontra l-frodi | Maqtugħa mill-identità tiegħek mat-tħassir tal-kont |
 | **Lingwa u verżjoni tal-applikazzjoni** | Isservi l-kontenut it-tajjeb | Sat-tħassir tal-kont tiegħek |
 | **Il-kontenut tal-lingwi personali li toħloq** (isimha, l-alfabett tagħha, u l-leksiku tagħha — il-kliem u t-tifsiriet li int, jew persuni oħra, ktibtu fiha) | Tippermettilek terġa' ssib il-lingwa tiegħek fuq apparat ieħor, tiżviluppaha, u taqsamha ma' utenti oħra | Sakemm il-lingwa teżisti. Jekk tħassarha, il-fajl tagħha jisparixxi — iżda kopja diġà **importata minn persuna oħra** issir tagħha stess u **tibqa' teżisti**, bħal messaġġ li diġà rċieva terza persuna u li ma nistgħux immorru nħassru għandha |
-| **Rapporti ta' crashes tekniċi** (tip ta' żball, stack tas-sejħiet tekniku mqassar, verżjoni tal-app, sistema operattiva — qatt kontenut ta' test) | Tiddijanjostika u ssewwi l-crashes tal-applikazzjoni | Irregolata mill-fornitur tagħna Sentry (ara s-§9). Din il-ġbir hija soġġetta għall-kunsens tiegħek u għal swiċċ li nistgħu nitfu fi kwalunkwe ħin, mingħajr aġġornament tal-applikazzjoni |
+| **Rapporti ta' crashes tekniċi** (tip ta' żball, stack tas-sejħiet tekniku mqassar, verżjoni tal-app, sistema operattiva — qatt kontenut ta' test) | Tiddijanjostika u ssewwi l-crashes tal-applikazzjoni | Irregolata mill-fornitur tar-rappurtar ta' crashes tagħna (ara s-§9). Din il-ġbir hija soġġetta għall-kunsens tiegħek u għal swiċċ li nistgħu nitfu fi kwalunkwe ħin, mingħajr aġġornament tal-applikazzjoni |
 
 **Dak li ma niġbrux:** ismek, il-kuntatti tiegħek, il-lokalizzazzjoni tiegħek, il-ktieb tal-indirizzi tiegħek, ir-ritratti tiegħek, il-kalendarju tiegħek, l-istorja tal-applikazzjonijiet tiegħek. Plume ma titlob ebda wieħed minn dawn il-permessi.
 
@@ -178,17 +178,16 @@ Peress li l-applikazzjoni tippermetti li jiġi rriformulat test liberu u turi re
 
 | Fornitur | Rwol | Fejn |
 |---|---|---|
-| **Supabase** | Ospitar tal-bażi tad-data, awtentikazzjoni, funzjonijiet fuq is-server | Unjoni Ewropea (Frankfurt) |
-| **OpenRouter** | Instradar tat-talbiet lejn il-mudell tal-IA | **Barra mill-Unjoni Ewropea** |
-| **Mistral AI** (permezz ta' OpenRouter) | Mudell li jipproċessa t-test (Mistral Small) | Ipproċessar permezz tal-intermedjarju t'hawn fuq |
+| **Il-fornitur tal-ospitar tagħna** | Ospitar tal-bażi tad-data, awtentikazzjoni, funzjonijiet fuq is-server | Unjoni Ewropea (Frankfurt) |
+| **Il-fornitur tal-ipproċessar bl-IA tagħna** | Instradar tat-talbiet u pproċessar tat-test minn mudell ta' intelliġenza artifiċjali ta' terza parti | **Barra mill-Unjoni Ewropea** |
 | **Google Play / Google Billing** | Ħlas, abbonamenti | Google Ireland / Stati Uniti |
 | **Google AdMob** | Reklamar bi premju | Google Ireland / Stati Uniti |
 | **Google (servizzi tas-sistema tat-telefown)** | Rikonoxximent tal-vuċi, moduli ta' traduzzjoni offline | Skont l-apparat tiegħek |
-| **Sentry** (Functional Software, Inc.) | Rappurtar ta' crashes tekniku — biss żbalji tal-programm, iffiltrati qabel il-bgħit: qatt it-test tiegħek | L-Istati Uniti |
+| **Il-fornitur tar-rappurtar ta' crashes tagħna** | Rappurtar ta' crashes tekniku — biss żbalji tal-programm, iffiltrati qabel il-bgħit: qatt it-test tiegħek | L-Istati Uniti |
 
 **Ma nbigħu ebda data u ma nċedu ebda data lil sensara tad-data.**
 
-**Trasferimenti barra mill-Unjoni Ewropea:** l-użu ta' OpenRouter, ta' Google Play, ta' AdMob u ta' Sentry jimplika trasferiment ta' data barra mill-Unjoni Ewropea. Il-qafas legali ta' dawn it-trasferimenti (klawżoli kuntrattwali standard, deċiżjoni ta' adegwatezza) **irid jiġi vverifikat u ddokumentat minn professjonist qabel il-pubblikazzjoni** — ara n-nota fi tmiem id-dokument.
+**Trasferimenti barra mill-Unjoni Ewropea:** l-użu tal-fornitur tal-ipproċessar bl-IA tagħna, ta' Google Play, ta' AdMob u tal-fornitur tar-rappurtar ta' crashes tagħna jimplika trasferiment ta' data barra mill-Unjoni Ewropea. Il-qafas legali ta' dawn it-trasferimenti (klawżoli kuntrattwali standard, deċiżjoni ta' adegwatezza) **irid jiġi vverifikat u ddokumentat minn professjonist qabel il-pubblikazzjoni** — ara n-nota fi tmiem id-dokument.
 
 ---
 
@@ -211,15 +210,6 @@ Kull modifika ta' din il-politika tiġi ppubblikata fl-indirizz `https://readit0
 Il-kundizzjonijiet tal-użu tas-servizz (kwoti, abbonamenti, terminazzjoni) jinsabu f'dokument separat: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Biex jinqara minn professjonist
->
-> Dan id-dokument inkiteb billi tkejjel l-imġiba reali tal-applikazzjoni, iżda **ma nkitibx minn ġurist**. Erba' punti jistħoqqilhom bi prijorità opinjoni professjonali:
->
-> 1. **It-trasferiment ta' data barra mill-Unjoni Ewropea** lejn OpenRouter. Dan huwa l-aktar punt sensittiv: irid jiġi ddeterminat il-mekkaniżmu ta' trasferiment applikabbli, irid jiġi vverifikat li jeżisti ftehim ta' pproċessar ma' dan il-fornitur, u dan irid jinkiteb hawn. Sakemm dan ma jsirx, dan id-dokument jiddeskrivi t-trasferiment mingħajr ma jaffermah bħala regolat.
-> 2. **Il-bażijiet legali** magħżula fis-§7, b'mod partikolari t-tqassim bejn il-kunsens u l-interess leġittimu għas-servizz tal-aċċessibbiltà.
-> 3. **L-età minima** (16-il sena) u l-koerenza tagħha mal-kwestjonarju ta' klassifikazzjoni tal-kontenut ta' Google Play.
-> 4. **Ir-riferiment għall-intelliġenza artifiċjali** taħt ir-Regolament Ewropew dwar l-Intelliġenza Artifiċjali (obbligu ta' trasparenza għal sistema b'riskju limitat).
 
 ---
 

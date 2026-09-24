@@ -2,7 +2,7 @@
 
 **Zadnje ažurirano: 12. septembar 2026.** — Verzija 2.0
 
-> *Šta se promijenilo od verzije 1.0, i zašto možda ponovo vidite ekran za prihvatanje u aplikaciji:* ispravljamo dvije tvrdnje koje više nisu bile tačne. Prvo, funkcija **lični jezici** čuva na našim serverima sadržaj koji kreirate (naziv, alfabet, rječnik) — verzija 1.0 je pogrešno tvrdila da se nikakav tekst ne pohranjuje. Drugo, sada koristimo alat za **tehnički izvještaj o padu aplikacije** (Sentry) — verzija 1.0 je tvrdila da takav alat ne postoji. Detalji o ove dvije tačke nalaze se u odjeljku „Za jedan minut" ispod, kao i u §3 i §9. To su tačno dvije kategorije promjena koje, u aplikaciji, pokreću novi zahtjev za saglasnost (vidi §11).
+> *Šta se promijenilo od verzije 1.0, i zašto možda ponovo vidite ekran za prihvatanje u aplikaciji:* ispravljamo dvije tvrdnje koje više nisu bile tačne. Prvo, funkcija **lični jezici** čuva na našim serverima sadržaj koji kreirate (naziv, alfabet, rječnik) — verzija 1.0 je pogrešno tvrdila da se nikakav tekst ne pohranjuje. Drugo, sada koristimo alat za **tehnički izvještaj o padu aplikacije** — verzija 1.0 je tvrdila da takav alat ne postoji. Detalji o ove dvije tačke nalaze se u odjeljku „Za jedan minut" ispod, kao i u §3 i §9. To su tačno dvije kategorije promjena koje, u aplikaciji, pokreću novi zahtjev za saglasnost (vidi §11).
 
 ---
 
@@ -79,8 +79,8 @@ Kada odaberete Cloud VI, ili kada vaš uređaj nije dovoljno snažan za lokalnu 
 
 Potrebno je biti jasan u vezi sa stvarnim putem:
 
-- Tekst prolazi kroz našu infrastrukturu (Supabase), smještenu u Evropskoj uniji (region Centralna Evropa, Frankfurt).
-- Zatim se prenosi na openrouter.ai, posrednika za usmjeravanje koji se nalazi izvan Evropske unije, koji ga obrađuje putem modela Mistral Small.
+- Tekst prolazi kroz našu serversku infrastrukturu, smještenu u Evropskoj uniji (region Centralna Evropa, Frankfurt).
+- Zatim se prenosi na posrednika za usmjeravanje koji se nalazi izvan Evropske unije, koji ga obrađuje putem modela vještačke inteligencije treće strane.
 - Riječ je, dakle, o prenosu podataka izvan Evropske unije. Ne tvrdimo suprotno, i ne dajemo nikakvo obećanje o evropskom smještaju za ovaj korak.
 - Plume ne čuva vaš tekst. Nijedna od naših serverskih funkcija ne zapisuje sadržaj vašeg teksta: bilježimo samo tehnički identifikator zahtjeva i identifikator vašeg uređaja, radi brojanja vaše kvote i otkrivanja zloupotreba.
 - Ne možemo garantovati šta ovi pružaoci usluga rade sa svoje strane. Radije vam to kažemo nego da vam obećavamo nulto zadržavanje podataka koje nismo u mogućnosti provjeriti.
@@ -93,7 +93,7 @@ Poslati tekst je ograničen: 1.200 znakova za preformulaciju, 4.000 znakova za a
 
 ## 3. Podaci koje čuvamo
 
-Ne koristimo nikakav alat za analizu publike niti bilo kakav reklamni tragač treće strane, osim reklama opisanih u §5. Koristimo alat za tehnički izvještaj o padu aplikacije (Sentry): on vidi samo greške u programu (tip greške, tehnički stek poziva, verziju aplikacije, operativni sistem), nikada vašu upotrebu niti vaš put kroz aplikaciju, i nikada tekst koji pišete — poseban filter mu to zabranjuje prije bilo kakvog slanja. Detalji su u §9.
+Ne koristimo nikakav alat za analizu publike niti bilo kakav reklamni tragač treće strane, osim reklama opisanih u §5. Koristimo alat za tehnički izvještaj o padu aplikacije: on vidi samo greške u programu (tip greške, tehnički stek poziva, verziju aplikacije, operativni sistem), nikada vašu upotrebu niti vaš put kroz aplikaciju, i nikada tekst koji pišete — poseban filter mu to zabranjuje prije bilo kakvog slanja. Detalji su u §9.
 
 Evo cjelokupnog sadržaja koji se čuva na našim serverima:
 
@@ -107,7 +107,7 @@ Evo cjelokupnog sadržaja koji se čuva na našim serverima:
 | **Tehnički signali zloupotrebe** (ponovljena prekoračenja, neuspjeh provjere integriteta — bez ikakvog teksta) | Sigurnost, borba protiv prevare | Odvojeni od vašeg identiteta pri brisanju računa |
 | **Jezik i verzija aplikacije** | Pružanje odgovarajućeg sadržaja | Do brisanja vašeg računa |
 | **Sadržaj ličnih jezika koje kreirate** (njegov naziv, alfabet i rječnik — riječi i definicije koje ste vi, ili druge osobe, tu napisali) | Omogućavanje da pronađete svoj jezik na drugom uređaju, da ga razvijate, i da ga dijelite sa drugim korisnicima | Sve dok jezik postoji. Ako ga obrišete, njegov zapis nestaje — ali kopija koju je već **uvezla druga osoba** sada pripada njoj i **opstaje**, poput poruke koju je treća strana već primila, a koju ne možemo obrisati kod nje |
-| **Tehnički izvještaji o padu aplikacije** (tip greške, skraćeni tehnički stek poziva, verzija aplikacije, operativni sistem — nikada sadržaj teksta) | Dijagnostika i ispravka padova aplikacije | Uređuje naš pružalac usluga Sentry (vidi §9). Ovo prikupljanje podliježe vašoj saglasnosti i prekidaču koji možemo isključiti u bilo kom trenutku, bez ažuriranja aplikacije |
+| **Tehnički izvještaji o padu aplikacije** (tip greške, skraćeni tehnički stek poziva, verzija aplikacije, operativni sistem — nikada sadržaj teksta) | Dijagnostika i ispravka padova aplikacije | Uređuje naš pružalac usluga izvještavanja o padovima (vidi §9). Ovo prikupljanje podliježe vašoj saglasnosti i prekidaču koji možemo isključiti u bilo kom trenutku, bez ažuriranja aplikacije |
 
 Šta ne prikupljamo: vaše ime, vaše kontakte, vašu lokaciju, vaš adresar, vaše fotografije, vaš kalendar, historiju vaših aplikacija. Plume ne traži nijednu od ovih dozvola.
 
@@ -178,17 +178,16 @@ Pošto aplikacija omogućava preformulisanje slobodnog teksta i prikazuje reklam
 
 | Pružalac usluga | Uloga | Gdje |
 |---|---|---|
-| **Supabase** | Hosting baze podataka, autentifikacija, serverske funkcije | Evropska unija (Frankfurt) |
-| **OpenRouter** | Usmjeravanje zahtjeva ka VI modelu | **Izvan Evropske unije** |
-| **Mistral AI** (preko OpenRouter-a) | Model koji obrađuje tekst (Mistral Small) | Obrada preko gore navedenog posrednika |
+| **Naš pružalac usluga hostinga** | Hosting baze podataka, autentifikacija, serverske funkcije | Evropska unija (Frankfurt) |
+| **Naš pružalac usluga obrade VI** | Usmjeravanje zahtjeva i obrada teksta modelom vještačke inteligencije treće strane | **Izvan Evropske unije** |
 | **Google Play / Google Billing** | Plaćanje, pretplate | Google Ireland / Sjedinjene Američke Države |
 | **Google AdMob** | Nagradne reklame | Google Ireland / Sjedinjene Američke Države |
 | **Google** (sistemske usluge telefona) | Prepoznavanje glasa, moduli za prevod van mreže | Zavisno od vašeg uređaja |
-| **Sentry** (Functional Software, Inc.) | Tehnički izvještaj o padu aplikacije — samo greške u programu, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
+| **Naš pružalac usluga izvještavanja o padovima** | Tehnički izvještaj o padu aplikacije — samo greške u programu, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
 
 Ne prodajemo nikakve podatke i ne ustupamo ih posrednicima za podatke.
 
-Prenosi izvan Evropske unije: korištenje OpenRouter-a, Google Play-a, AdMob-a i Sentry-ja podrazumijeva prenos podataka izvan Evropske unije.
+Prenosi izvan Evropske unije: korištenje našeg pružaoca usluga obrade VI, Google Play-a, AdMob-a i našeg pružaoca usluga izvještavanja o padovima podrazumijeva prenos podataka izvan Evropske unije.
 
 ---
 

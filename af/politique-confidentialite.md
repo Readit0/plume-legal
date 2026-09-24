@@ -2,7 +2,7 @@
 
 **Laas bygewerk: 12 September 2026** — Weergawe 2.0
 
-> *Wat verander het sedert weergawe 1.0, en waarom jy dalk die toestemmingskerm weer in die app sien:* ons stel twee bewerings reg wat nie meer korrek was nie. Eerstens bewaar die **persoonlike tale**-funksie op ons bedieners die inhoud wat jy skep (naam, alfabet, leksikon) — weergawe 1.0 het verkeerdelik beweer dat geen teks gestoor word nie. Tweedens gebruik ons nou 'n **tegniese ineenstortingsverslag**-hulpmiddel (Sentry) — weergawe 1.0 het beweer dat geen sodanige hulpmiddel bestaan nie. Die besonderhede van hierdie twee punte is by "In een minuut" hieronder, sowel as by §3 en §9. Dit is presies die twee kategorieë verandering wat, in die app, 'n nuwe toestemmingsversoek ontketen (sien §11).
+> *Wat verander het sedert weergawe 1.0, en waarom jy dalk die toestemmingskerm weer in die app sien:* ons stel twee bewerings reg wat nie meer korrek was nie. Eerstens bewaar die **persoonlike tale**-funksie op ons bedieners die inhoud wat jy skep (naam, alfabet, leksikon) — weergawe 1.0 het verkeerdelik beweer dat geen teks gestoor word nie. Tweedens gebruik ons nou 'n **tegniese ineenstortingsverslag**-hulpmiddel — weergawe 1.0 het beweer dat geen sodanige hulpmiddel bestaan nie. Die besonderhede van hierdie twee punte is by "In een minuut" hieronder, sowel as by §3 en §9. Dit is presies die twee kategorieë verandering wat, in die app, 'n nuwe toestemmingsversoek ontketen (sien §11).
 
 ---
 
@@ -79,8 +79,8 @@ Wanneer jy die wolk-KI kies, of wanneer jou toestel nie kragtig genoeg is vir di
 
 **Ons moet duidelik wees oor die werklike roete:**
 
-- Die teks gaan deur ons infrastruktuur (Supabase), wat in die **Europese Unie** gehuisves word (die streek Sentraal-Europa, Frankfort).
-- Dit word daarna na **openrouter.ai** gestuur, 'n roeteringstussenganger **wat buite die Europese Unie geleë is**, wat dit deur die model **Mistral Small** laat verwerk.
+- Die teks gaan deur ons bedienerinfrastruktuur, wat in die **Europese Unie** gehuisves word (die streek Sentraal-Europa, Frankfort).
+- Dit word daarna na 'n roeteringstussenganger gestuur **wat buite die Europese Unie geleë is**, wat dit deur 'n model vir kunsmatige intelligensie van 'n derde party laat verwerk.
 - **Dit gaan dus om 'n oordrag van data buite die Europese Unie.** Ons beweer nie die teendeel nie, en ons maak geen belofte van Europese huisvesting vir hierdie stap nie.
 - **Plume bewaar nie jou teks nie.** Geen van ons bedienerfunksies skryf die inhoud van jou teks neer nie: ons teken slegs 'n tegniese versoekidentifiseerder en die identifiseerder van jou toestel aan, om jou kwota te tel en misbruik op te spoor.
 - **Wat hierdie diensverskaffers aan hulle kant doen, kan ons nie waarborg nie.** Ons verkies om dit vir jou te sê eerder as om jou 'n nulbewaring te belowe wat ons nie in staat is om na te gaan nie.
@@ -93,7 +93,7 @@ Die teks wat gestuur word, het 'n boonste grens: 1 200 karakters vir 'n herformu
 
 ## 3. Die data wat ons bewaar
 
-Ons gebruik **geen hulpmiddel vir gehoorontleding en geen advertensiespoorder van 'n derde party nie**, buiten die advertensies wat in §5 beskryf word. **Ons gebruik 'n hulpmiddel vir tegniese ineenstortingsverslae** (Sentry): dit sien slegs programfoute (foutsoort, tegniese oproepstapel, app-weergawe, bedryfstelsel), nooit jou gebruik of jou trajek nie, en nooit die teks wat jy skryf nie — 'n toegewyde filter verbied dit voor enige versending. Die besonderhede is by §9.
+Ons gebruik **geen hulpmiddel vir gehoorontleding en geen advertensiespoorder van 'n derde party nie**, buiten die advertensies wat in §5 beskryf word. **Ons gebruik 'n hulpmiddel vir tegniese ineenstortingsverslae**: dit sien slegs programfoute (foutsoort, tegniese oproepstapel, app-weergawe, bedryfstelsel), nooit jou gebruik of jou trajek nie, en nooit die teks wat jy skryf nie — 'n toegewyde filter verbied dit voor enige versending. Die besonderhede is by §9.
 
 Hier is alles wat op ons bedieners gestoor word:
 
@@ -107,7 +107,7 @@ Hier is alles wat op ons bedieners gestoor word:
 | **Tegniese seine van misbruik** (herhaalde oorskrydings, mislukte integriteitskontrole — sonder enige teks) | Sekuriteit, bestryding van bedrog | Word van jou identiteit losgemaak wanneer die rekening geskrap word |
 | **Taal en weergawe van die app** | Om die regte inhoud te lewer | Tot jou rekening geskrap word |
 | **Die inhoud van die persoonlike tale wat jy skep** (sy naam, sy alfabet, en sy leksikon — die woorde en die definisies wat jy, of ander mense, daarin geskryf het) | Om jou toe te laat om jou taal op 'n ander toestel terug te vind, dit te laat ontwikkel, en dit met ander gebruikers te deel | Solank die taal bestaan. As jy dit skrap, verdwyn sy profiel — maar 'n kopie wat reeds **deur iemand anders ingevoer is**, behoort voortaan aan daardie persoon en **oorleef**, soos 'n boodskap wat reeds deur 'n derde party ontvang is wat ons nie by hulle kan gaan uitvee nie |
-| **Tegniese ineenstortingsverslae** (foutsoort, verkorte tegniese oproepstapel, app-weergawe, bedryfstelsel — nooit teksinhoud nie) | Om die app se ineenstortings te diagnoseer en reg te stel | Gereguleer deur ons diensverskaffer Sentry (sien §9). Hierdie versameling is onderworpe aan jou toestemming en 'n skakelaar wat ons te eniger tyd kan afskakel, sonder 'n app-opdatering |
+| **Tegniese ineenstortingsverslae** (foutsoort, verkorte tegniese oproepstapel, app-weergawe, bedryfstelsel — nooit teksinhoud nie) | Om die app se ineenstortings te diagnoseer en reg te stel | Gereguleer deur ons diensverskaffer vir ineenstortingsverslae (sien §9). Hierdie versameling is onderworpe aan jou toestemming en 'n skakelaar wat ons te eniger tyd kan afskakel, sonder 'n app-opdatering |
 
 **Wat ons nie insamel nie:** jou naam, jou kontakte, jou ligging, jou adresboek, jou foto's, jou kalender, die geskiedenis van jou programme. Plume vra geen van hierdie toestemmings nie.
 
@@ -178,17 +178,16 @@ Aangesien die app dit moontlik maak om vrye teks te herformuleer en advertensies
 
 | Diensverskaffer | Rol | Waar |
 |---|---|---|
-| **Supabase** | Huisvesting van die databasis, verifikasie, bedienerfunksies | Europese Unie (Frankfort) |
-| **OpenRouter** | Roetering van die versoeke na die KI-model | **Buite die Europese Unie** |
-| **Mistral AI** (via OpenRouter) | Model wat die teks verwerk (Mistral Small) | Verwerking via die tussenganger hierbo |
+| **Ons diensverskaffer vir huisvesting** | Huisvesting van die databasis, verifikasie, bedienerfunksies | Europese Unie (Frankfort) |
+| **Ons diensverskaffer vir KI-verwerking** | Roetering van die versoeke en verwerking van die teks deur 'n model vir kunsmatige intelligensie van 'n derde party | **Buite die Europese Unie** |
 | **Google Play / Google Billing** | Betaling, intekeninge | Google Ireland / Verenigde State |
 | **Google AdMob** | Beloningsadvertensies | Google Ireland / Verenigde State |
 | **Google (die foon se stelseldienste)** | Spraakherkenning, vanlyn vertaalmodules | Na gelang van jou toestel |
-| **Sentry** (Functional Software, Inc.) | Tegniese ineenstortingsverslae — slegs foute van die program, gefiltreer voor versending: nooit jou teks nie | Verenigde State |
+| **Ons diensverskaffer vir ineenstortingsverslae** | Tegniese ineenstortingsverslae — slegs foute van die program, gefiltreer voor versending: nooit jou teks nie | Verenigde State |
 
 **Ons verkoop geen data nie en dra geen data aan datamakelaars oor nie.**
 
-**Oordragte buite die Europese Unie:** die gebruik van OpenRouter, Google Play, AdMob en Sentry behels 'n oordrag van data buite die Europese Unie. Die regsraamwerk van hierdie oordragte (standaardkontrakbepalings, toereikendheidsbesluit) **moet deur 'n professionele persoon nagegaan en gedokumenteer word voor publikasie** — sien die nota aan die einde van die dokument.
+**Oordragte buite die Europese Unie:** die gebruik van ons diensverskaffer vir KI-verwerking, Google Play, AdMob en ons diensverskaffer vir ineenstortingsverslae behels 'n oordrag van data buite die Europese Unie. Die regsraamwerk van hierdie oordragte (standaardkontrakbepalings, toereikendheidsbesluit) **moet deur 'n professionele persoon nagegaan en gedokumenteer word voor publikasie** — sien die nota aan die einde van die dokument.
 
 ---
 
@@ -211,15 +210,6 @@ Enige wysiging van hierdie beleid sal by die adres `https://readit0.github.io/pl
 Die voorwaardes vir die gebruik van die diens (kwotas, intekeninge, kansellasie) verskyn in 'n aparte dokument: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Om deur 'n professionele persoon nagegaan te word
->
-> Hierdie dokument is geskryf deur die werklike gedrag van die app te meet, maar **dit is nie deur 'n regspraktisyn geskryf nie**. Vier punte verdien by voorkeur 'n professionele mening:
->
-> 1. **Die oordrag van data buite die Europese Unie** na OpenRouter. Dit is die sensitiefste punt: die toepaslike oordragmeganisme moet bepaal word, daar moet nagegaan word of 'n verwerkingsooreenkoms met hierdie diensverskaffer bestaan, en dit moet hier geskryf word. Solank dit nie gedoen is nie, beskryf hierdie dokument die oordrag sonder om te beweer dat dit gereguleer is.
-> 2. **Die regsgronde** wat in §7 gekies is, veral die verdeling tussen toestemming en regmatige belang vir die toeganklikheidsdiens.
-> 3. **Die minimum ouderdom** (16 jaar) en die ooreenstemming daarvan met Google Play se vraelys vir inhoudsgradering.
-> 4. **Die vermelding oor KI** ingevolge die Europese Unie se regulasie oor kunsmatige intelligensie (deursigtigheidsverpligting vir 'n stelsel met beperkte risiko).
 
 ---
 

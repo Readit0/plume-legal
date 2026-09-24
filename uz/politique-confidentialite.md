@@ -2,7 +2,7 @@
 
 **Oxirgi yangilanish: 12 sentyabr 2026** — 2.0-versiya
 
-> *1.0-versiyadan beri nima o'zgardi va nega ilovada qabul qilish ekranini qayta ko'rishingiz mumkin:* biz endi aniq bo'lmagan ikkita bayonotni tuzatmoqdamiz. Birinchidan, **shaxsiy tillar** funksiyasi siz yaratgan kontentni (nomi, alifbosi, lug'ati) serverlarimizda saqlaydi — 1.0-versiya hech qanday matn saqlanmaydi, deb noto'g'ri ta'kidlagan edi. Ikkinchidan, biz endi **texnik nosozlik hisoboti** vositasidan (Sentry) foydalanamiz — 1.0-versiya bunday vosita mavjud emas, deb ta'kidlagan edi. Ushbu ikki nuqta haqida batafsil ma'lumot quyidagi "Bir daqiqada" bo'limida, shuningdek §3 va §9 bo'limlarida keltirilgan. Aynan shu ikki o'zgarish toifasi ilovada yangi rozilik so'rovini keltirib chiqaradi (§11 ga qarang).
+> *1.0-versiyadan beri nima o'zgardi va nega ilovada qabul qilish ekranini qayta ko'rishingiz mumkin:* biz endi aniq bo'lmagan ikkita bayonotni tuzatmoqdamiz. Birinchidan, **shaxsiy tillar** funksiyasi siz yaratgan kontentni (nomi, alifbosi, lug'ati) serverlarimizda saqlaydi — 1.0-versiya hech qanday matn saqlanmaydi, deb noto'g'ri ta'kidlagan edi. Ikkinchidan, biz endi **texnik nosozlik hisoboti** vositasidan foydalanamiz — 1.0-versiya bunday vosita mavjud emas, deb ta'kidlagan edi. Ushbu ikki nuqta haqida batafsil ma'lumot quyidagi "Bir daqiqada" bo'limida, shuningdek §3 va §9 bo'limlarida keltirilgan. Aynan shu ikki o'zgarish toifasi ilovada yangi rozilik so'rovini keltirib chiqaradi (§11 ga qarang).
 
 ---
 
@@ -79,8 +79,8 @@ Siz Bulutli AI’ni tanlaganingizda yoki qurilmangiz Mahalliy AI uchun yetarlich
 
 **Haqiqiy yo'l haqida aniq bo'lish kerak:**
 
-- Matn **Yevropa Ittifoqida** (Markaziy Yevropa hududi, Frankfurt) joylashgan infratuzilmamiz (Supabase) orqali o'tadi.
-- So'ngra u **Yevropa Ittifoqidan tashqarida joylashgan** yo'naltiruvchi vositachi **openrouter.ai**’ga uzatiladi, u esa matnni **Mistral Small** modeliga qayta ishlatadi.
+- Matn **Yevropa Ittifoqida** (Markaziy Yevropa hududi, Frankfurt) joylashgan server infratuzilmamiz orqali o'tadi.
+- So'ngra u **Yevropa Ittifoqidan tashqarida joylashgan** yo'naltiruvchi vositachiga uzatiladi, u esa matnni uchinchi tomonning sun'iy intellekt modeliga qayta ishlatadi.
 - **Demak, bu Yevropa Ittifoqidan tashqariga ma'lumot uzatishdir.** Biz buning aksini da'vo qilmaymiz va ushbu bosqich uchun Yevropa хостingi haqida hech qanday va'da bermaymiz.
 - **Plume matningizni saqlamaydi.** Bizning server funksiyalarimizdan hech biri matningiz mazmunini yozmaydi: biz faqat kvotangizni hisoblash va suiiste'molliklarni aniqlash uchun so'rovning texnik identifikatorini va qurilmangiz identifikatorini qayd qilamiz.
 - **Bu yetkazib beruvchilar o'z tomonida nima qilishini biz kafolatlay olmaymiz.** Biz buni tekshira olmaydigan nol saqlash va'dasini berishdan ko'ra, buni sizga aytishni afzal ko'ramiz.
@@ -93,7 +93,7 @@ Yuborilgan matn cheklangan: qayta shakllantirish uchun 1 200 belgi, ekran tahlil
 
 ## 3. Biz saqlaydigan ma'lumotlar
 
-Biz §5 da tavsiflangan reklamadan tashqari **hech qanday auditoriya tahlil vositasidan va hech qanday uchinchi tomon reklama kuzatuvchisidan foydalanmaymiz**. **Biz texnik nosozlik hisoboti vositasidan** (Sentry) foydalanamiz: u faqat dastur xatolarini (xato turi, texnik chaqiruv tartibi, ilova versiyasi, operatsion tizim) ko'radi, hech qachon sizning foydalanishingizni yoki yo'lingizni va hech qachon siz yozgan matnni ko'rmaydi — buni har qanday yuborishdan oldin maxsus filtr taqiqlaydi. Batafsil ma'lumot §9 da.
+Biz §5 da tavsiflangan reklamadan tashqari **hech qanday auditoriya tahlil vositasidan va hech qanday uchinchi tomon reklama kuzatuvchisidan foydalanmaymiz**. **Biz texnik nosozlik hisoboti vositasidan** foydalanamiz: u faqat dastur xatolarini (xato turi, texnik chaqiruv tartibi, ilova versiyasi, operatsion tizim) ko'radi, hech qachon sizning foydalanishingizni yoki yo'lingizni va hech qachon siz yozgan matnni ko'rmaydi — buni har qanday yuborishdan oldin maxsus filtr taqiqlaydi. Batafsil ma'lumot §9 da.
 
 Mana serverlarimizda saqlanadigan hamma narsa:
 
@@ -107,7 +107,7 @@ Mana serverlarimizda saqlanadigan hamma narsa:
 | **Suiiste'molning texnik signallari** (takroriy chegaradan oshishlar, yaxlitlikni tekshirish muvaffaqiyatsizligi — hech qanday matnsiz) | Xavfsizlik, firibgarlikka qarshi kurash | Hisob o'chirilganda shaxsdan ajratiladi |
 | **Ilova tili va versiyasi** | To'g'ri kontentni taqdim etish | Hisobingiz o'chirilgunga qadar |
 | **Siz yaratgan shaxsiy tillar kontenti** (uning nomi, alifbosi va lug'ati — siz yoki boshqa odamlar yozgan so'zlar va ta'riflar) | Tilingizni boshqa qurilmada topishga, uni rivojlantirishga va boshqa foydalanuvchilar bilan ulashishga imkon berish | Til mavjud bo'lgan vaqt davomida. Agar uni o'chirsangiz, uning yozuvi yo'qoladi — lekin boshqa shaxs tomonidan allaqachon **import qilingan** nusxa endi unga tegishli bo'ladi va **saqlanib qoladi**, xuddi uchinchi shaxs tomonidan allaqachon qabul qilingan xabar kabi, biz uni uning tomonida o'chira olmaymiz |
-| **Texnik nosozlik hisobotlari** (xato turi, qisqartirilgan texnik chaqiruv tartibi, ilova versiyasi, operatsion tizim — hech qachon matn mazmuni emas) | Ilova nosozliklarini tashxislash va tuzatish | Sentry provayderimiz tomonidan boshqariladi (§9 ga qarang). Ushbu yig'ish sizning roziligingizga va biz istalgan vaqtda, ilovani yangilamasdan o'chira oladigan tugmaga bog'liq |
+| **Texnik nosozlik hisobotlari** (xato turi, qisqartirilgan texnik chaqiruv tartibi, ilova versiyasi, operatsion tizim — hech qachon matn mazmuni emas) | Ilova nosozliklarini tashxislash va tuzatish | Nosozlik hisoboti provayderimiz tomonidan boshqariladi (§9 ga qarang). Ushbu yig'ish sizning roziligingizga va biz istalgan vaqtda, ilovani yangilamasdan o'chira oladigan tugmaga bog'liq |
 
 **Biz to'plamaydigan narsalar:** ismingiz, kontaktlaringiz, joylashuvingiz, manzil daftaringiz, fotosuratlaringiz, taqvimingiz, ilovalar tarixingiz. Plume ushbu ruxsatlarning hech birini so'ramaydi.
 
@@ -178,17 +178,16 @@ Ilova erkin matnni qayta shakllantirish imkonini berganligi va reklama ko'rsatga
 
 | Provayder | Roli | Qayerda |
 |---|---|---|
-| **Supabase** | Ma'lumotlar bazasi хостingi, autentifikatsiya, server funksiyalari | Yevropa Ittifoqi (Frankfurt) |
-| **OpenRouter** | So'rovlarni AI modeliga yo'naltirish | **Yevropa Ittifoqidan tashqarida** |
-| **Mistral AI** (OpenRouter orqali) | Matnni qayta ishlaydigan model (Mistral Small) | Yuqoridagi vositachi orqali qayta ishlash |
+| **Xosting provayderimiz** | Ma'lumotlar bazasi хостingi, autentifikatsiya, server funksiyalari | Yevropa Ittifoqi (Frankfurt) |
+| **AI qayta ishlash provayderimiz** | So'rovlarni yo'naltirish va matnni uchinchi tomonning sun'iy intellekt modeli bilan qayta ishlash | **Yevropa Ittifoqidan tashqarida** |
 | **Google Play / Google Billing** | To'lov, obunalar | Google Ireland / AQSh |
 | **Google AdMob** | Mukofotli reklama | Google Ireland / AQSh |
 | **Google (telefon tizim xizmatlari)** | Ovoz tanish, oflayn tarjima modullari | Qurilmangizga bog'liq |
-| **Sentry** (Functional Software, Inc.) | Texnik nosozlik hisoboti — faqat dastur xatolari, yuborishdan oldin filtrlangan: hech qachon matningiz emas | AQSh |
+| **Nosozlik hisoboti provayderimiz** | Texnik nosozlik hisoboti — faqat dastur xatolari, yuborishdan oldin filtrlangan: hech qachon matningiz emas | AQSh |
 
 **Biz hech qanday ma'lumotni sotmaymiz va ma'lumotlar brokerlariga bermaymiz.**
 
-**Yevropa Ittifoqidan tashqariga uzatishlar:** OpenRouter, Google Play, AdMob va Sentry’dan foydalanish Yevropa Ittifoqidan tashqariga ma'lumot uzatishni anglatadi.
+**Yevropa Ittifoqidan tashqariga uzatishlar:** AI qayta ishlash provayderimiz, Google Play, AdMob va nosozlik hisoboti provayderimizdan foydalanish Yevropa Ittifoqidan tashqariga ma'lumot uzatishni anglatadi.
 
 ---
 

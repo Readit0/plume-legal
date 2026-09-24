@@ -2,7 +2,7 @@
 
 **Dernière mise à jour : 12 septembre 2026** — Version 2.0
 
-> *Ce qui a changé depuis la version 1.0, et pourquoi vous revoyez peut-être l'écran d'acceptation dans l'application :* nous corrigeons deux affirmations qui n'étaient plus exactes. D'abord, la fonctionnalité **langues personnelles** conserve sur nos serveurs le contenu que vous créez (nom, alphabet, lexique) — la version 1.0 affirmait à tort qu'aucun texte n'était stocké. Ensuite, nous utilisons désormais un outil de **rapport de plantage technique** (Sentry) — la version 1.0 affirmait qu'aucun outil de ce type n'existait. Le détail de ces deux points est en « En une minute » ci-dessous, ainsi qu'aux §3 et §9. Ce sont exactement les deux catégories de changement qui, dans l'application, déclenchent une nouvelle demande d'accord (voir §11).
+> *Ce qui a changé depuis la version 1.0, et pourquoi vous revoyez peut-être l'écran d'acceptation dans l'application :* nous corrigeons deux affirmations qui n'étaient plus exactes. D'abord, la fonctionnalité **langues personnelles** conserve sur nos serveurs le contenu que vous créez (nom, alphabet, lexique) — la version 1.0 affirmait à tort qu'aucun texte n'était stocké. Ensuite, nous utilisons désormais un outil de **rapport de plantage technique** — la version 1.0 affirmait qu'aucun outil de ce type n'existait. Le détail de ces deux points est en « En une minute » ci-dessous, ainsi qu'aux §3 et §9. Ce sont exactement les deux catégories de changement qui, dans l'application, déclenchent une nouvelle demande d'accord (voir §11).
 
 ---
 
@@ -79,8 +79,8 @@ Quand vous choisissez l'IA Cloud, ou quand votre appareil n'est pas assez puissa
 
 **Il faut être clair sur le trajet réel :**
 
-- Le texte transite par notre infrastructure (Supabase), hébergée dans l'**Union européenne** (région Europe centrale, Francfort).
-- Il est ensuite transmis à **openrouter.ai**, un intermédiaire de routage **situé hors de l'Union européenne**, qui le fait traiter par le modèle **Mistral Small**.
+- Le texte transite par notre infrastructure serveur, hébergée dans l'**Union européenne** (région Europe centrale, Francfort).
+- Il est ensuite transmis à un intermédiaire de routage **situé hors de l'Union européenne**, qui le fait traiter par un modèle d'intelligence artificielle tiers.
 - **Il s'agit donc d'un transfert de données hors de l'Union européenne.** Nous ne prétendons pas le contraire, et nous n'affichons aucune promesse d'hébergement européen pour cette étape.
 - **Plume ne conserve pas votre texte.** Aucune de nos fonctions serveur n'écrit le contenu de votre texte : nous n'enregistrons qu'un identifiant technique de requête et l'identifiant de votre appareil, pour compter votre quota et détecter les abus.
 - **Ce que ces prestataires font de leur côté, nous ne pouvons pas le garantir.** Nous préférons vous le dire plutôt que de vous promettre une rétention nulle que nous ne sommes pas en mesure de vérifier.
@@ -93,7 +93,7 @@ Le texte envoyé est plafonné : 1 200 caractères pour une reformulation, 4 000
 
 ## 3. Les données que nous conservons
 
-Nous n'utilisons **aucun outil d'analyse d'audience et aucun traceur publicitaire tiers** en dehors de la publicité décrite au §5. **Nous utilisons un outil de rapport de plantage technique** (Sentry) : il ne voit que des erreurs de programme (type d'erreur, pile d'appel technique, version de l'app, système d'exploitation), jamais votre usage ni votre parcours, et jamais le texte que vous écrivez — un filtre dédié le lui interdit avant tout envoi. Le détail est au §9.
+Nous n'utilisons **aucun outil d'analyse d'audience et aucun traceur publicitaire tiers** en dehors de la publicité décrite au §5. **Nous utilisons un outil de rapport de plantage technique** : il ne voit que des erreurs de programme (type d'erreur, pile d'appel technique, version de l'app, système d'exploitation), jamais votre usage ni votre parcours, et jamais le texte que vous écrivez — un filtre dédié le lui interdit avant tout envoi. Le détail est au §9.
 
 Voici l'intégralité de ce qui est stocké sur nos serveurs :
 
@@ -107,7 +107,7 @@ Voici l'intégralité de ce qui est stocké sur nos serveurs :
 | **Signaux techniques d'abus** (dépassements répétés, échec de contrôle d'intégrité — sans aucun texte) | Sécurité, lutte contre la fraude | Détachés de votre identité à la suppression du compte |
 | **Langue et version de l'application** | Servir le bon contenu | Jusqu'à la suppression de votre compte |
 | **Le contenu des langues personnelles que vous créez** (son nom, son alphabet, et son lexique — les mots et les définitions que vous, ou d'autres personnes, y avez écrits) | Vous permettre de retrouver votre langue sur un autre appareil, de la faire évoluer, et de la partager avec d'autres utilisateurs | Tant que la langue existe. Si vous la supprimez, sa fiche disparaît — mais une copie déjà **importée par une autre personne** lui appartient désormais et **survit**, comme un message déjà reçu par un tiers que nous ne pouvons pas aller effacer chez lui |
-| **Rapports de plantage technique** (type d'erreur, pile d'appel technique tronquée, version de l'app, système d'exploitation — jamais un contenu de texte) | Diagnostiquer et corriger les plantages de l'application | Régie par notre prestataire Sentry (voir §9). Cette collecte est soumise à votre consentement et à un interrupteur que nous pouvons couper à tout moment, sans mise à jour de l'application |
+| **Rapports de plantage technique** (type d'erreur, pile d'appel technique tronquée, version de l'app, système d'exploitation — jamais un contenu de texte) | Diagnostiquer et corriger les plantages de l'application | Régie par notre prestataire de rapport de plantage (voir §9). Cette collecte est soumise à votre consentement et à un interrupteur que nous pouvons couper à tout moment, sans mise à jour de l'application |
 
 **Ce que nous ne collectons pas :** votre nom, vos contacts, votre localisation, votre carnet d'adresses, vos photos, votre agenda, l'historique de vos applications. Plume ne demande aucune de ces autorisations.
 
@@ -178,17 +178,16 @@ Comme l'application permet de reformuler un texte libre et affiche de la publici
 
 | Prestataire | Rôle | Où |
 |---|---|---|
-| **Supabase** | Hébergement de la base de données, authentification, fonctions serveur | Union européenne (Francfort) |
-| **OpenRouter** | Acheminement des requêtes vers le modèle d'IA | **Hors Union européenne** |
-| **Mistral AI** (via OpenRouter) | Modèle qui traite le texte (Mistral Small) | Traitement via l'intermédiaire ci-dessus |
+| **Notre prestataire d'hébergement** | Hébergement de la base de données, authentification, fonctions serveur | Union européenne (Francfort) |
+| **Notre prestataire de traitement par IA** | Acheminement des requêtes et traitement du texte par un modèle d'intelligence artificielle tiers | **Hors Union européenne** |
 | **Google Play / Google Billing** | Paiement, abonnements | Google Ireland / États-Unis |
 | **Google AdMob** | Publicité récompensée | Google Ireland / États-Unis |
 | **Google (services système du téléphone)** | Reconnaissance vocale, modules de traduction hors ligne | Selon votre appareil |
-| **Sentry** (Functional Software, Inc.) | Rapport de plantage technique — uniquement des erreurs du programme, filtrées avant envoi : jamais votre texte | États-Unis |
+| **Notre prestataire de rapport de plantage** | Rapport de plantage technique — uniquement des erreurs du programme, filtrées avant envoi : jamais votre texte | États-Unis |
 
 **Nous ne vendons aucune donnée et n'en cédons aucune à des courtiers en données.**
 
-**Transferts hors Union européenne :** le recours à OpenRouter, à Google Play, à AdMob et à Sentry implique un transfert de données hors de l'Union européenne.
+**Transferts hors Union européenne :** le recours à notre prestataire de traitement par IA, à Google Play, à AdMob et à notre prestataire de rapport de plantage implique un transfert de données hors de l'Union européenne.
 
 ---
 

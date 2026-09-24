@@ -2,7 +2,7 @@
 
 **Viimeksi päivitetty: 12. syyskuuta 2026** — Versio 2.0
 
-> *Mikä on muuttunut versiosta 1.0, ja miksi saatat nähdä hyväksyntänäytön uudelleen sovelluksessa:* korjaamme kaksi väitettä, jotka eivät enää pitäneet paikkaansa. Ensinnäkin **omat kielet** -toiminto säilyttää palvelimillamme sisällön, jonka luot (nimi, aakkosto, sanasto) — versio 1.0 väitti virheellisesti, ettei mitään tekstiä tallenneta. Toiseksi käytämme nyt **teknisen kaatumisraportoinnin** työkalua (Sentry) — versio 1.0 väitti, ettei tällaista työkalua ole olemassa. Näiden kahden kohdan yksityiskohdat löytyvät alta kohdasta ”Minuutissa” sekä §3:sta ja §9:stä. Nämä ovat juuri ne kaksi muutosluokkaa, jotka käynnistävät sovelluksessa uuden suostumuspyynnön (ks. §11).
+> *Mikä on muuttunut versiosta 1.0, ja miksi saatat nähdä hyväksyntänäytön uudelleen sovelluksessa:* korjaamme kaksi väitettä, jotka eivät enää pitäneet paikkaansa. Ensinnäkin **omat kielet** -toiminto säilyttää palvelimillamme sisällön, jonka luot (nimi, aakkosto, sanasto) — versio 1.0 väitti virheellisesti, ettei mitään tekstiä tallenneta. Toiseksi käytämme nyt **teknisen kaatumisraportoinnin** työkalua — versio 1.0 väitti, ettei tällaista työkalua ole olemassa. Näiden kahden kohdan yksityiskohdat löytyvät alta kohdasta ”Minuutissa” sekä §3:sta ja §9:stä. Nämä ovat juuri ne kaksi muutosluokkaa, jotka käynnistävät sovelluksessa uuden suostumuspyynnön (ks. §11).
 
 ---
 
@@ -79,8 +79,8 @@ Kun valitset Pilvitekoälyn tai kun laitteesi ei ole riittävän tehokas paikall
 
 **Todellinen reitti on syytä kertoa selvästi:**
 
-- Teksti kulkee infrastruktuurimme (Supabase) kautta, joka sijaitsee **Euroopan unionissa** (Keski-Euroopan alue, Frankfurt).
-- Sen jälkeen se välitetään palveluun **openrouter.ai**, joka on **Euroopan unionin ulkopuolella sijaitseva** reitityksen välittäjä ja joka antaa **Mistral Small** -mallin käsitellä sen.
+- Teksti kulkee palvelininfrastruktuurimme kautta, joka sijaitsee **Euroopan unionissa** (Keski-Euroopan alue, Frankfurt).
+- Sen jälkeen se välitetään reitityksen välittäjälle, joka **sijaitsee Euroopan unionin ulkopuolella** ja joka antaa kolmannen osapuolen tekoälymallin käsitellä sen.
 - **Kyse on siis tietojen siirrosta Euroopan unionin ulkopuolelle.** Emme väitä muuta emmekä esitä minkäänlaista lupausta eurooppalaisesta säilytyksestä tämän vaiheen osalta.
 - **Plume ei säilytä tekstiäsi.** Yksikään palvelintoiminnoistamme ei kirjoita tekstisi sisältöä talteen: tallennamme vain pyynnön teknisen tunnisteen ja laitteesi tunnisteen, jotta voimme laskea kiintiösi ja havaita väärinkäytökset.
 - **Emme voi taata sitä, mitä nämä palveluntarjoajat tekevät omalla puolellaan.** Kerromme sen mieluummin suoraan kuin lupaamme sinulle nollasäilytystä, jota emme pysty tarkistamaan.
@@ -93,7 +93,7 @@ Lähetettävällä tekstillä on yläraja: 1 200 merkkiä uudelleenkirjoitusta v
 
 ## 3. Tiedot, joita säilytämme
 
-Emme käytä **mitään kävijäseurannan työkalua emmekä kolmannen osapuolen mainosseurainta**, lukuun ottamatta §5:ssä kuvattua mainontaa. **Käytämme teknisen kaatumisraportoinnin työkalua** (Sentry): se näkee vain ohjelmavirheitä (virhetyyppi, tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä), ei koskaan käyttöäsi tai polkuasi, eikä koskaan kirjoittamaasi tekstiä — erillinen suodatin estää sen ennen mitään lähetystä. Yksityiskohdat ovat §9:ssä.
+Emme käytä **mitään kävijäseurannan työkalua emmekä kolmannen osapuolen mainosseurainta**, lukuun ottamatta §5:ssä kuvattua mainontaa. **Käytämme teknisen kaatumisraportoinnin työkalua**: se näkee vain ohjelmavirheitä (virhetyyppi, tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä), ei koskaan käyttöäsi tai polkuasi, eikä koskaan kirjoittamaasi tekstiä — erillinen suodatin estää sen ennen mitään lähetystä. Yksityiskohdat ovat §9:ssä.
 
 Tässä on kaikki, mitä palvelimillemme tallennetaan:
 
@@ -107,7 +107,7 @@ Tässä on kaikki, mitä palvelimillemme tallennetaan:
 | **Väärinkäytösten tekniset merkit** (toistuvat ylitykset, epäonnistunut sovelluksen eheystarkistus — ilman mitään tekstiä) | Turvallisuus, väärinkäytösten torjunta | Irrotetaan henkilöllisyydestäsi tilin poistamisen yhteydessä |
 | **Sovelluksen kieli ja versio** | Oikean sisällön tarjoaminen | Tilisi poistamiseen asti |
 | **Luomiesi omien kielten sisältö** (sen nimi, aakkosto ja sanasto — sanat ja määritelmät, jotka sinä tai muut henkilöt olette siihen kirjoittaneet) | Mahdollistaa kielesi löytämisen uudelleen toisella laitteella, sen kehittämisen ja jakamisen muiden käyttäjien kanssa | Niin kauan kuin kieli on olemassa. Jos poistat sen, sen tietue katoaa — mutta kopio, jonka **toinen henkilö on jo tuonut**, kuuluu tästä lähtien hänelle ja **säilyy**, kuten kolmannelle jo vastaanotettu viesti, jota emme voi käydä poistamassa hänen puoleltaan |
-| **Tekniset kaatumisraportit** (virhetyyppi, katkaistu tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä — ei koskaan tekstisisältöä) | Sovelluksen kaatumisten diagnosointi ja korjaaminen | Hallinnoi palveluntarjoajamme Sentry (ks. §9). Tämä keräys edellyttää suostumustasi ja kytkintä, jonka voimme sammuttaa milloin tahansa ilman sovelluspäivitystä |
+| **Tekniset kaatumisraportit** (virhetyyppi, katkaistu tekninen kutsupino, sovelluksen versio, käyttöjärjestelmä — ei koskaan tekstisisältöä) | Sovelluksen kaatumisten diagnosointi ja korjaaminen | Hallinnoi kaatumisraportoinnin palveluntarjoajamme (ks. §9). Tämä keräys edellyttää suostumustasi ja kytkintä, jonka voimme sammuttaa milloin tahansa ilman sovelluspäivitystä |
 
 **Mitä emme kerää:** nimeäsi, yhteystietojasi, sijaintiasi, osoitekirjaasi, valokuviasi, kalenteriasi tai sovellustesi käyttöhistoriaa. Plume ei pyydä mitään näistä käyttöoikeuksista.
 
@@ -178,17 +178,16 @@ Koska sovellus mahdollistaa vapaan tekstin uudelleenkirjoittamisen ja näyttää
 
 | Palveluntarjoaja | Tehtävä | Missä |
 |---|---|---|
-| **Supabase** | Tietokannan ylläpito, tunnistautuminen, palvelintoiminnot | Euroopan unioni (Frankfurt) |
-| **OpenRouter** | Pyyntöjen välittäminen tekoälymallille | **Euroopan unionin ulkopuolella** |
-| **Mistral AI** (OpenRouterin kautta) | Malli, joka käsittelee tekstin (Mistral Small) | Käsittely edellä mainitun välittäjän kautta |
+| **Ylläpidon palveluntarjoajamme** | Tietokannan ylläpito, tunnistautuminen, palvelintoiminnot | Euroopan unioni (Frankfurt) |
+| **Tekoälykäsittelyn palveluntarjoajamme** | Pyyntöjen välittäminen ja tekstin käsittely kolmannen osapuolen tekoälymallilla | **Euroopan unionin ulkopuolella** |
 | **Google Play / Google Billing** | Maksaminen, tilaukset | Google Ireland / Yhdysvallat |
 | **Google AdMob** | Palkkiomainonta | Google Ireland / Yhdysvallat |
 | **Google (puhelimen järjestelmäpalvelut)** | Puheentunnistus, verkottomat käännöspaketit | Laitteestasi riippuen |
-| **Sentry** (Functional Software, Inc.) | Tekninen kaatumisraportointi — vain ohjelmavirheitä, suodatettu ennen lähetystä: ei koskaan tekstiäsi | Yhdysvallat |
+| **Kaatumisraportoinnin palveluntarjoajamme** | Tekninen kaatumisraportointi — vain ohjelmavirheitä, suodatettu ennen lähetystä: ei koskaan tekstiäsi | Yhdysvallat |
 
 **Emme myy mitään tietoja emmekä luovuta niitä tietovälittäjille.**
 
-**Siirrot Euroopan unionin ulkopuolelle:** OpenRouterin, Google Playn, AdMobin ja Sentryn käyttö merkitsee tietojen siirtoa Euroopan unionin ulkopuolelle. Näiden siirtojen oikeudellinen perusta (vakiosopimuslausekkeet, tietosuojan riittävyyttä koskeva päätös) **on ammattilaisen tarkistettava ja dokumentoitava ennen julkaisua** — ks. asiakirjan lopussa oleva huomautus.
+**Siirrot Euroopan unionin ulkopuolelle:** tekoälykäsittelyn palveluntarjoajamme, Google Playn, AdMobin ja kaatumisraportoinnin palveluntarjoajamme käyttö merkitsee tietojen siirtoa Euroopan unionin ulkopuolelle. Näiden siirtojen oikeudellinen perusta (vakiosopimuslausekkeet, tietosuojan riittävyyttä koskeva päätös) **on ammattilaisen tarkistettava ja dokumentoitava ennen julkaisua** — ks. asiakirjan lopussa oleva huomautus.
 
 ---
 
@@ -211,15 +210,6 @@ Jokainen tähän selosteeseen tehtävä muutos julkaistaan osoitteessa `https://
 Palvelun käyttöehdot (kiintiöt, tilaukset, irtisanominen) ovat erillisessä asiakirjassa: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Luetutettava ammattilaisella
->
-> Tämä asiakirja on kirjoitettu mittaamalla sovelluksen todellista toimintaa, mutta **sitä ei ole kirjoittanut lakimies**. Neljä kohtaa ansaitsee ensisijaisesti ammattilaisen arvion:
->
-> 1. **Tietojen siirto Euroopan unionin ulkopuolelle** OpenRouterille. Se on kaikkein herkin kohta: on määritettävä, mitä siirtomekanismia sovelletaan, tarkistettava, että tämän palveluntarjoajan kanssa on henkilötietojen käsittelyä koskeva sopimus, ja kirjattava se tähän. Niin kauan kuin sitä ei ole tehty, tämä asiakirja kuvaa siirron väittämättä sitä oikeudellisesti järjestetyksi.
-> 2. **Käsittelyn oikeusperusteet**, jotka on valittu §7:ssä, erityisesti suostumuksen ja oikeutetun edun jako esteettömyyspalvelun osalta.
-> 3. **Ikäraja** (16 vuotta) ja sen yhdenmukaisuus Google Playn sisällön ikäluokitusta koskevan kyselyn kanssa.
-> 4. **Tekoälyä koskeva maininta** Euroopan unionin tekoälyasetuksen nojalla (rajoitetun riskin järjestelmän avoimuusvelvoite).
 
 ---
 

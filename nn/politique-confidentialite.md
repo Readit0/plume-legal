@@ -2,7 +2,7 @@
 
 **Sist oppdatert: 12. september 2026** — Versjon 2.0
 
-> *Kva som har endra seg sidan versjon 1.0, og kvifor du kanskje ser samtykkeskjermen igjen i appen:* Vi rettar no to påstandar som ikkje lenger stemte. For det første: funksjonen **eigne språk** lagrar innhaldet du lagar (namn, alfabet, ordliste) på serverane våre — versjon 1.0 hevda feilaktig at ingen tekst vart lagra. For det andre bruker vi no eit verktøy for **teknisk feilrapportering** (Sentry) — versjon 1.0 hevda at det ikkje fanst noko slikt verktøy. Detaljane om desse to punkta finn du under «På eitt minutt» nedanfor, og i §3 og §9. Dette er nøyaktig dei to typane endringar som i appen utløyser eit nytt samtykke (sjå §11).
+> *Kva som har endra seg sidan versjon 1.0, og kvifor du kanskje ser samtykkeskjermen igjen i appen:* Vi rettar no to påstandar som ikkje lenger stemte. For det første: funksjonen **eigne språk** lagrar innhaldet du lagar (namn, alfabet, ordliste) på serverane våre — versjon 1.0 hevda feilaktig at ingen tekst vart lagra. For det andre bruker vi no eit verktøy for **teknisk feilrapportering** — versjon 1.0 hevda at det ikkje fanst noko slikt verktøy. Detaljane om desse to punkta finn du under «På eitt minutt» nedanfor, og i §3 og §9. Dette er nøyaktig dei to typane endringar som i appen utløyser eit nytt samtykke (sjå §11).
 
 ---
 
@@ -79,8 +79,8 @@ Når du vel Sky-AI, eller når eininga di ikkje er kraftig nok for Lokal AI, bli
 
 **Det er naudsynt å vere klar på den verkelege ferda:**
 
-- Teksten går gjennom infrastrukturen vår (Supabase), som er verta i **EU** (regionen Sentral-Europa, Frankfurt).
-- Han blir deretter sendt til **openrouter.ai**, ein rutingsformidlar **som ligg utanfor EU**, som let modellen **Mistral Small** handsame han.
+- Teksten går gjennom serverinfrastrukturen vår, som er verta i **EU** (regionen Sentral-Europa, Frankfurt).
+- Han blir deretter sendt til ein rutingsformidlar **som ligg utanfor EU**, som let ein kunstig intelligens-modell frå ein tredjepart handsame han.
 - **Det er difor snakk om ein overføring av data ut av EU.** Vi hevdar ikkje det motsette, og vi lovar ikkje europeisk vertskap for dette steget.
 - **Plume lagrar ikkje teksten din.** Ingen av serverfunksjonane våre skriv innhaldet i teksten din: vi registrerer berre ein teknisk identifikator for førespurnaden og identifikatoren til eininga di, for å telje kvoten din og oppdage misbruk.
 - **Kva desse leverandørane gjer på si side, kan vi ikkje garantere.** Vi føretrekkjer å fortelje deg dette framfor å love ein null-lagring vi ikkje er i stand til å kontrollere.
@@ -93,7 +93,7 @@ Teksten som blir sendt, er avgrensa: 1 200 teikn for ei omformulering, 4 000 tei
 
 ## 3. Dataa vi tek vare på
 
-Vi bruker **ingen verktøy for publikumsanalyse og ingen tredjeparts annonsesporar** utanom annonseringa som er skildra i §5. **Vi bruker eit verktøy for teknisk feilrapportering** (Sentry): det ser berre programfeil (type feil, teknisk kallstakk, appversjon, operativsystem), aldri korleis du brukar appen eller kva du gjer i han, og aldri teksten du skriv — eit eige filter hindrar det i å sende dette i det heile. Detaljane finn du i §9.
+Vi bruker **ingen verktøy for publikumsanalyse og ingen tredjeparts annonsesporar** utanom annonseringa som er skildra i §5. **Vi bruker eit verktøy for teknisk feilrapportering**: det ser berre programfeil (type feil, teknisk kallstakk, appversjon, operativsystem), aldri korleis du brukar appen eller kva du gjer i han, og aldri teksten du skriv — eit eige filter hindrar det i å sende dette i det heile. Detaljane finn du i §9.
 
 Her er alt som blir lagra på serverane våre:
 
@@ -107,7 +107,7 @@ Her er alt som blir lagra på serverane våre:
 | **Tekniske signal om misbruk** (gjentekne overskridingar, feila integritetskontroll — utan nokon tekst) | Tryggleik, kamp mot svindel | Fråkopla identiteten din når kontoen blir sletta |
 | **Språk og versjon av appen** | Levere rett innhald | Til kontoen din blir sletta |
 | **Innhaldet i dei eigne språka du lagar** (namnet, alfabetet, og ordlista — orda og definisjonane du, eller andre, har skrive der) | La deg finne att språket ditt på ei anna eining, vidareutvikle det, og dele det med andre brukarar | Så lenge språket eksisterer. Om du slettar det, forsvinn kortet — men ein kopi som **allereie er importert av ein annan person**, høyrer no til han, og **held fram å eksistere**, som ei melding nokon andre allereie har motteke, som vi ikkje kan gå og slette hjå dei |
-| **Tekniske feilrapportar** (type feil, avkorta teknisk kallstakk, appversjon, operativsystem — aldri innhald frå ein tekst) | Diagnostisere og rette feil i appen | Styrt av leverandøren vår Sentry (sjå §9). Denne innsamlinga krev samtykket ditt og ein brytar vi kan slå av når som helst, utan appoppdatering |
+| **Tekniske feilrapportar** (type feil, avkorta teknisk kallstakk, appversjon, operativsystem — aldri innhald frå ein tekst) | Diagnostisere og rette feil i appen | Styrt av feilrapporteringsleverandøren vår (sjå §9). Denne innsamlinga krev samtykket ditt og ein brytar vi kan slå av når som helst, utan appoppdatering |
 
 **Det vi ikkje samlar inn:** namnet ditt, kontaktane dine, plasseringa di, adresseboka di, bileta dine, kalenderen din, historikken til appane dine. Plume ber ikkje om nokon av desse løyva.
 
@@ -178,17 +178,16 @@ Sidan appen let deg omformulere fri tekst og viser annonsar, er ho ikkje kvalifi
 
 | Leverandør | Rolle | Kvar |
 |---|---|---|
-| **Supabase** | Vertskap for databasen, autentisering, serverfunksjonar | EU (Frankfurt) |
-| **OpenRouter** | Ruting av førespurnadar til AI-modellen | **Utanfor EU** |
-| **Mistral AI** (via OpenRouter) | Modellen som handsamar teksten (Mistral Small) | Handsaming via formidlaren over |
+| **Vertsleverandøren vår** | Vertskap for databasen, autentisering, serverfunksjonar | EU (Frankfurt) |
+| **AI-handsamingsleverandøren vår** | Ruting av førespurnadar og handsaming av teksten med ein kunstig intelligens-modell frå ein tredjepart | **Utanfor EU** |
 | **Google Play / Google Billing** | Betaling, abonnement | Google Ireland / USA |
 | **Google AdMob** | Premiert annonsering | Google Ireland / USA |
 | **Google (systemtenester på telefonen)** | Talegjenkjenning, offline-omsetjingsmodular | Alt etter eininga di |
-| **Sentry** (Functional Software, Inc.) | Teknisk feilrapportering — berre programfeil, filtrerte før sending: aldri teksten din | USA |
+| **Feilrapporteringsleverandøren vår** | Teknisk feilrapportering — berre programfeil, filtrerte før sending: aldri teksten din | USA |
 
 **Vi sel ingen data og gjev ingen data vidare til datameklarar.**
 
-**Overføringar utanfor EU:** bruken av OpenRouter, Google Play, AdMob og Sentry inneber ein overføring av data ut av EU.
+**Overføringar utanfor EU:** bruken av AI-handsamingsleverandøren vår, Google Play, AdMob og feilrapporteringsleverandøren vår inneber ein overføring av data ut av EU.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Kataposang pag-update: 12 Septyembre 2026** — Bersyon 2.0
 
-> *Ang nausab gikan sa bersyon 1.0, ug ngano nga tingali makita ninyo pag-usab ang screen sa pag-uyon sulod sa aplikasyon:* among giayo ang duha ka pahayag nga dili na tukma. Una, ang feature nga **personal nga mga pinulongan** nagatipig sa among mga server sa sulod nga inyong gimugna (ngalan, alpabeto, bokabularyo) — ang bersyon 1.0 sayop nga nag-ingon nga walay teksto nga gitipigan. Ikaduha, gigamit na namo karon ang usa ka himan sa **teknikal nga taho sa crash** (Sentry) — ang bersyon 1.0 nag-ingon nga walay ingon-ana nga himan. Ang detalye niining duha ka punto naa sa «Sa Usa ka Minuto» sa ubos, ug usab sa §3 ug §9. Kini gyud ang duha ka matang sa kausaban nga, sulod sa aplikasyon, nagpahinabo og bag-ong hangyo sa pag-uyon (tan-awa ang §11).
+> *Ang nausab gikan sa bersyon 1.0, ug ngano nga tingali makita ninyo pag-usab ang screen sa pag-uyon sulod sa aplikasyon:* among giayo ang duha ka pahayag nga dili na tukma. Una, ang feature nga **personal nga mga pinulongan** nagatipig sa among mga server sa sulod nga inyong gimugna (ngalan, alpabeto, bokabularyo) — ang bersyon 1.0 sayop nga nag-ingon nga walay teksto nga gitipigan. Ikaduha, gigamit na namo karon ang usa ka himan sa **teknikal nga taho sa crash** — ang bersyon 1.0 nag-ingon nga walay ingon-ana nga himan. Ang detalye niining duha ka punto naa sa «Sa Usa ka Minuto» sa ubos, ug usab sa §3 ug §9. Kini gyud ang duha ka matang sa kausaban nga, sulod sa aplikasyon, nagpahinabo og bag-ong hangyo sa pag-uyon (tan-awa ang §11).
 
 ---
 
@@ -79,8 +79,8 @@ Kung inyong pilion ang Cloud AI, o kung ang inyong device dili igo ka-gamhanan a
 
 **Kinahanglan klaro ang aktuwal nga agianan:**
 
-- Ang teksto moagi sa among infrastructure (Supabase), gi-host sa **European Union** (rehiyon sa Central Europe, Frankfurt).
-- Dayon ipadala kini ngadto sa **openrouter.ai**, usa ka intermediary sa routing nga **naa gawas sa European Union**, nga magpaproseso niini pinaagi sa modelo nga **Mistral Small**.
+- Ang teksto moagi sa among server infrastructure, gi-host sa **European Union** (rehiyon sa Central Europe, Frankfurt).
+- Dayon ipadala kini ngadto sa usa ka intermediary sa routing nga **naa gawas sa European Union**, nga magpaproseso niini pinaagi sa usa ka third-party nga modelo sa artipisyal nga intelihensiya.
 - **Busa kini usa ka transfer sa datos gawas sa European Union.** Wala kami mag-ingon nga dili kini tinuod, ug wala kami magpakita og bisan unsang saad sa European hosting alang niini nga lakang.
 - **Wala gitipigan sa Plume ang inyong teksto.** Walay usa sa among mga server function nga nagasulat sa sulod sa inyong teksto: gitipigan lamang namo ang usa ka technical identifier sa request ug ang identifier sa inyong device, aron maihap ang inyong quota ug madetect ang abuso.
 - **Ang gibuhat niini nga mga provider sa ilang kaugalingon, dili namo ma-garantiyahan.** Mas gusto namo kining isulti kaninyo kaysa magsaad og zero retention nga dili namo kaya i-verify.
@@ -93,7 +93,7 @@ Adunay taas nga gilay-on ang teksto nga gipadala: 1,200 ka karakter alang sa usa
 
 ## 3. Ang mga datos nga among gitipigan
 
-Wala kami mogamit og **bisan unsang himan sa audience analytics ni bisan unsang third-party nga advertising tracker** gawas sa advertising nga gihulagway sa §5. **Naggamit kami og usa ka himan sa teknikal nga taho sa crash** (Sentry): makita lamang niini ang mga sayop sa programa (matang sa sayop, teknikal nga call stack, bersyon sa app, operating system), dili gyud ang inyong paggamit ni ang inyong agi, ug dili gyud ang teksto nga inyong gisulat — usa ka dedikadong filter ang nagadili niini una sa bisan unsang pagpadala. Ang detalye naa sa §9.
+Wala kami mogamit og **bisan unsang himan sa audience analytics ni bisan unsang third-party nga advertising tracker** gawas sa advertising nga gihulagway sa §5. **Naggamit kami og usa ka himan sa teknikal nga taho sa crash**: makita lamang niini ang mga sayop sa programa (matang sa sayop, teknikal nga call stack, bersyon sa app, operating system), dili gyud ang inyong paggamit ni ang inyong agi, ug dili gyud ang teksto nga inyong gisulat — usa ka dedikadong filter ang nagadili niini una sa bisan unsang pagpadala. Ang detalye naa sa §9.
 
 Ania ang tibuok nga gitipigan sa among mga server:
 
@@ -107,7 +107,7 @@ Ania ang tibuok nga gitipigan sa among mga server:
 | **Teknikal nga mga signal sa abuso** (balik-balik nga paglapas, pagkapakyas sa integrity check — walay bisan unsang teksto) | Seguridad, pakigbugno batok sa panlimbong | Gilain gikan sa inyong pagkatawo sa pagtangtang sa account |
 | **Pinulongan ug bersyon sa aplikasyon** | Paghatag sa husto nga sulod | Hangtod sa pagtangtang sa inyong account |
 | **Ang sulod sa mga personal nga pinulongan nga inyong gimugna** (ang ngalan, ang alpabeto, ug ang bokabularyo niini — ang mga pulong ug ang mga kahulugan nga kamo, o ang uban nga tawo, nagsulat didto) | Pagtugot kaninyo nga mapangita ang inyong pinulongan sa laing device, mapalambo kini, ug mapaambit kini sa uban nga user | Samtang naa pa ang pinulongan. Kung inyo kining tangtangon, mawala ang rekord niini — apan ang usa ka kopya nga naa nay **na-import sa laing tawo** iya na sa maong tawo karon ug **magpabilin**, sama sa usa ka mensahe nga nadawat na sa laing tawo nga dili namo kaya pukanon didto kaniya |
-| **Mga teknikal nga taho sa crash** (matang sa sayop, gipamubo nga teknikal nga call stack, bersyon sa app, operating system — dili gyud sulod sa teksto) | Pag-diagnose ug pag-ayo sa mga crash sa aplikasyon | Gidumala sa among provider nga Sentry (tan-awa ang §9). Kini nga koleksyon subject sa inyong pag-uyon ug sa usa ka switch nga mahimo namong i-off bisan kanus-a, nga walay update sa aplikasyon |
+| **Mga teknikal nga taho sa crash** (matang sa sayop, gipamubo nga teknikal nga call stack, bersyon sa app, operating system — dili gyud sulod sa teksto) | Pag-diagnose ug pag-ayo sa mga crash sa aplikasyon | Gidumala sa among provider sa taho sa crash (tan-awa ang §9). Kini nga koleksyon subject sa inyong pag-uyon ug sa usa ka switch nga mahimo namong i-off bisan kanus-a, nga walay update sa aplikasyon |
 
 **Ang wala namo gikolekta:** ang inyong ngalan, inyong mga contact, inyong lokasyon, inyong address book, inyong mga litrato, inyong calendar, ang history sa inyong mga aplikasyon. Wala mangayo ang Plume og bisan unsa niini nga mga permiso.
 
@@ -178,17 +178,16 @@ Sanglit ang aplikasyon nagtugot sa pagsulat pag-usab og libre nga teksto ug naga
 
 | Provider | Papel | Asa |
 |---|---|---|
-| **Supabase** | Hosting sa database, authentication, mga server function | European Union (Frankfurt) |
-| **OpenRouter** | Pagdala sa mga request ngadto sa modelo sa AI | **Gawas sa European Union** |
-| **Mistral AI** (pinaagi sa OpenRouter) | Modelo nga nagaproseso sa teksto (Mistral Small) | Pagproseso pinaagi sa intermediary sa taas |
+| **Among provider sa hosting** | Hosting sa database, authentication, mga server function | European Union (Frankfurt) |
+| **Among provider sa pagproseso sa AI** | Pagdala sa mga request ug pagproseso sa teksto pinaagi sa usa ka third-party nga modelo sa artipisyal nga intelihensiya | **Gawas sa European Union** |
 | **Google Play / Google Billing** | Pagbayad, mga subscription | Google Ireland / United States |
 | **Google AdMob** | Rewarded advertising | Google Ireland / United States |
 | **Google (mga system service sa telepono)** | Speech recognition, mga offline translation module | Depende sa inyong device |
-| **Sentry** (Functional Software, Inc.) | Teknikal nga taho sa crash — mga sayop lamang sa programa, gi-filter una sa pagpadala: dili gyud ang inyong teksto | United States |
+| **Among provider sa taho sa crash** | Teknikal nga taho sa crash — mga sayop lamang sa programa, gi-filter una sa pagpadala: dili gyud ang inyong teksto | United States |
 
 **Wala kami magbaligya og bisan unsang datos ug wala kami magtugyan niini ngadto sa mga data broker.**
 
-**Mga transfer gawas sa European Union:** ang paggamit sa OpenRouter, sa Google Play, sa AdMob ug sa Sentry naglakip og transfer sa datos gawas sa European Union.
+**Mga transfer gawas sa European Union:** ang paggamit sa among provider sa pagproseso sa AI, sa Google Play, sa AdMob ug sa among provider sa taho sa crash naglakip og transfer sa datos gawas sa European Union.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Ostatnia aktualizacja: 12 września 2026 r.** — Wersja 2.0
 
-> *Co się zmieniło od wersji 1.0 i dlaczego być może ponownie widzisz ekran akceptacji w aplikacji:* poprawiamy dwa stwierdzenia, które przestały być prawdziwe. Po pierwsze, funkcja **języki własne** zachowuje na naszych serwerach treść, którą tworzysz (nazwę, alfabet, słownik) — wersja 1.0 błędnie twierdziła, że żaden tekst nie jest przechowywany. Po drugie, korzystamy teraz z narzędzia do **raportowania awarii technicznych** (Sentry) — wersja 1.0 twierdziła, że takie narzędzie nie istnieje. Szczegóły tych dwóch kwestii znajdują się w sekcji „W jedną minutę” poniżej, a także w §3 i §9. To dokładnie te dwie kategorie zmian, które w aplikacji wywołują nową prośbę o zgodę (zob. §11).
+> *Co się zmieniło od wersji 1.0 i dlaczego być może ponownie widzisz ekran akceptacji w aplikacji:* poprawiamy dwa stwierdzenia, które przestały być prawdziwe. Po pierwsze, funkcja **języki własne** zachowuje na naszych serwerach treść, którą tworzysz (nazwę, alfabet, słownik) — wersja 1.0 błędnie twierdziła, że żaden tekst nie jest przechowywany. Po drugie, korzystamy teraz z narzędzia do **raportowania awarii technicznych** — wersja 1.0 twierdziła, że takie narzędzie nie istnieje. Szczegóły tych dwóch kwestii znajdują się w sekcji „W jedną minutę” poniżej, a także w §3 i §9. To dokładnie te dwie kategorie zmian, które w aplikacji wywołują nową prośbę o zgodę (zob. §11).
 
 ---
 
@@ -79,8 +79,8 @@ Kiedy wybierasz AI w chmurze albo kiedy Twoje urządzenie nie jest dość wydajn
 
 **Trzeba jasno powiedzieć, jaka jest rzeczywista trasa:**
 
-- Tekst przechodzi przez naszą infrastrukturę (Supabase), hostowaną w **Unii Europejskiej** (region Europa Środkowa, Frankfurt).
-- Następnie jest przekazywany do **openrouter.ai**, pośrednika kierującego ruchem, **znajdującego się poza Unią Europejską**, który zleca jego przetworzenie modelowi **Mistral Small**.
+- Tekst przechodzi przez naszą infrastrukturę serwerową, hostowaną w **Unii Europejskiej** (region Europa Środkowa, Frankfurt).
+- Następnie jest przekazywany do pośrednika kierującego ruchem, **znajdującego się poza Unią Europejską**, który zleca jego przetworzenie modelowi sztucznej inteligencji podmiotu trzeciego.
 - **Jest to zatem przekazanie danych poza Unię Europejską.** Nie twierdzimy niczego przeciwnego i nie składamy na tym etapie żadnej obietnicy hostingu europejskiego.
 - **Plume nie przechowuje Twojego tekstu.** Żadna z naszych funkcji serwerowych nie zapisuje treści Twojego tekstu: rejestrujemy wyłącznie techniczny identyfikator żądania oraz identyfikator Twojego urządzenia, aby liczyć Twój limit i wykrywać nadużycia.
 - **Tego, co ci dostawcy robią po swojej stronie, nie możemy zagwarantować.** Wolimy Ci to powiedzieć, niż obiecywać zerowe przechowywanie, którego nie jesteśmy w stanie zweryfikować.
@@ -93,7 +93,7 @@ Wysyłany tekst jest ograniczony: 1 200 znaków dla przeformułowania, 4 000 zna
 
 ## 3. Dane, które przechowujemy
 
-Nie korzystamy z **żadnego narzędzia analityki ruchu ani żadnego zewnętrznego trackera reklamowego**, poza reklamą opisaną w §5. **Korzystamy z narzędzia do raportowania awarii technicznych** (Sentry): widzi ono wyłącznie błędy programu (typ błędu, techniczny stos wywołań, wersję aplikacji, system operacyjny), nigdy Twój sposób korzystania z aplikacji ani Twoją ścieżkę użytkowania, i nigdy tekst, który piszesz — zanim cokolwiek zostanie wysłane, zabrania tego dedykowany filtr. Szczegóły w §9.
+Nie korzystamy z **żadnego narzędzia analityki ruchu ani żadnego zewnętrznego trackera reklamowego**, poza reklamą opisaną w §5. **Korzystamy z narzędzia do raportowania awarii technicznych**: widzi ono wyłącznie błędy programu (typ błędu, techniczny stos wywołań, wersję aplikacji, system operacyjny), nigdy Twój sposób korzystania z aplikacji ani Twoją ścieżkę użytkowania, i nigdy tekst, który piszesz — zanim cokolwiek zostanie wysłane, zabrania tego dedykowany filtr. Szczegóły w §9.
 
 Oto całość tego, co jest przechowywane na naszych serwerach:
 
@@ -107,7 +107,7 @@ Oto całość tego, co jest przechowywane na naszych serwerach:
 | **Techniczne sygnały nadużyć** (powtarzające się przekroczenia, niepowodzenie kontroli integralności — bez żadnego tekstu) | Bezpieczeństwo, przeciwdziałanie oszustwom | Odłączane od Twojej tożsamości przy usunięciu konta |
 | **Język i wersja aplikacji** | Dostarczanie właściwej treści | Do usunięcia Twojego konta |
 | **Treść języków własnych, które tworzysz** (ich nazwa, alfabet i słownik — słowa i definicje, które Ty lub inne osoby tam wpisaliście) | Umożliwienie Ci odnalezienia Twojego języka na innym urządzeniu, jego rozwijania i udostępniania innym użytkownikom | Dopóki język istnieje. Jeśli go usuniesz, jego karta znika — ale kopia już **zaimportowana przez inną osobę** należy odtąd do niej i **przetrwa**, podobnie jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć u niej |
-| **Raporty o awariach technicznych** (typ błędu, skrócony techniczny stos wywołań, wersja aplikacji, system operacyjny — nigdy treść tekstu) | Diagnozowanie i naprawianie awarii aplikacji | Zarządzane przez naszego dostawcę Sentry (zob. §9). Ta zbiórka danych podlega Twojej zgodzie oraz przełącznikowi, który możemy wyłączyć w dowolnym momencie, bez aktualizacji aplikacji |
+| **Raporty o awariach technicznych** (typ błędu, skrócony techniczny stos wywołań, wersja aplikacji, system operacyjny — nigdy treść tekstu) | Diagnozowanie i naprawianie awarii aplikacji | Zarządzane przez naszego dostawcę raportowania awarii (zob. §9). Ta zbiórka danych podlega Twojej zgodzie oraz przełącznikowi, który możemy wyłączyć w dowolnym momencie, bez aktualizacji aplikacji |
 
 **Czego nie zbieramy:** Twojego imienia i nazwiska, Twoich kontaktów, Twojej lokalizacji, Twojej książki adresowej, Twoich zdjęć, Twojego kalendarza, historii Twoich aplikacji. Plume nie prosi o żadne z tych uprawnień.
 
@@ -178,17 +178,16 @@ Ponieważ aplikacja pozwala przeformułować dowolny tekst i wyświetla reklamy,
 
 | Dostawca | Rola | Gdzie |
 |---|---|---|
-| **Supabase** | Hosting bazy danych, uwierzytelnianie, funkcje serwerowe | Unia Europejska (Frankfurt) |
-| **OpenRouter** | Kierowanie żądań do modelu AI | **Poza Unią Europejską** |
-| **Mistral AI** (przez OpenRouter) | Model, który przetwarza tekst (Mistral Small) | Przetwarzanie przez wskazanego wyżej pośrednika |
+| **Nasz dostawca hostingu** | Hosting bazy danych, uwierzytelnianie, funkcje serwerowe | Unia Europejska (Frankfurt) |
+| **Nasz dostawca przetwarzania przez AI** | Kierowanie żądań i przetwarzanie tekstu przez model sztucznej inteligencji podmiotu trzeciego | **Poza Unią Europejską** |
 | **Google Play / Google Billing** | Płatność, subskrypcje | Google Ireland / Stany Zjednoczone |
 | **Google AdMob** | Reklama z nagrodą | Google Ireland / Stany Zjednoczone |
 | **Google (usługi systemowe telefonu)** | Rozpoznawanie mowy, moduły tłumaczenia offline | Zależnie od Twojego urządzenia |
-| **Sentry** (Functional Software, Inc.) | Raportowanie awarii technicznych — wyłącznie błędy programu, filtrowane przed wysłaniem: nigdy Twój tekst | Stany Zjednoczone |
+| **Nasz dostawca raportowania awarii** | Raportowanie awarii technicznych — wyłącznie błędy programu, filtrowane przed wysłaniem: nigdy Twój tekst | Stany Zjednoczone |
 
 **Nie sprzedajemy żadnych danych i nie przekazujemy żadnych danych brokerom danych.**
 
-**Przekazywanie poza Unię Europejską:** korzystanie z OpenRouter, z Google Play, z AdMob i z Sentry wiąże się z przekazywaniem danych poza Unię Europejską. Ramy prawne tych przekazań (standardowe klauzule umowne, decyzja stwierdzająca odpowiedni stopień ochrony) **muszą zostać zweryfikowane i udokumentowane przez profesjonalistę przed publikacją** — zob. uwagę na końcu dokumentu.
+**Przekazywanie poza Unię Europejską:** korzystanie z naszego dostawcy przetwarzania przez AI, z Google Play, z AdMob i z naszego dostawcy raportowania awarii wiąże się z przekazywaniem danych poza Unię Europejską. Ramy prawne tych przekazań (standardowe klauzule umowne, decyzja stwierdzająca odpowiedni stopień ochrony) **muszą zostać zweryfikowane i udokumentowane przez profesjonalistę przed publikacją** — zob. uwagę na końcu dokumentu.
 
 ---
 
@@ -211,15 +210,6 @@ Każda zmiana niniejszej polityki będzie publikowana pod adresem `https://readi
 Warunki korzystania z usługi (limity, subskrypcje, rozwiązanie umowy) figurują w odrębnym dokumencie: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Do przejrzenia przez profesjonalistę
->
-> Niniejszy dokument został sporządzony przez zmierzenie rzeczywistego zachowania aplikacji, ale **nie został sporządzony przez prawnika**. Cztery kwestie zasługują w pierwszej kolejności na opinię profesjonalną:
->
-> 1. **Przekazywanie danych poza Unię Europejską** do OpenRouter. To punkt najbardziej wrażliwy: należy ustalić właściwy mechanizm przekazywania, sprawdzić, czy z tym dostawcą istnieje umowa powierzenia przetwarzania, i wpisać to tutaj. Dopóki to nie nastąpi, niniejszy dokument opisuje przekazanie, nie twierdząc, że jest ono uregulowane.
-> 2. **Podstawy prawne** przyjęte w §7, w szczególności podział między zgodę a prawnie uzasadniony interes w przypadku usługi ułatwień dostępu.
-> 3. **Minimalny wiek** (16 lat) i jego spójność z kwestionariuszem klasyfikacji treści Google Play.
-> 4. **Wzmianka dotycząca sztucznej inteligencji** na gruncie europejskiego rozporządzenia o sztucznej inteligencji (obowiązek przejrzystości dla systemu o ograniczonym ryzyku).
 
 ---
 

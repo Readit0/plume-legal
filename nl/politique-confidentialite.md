@@ -2,7 +2,7 @@
 
 **Laatst bijgewerkt: 12 september 2026** — Versie 2.0
 
-> *Wat er is veranderd sinds versie 1.0, en waarom u mogelijk het toestemmingsscherm opnieuw ziet in de app:* wij corrigeren twee beweringen die niet langer juist waren. Ten eerste bewaart de functie **persoonlijke talen** op onze servers de inhoud die u aanmaakt (naam, alfabet, lexicon) — versie 1.0 beweerde ten onrechte dat er geen enkele tekst werd opgeslagen. Ten tweede gebruiken wij nu een hulpmiddel voor **technische crashrapportage** (Sentry) — versie 1.0 beweerde dat er geen enkel hulpmiddel van dit type bestond. De details van deze twee punten vindt u hieronder bij "In één minuut", en in §3 en §9. Dit zijn precies de twee categorieën wijzigingen die in de app een nieuwe toestemmingsvraag doen verschijnen (zie §11).
+> *Wat er is veranderd sinds versie 1.0, en waarom u mogelijk het toestemmingsscherm opnieuw ziet in de app:* wij corrigeren twee beweringen die niet langer juist waren. Ten eerste bewaart de functie **persoonlijke talen** op onze servers de inhoud die u aanmaakt (naam, alfabet, lexicon) — versie 1.0 beweerde ten onrechte dat er geen enkele tekst werd opgeslagen. Ten tweede gebruiken wij nu een hulpmiddel voor **technische crashrapportage** — versie 1.0 beweerde dat er geen enkel hulpmiddel van dit type bestond. De details van deze twee punten vindt u hieronder bij "In één minuut", en in §3 en §9. Dit zijn precies de twee categorieën wijzigingen die in de app een nieuwe toestemmingsvraag doen verschijnen (zie §11).
 
 ---
 
@@ -79,8 +79,8 @@ Wanneer u de Cloud-AI kiest, of wanneer uw apparaat niet krachtig genoeg is voor
 
 **Over de werkelijke route moeten wij duidelijk zijn:**
 
-- De tekst loopt via onze infrastructuur (Supabase), gehost in de **Europese Unie** (regio Centraal-Europa, Frankfurt).
-- Hij wordt daarna doorgestuurd naar **openrouter.ai**, een routeringstussenpersoon **buiten de Europese Unie**, die de tekst laat verwerken door het model **Mistral Small**.
+- De tekst loopt via onze serverinfrastructuur, gehost in de **Europese Unie** (regio Centraal-Europa, Frankfurt).
+- Hij wordt daarna doorgestuurd naar een routeringstussenpersoon **buiten de Europese Unie**, die de tekst laat verwerken door een AI-model van een derde partij.
 - **Het gaat hier dus om een doorgifte van gegevens buiten de Europese Unie.** Wij beweren niet het tegendeel en wij doen voor deze stap geen enkele belofte over Europese hosting.
 - **Plume bewaart uw tekst niet.** Geen van onze serverfuncties schrijft de inhoud van uw tekst weg: wij registreren alleen een technische aanvraagidentificatie en de identificatie van uw apparaat, om uw quotum te tellen en misbruik op te sporen.
 - **Wat deze dienstverleners aan hun kant doen, kunnen wij niet garanderen.** Wij zeggen u dat liever dan u een nulbewaring te beloven die wij niet kunnen controleren.
@@ -93,7 +93,7 @@ De verzonden tekst is begrensd: 1.200 tekens voor een herschrijving, 4.000 teken
 
 ## 3. De gegevens die wij bewaren
 
-Wij gebruiken **geen enkel hulpmiddel voor publieksmeting en geen enkele advertentietracker van derden**, afgezien van de advertenties die in §5 worden beschreven. **Wij gebruiken wel een hulpmiddel voor technische crashrapportage** (Sentry): dat ziet alleen programmafouten (type fout, technische call stack, versie van de app, besturingssysteem), nooit uw gebruik of uw traject, en nooit de tekst die u schrijft — een speciaal filter verbiedt dat vóór elke verzending. De details staan in §9.
+Wij gebruiken **geen enkel hulpmiddel voor publieksmeting en geen enkele advertentietracker van derden**, afgezien van de advertenties die in §5 worden beschreven. **Wij gebruiken wel een hulpmiddel voor technische crashrapportage**: dat ziet alleen programmafouten (type fout, technische call stack, versie van de app, besturingssysteem), nooit uw gebruik of uw traject, en nooit de tekst die u schrijft — een speciaal filter verbiedt dat vóór elke verzending. De details staan in §9.
 
 Hier is alles wat op onze servers wordt opgeslagen:
 
@@ -107,7 +107,7 @@ Hier is alles wat op onze servers wordt opgeslagen:
 | **Technische misbruiksignalen** (herhaalde overschrijdingen, mislukte integriteitscontrole — zonder enige tekst) | Beveiliging, fraudebestrijding | Losgekoppeld van uw identiteit bij verwijdering van het account |
 | **Taal en versie van de app** | De juiste inhoud aanbieden | Tot uw account wordt verwijderd |
 | **De inhoud van de persoonlijke talen die u aanmaakt** (de naam ervan, het alfabet ervan, en het lexicon ervan — de woorden en de definities die u, of andere personen, erin hebben geschreven) | U in staat stellen uw taal op een ander apparaat terug te vinden, haar verder te ontwikkelen, en haar met andere gebruikers te delen | Zolang de taal bestaat. Als u haar verwijdert, verdwijnt haar eigen kaart — maar een kopie die al **door iemand anders is geïmporteerd**, behoort dan aan die persoon toe en **blijft bestaan**, zoals een bericht dat al door een derde is ontvangen en dat wij niet bij hem kunnen gaan wissen |
-| **Technische crashrapporten** (type fout, ingekorte technische call stack, versie van de app, besturingssysteem — nooit tekstuele inhoud) | Crashes van de app diagnosticeren en verhelpen | Geregeld door onze dienstverlener Sentry (zie §9). Deze verzameling is onderworpen aan uw toestemming en aan een schakelaar die wij op elk moment kunnen uitzetten, zonder app-update |
+| **Technische crashrapporten** (type fout, ingekorte technische call stack, versie van de app, besturingssysteem — nooit tekstuele inhoud) | Crashes van de app diagnosticeren en verhelpen | Geregeld door onze dienstverlener voor crashrapportage (zie §9). Deze verzameling is onderworpen aan uw toestemming en aan een schakelaar die wij op elk moment kunnen uitzetten, zonder app-update |
 
 **Wat wij niet verzamelen:** uw naam, uw contacten, uw locatie, uw adresboek, uw foto's, uw agenda, de geschiedenis van uw apps. Plume vraagt geen enkele van deze machtigingen.
 
@@ -178,17 +178,16 @@ Omdat de app het herschrijven van vrije tekst mogelijk maakt en advertenties too
 
 | Dienstverlener | Rol | Waar |
 |---|---|---|
-| **Supabase** | Hosting van de database, authenticatie, serverfuncties | Europese Unie (Frankfurt) |
-| **OpenRouter** | Doorsturen van de aanvragen naar het AI-model | **Buiten de Europese Unie** |
-| **Mistral AI** (via OpenRouter) | Model dat de tekst verwerkt (Mistral Small) | Verwerking via de bovengenoemde tussenpersoon |
+| **Onze hostingdienstverlener** | Hosting van de database, authenticatie, serverfuncties | Europese Unie (Frankfurt) |
+| **Onze dienstverlener voor AI-verwerking** | Doorsturen van de aanvragen en verwerking van de tekst door een AI-model van een derde partij | **Buiten de Europese Unie** |
 | **Google Play / Google Billing** | Betaling, abonnementen | Google Ireland / Verenigde Staten |
 | **Google AdMob** | Beloonde advertenties | Google Ireland / Verenigde Staten |
 | **Google (systeemdiensten van de telefoon)** | Spraakherkenning, offline vertaalmodules | Afhankelijk van uw apparaat |
-| **Sentry** (Functional Software, Inc.) | Technische crashrapportage — uitsluitend programmafouten, gefilterd vóór verzending: nooit uw tekst | Verenigde Staten |
+| **Onze dienstverlener voor crashrapportage** | Technische crashrapportage — uitsluitend programmafouten, gefilterd vóór verzending: nooit uw tekst | Verenigde Staten |
 
 **Wij verkopen geen enkel gegeven en dragen er geen enkel over aan datahandelaren.**
 
-**Doorgiften buiten de Europese Unie:** het gebruik van OpenRouter, Google Play, AdMob en Sentry houdt een doorgifte van gegevens buiten de Europese Unie in. Het juridische kader van die doorgiften (modelcontractbepalingen, adequaatheidsbesluit) **moet vóór publicatie door een professional worden geverifieerd en gedocumenteerd** — zie de noot aan het einde van dit document.
+**Doorgiften buiten de Europese Unie:** het gebruik van onze dienstverlener voor AI-verwerking, Google Play, AdMob en onze dienstverlener voor crashrapportage houdt een doorgifte van gegevens buiten de Europese Unie in. Het juridische kader van die doorgiften (modelcontractbepalingen, adequaatheidsbesluit) **moet vóór publicatie door een professional worden geverifieerd en gedocumenteerd** — zie de noot aan het einde van dit document.
 
 ---
 
@@ -211,15 +210,6 @@ Elke wijziging van dit beleid wordt gepubliceerd op `https://readit0.github.io/p
 De gebruiksvoorwaarden van de dienst (quota, abonnementen, opzegging) staan in een afzonderlijk document: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Te laten nalezen door een professional
->
-> Dit document is geschreven door het werkelijke gedrag van de app te meten, maar **het is niet door een jurist geschreven**. Vier punten vragen bij voorrang om professioneel advies:
->
-> 1. **De doorgifte van gegevens buiten de Europese Unie** naar OpenRouter. Dat is het gevoeligste punt: er moet worden bepaald welk doorgiftemechanisme van toepassing is, er moet worden nagegaan of er met die dienstverlener een verwerkersovereenkomst bestaat, en dat moet hier worden vastgelegd. Zolang dat niet is gebeurd, beschrijft dit document de doorgifte zonder te stellen dat zij van passende waarborgen is voorzien.
-> 2. **De rechtsgronden** die in § 7 zijn gekozen, in het bijzonder de verdeling tussen toestemming en gerechtvaardigd belang voor de toegankelijkheidsservice.
-> 3. **De minimumleeftijd** (16 jaar) en de samenhang daarvan met de vragenlijst voor de inhoudsclassificatie van Google Play.
-> 4. **De vermelding over AI** in het kader van de Europese verordening inzake kunstmatige intelligentie (transparantieverplichting voor een systeem met beperkt risico).
 
 ---
 

@@ -7,7 +7,7 @@
 > esatte. Anzitutto, la funzione **lingue personali** conserva sui nostri server il
 > contenuto che lei crea (nome, alfabeto, lessico) — la versione 1.0 affermava erroneamente
 > che nessun testo veniva memorizzato. Inoltre, utilizziamo ora uno strumento di
-> **segnalazione di errori tecnici** (Sentry) — la versione 1.0 affermava che non esisteva
+> **segnalazione di errori tecnici** — la versione 1.0 affermava che non esisteva
 > alcuno strumento di questo tipo. Il dettaglio di questi due punti è in «In un minuto»
 > qui sotto, nonché ai §3 e §9. Sono esattamente le due categorie di cambiamento che,
 > nell'applicazione, fanno scattare una nuova richiesta di accordo (vedere il §11).
@@ -87,8 +87,8 @@ Quando sceglie l'IA cloud, o quando il suo dispositivo non è abbastanza potente
 
 **Occorre essere chiari sul percorso reale:**
 
-- Il testo transita dalla nostra infrastruttura (Supabase), ospitata nell'**Unione europea** (regione Europa centrale, Francoforte).
-- Viene poi trasmesso a **openrouter.ai**, un intermediario di instradamento **situato al di fuori dell'Unione europea**, che lo fa trattare dal modello **Mistral Small**.
+- Il testo transita dalla nostra infrastruttura server, ospitata nell'**Unione europea** (regione Europa centrale, Francoforte).
+- Viene poi trasmesso a un intermediario di instradamento **situato al di fuori dell'Unione europea**, che lo fa trattare da un modello di intelligenza artificiale di terzi.
 - **Si tratta quindi di un trasferimento di dati al di fuori dell'Unione europea.** Non pretendiamo il contrario, e non mostriamo alcuna promessa di hosting europeo per questa fase.
 - **Plume non conserva il suo testo.** Nessuna delle nostre funzioni server scrive il contenuto del suo testo: registriamo soltanto un identificativo tecnico di richiesta e l'identificativo del suo dispositivo, per conteggiare la sua quota e rilevare gli abusi.
 - **Ciò che questi fornitori fanno dal canto loro, non possiamo garantirlo.** Preferiamo dirglielo piuttosto che prometterle una conservazione nulla che non siamo in grado di verificare.
@@ -101,7 +101,7 @@ Il testo inviato ha un limite massimo: 1.200 caratteri per una riformulazione, 4
 
 ## 3. I dati che conserviamo
 
-Non utilizziamo **alcuno strumento di analisi del pubblico e alcun tracciatore pubblicitario di terzi** al di fuori della pubblicità descritta al §5. **Utilizziamo uno strumento di segnalazione di errori tecnici** (Sentry): esso vede soltanto errori di programma (tipo di errore, traccia di chiamata tecnica, versione dell'app, sistema operativo), mai il suo utilizzo né il suo percorso, e mai il testo che scrive — un filtro dedicato glielo impedisce prima di ogni invio. Il dettaglio è al §9.
+Non utilizziamo **alcuno strumento di analisi del pubblico e alcun tracciatore pubblicitario di terzi** al di fuori della pubblicità descritta al §5. **Utilizziamo uno strumento di segnalazione di errori tecnici**: esso vede soltanto errori di programma (tipo di errore, traccia di chiamata tecnica, versione dell'app, sistema operativo), mai il suo utilizzo né il suo percorso, e mai il testo che scrive — un filtro dedicato glielo impedisce prima di ogni invio. Il dettaglio è al §9.
 
 Ecco la totalità di ciò che è memorizzato sui nostri server:
 
@@ -115,7 +115,7 @@ Ecco la totalità di ciò che è memorizzato sui nostri server:
 | **Segnali tecnici di abuso** (superamenti ripetuti, esito negativo del controllo di integrità — senza alcun testo) | Sicurezza, lotta contro le frodi | Separati dalla sua identità al momento della cancellazione dell'account |
 | **Lingua e versione dell'applicazione** | Fornire il contenuto corretto | Fino alla cancellazione del suo account |
 | **Il contenuto delle lingue personali che lei crea** (il suo nome, il suo alfabeto e il suo lessico — le parole e le definizioni che lei, o altre persone, vi hanno scritto) | Consentirle di ritrovare la sua lingua su un altro dispositivo, di farla evolvere, e di condividerla con altri utenti | Finché la lingua esiste. Se la cancella, la sua scheda scompare — ma una copia già **importata da un'altra persona** le appartiene ormai e **sopravvive**, come un messaggio già ricevuto da un terzo che non possiamo andare a cancellare da lui |
-| **Segnalazioni di errori tecnici** (tipo di errore, traccia di chiamata tecnica troncata, versione dell'app, sistema operativo — mai un contenuto testuale) | Diagnosticare e correggere i malfunzionamenti dell'applicazione | Gestita dal nostro fornitore Sentry (vedere il §9). Questa raccolta è soggetta al suo consenso e a un interruttore che possiamo disattivare in qualsiasi momento, senza aggiornamento dell'applicazione |
+| **Segnalazioni di errori tecnici** (tipo di errore, traccia di chiamata tecnica troncata, versione dell'app, sistema operativo — mai un contenuto testuale) | Diagnosticare e correggere i malfunzionamenti dell'applicazione | Gestita dal nostro fornitore di segnalazione degli errori (vedere il §9). Questa raccolta è soggetta al suo consenso e a un interruttore che possiamo disattivare in qualsiasi momento, senza aggiornamento dell'applicazione |
 
 **Ciò che non raccogliamo:** il suo nome, i suoi contatti, la sua posizione, la sua rubrica, le sue foto, il suo calendario, la cronologia delle sue applicazioni. Plume non richiede nessuna di queste autorizzazioni.
 
@@ -186,17 +186,16 @@ Poiché l'applicazione consente di riformulare un testo libero e mostra pubblici
 
 | Fornitore | Ruolo | Dove |
 |---|---|---|
-| **Supabase** | Hosting della banca dati, autenticazione, funzioni server | Unione europea (Francoforte) |
-| **OpenRouter** | Instradamento delle richieste verso il modello di IA | **Al di fuori dell'Unione europea** |
-| **Mistral AI** (tramite OpenRouter) | Modello che tratta il testo (Mistral Small) | Trattamento tramite l'intermediario di cui sopra |
+| **Il nostro fornitore di hosting** | Hosting della banca dati, autenticazione, funzioni server | Unione europea (Francoforte) |
+| **Il nostro fornitore di trattamento tramite IA** | Instradamento delle richieste e trattamento del testo da parte di un modello di intelligenza artificiale di terzi | **Al di fuori dell'Unione europea** |
 | **Google Play / Google Billing** | Pagamento, abbonamenti | Google Ireland / Stati Uniti |
 | **Google AdMob** | Pubblicità con premio | Google Ireland / Stati Uniti |
 | **Google (servizi di sistema del telefono)** | Riconoscimento vocale, moduli di traduzione offline | A seconda del suo dispositivo |
-| **Sentry** (Functional Software, Inc.) | Segnalazione di errori tecnici — soltanto errori del programma, filtrati prima dell'invio: mai il suo testo | Stati Uniti |
+| **Il nostro fornitore di segnalazione degli errori** | Segnalazione di errori tecnici — soltanto errori del programma, filtrati prima dell'invio: mai il suo testo | Stati Uniti |
 
 **Non vendiamo alcun dato e non ne cediamo alcuno a intermediari di dati.**
 
-**Trasferimenti al di fuori dell'Unione europea:** il ricorso a OpenRouter, a Google Play, ad AdMob e a Sentry comporta un trasferimento di dati al di fuori dell'Unione europea. Il quadro giuridico di tali trasferimenti (clausole contrattuali tipo, decisione di adeguatezza) **deve essere verificato e documentato da un professionista prima della pubblicazione** — vedere la nota in calce al documento.
+**Trasferimenti al di fuori dell'Unione europea:** il ricorso al nostro fornitore di trattamento tramite IA, a Google Play, ad AdMob e al nostro fornitore di segnalazione degli errori comporta un trasferimento di dati al di fuori dell'Unione europea. Il quadro giuridico di tali trasferimenti (clausole contrattuali tipo, decisione di adeguatezza) **deve essere verificato e documentato da un professionista prima della pubblicazione** — vedere la nota in calce al documento.
 
 ---
 
@@ -219,15 +218,6 @@ Ogni modifica della presente informativa sarà pubblicata all'indirizzo `https:/
 Le condizioni di utilizzo del servizio (quote, abbonamenti, disdetta) figurano in un documento distinto: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Da far rileggere a un professionista
->
-> Il presente documento è stato redatto misurando il comportamento reale dell'applicazione, ma **non è stato redatto da un giurista**. Quattro punti meritano in via prioritaria un parere professionale:
->
-> 1. **Il trasferimento di dati al di fuori dell'Unione europea** verso OpenRouter. È il punto più delicato: occorre determinare il meccanismo di trasferimento applicabile, verificare che esista un accordo sul trattamento dei dati con questo fornitore, e scriverlo qui. Finché ciò non sarà fatto, il presente documento descrive il trasferimento senza affermare che sia giuridicamente inquadrato.
-> 2. **Le basi giuridiche** indicate al §7, in particolare la ripartizione tra consenso e legittimo interesse per il servizio di accessibilità.
-> 3. **L'età minima** (16 anni) e la sua coerenza con il questionario di classificazione dei contenuti di Google Play.
-> 4. **La menzione relativa all'IA** ai sensi del regolamento europeo sull'intelligenza artificiale (obbligo di trasparenza per un sistema a rischio limitato).
 
 ---
 

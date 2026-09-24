@@ -2,7 +2,7 @@
 
 **Viimati uuendatud: 12. september 2026** — Versioon 2.0
 
-> *Mis on muutunud alates versioonist 1.0 ja miks te võite rakenduses uuesti näha nõustumisekraani:* parandame kaks väidet, mis ei olnud enam täpsed. Esiteks, funktsioon **isiklikud keeled** säilitab meie serverites sisu, mille te loote (nimi, tähestik, sõnavara) — versioon 1.0 väitis ekslikult, et ühtegi teksti ei säilitata. Teiseks kasutame nüüd **tehnilise vealogimise** tööriista (Sentry) — versioon 1.0 väitis, et ühtegi sellist tööriista ei ole olemas. Nende kahe punkti üksikasjad on allpool jaotises „Ühe minutiga“ ning samuti §3-s ja §9-s. Need on täpselt need kaks muudatuste kategooriat, mis rakenduses käivitavad uue nõusolekutaotluse (vt § 11).
+> *Mis on muutunud alates versioonist 1.0 ja miks te võite rakenduses uuesti näha nõustumisekraani:* parandame kaks väidet, mis ei olnud enam täpsed. Esiteks, funktsioon **isiklikud keeled** säilitab meie serverites sisu, mille te loote (nimi, tähestik, sõnavara) — versioon 1.0 väitis ekslikult, et ühtegi teksti ei säilitata. Teiseks kasutame nüüd **tehnilise vealogimise** tööriista — versioon 1.0 väitis, et ühtegi sellist tööriista ei ole olemas. Nende kahe punkti üksikasjad on allpool jaotises „Ühe minutiga“ ning samuti §3-s ja §9-s. Need on täpselt need kaks muudatuste kategooriat, mis rakenduses käivitavad uue nõusolekutaotluse (vt § 11).
 
 ---
 
@@ -79,8 +79,8 @@ Kui valite pilve-tehisintellekti või kui teie seade ei ole kohaliku tehisintell
 
 **Tegeliku teekonna kohta tuleb olla selge:**
 
-- Tekst liigub läbi meie taristu (Supabase), mida hostitakse **Euroopa Liidus** (Kesk-Euroopa piirkond, Frankfurt).
-- Seejärel edastatakse see teenusele **openrouter.ai**, mis on marsruutimise vahendaja ja **asub väljaspool Euroopa Liitu** ning laseb teksti töödelda mudelil **Mistral Small**.
+- Tekst liigub läbi meie serveritaristu, mida hostitakse **Euroopa Liidus** (Kesk-Euroopa piirkond, Frankfurt).
+- Seejärel edastatakse see marsruutimise vahendajale, kes **asub väljaspool Euroopa Liitu** ning laseb teksti töödelda kolmanda osapoole tehisintellekti mudelil.
 - **Tegemist on seega andmete edastamisega väljapoole Euroopa Liitu.** Me ei väida vastupidist ega esita selle etapi kohta ühtki lubadust Euroopas hostimise kohta.
 - **Plume ei säilita teie teksti.** Ükski meie serverifunktsioon ei kirjuta teie teksti sisu: me salvestame ainult päringu tehnilise identifikaatori ja teie seadme identifikaatori, et lugeda teie kvooti ja tuvastada kuritarvitusi.
 - **Mida need teenusepakkujad omalt poolt teevad, seda me ei saa tagada.** Eelistame seda teile öelda, selle asemel et lubada teile säilitamise puudumist, mida me ei ole võimelised kontrollima.
@@ -93,7 +93,7 @@ Saadetaval tekstil on ülempiir: 1 200 tähemärki ümbersõnastuse puhul ja 4 0
 
 ## 3. Andmed, mida me säilitame
 
-Me ei kasuta **ühtegi külastatavuse analüüsi tööriista ega ühtegi kolmanda isiku reklaamijälgijat**, välja arvatud § 5-s kirjeldatud reklaam. **Kasutame tehnilise vealogimise tööriista** (Sentry): see näeb ainult programmivigu (vea tüüp, tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem), mitte kunagi teie kasutust ega teie tegevusteed ning mitte kunagi teksti, mida te kirjutate — spetsiaalne filter keelab selle enne igasugust saatmist. Üksikasjad on §9-s.
+Me ei kasuta **ühtegi külastatavuse analüüsi tööriista ega ühtegi kolmanda isiku reklaamijälgijat**, välja arvatud § 5-s kirjeldatud reklaam. **Kasutame tehnilise vealogimise tööriista**: see näeb ainult programmivigu (vea tüüp, tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem), mitte kunagi teie kasutust ega teie tegevusteed ning mitte kunagi teksti, mida te kirjutate — spetsiaalne filter keelab selle enne igasugust saatmist. Üksikasjad on §9-s.
 
 Siin on kõik, mis meie serverites talletatakse:
 
@@ -107,7 +107,7 @@ Siin on kõik, mis meie serverites talletatakse:
 | **Kuritarvituse tehnilised signaalid** (korduvad ületamised, terviklikkuse kontrolli ebaõnnestumine — ilma ühegi tekstita) | Turvalisus, pettusevastane võitlus | Konto kustutamisel teie isikust lahutatud |
 | **Rakenduse keel ja versioon** | Õige sisu edastamiseks | Kuni teie konto kustutamiseni |
 | **Isiklike keelte sisu, mille te loote** (selle nimi, tähestik ja sõnavara — sõnad ja määratlused, mille teie või teised isikud on sinna kirjutanud) | Võimaldada teil oma keel teises seadmes leida, seda edasi arendada ja teiste kasutajatega jagada | Seni, kuni keel eksisteerib. Kui te selle kustutate, kaob selle kirje — kuid koopia, mille **on juba importinud teine isik**, kuulub nüüd sellele isikule ja **jääb alles**, nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada |
-| **Tehnilised vearaportid** (vea tüüp, lühendatud tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem — mitte kunagi tekstisisu) | Rakenduse tõrgete diagnoosimine ja parandamine | Seda reguleerib meie teenusepakkuja Sentry (vt §9). See kogumine sõltub teie nõusolekust ja lülitist, mille võime igal ajal välja lülitada, ilma rakendust uuendamata |
+| **Tehnilised vearaportid** (vea tüüp, lühendatud tehniline väljakutseahel, rakenduse versioon, operatsioonisüsteem — mitte kunagi tekstisisu) | Rakenduse tõrgete diagnoosimine ja parandamine | Seda reguleerib meie vearaportite teenusepakkuja (vt §9). See kogumine sõltub teie nõusolekust ja lülitist, mille võime igal ajal välja lülitada, ilma rakendust uuendamata |
 
 **Mida me ei kogu:** teie nime, teie kontakte, teie asukohta, teie aadressiraamatut, teie fotosid, teie kalendrit, teie rakenduste ajalugu. Plume ei küsi ühtegi neist lubadest.
 
@@ -178,17 +178,16 @@ Kuna rakendus võimaldab vaba teksti ümber sõnastada ja kuvab reklaami, ei sob
 
 | Teenusepakkuja | Roll | Kus |
 |---|---|---|
-| **Supabase** | Andmebaasi hostimine, autentimine, serverifunktsioonid | Euroopa Liit (Frankfurt) |
-| **OpenRouter** | Päringute suunamine tehisintellekti mudelile | **Väljaspool Euroopa Liitu** |
-| **Mistral AI** (OpenRouteri kaudu) | Mudel, mis teksti töötleb (Mistral Small) | Töötlemine ülalnimetatud vahendaja kaudu |
+| **Meie hostimisteenuse pakkuja** | Andmebaasi hostimine, autentimine, serverifunktsioonid | Euroopa Liit (Frankfurt) |
+| **Meie tehisintellekti töötluse teenusepakkuja** | Päringute suunamine ja teksti töötlemine kolmanda osapoole tehisintellekti mudeliga | **Väljaspool Euroopa Liitu** |
 | **Google Play / Google Billing** | Makse, tellimused | Google Ireland / Ameerika Ühendriigid |
 | **Google AdMob** | Preemiareklaam | Google Ireland / Ameerika Ühendriigid |
 | **Google (telefoni süsteemiteenused)** | Kõnetuvastus, võrguühenduseta tõlkemoodulid | Sõltub teie seadmest |
-| **Sentry** (Functional Software, Inc.) | Tehniline vealogimine — ainult programmivead, filtreeritud enne saatmist: mitte kunagi teie tekst | Ameerika Ühendriigid |
+| **Meie vearaportite teenusepakkuja** | Tehniline vealogimine — ainult programmivead, filtreeritud enne saatmist: mitte kunagi teie tekst | Ameerika Ühendriigid |
 
 **Me ei müü ühtegi andmet ega loovuta neid andmemaakleritele.**
 
-**Edastamine väljapoole Euroopa Liitu:** OpenRouteri, Google Play, AdMobi ja Sentry kasutamine tähendab andmete edastamist väljapoole Euroopa Liitu. Nende edastamiste õiguslik raamistik (lepingu tüüptingimused, kaitse piisavuse otsus) **tuleb enne avaldamist spetsialistil kontrollida ja dokumenteerida** — vt märkust dokumendi lõpus.
+**Edastamine väljapoole Euroopa Liitu:** meie tehisintellekti töötluse teenusepakkuja, Google Play, AdMobi ja meie vearaportite teenusepakkuja kasutamine tähendab andmete edastamist väljapoole Euroopa Liitu. Nende edastamiste õiguslik raamistik (lepingu tüüptingimused, kaitse piisavuse otsus) **tuleb enne avaldamist spetsialistil kontrollida ja dokumenteerida** — vt märkust dokumendi lõpus.
 
 ---
 
@@ -211,15 +210,6 @@ Igast käesoleva poliitika muudatusest teatatakse aadressil `https://readit0.git
 Teenuse kasutustingimused (kvoodid, tellimused, tühistamine) on esitatud eraldi dokumendis: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Spetsialistil üle vaadata
->
-> Käesolev dokument on koostatud rakenduse tegelikku käitumist mõõtes, kuid **seda ei ole koostanud jurist**. Neli punkti vajavad eelisjärjekorras spetsialisti arvamust:
->
-> 1. **Andmete edastamine väljapoole Euroopa Liitu** OpenRouterile. See on kõige tundlikum punkt: tuleb kindlaks määrata kohaldatav edastamismehhanism, kontrollida, kas selle teenusepakkujaga on sõlmitud andmetöötlusleping, ja see siia kirja panna. Kuni seda tehtud ei ole, kirjeldab käesolev dokument edastamist, väitmata, et see on õiguslikult reguleeritud.
-> 2. **Õiguslikud alused**, mis on valitud § 7-s, eelkõige nõusoleku ja õigustatud huvi jaotus juurdepääsetavuse teenuse puhul.
-> 3. **Vanuse alampiir** (16 aastat) ja selle kooskõla Google Play sisu klassifitseerimise küsimustikuga.
-> 4. **Tehisintellekti käsitlev märge** Euroopa tehisintellekti määruse alusel (läbipaistvuskohustus piiratud riskiga süsteemi puhul).
 
 ---
 

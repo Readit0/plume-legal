@@ -2,7 +2,7 @@
 
 **Nuashonrú deireanach: 12 Meán Fómhair 2026** — Leagan 2.0
 
-> *A bhfuil athraithe ó leagan 1.0, agus cén fáth a bhféadfá scáileán an ghlactha a fheiceáil arís san fheidhmchlár:* táimid ag ceartú dhá ráiteas nach raibh cruinn a thuilleadh. Ar an gcéad dul síos, coinníonn an ghné **teangacha pearsanta** an t-ábhar a chruthaíonn tú (ainm, aibítir, foclóir) ar ár bhfreastalaithe — dúirt leagan 1.0 go mícheart nach raibh aon téacs stóráilte. Ar an dara dul síos, úsáidimid anois uirlis **tuairiscithe teicniúil tuairte** (Sentry) — dúirt leagan 1.0 nach raibh a leithéid d'uirlis ann. Tá sonraí an dá phointe sin le fáil in «In aon nóiméad amháin» thíos, chomh maith le §3 agus §9. Sin go díreach an dá chatagóir athraithe a spreagann iarratas nua toilithe san fheidhmchlár (féach §11).
+> *A bhfuil athraithe ó leagan 1.0, agus cén fáth a bhféadfá scáileán an ghlactha a fheiceáil arís san fheidhmchlár:* táimid ag ceartú dhá ráiteas nach raibh cruinn a thuilleadh. Ar an gcéad dul síos, coinníonn an ghné **teangacha pearsanta** an t-ábhar a chruthaíonn tú (ainm, aibítir, foclóir) ar ár bhfreastalaithe — dúirt leagan 1.0 go mícheart nach raibh aon téacs stóráilte. Ar an dara dul síos, úsáidimid anois uirlis **tuairiscithe teicniúil tuairte** — dúirt leagan 1.0 nach raibh a leithéid d'uirlis ann. Tá sonraí an dá phointe sin le fáil in «In aon nóiméad amháin» thíos, chomh maith le §3 agus §9. Sin go díreach an dá chatagóir athraithe a spreagann iarratas nua toilithe san fheidhmchlár (féach §11).
 
 ---
 
@@ -79,8 +79,8 @@ Nuair a roghnaíonn tú an IS Néil, nó nuair nach bhfuil do ghléas cumhachtac
 
 **Ní mór a bheith soiléir faoin gconair iarbhír:**
 
-- Gabhann an téacs trínár mbonneagar (Supabase), atá óstáilte san **Aontas Eorpach** (réigiún Lár na hEorpa, Frankfurt).
-- Tarchuirtear ansin é chuig **openrouter.ai**, idirghabhálaí ródúcháin **atá lonnaithe lasmuigh den Aontas Eorpach**, a chuireann faoi deara don mhúnla **Mistral Small** é a phróiseáil.
+- Gabhann an téacs trínár mbonneagar freastalaí, atá óstáilte san **Aontas Eorpach** (réigiún Lár na hEorpa, Frankfurt).
+- Tarchuirtear ansin é chuig idirghabhálaí ródúcháin **atá lonnaithe lasmuigh den Aontas Eorpach**, a chuireann faoi deara do mhúnla intleachta saorga tríú páirtí é a phróiseáil.
 - **Is aistriú sonraí lasmuigh den Aontas Eorpach é sin, dá bhrí sin.** Ní mhaímid a mhalairt, agus ní thaispeánaimid aon gheallúint óstála Eorpaí don chéim sin.
 - **Ní choinníonn Plume do théacs.** Ní scríobhann aon cheann dár bhfeidhmeanna freastalaí ábhar do théacsa: ní thaifeadaimid ach aitheantóir teicniúil iarrata agus aitheantóir do ghléis, chun do chuóta a chomhaireamh agus mí-úsáid a bhrath.
 - **A ndéanann na soláthraithe sin dá dtaobh féin, ní féidir linn é a ráthú.** Is fearr linn é sin a rá leat ná coinneáil nialasach a ghealladh duit nach bhfuilimid in ann a fhíorú.
@@ -93,7 +93,7 @@ Tá uasteorainn leis an téacs a sheoltar: 1 200 carachtar d'athfhoclú, 4 000 c
 
 ## 3. Na sonraí a choinnímid
 
-Ní úsáidimid **aon uirlis anailíse lucht féachana ná aon rianaire fógraíochta tríú páirtí**, seachas an fhógraíocht atá luaite ag §5. **Úsáidimid uirlis tuairiscithe teicniúil tuairte** (Sentry): ní fheiceann sí ach earráidí ríomhchláir (cineál na hearráide, cruach glaonna theicniúil, leagan an fheidhmchláir, córas oibriúcháin), ní d'úsáid ná do chonair riamh, agus ní an téacs a scríobhann tú riamh — cuireann scagaire tiomnaithe cosc air sin sula seoltar aon rud. Tá na sonraí ag §9.
+Ní úsáidimid **aon uirlis anailíse lucht féachana ná aon rianaire fógraíochta tríú páirtí**, seachas an fhógraíocht atá luaite ag §5. **Úsáidimid uirlis tuairiscithe teicniúil tuairte**: ní fheiceann sí ach earráidí ríomhchláir (cineál na hearráide, cruach glaonna theicniúil, leagan an fheidhmchláir, córas oibriúcháin), ní d'úsáid ná do chonair riamh, agus ní an téacs a scríobhann tú riamh — cuireann scagaire tiomnaithe cosc air sin sula seoltar aon rud. Tá na sonraí ag §9.
 
 Seo a bhfuil stóráilte ar ár bhfreastalaithe, ina iomláine:
 
@@ -107,7 +107,7 @@ Seo a bhfuil stóráilte ar ár bhfreastalaithe, ina iomláine:
 | **Comharthaí teicniúla mí-úsáide** (sáruithe athdhéanta, teip ar sheiceáil sláine — gan aon téacs) | Slándáil, comhrac na calaoise | Scartha ó d'aitheantas nuair a scriostar an cuntas |
 | **Teanga agus leagan an fheidhmchláir** | An t-ábhar ceart a sheirbheáil | Go dtí go scriostar do chuntas |
 | **Ábhar na dteangacha pearsanta a chruthaíonn tú** (a hainm, a haibítir, agus a foclóir — na focail agus na mínithe a scríobh tusa, nó daoine eile, inti) | Cead a thabhairt duit do theanga a aimsiú ar ghléas eile, í a fhorbairt, agus í a roinnt le húsáideoirí eile | Fad is atá an teanga ann. Má scriosann tú í, imíonn a taifead — ach cóip a bhfuil **iompórtáilte ag duine eile cheana**, is leis an duine sin anois í agus **maireann sí**, cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn dul á scriosadh ar a thaobh siúd |
-| **Tuairiscí teicniúla tuairte** (cineál na hearráide, cruach glaonna theicniúil giorraithe, leagan an fheidhmchláir, córas oibriúcháin — ábhar téacs riamh) | Diagnóisiú agus deisiú tuairtí an fheidhmchláir | Rialaithe ag ár soláthraí Sentry (féach §9). Tá an bailiúchán seo faoi réir do thoilithe agus lasc gur féidir linn a mhúchadh am ar bith, gan nuashonrú feidhmchláir |
+| **Tuairiscí teicniúla tuairte** (cineál na hearráide, cruach glaonna theicniúil giorraithe, leagan an fheidhmchláir, córas oibriúcháin — ábhar téacs riamh) | Diagnóisiú agus deisiú tuairtí an fheidhmchláir | Rialaithe ag ár soláthraí tuairiscithe tuairte (féach §9). Tá an bailiúchán seo faoi réir do thoilithe agus lasc gur féidir linn a mhúchadh am ar bith, gan nuashonrú feidhmchláir |
 
 **A bhfuil nach mbailímid:** d'ainm, do theagmhálaithe, do shuíomh, do leabhar seoltaí, do ghrianghraif, d'fhéilire, stair d'fheidhmchlár. Ní iarrann Plume aon cheann de na ceadanna sin.
 
@@ -178,17 +178,16 @@ Toisc go gceadaíonn an feidhmchlár téacs saor a athfhoclú agus go dtaispeán
 
 | Soláthraí | Ról | Cá háit |
 |---|---|---|
-| **Supabase** | Óstáil an bhunachair sonraí, fíordheimhniú, feidhmeanna freastalaí | An tAontas Eorpach (Frankfurt) |
-| **OpenRouter** | Ródú na n-iarratas chuig an múnla IS | **Lasmuigh den Aontas Eorpach** |
-| **Mistral AI** (trí OpenRouter) | An múnla a phróiseálann an téacs (Mistral Small) | Próiseáil tríd an idirghabhálaí thuas |
+| **Ár soláthraí óstála** | Óstáil an bhunachair sonraí, fíordheimhniú, feidhmeanna freastalaí | An tAontas Eorpach (Frankfurt) |
+| **Ár soláthraí próiseála IS** | Ródú na n-iarratas agus próiseáil an téacs ag múnla intleachta saorga tríú páirtí | **Lasmuigh den Aontas Eorpach** |
 | **Google Play / Google Billing** | Íocaíocht, síntiúis | Google Ireland / Stáit Aontaithe Mheiriceá |
 | **Google AdMob** | Fógraíocht luaíochta | Google Ireland / Stáit Aontaithe Mheiriceá |
 | **Google (seirbhísí córais an ghutháin)** | Aithint chainte, modúil aistriúcháin as líne | De réir do ghléis |
-| **Sentry** (Functional Software, Inc.) | Tuairisciú teicniúil tuairte — earráidí ríomhchláir amháin, scagtha sula seoltar iad: ní do théacs riamh | Stáit Aontaithe Mheiriceá |
+| **Ár soláthraí tuairiscithe tuairte** | Tuairisciú teicniúil tuairte — earráidí ríomhchláir amháin, scagtha sula seoltar iad: ní do théacs riamh | Stáit Aontaithe Mheiriceá |
 
 **Ní dhíolaimid aon sonraí agus ní thugaimid aon sonraí do bhróicéirí sonraí.**
 
-**Aistrithe lasmuigh den Aontas Eorpach:** is ionann úsáid OpenRouter, Google Play, AdMob agus Sentry agus aistriú sonraí lasmuigh den Aontas Eorpach. **Ní mór do ghairmí creat dlíthiúil na n-aistrithe sin (clásail chonarthacha chaighdeánacha, cinneadh leordhóthanachta) a fhíorú agus a dhoiciméadú roimh fhoilsiú** — féach an nóta ag deireadh an doiciméid.
+**Aistrithe lasmuigh den Aontas Eorpach:** is ionann úsáid ár soláthraí próiseála IS, Google Play, AdMob agus ár soláthraí tuairiscithe tuairte agus aistriú sonraí lasmuigh den Aontas Eorpach. **Ní mór do ghairmí creat dlíthiúil na n-aistrithe sin (clásail chonarthacha chaighdeánacha, cinneadh leordhóthanachta) a fhíorú agus a dhoiciméadú roimh fhoilsiú** — féach an nóta ag deireadh an doiciméid.
 
 ---
 
@@ -211,15 +210,6 @@ Foilseofar aon athrú ar an mbeartas seo ag an seoladh `https://readit0.github.i
 Tá coinníollacha úsáide na seirbhíse (cuótaí, síntiúis, foirceannadh) i ndoiciméad ar leith: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Le hathléamh ag gairmí
->
-> Scríobhadh an doiciméad seo trí iompar iarbhír an fheidhmchláir a thomhas, ach **níor scríobh dlíodóir é**. Tá ceithre phointe ann a bhfuil comhairle ghairmiúil ag teastáil ina leith go tosaíochtúil:
->
-> 1. **Aistriú na sonraí lasmuigh den Aontas Eorpach** chuig OpenRouter. Is é sin an pointe is íogaire: ní mór an sásra aistrithe is infheidhme a chinneadh, a fhíorú go bhfuil comhaontú próiseála ann leis an soláthraí sin, agus é a scríobh anseo. Fad nach ndéantar sin, déanann an doiciméad seo cur síos ar an aistriú gan a dhearbhú go bhfuil creat dlíthiúil aige.
-> 2. **Na bunúis dlí** a roghnaíodh in §7, go háirithe an roinnt idir toiliú agus leas dlisteanach maidir leis an tseirbhís inrochtaineachta.
-> 3. **An aois íosta** (16 bliana) agus a comhsheasmhacht le ceistneoir aicmithe ábhair Google Play.
-> 4. **An tagairt don intleacht shaorga** faoin Rialachán Eorpach maidir leis an Intleacht Shaorga (oibleagáid trédhearcachta i leith córais a bhfuil riosca teoranta ag baint leis).
 
 ---
 

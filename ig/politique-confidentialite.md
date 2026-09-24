@@ -2,7 +2,7 @@
 
 **Mmelite ikpeazụ: 12 Septemba 2026** — Ụdịdị 2.0
 
-> *Ihe gbanwere kemgbe ụdịdị 1.0, na ihe mere ị ga-eji hụ ihuenyo nkwenye ọzọ n'ime ngwa a:* anyị na-edozi ihe abụọ ị kwuru n'ụzọ na-ezighị ezi. Nke mbụ, ọrụ **asụsụ nkeonwe** na-echekwa n'ihe nkesa anyị ihe ọ bụla ị kere (aha ya, mkpụrụedemede ya, na okwu ya) — ụdịdị 1.0 kwuru n'ụzọ na-ezighị ezi na anyị anaghị echekwa ederede ọ bụla. Nke abụọ, anyị na-eji ugbu a ngwá ọrụ **mkpesa nsogbu teknụzụ** (Sentry) — ụdịdị 1.0 kwuru na ngwá ọrụ dị otú ahụ adịghị. Nkọwa ihe abụọ a dị n'ime ngalaba "N'otu nkeji" dị n'okpuru, yana na §3 na §9. Ndị a bụ kpọmkwem ụdị mgbanwe abụọ na-akpata ka a jụọ nkwenye ọhụrụ n'ime ngwa ahụ (lee §11).
+> *Ihe gbanwere kemgbe ụdịdị 1.0, na ihe mere ị ga-eji hụ ihuenyo nkwenye ọzọ n'ime ngwa a:* anyị na-edozi ihe abụọ ị kwuru n'ụzọ na-ezighị ezi. Nke mbụ, ọrụ **asụsụ nkeonwe** na-echekwa n'ihe nkesa anyị ihe ọ bụla ị kere (aha ya, mkpụrụedemede ya, na okwu ya) — ụdịdị 1.0 kwuru n'ụzọ na-ezighị ezi na anyị anaghị echekwa ederede ọ bụla. Nke abụọ, anyị na-eji ugbu a ngwá ọrụ **mkpesa nsogbu teknụzụ** — ụdịdị 1.0 kwuru na ngwá ọrụ dị otú ahụ adịghị. Nkọwa ihe abụọ a dị n'ime ngalaba "N'otu nkeji" dị n'okpuru, yana na §3 na §9. Ndị a bụ kpọmkwem ụdị mgbanwe abụọ na-akpata ka a jụọ nkwenye ọhụrụ n'ime ngwa ahụ (lee §11).
 
 ---
 
@@ -79,8 +79,8 @@ Mgbe ị họọrọ AI Igwe Ojii, ma ọ bụ mgbe ngwaọrụ gị enweghị i
 
 **Ọ dị mkpa ka anyị doo gị anya banyere ụzọ eziokwu ederede ahụ na-agafe:**
 
-- Ederede ahụ na-agafe na ngwá anyị (Supabase), nke a na-edebe na **Mgbakọ Ọrụ Europe** (mpaghara Central Europe, Frankfurt).
-- A na-ezigasị ya na **openrouter.ai**, onye ọrụ nhazi ụzọ **dị n'èzí Mgbakọ Ọrụ Europe**, onye na-eme ka ihe nlereanya **Mistral Small** hazie ya.
+- Ederede ahụ na-agafe na ngwá sava anyị, nke a na-edebe na **Mgbakọ Ọrụ Europe** (mpaghara Central Europe, Frankfurt).
+- A na-ezigasị ya na otu onye ọrụ nhazi ụzọ **dị n'èzí Mgbakọ Ọrụ Europe**, onye na-eme ka ihe nlereanya AI nke onye ọzọ hazie ya.
 - **Ya mere, nke a bụ mbufe data na-apụ n'èzí Mgbakọ Ọrụ Europe.** Anyị anaghị ekwu na ọ bụghị eziokwu, anyịkwa anaghị ekwe nkwa nchekwa Europe maka nzọụkwụ a.
 - **Plume anaghị echekwa ederede gị.** Ọ dịghị ọrụ sava anyị na-ede ọdịnaya ederede gị: anyị na-edekọ naanị njirimara teknụzụ nke arịrịọ na njirimara ngwaọrụ gị, iji gụọ ọtụtụ oge i ji ọ na-achọpụta mmejọ.
 - **Anyị enweghị ike ikwe nkwa ihe ndị a ọrụ na-eme n'akụkụ ha.** Anyị họọrọ ịgwa gị eziokwu a kama ikwe gị nkwa mchekwa efu anyị na-enweghị ike ịnyocha.
@@ -93,7 +93,7 @@ E kere ederede a na-ezipụ oke: mkpụrụedemede 1,200 maka mgbanwe, mkpụr�
 
 ## 3. Data anyị na-echekwa
 
-Anyị anaghị eji **ngwá ọrụ nyocha ndị na-ege ntị ọ bụla ma ọ bụ ngwá nsochi mgbasa ozi onye ọzọ ọ bụla**, ewezuga mgbasa ozi ahụ akọwara na §5. **Anyị na-eji ngwá ọrụ mkpesa nsogbu teknụzụ** (Sentry): ọ na-ahụ naanị mmejọ mmemme (ụdị mmejọ, usoro oku teknụzụ, ụdịdị ngwa, sistemụ arụmọrụ), ọ dịghị mgbe ọ na-ahụ etu ị si eji ngwa ahụ ma ọ bụ ụzọ ị na-agafe, ọ dịghịkwa mgbe ọ na-ahụ ederede ị dere — otu ihe nzacha e wepụtara maka nke a na-egbochi ya tupu mbufe ọ bụla. Nkọwa zuru oke dị na §9.
+Anyị anaghị eji **ngwá ọrụ nyocha ndị na-ege ntị ọ bụla ma ọ bụ ngwá nsochi mgbasa ozi onye ọzọ ọ bụla**, ewezuga mgbasa ozi ahụ akọwara na §5. **Anyị na-eji ngwá ọrụ mkpesa nsogbu teknụzụ**: ọ na-ahụ naanị mmejọ mmemme (ụdị mmejọ, usoro oku teknụzụ, ụdịdị ngwa, sistemụ arụmọrụ), ọ dịghị mgbe ọ na-ahụ etu ị si eji ngwa ahụ ma ọ bụ ụzọ ị na-agafe, ọ dịghịkwa mgbe ọ na-ahụ ederede ị dere — otu ihe nzacha e wepụtara maka nke a na-egbochi ya tupu mbufe ọ bụla. Nkọwa zuru oke dị na §9.
 
 Lee ihe niile a na-echekwa na sava anyị:
 
@@ -107,7 +107,7 @@ Lee ihe niile a na-echekwa na sava anyị:
 | **Akara teknụzụ nke mmejọ** (mgabiga ugboro ugboro, ọdịda nyocha izuoke — na-enweghị ederede ọ bụla) | Nchekwa, ọgụ megide aghụghọ | A na-ekewapụ ya na onye gị bụ mgbe a kagburu akaụntụ |
 | **Asụsụ na ụdịdị ngwa** | Inye ọdịnaya kwesịrị ekwesị | Ruo mgbe a kagburu akaụntụ gị |
 | **Ọdịnaya asụsụ nkeonwe ndị ị kere** (aha ya, mkpụrụedemede ya, na okwu ya — okwu na nkọwa ndị gị ma ọ bụ ndị ọzọ dere n'ime ya) | Inye gị ohere ịchọta asụsụ gị n'ime ngwaọrụ ọzọ, ime ka ọ ganwuo, na ikesa ya na ndị ọrụ ọzọ | Ogologo oge asụsụ ahụ dị. Ọ bụrụ na ị hichapụ ya, ndekọ ya na-apụ — ma otu mbipụta **onye ọzọ webatara** enwerịị bụ nke ya ma **na-adịgide** dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya |
-| **Mkpesa nsogbu teknụzụ** (ụdị mmejọ, usoro oku teknụzụ a chịkọtara, ụdịdị ngwa, sistemụ arụmọrụ — ọ dịghị mgbe ọ bụ ọdịnaya ederede) | Ịchọpụta na idozi nsogbu ngwa ahụ | E ji onye ọrụ Sentry anyị achịkwa (lee §9). Nchịkọta a dabere na nkwenye gị na ihe mgbanwụ anyị nwere ike ịgbanyụ n'oge ọ bụla, na-enweghị mmelite ngwa |
+| **Mkpesa nsogbu teknụzụ** (ụdị mmejọ, usoro oku teknụzụ a chịkọtara, ụdịdị ngwa, sistemụ arụmọrụ — ọ dịghị mgbe ọ bụ ọdịnaya ederede) | Ịchọpụta na idozi nsogbu ngwa ahụ | E ji onye ọrụ mkpesa nsogbu anyị achịkwa (lee §9). Nchịkọta a dabere na nkwenye gị na ihe mgbanwụ anyị nwere ike ịgbanyụ n'oge ọ bụla, na-enweghị mmelite ngwa |
 
 **Ihe anyị anaghị achịkọta:** aha gị, ndị mmadụ gị, ebe ị nọ, akwụkwọ adreesị gị, foto gị, kalịnda gị, akụkọ ngwa gị. Plume anaghị arịọ ikike ndị a ọ bụla.
 
@@ -178,17 +178,16 @@ Ebe ọ bụ na ngwa ahụ na-enye ohere ịgbanwe ederede efu ma na-egosi mgbas
 
 | Onye ọrụ | Ọrụ | Ebe |
 |---|---|---|
-| **Supabase** | Ebe nchekwa data, nyocha onye, ọrụ sava | Mgbakọ Ọrụ Europe (Frankfurt) |
-| **OpenRouter** | Nhazi ụzọ arịrịọ gaa na ihe nlereanya AI | **N'èzí Mgbakọ Ọrụ Europe** |
-| **Mistral AI** (site na OpenRouter) | Ihe nlereanya na-ahazi ederede (Mistral Small) | Nhazi site na onye ọzọ dị n'elu |
+| **Onye ọrụ nchekwa ebe anyị** | Ebe nchekwa data, nyocha onye, ọrụ sava | Mgbakọ Ọrụ Europe (Frankfurt) |
+| **Onye ọrụ nhazi AI anyị** | Nhazi ụzọ arịrịọ na nhazi ederede site na ihe nlereanya AI nke onye ọzọ | **N'èzí Mgbakọ Ọrụ Europe** |
 | **Google Play / Google Billing** | Ịkwụ ụgwọ, ndebanye aha | Google Ireland / United States |
 | **Google AdMob** | Mgbasa ozi enyere onyinye | Google Ireland / United States |
 | **Google** (ọrụ sistemụ ekwentị) | Nnata olu, ngwungwu ntụgharị asụsụ na-enweghị ịntanetị | Dabere na ngwaọrụ gị |
-| **Sentry** (Functional Software, Inc.) | Mkpesa nsogbu teknụzụ — naanị mmejọ mmemme, e nzachara tupu mbufe: ọ dịghị mgbe ọ bụ ederede gị | United States |
+| **Onye ọrụ mkpesa nsogbu anyị** | Mkpesa nsogbu teknụzụ — naanị mmejọ mmemme, e nzachara tupu mbufe: ọ dịghị mgbe ọ bụ ederede gị | United States |
 
 **Anyị anaghị ere data ọ bụla, anyị anaghịkwa enyefe ya na ndị na-azụ ahịa data.**
 
-**Mbufe na-apụ na Mgbakọ Ọrụ Europe:** iji OpenRouter, Google Play, AdMob, na Sentry na-apụta na mbufe data na-apụ na Mgbakọ Ọrụ Europe.
+**Mbufe na-apụ na Mgbakọ Ọrụ Europe:** iji onye ọrụ nhazi AI anyị, Google Play, AdMob, na onye ọrụ mkpesa nsogbu anyị na-apụta na mbufe data na-apụ na Mgbakọ Ọrụ Europe.
 
 ---
 

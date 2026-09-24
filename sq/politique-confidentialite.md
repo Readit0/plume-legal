@@ -6,7 +6,7 @@
 > në aplikacion:* po korrigjojmë dy pohime që nuk ishin më të sakta. Së pari, funksioni i
 > **gjuhëve personale** ruan në serverët tanë përmbajtjen që krijoni (emrin, alfabetin, leksikun)
 > — versioni 1.0 pohonte gabimisht se asnjë tekst nuk ruhej. Së dyti, tani përdorim një mjet
-> **raportimi të plantimeve teknike** (Sentry) — versioni 1.0 pohonte se nuk ekzistonte asnjë mjet
+> **raportimi të plantimeve teknike** — versioni 1.0 pohonte se nuk ekzistonte asnjë mjet
 > i këtij lloji. Hollësitë e këtyre dy pikave gjenden te «Në një minutë» më poshtë, si dhe te §3
 > dhe §9. Këto janë saktësisht dy kategoritë e ndryshimit që, në aplikacion, aktivizojnë një
 > kërkesë të re pëlqimi (shih §11).
@@ -86,8 +86,8 @@ Kur zgjidhni IA-në Cloud, ose kur pajisja juaj nuk është mjaftueshëm e fuqis
 
 **Duhet të jemi të qartë për rrugëtimin real:**
 
-- Teksti kalon nëpër infrastrukturën tonë (Supabase), të strehuar në **Bashkimin Evropian** (rajoni Evropa Qendrore, Frankfurt).
-- Pastaj i transmetohet **openrouter.ai**, një ndërmjetësi rrugëzimi **të vendosur jashtë Bashkimit Evropian**, i cili bën që ta përpunojë modeli **Mistral Small**.
+- Teksti kalon nëpër infrastrukturën tonë të serverëve, të strehuar në **Bashkimin Evropian** (rajoni Evropa Qendrore, Frankfurt).
+- Pastaj i transmetohet një ndërmjetësi rrugëzimi **të vendosur jashtë Bashkimit Evropian**, i cili bën që ta përpunojë një model inteligjence artificiale i palës së tretë.
 - **Bëhet fjalë, pra, për një transferim të të dhënave jashtë Bashkimit Evropian.** Nuk pretendojmë të kundërtën dhe nuk shfaqim asnjë premtim strehimi evropian për këtë hap.
 - **Plume nuk e ruan tekstin tuaj.** Asnjë nga funksionet tona serverike nuk e shkruan përmbajtjen e tekstit tuaj: ne regjistrojmë vetëm një identifikues teknik të kërkesës dhe identifikuesin e pajisjes suaj, për të numëruar kuotën tuaj dhe për të zbuluar abuzimet.
 - **Çfarë bëjnë këta ofrues nga ana e tyre, ne nuk mund ta garantojmë.** Preferojmë t'jua themi, në vend që t'ju premtojmë një mosruajtje që nuk jemi në gjendje ta verifikojmë.
@@ -100,7 +100,7 @@ Teksti i dërguar është i kufizuar: 1 200 karaktere për një riformulim, 4 00
 
 ## 3. Të dhënat që ruajmë
 
-Ne nuk përdorim **asnjë mjet analize të audiencës dhe asnjë gjurmues reklamash të palëve të treta** përveç reklamave të përshkruara në §5. **Ne përdorim një mjet raportimi të plantimeve teknike** (Sentry): ai sheh vetëm gabime të programit (llojin e gabimit, stivën teknike të thirrjeve, versionin e aplikacionit, sistemin operativ), asnjëherë përdorimin tuaj apo rrugëtimin tuaj, dhe asnjëherë tekstin që shkruani — një filtër i posaçëm ia ndalon këtë para çdo dërgimi. Hollësitë gjenden te §9.
+Ne nuk përdorim **asnjë mjet analize të audiencës dhe asnjë gjurmues reklamash të palëve të treta** përveç reklamave të përshkruara në §5. **Ne përdorim një mjet raportimi të plantimeve teknike**: ai sheh vetëm gabime të programit (llojin e gabimit, stivën teknike të thirrjeve, versionin e aplikacionit, sistemin operativ), asnjëherë përdorimin tuaj apo rrugëtimin tuaj, dhe asnjëherë tekstin që shkruani — një filtër i posaçëm ia ndalon këtë para çdo dërgimi. Hollësitë gjenden te §9.
 
 Ja gjithçka që ruhet në serverët tanë:
 
@@ -114,7 +114,7 @@ Ja gjithçka që ruhet në serverët tanë:
 | **Sinjalet teknike të abuzimit** (tejkalime të përsëritura, dështim i kontrollit të integritetit — pa asnjë tekst) | Siguria, lufta kundër mashtrimit | Të shkëputura nga identiteti juaj në fshirjen e llogarisë |
 | **Gjuha dhe versioni i aplikacionit** | Të shërbejë përmbajtjen e duhur | Deri në fshirjen e llogarisë suaj |
 | **Përmbajtja e gjuhëve personale që krijoni** (emri i saj, alfabeti i saj, dhe leksiku i saj — fjalët dhe përkufizimet që ju, ose persona të tjerë, keni shkruar në të) | T'ju lejojë ta gjeni gjuhën tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani me përdorues të tjerë | Për sa kohë që gjuha ekziston. Nëse e fshini, skeda e saj zhduket — por një kopje tashmë **e importuar nga një person tjetër** i përket tashmë atij dhe **mbijeton**, si një mesazh i marrë tashmë nga një palë e tretë, të cilin ne nuk mund të shkojmë ta fshijmë te ai |
-| **Raportet e plantimeve teknike** (lloji i gabimit, stiva teknike e thirrjeve e shkurtuar, versioni i aplikacionit, sistemi operativ — asnjëherë përmbajtje teksti) | Të diagnostikojë dhe të korrigjojë plantimet e aplikacionit | Rregulluar nga ofruesi ynë Sentry (shih §9). Kjo mbledhje i nënshtrohet pëlqimit tuaj dhe një çelësi që mund ta fikim në çdo kohë, pa asnjë përditësim të aplikacionit |
+| **Raportet e plantimeve teknike** (lloji i gabimit, stiva teknike e thirrjeve e shkurtuar, versioni i aplikacionit, sistemi operativ — asnjëherë përmbajtje teksti) | Të diagnostikojë dhe të korrigjojë plantimet e aplikacionit | Rregulluar nga ofruesi ynë i raportimit të plantimeve (shih §9). Kjo mbledhje i nënshtrohet pëlqimit tuaj dhe një çelësi që mund ta fikim në çdo kohë, pa asnjë përditësim të aplikacionit |
 
 **Çfarë nuk mbledhim:** emrin tuaj, kontaktet tuaja, vendndodhjen tuaj, adresarin tuaj, fotografitë tuaja, kalendarin tuaj, historikun e aplikacioneve tuaja. Plume nuk kërkon asnjë nga këto leje.
 
@@ -185,17 +185,16 @@ Meqenëse aplikacioni lejon riformulimin e një teksti të lirë dhe shfaq rekla
 
 | Ofruesi | Roli | Ku |
 |---|---|---|
-| **Supabase** | Strehimi i bazës së të dhënave, vërtetimi i identitetit, funksionet serverike | Bashkimi Evropian (Frankfurt) |
-| **OpenRouter** | Përcjellja e kërkesave te modeli i IA-së | **Jashtë Bashkimit Evropian** |
-| **Mistral AI** (përmes OpenRouter) | Modeli që e përpunon tekstin (Mistral Small) | Përpunim përmes ndërmjetësit të mësipërm |
+| **Ofruesi ynë i strehimit** | Strehimi i bazës së të dhënave, vërtetimi i identitetit, funksionet serverike | Bashkimi Evropian (Frankfurt) |
+| **Ofruesi ynë i përpunimit me IA** | Përcjellja e kërkesave dhe përpunimi i tekstit nga një model inteligjence artificiale i palës së tretë | **Jashtë Bashkimit Evropian** |
 | **Google Play / Google Billing** | Pagesa, abonimet | Google Ireland / Shtetet e Bashkuara |
 | **Google AdMob** | Reklamat me shpërblim | Google Ireland / Shtetet e Bashkuara |
 | **Google (shërbimet e sistemit të telefonit)** | Njohja e zërit, modulet e përkthimit jashtë linje | Sipas pajisjes suaj |
-| **Sentry** (Functional Software, Inc.) | Raportim i plantimeve teknike — vetëm gabime të programit, të filtruara para dërgimit: asnjëherë teksti juaj | Shtetet e Bashkuara |
+| **Ofruesi ynë i raportimit të plantimeve** | Raportim i plantimeve teknike — vetëm gabime të programit, të filtruara para dërgimit: asnjëherë teksti juaj | Shtetet e Bashkuara |
 
 **Nuk shesim asnjë të dhënë dhe nuk i japim asnjë ndërmjetësi të dhënash.**
 
-**Transferimet jashtë Bashkimit Evropian:** përdorimi i OpenRouter, i Google Play, i AdMob dhe i Sentry nënkupton një transferim të të dhënave jashtë Bashkimit Evropian. Korniza juridike e këtyre transferimeve (klauzolat kontraktuale standarde, vendimi i përshtatshmërisë) **duhet të verifikohet dhe të dokumentohet nga një profesionist para publikimit** — shih shënimin në fund të dokumentit.
+**Transferimet jashtë Bashkimit Evropian:** përdorimi i ofruesit tonë të përpunimit me IA, i Google Play, i AdMob dhe i ofruesit tonë të raportimit të plantimeve nënkupton një transferim të të dhënave jashtë Bashkimit Evropian. Korniza juridike e këtyre transferimeve (klauzolat kontraktuale standarde, vendimi i përshtatshmërisë) **duhet të verifikohet dhe të dokumentohet nga një profesionist para publikimit** — shih shënimin në fund të dokumentit.
 
 ---
 
@@ -218,15 +217,6 @@ Shkëmbimet mes aplikacionit dhe serverëve tanë janë të koduara (HTTPS/TLS).
 Kushtet e përdorimit të shërbimit (kuotat, abonimet, zgjidhja e kontratës) gjenden në një dokument të veçantë: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Për t'u rilexuar nga një profesionist
->
-> Ky dokument është hartuar duke matur sjelljen reale të aplikacionit, por **nuk është hartuar nga një jurist**. Katër pika kërkojnë me përparësi një mendim profesional:
->
-> 1. **Transferimi i të dhënave jashtë Bashkimit Evropian** drejt OpenRouter. Kjo është pika më e ndjeshme: duhet përcaktuar mekanizmi i transferimit i zbatueshëm, duhet verifikuar se ekziston një marrëveshje përpunimi me këtë ofrues, dhe kjo duhet shkruar këtu. Për sa kohë kjo nuk është bërë, ky dokument e përshkruan transferimin pa pohuar se ai është i rregulluar juridikisht.
-> 2. **Bazat ligjore** të zgjedhura në §7, në veçanti ndarja mes pëlqimit dhe interesit legjitim për shërbimin e aksesueshmërisë.
-> 3. **Mosha minimale** (16 vjeç) dhe përputhshmëria e saj me pyetësorin e klasifikimit të përmbajtjes të Google Play.
-> 4. **Shënimi lidhur me IA-në** në kuadër të rregullores evropiane për inteligjencën artificiale (detyrimi i transparencës për një sistem me rrezik të kufizuar).
 
 ---
 

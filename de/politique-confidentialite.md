@@ -2,7 +2,7 @@
 
 **Letzte Aktualisierung: 12. September 2026** — Version 2.0
 
-> *Was sich seit Version 1.0 geändert hat, und warum Ihnen in der App möglicherweise erneut der Zustimmungsbildschirm angezeigt wird:* Wir korrigieren zwei Aussagen, die nicht mehr zutrafen. Erstens speichert die Funktion **eigene Sprachen** auf unseren Servern den Inhalt, den Sie erstellen (Name, Alphabet, Lexikon) — Version 1.0 behauptete fälschlich, dass kein Text gespeichert werde. Zweitens verwenden wir inzwischen ein Werkzeug für **technische Absturzberichte** (Sentry) — Version 1.0 behauptete, dass kein derartiges Werkzeug existiere. Die Einzelheiten zu diesen beiden Punkten finden Sie weiter unten unter „In einer Minute“ sowie in Abschnitt 3 und Abschnitt 9. Genau diese beiden Kategorien von Änderungen lösen in der App eine neue Zustimmungsanfrage aus (siehe Abschnitt 11).
+> *Was sich seit Version 1.0 geändert hat, und warum Ihnen in der App möglicherweise erneut der Zustimmungsbildschirm angezeigt wird:* Wir korrigieren zwei Aussagen, die nicht mehr zutrafen. Erstens speichert die Funktion **eigene Sprachen** auf unseren Servern den Inhalt, den Sie erstellen (Name, Alphabet, Lexikon) — Version 1.0 behauptete fälschlich, dass kein Text gespeichert werde. Zweitens verwenden wir inzwischen ein Werkzeug für **technische Absturzberichte** — Version 1.0 behauptete, dass kein derartiges Werkzeug existiere. Die Einzelheiten zu diesen beiden Punkten finden Sie weiter unten unter „In einer Minute“ sowie in Abschnitt 3 und Abschnitt 9. Genau diese beiden Kategorien von Änderungen lösen in der App eine neue Zustimmungsanfrage aus (siehe Abschnitt 11).
 
 ---
 
@@ -79,8 +79,8 @@ Wenn Sie die Cloud-KI wählen oder wenn Ihr Gerät für die Lokale KI nicht leis
 
 **Der tatsächliche Weg muss klar benannt werden:**
 
-- Der Text läuft über unsere Infrastruktur (Supabase), die in der **Europäischen Union** gehostet wird (Region Mitteleuropa, Frankfurt).
-- Er wird danach an **openrouter.ai** übermittelt, einen Routing-Vermittler **außerhalb der Europäischen Union**, der ihn durch das Modell **Mistral Small** verarbeiten lässt.
+- Der Text läuft über unsere Server-Infrastruktur, die in der **Europäischen Union** gehostet wird (Region Mitteleuropa, Frankfurt).
+- Er wird danach an einen Routing-Vermittler **außerhalb der Europäischen Union** übermittelt, der ihn durch ein KI-Modell eines Dritten verarbeiten lässt.
 - **Es handelt sich somit um eine Datenübermittlung außerhalb der Europäischen Union.** Wir behaupten nicht das Gegenteil, und wir stellen für diesen Schritt kein europäisches Hosting in Aussicht.
 - **Plume speichert Ihren Text nicht.** Keine unserer Serverfunktionen schreibt den Inhalt Ihres Textes: Wir zeichnen nur eine technische Anfragekennung und die Kennung Ihres Geräts auf, um Ihr Kontingent zu zählen und Missbrauch zu erkennen.
 - **Was diese Dienstleister ihrerseits tun, können wir nicht garantieren.** Wir sagen Ihnen das lieber, als Ihnen eine Nichtspeicherung zu versprechen, die wir nicht überprüfen können.
@@ -93,7 +93,7 @@ Der gesendete Text ist begrenzt: 1.200 Zeichen für eine Umschreibung, 4.000 Zei
 
 ## 3. Die Daten, die wir speichern
 
-Wir verwenden **kein Tool zur Reichweitenmessung und keinen Werbetracker Dritter** außerhalb der in Abschnitt 5 beschriebenen Werbung. **Wir verwenden ein Werkzeug für technische Absturzberichte** (Sentry): Es sieht ausschließlich Programmfehler (Fehlertyp, technischer Aufrufstapel, App-Version, Betriebssystem), niemals Ihre Nutzung oder Ihren Verlauf, und niemals den Text, den Sie schreiben — ein eigener Filter verhindert das vor jeder Übermittlung. Die Einzelheiten finden Sie in Abschnitt 9.
+Wir verwenden **kein Tool zur Reichweitenmessung und keinen Werbetracker Dritter** außerhalb der in Abschnitt 5 beschriebenen Werbung. **Wir verwenden ein Werkzeug für technische Absturzberichte**: Es sieht ausschließlich Programmfehler (Fehlertyp, technischer Aufrufstapel, App-Version, Betriebssystem), niemals Ihre Nutzung oder Ihren Verlauf, und niemals den Text, den Sie schreiben — ein eigener Filter verhindert das vor jeder Übermittlung. Die Einzelheiten finden Sie in Abschnitt 9.
 
 Hier ist alles, was auf unseren Servern gespeichert wird:
 
@@ -107,7 +107,7 @@ Hier ist alles, was auf unseren Servern gespeichert wird:
 | **Technische Missbrauchssignale** (wiederholte Überschreitungen, fehlgeschlagene Integritätsprüfung — ohne jeglichen Text) | Sicherheit, Betrugsbekämpfung | Werden bei der Löschung des Kontos von Ihrer Identität getrennt |
 | **Sprache und Version der App** | Die richtigen Inhalte ausliefern | Bis zur Löschung Ihres Kontos |
 | **Der Inhalt der eigenen Sprachen, die Sie erstellen** (ihr Name, ihr Alphabet und ihr Lexikon — die Wörter und Definitionen, die Sie oder andere Personen darin geschrieben haben) | Ihnen ermöglichen, Ihre Sprache auf einem anderen Gerät wiederzufinden, sie weiterzuentwickeln und mit anderen Nutzerinnen und Nutzern zu teilen | Solange die Sprache besteht. Wenn Sie sie löschen, verschwindet ihr Eintrag — aber eine Kopie, die bereits **von einer anderen Person importiert wurde**, gehört fortan dieser Person und **bleibt erhalten**, wie eine Nachricht, die ein Dritter bereits empfangen hat und die wir bei ihm nicht löschen können |
-| **Technische Absturzberichte** (Fehlertyp, gekürzter technischer Aufrufstapel, App-Version, Betriebssystem — niemals ein Textinhalt) | Abstürze der App diagnostizieren und beheben | Geregelt durch unseren Dienstleister Sentry (siehe Abschnitt 9). Diese Erhebung unterliegt Ihrer Einwilligung und einem Schalter, den wir jederzeit ohne App-Update deaktivieren können |
+| **Technische Absturzberichte** (Fehlertyp, gekürzter technischer Aufrufstapel, App-Version, Betriebssystem — niemals ein Textinhalt) | Abstürze der App diagnostizieren und beheben | Geregelt durch unseren Dienstleister für Absturzberichte (siehe Abschnitt 9). Diese Erhebung unterliegt Ihrer Einwilligung und einem Schalter, den wir jederzeit ohne App-Update deaktivieren können |
 
 **Was wir nicht erheben:** Ihren Namen, Ihre Kontakte, Ihren Standort, Ihr Adressbuch, Ihre Fotos, Ihren Kalender, den Verlauf Ihrer Apps. Plume fordert keine dieser Berechtigungen an.
 
@@ -178,17 +178,16 @@ Da die App das Umschreiben freier Texte erlaubt und Werbung anzeigt, ist sie fü
 
 | Dienstleister | Rolle | Wo |
 |---|---|---|
-| **Supabase** | Hosting der Datenbank, Authentifizierung, Serverfunktionen | Europäische Union (Frankfurt) |
-| **OpenRouter** | Weiterleitung der Anfragen an das KI-Modell | **Außerhalb der Europäischen Union** |
-| **Mistral AI** (über OpenRouter) | Modell, das den Text verarbeitet (Mistral Small) | Verarbeitung über den vorstehenden Vermittler |
+| **Unser Hosting-Dienstleister** | Hosting der Datenbank, Authentifizierung, Serverfunktionen | Europäische Union (Frankfurt) |
+| **Unser Dienstleister für die KI-Verarbeitung** | Weiterleitung der Anfragen und Verarbeitung des Textes durch ein KI-Modell eines Dritten | **Außerhalb der Europäischen Union** |
 | **Google Play / Google Billing** | Zahlung, Abonnements | Google Ireland / Vereinigte Staaten |
 | **Google AdMob** | Werbung mit Belohnung | Google Ireland / Vereinigte Staaten |
 | **Google (Systemdienste des Handys)** | Spracherkennung, Offline-Übersetzungsmodule | Je nach Ihrem Gerät |
-| **Sentry** (Functional Software, Inc.) | Technische Absturzberichte — ausschließlich Programmfehler, vor der Übermittlung gefiltert: niemals Ihr Text | Vereinigte Staaten |
+| **Unser Dienstleister für Absturzberichte** | Technische Absturzberichte — ausschließlich Programmfehler, vor der Übermittlung gefiltert: niemals Ihr Text | Vereinigte Staaten |
 
 **Wir verkaufen keine Daten und geben keine an Datenhändler weiter.**
 
-**Übermittlungen außerhalb der Europäischen Union:** Die Nutzung von OpenRouter, Google Play, AdMob und Sentry bedeutet eine Übermittlung von Daten außerhalb der Europäischen Union. Der rechtliche Rahmen dieser Übermittlungen (Standardvertragsklauseln, Angemessenheitsbeschluss) **muss vor der Veröffentlichung von einer fachkundigen Person geprüft und dokumentiert werden** — siehe die Anmerkung am Ende des Dokuments.
+**Übermittlungen außerhalb der Europäischen Union:** Die Nutzung unseres Dienstleisters für die KI-Verarbeitung sowie von Google Play, AdMob und unseres Dienstleisters für Absturzberichte bedeutet eine Übermittlung von Daten außerhalb der Europäischen Union. Der rechtliche Rahmen dieser Übermittlungen (Standardvertragsklauseln, Angemessenheitsbeschluss) **muss vor der Veröffentlichung von einer fachkundigen Person geprüft und dokumentiert werden** — siehe die Anmerkung am Ende des Dokuments.
 
 ---
 
@@ -211,15 +210,6 @@ Jede Änderung dieser Datenschutzerklärung wird unter `https://readit0.github.i
 Die Nutzungsbedingungen des Dienstes (Kontingente, Abonnements, Kündigung) stehen in einem gesonderten Dokument: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Von einer fachkundigen Person zu prüfen
->
-> Dieses Dokument wurde durch Messung des tatsächlichen Verhaltens der App verfasst, **aber nicht von einer Juristin oder einem Juristen**. Vier Punkte bedürfen vorrangig einer fachkundigen Beurteilung:
->
-> 1. **Die Datenübermittlung außerhalb der Europäischen Union** an OpenRouter. Das ist der heikelste Punkt: Es muss bestimmt werden, welcher Übermittlungsmechanismus gilt, es muss geprüft werden, ob mit diesem Dienstleister ein Auftragsverarbeitungsvertrag besteht, und beides muss hier festgehalten werden. Solange das nicht geschehen ist, beschreibt dieses Dokument die Übermittlung, ohne zu behaupten, dass sie abgesichert ist.
-> 2. **Die Rechtsgrundlagen** in Abschnitt 7, insbesondere die Aufteilung zwischen Einwilligung und berechtigtem Interesse für den Bedienungshilfen-Dienst.
-> 3. **Das Mindestalter** (16 Jahre) und dessen Übereinstimmung mit dem Fragebogen zur Altersfreigabe von Google Play.
-> 4. **Der Hinweis zur KI** nach der europäischen Verordnung über künstliche Intelligenz (Transparenzpflicht für ein System mit begrenztem Risiko).
 
 ---
 

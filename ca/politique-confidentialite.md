@@ -2,7 +2,7 @@
 
 **Última actualització: 12 de setembre de 2026** — Versió 2.0
 
-> *Què ha canviat des de la versió 1.0, i per què és possible que torni a aparèixer la pantalla d'acceptació a l'aplicació:* corregim dues afirmacions que ja no eren exactes. En primer lloc, la funció **idiomes personals** conserva als nostres servidors el contingut que crea (nom, alfabet, lèxic) — la versió 1.0 afirmava erròniament que no es guardava cap text. En segon lloc, ara utilitzem una eina d'**informe d'errors tècnics** (Sentry) — la versió 1.0 afirmava que no existia cap eina d'aquest tipus. El detall d'aquests dos punts és a «En un minut» més avall, així com als §3 i §9. Aquestes són exactament les dues categories de canvi que, a l'aplicació, desencadenen una nova sol·licitud d'acord (vegeu §11).
+> *Què ha canviat des de la versió 1.0, i per què és possible que torni a aparèixer la pantalla d'acceptació a l'aplicació:* corregim dues afirmacions que ja no eren exactes. En primer lloc, la funció **idiomes personals** conserva als nostres servidors el contingut que crea (nom, alfabet, lèxic) — la versió 1.0 afirmava erròniament que no es guardava cap text. En segon lloc, ara utilitzem una eina d'**informe d'errors tècnics** — la versió 1.0 afirmava que no existia cap eina d'aquest tipus. El detall d'aquests dos punts és a «En un minut» més avall, així com als §3 i §9. Aquestes són exactament les dues categories de canvi que, a l'aplicació, desencadenen una nova sol·licitud d'acord (vegeu §11).
 
 ---
 
@@ -79,8 +79,8 @@ Quan tria la IA Cloud, o quan el seu dispositiu no és prou potent per a la IA l
 
 **Cal ser clars sobre el trajecte real:**
 
-- El text passa per la nostra infraestructura (Supabase), allotjada a la **Unió Europea** (regió d'Europa central, Frankfurt).
-- Tot seguit es transmet a **openrouter.ai**, un intermediari d'encaminament **situat fora de la Unió Europea**, que el fa processar pel model **Mistral Small**.
+- El text passa per la nostra infraestructura de servidors, allotjada a la **Unió Europea** (regió d'Europa central, Frankfurt).
+- Tot seguit es transmet a un intermediari d'encaminament **situat fora de la Unió Europea**, que el fa processar per un model d'intel·ligència artificial de tercers.
 - **Es tracta, doncs, d'una transferència de dades fora de la Unió Europea.** No pretenem el contrari, i no mostrem cap promesa d'allotjament europeu per a aquesta etapa.
 - **Plume no conserva el seu text.** Cap de les nostres funcions de servidor no escriu el contingut del seu text: només registrem un identificador tècnic de sol·licitud i l'identificador del seu dispositiu, per comptar la seva quota i detectar els abusos.
 - **El que aquests proveïdors facin pel seu compte, no ho podem garantir.** Preferim dir-ho clarament abans que prometre-li una retenció nul·la que no estem en condicions de verificar.
@@ -93,7 +93,7 @@ El text enviat té un límit: 1.200 caràcters per a una reformulació, 4.000 ca
 
 ## 3. Les dades que conservem
 
-No utilitzem **cap eina d'analítica d'audiència ni cap rastrejador publicitari de tercers**, fora de la publicitat descrita al §5. **Utilitzem una eina d'informe d'errors tècnics** (Sentry): només veu errors de programa (tipus d'error, pila de trucades tècnica, versió de l'aplicació, sistema operatiu), mai el seu ús ni el seu recorregut, i mai el text que escriu — un filtre dedicat ho impedeix abans de qualsevol enviament. El detall és al §9.
+No utilitzem **cap eina d'analítica d'audiència ni cap rastrejador publicitari de tercers**, fora de la publicitat descrita al §5. **Utilitzem una eina d'informe d'errors tècnics**: només veu errors de programa (tipus d'error, pila de trucades tècnica, versió de l'aplicació, sistema operatiu), mai el seu ús ni el seu recorregut, i mai el text que escriu — un filtre dedicat ho impedeix abans de qualsevol enviament. El detall és al §9.
 
 Això és tot el que s'emmagatzema als nostres servidors:
 
@@ -107,7 +107,7 @@ Això és tot el que s'emmagatzema als nostres servidors:
 | **Senyals tècnics d'abús** (excessos repetits, fallada del control d'integritat, sense cap text) | Seguretat, lluita contra el frau | Desvinculats de la seva identitat en suprimir el compte |
 | **Idioma i versió de l'aplicació** | Servir el contingut correcte | Fins a la supressió del seu compte |
 | **El contingut dels idiomes personals que crea** (el seu nom, el seu alfabet i el seu lèxic — les paraules i les definicions que vostè, o altres persones, hi han escrit) | Permetre-li retrobar el seu idioma en un altre dispositiu, fer-lo evolucionar, i compartir-lo amb altres usuaris | Mentre l'idioma existeixi. Si el suprimeix, la seva fitxa desapareix — però una còpia ja **importada per una altra persona** passa a pertànyer-li i **sobreviu**, com un missatge ja rebut per un tercer que no podem anar a esborrar a casa seva |
-| **Informes d'errors tècnics** (tipus d'error, pila de trucades tècnica truncada, versió de l'aplicació, sistema operatiu — mai un contingut de text) | Diagnosticar i corregir els errors de l'aplicació | Regit pel nostre proveïdor Sentry (vegeu §9). Aquesta recollida està subjecta al seu consentiment i a un interruptor que podem desactivar en qualsevol moment, sense actualització de l'aplicació |
+| **Informes d'errors tècnics** (tipus d'error, pila de trucades tècnica truncada, versió de l'aplicació, sistema operatiu — mai un contingut de text) | Diagnosticar i corregir els errors de l'aplicació | Regit pel nostre proveïdor d'informes d'errors (vegeu §9). Aquesta recollida està subjecta al seu consentiment i a un interruptor que podem desactivar en qualsevol moment, sense actualització de l'aplicació |
 
 **El que no recollim:** el seu nom, els seus contactes, la seva ubicació, la seva llibreta d'adreces, les seves fotos, la seva agenda, l'historial de les seves aplicacions. Plume no demana cap d'aquests permisos.
 
@@ -178,17 +178,16 @@ Com que l'aplicació permet reformular un text lliure i mostra publicitat, no é
 
 | Proveïdor | Funció | On |
 |---|---|---|
-| **Supabase** | Allotjament de la base de dades, autenticació, funcions de servidor | Unió Europea (Frankfurt) |
-| **OpenRouter** | Encaminament de les sol·licituds cap al model d'IA | **Fora de la Unió Europea** |
-| **Mistral AI** (mitjançant OpenRouter) | Model que processa el text (Mistral Small) | Tractament a través de l'intermediari anterior |
+| **El nostre proveïdor d'allotjament** | Allotjament de la base de dades, autenticació, funcions de servidor | Unió Europea (Frankfurt) |
+| **El nostre proveïdor de tractament per IA** | Encaminament de les sol·licituds i tractament del text per un model d'intel·ligència artificial de tercers | **Fora de la Unió Europea** |
 | **Google Play / Google Billing** | Pagament, subscripcions | Google Ireland / Estats Units |
 | **Google AdMob** | Publicitat amb recompensa | Google Ireland / Estats Units |
 | **Google (serveis de sistema del telèfon)** | Reconeixement de veu, mòduls de traducció fora de línia | Segons el seu dispositiu |
-| **Sentry** (Functional Software, Inc.) | Informe d'errors tècnics — únicament errors del programa, filtrats abans de l'enviament: mai el seu text | Estats Units |
+| **El nostre proveïdor d'informes d'errors** | Informe d'errors tècnics — únicament errors del programa, filtrats abans de l'enviament: mai el seu text | Estats Units |
 
 **No venem cap dada ni en cedim cap a corredors de dades.**
 
-**Transferències fora de la Unió Europea:** el recurs a OpenRouter, a Google Play, a AdMob i a Sentry implica una transferència de dades fora de la Unió Europea. L'enquadrament jurídic d'aquestes transferències (clàusules contractuals tipus, decisió d'adequació) **ha de ser verificat i documentat per un professional abans de la publicació**: vegeu la nota al final del document.
+**Transferències fora de la Unió Europea:** el recurs al nostre proveïdor de tractament per IA, a Google Play, a AdMob i al nostre proveïdor d'informes d'errors implica una transferència de dades fora de la Unió Europea. L'enquadrament jurídic d'aquestes transferències (clàusules contractuals tipus, decisió d'adequació) **ha de ser verificat i documentat per un professional abans de la publicació**: vegeu la nota al final del document.
 
 ---
 
@@ -211,15 +210,6 @@ Qualsevol modificació d'aquesta política es publicarà a l'adreça `https://re
 Les condicions d'ús del servei (quotes, subscripcions, cancel·lació) figuren en un document separat: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Pendent de revisió per un professional
->
-> Aquest document s'ha redactat mesurant el comportament real de l'aplicació, però **no l'ha redactat cap jurista**. Quatre punts mereixen prioritàriament un dictamen professional:
->
-> 1. **La transferència de dades fora de la Unió Europea** cap a OpenRouter. És el punt més sensible: cal determinar el mecanisme de transferència aplicable, verificar que existeix un acord de tractament amb aquest proveïdor i escriure-ho aquí. Mentre això no s'hagi fet, aquest document descriu la transferència sense afirmar que estigui degudament emparada.
-> 2. **Les bases jurídiques** adoptades al §7, en particular el repartiment entre consentiment i interès legítim per al servei d'accessibilitat.
-> 3. **L'edat mínima** (16 anys) i la seva coherència amb el qüestionari de classificació de contingut de Google Play.
-> 4. **La menció relativa a la IA** en virtut del reglament europeu sobre la intel·ligència artificial (obligació de transparència per a un sistema de risc limitat).
 
 ---
 

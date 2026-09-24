@@ -2,7 +2,7 @@
 
 **Kemas kini terakhir: 12 September 2026** — Versi 2.0
 
-> *Apa yang berubah sejak versi 1.0, dan sebab anda mungkin melihat semula skrin persetujuan dalam aplikasi:* kami membetulkan dua kenyataan yang tidak lagi tepat. Pertama, ciri **bahasa peribadi** menyimpan kandungan yang anda cipta (nama, abjad, leksikon) pada pelayan kami — versi 1.0 mendakwa secara salah bahawa tiada teks disimpan. Kedua, kami kini menggunakan satu alat **laporan ranap teknikal** (Sentry) — versi 1.0 mendakwa bahawa tiada alat sedemikian wujud. Butiran kedua-dua perkara ini terdapat dalam "Dalam satu minit" di bawah, serta dalam §3 dan §9. Inilah tepatnya dua kategori perubahan yang, dalam aplikasi, mencetuskan permintaan persetujuan baharu (lihat §11).
+> *Apa yang berubah sejak versi 1.0, dan sebab anda mungkin melihat semula skrin persetujuan dalam aplikasi:* kami membetulkan dua kenyataan yang tidak lagi tepat. Pertama, ciri **bahasa peribadi** menyimpan kandungan yang anda cipta (nama, abjad, leksikon) pada pelayan kami — versi 1.0 mendakwa secara salah bahawa tiada teks disimpan. Kedua, kami kini menggunakan satu alat **laporan ranap teknikal** — versi 1.0 mendakwa bahawa tiada alat sedemikian wujud. Butiran kedua-dua perkara ini terdapat dalam "Dalam satu minit" di bawah, serta dalam §3 dan §9. Inilah tepatnya dua kategori perubahan yang, dalam aplikasi, mencetuskan permintaan persetujuan baharu (lihat §11).
 
 ---
 
@@ -79,8 +79,8 @@ Apabila anda memilih AI Awan, atau apabila peranti anda tidak cukup berkuasa unt
 
 **Perjalanan sebenarnya perlu dinyatakan dengan jelas:**
 
-- Teks itu melalui infrastruktur kami (Supabase), yang dihoskan di **Kesatuan Eropah** (wilayah Eropah Tengah, Frankfurt).
-- Ia kemudiannya dihantar kepada **openrouter.ai**, sebuah perantara penghalaan yang **terletak di luar Kesatuan Eropah**, yang menyerahkan pemprosesannya kepada model **Mistral Small**.
+- Teks itu melalui infrastruktur pelayan kami, yang dihoskan di **Kesatuan Eropah** (wilayah Eropah Tengah, Frankfurt).
+- Ia kemudiannya dihantar kepada sebuah perantara penghalaan yang **terletak di luar Kesatuan Eropah**, yang menyerahkan pemprosesannya kepada sebuah model kecerdasan buatan pihak ketiga.
 - **Jadi, ini merupakan pemindahan data ke luar Kesatuan Eropah.** Kami tidak mendakwa sebaliknya, dan kami tidak memaparkan sebarang janji pengehosan Eropah bagi peringkat ini.
 - **Plume tidak menyimpan teks anda.** Tiada satu pun fungsi pelayan kami menulis kandungan teks anda: kami hanya merekodkan satu pengecam teknikal permintaan dan pengecam peranti anda, untuk mengira kuota anda dan mengesan penyalahgunaan.
 - **Apa yang dilakukan oleh pembekal tersebut di pihak mereka, kami tidak dapat menjaminnya.** Kami lebih suka memberitahu anda daripada menjanjikan penyimpanan sifar yang kami tidak mampu mengesahkannya.
@@ -93,7 +93,7 @@ Teks yang dihantar dihadkan: 1,200 aksara untuk satu rumusan semula, 4,000 aksar
 
 ## 3. Data yang kami simpan
 
-Kami **tidak menggunakan sebarang alat analitis khalayak dan sebarang penjejak pengiklanan pihak ketiga** selain daripada pengiklanan yang diterangkan dalam §5. **Kami menggunakan satu alat laporan ranap teknikal** (Sentry): ia hanya melihat ralat program (jenis ralat, tindanan panggilan teknikal, versi aplikasi, sistem pengendalian), tidak pernah penggunaan atau perjalanan anda, dan tidak pernah teks yang anda tulis — satu penapis khusus melarangnya sebelum sebarang penghantaran. Butirannya terdapat dalam §9.
+Kami **tidak menggunakan sebarang alat analitis khalayak dan sebarang penjejak pengiklanan pihak ketiga** selain daripada pengiklanan yang diterangkan dalam §5. **Kami menggunakan satu alat laporan ranap teknikal**: ia hanya melihat ralat program (jenis ralat, tindanan panggilan teknikal, versi aplikasi, sistem pengendalian), tidak pernah penggunaan atau perjalanan anda, dan tidak pernah teks yang anda tulis — satu penapis khusus melarangnya sebelum sebarang penghantaran. Butirannya terdapat dalam §9.
 
 Berikut ialah keseluruhan apa yang disimpan pada pelayan kami:
 
@@ -107,7 +107,7 @@ Berikut ialah keseluruhan apa yang disimpan pada pelayan kami:
 | **Isyarat teknikal penyalahgunaan** (pelanggaran had berulang, kegagalan semakan integriti — tanpa sebarang teks) | Keselamatan, pembanterasan penipuan | Dilepaskan daripada identiti anda apabila akaun dipadam |
 | **Bahasa dan versi aplikasi** | Menyampaikan kandungan yang betul | Sehingga akaun anda dipadam |
 | **Kandungan bahasa peribadi yang anda cipta** (namanya, abjadnya, dan leksikonnya — perkataan dan takrifan yang anda, atau orang lain, telah tulis di dalamnya) | Membolehkan anda menemui semula bahasa anda pada peranti lain, mengembangkannya, dan berkongsinya dengan pengguna lain | Selagi bahasa itu wujud. Jika anda memadamnya, rekodnya hilang — tetapi salinan yang telah **diimport oleh orang lain** kini menjadi milik orang itu dan **terus wujud**, seperti mesej yang telah diterima oleh pihak ketiga yang tidak dapat kami pergi padamkan di sisinya |
-| **Laporan ranap teknikal** (jenis ralat, tindanan panggilan teknikal yang dipendekkan, versi aplikasi, sistem pengendalian — tidak pernah kandungan teks) | Mendiagnosis dan membetulkan ranap aplikasi | Dikawal oleh pembekal kami Sentry (lihat §9). Pengumpulan ini tertakluk kepada persetujuan anda dan kepada suis yang boleh kami matikan pada bila-bila masa, tanpa kemas kini aplikasi |
+| **Laporan ranap teknikal** (jenis ralat, tindanan panggilan teknikal yang dipendekkan, versi aplikasi, sistem pengendalian — tidak pernah kandungan teks) | Mendiagnosis dan membetulkan ranap aplikasi | Dikawal oleh pembekal laporan ranap kami (lihat §9). Pengumpulan ini tertakluk kepada persetujuan anda dan kepada suis yang boleh kami matikan pada bila-bila masa, tanpa kemas kini aplikasi |
 
 **Apa yang tidak kami kumpul:** nama anda, kenalan anda, lokasi anda, buku alamat anda, gambar anda, kalendar anda, sejarah aplikasi anda. Plume tidak meminta satu pun kebenaran tersebut.
 
@@ -178,17 +178,16 @@ Oleh sebab aplikasi ini membolehkan perumusan semula teks bebas dan memaparkan i
 
 | Pembekal | Peranan | Di mana |
 |---|---|---|
-| **Supabase** | Pengehosan pangkalan data, pengesahan, fungsi pelayan | Kesatuan Eropah (Frankfurt) |
-| **OpenRouter** | Penghalaan permintaan kepada model AI | **Di luar Kesatuan Eropah** |
-| **Mistral AI** (melalui OpenRouter) | Model yang memproses teks (Mistral Small) | Pemprosesan melalui perantara di atas |
+| **Pembekal pengehosan kami** | Pengehosan pangkalan data, pengesahan, fungsi pelayan | Kesatuan Eropah (Frankfurt) |
+| **Pembekal pemprosesan AI kami** | Penghalaan permintaan dan pemprosesan teks oleh sebuah model kecerdasan buatan pihak ketiga | **Di luar Kesatuan Eropah** |
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Syarikat |
 | **Google AdMob** | Pengiklanan berganjaran | Google Ireland / Amerika Syarikat |
 | **Google (perkhidmatan sistem telefon)** | Pengecaman suara, modul terjemahan luar talian | Mengikut peranti anda |
-| **Sentry** (Functional Software, Inc.) | Laporan ranap teknikal — hanya ralat program, ditapis sebelum penghantaran: tidak pernah teks anda | Amerika Syarikat |
+| **Pembekal laporan ranap kami** | Laporan ranap teknikal — hanya ralat program, ditapis sebelum penghantaran: tidak pernah teks anda | Amerika Syarikat |
 
 **Kami tidak menjual sebarang data dan tidak menyerahkan sebarang data kepada broker data.**
 
-**Pemindahan ke luar Kesatuan Eropah:** penggunaan OpenRouter, Google Play, AdMob dan Sentry melibatkan pemindahan data ke luar Kesatuan Eropah. Rangka kerja undang-undang bagi pemindahan tersebut (klausa kontrak standard, keputusan kecukupan) **mesti disemak dan didokumentasikan oleh seorang profesional sebelum penerbitan** — lihat nota di penghujung dokumen.
+**Pemindahan ke luar Kesatuan Eropah:** penggunaan pembekal pemprosesan AI kami, Google Play, AdMob dan pembekal laporan ranap kami melibatkan pemindahan data ke luar Kesatuan Eropah. Rangka kerja undang-undang bagi pemindahan tersebut (klausa kontrak standard, keputusan kecukupan) **mesti disemak dan didokumentasikan oleh seorang profesional sebelum penerbitan** — lihat nota di penghujung dokumen.
 
 ---
 
@@ -211,15 +210,6 @@ Setiap pindaan kepada dasar ini akan diterbitkan di alamat `https://readit0.gith
 Terma penggunaan perkhidmatan (kuota, langganan, penamatan) terkandung dalam dokumen berasingan: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Untuk disemak oleh seorang profesional
->
-> Dokumen ini ditulis dengan mengukur kelakuan sebenar aplikasi, tetapi **ia tidak ditulis oleh seorang peguam**. Empat perkara yang paling memerlukan nasihat profesional:
->
-> 1. **Pemindahan data ke luar Kesatuan Eropah** kepada OpenRouter. Inilah perkara yang paling sensitif: mekanisme pemindahan yang terpakai perlu ditentukan, perlu disahkan bahawa satu perjanjian pemprosesan data wujud dengan pembekal tersebut, dan ia perlu ditulis di sini. Selagi perkara itu belum dilakukan, dokumen ini menerangkan pemindahan tersebut tanpa menegaskan bahawa ia berada dalam rangka kerja yang sewajarnya.
-> 2. **Asas undang-undang** yang dipilih dalam §7, khususnya pembahagian antara persetujuan dan kepentingan sah bagi perkhidmatan kebolehaksesan.
-> 3. **Umur minimum** (16 tahun) dan keselarasannya dengan soal selidik penilaian kandungan Google Play.
-> 4. **Kenyataan berkenaan AI** di bawah peraturan Eropah mengenai kecerdasan buatan (kewajipan ketelusan bagi sistem berisiko terhad).
 
 ---
 

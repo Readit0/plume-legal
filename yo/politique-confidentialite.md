@@ -2,7 +2,7 @@
 
 **Ìmúdójú ìkẹyìn: ọjọ́ 12 oṣù kẹsàn-án ọdún 2026** — Ẹ̀dà 2.0
 
-> *Ohun tí ó yípadà láti ìgbà ẹ̀dà 1.0, àti ìdí tí ẹ o fi lè rí ojú-ìwé ìtẹ́wọ́gbà lẹ́ẹ̀kan sí i nínú ohun èlò náà:* à ń ṣàtúnṣe ọ̀rọ̀ méjì tí kò jẹ́ òtítọ́ mọ́. Lákọ̀ọ́kọ́, ẹ̀yà ìṣe **àwọn èdè ti ara ẹni** ń fi àkóónú tí ẹ dá (orúkọ, alfábẹ́ẹ̀tì, ìwé-ìtumọ̀) pamọ́ sí àwọn olùpín wa — ẹ̀dà 1.0 sọ ní àṣìṣe pé kò sí ọ̀rọ̀ tí a ń fi pamọ́ rárá. Kejì, a ti ń lo irinṣẹ́ **ìjábọ̀ ìṣòro ẹ̀rọ** báyìí (Sentry) — ẹ̀dà 1.0 sọ pé irinṣẹ́ irú bẹ́ẹ̀ kò sí. Àwọn kúlẹ̀kúlẹ̀ nípa ojú méjèèjì wọ̀nyí wà nínú apá "Nínú ìṣẹ́jú kan" nísàlẹ̀, àti pẹ̀lú §3 àti §9. Àwọn ẹ̀ka ìyípadà méjì wọ̀nyẹn gan-an ni ń mú ìbéèrè ìfohùnṣọ̀kan tuntun jáde nínú ohun èlò náà (wo §11).
+> *Ohun tí ó yípadà láti ìgbà ẹ̀dà 1.0, àti ìdí tí ẹ o fi lè rí ojú-ìwé ìtẹ́wọ́gbà lẹ́ẹ̀kan sí i nínú ohun èlò náà:* à ń ṣàtúnṣe ọ̀rọ̀ méjì tí kò jẹ́ òtítọ́ mọ́. Lákọ̀ọ́kọ́, ẹ̀yà ìṣe **àwọn èdè ti ara ẹni** ń fi àkóónú tí ẹ dá (orúkọ, alfábẹ́ẹ̀tì, ìwé-ìtumọ̀) pamọ́ sí àwọn olùpín wa — ẹ̀dà 1.0 sọ ní àṣìṣe pé kò sí ọ̀rọ̀ tí a ń fi pamọ́ rárá. Kejì, a ti ń lo irinṣẹ́ **ìjábọ̀ ìṣòro ẹ̀rọ** báyìí — ẹ̀dà 1.0 sọ pé irinṣẹ́ irú bẹ́ẹ̀ kò sí. Àwọn kúlẹ̀kúlẹ̀ nípa ojú méjèèjì wọ̀nyí wà nínú apá "Nínú ìṣẹ́jú kan" nísàlẹ̀, àti pẹ̀lú §3 àti §9. Àwọn ẹ̀ka ìyípadà méjì wọ̀nyẹn gan-an ni ń mú ìbéèrè ìfohùnṣọ̀kan tuntun jáde nínú ohun èlò náà (wo §11).
 
 ---
 
@@ -79,8 +79,8 @@ Nígbà tí ẹ bá yan Ìmọ̀ Àdámọ̀ Cloud, tàbí nígbà tí ẹ̀rọ
 
 **Ó yẹ kí á ṣe kedere nípa ọ̀nà tòótọ́:**
 
-- Ọ̀rọ̀ náà ń kọjá nípasẹ̀ ohun èlò amáyédẹrùn wa (Supabase), tí ó wà ní **Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù** (agbègbè Aringbungbun Yúróòpù, Frankfurt).
-- Lẹ́yìn náà, wọ́n fi ránṣẹ́ sí **openrouter.ai**, alárinà ìtọ́ni tí ó **wà ní ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù**, tí ó ń jẹ́ kí àwòṣe **Mistral Small** ṣiṣẹ́ lé e lórí.
+- Ọ̀rọ̀ náà ń kọjá nípasẹ̀ ohun èlò amáyédẹrùn olùpín wa, tí ó wà ní **Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù** (agbègbè Aringbungbun Yúróòpù, Frankfurt).
+- Lẹ́yìn náà, wọ́n fi ránṣẹ́ sí alárinà ìtọ́ni kan tí ó **wà ní ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù**, tí ó ń jẹ́ kí àwòṣe Ìmọ̀ Àdámọ̀ ti ẹgbẹ́ kẹta ṣiṣẹ́ lé e lórí.
 - **Nítorí náà, ìṣípòpadà dátà ni sí ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù.** A kò sọ ní ìlòdì sí èyí, a kò sì fi ìlérí ìdálórí ilẹ̀ Yúróòpù kankan hàn fún ìpele yìí.
 - **Plume kì í fi ọ̀rọ̀ yín pamọ́.** Kò sí iṣẹ́ olùpín wa kankan tí ó ń kọ àkóónú ọ̀rọ̀ yín sílẹ̀: a kìkì ń kọ àmì ìdámọ̀ ìmọ̀-ẹ̀rọ ti ìbéèrè àti àmì ìdámọ̀ ẹ̀rọ yín, láti ka iye tí ẹ ti lò àti láti ṣàwárí lílò-níjàre.
 - **A kò lè dá ẹ̀rí pé kín ni àwọn olùpèsè wọ̀nyí ń ṣe ní ẹ̀gbẹ́ tiwọn.** A fẹ́ràn láti sọ fún yín ju láti fi ìlérí pé a kì í fi ohunkóhun pamọ́ tí a kò lè fi ẹ̀rí rẹ̀ hàn.
@@ -93,7 +93,7 @@ Nígbà tí ẹ bá yan Ìmọ̀ Àdámọ̀ Cloud, tàbí nígbà tí ẹ̀rọ
 
 ## 3. Dátà tí a ń fi pamọ́
 
-A kì í lo **ohun èlò ìdíwọ̀n olùgbọ́ kankan tàbí ẹ̀rọ ìtọpasẹ̀ ìpolówó ọjà ẹgbẹ́ kẹta kankan** yàtọ̀ sí ìpolówó ọjà tí a ṣàpèjúwe ní §5. **A ń lo irinṣẹ́ ìjábọ̀ ìṣòro ẹ̀rọ kan** (Sentry): ó rí kìkì àwọn àṣìṣe eto (irúfẹ́ àṣìṣe, ipa ọ̀nà ìpè ẹ̀rọ, ẹ̀dà ohun èlò náà, ètò iṣẹ́ ẹ̀rọ), kò rí lílò yín tàbí ipa ọ̀nà yín rárá, kò sì rí ọ̀rọ̀ tí ẹ̀ ń kọ rárá — ẹ̀rọ àlẹ̀ pàtó kan ń dí èyí ní ìdíwọ́ kí ó tó fi ránṣẹ́ kankan. Kúlẹ̀kúlẹ̀ wà ní §9.
+A kì í lo **ohun èlò ìdíwọ̀n olùgbọ́ kankan tàbí ẹ̀rọ ìtọpasẹ̀ ìpolówó ọjà ẹgbẹ́ kẹta kankan** yàtọ̀ sí ìpolówó ọjà tí a ṣàpèjúwe ní §5. **A ń lo irinṣẹ́ ìjábọ̀ ìṣòro ẹ̀rọ kan**: ó rí kìkì àwọn àṣìṣe eto (irúfẹ́ àṣìṣe, ipa ọ̀nà ìpè ẹ̀rọ, ẹ̀dà ohun èlò náà, ètò iṣẹ́ ẹ̀rọ), kò rí lílò yín tàbí ipa ọ̀nà yín rárá, kò sì rí ọ̀rọ̀ tí ẹ̀ ń kọ rárá — ẹ̀rọ àlẹ̀ pàtó kan ń dí èyí ní ìdíwọ́ kí ó tó fi ránṣẹ́ kankan. Kúlẹ̀kúlẹ̀ wà ní §9.
 
 Ẹ̀yí nìyí gbogbo ohun tí a fi pamọ́ sórí àwọn olùpín wa:
 
@@ -107,7 +107,7 @@ A kì í lo **ohun èlò ìdíwọ̀n olùgbọ́ kankan tàbí ẹ̀rọ ìtọ
 | **Àwọn àmì ìmọ̀-ẹ̀rọ ti ìlòkulò** (àkóyọ tí ó ń tún ara rẹ̀ ṣe, àìṣàṣeyọrí ìdánwò àìdásí) | Ààbò, ìjà sí ẹ̀tàn | A ń yà á kúrò lára ẹnìkẹ́ni yín nígbà tí a bá pa àkántì rẹ́ |
 | **Èdè àti ẹ̀dà ohun èlò náà** | Láti fún ni ní àkóónú tí ó tọ́ | Títí a ó fi pa àkántì yín rẹ́ |
 | **Àkóónú àwọn èdè ti ara ẹni tí ẹ dá** (orúkọ rẹ̀, alfábẹ́ẹ̀tì rẹ̀, àti ìwé-ìtumọ̀ rẹ̀ — àwọn ọ̀rọ̀ àti ìtumọ̀ tí ẹ̀yin, tàbí àwọn ẹlòmíràn, kọ sínú rẹ̀) | Láti jẹ́ kí ẹ tún rí èdè yín lórí ẹ̀rọ mìíràn, láti mú un dàgbà, àti láti fi pín pẹ̀lú àwọn olùlò mìíràn | Níwọ̀n bí èdè náà bá ti wà. Bí ẹ bá pa á rẹ́, kaadi rẹ̀ máa parẹ́ — ṣùgbọ́n ẹ̀dà tí ẹnìkejì **ti gbà tẹ́lẹ̀** máa jẹ́ tirẹ̀ báyìí, yóò sì **wà** lẹ́yìn tí ẹ ti pa tiyín rẹ́, gẹ́gẹ́bí ìránṣẹ́ tí ẹgbẹ́ kẹta ti gbà tẹ́lẹ̀, tí a kò sì lè lọ pa á rẹ́ ní ẹ̀gbẹ́ rẹ̀ |
-| **Àwọn ìjábọ̀ ìṣòro ẹ̀rọ** (irúfẹ́ àṣìṣe, ipa ọ̀nà ìpè ẹ̀rọ tí a gé kúrú, ẹ̀dà ohun èlò náà, ètò iṣẹ́ ẹ̀rọ — láéláé kì í ṣe àkóónú ọ̀rọ̀) | Láti ṣàwárí àti láti tún àwọn ìṣòro ohun èlò náà ṣe | Olùpèsè wa Sentry ni ó darí i (wo §9). Ìkójọpọ̀ yìí wà lábẹ́ ìfohùnṣọ̀kan yín àti àmì ìdáwọ́dúró kan tí a lè pa nígbàkúgbà, láìsí ìmúdójúìwọ̀n ohun èlò náà |
+| **Àwọn ìjábọ̀ ìṣòro ẹ̀rọ** (irúfẹ́ àṣìṣe, ipa ọ̀nà ìpè ẹ̀rọ tí a gé kúrú, ẹ̀dà ohun èlò náà, ètò iṣẹ́ ẹ̀rọ — láéláé kì í ṣe àkóónú ọ̀rọ̀) | Láti ṣàwárí àti láti tún àwọn ìṣòro ohun èlò náà ṣe | Olùpèsè ìjábọ̀ ìṣòro wa ni ó darí i (wo §9). Ìkójọpọ̀ yìí wà lábẹ́ ìfohùnṣọ̀kan yín àti àmì ìdáwọ́dúró kan tí a lè pa nígbàkúgbà, láìsí ìmúdójúìwọ̀n ohun èlò náà |
 
 **Ohun tí a kì í kójọ:** orúkọ yín, àwọn olùbáṣepọ̀ yín, ibi tí ẹ wà, ìwé àdírẹ́sì yín, àwọn àwòrán yín, kàlẹ́ńdà yín, ìtàn àwọn ohun èlò yín. Plume kò béèrè fún ọ̀kankan nínú àwọn àṣẹ wọ̀nyí.
 
@@ -178,17 +178,16 @@ Níwọ̀n bí ohun èlò náà ti ń jẹ́ kí a tún ọ̀rọ̀ òmìnira �
 
 | Olùpèsè | Ipa | Níbo |
 |---|---|---|
-| **Supabase** | Ìdálórí ibi ìpamọ́ dátà, ìfimúlẹ̀, àwọn iṣẹ́ olùpín | Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù (Frankfurt) |
-| **OpenRouter** | Títọ́ àwọn ìbéèrè sí àwòṣe Ìmọ̀ Àdámọ̀ | **Ní ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù** |
-| **Mistral AI** (nípasẹ̀ OpenRouter) | Àwòṣe tí ó ń ṣiṣẹ́ lórí ọ̀rọ̀ (Mistral Small) | Ìṣiṣẹ́ nípasẹ̀ alárinà tí ó wà lókè yìí |
+| **Olùpèsè ìdálórí wa** | Ìdálórí ibi ìpamọ́ dátà, ìfimúlẹ̀, àwọn iṣẹ́ olùpín | Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù (Frankfurt) |
+| **Olùpèsè ìṣiṣẹ́ Ìmọ̀ Àdámọ̀ wa** | Títọ́ àwọn ìbéèrè àti ṣíṣiṣẹ́ lórí ọ̀rọ̀ nípasẹ̀ àwòṣe Ìmọ̀ Àdámọ̀ ti ẹgbẹ́ kẹta | **Ní ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù** |
 | **Google Play / Google Billing** | Ìsanwó, ìforúkọsílẹ̀ | Google Ireland / Amẹ́ríkà |
 | **Google AdMob** | Ìpolówó ọjà ẹ̀san | Google Ireland / Amẹ́ríkà |
 | **Google (àwọn iṣẹ́ ètò fóònù)** | Ìdánimọ̀ ohùn, àwọn ẹ̀yà ìtumọ̀ láìsí ẹ̀rọ ayélujára | Gẹ́gẹ́bí ẹ̀rọ yín |
-| **Sentry** (Functional Software, Inc.) | Ìjábọ̀ ìṣòro ẹ̀rọ — kìkì àwọn àṣìṣe eto, tí a ti ṣàlẹ̀ kí ó tó fi ránṣẹ́: láéláé kì í ṣe ọ̀rọ̀ yín | Amẹ́ríkà |
+| **Olùpèsè ìjábọ̀ ìṣòro wa** | Ìjábọ̀ ìṣòro ẹ̀rọ — kìkì àwọn àṣìṣe eto, tí a ti ṣàlẹ̀ kí ó tó fi ránṣẹ́: láéláé kì í ṣe ọ̀rọ̀ yín | Amẹ́ríkà |
 
 **A kì í tà dátà kankan, a kì í sì fi fún àwọn alágbàtà dátà.**
 
-**Ìṣípòpadà sí ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù:** lílo OpenRouter, Google Play, AdMob àti Sentry ń fi hàn pé a ń ṣí dátà padà sí ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù.
+**Ìṣípòpadà sí ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù:** lílo olùpèsè ìṣiṣẹ́ Ìmọ̀ Àdámọ̀ wa, Google Play, AdMob àti olùpèsè ìjábọ̀ ìṣòro wa ń fi hàn pé a ń ṣí dátà padà sí ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù.
 
 ---
 

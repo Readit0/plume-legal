@@ -6,7 +6,7 @@
 > artık doğru olmayan iki ifadeyi düzeltiyoruz. Öncelikle, **kişisel diller** özelliği,
 > oluşturduğunuz içeriği (ad, alfabe, sözlük) sunucularımızda saklar — Sürüm 1.0 hiçbir
 > metnin saklanmadığını yanlış biçimde belirtmişti. İkincisi, artık bir **teknik çökme
-> raporlama** aracı (Sentry) kullanıyoruz — Sürüm 1.0 bu tür bir aracın bulunmadığını
+> raporlama** aracı kullanıyoruz — Sürüm 1.0 bu tür bir aracın bulunmadığını
 > belirtiyordu. Bu iki noktanın ayrıntısı aşağıdaki «Bir dakikada» bölümünde, ayrıca §3
 > ve §9'dadır. Uygulamada yeni bir onay talebini tetikleyen değişiklik kategorileri
 > tam olarak bunlardır (bkz. §11).
@@ -86,8 +86,8 @@ Bulut yapay zekâyı seçtiğinizde ya da cihazınız yerel yapay zekâ için ye
 
 **Gerçek güzergâh konusunda açık olmak gerekir:**
 
-- Metin, **Avrupa Birliği**'nde (Orta Avrupa bölgesi, Frankfurt) barındırılan altyapımızdan (Supabase) geçer.
-- Ardından, **Avrupa Birliği dışında bulunan** bir yönlendirme aracısı olan **openrouter.ai**'ya iletilir; o da metni **Mistral Small** modeline işletir.
+- Metin, **Avrupa Birliği**'nde (Orta Avrupa bölgesi, Frankfurt) barındırılan sunucu altyapımızdan geçer.
+- Ardından, **Avrupa Birliği dışında bulunan** bir yönlendirme aracısına iletilir; o da metni üçüncü taraf bir yapay zekâ modeline işletir.
 - **Dolayısıyla bu, Avrupa Birliği dışına yapılan bir veri aktarımıdır.** Aksini iddia etmiyoruz ve bu aşama için hiçbir Avrupa'da barındırma vaadi göstermiyoruz.
 - **Plume metninizi saklamaz.** Sunucu işlevlerimizin hiçbiri metninizin içeriğini yazmaz: yalnızca teknik bir istek kimliğini ve cihazınızın kimliğini kaydederiz; kotanızı saymak ve kötüye kullanımları tespit etmek için.
 - **Bu sağlayıcıların kendi taraflarında ne yaptıklarını ise garanti edemeyiz.** Doğrulayacak durumda olmadığımız sıfır saklama vaadinde bulunmaktansa bunu size söylemeyi tercih ediyoruz.
@@ -100,7 +100,7 @@ Gönderilen metin sınırlıdır: bir yeniden ifade için 1 200 karakter, bir ek
 
 ## 3. Sakladığımız veriler
 
-§5'te açıklanan reklam dışında **hiçbir kitle ölçüm aracı, hiçbir üçüncü taraf reklam izleyicisi** kullanmıyoruz. **Bir teknik çökme raporlama aracı (Sentry) kullanıyoruz:** bu araç yalnızca program hatalarını görür (hata türü, teknik çağrı yığını, uygulama sürümü, işletim sistemi), kullanımınızı ya da izlediğiniz yolu asla görmez, yazdığınız metni de asla görmez — herhangi bir gönderimden önce buna özel bir filtre engel olur. Ayrıntı §9'dadır.
+§5'te açıklanan reklam dışında **hiçbir kitle ölçüm aracı, hiçbir üçüncü taraf reklam izleyicisi** kullanmıyoruz. **Bir teknik çökme raporlama aracı kullanıyoruz:** bu araç yalnızca program hatalarını görür (hata türü, teknik çağrı yığını, uygulama sürümü, işletim sistemi), kullanımınızı ya da izlediğiniz yolu asla görmez, yazdığınız metni de asla görmez — herhangi bir gönderimden önce buna özel bir filtre engel olur. Ayrıntı §9'dadır.
 
 Sunucularımızda saklananların tamamı şudur:
 
@@ -114,7 +114,7 @@ Sunucularımızda saklananların tamamı şudur:
 | **Teknik kötüye kullanım sinyalleri** (tekrarlanan aşımlar, bütünlük denetimi başarısızlığı — hiçbir metin içermez) | Güvenlik, dolandırıcılıkla mücadele | Hesap silindiğinde kimliğinizden ayrılır |
 | **Uygulamanın dili ve sürümü** | Doğru içeriği sunmak | Hesabınızın silinmesine kadar |
 | **Oluşturduğunuz kişisel dillerin içeriği** (adı, alfabesi ve sözlüğü — sizin ya da başkalarının buraya yazdığı sözcükler ve tanımlar) | Dilinizi başka bir cihazda yeniden bulmanızı, geliştirmenizi ve başka kullanıcılarla paylaşmanızı sağlamak | Dil var olduğu sürece. Onu silerseniz kaydı ortadan kalkar — ancak **başka biri tarafından zaten içe aktarılmış** bir kopya artık ona aittir ve **varlığını sürdürür**, üçüncü bir kişinin çoktan aldığı bir mesaj gibi; onu kendi tarafından silmemiz mümkün değildir |
-| **Teknik çökme raporları** (hata türü, kısaltılmış teknik çağrı yığını, uygulama sürümü, işletim sistemi — asla metin içeriği değil) | Uygulamanın çökmelerini teşhis etmek ve düzeltmek | Sağlayıcımız Sentry tarafından yönetilir (bkz. §9). Bu toplama, rızanıza ve uygulamayı güncellemeden istediğimiz zaman kapatabileceğimiz bir anahtara tabidir |
+| **Teknik çökme raporları** (hata türü, kısaltılmış teknik çağrı yığını, uygulama sürümü, işletim sistemi — asla metin içeriği değil) | Uygulamanın çökmelerini teşhis etmek ve düzeltmek | Çökme raporlama sağlayıcımız tarafından yönetilir (bkz. §9). Bu toplama, rızanıza ve uygulamayı güncellemeden istediğimiz zaman kapatabileceğimiz bir anahtara tabidir |
 
 **Toplamadıklarımız:** adınız, kişileriniz, konumunuz, adres defteriniz, fotoğraflarınız, takviminiz, uygulama geçmişiniz. Plume bu izinlerin hiçbirini istemez.
 
@@ -185,17 +185,16 @@ Uygulama serbest bir metnin yeniden ifade edilmesine izin verdiği ve reklam gö
 
 | Sağlayıcı | Rol | Nerede |
 |---|---|---|
-| **Supabase** | Veritabanı barındırma, kimlik doğrulama, sunucu işlevleri | Avrupa Birliği (Frankfurt) |
-| **OpenRouter** | İsteklerin yapay zekâ modeline yönlendirilmesi | **Avrupa Birliği dışında** |
-| **Mistral AI** (OpenRouter üzerinden) | Metni işleyen model (Mistral Small) | Yukarıdaki aracı üzerinden işleme |
+| **Barındırma sağlayıcımız** | Veritabanı barındırma, kimlik doğrulama, sunucu işlevleri | Avrupa Birliği (Frankfurt) |
+| **Yapay zekâ işleme sağlayıcımız** | İsteklerin yönlendirilmesi ve metnin üçüncü taraf bir yapay zekâ modeliyle işlenmesi | **Avrupa Birliği dışında** |
 | **Google Play / Google Billing** | Ödeme, abonelikler | Google Ireland / Amerika Birleşik Devletleri |
 | **Google AdMob** | Ödüllü reklam | Google Ireland / Amerika Birleşik Devletleri |
 | **Google (telefonun sistem hizmetleri)** | Konuşma tanıma, çevrimdışı çeviri modülleri | Cihazınıza göre değişir |
-| **Sentry** (Functional Software, Inc.) | Teknik çökme raporlama — yalnızca gönderilmeden önce filtrelenmiş program hataları: metniniz asla değil | Amerika Birleşik Devletleri |
+| **Çökme raporlama sağlayıcımız** | Teknik çökme raporlama — yalnızca gönderilmeden önce filtrelenmiş program hataları: metniniz asla değil | Amerika Birleşik Devletleri |
 
 **Hiçbir veriyi satmıyoruz ve hiçbirini veri simsarlarına devretmiyoruz.**
 
-**Avrupa Birliği dışına aktarımlar:** OpenRouter'a, Google Play'e, AdMob'a ve Sentry'ye başvurulması, Avrupa Birliği dışına bir veri aktarımı içerir. Bu aktarımların hukuki çerçevesi (standart sözleşme hükümleri, yeterlilik kararı) **yayımdan önce bir uzman tarafından doğrulanmalı ve belgelenmelidir** — belgenin sonundaki nota bakın.
+**Avrupa Birliği dışına aktarımlar:** yapay zekâ işleme sağlayıcımıza, Google Play'e, AdMob'a ve çökme raporlama sağlayıcımıza başvurulması, Avrupa Birliği dışına bir veri aktarımı içerir. Bu aktarımların hukuki çerçevesi (standart sözleşme hükümleri, yeterlilik kararı) **yayımdan önce bir uzman tarafından doğrulanmalı ve belgelenmelidir** — belgenin sonundaki nota bakın.
 
 ---
 
@@ -218,15 +217,6 @@ Bu politikadaki her değişiklik, `https://readit0.github.io/plume-legal` adresi
 Hizmetin kullanım koşulları (kotalar, abonelikler, fesih) ayrı bir belgede yer alır: `https://readit0.github.io/plume-legal/conditions-generales`.
 
 ---
-
-> ### Bir uzman tarafından gözden geçirilmelidir
->
-> Bu belge, uygulamanın gerçek davranışı ölçülerek yazılmıştır, ancak **bir hukukçu tarafından yazılmamıştır**. Öncelikli olarak dört nokta uzman görüşü gerektirir:
->
-> 1. **Avrupa Birliği dışına, OpenRouter'a yapılan veri aktarımı.** En hassas nokta budur: uygulanacak aktarım mekanizması belirlenmeli, bu sağlayıcıyla bir veri işleme sözleşmesinin bulunduğu doğrulanmalı ve burada yazılmalıdır. Bu yapılmadığı sürece, bu belge aktarımı, çerçevelenmiş olduğunu ileri sürmeden açıklamaktadır.
-> 2. **§7'de benimsenen hukuki dayanaklar**, özellikle erişilebilirlik hizmeti için açık rıza ile meşru menfaat arasındaki dağılım.
-> 3. **Asgari yaş** (16 yaş) ve bunun Google Play içerik derecelendirme anketiyle tutarlılığı.
-> 4. **Yapay zekâya ilişkin bildirim**, Avrupa yapay zekâ tüzüğü kapsamında (sınırlı riskli bir sistem için şeffaflık yükümlülüğü).
 
 ---
 
