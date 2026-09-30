@@ -69,5 +69,6 @@
   "legal_confidentialite": "Tietosuojakäytäntö",
   "legal_cgu": "Käyttöehdot",
   "legal_suppression": "Poista tilini",
-  "legal_toutes": "Oikeudelliset tiedot, kaikki kielet"
+  "legal_toutes": "Oikeudelliset tiedot, kaikki kielet",
+  "autorisations_sans_lecture": "Plume käyttää Androidin esteettömyyspalvelua lukeakseen ja korvatakseen kentän tekstin, johon kirjoitat, kun kosketat kapselia, ja vain niissä sovelluksissa, jotka olet itse yhdistänyt. Se ei lähetä mitään taustalla eikä koskaan lähetä viestiä puolestasi."
 }

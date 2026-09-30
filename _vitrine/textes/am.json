@@ -69,5 +69,6 @@
   "legal_confidentialite": "የግላዊነት ፖሊሲ",
   "legal_cgu": "የአጠቃቀም ውሎች",
   "legal_suppression": "መለያዬን ሰርዝ",
-  "legal_toutes": "የሕግ መረጃ፣ በሁሉም ቋንቋዎች"
+  "legal_toutes": "የሕግ መረጃ፣ በሁሉም ቋንቋዎች",
+  "autorisations_sans_lecture": "ካፕሱሉን ስትነካ፣ ባገናኘሃቸው መተግበሪያዎች ውስጥ ብቻ፣ የምትጽፍበትን መስክ ጽሑፍ ለማንበብና ለመተካት Plume የ Android ተደራሽነት አገልግሎትን ይጠቀማል። ከበስተጀርባ ምንም አይልክም፣ በአንተ ስም መልእክትም ፈጽሞ አይልክም።"
 }

@@ -246,3 +246,31 @@ h3 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
   .suggestion { opacity: 1; }
   html { scroll-behavior: auto; }
 }
+
+/* ─── Bande de langues : drapeau + nom, comme la capsule (HF-481) ─── */
+.segment span { gap: 4px; display: flex; align-items: center; }
+.segment span img { height: 12px; width: auto; border-radius: 2px; box-shadow: 0 0 0 .8px rgba(255,255,255,.35); }
+.segment span img.embleme { height: 14px; width: 14px; border-radius: 50%; box-shadow: none; }
+
+/* ─── Démonstrations des modes Camouflage et Langue créée ─── */
+.demo-mode { position: relative; background: #12161F; border: 1px solid rgba(255,255,255,.08); border-radius: 28px; padding: 20px; box-shadow: var(--ombre), var(--halo); display: flex; flex-direction: column; gap: 14px; }
+.demo-mode.camouflage { box-shadow: var(--ombre), 0 0 46px rgba(139,92,246,.18); }
+.fil-mini { display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,.06); }
+.fil-mini .contact { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-weight: 600; font-size: 13px; color: #fff; background: linear-gradient(135deg, #F59E0B, #EC4899); object-fit: cover; }
+.fil-mini b { font-size: 14px; }
+.bulle-envoyee, .bulle-recue { max-width: 86%; border-radius: 18px; padding: 10px 14px; font-size: 14.5px; line-height: 1.45; min-height: 44px; transition: opacity .18s ease; }
+.bulle-envoyee { align-self: flex-end; background: linear-gradient(135deg, rgba(139,92,246,.35), rgba(167,139,250,.28)); border: 1px solid rgba(167,139,250,.35); border-end-end-radius: 6px; }
+.bulle-recue { align-self: flex-start; background: #232A36; border-end-start-radius: 6px; }
+.bulle-envoyee.fondu, .bulle-recue.fondu { opacity: 0; }
+.capsule.statique { position: static; animation: none; align-self: center; margin-top: 6px; }
+.pilule.violette { background: linear-gradient(135deg, rgba(139,92,246,.62), rgba(167,139,250,.62)); animation-name: respire-violet; }
+@keyframes respire-violet { from { box-shadow: 0 5px 12px rgba(0,0,0,.35), 0 0 13px rgba(139,92,246,.25); } to { box-shadow: 0 5px 12px rgba(0,0,0,.35), 0 0 20px 3px rgba(139,92,246,.42); } }
+.pilule.violette.succes { background: linear-gradient(135deg, rgba(48,164,108,.85), rgba(139,92,246,.62)); }
+.points-cles { display: grid; gap: 14px; margin-top: 8px; }
+.points-cles > div { padding-inline-start: 16px; border-inline-start: 2px solid rgba(76,141,255,.45); }
+#camouflage .points-cles > div { border-inline-start-color: rgba(167,139,250,.55); }
+.points-cles b { display: block; font-weight: 600; margin-bottom: 2px; color: var(--texte); }
+.points-cles p { margin: 0; font-size: 15px; }
+.avertissement { display: flex; gap: 10px; align-items: flex-start; margin-top: 20px; padding: 12px 14px; border-radius: 12px; background: rgba(245,165,36,.07); border: 1px solid rgba(245,165,36,.25); font-size: 13.5px; color: #E9C98A !important; }
+.avertissement svg { width: 18px; height: 18px; flex: none; stroke: #F5A524; fill: none; stroke-width: 2; stroke-linecap: round; margin-top: 2px; }
+.pied small.marques { display: block; margin-top: 10px; font-size: 12px; opacity: .7; }

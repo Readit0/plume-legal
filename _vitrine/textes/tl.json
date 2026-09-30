@@ -69,5 +69,6 @@
   "legal_confidentialite": "Patakaran sa privacy",
   "legal_cgu": "Mga tuntunin ng paggamit",
   "legal_suppression": "Burahin ang account ko",
-  "legal_toutes": "Legal na impormasyon, lahat ng wika"
+  "legal_toutes": "Legal na impormasyon, lahat ng wika",
+  "autorisations_sans_lecture": "Ginagamit ng Plume ang accessibility service ng Android para basahin at palitan ang teksto sa field na sinusulatan mo, kapag na-tap mo ang capsule, at sa mga app lang na ikaw mismo ang nag-link. Wala itong ipinapadala sa background, at hindi ito kailanman nagpapadala ng mensahe para sa iyo."
 }

@@ -14,6 +14,13 @@ APP = r"C:\Users\T470s\Desktop\PLUME"
 URL = "https://readit0.github.io/plume-legal/"
 PLAY = "https://play.google.com/store/apps/details?id=com.plume.plume"
 RTL = {"ar", "fa", "he", "ur"}
+# La Lecture assistée n'est PAS active dans l'app (lib/core/feature_flags.dart :
+# lectureAssistee = false). Elle ne se montre pas sur le site tant qu'elle ne
+# l'est pas : passer à True le jour où elle s'active, puis relancer ce script.
+AFFICHER_LECTURE = False
+# Le nom d'une langue créée d'exemple, sur la capsule (avec son emblème).
+LANGUE_EXEMPLE = "Nylo"
+PHRASE_INVENTEE = "Ōvi tēla sā dūmin mōra kē ?"
 
 CODES = ["fr"] + sorted(
     d for d in os.listdir(SITE)
@@ -39,6 +46,46 @@ def charger_arb(code):
 
 
 ARB_EN = charger_arb("en")
+# langue → pays du drapeau (kLanguageFlagCountry de l'app) ; None = pas de drapeau, comme l'app
+DRAPEAUX = json.load(open(os.path.join(ICI, "drapeaux.json"), encoding="utf-8"))
+DRAPEAUX.setdefault("en", "us")
+
+
+def nom_pastille(code):
+    """Le libellé de la capsule : nom natif sans variante, 10 caractères au plus
+    (TranslatorMode.libellePastille + PersonaStore.nomDeBaseLangue)."""
+    nom = NOMS.get(code, code)
+    i = nom.find(" (")
+    return (nom if i <= 0 else nom[:i]).strip()[:10]
+
+
+# Les répliques entre guillemets d'un texte de l'app, dans toutes les écritures.
+GUILLEMETS = [("«", "»"), ("»", "«"), ("“", "”"), ("„", "“"), ("„", "”"), ('"', '"'), ("「", "」"),
+              ("『", "』"), ("‘", "’"), ("‚", "‘"), ("״", "״"), ("‹", "›"), ("《", "》"), ("”", "”")]
+
+
+def repliques(texte):
+    """Les deux premières citations du texte, lues de GAUCHE À DROITE : chaque
+    citation est consommée entière avant de chercher la suivante — sinon le mot
+    ENTRE deux citations (« devient ») passerait pour une citation."""
+    fermants = {}
+    for a, b in GUILLEMETS:
+        fermants.setdefault(a, []).append(b)
+    out, i = [], 0
+    while i < len(texte) and len(out) < 2:
+        ch = texte[i]
+        if ch in fermants:
+            fins = [texte.find(b, i + 1) for b in fermants[ch]]
+            fins = [j for j in fins if j > i + 1]
+            if fins:
+                j = min(fins)
+                seg = texte[i + 1:j].strip()
+                if 2 <= len(seg) <= 120:
+                    out.append(seg)
+                i = j + 1
+                continue
+        i += 1
+    return out if len(out) == 2 else None
 TXT_EN = json.load(open(os.path.join(ICI, "textes", "en.json"), encoding="utf-8"))
 
 GRATUITES = [
@@ -115,14 +162,25 @@ def page(code):
         f'\n  <link rel="alternate" hreflang="{c}" href="{URL}{"" if c == "fr" else c + "/"}">' for c in CODES
     ) + f'\n  <link rel="alternate" hreflang="x-default" href="{URL}en/">'
 
-    seg_a = code.split("-")[0].upper()[:4]
-    seg_b = "FR" if code == "en" else "EN"
+    # La bande de langues de la capsule : drapeau + nom natif, comme l'app (HF-481).
+    def moitie(c, cible=False):
+        pays = DRAPEAUX.get(c)
+        drap = f'<img src="{img}drapeaux/{pays}.webp" alt="" height="12">' if pays else ""
+        return f'<span{" class=\"cible\"" if cible else ""}>{drap}{html.escape(nom_pastille(c))}</span>'
+
+    autre = "fr" if code == "en" else "en"
+    segment = f'<span class="segment">{moitie(code, True)}{moitie(autre)}</span>'
+    segment_langue = (f'<span class="segment">{moitie(code)}<span class="cible"><img class="embleme" '
+                      f'src="{img}embleme-langue.webp" alt="" height="14">{html.escape(LANGUE_EXEMPLE)}</span></span>')
+    camo = repliques(arb.get("camoExpGesteTapCorps") or "") or repliques(ARB_EN.get("camoExpGesteTapCorps", ""))
+    lecture_nav = f'\n        <a href="#lecture">{T("nav_lecture")}</a>' if AFFICHER_LECTURE else ""
+    autorisations = T("autorisations_texte") if AFFICHER_LECTURE else T("autorisations_sans_lecture")
     # la planche : des répliques de manga en japonais (en coréen sur la page japonaise)
     orig1, orig2 = ("기다려! 나 두고 가지 마!", "같이 가자.") if code == "ja" else ("待って！置いていかないで！", "一緒に行こう。")
     initiale = html.escape((brut("demo_contact") or "?")[0].upper())
     canon = URL + ("" if code == "fr" else code + "/")
 
-    return f"""---
+    sortie = f"""---
 layout: null
 ---
 {{% raw %}}<!DOCTYPE html>
@@ -142,9 +200,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="{img}favicon-32.png">
   <link rel="apple-touch-icon" href="{img}icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{img}polices/polices.css">
   <link rel="stylesheet" href="{img}vitrine.css">
 </head>
 <body>
@@ -156,7 +212,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">{T("nav_geste")}</a>
         <a href="#styles">{T("nav_styles")}</a>
-        <a href="#lecture">{T("nav_lecture")}</a>
+        <a href="#camouflage">{A("capsuleCamouflageLabel")}</a>{lecture_nav}
         <a href="#confidentialite">{T("nav_confidentialite")}</a>
         <details class="langues">
           <summary aria-label="{attr(brut("langues_label"))}">{GLOBE}{html.escape(NOMS[code])}</summary>
@@ -193,7 +249,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on">{GLOBE}</span>
                   <span class="puce-ctrl">{MICRO}</span>
-                  <span class="segment"><span class="cible">{seg_a}</span><span>{seg_b}</span></span>
+                  {segment}
                 </div>
                 <button type="button" class="pilule" aria-label="{attr(brut("demo_consigne"))}">
                   <img src="{img}personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -272,6 +328,64 @@ layout: null
       </div>
     </section>
 
+    <section class="bloc" id="camouflage">
+      <div class="conteneur deux">
+        <div class="apparait">
+          <div class="titre-section"><h2>{A("camoExpTitre")}</h2><p>{A("camoExpSousTitre")}</p></div>
+          <div class="points-cles">
+            <div><b>{A("camoExpGesteTapTitre")}</b><p>{A("camoExpGesteTapCorps")}</p></div>
+            <div><b>{A("camoExpGesteLongTitre")}</b><p>{A("camoExpGesteLongCorps")}</p></div>
+            <div><b>{A("camoLexiqueIntroTitre")}</b><p>{A("camoLexiqueIntroDesc")}</p></div>
+          </div>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>{A("camoExpAvertissement")}</span></p>
+        </div>
+        <div class="apparait">
+          <div class="demo-mode camouflage" data-bascule data-a="{attr(camo[0]) if camo else ''}" data-b="{attr(camo[1]) if camo else ''}" data-reussi="{attr(arb.get("capsuleCamouflageLabel") or ARB_EN.get("capsuleCamouflageLabel"))}">
+            <div class="fil-mini"><span class="contact">{initiale}</span><b>{T("demo_contact")}</b></div>
+            <div class="bulle-envoyee" aria-live="polite">{html.escape(camo[0]) if camo else A("camoExpGesteTapCorps")}</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl">{MICRO}</span></div>
+              <button type="button" class="pilule violette" aria-label="{attr(arb.get("camoExpGesteTapTitre") or ARB_EN.get("camoExpGesteTapTitre"))}">
+                <img src="{img}embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">{A("capsuleCamouflageLabel")}</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">{A("camoExpGesteTapTitre")}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="{attr(PHRASE_INVENTEE)}" data-b="{attr(brut("demo_recu"))}" data-reussi="{attr(nom_pastille(code))}">
+            <div class="fil-mini"><img class="contact embleme-contact" src="{img}embleme-langue.webp" alt=""><b>{html.escape(LANGUE_EXEMPLE)}</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">{html.escape(PHRASE_INVENTEE)}</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on">{GLOBE}</span>{segment_langue}</div>
+              <button type="button" class="pilule" aria-label="{attr(arb.get("camoExpGesteLongTitre") or ARB_EN.get("camoExpGesteLongTitre"))}">
+                <img src="{img}personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">{A("styleDirect")}</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">{A("camoExpGesteLongTitre")}</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>{A("langCreateDesc")}</h2><p>{A("langAttendDesc")}</p></div>
+          <div class="points-cles">
+            <div><b>{A("langImportTitle")}</b><p>{A("langImportDesc")}</p></div>
+            <div><b>{A("langFicheRegles")}</b><p>{A("langFicheReglesIntro")}</p></div>
+            <div><b>{A("langDefTitre")}</b><p>{A("langDefIntro")}</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--LECTURE-->
     <section class="bloc" id="lecture">
       <div class="conteneur deux">
         <div class="planche-cadre apparait inverse" data-lecture>
@@ -312,6 +426,7 @@ layout: null
         </div>
       </div>
     </section>
+<!--/LECTURE-->
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -335,7 +450,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>{T("autorisations_titre")}</h3><p>{T("autorisations_texte")}</p></div>
+          <div><h3>{T("autorisations_titre")}</h3><p>{autorisations}</p></div>
         </div>
       </div>
     </section>
@@ -355,7 +470,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · {T("pied_contact")} : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · {T("pied_contact")} : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="{attr(brut("legal_toutes"))}">
         <a href="politique-confidentialite">{T("legal_confidentialite")}</a>
         <a href="conditions-generales">{T("legal_cgu")}</a>
@@ -368,6 +484,9 @@ layout: null
 </body>
 </html>{{% endraw %}}
 """
+    if not AFFICHER_LECTURE:
+        sortie = re.sub(r"<!--LECTURE-->.*?<!--/LECTURE-->\n?", "", sortie, flags=re.S)
+    return sortie.replace("<!--LECTURE-->\n", "").replace("<!--/LECTURE-->\n", "")
 
 
 if __name__ == "__main__":

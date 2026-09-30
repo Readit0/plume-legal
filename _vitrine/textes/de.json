@@ -69,5 +69,6 @@
   "legal_confidentialite": "Datenschutzerklärung",
   "legal_cgu": "Allgemeine Geschäftsbedingungen",
   "legal_suppression": "Mein Konto löschen",
-  "legal_toutes": "Rechtliche Informationen, alle Sprachen"
+  "legal_toutes": "Rechtliche Informationen, alle Sprachen",
+  "autorisations_sans_lecture": "Plume nutzt den Bedienungshilfen-Dienst von Android, um den Text in dem Feld, in dem du schreibst, zu lesen und zu ersetzen, wenn du die Kapsel antippst, und nur in den Apps, die du selbst verknüpft hast. Sie sendet nichts im Hintergrund und schickt niemals eine Nachricht an deiner Stelle."
 }

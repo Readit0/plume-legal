@@ -69,5 +69,6 @@
   "legal_confidentialite": "Política de privacidade",
   "legal_cgu": "Termos e condições",
   "legal_suppression": "Eliminar a minha conta",
-  "legal_toutes": "Informações legais, todas as línguas"
+  "legal_toutes": "Informações legais, todas as línguas",
+  "autorisations_sans_lecture": "O Plume usa o serviço de acessibilidade do Android para ler e substituir o texto do campo onde escreves, quando tocas na cápsula, e só nas aplicações que associaste. Não envia nada em segundo plano e nunca envia uma mensagem por ti."
 }

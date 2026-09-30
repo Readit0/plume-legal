@@ -69,5 +69,6 @@
   "legal_confidentialite": "隐私政策",
   "legal_cgu": "使用条款",
   "legal_suppression": "删除我的账号",
-  "legal_toutes": "法律信息，所有语言"
+  "legal_toutes": "法律信息，所有语言",
+  "autorisations_sans_lecture": "Plume 使用 Android 的无障碍服务，在你点按胶囊时读取并替换你正在输入的文字，而且只在你关联过的应用里生效。它不会在后台发送任何内容，也绝不会替你发出消息。"
 }

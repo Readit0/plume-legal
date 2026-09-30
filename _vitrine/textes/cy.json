@@ -69,5 +69,6 @@
   "legal_confidentialite": "Polisi preifatrwydd",
   "legal_cgu": "Telerau ac amodau",
   "legal_suppression": "Dileu fy nghyfrif",
-  "legal_toutes": "Gwybodaeth gyfreithiol, pob iaith"
+  "legal_toutes": "Gwybodaeth gyfreithiol, pob iaith",
+  "autorisations_sans_lecture": "Mae Plume yn defnyddio gwasanaeth hygyrchedd Android i ddarllen ac amnewid y testun yn y maes rwyt ti'n ysgrifennu ynddo, pan gyffyrddi â'r capsiwl, ac yn yr apiau rwyt ti wedi'u cysylltu yn unig. Nid yw'n anfon dim yn y cefndir, ac nid yw byth yn anfon neges ar dy ran."
 }

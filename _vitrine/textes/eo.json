@@ -69,5 +69,6 @@
   "legal_confidentialite": "Privatecpolitiko",
   "legal_cgu": "Ĝeneralaj kondiĉoj",
   "legal_suppression": "Forigi mian konton",
-  "legal_toutes": "Juraj informoj, ĉiuj lingvoj"
+  "legal_toutes": "Juraj informoj, ĉiuj lingvoj",
+  "autorisations_sans_lecture": "Plume uzas la alireblecan servon de Android por legi kaj anstataŭigi la tekston de la kampo, kie vi skribas, kiam vi tuŝas la kapsulon, kaj nur en la aplikaĵoj, kiujn vi ligis. Ĝi nenion sendas fone kaj neniam sendas mesaĝon anstataŭ vi."
 }

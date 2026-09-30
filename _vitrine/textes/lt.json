@@ -69,5 +69,6 @@
   "legal_confidentialite": "Privatumo politika",
   "legal_cgu": "Naudojimo sąlygos",
   "legal_suppression": "Ištrinti mano paskyrą",
-  "legal_toutes": "Teisinė informacija, visomis kalbomis"
+  "legal_toutes": "Teisinė informacija, visomis kalbomis",
+  "autorisations_sans_lecture": "Plume naudoja Android pritaikymo neįgaliesiems paslaugą, kad perskaitytų ir pakeistų tekstą lauke, kuriame rašai, kai palieti kapsulę, ir tik tavo susietose programėlėse. Ji nieko nesiunčia fone ir niekada nesiunčia žinutės tavo vietoje."
 }

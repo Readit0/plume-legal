@@ -69,5 +69,6 @@
   "legal_confidentialite": "Privātuma politika",
   "legal_cgu": "Lietošanas noteikumi",
   "legal_suppression": "Dzēst manu kontu",
-  "legal_toutes": "Juridiskā informācija, visas valodas"
+  "legal_toutes": "Juridiskā informācija, visas valodas",
+  "autorisations_sans_lecture": "Plume izmanto Android pieejamības pakalpojumu, lai lasītu un aizstātu teksta lauka saturu, kur tu raksti, kad pieskaries kapsulai, un tikai tajās lietotnēs, kuras esi piesaistījis. Tas neko nesūta fonā un nekad nenosūta ziņu tavā vietā."
 }

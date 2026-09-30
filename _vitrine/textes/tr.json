@@ -69,5 +69,6 @@
   "legal_confidentialite": "Gizlilik politikası",
   "legal_cgu": "Genel koşullar",
   "legal_suppression": "Hesabımı sil",
-  "legal_toutes": "Yasal bilgiler, tüm diller"
+  "legal_toutes": "Yasal bilgiler, tüm diller",
+  "autorisations_sans_lecture": "Plume, kapsüle dokunduğunda ve yalnızca bağladığın uygulamalarda, yazdığın alandaki metni okumak ve değiştirmek için Android erişilebilirlik hizmetini kullanır. Arka planda hiçbir şey göndermez ve senin yerine asla mesaj göndermez."
 }

@@ -69,5 +69,6 @@
   "legal_confidentialite": "Persónuverndarstefna",
   "legal_cgu": "Almennir skilmálar",
   "legal_suppression": "Eyða reikningnum mínum",
-  "legal_toutes": "Lagalegar upplýsingar, öll tungumál"
+  "legal_toutes": "Lagalegar upplýsingar, öll tungumál",
+  "autorisations_sans_lecture": "Plume notar aðgengisþjónustu Android til að lesa og skipta út textanum í reitnum sem þú skrifar í, þegar þú snertir hylkið, og aðeins í þeim forritum sem þú hefur sjálf(ur) tengt. Það sendir ekkert í bakgrunni og sendir aldrei skilaboð fyrir þig."
 }

@@ -69,5 +69,6 @@
   "legal_confidentialite": "Maxfiylik siyosati",
   "legal_cgu": "Umumiy shartlar",
   "legal_suppression": "Hisobimni o‘chirish",
-  "legal_toutes": "Huquqiy ma’lumotlar, barcha tillar"
+  "legal_toutes": "Huquqiy ma’lumotlar, barcha tillar",
+  "autorisations_sans_lecture": "Plume kapsulaga tekkaningda, faqat ulagan ilovalaringda yozayotgan maydondagi matnni o‘qish va almashtirish uchun Android maxsus imkoniyatlar xizmatidan foydalanadi. U fonda hech narsa yubormaydi va sening o‘rningga hech qachon xabar yubormaydi."
 }

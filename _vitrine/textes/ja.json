@@ -69,5 +69,6 @@
   "legal_confidentialite": "プライバシーポリシー",
   "legal_cgu": "利用規約",
   "legal_suppression": "アカウントを削除する",
-  "legal_toutes": "法的情報（すべての言語）"
+  "legal_toutes": "法的情報（すべての言語）",
+  "autorisations_sans_lecture": "Plumeは、カプセルをタップしたときだけ、Androidのアクセシビリティサービスを使って入力中の文字を読み取り、置き換えます。対象は、あなたが連携したアプリに限られます。 バックグラウンドで何かを送信することはなく、あなたに代わってメッセージを送ることも決してありません。"
 }

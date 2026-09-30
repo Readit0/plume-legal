@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">사용 방법</a>
         <a href="#styles">스타일</a>
-        <a href="#lecture">읽기 도우미</a>
+        <a href="#camouflage">위장</a>
         <a href="#confidentialite">개인정보</a>
         <details class="langues">
           <summary aria-label="사이트 언어"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>한국어</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">KO</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/kr.webp" alt="" height="12">한국어</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="스타일을 고른 뒤 캡슐을 눌러 보세요.">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">번역 · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>당신의 메시지는 다른 이야기를 합니다</h2><p>작성한 내용은 평범한 문장으로 바뀝니다. 상대방이 Plume을 쓰면 실제 메시지를 되찾을 수 있어요.</p></div>
+          <div class="points-cles">
+            <div><b>캡슐 한 번 탭</b><p>방금 쓴 내용을 위장합니다. “진심으로 사랑해”가 “그라탱을 세 번 더 먹었어”로 바뀝니다.</p></div>
+            <div><b>캡슐 길게 누르기</b><p>화면에 표시된 내용을 해독합니다. 받은 위장 메시지를 읽을 수 있게 만드는 동작이에요.</p></div>
+            <div><b>두 사람만을 위한 비밀 코드</b><p>당신이 쓰는 모든 단어는 당신이 선택한 테마 속 실제 단어로 대체됩니다. 디코딩하면 문장이 정확히, 단어 그대로 복원됩니다 — 결코 근사치가 아닙니다.</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">잠깐! 나 두고 가지 마!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">같이 가자.</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">“번역”을 누르면 번역이 글자 위에 나타나요.</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>이건 글쓰기 놀이지 금고가 아닙니다. 텍스트는 위장을 위해 저희 서버를 거치고, Plume 사용자라면 누구나 해독할 수 있어요. 엽서에 쓰지 않을 내용은 맡기지 마세요.</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>읽기 도우미</h2></div>
-          <p>읽고 있는 것을 번역해 드려요. 만화, 웹툰, 외국 앱까지. 번역은 원문 위 그 자리에 나타나서, 아무것도 복사하지 않고 내 언어로 읽을 수 있어요.</p>
-          <p>Plume은 내 언어를 쓰고, 수십 가지 다른 언어로도 번역해요.</p>
+          <div class="demo-mode camouflage" data-bascule data-a="진심으로 사랑해" data-b="그라탱을 세 번 더 먹었어" data-reussi="위장">
+            <div class="fil-mini"><span class="contact">지</span><b>지민</b></div>
+            <div class="bulle-envoyee" aria-live="polite">진심으로 사랑해</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="캡슐 한 번 탭">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">위장</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">캡슐 한 번 탭</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="내일 프로젝트 때문에 만날까?" data-reussi="한국어">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/kr.webp" alt="" height="12">한국어</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="캡슐 길게 누르기">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">직설적</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">캡슐 길게 누르기</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>나만의 언어를 만들고 공유하세요.</h2><p>고유한 언어가 될 것이고, 공유할 수도 있어요.</p></div>
+          <div class="points-cles">
+            <div><b>받은 언어 추가</b><p>QR 코드를 스캔하거나 받은 링크를 붙여넣으세요.</p></div>
+            <div><b>규칙</b><p>이 형태들은 절대 변하지 않습니다. 그래서 다른 사람이 당신의 글을 다시 읽을 수 있는 것입니다.</p></div>
+            <div><b>정의</b><p>앱의 언어로 작성됩니다. 일부 단어는 대응어가 없어서, 정의만이 그 의미를 전달할 수 있습니다.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>권한, 그리고 Plume이 하지 않는 일</h3><p>Plume은 캡슐을 누를 때 글을 쓰고 있는 입력란의 글자를 읽고 바꾸기 위해 Android 접근성 서비스를 사용하며, 내가 연결한 앱에서만 작동해요. 읽기 도우미는 세션마다 화면 캡처 동의를 다시 물어요. 백그라운드에서 아무것도 보내지 않고, 나 대신 메시지를 보내는 일도 절대 없어요.</p></div>
+          <div><h3>권한, 그리고 Plume이 하지 않는 일</h3><p>Plume은 캡슐을 누를 때 글을 쓰고 있는 입력란의 글자를 읽고 바꾸기 위해 Android 접근성 서비스를 사용하며, 내가 연결한 앱에서만 작동해요. 백그라운드에서 아무것도 보내지 않고, 나 대신 메시지를 보내는 일도 절대 없어요.</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · 문의 : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · 문의 : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="법적 고지, 모든 언어">
         <a href="politique-confidentialite">개인정보 처리방침</a>
         <a href="conditions-generales">이용약관</a>

@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">Il gesto</a>
         <a href="#styles">Gli stili</a>
-        <a href="#lecture">Lettura assistita</a>
+        <a href="#camouflage">Mimetizzazione</a>
         <a href="#confidentialite">Privacy</a>
         <details class="langues">
           <summary aria-label="Lingua del sito"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>Italiano</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">IT</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/it.webp" alt="" height="12">Italiano</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="Scegli uno stile, poi tocca la capsula.">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">Traduci · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>I tuoi messaggi dicono altro</h2><p>Ciò che scrivi viene sostituito da una frase innocua. Il tuo contatto, se ha Plume, ritrova il messaggio reale.</p></div>
+          <div class="points-cles">
+            <div><b>Tocco singolo sulla capsula</b><p>Mimetizza ciò che hai appena scritto. «Ti amo con tutto il cuore» diventa «Ho fatto il bis tre volte del gratin».</p></div>
+            <div><b>Pressione lunga sulla capsula</b><p>Decodifica ciò che appare sullo schermo. È il gesto che rende leggibile un messaggio mimetizzato che hai ricevuto.</p></div>
+            <div><b>Un codice segreto, solo per voi due</b><p>Ogni parola che scrivi viene sostituita da una parola vera di un tema che scegli. La decodifica ritrova la tua frase esatta, parola per parola — mai un'approssimazione.</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">Aspetta! Non andartene senza di me!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">Andiamo insieme.</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">Tocca «Traduci»: la traduzione si posa sul testo.</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>È un gioco di scrittura, non una cassaforte. Il tuo testo passa dai nostri server per essere mimetizzato, e qualsiasi utente Plume può decodificarlo. Non affidargli ciò che non scriveresti su una cartolina.</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>Lettura assistita</h2></div>
-          <p>Traduci quello che leggi: manga, webtoon, app straniere. La traduzione appare sopra il testo, al suo posto: leggi nella tua lingua senza copiare nulla.</p>
-          <p>Plume parla la tua lingua e traduce in decine di altre.</p>
+          <div class="demo-mode camouflage" data-bascule data-a="Ti amo con tutto il cuore" data-b="Ho fatto il bis tre volte del gratin" data-reussi="Mimetizzazione">
+            <div class="fil-mini"><span class="contact">G</span><b>Giulia</b></div>
+            <div class="bulle-envoyee" aria-live="polite">Ti amo con tutto il cuore</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="Tocco singolo sulla capsula">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">Mimetizzazione</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Tocco singolo sulla capsula</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="Ci vediamo domani per il progetto?" data-reussi="Italiano">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/it.webp" alt="" height="12">Italiano</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="Pressione lunga sulla capsula">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">Diretto</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Pressione lunga sulla capsula</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>Crea la tua lingua unica e condividila.</h2><p>Sarà unica, e potrai condividerla.</p></div>
+          <div class="points-cles">
+            <div><b>Aggiungi una lingua ricevuta</b><p>Scansiona il QR code o incolla il link che ti hanno inviato.</p></div>
+            <div><b>Regole</b><p>Queste forme non cambiano mai: è quello che permette a qualcun altro di leggerti.</p></div>
+            <div><b>Definizione</b><p>Redatta nella lingua della tua app. Alcune parole non hanno alcun equivalente: solo una definizione ne trasmette il senso.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>Autorizzazioni, e ciò che Plume non fa</h3><p>Plume usa il servizio di accessibilità di Android per leggere e sostituire il testo del campo in cui scrivi, quando tocchi la capsula, e solo nelle app che hai collegato. La Lettura assistita ti richiede il consenso alla cattura a ogni sessione. Non invia nulla in background e non manda mai un messaggio al posto tuo.</p></div>
+          <div><h3>Autorizzazioni, e ciò che Plume non fa</h3><p>Plume usa il servizio di accessibilità di Android per leggere e sostituire il testo del campo in cui scrivi, quando tocchi la capsula, e solo nelle app che hai collegato. Non invia nulla in background e non manda mai un messaggio al posto tuo.</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · Contatti : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · Contatti : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="Informazioni legali, tutte le lingue">
         <a href="politique-confidentialite">Informativa sulla privacy</a>
         <a href="conditions-generales">Condizioni generali</a>

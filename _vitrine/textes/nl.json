@@ -69,5 +69,6 @@
   "legal_confidentialite": "Privacybeleid",
   "legal_cgu": "Algemene voorwaarden",
   "legal_suppression": "Mijn account verwijderen",
-  "legal_toutes": "Juridische informatie, alle talen"
+  "legal_toutes": "Juridische informatie, alle talen",
+  "autorisations_sans_lecture": "Plume gebruikt de toegankelijkheidsservice van Android om de tekst in het veld waarin je schrijft te lezen en te vervangen, wanneer je op de capsule tikt, en alleen in de apps die je zelf hebt gekoppeld. Er wordt niets op de achtergrond verstuurd, en er wordt nooit een bericht namens jou verzonden."
 }

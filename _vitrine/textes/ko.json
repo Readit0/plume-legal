@@ -69,5 +69,6 @@
   "legal_confidentialite": "개인정보 처리방침",
   "legal_cgu": "이용약관",
   "legal_suppression": "내 계정 삭제",
-  "legal_toutes": "법적 고지, 모든 언어"
+  "legal_toutes": "법적 고지, 모든 언어",
+  "autorisations_sans_lecture": "Plume은 캡슐을 누를 때 글을 쓰고 있는 입력란의 글자를 읽고 바꾸기 위해 Android 접근성 서비스를 사용하며, 내가 연결한 앱에서만 작동해요. 백그라운드에서 아무것도 보내지 않고, 나 대신 메시지를 보내는 일도 절대 없어요."
 }

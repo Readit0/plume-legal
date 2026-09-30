@@ -46,6 +46,30 @@
     });
   }
 
+  // ─── Camouflage et Langue créée : la capsule transforme la phrase, et retour ───
+  document.querySelectorAll("[data-bascule]").forEach(function (bloc) {
+    var a = bloc.getAttribute("data-a"), b = bloc.getAttribute("data-b");
+    var bulle = bloc.querySelector(".bulle-envoyee, .bulle-recue");
+    var pil = bloc.querySelector(".pilule");
+    var nomB = pil.querySelector(".nom");
+    var repos = nomB.textContent;
+    if (!a || !b) { pil.disabled = true; return; }
+    var etat = false, occ = false;
+    pil.addEventListener("click", function () {
+      if (occ) return;
+      occ = true;
+      pil.classList.add("travail");
+      setTimeout(function () {
+        pil.classList.remove("travail");
+        etat = !etat;
+        bulle.classList.add("fondu");
+        setTimeout(function () { bulle.textContent = etat ? b : a; bulle.classList.remove("fondu"); }, reduit ? 0 : 180);
+        pil.classList.add("succes");
+        setTimeout(function () { pil.classList.remove("succes"); nomB.textContent = repos; occ = false; }, 1100);
+      }, reduit ? 0 : 900);
+    });
+  });
+
   // ─── Règles par application : les interrupteurs basculent ───
   document.querySelectorAll(".interrupteur").forEach(function (s) {
     s.addEventListener("click", function () {

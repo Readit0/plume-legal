@@ -69,5 +69,6 @@
   "legal_confidentialite": "Politikan'ny fiainana manokana",
   "legal_cgu": "Fepetra ankapobeny",
   "legal_suppression": "Fafao ny kaontiko",
-  "legal_toutes": "Fampahalalana ara-dalàna, fiteny rehetra"
+  "legal_toutes": "Fampahalalana ara-dalàna, fiteny rehetra",
+  "autorisations_sans_lecture": "Mampiasa ny serivisy fidirana (accessibility) an'i Android i Plume mba hamaky sy hisolo ny lahatsoratra ao amin'ny saha anoratanao, rehefa manindry ny kapsiola ianao, ary ao amin'ny app nampifandraisinao ihany. Tsy mandefa na inona na inona any aoriana izy, ary tsy mandefa hafatra amin'ny anaranao mihitsy."
 }

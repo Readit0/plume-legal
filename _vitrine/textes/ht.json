@@ -69,5 +69,6 @@
   "legal_confidentialite": "Politik konfidansyalite",
   "legal_cgu": "Kondisyon itilizasyon",
   "legal_suppression": "Efase kont mwen",
-  "legal_toutes": "Enfòmasyon legal, tout lang"
+  "legal_toutes": "Enfòmasyon legal, tout lang",
+  "autorisations_sans_lecture": "Plume sèvi ak sèvis aksesibilite Android pou li epi ranplase tèks nan chan kote w ap ekri a, lè w touche kapsil la, epi sèlman nan aplikasyon ou lye yo. Li pa voye anyen an background, epi li pa janm voye yon mesaj pou ou."
 }

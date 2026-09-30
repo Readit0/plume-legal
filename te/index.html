@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">ఈ చర్య</a>
         <a href="#styles">శైలులు</a>
-        <a href="#lecture">సహాయక పఠనం</a>
+        <a href="#camouflage">మారువేషం</a>
         <a href="#confidentialite">గోప్యత</a>
         <details class="langues">
           <summary aria-label="సైట్ భాష"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>తెలుగు</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">TE</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/in.webp" alt="" height="12">తెలుగు</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="ఒక శైలిని ఎంచుకుని, క్యాప్సూల్‌ను తాకు.">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">అనువదించు · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>మీ సందేశాలు వేరే విషయం చెబుతున్నాయి</h2><p>మీరు రాసేది హానిచేయని వాక్యంతో భర్తీ చేయబడుతుంది. మీ కాంటాక్ట్‌కు Plume ఉంటే, వారు నిజమైన సందేశాన్ని అందుకుంటారు.</p></div>
+          <div class="points-cles">
+            <div><b>క్యాప్సూల్‌పై ఒక ట్యాప్</b><p>మీరు ఇప్పుడే రాసినదాన్ని దాచిపెడుతుంది. «నేను నిన్ను నా పూర్తి హృదయంతో ప్రేమిస్తున్నాను» అనేది «నేను గ్రాటిన్‌లో మూడవ భాగం తిన్నాను» గా మారుతుంది.</p></div>
+            <div><b>క్యాప్సూల్‌పై దీర్ఘంగా నొక్కండి</b><p>స్క్రీన్‌పై చూపబడేదాన్ని డీకోడ్ చేస్తుంది. మీరు అందుకున్న మభ్యపెట్టిన సందేశాన్ని మళ్లీ చదవగలిగేలా చేసే సంజ్ఞ ఇదే.</p></div>
+            <div><b>మీ ఇద్దరికే సొంతమైన రహస్య కోడ్</b><p>మీరు రాసే ప్రతి పదాన్ని మీరు ఎంచుకున్న అంశంలోని నిజమైన పదంతో భర్తీ చేస్తారు. డీకోడ్ చేయడం మీ వాక్యాన్ని సరిగ్గా, పదానికి పదం, తిరిగి పొందుతుంది — ఎప్పుడూ అంచనా కాదు.</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">ఆగు! నన్ను వదిలి వెళ్ళకు!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">కలిసి వెళ్దాం.</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">«అనువదించు» తాకు: అనువాదం పాఠ్యం పైన వచ్చి కూర్చుంటుంది.</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>ఇది రాత ఆట, లాకర్ కాదు. మీ వచనం మభ్యపెట్టబడటానికి మా సర్వర్ల ద్వారా వెళుతుంది, ఏ Plume వినియోగదారు అయినా దాన్ని డీకోడ్ చేయవచ్చు. పోస్ట్‌కార్డ్‌పై రాయని దేనినీ దానిపై నమ్మవద్దు.</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>సహాయక పఠనం</h2></div>
-          <p>నువ్వు చదివేదాన్ని అనువదించు: మాంగా, వెబ్‌టూన్, విదేశీ యాప్‌లు. అనువాదం పాఠ్యం పైనే, దాని స్థానంలో కనిపిస్తుంది: ఏదీ కాపీ చేయకుండా నీ భాషలో చదువుతావు.</p>
-          <p>Plume నీ భాష మాట్లాడుతుంది, ఇంకా డజన్ల కొద్దీ భాషల్లోకి అనువదిస్తుంది.</p>
+          <div class="demo-mode camouflage" data-bascule data-a="నేను నిన్ను నా పూర్తి హృదయంతో ప్రేమిస్తున్నాను" data-b="నేను గ్రాటిన్‌లో మూడవ భాగం తిన్నాను" data-reussi="మారువేషం">
+            <div class="fil-mini"><span class="contact">అ</span><b>అనిత</b></div>
+            <div class="bulle-envoyee" aria-live="polite">నేను నిన్ను నా పూర్తి హృదయంతో ప్రేమిస్తున్నాను</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="క్యాప్సూల్‌పై ఒక ట్యాప్">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">మారువేషం</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">క్యాప్సూల్‌పై ఒక ట్యాప్</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="రేపు ప్రాజెక్ట్ గురించి కలుద్దామా?" data-reussi="తెలుగు">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/in.webp" alt="" height="12">తెలుగు</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="క్యాప్సూల్‌పై దీర్ఘంగా నొక్కండి">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">సూటిగా</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">క్యాప్సూల్‌పై దీర్ఘంగా నొక్కండి</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>మీ స్వంత ప్రత్యేక భాషను సృష్టించి దాన్ని పంచుకోండి.</h2><p>ఇది ప్రత్యేకంగా ఉంటుంది, మీరు దీన్ని పంచుకోగలరు.</p></div>
+          <div class="points-cles">
+            <div><b>మీరు అందుకున్న భాషను జోడించండి</b><p>QR కోడ్‌ను స్కాన్ చేయండి లేదా మీకు పంపిన లింక్‌ను అతికించండి.</p></div>
+            <div><b>నియమాలు</b><p>ఈ రూపాలు ఎప్పటికీ మారవు: ఇదే మరొకరు మిమ్మల్ని చదవడానికి అనుమతిస్తుంది.</p></div>
+            <div><b>నిర్వచనం</b><p>మీ యాప్ భాషలో రాయబడింది. కొన్ని పదాలకు సమానార్థకం లేదు: ఒక నిర్వచనం మాత్రమే అర్థాన్ని తెలియజేస్తుంది.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>అనుమతులు, Plume చేయనివి</h3><p>నువ్వు క్యాప్సూల్‌ను తాకినప్పుడు, నువ్వు లింక్ చేసిన యాప్‌లలో మాత్రమే, నువ్వు రాసే ఫీల్డ్‌లోని పాఠ్యాన్ని చదవడానికి, మార్చడానికి Plume Android యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తుంది. సహాయక పఠనం ప్రతి సెషన్‌లో స్క్రీన్ క్యాప్చర్‌కు నీ అంగీకారాన్ని మళ్ళీ అడుగుతుంది. అది బ్యాక్‌గ్రౌండ్‌లో ఏదీ పంపదు, నీ బదులు ఏ సందేశాన్నీ పంపదు.</p></div>
+          <div><h3>అనుమతులు, Plume చేయనివి</h3><p>నువ్వు క్యాప్సూల్‌ను తాకినప్పుడు, నువ్వు లింక్ చేసిన యాప్‌లలో మాత్రమే, నువ్వు రాసే ఫీల్డ్‌లోని పాఠ్యాన్ని చదవడానికి, మార్చడానికి Plume Android యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తుంది. అది బ్యాక్‌గ్రౌండ్‌లో ఏదీ పంపదు, నీ బదులు ఏ సందేశాన్నీ పంపదు.</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · సంప్రదించు : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · సంప్రదించు : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="చట్టపరమైన సమాచారం, అన్ని భాషల్లో">
         <a href="politique-confidentialite">గోప్యతా విధానం</a>
         <a href="conditions-generales">వినియోగ నిబంధనలు</a>

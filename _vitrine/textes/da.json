@@ -69,5 +69,6 @@
   "legal_confidentialite": "Privatlivspolitik",
   "legal_cgu": "Generelle vilkår",
   "legal_suppression": "Slet min konto",
-  "legal_toutes": "Juridiske oplysninger, alle sprog"
+  "legal_toutes": "Juridiske oplysninger, alle sprog",
+  "autorisations_sans_lecture": "Plume bruger Androids tilgængelighedstjeneste til at læse og erstatte teksten i det felt, du skriver i, når du trykker på kapslen, og kun i de apps, du selv har tilknyttet. Den sender intet i baggrunden og sender aldrig en besked på dine vegne."
 }

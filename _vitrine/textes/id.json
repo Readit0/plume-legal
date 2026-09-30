@@ -69,5 +69,6 @@
   "legal_confidentialite": "Kebijakan privasi",
   "legal_cgu": "Ketentuan penggunaan",
   "legal_suppression": "Hapus akunku",
-  "legal_toutes": "Informasi hukum, semua bahasa"
+  "legal_toutes": "Informasi hukum, semua bahasa",
+  "autorisations_sans_lecture": "Plume memakai layanan aksesibilitas Android untuk membaca dan mengganti teks di kolom tempat kamu menulis, saat kamu mengetuk kapsul, dan hanya di aplikasi yang sudah kamu tautkan. Plume tidak mengirim apa pun di latar belakang, dan tidak pernah mengirim pesan atas namamu."
 }

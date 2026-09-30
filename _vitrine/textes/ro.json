@@ -69,5 +69,6 @@
   "legal_confidentialite": "Politica de confidențialitate",
   "legal_cgu": "Termeni și condiții",
   "legal_suppression": "Șterge-mi contul",
-  "legal_toutes": "Informații legale, toate limbile"
+  "legal_toutes": "Informații legale, toate limbile",
+  "autorisations_sans_lecture": "Plume folosește serviciul de accesibilitate Android pentru a citi și a înlocui textul din câmpul în care scrii, când atingi capsula, și doar în aplicațiile pe care le-ai asociat. Nu trimite nimic în fundal și nu trimite niciodată un mesaj în locul tău."
 }

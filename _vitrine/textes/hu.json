@@ -69,5 +69,6 @@
   "legal_confidentialite": "Adatvédelmi irányelvek",
   "legal_cgu": "Felhasználási feltételek",
   "legal_suppression": "Fiókom törlése",
-  "legal_toutes": "Jogi tudnivalók, minden nyelven"
+  "legal_toutes": "Jogi tudnivalók, minden nyelven",
+  "autorisations_sans_lecture": "A Plume az Android kisegítő szolgáltatását használja a mező szövegének olvasására és cseréjére, ahová írsz, amikor megérinted a kapszulát, és csak az általad összekapcsolt appokban. A háttérben semmit sem küld el, és soha nem küld üzenetet helyetted."
 }

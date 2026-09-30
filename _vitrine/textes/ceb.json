@@ -69,5 +69,6 @@
   "legal_confidentialite": "Palisiya sa pribasiya",
   "legal_cgu": "Mga termino sa paggamit",
   "legal_suppression": "Papason ang akong account",
-  "legal_toutes": "Legal nga impormasyon, tanang sinultian"
+  "legal_toutes": "Legal nga impormasyon, tanang sinultian",
+  "autorisations_sans_lecture": "Gigamit sa Plume ang accessibility service sa Android aron basahon ug ilisan ang teksto sa field nga imong gisulatan, inig tap nimo sa capsule, ug sa mga app ra nga imong gi-link. Wala kini mopadala ug bisan unsa sa background, ug dili gyud kini mopadala ug mensahe alang nimo."
 }

@@ -69,5 +69,6 @@
   "legal_confidentialite": "Məxfilik siyasəti",
   "legal_cgu": "Ümumi şərtlər",
   "legal_suppression": "Hesabımı sil",
-  "legal_toutes": "Hüquqi məlumat, bütün dillər"
+  "legal_toutes": "Hüquqi məlumat, bütün dillər",
+  "autorisations_sans_lecture": "Plume kapsula toxunduqda, yalnız bağladığın tətbiqlərdə yazdığın sahədəki mətni oxumaq və əvəz etmək üçün Android əlçatanlıq xidmətindən istifadə edir. O, arxa planda heç nə göndərmir və heç vaxt sənin yerinə mesaj göndərmir."
 }

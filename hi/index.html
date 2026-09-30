@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">इशारा</a>
         <a href="#styles">अंदाज़</a>
-        <a href="#lecture">सहायक पठन</a>
+        <a href="#camouflage">छद्मावरण</a>
         <a href="#confidentialite">गोपनीयता</a>
         <details class="langues">
           <summary aria-label="साइट की भाषा"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>हिन्दी</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">HI</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/in.webp" alt="" height="12">हिन्दी</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="कोई अंदाज़ चुनें, फिर कैप्सूल को छुएँ।">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">अनुवाद करें · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>आपके संदेश कुछ और कहते हैं</h2><p>आप जो लिखते हैं वह एक साधारण वाक्य से बदल जाता है। आपका संपर्क, यदि उसके पास Plume है, असली संदेश पा लेता है।</p></div>
+          <div class="points-cles">
+            <div><b>कैप्सूल पर एक बार टैप</b><p>आपने अभी जो लिखा उसे छिपा देता है। « मैं तुमसे दिल से प्यार करता हूँ » बन जाता है « मैंने तीन बार ग्रैटिन लिया »।</p></div>
+            <div><b>कैप्सूल को देर तक दबाएँ</b><p>स्क्रीन पर दिख रहे को डिकोड करता है। यही वह इशारा है जो आपको मिला छिपा संदेश पढ़ने योग्य बनाता है।</p></div>
+            <div><b>एक गुप्त कोड, सिर्फ़ आप दोनों के लिए</b><p>आप जो भी शब्द लिखते हैं वह आपके चुने हुए विषय के एक असली शब्द से बदल दिया जाता है। डिकोड करने पर आपका वाक्य ठीक वैसा ही, शब्द दर शब्द, वापस मिलता है — कभी अनुमानित नहीं।</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">रुको! मुझे छोड़कर मत जाओ!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">हम साथ चलते हैं।</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">«अनुवाद करें» को छुएँ: अनुवाद टेक्स्ट पर बैठ जाता है।</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>यह एक लेखन खेल है, तिजोरी नहीं। आपका पाठ छिपाने के लिए हमारे सर्वर से गुज़रता है, और कोई भी Plume उपयोगकर्ता इसे डिकोड कर सकता है। इसमें वह न लिखें जो आप पोस्टकार्ड पर न लिखें।</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>सहायक पठन</h2></div>
-          <p>जो पढ़ रहे हैं उसका अनुवाद करें: मंगा, वेबटून, विदेशी ऐप्स। अनुवाद टेक्स्ट के ऊपर, ठीक उसी जगह दिखता है: आप कुछ कॉपी किए बिना अपनी भाषा में पढ़ते हैं।</p>
-          <p>Plume आपकी भाषा बोलता है, और दर्जनों दूसरी भाषाओं में अनुवाद करता है।</p>
+          <div class="demo-mode camouflage" data-bascule data-a="मैं तुमसे दिल से प्यार करता हूँ" data-b="मैंने तीन बार ग्रैटिन लिया" data-reussi="छद्मावरण">
+            <div class="fil-mini"><span class="contact">प</span><b>प्रिया</b></div>
+            <div class="bulle-envoyee" aria-live="polite">मैं तुमसे दिल से प्यार करता हूँ</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="कैप्सूल पर एक बार टैप">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">छद्मावरण</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">कैप्सूल पर एक बार टैप</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="कल प्रोजेक्ट के लिए मिल रहे हैं न?" data-reussi="हिन्दी">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/in.webp" alt="" height="12">हिन्दी</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="कैप्सूल को देर तक दबाएँ">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">सीधा</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">कैप्सूल को देर तक दबाएँ</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>अपनी अनोखी भाषा बनाएँ और साझा करें।</h2><p>यह अनूठी होगी, और आप इसे साझा कर सकेंगे।</p></div>
+          <div class="points-cles">
+            <div><b>प्राप्त भाषा जोड़ें</b><p>QR कोड स्कैन करें या भेजा गया लिंक चिपकाएँ।</p></div>
+            <div><b>नियम</b><p>ये रूप कभी नहीं बदलते: यही किसी और को आपको वापस पढ़ने देता है।</p></div>
+            <div><b>परिभाषा</b><p>आपके ऐप की भाषा में लिखी गई। कुछ शब्दों का कोई समानार्थी नहीं होता: केवल एक परिभाषा ही उनका अर्थ बता पाती है।</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>अनुमतियाँ, और जो Plume नहीं करता</h3><p>Plume, Android की एक्सेसिबिलिटी सेवा का उपयोग करता है ताकि जिस बॉक्स में आप लिख रहे हैं उसका टेक्स्ट पढ़कर बदल सके, जब आप कैप्सूल को छुएँ, और सिर्फ़ उन ऐप्स में जिन्हें आपने खुद जोड़ा है। सहायक पठन हर सत्र में स्क्रीन कैप्चर की आपकी अनुमति दोबारा माँगता है। वह बैकग्राउंड में कुछ नहीं भेजता, और आपकी जगह कभी कोई संदेश नहीं भेजता।</p></div>
+          <div><h3>अनुमतियाँ, और जो Plume नहीं करता</h3><p>Plume, Android की एक्सेसिबिलिटी सेवा का उपयोग करता है ताकि जिस बॉक्स में आप लिख रहे हैं उसका टेक्स्ट पढ़कर बदल सके, जब आप कैप्सूल को छुएँ, और सिर्फ़ उन ऐप्स में जिन्हें आपने खुद जोड़ा है। वह बैकग्राउंड में कुछ नहीं भेजता, और आपकी जगह कभी कोई संदेश नहीं भेजता।</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · संपर्क : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · संपर्क : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="कानूनी जानकारी, सभी भाषाओं में">
         <a href="politique-confidentialite">गोपनीयता नीति</a>
         <a href="conditions-generales">सामान्य शर्तें</a>

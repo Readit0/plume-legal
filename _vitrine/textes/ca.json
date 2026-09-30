@@ -69,5 +69,6 @@
   "legal_confidentialite": "Política de privacitat",
   "legal_cgu": "Condicions generals",
   "legal_suppression": "Suprimeix el meu compte",
-  "legal_toutes": "Informació legal, totes les llengües"
+  "legal_toutes": "Informació legal, totes les llengües",
+  "autorisations_sans_lecture": "Plume utilitza el servei d'accessibilitat d'Android per llegir i substituir el text del camp on escrius, quan toques la càpsula, i només a les aplicacions que has vinculat. No envia res en segon pla, ni envia mai un missatge en nom teu."
 }

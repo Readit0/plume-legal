@@ -69,5 +69,6 @@
   "legal_confidentialite": "Chính sách quyền riêng tư",
   "legal_cgu": "Điều khoản sử dụng",
   "legal_suppression": "Xóa tài khoản của tôi",
-  "legal_toutes": "Thông tin pháp lý, mọi ngôn ngữ"
+  "legal_toutes": "Thông tin pháp lý, mọi ngôn ngữ",
+  "autorisations_sans_lecture": "Plume dùng dịch vụ hỗ trợ tiếp cận của Android để đọc và thay thế văn bản trong ô bạn đang viết, khi bạn chạm vào viên nang, và chỉ trong những ứng dụng bạn đã liên kết. Plume không gửi gì ở chế độ nền, và không bao giờ gửi tin nhắn thay bạn."
 }

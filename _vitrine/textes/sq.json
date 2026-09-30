@@ -69,5 +69,6 @@
   "legal_confidentialite": "Politika e privatësisë",
   "legal_cgu": "Kushtet e përgjithshme",
   "legal_suppression": "Fshi llogarinë time",
-  "legal_toutes": "Informacione ligjore, të gjitha gjuhët"
+  "legal_toutes": "Informacione ligjore, të gjitha gjuhët",
+  "autorisations_sans_lecture": "Plume përdor shërbimin e qasshmërisë të Android për të lexuar dhe zëvendësuar tekstin e fushës ku shkruan, kur prek kapsulën, dhe vetëm në aplikacionet që ke lidhur. Nuk dërgon asgjë në sfond dhe nuk dërgon kurrë mesazh në vendin tënd."
 }

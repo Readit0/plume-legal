@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">Paano gamitin</a>
         <a href="#styles">Mga istilo</a>
-        <a href="#lecture">Tulong sa pagbasa</a>
+        <a href="#camouflage">Nakatago</a>
         <a href="#confidentialite">Privacy</a>
         <details class="langues">
           <summary aria-label="Wika ng site"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>Tagalog</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">TL</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/ph.webp" alt="" height="12">Tagalog</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="Pumili ng istilo, tapos i-tap ang capsule.">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">Isalin · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>Ibang bagay ang sinasabi ng mga mensahe mo</h2><p>Ang isinusulat mo ay papalitan ng payak na pangungusap. Ang kausap mo, kung may Plume, ay mababawi ang tunay na mensahe.</p></div>
+          <div class="points-cles">
+            <div><b>Isang tap sa kapsula</b><p>Ikinukubli ang kasusulat mo lang. « Mahal kita nang buong puso » ay nagiging « Tatlong beses akong umulit ng gratin ».</p></div>
+            <div><b>Pindutin nang matagal ang kapsula</b><p>Dinedecode ang nasa screen. Ito ang galaw na nagpapabasa sa natanggap mong nakakubling mensahe.</p></div>
+            <div><b>Isang lihim na code, para lang sa inyong dalawa</b><p>Ang bawat salitang isinusulat mo ay pinapalitan ng totoong salita mula sa isang temang pinili mo. Ang pag-decode ay ibinabalik ang eksaktong pangungusap mo, salita sa salita — hindi kailanman tantiya.</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">Sandali! Huwag mo akong iwan!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">Sabay tayong pumunta.</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">I-tap ang “Isalin”: ilalapat ang salin sa ibabaw ng teksto.</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>Isa itong laro sa pagsulat, hindi kaha de yero. Dumadaan ang teksto mo sa aming mga server para makubli, at kayang i-decode ng sinumang gumagamit ng Plume. Huwag ipagkatiwala rito ang hindi mo isusulat sa isang postcard.</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>Tulong sa pagbasa</h2></div>
-          <p>Isalin ang binabasa mo: manga, webtoon, banyagang app. Lalabas ang salin sa ibabaw ng teksto, sa mismong lugar nito: nababasa mo ito sa sarili mong wika nang hindi kailangang mag-copy ng kahit ano.</p>
-          <p>Nagsasalita ang Plume ng wika mo, at nagsasalin sa dose-dosenang iba pa.</p>
+          <div class="demo-mode camouflage" data-bascule data-a="Mahal kita nang buong puso" data-b="Tatlong beses akong umulit ng gratin" data-reussi="Nakatago">
+            <div class="fil-mini"><span class="contact">M</span><b>Maria</b></div>
+            <div class="bulle-envoyee" aria-live="polite">Mahal kita nang buong puso</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="Isang tap sa kapsula">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">Nakatago</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Isang tap sa kapsula</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="Magkita tayo bukas para sa proyekto?" data-reussi="Tagalog">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/ph.webp" alt="" height="12">Tagalog</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="Pindutin nang matagal ang kapsula">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">Diretso</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Pindutin nang matagal ang kapsula</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>Gumawa ng sarili mong natatanging wika at ibahagi ito.</h2><p>Magiging natatangi ito, at mababahagi mo ito.</p></div>
+          <div class="points-cles">
+            <div><b>Idagdag ang natanggap na wika</b><p>I-scan ang QR code o i-paste ang link na ipinadala sa iyo.</p></div>
+            <div><b>Mga panuntunan</b><p>Hindi kailanman nagbabago ang mga anyong ito: iyon ang nagpapahintulot sa iba na mabasa kang muli.</p></div>
+            <div><b>Kahulugan</b><p>Isinulat sa wika ng app mo. Ang ilang salita ay walang katumbas: ang kahulugan lang ang naghahatid ng kanilang ibig sabihin.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>Mga pahintulot, at ang hindi ginagawa ng Plume</h3><p>Ginagamit ng Plume ang accessibility service ng Android para basahin at palitan ang teksto sa field na sinusulatan mo, kapag na-tap mo ang capsule, at sa mga app lang na ikaw mismo ang nag-link. Muling hinihingi ng Tulong sa pagbasa ang pahintulot mo sa screen capture sa bawat session. Wala itong ipinapadala sa background, at hindi ito kailanman nagpapadala ng mensahe para sa iyo.</p></div>
+          <div><h3>Mga pahintulot, at ang hindi ginagawa ng Plume</h3><p>Ginagamit ng Plume ang accessibility service ng Android para basahin at palitan ang teksto sa field na sinusulatan mo, kapag na-tap mo ang capsule, at sa mga app lang na ikaw mismo ang nag-link. Wala itong ipinapadala sa background, at hindi ito kailanman nagpapadala ng mensahe para sa iyo.</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · Contact : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · Contact : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="Legal na impormasyon, lahat ng wika">
         <a href="politique-confidentialite">Patakaran sa privacy</a>
         <a href="conditions-generales">Mga tuntunin ng paggamit</a>

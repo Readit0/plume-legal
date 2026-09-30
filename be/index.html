@@ -104,9 +104,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/vitrine/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/vitrine/icone-192.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vitrine/polices/polices.css">
   <link rel="stylesheet" href="../assets/vitrine/vitrine.css">
 </head>
 <body>
@@ -118,7 +116,7 @@ layout: null
       <nav class="nav" aria-label="Plume">
         <a href="#geste">Жэст</a>
         <a href="#styles">Стылі</a>
-        <a href="#lecture">Дапаможнае чытанне</a>
+        <a href="#camouflage">Маскіроўка</a>
         <a href="#confidentialite">Прыватнасць</a>
         <details class="langues">
           <summary aria-label="Мова сайта"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg>Беларуская</summary>
@@ -155,7 +153,7 @@ layout: null
                 <div class="bande" aria-hidden="true">
                   <span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span>
                   <span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>
-                  <span class="segment"><span class="cible">BE</span><span>EN</span></span>
+                  <span class="segment"><span class="cible"><img src="../assets/vitrine/drapeaux/by.webp" alt="" height="12">Беларуская</span><span><img src="../assets/vitrine/drapeaux/us.webp" alt="" height="12">English</span></span>
                 </div>
                 <button type="button" class="pilule" aria-label="Абяры стыль, потым націсні на капсулу.">
                   <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
@@ -234,46 +232,63 @@ layout: null
       </div>
     </section>
 
-    <section class="bloc" id="lecture">
+    <section class="bloc" id="camouflage">
       <div class="conteneur deux">
-        <div class="planche-cadre apparait inverse" data-lecture>
-          <div class="bouton-lecture">
-            <button type="button" class="pilule" aria-pressed="false"><span class="pastille-etat"></span><span class="nom">Перакласці · Cloud AI</span></button>
-            <span class="bascule-mode" aria-hidden="true"><span class="actif">IM</span><span>TXT</span></span>
+        <div class="apparait">
+          <div class="titre-section"><h2>Твае паведамленні кажуць нешта іншае</h2><p>Тое, што ты пішаш, замяняецца бяскрыўдным сказам. Твой суразмоўца, калі ў яго ёсць Plume, атрымае сапраўднае паведамленне.</p></div>
+          <div class="points-cles">
+            <div><b>Адзін дотык па капсуле</b><p>Маскіруе тое, што толькі што было напісана. «Я кахаю цябе ўсім сэрцам» ператвараецца ў «Я з'еў ужо трэцюю порцыю запяканкі».</p></div>
+            <div><b>Доўгае націсканне на капсулу</b><p>Расшыфроўвае тое, што паказана на экране. Гэта жэст, які робіць атрыманае замаскіраванае паведамленне зноў чытэльным.</p></div>
+            <div><b>Сакрэтны код толькі для вас дваіх</b><p>Кожнае слова, якое ты пішаш, замяняецца сапраўдным словам з тэмы, якую ты выбіраеш. Расшыфроўка аднаўляе тваю фразу дакладна, слова ў слова — ніколі прыблізна.</p></div>
           </div>
-          <div class="planche" dir="ltr">
-            <svg viewBox="0 0 400 300" aria-hidden="true">
-              <defs><pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1a1a1a" opacity=".22"/></pattern></defs>
-              <rect width="400" height="300" fill="#F2EFE8"/>
-              <g stroke="#1a1a1a" stroke-width="1" opacity=".18"><line x1="400" y1="300" x2="0" y2="0"/><line x1="400" y1="300" x2="22" y2="0"/><line x1="400" y1="300" x2="44" y2="0"/><line x1="400" y1="300" x2="66" y2="0"/><line x1="400" y1="300" x2="88" y2="0"/><line x1="400" y1="300" x2="110" y2="0"/><line x1="400" y1="300" x2="132" y2="0"/><line x1="400" y1="300" x2="154" y2="0"/><line x1="400" y1="300" x2="176" y2="0"/><line x1="400" y1="300" x2="198" y2="0"/><line x1="400" y1="300" x2="220" y2="0"/><line x1="400" y1="300" x2="242" y2="0"/><line x1="400" y1="300" x2="264" y2="0"/><line x1="400" y1="300" x2="286" y2="0"/><line x1="400" y1="300" x2="308" y2="0"/><line x1="400" y1="300" x2="330" y2="0"/><line x1="400" y1="300" x2="352" y2="0"/><line x1="400" y1="300" x2="374" y2="0"/><line x1="400" y1="300" x2="396" y2="0"/><line x1="400" y1="300" x2="418" y2="0"/></g>
-              <rect x="0" y="190" width="400" height="110" fill="url(#trame)"/>
-              <path d="M40 300 C40 230 70 200 110 200 C150 200 175 230 178 300Z" fill="#1a1a1a"/>
-              <circle cx="110" cy="165" r="38" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M74 150 C80 118 140 112 148 150 C135 136 92 134 74 150Z" fill="#1a1a1a"/>
-              <circle cx="98" cy="170" r="4" fill="#1a1a1a"/><circle cx="124" cy="170" r="4" fill="#1a1a1a"/>
-              <path d="M250 300 C252 240 280 222 318 222 C352 222 372 246 372 300Z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <circle cx="312" cy="190" r="32" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
-              <path d="M280 178 C286 150 336 146 344 180 L344 196 C332 170 296 168 280 196Z" fill="#1a1a1a"/>
-              <path d="M300 200 q12 8 24 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
-              <ellipse cx="124" cy="62" rx="112" ry="44" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M110 104 l6 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="124" y="67" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1a1a1a">待って！置いていかないで！</text>
-              <ellipse cx="300" cy="96" rx="80" ry="34" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
-              <path d="M300 128 l4 22 l14 -24z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
-              <text x="300" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">一緒に行こう。</text>
-            </svg>
-            <div class="bulle-trad" style="left:6%;top:12%;width:50%;height:18%" dir="auto">Пачакай! Не ідзі без мяне!</div>
-            <div class="bulle-trad" style="left:59%;top:24%;width:32%;height:16%" dir="auto">Пойдзем разам.</div>
-          </div>
-          <p class="consigne" style="margin-top:12px">Націсні «Перакласці»: пераклад кладзецца на тэкст.</p>
+          <p class="avertissement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg><span>Гэта моўная гульня, а не сейф. Твой тэкст праходзіць праз нашы серверы, каб быць замаскіраваным, і любы карыстальнік Plume можа яго расшыфраваць. Не давярай яму нічога, чаго не варта пісаць на паштоўцы.</span></p>
         </div>
         <div class="apparait">
-          <div class="titre-section"><h2>Дапаможнае чытанне</h2></div>
-          <p>Перакладай тое, што чытаеш: мангу, вэбтун, замежны дадатак. Пераклад паказваецца паверх тэксту, на яго месцы: ты чытаеш на сваёй мове, нічога не капіюючы.</p>
-          <p>Plume размаўляе на тваёй мове і перакладае на дзясяткі іншых.</p>
+          <div class="demo-mode camouflage" data-bascule data-a="Я кахаю цябе ўсім сэрцам" data-b="Я з&#x27;еў ужо трэцюю порцыю запяканкі" data-reussi="Маскіроўка">
+            <div class="fil-mini"><span class="contact">А</span><b>Алесь</b></div>
+            <div class="bulle-envoyee" aria-live="polite">Я кахаю цябе ўсім сэрцам</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span></div>
+              <button type="button" class="pilule violette" aria-label="Адзін дотык па капсуле">
+                <img src="../assets/vitrine/embleme-camouflage.webp" alt="" width="26" height="26">
+                <span class="nom">Маскіроўка</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Адзін дотык па капсуле</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="bloc" id="langue">
+      <div class="conteneur deux">
+        <div class="apparait inverse">
+          <div class="demo-mode langue" data-bascule data-a="Ōvi tēla sā dūmin mōra kē ?" data-b="Убачымся заўтра наконт праекта?" data-reussi="Беларуская">
+            <div class="fil-mini"><img class="contact embleme-contact" src="../assets/vitrine/embleme-langue.webp" alt=""><b>Nylo</b></div>
+            <div class="bulle-recue" aria-live="polite" dir="auto">Ōvi tēla sā dūmin mōra kē ?</div>
+            <div class="capsule statique">
+              <div class="bande" aria-hidden="true"><span class="puce-ctrl on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3 12h18"/></svg></span><span class="segment"><span><img src="../assets/vitrine/drapeaux/by.webp" alt="" height="12">Беларуская</span><span class="cible"><img class="embleme" src="../assets/vitrine/embleme-langue.webp" alt="" height="14">Nylo</span></span></div>
+              <button type="button" class="pilule" aria-label="Доўгае націсканне на капсулу">
+                <img src="../assets/vitrine/personas/gratuit_base__direct.webp" alt="" width="26" height="26">
+                <span class="nom">Прамы</span>
+                <span class="points" aria-hidden="true"><i></i><i></i><i></i></span>
+              </button>
+            </div>
+            <p class="consigne">Доўгае націсканне на капсулу</p>
+          </div>
+        </div>
+        <div class="apparait">
+          <div class="titre-section"><h2>Ствары сваю ўнікальную мову і падзяліся ёй.</h2><p>Яна будзе ўнікальнай, і ты зможаш падзяліцца ёй.</p></div>
+          <div class="points-cles">
+            <div><b>Дадаць атрыманую мову</b><p>Скануй QR-код або ўстаў спасылку, якую табе даслалі.</p></div>
+            <div><b>Правілы</b><p>Гэтыя формы ніколі не мяняюцца: менавіта таму іншы чалавек можа цябе прачытаць.</p></div>
+            <div><b>Азначэнне</b><p>Напісана на мове тваёй праграмы. У некаторых слоў няма адпаведніка: толькі азначэнне перадае іх сэнс.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="bloc" id="confidentialite">
       <div class="conteneur">
@@ -297,7 +312,7 @@ layout: null
         </div>
         <div class="carte autorisations apparait">
           <span class="bouclier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-          <div><h3>Дазволы і тое, чаго Plume не робіць</h3><p>Plume выкарыстоўвае службу спецыяльных магчымасцей Android, каб чытаць і замяняць тэкст у полі, дзе ты пішаш, калі націскаеш капсулу, і толькі ў дадатках, якія ты падключыў. Дапаможнае чытанне запытвае тваю згоду на захоп экрана пры кожным сеансе. Яно нічога не адпраўляе ў фонавым рэжыме і ніколі не адпраўляе паведамленне замест цябе.</p></div>
+          <div><h3>Дазволы і тое, чаго Plume не робіць</h3><p>Plume выкарыстоўвае службу спецыяльных магчымасцей Android, каб чытаць і замяняць тэкст у полі, дзе ты пішаш, калі націскаеш капсулу, і толькі ў дадатках, якія ты падключыў. Яно нічога не адпраўляе ў фонавым рэжыме і ніколі не адпраўляе паведамленне замест цябе.</p></div>
         </div>
       </div>
     </section>
@@ -317,7 +332,8 @@ layout: null
 
   <footer class="pied">
     <div class="conteneur">
-      <div>© 2026 Plume · Кантакты : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a></div>
+      <div>© 2026 Plume · Кантакты : <a href="mailto:sogacmoi7@gmail.com">sogacmoi7@gmail.com</a>
+        <small class="marques" lang="en">Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</small></div>
       <nav aria-label="Юрыдычная інфармацыя, усе мовы">
         <a href="politique-confidentialite">Палітыка прыватнасці</a>
         <a href="conditions-generales">Агульныя ўмовы</a>

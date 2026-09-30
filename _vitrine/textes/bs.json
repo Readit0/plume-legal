@@ -69,5 +69,6 @@
   "legal_confidentialite": "Politika privatnosti",
   "legal_cgu": "Opšti uslovi",
   "legal_suppression": "Izbriši moj račun",
-  "legal_toutes": "Pravne informacije, svi jezici"
+  "legal_toutes": "Pravne informacije, svi jezici",
+  "autorisations_sans_lecture": "Plume koristi Androidovu uslugu pristupačnosti da pročita i zamijeni tekst u polju u koje pišeš, kad dodirneš kapsulu, i to samo u aplikacijama koje si povezao. Ništa ne šalje u pozadini i nikada ne šalje poruku umjesto tebe."
 }
