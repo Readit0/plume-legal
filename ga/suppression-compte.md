@@ -1,6 +1,6 @@
 # Do chuntas agus do chuid sonraí a scriosadh — Plume
 
-**Nuashonrú deireanach: 12 Meán Fómhair 2026** — Leagan 2.0
+**Nuashonrú deireanach: 1 Deireadh Fómhair 2026** — Leagan 2.1
 
 Feidhmchlár lena mbaineann: **Plume** (`com.plume.plume`), arna fhoilsiú ag **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — foilsithe ar Google Play faoin ainm **openfunworld**.
 
@@ -33,15 +33,16 @@ Scriosann an scriosadh **go buan**:
 
 - **do chuntas** (seoladh ríomhphoist, pasfhocal, seisiún);
 - **d'áiritheoirí úsáide** — líon na n-athfhocluithe a caitheadh in aghaidh an lae agus na míosa;
-- **do chuid moltaí** — na moltaí a bheadh seolta agat chugainn ón bhfeidhmchlár. Is é sin an t-aon téacs saor a stórálaimid;
+- **do chuid moltaí** — na moltaí a bheadh seolta agat chugainn ón bhfeidhmchlár;
 - **aitheantóirí d'iarratas** — tagairtí teicniúla na n-athfhocluithe a iarradh;
 - **do chreidmheasanna agus do dhíghlasálacha cuóta** — creidmheasanna ceannaithe nach bhfuil caite, díghlasálacha a fuarthas trí fhógraíocht, uasteorainneacha coigeartaithe;
 - **ceangal do ghléasanna le do chuntas** — scaoiltear do ghutháin nó do thaibléid eile agus filleann siad ar a bheith ina ngléasanna anaithnide simplí;
-- **na teangacha pearsanta a chruthaigh tú** — a n-ainm, a n-aibítir, a bhfoclóir, do chomharthaí comhroinnte agus do stair iompórtála. **A bhfuil sé dodhéanta don scriosadh seo a dhéanamh:** má tá cóip de do theanga iompórtáilte cheana ag duine eile, is leis an duine sin anois an chóip sin agus **maireann sí** tar éis do scriosta — cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn a scriosadh ar a thaobh siúd.
+- **do stórtha focal ceilte**, lena n-áirítear iad siúd a cuireadh sa bhruscar — a n-ainm, a dtéama, a bpéirí focal, na focail ar feitheamh, do chomharthaí comhroinnte, agus na naisc sa dá threo (na stórtha a roinn tú, agus iad a roinneadh leat);
+- **na teangacha pearsanta a chruthaigh tú** — a n-ainm, a n-aibítir, a bhfoclóir, na focail ar feitheamh, do chomharthaí comhroinnte agus do stair iompórtála. **A bhfuil sé dodhéanta don scriosadh seo a dhéanamh:** má tá cóip de do theanga iompórtáilte cheana ag duine eile, is leis an duine sin anois an chóip sin agus **maireann sí** tar éis do scriosta — cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn a scriosadh ar a thaobh siúd.
 
 Déantar an gléas óna n-iarrann tú an scriosadh a **neodrú**: scriostar a cheangal le do chuntas, scriostar a eochair aitheantais agus cuirtear luach marbh ina háit, agus scriostar a theanga agus leagan a fheidhmchláir. Níl fágtha ach uimhir dhoiléir, nach gceadaíonn a thuilleadh tú a aithint ná an gléas a aimsiú.
 
-**Níor stóráileamar riamh na téacsanna a d'athfhocluigh tú, ná an téacs a léigh an Léitheoireacht Chuidithe ón scáileán**: ní choinnítear iad in aon áit ar ár bhfreastalaithe, agus mar sin níl aon rud le scriosadh ina leith. **Ní fíor sin faoi fhoclóir aon teanga pearsanta a bheadh cruthaithe agat**: coinnítear a hábhar (ainm, aibítir, focail agus mínithe) go deimhin ar ár bhfreastalaithe — scriosann scriosadh do chuntais é, mar an chuid eile dá bhfuil leatsa (féach thíos).
+**Ní stórálaimid na téacsanna a d'athfhocluigh tú, ná an téacs a léigh an Léitheoireacht Chuidithe ón scáileán**: ní choinnítear iad in aon áit ar ár bhfreastalaithe, agus mar sin níl aon rud le scriosadh ina leith. **Ní fíor sin faoi do theangacha pearsanta ná faoi do stórtha focal ceilte**: coinnítear a n-ábhar (ainm, aibítir nó téama, focail agus mínithe), mar aon leis na focail aonair de do theachtaireachtaí a bhí ar iarraidh iontu, go deimhin ar ár bhfreastalaithe — scriosann scriosadh do chuntais iad, mar an chuid eile dá bhfuil leatsa (féach thuas).
 
 **Ar do ghuthán**, tá do chuid personaí, d'abhatáir, do chuid socruithe agus do chuid rialacha de réir feidhmchláir stóráilte go háitiúil. Scriostar iad leis an scriosadh ón bhfeidhmchlár, agus ar aon chuma **imíonn siad nuair a dhíshuiteálann tú Plume**.
 
@@ -59,6 +60,12 @@ Fanann trí chatagóir rianta, ach **gearrtar an nasc le d'aitheantas**: baintea
 | **Na comharthaí teicniúla slándála** (sáruithe athdhéanta, teip ar sheiceálacha sláine) | Comhrac na calaoise. Níl **aon téacs** sna taifid sin agus coinnítear iad **gan aitheantóir gléis**. |
 
 Coinnítear na sonraí anaithnidithe sin ar feadh na tréimhse a éilíonn ár n-oibleagáidí dlíthiúla, go háirithe na hoibleagáidí cuntasaíochta, agus scriostar nó comhthiomsaítear iad ansin.
+
+**Ní scriostar trí rud eile le scriosadh do chuntais**, toisc nach bhfuil siad ceangailte leat, nó nach leatsa amháin a thuilleadh iad:
+
+- **na blúirí neamhcheilte** — i mód na Duaithníochta gan stór, giotaí gearra de theachtaireacht (40 carachtar ar a mhéad) a d'fhan inléite tar éis na ceilte: ní iompraíonn siad aon aitheantóir cuntais, ach méarlorg ainm cleite an ghléis amháin;
+- **na sainmhínithe focal** — taisce choiteann do gach úsáideoir, gan aitheantóir cuntais ná teanga;
+- **na focail a scríobh tú le stór focal ceilte duine eile** — cuireadh i dtaisce iad ina stór siúd, atá ar leis an duine sin, agus leanann siad a chinniúint.
 
 ---
 

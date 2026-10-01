@@ -1,6 +1,6 @@
 # Eliminar a sua conta e os seus dados — Plume
 
-**Última atualização: 12 de setembro de 2026** — Versão 2.0
+**Última atualização: 1 de outubro de 2026** — Versão 2.1
 
 Aplicação em causa: **Plume** (`com.plume.plume`), editada pela **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicada no Google Play com o nome **openfunworld**.
 
@@ -33,15 +33,16 @@ A eliminação apaga **definitivamente**:
 
 - **a sua conta** (endereço de e-mail, palavra-passe, sessão);
 - **os seus contadores de utilização** — o número de reformulações consumidas por dia e por mês;
-- **as suas sugestões** — as propostas que nos tenha enviado a partir da aplicação. É o único texto livre que armazenamos;
+- **as suas sugestões** — as propostas que nos tenha enviado a partir da aplicação;
 - **os seus identificadores de pedidos** — as referências técnicas das reformulações solicitadas;
 - **os seus créditos e desbloqueios de quota** — créditos comprados não consumidos, desbloqueios obtidos por publicidade, tetos ajustados;
 - **a associação dos seus dispositivos à sua conta** — os seus outros telemóveis ou tablets são desassociados e voltam a ser simples dispositivos anónimos;
-- **as línguas pessoais que criou** — o seu nome, o seu alfabeto, o seu léxico, os seus tokens de partilha e o seu histórico de importação. **O que esta eliminação não pode fazer:** se outra pessoa já tiver importado uma cópia da sua língua, essa cópia passa a pertencer-lhe e **sobrevive** à sua eliminação — como uma mensagem já recebida por um terceiro, que não podemos apagar do lado dele.
+- **os seus léxicos de camuflagem**, incluindo os colocados no lixo — o nome, o tema, os pares de palavras, as palavras em espera, os seus tokens de partilha, e as associações nos dois sentidos (os léxicos que partilhou e os que foram partilhados consigo);
+- **as línguas pessoais que criou** — o seu nome, o seu alfabeto, o seu léxico, as palavras em espera, os seus tokens de partilha e o seu histórico de importação. **O que esta eliminação não pode fazer:** se outra pessoa já tiver importado uma cópia da sua língua, essa cópia passa a pertencer-lhe e **sobrevive** à sua eliminação — como uma mensagem já recebida por um terceiro, que não podemos apagar do lado dele.
 
 O dispositivo a partir do qual pede a eliminação é **neutralizado**: a sua associação à sua conta é apagada, a sua chave de identificação é destruída e substituída por um valor morto, o seu idioma e a sua versão da aplicação são apagados. Resta apenas um número opaco, que já não permite identificá-lo nem encontrar o dispositivo.
 
-**Nunca armazenámos os textos que reformulou, nem o texto lido no ecrã pela Leitura Assistida**: não são conservados em lado nenhum nos nossos servidores, pelo que não há nada a eliminar quanto a isso. **Isto não é verdade para o léxico de uma língua pessoal que tenha criado:** o seu conteúdo (nome, alfabeto, palavras e definições) está sim armazenado nos nossos servidores — a eliminação da sua conta apaga-o, tal como o resto do que lhe pertence (ver abaixo).
+**Não armazenamos os textos que reformulou, nem o texto lido no ecrã pela Leitura Assistida**: não são conservados em lado nenhum nos nossos servidores, pelo que não há nada a eliminar quanto a isso. **Isto não é verdade para as suas línguas pessoais e os seus léxicos de camuflagem:** o seu conteúdo (nome, alfabeto ou tema, palavras e definições), bem como as palavras isoladas das suas mensagens que ainda lhes faltavam, estão sim armazenados nos nossos servidores — a eliminação da sua conta apaga-os, tal como o resto do que lhe pertence (ver acima).
 
 **No seu telemóvel**, os seus personas, os seus avatares, as suas definições e as suas regras por aplicação estão armazenados localmente. São apagados pela eliminação feita a partir da aplicação e, em qualquer caso, **desaparecem quando desinstala a Plume**.
 
@@ -59,6 +60,12 @@ Subsistem três categorias de vestígios, mas **a ligação à sua identidade é
 | **Os sinais técnicos de segurança** (excessos repetidos, falhas de controlo de integridade) | Luta contra a fraude. Estes registos não contêm **qualquer texto** e são conservados **sem identificador de dispositivo**. |
 
 Estes dados anonimizados são conservados pelo período exigido pelas nossas obrigações legais, nomeadamente contabilísticas, sendo depois eliminados ou agregados.
+
+**Três outros elementos não são apagados pela eliminação da sua conta**, porque não lhe estão associados, ou já não lhe estão associados apenas a si:
+
+- **os fragmentos não camuflados** — no modo Camuflagem sem léxico, pequenos pedaços de mensagem (no máximo 40 carateres) que ficaram legíveis após a camuflagem: não têm qualquer identificador de conta, apenas uma impressão digital pseudónima do dispositivo;
+- **as definições de palavras** — uma cache comum a todos os utilizadores, sem identificador de conta nem de língua;
+- **as palavras que escreveu com o léxico de camuflagem de outra pessoa** — foram postas de parte no léxico dessa pessoa, que lhe pertence, e seguem o respetivo destino.
 
 ---
 

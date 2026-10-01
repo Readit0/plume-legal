@@ -1,6 +1,8 @@
 # Amụma Nzuzo nke Plume
 
-**Mmelite ikpeazụ: 12 Septemba 2026** — Ụdịdị 2.0
+**Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 2.1
+
+> *Ihe gbanwere n'ụdịdị 2.1:* anyị na-akọwa **ụdị Nzuzo**, nke ụdịdị 2.0 kwuru ihe ọ bụla gbasara ya, anyị na-edozikwa otu nkwupụta nke na-ezighị ezi ọzọ: maka asụsụ nkeonwe na maka Nzuzo nke ọma, **a na-echekwa okwu ndị dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị, otu otu** — ọ dịghị mgbe a na-echekwa ahịrịokwu ahụ — ka anyị nwee ike ịtụ aro ka ị tinye ha. Nkọwa dị n'«N'otu nkeji», na §2.2 na na §3.
 
 > *Ihe gbanwere kemgbe ụdịdị 1.0, na ihe mere ị ga-eji hụ ihuenyo nkwenye ọzọ n'ime ngwa a:* anyị na-edozi ihe abụọ ị kwuru n'ụzọ na-ezighị ezi. Nke mbụ, ọrụ **asụsụ nkeonwe** na-echekwa n'ihe nkesa anyị ihe ọ bụla ị kere (aha ya, mkpụrụedemede ya, na okwu ya) — ụdịdị 1.0 kwuru n'ụzọ na-ezighị ezi na anyị anaghị echekwa ederede ọ bụla. Nke abụọ, anyị na-eji ugbu a ngwá ọrụ **mkpesa nsogbu teknụzụ** — ụdịdị 1.0 kwuru na ngwá ọrụ dị otú ahụ adịghị. Nkọwa ihe abụọ a dị n'ime ngalaba "N'otu nkeji" dị n'okpuru, yana na §3 na §9. Ndị a bụ kpọmkwem ụdị mgbanwe abụọ na-akpata ka a jụọ nkwenye ọhụrụ n'ime ngwa ahụ (lee §11).
 
@@ -25,7 +27,7 @@ Plume na-enyere gị aka ide ihe: ọ na-egbanwe ederede gị ozugbo n'ime ngwa 
 
 Ihe atọ ị ga-echeta:
 
-1. **Plume anaghị echekwa ederede gị a gbanwere ọzọ, ma ọ bụ ederede a na-agụ n'ihuenyo.** Anyị anaghị echekwa mbipụta ya ma ọ bụ ndekọ ya ọ bụla. **Mgbapụta anyị mara na anyị kwadoro:** ọ bụrụ na ị mepụta **asụsụ nkeonwe** (asụsụ nke gị onwe gị wuru, nwere okwu na nkọwa ya), ọdịnaya asụsụ ahụ **na-echekwa** n'ihe nkesa anyị — nke a bụ naanị ụzọ ga-eme ka ị nwee ike ịchọta ya na ngwaọrụ ọzọ, mee ka ọ ganwuo, ma kesaa ya. Nkọwa zuru oke dị na §3.
+1. **Plume anaghị echekwa ederede gị a gbanwere ọzọ, ma ọ bụ ederede a na-agụ n'ihuenyo.** Anyị anaghị echekwa mbipụta ya ma ọ bụ ndekọ ya ọ bụla. **Mgbapụta anyị mara na anyị kwadoro:** ọ bụrụ na ị mepụta **asụsụ nkeonwe** (asụsụ nke gị onwe gị wuru, nwere okwu na nkọwa ya) ma ọ bụ **akwụkwọ okwu nzuzo** (koodu nzuzo nke okwu gị), ọdịnaya ha **na-echekwa** n'ihe nkesa anyị — nke a bụ naanị ụzọ ga-eme ka ị nwee ike ịchọta ha na ngwaọrụ ọzọ, mee ka ha ganwuo, ma kesaa ha. Mgbe ị na-ede n'ụdị abụọ a, **okwu naanị otu nke dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị** na-edebe n'akụkụ, otu otu — ọ dịghị mgbe ahịrịokwu ahụ — ka e nwee ike ịtụ aro ka ị tinye ha. Nkọwa zuru oke dị na §3.
 2. **Dabere na injin ị họọrọ, ederede gị ma-ọlị na-esi na ekwentị gị apụ ma-ọlị na-anaghị apụ.** Injin abụọ (Ngwá ọrụ Ime Ngwa na AI Ime Ngwa) na-arụ ọrụ kpamkpam n'ime ngwaọrụ ahụ. Nke atọ (AI Igwe Ojii) na-eziga ederede ahụ na ọrụ ọgụgụ isi mmadụ mere nke **dị n'èzí Mgbakọ Ọrụ Europe**. Ọ bụ gị na-ekpebi, AI Igwe Ojii adịghịkwa arụ ọrụ na-enweghị nkwenye gị doro anya.
 3. **Plume chọrọ ikike dị ike** (ịgụ ọdịnaya a na-egosipụta n'ime ngwa ndị ọzọ, ise foto ihuenyo). N'okpuru a, anyị na-akọwapụta kpọmkwem ihe ha bara uru na ihe ha na-adịghị eji arụ ọrụ.
 
@@ -82,7 +84,8 @@ Mgbe ị họọrọ AI Igwe Ojii, ma ọ bụ mgbe ngwaọrụ gị enweghị i
 - Ederede ahụ na-agafe na ngwá sava anyị, nke a na-edebe na **Mgbakọ Ọrụ Europe** (mpaghara Central Europe, Frankfurt).
 - A na-ezigasị ya na otu onye ọrụ nhazi ụzọ **dị n'èzí Mgbakọ Ọrụ Europe**, onye na-eme ka ihe nlereanya AI nke onye ọzọ hazie ya.
 - **Ya mere, nke a bụ mbufe data na-apụ n'èzí Mgbakọ Ọrụ Europe.** Anyị anaghị ekwu na ọ bụghị eziokwu, anyịkwa anaghị ekwe nkwa nchekwa Europe maka nzọụkwụ a.
-- **Plume anaghị echekwa ederede gị.** Ọ dịghị ọrụ sava anyị na-ede ọdịnaya ederede gị: anyị na-edekọ naanị njirimara teknụzụ nke arịrịọ na njirimara ngwaọrụ gị, iji gụọ ọtụtụ oge i ji ọ na-achọpụta mmejọ.
+- **Plume anaghị echekwa ederede gị.** Ọ dịghị ọrụ sava anyị na-ede ọdịnaya ederede gị: anyị na-edekọ naanị njirimara teknụzụ nke arịrịọ na njirimara ngwaọrụ gị, iji gụọ ọtụtụ oge i ji ọ na-achọpụta mmejọ. **Naanị otu mgbapụta:** n'ụdị Asụsụ nkeonwe na n'ụdị Nzuzo, a na-edebe n'akụkụ okwu naanị otu na-adịghị n'akwụkwọ okwu gị (lee §3).
+- **Ụdị Nzuzo na ụdị Asụsụ nkeonwe na-agbaso otu ụzọ a** oge ọ bụla ha chọrọ AI: iji zoo ma ọ bụ tụgharịa ozi nke akwụkwọ okwu gị na-ekpuchighị kpam kpam, iji gbanwee ma ọ bụ jikọta okwu, ma ọ bụ iji mee ka akwụkwọ okwu gị too (a na-ezigara ọrụ AI okwu ndị na-echere mgbe ahụ). Ihuenyo na-egosi ụdị Nzuzo na-agwa gị nke a tupu ọ rụọ ọrụ.
 - **Anyị enweghị ike ikwe nkwa ihe ndị a ọrụ na-eme n'akụkụ ha.** Anyị họọrọ ịgwa gị eziokwu a kama ikwe gị nkwa mchekwa efu anyị na-enweghị ike ịnyocha.
 
 **AI Igwe Ojii anaghị arụ ọrụ n'onwe ya.** Ihuenyo nkwenye a họpụtara na-akọwa gị ihe ndị a tupu mbufe mbụ, ọ dịghịkwa ihe na-apụ ruo mgbe ị kwenyere. Ọ bụrụ na AI Ime Ngwa adaa, Plume adịghị agbanwe n'nzuzo gaa Igwe Ojii: ọ na-agwa gị wee chere mkpebi gị. Ị nwere ike iweghachi nkwenye a n'oge ọ bụla n'ime ntọala.
@@ -107,6 +110,11 @@ Lee ihe niile a na-echekwa na sava anyị:
 | **Akara teknụzụ nke mmejọ** (mgabiga ugboro ugboro, ọdịda nyocha izuoke — na-enweghị ederede ọ bụla) | Nchekwa, ọgụ megide aghụghọ | A na-ekewapụ ya na onye gị bụ mgbe a kagburu akaụntụ |
 | **Asụsụ na ụdịdị ngwa** | Inye ọdịnaya kwesịrị ekwesị | Ruo mgbe a kagburu akaụntụ gị |
 | **Ọdịnaya asụsụ nkeonwe ndị ị kere** (aha ya, mkpụrụedemede ya, na okwu ya — okwu na nkọwa ndị gị ma ọ bụ ndị ọzọ dere n'ime ya) | Inye gị ohere ịchọta asụsụ gị n'ime ngwaọrụ ọzọ, ime ka ọ ganwuo, na ikesa ya na ndị ọrụ ọzọ | Ogologo oge asụsụ ahụ dị. Ọ bụrụ na ị hichapụ ya, ndekọ ya na-apụ — ma otu mbipụta **onye ọzọ webatara** enwerịị bụ nke ya ma **na-adịgide** dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya |
+| **Akwụkwọ okwu nzuzo gị** (aha ha, isiokwu ha, asụsụ ha, akara e họọrọ, na ụzọ okwu «okwu n'ezie → okwu koodu») | Izo na itụgharị ozi gị, inye gị ohere ịchọta akwụkwọ okwu gị na ngwaọrụ ọzọ, ime ka ọ ganwuo, na ikesa ya | Ogologo oge akwụkwọ okwu ahụ dị. **A na-echekwa akwụkwọ okwu e tinyere n'ọkpọkọ mkpofu**: enweghị mmepụta akpaaka nke ọkpọkọ mkpofu ahụ ugbu a. Ọ na-apụ mgbe a kagburu akaụntụ gị |
+| **Okwu ndị na-echere** (asụsụ nkeonwe na Nzuzo): okwu naanị otu nke dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị — ọ dịghị mgbe ahịrịokwu ahụ —, na ọnụọgụ ọpụpụta ha na ụbọchị mbụ na nke ikpeazụ ha pụtara | Itụ aro ka ị tinye ha n'akwụkwọ okwu gị, na ime ka ọrụ AI hazie ha mgbe ị na-eme ka ọ too | A na-echekwa ha ọbụna mgbe e tinyechara ha, ogologo oge asụsụ ahụ ma ọ bụ akwụkwọ okwu ahụ dị. **Ọ bụrụ na ị na-ede site n'akwụkwọ okwu nzuzo onye ọzọ kekọrọ gị**, a na-edebe okwu na-adịghị n'ime ya n'akụkụ **n'akwụkwọ okwu nke ya**, onye ahụ nwekwara ike ịhụ ha |
+| **Nkesa asụsụ gị na akwụkwọ okwu gị** (akara ike ikesa, nke a na-echekwa naanị dịka mkpisi aka; akụkọ mbubata na njikọ) | Inye ndị nke gị ohere ịgụ ozi gị. Onye nwe akwụkwọ okwu na-ahụ ndepụta ndị jikọtara ya (aha ngosi na foto profaịlụ Google — ọ dịghị mgbe adreesị ozi ịntanetị) | Akara ike na-agwụ. A na-echekwa ọdụ nkesa e kagburu |
+| **Iberibe ndị a zoghị** (ụdị Nzuzo na-enweghị akwụkwọ okwu: obere iberibe ozi, ọtụtụ ihe karịrị mkpụrụedemede 40, ndị ka bụ ndị a pụrụ ịgụ mgbe nzuzo gasịrị) | Imeziwanye ogige nzuzo nkịtị | Na-enweghị njirimara akaụntụ, jikọtara naanị na mkpisi aka ngwaọrụ nke aha ụgha. Enwebeghị oge e debere, a naghịkwa ehichapụ ha mgbe a kagburu akaụntụ |
+| **Nkọwa okwu** (okwu na nkọwa ya e mepụtara, mgbe ị rịọrọ nkọwa okwu si n'akwụkwọ okwu gị) | Ka e ghara ịmepụta otu nkọwa ugboro abụọ | Ebe nchekwa nkịtị maka onye ọ bụla, **na-enweghị njirimara** akaụntụ ma ọ bụ asụsụ. A naghị ehichapụ ya mgbe a kagburu akaụntụ |
 | **Mkpesa nsogbu teknụzụ** (ụdị mmejọ, usoro oku teknụzụ a chịkọtara, ụdịdị ngwa, sistemụ arụmọrụ — ọ dịghị mgbe ọ bụ ọdịnaya ederede) | Ịchọpụta na idozi nsogbu ngwa ahụ | E ji onye ọrụ mkpesa nsogbu anyị achịkwa (lee §9). Nchịkọta a dabere na nkwenye gị na ihe mgbanwụ anyị nwere ike ịgbanyụ n'oge ọ bụla, na-enweghị mmelite ngwa |
 
 **Ihe anyị anaghị achịkọta:** aha gị, ndị mmadụ gị, ebe ị nọ, akwụkwọ adreesị gị, foto gị, kalịnda gị, akụkọ ngwa gị. Plume anaghị arịọ ikike ndị a ọ bụla.
@@ -193,7 +201,7 @@ Ebe ọ bụ na ngwa ahụ na-enye ohere ịgbanwe ederede efu ma na-egosi mgbas
 
 ## 10. Nchekwa
 
-A na-eji koodu nzuzo (HTTPS/TLS) mezuo mgbanwe ozi n'etiti ngwa ahụ na sava anyị. A na-egbochi ohere ịnweta data n'ọba data site n'iwu sava: ọ dịghị ohere ịnweta ọrụ dị mkpa site na ngwa ahụ. Ọ dịghị sistemụ zuru oke n'echebe. Ederede ị gbanwere na nke Ọgụgụ Enyemaka na-egosi n'ihuenyo anaghị echekwa n'aka anyị, nke a na-eme ka ihe mbanye mmadụ na-akwadoghị nwee ike ikpughe gbasara ha dị nta. **Ọ bụghị nke a niile bụ eziokwu:** okwu asụsụ nkeonwe ị kere, ọ bụ **echekwara** (lee §3), ọ ga-apụtakwa dịka data ọ bụla ọzọ n'amụma a ma ọ bụrụ na e nwere ezigbo mbanye mmadụ na-akwadoghị — anyị na-eji otu iwu ohere sava anyị ji echebe ihe ndị fọdụrụ chebe ya.
+A na-eji koodu nzuzo (HTTPS/TLS) mezuo mgbanwe ozi n'etiti ngwa ahụ na sava anyị. A na-egbochi ohere ịnweta data n'ọba data site n'iwu sava: ọ dịghị ohere ịnweta ọrụ dị mkpa site na ngwa ahụ. Ọ dịghị sistemụ zuru oke n'echebe. Ederede ị gbanwere na nke Ọgụgụ Enyemaka na-egosi n'ihuenyo anaghị echekwa n'aka anyị, nke a na-eme ka ihe mbanye mmadụ na-akwadoghị nwee ike ikpughe gbasara ha dị nta. **Ọ bụghị nke a niile bụ eziokwu:** okwu asụsụ nkeonwe ị kere, akwụkwọ okwu nzuzo gị na okwu ndị na-echere, ọ bụ **echekwara** (lee §3), ha ga-apụtakwa dịka data ọ bụla ọzọ n'amụma a ma ọ bụrụ na e nwere ezigbo mbanye mmadụ na-akwadoghị — anyị na-eji otu iwu ohere sava anyị ji echebe ihe ndị fọdụrụ chebe ha.
 
 ---
 

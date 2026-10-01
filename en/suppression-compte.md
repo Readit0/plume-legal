@@ -1,6 +1,6 @@
 # Delete your account and your data — Plume
 
-**Last updated: 12 September 2026** — Version 2.0
+**Last updated: 1 October 2026** — Version 2.1
 
 Application concerned: **Plume** (`com.plume.plume`), published by **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — published on Google Play under the name **openfunworld**.
 
@@ -33,15 +33,16 @@ The deletion permanently erases:
 
 - **your account** (e-mail address, password, session);
 - **your usage counters** — the number of rewrites used per day and per month;
-- **your suggestions** — the proposals you may have sent us from the application. This is the only free text we store;
+- **your suggestions** — the proposals you may have sent us from the application;
 - **your request identifiers** — the technical references of the rewrites requested;
 - **your credits and quota unlocks** — purchased credits not yet used, unlocks obtained through advertising, adjusted caps;
 - **the link between your devices and your account** — your other phones or tablets are unlinked and become ordinary anonymous devices again;
-- **the custom languages you created** — their name, their alphabet, their lexicon, your sharing tokens and your import history. **What this deletion cannot do:** if someone else has already imported a copy of your language, that copy now belongs to them and **survives** your deletion — like a message already received by a third party, we cannot erase it on their end.
+- **your camouflage lexicons**, including those moved to the trash — their name, their theme, their word pairs, the pending words, your sharing tokens, and the links in both directions (the lexicons you shared, and those that were shared with you);
+- **the custom languages you created** — their name, their alphabet, their lexicon, the pending words, your sharing tokens and your import history. **What this deletion cannot do:** if someone else has already imported a copy of your language, that copy now belongs to them and **survives** your deletion — like a message already received by a third party, we cannot erase it on their end.
 
 The device from which you request the deletion is **neutralised**: its link to your account is erased, its identification key is destroyed and replaced by a dead value, and its language and application version are erased. All that remains is an opaque number, which no longer makes it possible to identify you or to find the device.
 
-**We have never stored the texts you rewrote, nor the text read from the screen by Assisted Reading**: they are not kept anywhere on our servers, so there is nothing to delete. **This is not true of the lexicon of a custom language you may have created**: its content (name, alphabet, words and definitions) is indeed stored on our servers — deleting your account erases it, like everything else that belongs to you (see below).
+**We do not store the texts you rewrote, nor the text read from the screen by Assisted Reading**: they are not kept anywhere on our servers, so there is nothing to delete. **This is not true of your custom languages and your camouflage lexicons**: their content (name, alphabet or theme, words and definitions), as well as the individual words of your messages that were still missing from them, are indeed stored on our servers — deleting your account erases them, like everything else that belongs to you (see above).
 
 **On your phone**, your personas, your avatars, your settings and your per-application rules are stored locally. They are erased by the deletion carried out from the application, and in any event **they disappear when you uninstall Plume**.
 
@@ -59,6 +60,12 @@ Three categories of records remain, but **the link with your identity is severed
 | **Technical security signals** (repeated overruns, integrity check failures) | Fraud prevention. These records contain **no text** and are kept **without any device identifier**. |
 
 This anonymised data is kept for as long as our legal obligations require, in particular our accounting obligations, and is then deleted or aggregated.
+
+**Three other items are not erased by deleting your account**, because they are not linked to you, or no longer only to you:
+
+- **uncamouflaged fragments** — in Camouflage mode without a lexicon, short pieces of message (40 characters at most) that stayed readable after camouflaging: they carry no account identifier, only a pseudonymous fingerprint of the device;
+- **word definitions** — a cache shared by all users, with no account or language identifier;
+- **the words you wrote with someone else's camouflage lexicon** — they were set aside in their lexicon, which belongs to them, and follow its fate.
 
 ---
 

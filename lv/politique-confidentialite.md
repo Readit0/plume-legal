@@ -1,6 +1,8 @@
 # Lietotnes Plume privātuma politika
 
-**Pēdējoreiz atjaunināts: 2026. gada 12. septembris** — Versija 2.0
+**Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 2.1
+
+> *Kas ir mainījies versijā 2.1:* mēs aprakstām **Maskēšanās režīmu**, ko versija 2.0 neminēja, un labojam apgalvojumu, kas kļuvis neprecīzs: gan personiskajām valodām, gan Maskēšanās režīmam **jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst, tiek saglabāti pa vienam** — nekad ne teikums —, lai mēs varētu jums piedāvāt tos pievienot. Sīkāk — sadaļā „Vienā minūtē”, 2.2. un 3. sadaļā.
 
 > *Kas ir mainījies kopš versijas 1.0 un kāpēc jūs, iespējams, lietotnē atkal redzēsiet piekrišanas ekrānu:* mēs labojam divus apgalvojumus, kas vairs nebija precīzi. Pirmkārt, funkcija **personiskās valodas** mūsu serveros saglabā jūsu izveidoto saturu (nosaukumu, alfabētu, vārdnīcu) — versijā 1.0 tika kļūdaini apgalvots, ka neviens teksts netiek saglabāts. Otrkārt, mēs tagad izmantojam **tehnisko avāriju ziņošanas** rīku — versijā 1.0 tika apgalvots, ka šāda rīka nav. Sīkāka informācija par abiem šiem punktiem ir sadaļā „Vienā minūtē" tālāk, kā arī 3. un 9. sadaļā. Tieši šīs divas izmaiņu kategorijas lietotnē izraisa jaunu piekrišanas pieprasījumu (skatīt 11. sadaļu).
 
@@ -25,7 +27,7 @@ Plume palīdz jums rakstīt: tā pārformulē jūsu tekstu tieši tajā lietotn�
 
 Trīs lietas, kas jāatceras:
 
-1. **Plume nesaglabā ne jūsu pārformulētos tekstus, ne no ekrāna nolasīto tekstu.** Mēs neglabājam ne to kopiju, ne žurnālierakstu. **Apzināts un labprātīgs izņēmums:** ja jūs izveidojat **personisko valodu** (savu paša izveidotu valodu ar vārdu un to definīciju vārdnīcu), šīs valodas saturs **gan tiek** saglabāts mūsu serveros — tas ir vienīgais veids, kā ļaut jums to atrast citā ierīcē, to attīstīt un ar to dalīties. Sīkāk sk. 3. sadaļā.
+1. **Plume nesaglabā ne jūsu pārformulētos tekstus, ne no ekrāna nolasīto tekstu.** Mēs neglabājam ne to kopiju, ne žurnālierakstu. **Apzināti un labprātīgi izņēmumi:** ja jūs izveidojat **personisko valodu** (savu paša izveidotu valodu ar vārdu un to definīciju vārdnīcu) vai **kamuflāžas vārdnīcu** (savu vārdu slepeno kodu), tās saturs **gan tiek** saglabāts mūsu serveros — tas ir vienīgais veids, kā ļaut jums to atrast citā ierīcē, to attīstīt un ar to dalīties. Un, kad jūs rakstāt šajos abos režīmos, **atsevišķie jūsu ziņas vārdi, kuru jūsu vārdnīcā vēl trūkst,** tiek atlikti pa vienam — nekad ne teikums —, lai jums piedāvātu tos pievienot. Sīkāk sk. 3. sadaļā.
 2. **Atkarībā no izvēlētā dzinēja jūsu teksts vai nu pamet, vai nepamet jūsu tālruni.** Divi dzinēji (vietējais komplekts un vietējais MI) darbojas pilnībā ierīcē. Trešais (mākoņa MI) nosūta tekstu mākslīgā intelekta pakalpojumam, kas **atrodas ārpus Eiropas Savienības**. Izvēle ir jūsu, un mākoņa MI nekad neieslēdzas bez jūsu skaidri paustas piekrišanas.
 3. **Plume ir vajadzīgas jaudīgas atļaujas** (lasīt citās lietotnēs redzamo saturu, tvert ekrānu). Turpmāk mēs precīzi paskaidrojam, kam tās kalpo un kam nekalpo.
 
@@ -82,7 +84,8 @@ Kad izvēlaties mākoņa MI vai kad jūsu ierīce nav pietiekami jaudīga vietē
 - Teksts iet caur mūsu serveru infrastruktūru, kas tiek mitināta **Eiropas Savienībā** (Centrāleiropas reģions, Frankfurte).
 - Pēc tam tas tiek nodots maršrutēšanas starpniekam, kas **atrodas ārpus Eiropas Savienības** un liek tekstu apstrādāt trešās puses mākslīgā intelekta modelim.
 - **Tātad tā ir datu nosūtīšana ārpus Eiropas Savienības.** Mēs neapgalvojam pretējo un nesniedzam nekādu solījumu par mitināšanu Eiropā attiecībā uz šo posmu.
-- **Plume nesaglabā jūsu tekstu.** Neviena no mūsu servera funkcijām neieraksta jūsu teksta saturu: mēs reģistrējam tikai pieprasījuma tehnisko identifikatoru un jūsu ierīces identifikatoru, lai saskaitītu jūsu kvotu un atklātu ļaunprātīgu izmantošanu.
+- **Plume nesaglabā jūsu tekstu.** Neviena no mūsu servera funkcijām neieraksta jūsu teksta saturu: mēs reģistrējam tikai pieprasījuma tehnisko identifikatoru un jūsu ierīces identifikatoru, lai saskaitītu jūsu kvotu un atklātu ļaunprātīgu izmantošanu. **Vienīgais izņēmums:** Personiskās valodas režīmā un Maskēšanās režīmā atsevišķie vārdi, kuru jūsu vārdnīcā trūkst, tiek atlikti (skatīt 3. sadaļu).
+- **Maskēšanās un Personiskās valodas režīmi iet pa to pašu ceļu** ikreiz, kad tiem vajag MI: lai maskētu vai atšifrētu ziņu, ko jūsu vārdnīca nesedz pilnībā, lai saskaņotu vai konjugētu vārdu, vai lai jūsu vārdnīca augtu (gaidošie vārdi tad tiek nosūtīti MI pakalpojumam). Ekrāns, kas iepazīstina ar Maskēšanās režīmu, jūs par to informē pirms tā aktivizēšanas.
 - **Ko šie pakalpojumu sniedzēji dara no savas puses, to mēs nevaram garantēt.** Mēs labāk jums to pasakām, nekā solām nulles saglabāšanu, ko neesam spējīgi pārbaudīt.
 
 **Mākoņa MI nekad neieslēdzas pati no sevis.** Atsevišķs piekrišanas ekrāns paskaidro jums šos punktus pirms pirmās nosūtīšanas, un nekas netiek nosūtīts, kamēr neesat piekritis. Ja vietējais MI neizdodas, Plume klusējot nepārslēdzas uz mākoni: tā jums par to paziņo un gaida jūsu lēmumu. Šo piekrišanu varat atsaukt jebkurā brīdī iestatījumos.
@@ -107,6 +110,11 @@ Lūk, viss, kas tiek glabāts mūsu serveros:
 | **Tehniskie ļaunprātīgas izmantošanas signāli** (atkārtoti pārsniegumi, integritātes pārbaudes neizdošanās — bez jebkāda teksta) | Drošība, cīņa pret krāpšanu | Konta dzēšanas brīdī atdalīti no jūsu identitātes |
 | **Lietotnes valoda un versija** | Piegādāt pareizo saturu | Līdz jūsu konta dzēšanai |
 | **Jūsu izveidoto personisko valodu saturs** (to nosaukums, alfabēts un vārdnīca — vārdi un definīcijas, ko jūs vai citas personas tajā ir ierakstījušas) | Ļaut jums atrast savu valodu citā ierīcē, to attīstīt un ar to dalīties ar citiem lietotājiem | Kamēr valoda pastāv. Ja jūs to dzēšat, tās ieraksts pazūd — taču jau **citas personas importēta** kopija tad pieder šai personai un **turpina pastāvēt**, tāpat kā ziņa, ko jau saņēmusi trešā puse un ko mēs nevaram aiziet izdzēst pie viņas |
+| **Jūsu kamuflāžas vārdnīcas** (to nosaukums, tēma, valoda, izvēlētā emblēma un vārdu pāri „īstais vārds → koda vārds”) | Maskēt un atšifrēt jūsu ziņas, ļaut jums atrast savu vārdnīcu citā ierīcē, to attīstīt un ar to dalīties | Kamēr vārdnīca pastāv. **Atkritnē ievietota vārdnīca tiek saglabāta**: šīs atkritnes automātiskas iztukšošanas vēl nav. Tā pazūd, dzēšot jūsu kontu |
+| **Gaidošie vārdi** (personiskā valoda un Maskēšanās): atsevišķie jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst — nekad ne teikums —, ar to parādīšanās reižu skaitu un pirmās un pēdējās parādīšanās datumiem | Piedāvāt jums tos pievienot jūsu vārdnīcai un likt MI pakalpojumam tos apstrādāt, kad jūs vārdnīcu papildināt | Tiek saglabāti arī pēc pievienošanas, kamēr valoda vai vārdnīca pastāv. **Ja jūs rakstāt ar kamuflāžas vārdnīcu, ar ko jums dalījies kāds cits**, vārdi, kuru tajā trūkst, tiek atlikti **viņa vārdnīcā**, un šī persona tos var redzēt |
+| **Jūsu valodu un vārdnīcu kopīgošana** (kopīgošanas marķieris, kas tiek glabāts tikai kā nospiedums; importu un saistījumu vēsture) | Ļaut jūsu tuviniekiem lasīt jūsu ziņas. Vārdnīcas īpašnieks redz to personu sarakstu, kas ar to ir saistītas (attēlojamais vārds un Google profila foto — nekad e-pasta adrese) | Marķieris beidzas. Atsauktas kopīgošanas pēda tiek saglabāta |
+| **Nemaskētie fragmenti** (Maskēšanās režīms bez vārdnīcas: īsi ziņas gabali, ne vairāk kā 40 rakstzīmes, kas pēc maskēšanas palikuši lasāmi) | Uzlabot kopējo maskēšanas režģi | Bez konta identifikatora, saistīti tikai ar ierīces pseidonīmu nospiedumu. Termiņš vēl nav noteikts, un tie netiek izdzēsti, dzēšot kontu |
+| **Vārdu definīcijas** (vārds un tā ģenerētā definīcija, kad jūs pieprasāt kāda sava vārdnīcas vārda definīciju) | Nelikt ģenerēt vienu un to pašu definīciju divreiz | Visiem kopīgs kešs, **bez** konta vai valodas **identifikatora**. Tas netiek izdzēsts, dzēšot kontu |
 | **Tehniskās avāriju ziņošanas** (kļūdas veids, saīsināts tehniskais izsaukumu steks, lietotnes versija, operētājsistēma — nekad teksta saturs) | Diagnosticēt un labot lietotnes avārijas | Regulē mūsu avāriju ziņošanas pakalpojumu sniedzējs (skatīt 9. sadaļu). Šī vākšana ir pakļauta jūsu piekrišanai un slēdzim, ko mēs jebkurā brīdī varam izslēgt bez lietotnes atjauninājuma |
 
 **Ko mēs nevācam:** jūsu vārdu, jūsu kontaktus, jūsu atrašanās vietu, jūsu adrešu grāmatu, jūsu fotoattēlus, jūsu kalendāru, jūsu lietotņu vēsturi. Plume nepieprasa nevienu no šīm atļaujām.
@@ -193,7 +201,7 @@ Tā kā lietotne ļauj pārformulēt brīvu tekstu un rāda reklāmu, tā nav at
 
 ## 10. Drošība
 
-Apmaiņa starp lietotni un mūsu serveriem ir šifrēta (HTTPS/TLS). Piekļuvi datiem datubāzē ierobežo servera puses noteikumi: jutīgās funkcijas nav pieejamas no lietotnes. Neviena sistēma nav pilnīgi droša. Teksts, ko jūs pārformulējat, un teksts, ko Asistētā lasīšana parāda ekrānā, pie mums netiek glabāts, kas mehāniski ierobežo to, ko ielaušanās par tiem varētu atklāt. **Tas neattiecas uz visu:** jūsu izveidoto personisko valodu vārdnīca gan **tiek** glabāta (skatīt 3. sadaļu) un reālas ielaušanās gadījumā tiktu atklāta tāpat kā jebkurš cits šajā politikā minētais dati — mēs to aizsargājam ar tādiem pašiem servera piekļuves noteikumiem kā pārējo.
+Apmaiņa starp lietotni un mūsu serveriem ir šifrēta (HTTPS/TLS). Piekļuvi datiem datubāzē ierobežo servera puses noteikumi: jutīgās funkcijas nav pieejamas no lietotnes. Neviena sistēma nav pilnīgi droša. Teksts, ko jūs pārformulējat, un teksts, ko Asistētā lasīšana parāda ekrānā, pie mums netiek glabāts, kas mehāniski ierobežo to, ko ielaušanās par tiem varētu atklāt. **Tas neattiecas uz visu:** jūsu izveidoto personisko valodu vārdnīca, jūsu kamuflāžas vārdnīcas un gaidošie vārdi gan **tiek** glabāti (skatīt 3. sadaļu) un reālas ielaušanās gadījumā tiktu atklāti tāpat kā jebkurš cits šajā politikā minētais dati — mēs to aizsargājam ar tādiem pašiem servera piekļuves noteikumiem kā pārējo.
 
 ---
 

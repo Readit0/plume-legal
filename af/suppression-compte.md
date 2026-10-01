@@ -1,6 +1,6 @@
 # Skrap jou rekening en jou data — Plume
 
-**Laas bygewerk: 12 September 2026** — Weergawe 2.0
+**Laas bygewerk: 1 Oktober 2026** — Weergawe 2.1
 
 Betrokke app: **Plume** (`com.plume.plume`), uitgegee deur **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — op Google Play gepubliseer onder die naam **openfunworld**.
 
@@ -33,15 +33,16 @@ Die skrapping vee **finaal** uit:
 
 - **jou rekening** (e-posadres, wagwoord, sessie);
 - **jou gebruikstellers** — die aantal herformulerings wat per dag en per maand verbruik is;
-- **jou voorstelle** — die voorstelle wat jy dalk uit die app aan ons gestuur het. Dit is die enigste vrye teks wat ons stoor;
+- **jou voorstelle** — die voorstelle wat jy dalk uit die app aan ons gestuur het.;
 - **jou versoekidentifiseerders** — die tegniese verwysings van die herformulerings wat aangevra is;
 - **jou krediete en kwota-ontsluitings** — gekoopte krediete wat nie verbruik is nie, ontsluitings wat deur advertensies verkry is, aangepaste plafonne;
 - **die koppeling van jou toestelle aan jou rekening** — jou ander fone of tablette word ontkoppel en word weer eenvoudige anonieme toestelle;
-- **die persoonlike tale wat jy geskep het** — hulle naam, hulle alfabet, hulle leksikon, jou deel-tekens en jou invoergeskiedenis. **Wat hierdie skrapping nie kan doen nie:** as iemand anders reeds 'n kopie van jou taal by hulle ingevoer het, behoort daardie kopie voortaan aan hulle en **oorleef** dit jou skrapping — soos 'n boodskap wat reeds deur 'n derde party ontvang is, wat ons nie aan hulle kant kan uitvee nie.
+- **jou kamoeflasiewoordelyste**, ook dié wat in die asblik geplaas is — hulle naam, hulle tema, hulle woordpare, die hangende woorde, jou deel-tekens, en die koppelings in albei rigtings (die woordelyste wat jy gedeel het, en dié wat met jou gedeel is);
+- **die persoonlike tale wat jy geskep het** — hulle naam, hulle alfabet, hulle leksikon, die hangende woorde, jou deel-tekens en jou invoergeskiedenis. **Wat hierdie skrapping nie kan doen nie:** as iemand anders reeds 'n kopie van jou taal by hulle ingevoer het, behoort daardie kopie voortaan aan hulle en **oorleef** dit jou skrapping — soos 'n boodskap wat reeds deur 'n derde party ontvang is, wat ons nie aan hulle kant kan uitvee nie.
 
 Die toestel waarvandaan jy die skrapping aanvra, word **geneutraliseer**: die koppeling daarvan aan jou rekening word uitgevee, die identifikasiesleutel daarvan word vernietig en deur 'n dooie waarde vervang, en die taal en die appweergawe daarvan word uitgevee. Daar bly net 'n ondeursigtige nommer oor, wat dit nie meer moontlik maak om jou te identifiseer of om die toestel op te spoor nie.
 
-**Ons het die tekste wat jy herformuleer het, en die teks wat deur Ondersteunde Lees van die skerm gelees is, nooit gestoor nie**: hulle word nêrens op ons bedieners bewaar nie, en daar is dus niks daarvan om te skrap nie. **Dit geld nie vir die leksikon van 'n persoonlike taal wat jy dalk geskep het nie:** die inhoud daarvan (naam, alfabet, woorde en definisies) word wél op ons bedieners gestoor — die skrapping van jou rekening vee dit uit, soos die res van wat aan jou behoort (sien hieronder).
+**Ons stoor nie die tekste wat jy herformuleer het nie, en ook nie die teks wat deur Ondersteunde Lees van die skerm gelees word nie**: hulle word nêrens op ons bedieners bewaar nie, en daar is dus niks daarvan om te skrap nie. **Dit geld nie vir jou persoonlike tale en jou kamoeflasiewoordelyste nie:** hulle inhoud (naam, alfabet of tema, woorde en definisies), asook die losstaande woorde van jou boodskappe wat daarin nog ontbreek het, word wél op ons bedieners gestoor — die skrapping van jou rekening vee hulle uit, soos die res van wat aan jou behoort (sien hierbo).
 
 **Op jou foon** word jou personas, jou avatars, jou instellings en jou reëls per app plaaslik gestoor. Hulle word deur die skrapping vanuit die app uitgevee, en verdwyn in elk geval **wanneer jy Plume deïnstalleer**.
 
@@ -59,6 +60,12 @@ Drie kategorieë spore bly oor, maar **die verband met jou identiteit is verbree
 | **Die tegniese sekuriteitseine** (herhaalde oorskrydings, mislukte integriteitskontroles) | Bestryding van bedrog. Hierdie rekords bevat **geen teks nie** en word **sonder toestelidentifiseerder** bewaar. |
 
 Hierdie geanonimiseerde data word bewaar vir die tydperk wat deur ons wetlike verpligtinge vereis word, veral die rekeningkundiges, en word daarna geskrap of saamgevoeg.
+
+**Drie ander elemente word nie deur die skrapping van jou rekening uitgevee nie**, omdat hulle nie aan jou gekoppel is nie, of nie meer net aan jou nie:
+
+- **die ongekamoefleerde fragmente** — in Kamoeflering-modus sonder woordelys, kort stukkies van 'n boodskap (hoogstens 40 karakters) wat ná die kamoeflering leesbaar gebly het: hulle dra geen rekeningidentifiseerder nie, slegs 'n pseudonieme vingerafdruk van die toestel;
+- **die woorddefinisies** — 'n gemeenskaplike kas vir alle gebruikers, sonder rekening- of taalidentifiseerder;
+- **die woorde wat jy met iemand anders se kamoeflasiewoordelys geskryf het** — hulle is eenkant gesit in sy woordelys, wat aan hom behoort, en deel sy lot.
 
 ---
 

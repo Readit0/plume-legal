@@ -1,6 +1,6 @@
 # Jūsu konta un datu dzēšana — Plume
 
-**Pēdējoreiz atjaunināts: 2026. gada 12. septembris** — Versija 2.0
+**Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 2.1
 
 Attiecīgā lietotne: **Plume** (`com.plume.plume`), ko izdod **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicēta Google Play veikalā ar nosaukumu **openfunworld**.
 
@@ -33,15 +33,16 @@ Dzēšana **neatgriezeniski** izdzēš:
 
 - **jūsu kontu** (e-pasta adrese, parole, sesija);
 - **jūsu lietojuma skaitītājus** — dienā un mēnesī patērēto pārformulējumu skaitu;
-- **jūsu ieteikumus** — priekšlikumus, ko esat mums nosūtījis no lietotnes. Tas ir vienīgais brīvais teksts, ko mēs glabājam;
+- **jūsu ieteikumus** — priekšlikumus, ko esat mums nosūtījis no lietotnes;
 - **jūsu pieprasījumu identifikatorus** — pieprasīto pārformulējumu tehniskās atsauces;
 - **jūsu kvotas kredītus un atbloķējumus** — nopirktos nepatērētos kredītus, ar reklāmu iegūtos atbloķējumus, pielāgotos ierobežojumus;
 - **jūsu ierīču piesaisti jūsu kontam** — jūsu pārējie tālruņi vai planšetdatori tiek atsaistīti un atkal kļūst par vienkāršām anonīmām ierīcēm;
-- **personiskās valodas, ko esat izveidojis** — to nosaukumu, alfabētu, vārdnīcu, jūsu koplietošanas marķierus un importēšanas vēsturi. **Ko šī dzēšana nevar izdarīt:** ja kāds cits jau ir importējis jūsu valodas kopiju pie sevis, šī kopija tagad pieder viņam un **turpina pastāvēt** pēc jūsu dzēšanas — tāpat kā ziņa, ko jau saņēmusi trešā puse, mēs nevaram to izdzēst pie viņa.
+- **jūsu kamuflāžas vārdnīcas**, arī atkritnē ievietotās — to nosaukumu, tēmu, vārdu pārus, gaidošos vārdus, jūsu koplietošanas marķierus un saistījumus abos virzienos (vārdnīcas, ar kurām esat dalījies, un tās, ar kurām dalījušies ar jums);
+- **personiskās valodas, ko esat izveidojis** — to nosaukumu, alfabētu, vārdnīcu, gaidošos vārdus, jūsu koplietošanas marķierus un importēšanas vēsturi. **Ko šī dzēšana nevar izdarīt:** ja kāds cits jau ir importējis jūsu valodas kopiju pie sevis, šī kopija tagad pieder viņam un **turpina pastāvēt** pēc jūsu dzēšanas — tāpat kā ziņa, ko jau saņēmusi trešā puse, mēs nevaram to izdzēst pie viņa.
 
 Ierīce, no kuras jūs pieprasāt dzēšanu, tiek **neitralizēta**: tās piesaiste jūsu kontam tiek izdzēsta, tās identifikācijas atslēga tiek iznīcināta un aizstāta ar mirušu vērtību, tās valoda un lietotnes versija tiek izdzēstas. Paliek tikai necaurredzams numurs, kas vairs neļauj ne jūs identificēt, ne atrast ierīci.
 
-**Mēs nekad neesam glabājuši tekstus, ko esat pārformulējis, ne tekstu, ko no ekrāna nolasīja asistētā lasīšana**: tie nekur mūsu serveros netiek glabāti, tāpēc nav nekā, ko tur dzēst. **Tas neattiecas uz vārdnīcu personiskajai valodai, ko jūs varētu būt izveidojis**: tās saturs (nosaukums, alfabēts, vārdi un definīcijas) tiešām tiek glabāts mūsu serveros — jūsu konta dzēšana to izdzēš, tāpat kā pārējo jums piederošo (skatīt tālāk).
+**Mēs neglabājam tekstus, ko esat pārformulējis, ne tekstu, ko no ekrāna nolasīja asistētā lasīšana**: tie nekur mūsu serveros netiek glabāti, tāpēc nav nekā, ko tur dzēst. **Tas neattiecas uz jūsu personiskajām valodām un kamuflāžas vārdnīcām**: to saturs (nosaukums, alfabēts vai tēma, vārdi un definīcijas), kā arī atsevišķie jūsu ziņu vārdi, kuru tajās vēl trūka, tiešām tiek glabāti mūsu serveros — jūsu konta dzēšana tos izdzēš, tāpat kā pārējo jums piederošo (skatīt iepriekš).
 
 **Jūsu tālrunī** jūsu personas, jūsu avatāri, jūsu iestatījumi un jūsu noteikumi katrai lietotnei ir saglabāti lokāli. Tos izdzēš dzēšana no lietotnes, un jebkurā gadījumā tie **pazūd, kad jūs atinstalējat Plume**.
 
@@ -59,6 +60,12 @@ Saglabājas trīs kategoriju pēdas, taču **saikne ar jūsu identitāti ir pār
 | **Tehniskie drošības signāli** (atkārtoti pārsniegumi, integritātes pārbaudes neizdošanās) | Cīņa pret krāpšanu. Šie ieraksti nesatur **nekādu tekstu** un tiek glabāti **bez ierīces identifikatora**. |
 
 Šie anonimizētie dati tiek glabāti tik ilgi, cik to prasa mūsu juridiskie, jo īpaši grāmatvedības, pienākumi, un pēc tam tiek dzēsti vai apkopoti.
+
+**Trīs citi elementi netiek izdzēsti, dzēšot jūsu kontu**, jo tie nav saistīti ar jums vai vairs nav saistīti tikai ar jums:
+
+- **nemaskētie fragmenti** — Maskēšanās režīmā bez vārdnīcas: īsi ziņas gabali (ne vairāk kā 40 rakstzīmes), kas pēc maskēšanas palikuši lasāmi; tajos nav nekāda konta identifikatora, tikai ierīces pseidonīmu nospiedums;
+- **vārdu definīcijas** — visiem lietotājiem kopīgs kešs bez konta vai valodas identifikatora;
+- **vārdi, ko esat rakstījis ar citas personas kamuflāžas vārdnīcu** — tie ir atlikti viņas vārdnīcā, kas pieder viņai, un seko tās liktenim.
 
 ---
 

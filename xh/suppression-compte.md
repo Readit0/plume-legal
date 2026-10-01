@@ -1,6 +1,6 @@
 # Ukucima i-akhawunti yakho nedatha yakho — Plume
 
-**Uhlaziyo lokugqibela: 12 kaSeptemba 2026** — Uhlobo 2.0
+**Uhlaziyo lokugqibela: 1 ku-Okthobha 2026** — Uhlobo 2.1
 
 I-app ethintelweyo: **Plume** (`com.plume.plume`), epapashwe yi-**SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ipapashwe kwiGoogle Play ngegama **openfunworld**.
 
@@ -33,15 +33,16 @@ Ukucima kucima **ngokupheleleyo**:
 
 - **i-akhawunti yakho** (idilesi ye-imeyile, igama-mfihlo, isigqibo);
 - **iikhawunta zakho zokusetyenziswa** — inani leentlungiswano ezisetyenzisiweyo ngosuku nangenyanga;
-- **iingcebiso zakho** — iingcebiso onokuba wasithumelela zona usuka kwiapp. Yiwo kuphela umbhalo okhululekileyo esiwugcinileyo;
+- **iingcebiso zakho** — iingcebiso onokuba wasithumelela zona usuka kwiapp;
 - **izazisi zakho zezicelo** — iinkcukacha zobuchwepheshe zeentlungiswano ozicelileyo;
 - **ii-kredithi zakho neevulo ze-quota** — ii-kredithi ezithengiweyo ezingasetyenziswanga, iivulo ezifunyenwe ngesibhengezo, imida elungisiweyo;
 - **udibaniso lweedivayisi zakho ne-akhawunti yakho** — ezinye iifowuni zakho okanye iitablet zakho ziyahlulwa kwaye zibuyele kwiidivayisi ezingaziwa nje;
-- **iilwimi zabucala ozidalileyo** — igama lazo, unobumba, isichazi-magama, iithokheni zakho zokwabelana kunye nembali yakho yokungenisa. **Oku kucima akukwazi ukukwenza:** ukuba omnye umntu sele engenisile ikopi yolwimi lwakho kuye, ikopi leyo ngoku yeyakhe kwaye **iyahlala ikho** emva kokucima kwakho — njengomyalezo osele wafunyenwa ngumntu wesithathu, asinako ukumcimela kuye.
+- **uluhlu lwakho lwamagama okuzifihla**, kuquka olo lusiwe kwibhokisi yenkunkuma — igama lalo, umxholo walo, iinkqwani zamagama, amagama alindileyo, iithokheni zakho zokwabelana, nokudityaniswa ngeendlela zombini (olo uwabelene ngalo, nolo wabelwene ngalo);
+- **iilwimi zabucala ozidalileyo** — igama lazo, unobumba, isichazi-magama, amagama alindileyo, iithokheni zakho zokwabelana kunye nembali yakho yokungenisa. **Oku kucima akukwazi ukukwenza:** ukuba omnye umntu sele engenisile ikopi yolwimi lwakho kuye, ikopi leyo ngoku yeyakhe kwaye **iyahlala ikho** emva kokucima kwakho — njengomyalezo osele wafunyenwa ngumntu wesithathu, asinako ukumcimela kuye.
 
 Idivayisi ocela kuyo ukucima **iyathenjiswa**: udibaniso lwayo ne-akhawunti yakho luyacinywa, ukhiye wayo wesazisi utshatyalaliswa kwaye afakwe endaweni yakhe ixabiso elifileyo, ulwimi lwayo nohlobo lwe-app zicinywa. Kusala nombolo engaqondakaliyo, engasavumeliyo ukukubona okanye ukufumana idivayisi.
 
-**Asizange sigcine imibhalo owulungisileyo, nalowo iFundwa Okuncedayo ibonise kwiskrini:** ayizange zigcinwe naphi na kwiiseva zethu, ngoko akukho nto yokucima. **Oku akululanga kwisichazi-magama solwimi lwabucala oludalileyo:** umxholo walo (igama, unobumba, amagama neenkcazelo) ugcinwe ngenene kwiiseva zethu — ukucima i-akhawunti yakho kuyawucima, njengayo yonke enye into eyeyakho (jonga ngezantsi).
+**Asigcini imibhalo owulungisileyo, nalowo iFundwa Okuncedayo ibonise kwiskrini:** ayigcinwa naphi na kwiiseva zethu, ngoko akukho nto yokucima. **Oku akululanga kwiilwimi zakho zabucala nakuluhlu lwakho lwamagama okuzifihla:** umxholo walo (igama, unobumba okanye umxholo, amagama neenkcazelo), kunye namagama aqhelekileyo asemiyalezweni yakho ebengekabikho kuwo, kugcinwe ngenene kwiiseva zethu — ukucima i-akhawunti yakho kuyawucima, njengayo yonke enye into eyeyakho (jonga ngentla).
 
 **Kwifowuni yakho**, iipersona zakho, iiavatha zakho, iisetingi zakho nemithetho yakho ngeapp igciniwe endaweni. Ziyacinywa ngokucima okwenziwe kwiapp, kwaye kuyo yonke imeko **ziyanyamalala xa ususa iPlume kwifowuni yakho**.
 
@@ -59,6 +60,12 @@ Iindidi ezine zomkhondo ziyasala, kodwa **unxulumano nesazisi sakho luqhawukile*
 | **Imiqondiso yobuchwepheshe yokhuseleko** (ukugqitha umda ngokuphindaphindiweyo, ukwehluleka kokuhlolwa kobuqotho) | Ukulwa ubuqhetseba. Ezi rekhodi **azinawo nawuphi na umbhalo** kwaye zigciniwe **ngaphandle kwesazisi sedivayisi**. |
 
 Le datha ingenamagama igciniwe ngexesha elifunwa ziimfuno zethu zomthetho, ngokukodwa amatyala, size icinywe okanye ihlanganiswe.
+
+**Ezinye izinto ezintathu azicinywa xa i-akhawunti yakho icinywa**, kuba zingadityaniswanga nawe, okanye zingasadityaniswanga nawe wedwa:
+
+- **iziqwenga ezingafihlwanga** — kwimowudi yokuFihla ngaphandle koluhlu, iingceba ezimfutshane zomyalezo (ubuninzi bezinhlobo ezingama-40) ezihlala zifundeka emva kokufihla: azithwali sazisi se-akhawunti, zithwala kuphela impawu yeminwe engeyiyo eyokwenyani yedivayisi;
+- **iinkcazelo zamagama** — i-cache eqhelekileyo kubo bonke abasebenzisi, ngaphandle kwesazisi se-akhawunti okanye solwimi;
+- **amagama owabhale ngoluhlu lwamagama okuzifihla lomnye umntu** — abekwe bucala koluhlu lwakhe, olungolwakhe, kwaye alandela ikamva lalo.
 
 ---
 

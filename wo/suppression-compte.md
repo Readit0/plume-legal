@@ -1,6 +1,6 @@
 # Far sa kont ak say done — Plume
 
-**Yeesalaat bu mujj: 12 sattumbar 2026** — Bindeef 2.0
+**Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 2.1
 
 Aplikasion bi ñu wax: **Plume** (`com.plume.plume`), bu ñu def **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — bu ñu séddale ci Google Play ci tur **openfunworld**.
 
@@ -33,15 +33,16 @@ Far bi dana far **lu mat sëkk**:
 
 - **sa kont** (adresse email, password, session);
 - **sa xayma bu jëfandikoo** — limub soppi bu nga def bés ak weer bu nekk;
-- **say wax** — wax yi mën nga yónnee ci nun jaar ci aplikasion bi. Mooy mbind mu bopp mu rekk mu nu denc woon;
+- **say wax** — wax yi mën nga yónnee ci nun jaar ci aplikasion bi;
 - **say identifiant bu laaj yi** — référence technique bu soppi yi nga laaj;
 - **say kredit ak ubbite quota** — kredit yu ñu jënd yu ñu jëfandikoowul, ubbite yu ñu am jaar ci reklaam, dayo yu ñu jubbanti;
 - **jaxasoo bu say sañse ak sa kont** — say beneen téléphone walla tablette dañuy séddoo, te dañuy dellu ay sañse bu ñu xamul kenn;
-- **làkk yu bopp yi nga sos** — seen tur, alfabet, dictionnaire, say jeton séddale ak jaar-jaar bu import. **Lu far bii mënul def:** su am ku ñeneen jël na nag kopi bu sa làkk ci moom, kopi boobu moom na moom léegi te dana **des** gannaaw sa far bi — ni benn bataaxal ku ñeneen jot na ko, duñu ko mën a far ci moom.
+- **say denc-kàddu yu nëbb**, yi ñu tàbbal ci corbeille it — seen tur, seen temaam, seen jotali baat, baat yi ngi xaar, say jeton séddale, ak lëkkalekaay yi ci ñaari wàll (denc-kàddu yi nga séddale, ak yi ñu la séddale);
+- **làkk yu bopp yi nga sos** — seen tur, alfabet, dictionnaire, baat yi ngi xaar, say jeton séddale ak jaar-jaar bu import. **Lu far bii mënul def:** su am ku ñeneen jël na nag kopi bu sa làkk ci moom, kopi boobu moom na moom léegi te dana **des** gannaaw sa far bi — ni benn bataaxal ku ñeneen jot na ko, duñu ko mën a far ci moom.
 
 Sañse bi nga jaar ci ngir laaj far bi dañu koy **neutraliser**: jaxasoo ak sa kont dañu ko far, clé identification bam dañu ko yàq te weesal ko ak benn valeur bu dee, làkkam ak bindeef aplikasion bam dañu leen far. Du des lu dul benn nimero bu opaque, bu bañ a mën jàppale la walla gis sañse bi.
 
-**Duñu denc mukk say mbind yi nga soppi, walla mbind mi Jàngukaay bu Ndimbal won ci ekran bi:** duñu leen denc fenn ci sunuy server, kon amul dara ngir far. **Loolu du dëgg ci dictionnaire bu benn làkk bu bopp bu nga sos:** kontenu bam (turam, alfabet, baat ak tekki) dañu ko denc dëgg-dëgg ci sunuy server — far sa kont dana ko far, ni lu des lépp lu moom la (xool ci suuf).
+**Duñu denc say mbind yi nga soppi, walla mbind mi Jàngukaay bu Ndimbal won ci ekran bi:** duñu leen denc fenn ci sunuy server, kon amul dara ngir far. **Loolu du dëgg ci say làkk yu bopp ak say denc-kàddu yu nëbb:** seen kontenu (tur, alfabet walla temaam, baat ak tekki), ak baat yi nekk ci sa bataaxal yi te manquee ci yooyu, dañu leen denc dëgg-dëgg ci sunuy server — far sa kont dana leen far, ni lu des lépp lu moom la (xool ci kaw).
 
 **Ci sa téléphone**, say persona, say avatar, sa paramet ak sa yoon bu aplikasion dañu leen denc ci sañse bi. Dañuy far jaar ci far bi ci aplikasion bi, te ci lépp **dañuy mucc su nga far Plume ci sa téléphone**.
 
@@ -59,6 +60,12 @@ Sañse bi nga jaar ci ngir laaj far bi dañu koy **neutraliser**: jaxasoo ak sa 
 | **Marque technique bu kaaraange** (bàyyi wàll bu ay yoon, njumte contrôle intégrité) | Xeex njumte. Marque yii **amuñu benn mbind** te dañu leen denc **amul identifiant sañse**. |
 
 Done yii bu ñu génne jaxasoo bopp dañu leen denc ci diir bu sunuy warugar yoon laaj, rawatina comptable, gannaaw loolu dañu leen far walla boole.
+
+**Ñett yeneen lu ñu duñu far su sa kont faree**, ndax duñu la lëkkale, walla du yaw rekk la lëkkale:
+
+- **cat yu ñu nëbbul** — ci mode Nëbb te amul denc-kàddu, ay cat yu gàtt ci bataaxal bi (40 caractère rekk ci kaw) yu des ñu mën leen jàng gannaaw nëbb bi: amul identifiant bu kont, empreinte bu pseudonyme bu sañse bi rekk la;
+- **tekki yu baat yi** — cache bu bokk ngir jëfandikookat yépp, amul identifiant bu kont walla bu làkk;
+- **baat yi nga bind ak denc-kàddu bu nëbb bu ku ñeneen** — dañu leen wacc ci denc-kàddu bi, bi moom la, te mu topp ko ci mbir mi.
 
 ---
 

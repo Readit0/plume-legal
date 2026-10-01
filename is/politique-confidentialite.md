@@ -1,6 +1,8 @@
 # Persónuverndarstefna Plume
 
-**Síðast uppfært: 12. september 2026** — Útgáfa 2.0
+**Síðast uppfært: 1. október 2026** — Útgáfa 2.1
+
+> *Hvað breyttist í útgáfu 2.1:* við lýsum **stillingunni Felulitur**, sem útgáfa 2.0 nefndi ekki, og leiðréttum fullyrðingu sem er ekki lengur rétt: bæði fyrir eigin tungumál og fyrir Felulit **eru orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt geymd, eitt og eitt** — aldrei setningin — til þess að geta boðið þér að bæta þeim við. Nánar er fjallað um það í „Á einni mínútu“, í §2.2 og í §3.
 
 > *Hvað breyttist frá útgáfu 1.0, og hvers vegna þú gætir séð samþykkisskjáinn
 > aftur í forritinu:* við leiðréttum tvær fullyrðingar sem voru ekki lengur réttar.
@@ -33,7 +35,7 @@ Plume hjálpar þér að skrifa: forritið umorðar textann þinn beint í því
 
 Þrennt er vert að muna:
 
-1. **Plume geymir hvorki umorðaða textana þína né textann sem lesinn er af skjánum.** Við geymum hvorki afrit né atburðaskrá. **Undantekning sem við tökum meðvitað á okkur, og af fúsum vilja:** ef þú býrð til **eigið tungumál** (eigið uppspunnið tungumál, með orðasafni orða og merkinga þeirra), þá **er** efni þess tungumáls geymt á netþjónum okkar — það er eina leiðin til að gera þér kleift að finna það aftur í öðru tæki, þróa það áfram og deila því. Nánar er fjallað um það í §3.
+1. **Plume geymir hvorki umorðaða textana þína né textann sem lesinn er af skjánum.** Við geymum hvorki afrit né atburðaskrá. **Undantekningar sem við tökum meðvitað á okkur, og af fúsum vilja:** ef þú býrð til **eigið tungumál** (eigið uppspunnið tungumál, með orðasafni orða og merkinga þeirra) eða **Felulitaorðasafn** (leynikóðann þinn úr orðum), þá **er** efni þess geymt á netþjónum okkar — það er eina leiðin til að gera þér kleift að finna það aftur í öðru tæki, þróa það áfram og deila því. Og þegar þú skrifar í þessum tveimur stillingum eru **stök orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt** lögð til hliðar, eitt og eitt — aldrei setningin — til þess að bjóða þér að bæta þeim við. Nánar er fjallað um það í §3.
 2. **Eftir því hvaða vél þú velur fer textinn þinn út úr símanum þínum — eða ekki.** Tvær vélar (Staðbundni búnaðurinn og Staðbundna gervigreindin) vinna alfarið í tækinu. Sú þriðja (Skýjagervigreindin) sendir textann til gervigreindarþjónustu **sem er staðsett utan Evrópusambandsins**. Þú ræður valinu, og Skýjagervigreindin fer aldrei í gang án skýlauss samþykkis þíns.
 3. **Plume þarf víðtækar heimildir** (að lesa efnið sem birtist í öðrum forritum og að taka upp skjáinn). Hér á eftir útskýrum við nákvæmlega til hvers þær eru notaðar og til hvers þær eru ekki notaðar.
 
@@ -90,7 +92,8 @@ Með þessum tveimur vélum **fer textinn sem lesinn er eða umorðaður ekki ú
 - Textinn fer um netþjónainnviði okkar, sem hýstir eru í **Evrópusambandinu** (svæðið Mið-Evrópa, Frankfurt).
 - Hann er síðan sendur til milliliðar sem beinir fyrirspurnum og er **staðsettur utan Evrópusambandsins**, sem lætur gervigreindarlíkan þriðja aðila vinna hann.
 - **Hér er því um að ræða flutning gagna út fyrir Evrópusambandið.** Við höldum ekki öðru fram og gefum ekkert loforð um evrópska hýsingu fyrir þetta þrep.
-- **Plume geymir ekki textann þinn.** Engin af netþjónsaðgerðum okkar skrifar niður efni textans þíns: við skráum aðeins tæknilegt auðkenni fyrirspurnar og auðkenni tækisins þíns, til að telja kvótann þinn og greina misnotkun.
+- **Plume geymir ekki textann þinn.** Engin af netþjónsaðgerðum okkar skrifar niður efni textans þíns: við skráum aðeins tæknilegt auðkenni fyrirspurnar og auðkenni tækisins þíns, til að telja kvótann þinn og greina misnotkun. **Eina undantekningin:** í stillingunni Eigið tungumál og í stillingunni Felulitur eru stök orð sem vantar í orðasafnið þitt lögð til hliðar (sjá §3).
+- **Stillingarnar Felulitur og Eigið tungumál fara sömu leið** í hvert sinn sem þær þurfa á gervigreind að halda: til að fela eða afkóða skilaboð sem orðasafnið þitt nær ekki alveg yfir, til að beygja orð eða tíðbeygja það, eða til að stækka orðasafnið þitt (orðin sem bíða eru þá send til gervigreindarþjónustunnar). Skjárinn sem kynnir stillinguna Felulitur tilkynnir þér það áður en hún er virkjuð.
 - **Það sem þessir þjónustuaðilar gera sín megin getum við ekki ábyrgst.** Við kjósum að segja þér það hreint út frekar en að lofa þér engri geymslu sem við erum ekki í aðstöðu til að staðfesta.
 
 **Skýjagervigreindin fer aldrei í gang af sjálfu sér.** Sérstakur samþykkisskjár útskýrir þessi atriði fyrir þér áður en fyrsta sending á sér stað, og ekkert fer út fyrr en þú hefur samþykkt. Ef staðbundna gervigreindin bregst skiptir Plume ekki yfir í skýið í hljóði: forritið lætur þig vita og bíður ákvörðunar þinnar. Þú getur afturkallað þetta samþykki hvenær sem er í stillingunum.
@@ -115,6 +118,11 @@ Hér er allt sem geymt er á netþjónum okkar:
 | **Tæknileg merki um misnotkun** (endurtekin yfirkeyrsla marka, misheppnuð heilleikaprófun — án nokkurs texta) | Öryggi, barátta gegn svikum | Aftengd persónu þinni þegar aðgangi er eytt |
 | **Tungumál og útgáfa forritsins** | Afhenda rétt efni | Þar til aðgangi þínum er eytt |
 | **Efni þeirra eigin tungumála sem þú býrð til** (nafn þess, stafróf þess og orðasafn þess — orðin og merkingarnar sem þú, eða aðrir, hafið skrifað í það) | Gera þér kleift að finna tungumálið þitt aftur í öðru tæki, þróa það áfram og deila því með öðrum notendum | Á meðan tungumálið er til. Ef þú eyðir því hverfur færslan — en afrit sem þegar hefur verið **flutt inn af öðrum aðila** tilheyrir þá honum og **lifir áfram**, líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti og við getum ekki fengið eytt hjá honum |
+| **Felulitaorðasöfnin þín** (nafn þeirra, þema, tungumál, valið merki og orðaparin „raunverulegt orð → kóðaorð“) | Fela og afkóða skilaboðin þín, gera þér kleift að finna orðasafnið þitt aftur í öðru tæki, þróa það áfram og deila því | Á meðan orðasafnið er til. **Orðasafn sem fært er í ruslið er áfram geymt**: sjálfvirk tæming þessa ruslis er ekki enn til. Það hverfur þegar aðgangi þínum er eytt |
+| **Orðin sem bíða** (eigið tungumál og Felulitur): stök orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt — aldrei setningin — ásamt fjölda skipta sem þau koma fyrir og dagsetningum fyrsta og síðasta skiptis | Bjóða þér að bæta þeim við orðasafnið þitt, og láta gervigreindarþjónustuna vinna úr þeim þegar þú stækkar það | Geymd áfram eftir að þeim hefur verið bætt við, svo lengi sem tungumálið eða orðasafnið er til. **Ef þú skrifar með Felulitaorðasafni sem annar aðili hefur deilt með þér**, eru orðin sem vantar í það lögð til hliðar **í orðasafni hans**, og sá aðili getur séð þau |
+| **Deiling tungumála þinna og orðasafna** (deilitákn, geymt eingöngu sem kjötkássa; saga innflutninga og tenginga) | Gera þínum nánustu kleift að lesa skilaboðin þín. Eigandi orðasafns sér lista yfir þá sem tengdir eru við það (birtingarnafn og prófílmynd Google — aldrei netfangið) | Deilitákn rennur út. Ummerki afturkallaðrar deilingar eru geymd |
+| **Óhulin brot** (stillingin Felulitur án orðasafns: stuttir bútar úr skilaboðum, í mesta lagi 40 stafir, sem urðu eftir læsilegir eftir að þau voru falin) | Bæta sameiginlega felunetið | Án auðkennis aðgangs, tengd eingöngu við dulnefnda kjötkássu tækisins. Enginn geymslutími hefur enn verið ákveðinn, og þau eru ekki þurrkuð út þegar aðgangi er eytt |
+| **Skilgreiningar orða** (orðið og skilgreining þess sem búin er til, þegar þú biður um skilgreiningu á orði úr orðasafninu þínu) | Forðast að sama skilgreiningin sé búin til tvisvar | Sameiginlegt skyndiminni fyrir alla, **án auðkennis** aðgangs eða tungumáls. Það er ekki þurrkað út þegar aðgangi er eytt |
 | **Tæknilegar hrunskýrslur** (tegund villu, stytt tækniferill kalla, útgáfa forritsins, stýrikerfið — aldrei textaefni) | Greina og laga hrun forritsins | Í umsjá hrunskýrsluþjónustuaðila okkar (sjá §9). Þessi söfnun er háð samþykki þínu og rofa sem við getum slökkt á hvenær sem er, án uppfærslu á forritinu |
 
 **Það sem við söfnum ekki:** nafnið þitt, tengiliðina þína, staðsetningu þína, netfangaskrána þína, myndirnar þínar, dagatalið þitt, sögu forritanotkunar þinnar. Plume biður ekki um neina af þessum heimildum.
@@ -201,7 +209,7 @@ Plume er hjálpartæki við ritun, ætlað notendum **16 ára og eldri**. Við s
 
 ## 10. Öryggi
 
-Samskipti forritsins og netþjóna okkar eru dulkóðuð (HTTPS/TLS). Aðgangur að gögnunum í gagnagrunninum er takmarkaður með reglum netþjónsmegin: viðkvæmu aðgerðirnar eru ekki aðgengilegar úr forritinu. Ekkert kerfi er fullkomlega öruggt. Textinn sem þú umorðar og sá texti sem Studdur lestur birtir á skjánum eru ekki geymdir hjá okkur, sem takmarkar með vélrænum hætti hvað innbrot gæti leitt í ljós um þau. **Þetta á ekki við um allt:** orðasafn þeirra eigin tungumála sem þú býrð til er hins vegar geymt (sjá §3), og yrði afhjúpað eins og önnur gögn í þessari stefnu ef til raunverulegs innbrots kæmi — við verjum það með sömu reglum um aðgang netþjónsmegin og annað.
+Samskipti forritsins og netþjóna okkar eru dulkóðuð (HTTPS/TLS). Aðgangur að gögnunum í gagnagrunninum er takmarkaður með reglum netþjónsmegin: viðkvæmu aðgerðirnar eru ekki aðgengilegar úr forritinu. Ekkert kerfi er fullkomlega öruggt. Textinn sem þú umorðar og sá texti sem Studdur lestur birtir á skjánum eru ekki geymdir hjá okkur, sem takmarkar með vélrænum hætti hvað innbrot gæti leitt í ljós um þau. **Þetta á ekki við um allt:** orðasafn þeirra eigin tungumála sem þú býrð til, Felulitaorðasöfnin þín og orðin sem bíða eru hins vegar geymd (sjá §3), og yrðu afhjúpuð eins og önnur gögn í þessari stefnu ef til raunverulegs innbrots kæmi — við verjum þau með sömu reglum um aðgang netþjónsmegin og annað.
 
 ---
 

@@ -1,6 +1,8 @@
 # Programėlės Plume privatumo politika
 
-**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 12 d.** — Versija 2.0
+**Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 2.1
+
+> *Kas pasikeitė versijoje 2.1:* aprašome **Maskuotės režimą**, kurio versija 2.0 neminėjo, ir taisome teiginį, kuris tapo netikslus: tiek individualioms kalboms, tiek Maskuotei **jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta, saugomi po vieną** — niekada ne sakinys — kad galėtume pasiūlyti juos įtraukti. Išsamiau — skyriuje „Per vieną minutę“, 2.2 ir 3 skyriuose.
 
 > *Kas pasikeitė nuo versijos 1.0 ir kodėl programėlėje galite vėl pamatyti sutikimo ekraną:* taisome du teiginius, kurie nebebuvo tikslūs. Pirma, funkcija **individualios kalbos** saugo mūsų serveriuose jūsų sukurtą turinį (pavadinimą, abėcėlę, žodyną) — versijoje 1.0 buvo klaidingai teigiama, kad joks tekstas nesaugomas. Antra, dabar naudojame **techninių strigčių ataskaitų** įrankį — versijoje 1.0 buvo teigiama, kad tokio įrankio nėra. Šių dviejų punktų detalės pateiktos skyriuje „Per vieną minutę" toliau, taip pat 3 ir 9 skyriuose. Būtent šios dvi pakeitimų kategorijos programėlėje sukelia naują sutikimo prašymą (žr. 11 skyrių).
 
@@ -25,7 +27,7 @@ Plume padeda jums rašyti: ji performuluoja jūsų tekstą tiesiai toje program�
 
 Trys dalykai, kuriuos verta įsiminti:
 
-1. **Plume nesaugo nei jūsų performuluotų tekstų, nei nuo ekrano nuskaityto teksto.** Nesaugome nei kopijos, nei žurnalo įrašo. **Sąmoningai daroma ir savanoriška išimtis:** jei sukuriate **individualią kalbą** (savo paties sukonstruotą kalbą su žodžių ir jų reikšmių žodynu), tos kalbos turinys **yra** saugomas mūsų serveriuose — tai vienintelis būdas leisti jums ją rasti kitame įrenginyje, ją plėtoti ir ja dalytis. Išsamiau — 3 skyriuje.
+1. **Plume nesaugo nei jūsų performuluotų tekstų, nei nuo ekrano nuskaityto teksto.** Nesaugome nei kopijos, nei žurnalo įrašo. **Sąmoningai daromos ir savanoriškos išimtys:** jei sukuriate **individualią kalbą** (savo paties sukonstruotą kalbą su žodžių ir jų reikšmių žodynu) arba **Kamufliažo žodyną** (savo slaptą žodžių kodą), jo turinys **yra** saugomas mūsų serveriuose — tai vienintelis būdas leisti jums jį rasti kitame įrenginyje, jį plėtoti ir juo dalytis. O kai rašote šiais dviem režimais, **atskiri jūsų žinutės žodžiai, kurių jūsų žodyne dar trūksta,** atidedami po vieną — niekada ne sakinys — kad galėtume pasiūlyti juos įtraukti. Išsamiau — 3 skyriuje.
 2. **Priklausomai nuo pasirinkto variklio jūsų tekstas iš jūsų telefono arba išeina, arba neišeina.** Du varikliai (vietinis rinkinys ir vietinis DI) veikia visiškai įrenginyje. Trečiasis (debesų DI) siunčia tekstą dirbtinio intelekto paslaugai, kuri **yra už Europos Sąjungos ribų**. Renkatės jūs, ir debesų DI niekada neįsijungia be aiškaus jūsų sutikimo.
 3. **Plume reikia galingų leidimų** (skaityti kitose programėlėse rodomą turinį, fiksuoti ekraną). Toliau tiksliai paaiškiname, kam jie skirti ir kam neskirti.
 
@@ -82,7 +84,8 @@ Kai pasirenkate debesų DI arba kai jūsų įrenginys nėra pakankamai galingas 
 - Tekstas eina per mūsų serverių infrastruktūrą, talpinamą **Europos Sąjungoje** (Vidurio Europos regionas, Frankfurtas).
 - Paskui jis perduodamas maršruto parinkimo tarpininkui, kuris **yra už Europos Sąjungos ribų** ir kuris leidžia tekstą apdoroti trečiosios šalies dirbtinio intelekto modeliui.
 - **Taigi tai yra duomenų perdavimas už Europos Sąjungos ribų.** Neteigiame priešingai ir neskelbiame jokio pažado dėl talpinimo Europoje šiame etape.
-- **Plume nesaugo jūsų teksto.** Nė viena mūsų serverio funkcija neįrašo jūsų teksto turinio: registruojame tik techninį užklausos identifikatorių ir jūsų įrenginio identifikatorių, kad suskaičiuotume jūsų kvotą ir aptiktume piktnaudžiavimą.
+- **Plume nesaugo jūsų teksto.** Nė viena mūsų serverio funkcija neįrašo jūsų teksto turinio: registruojame tik techninį užklausos identifikatorių ir jūsų įrenginio identifikatorių, kad suskaičiuotume jūsų kvotą ir aptiktume piktnaudžiavimą. **Vienintelė išimtis:** Individualios kalbos ir Maskuotės režimais atskiri žodžiai, kurių trūksta jūsų žodyne, atidedami (žr. 3 skyrių).
+- **Maskuotės ir Individualios kalbos režimai eina tuo pačiu keliu** kiekvieną kartą, kai jiems reikia DI: kad užmaskuotų ar iššifruotų žinutę, kurios jūsų žodynas visiškai nepadengia, kad suderintų ar asmenuotų žodį arba kad išplėstų jūsų žodyną (tuomet laukiantys žodžiai siunčiami DI paslaugai). Ekranas, pristatantis Maskuotės režimą, apie tai praneša prieš jį įjungiant.
 - **Ko šie paslaugų teikėjai imasi savo pusėje, mes negalime garantuoti.** Verčiau jums tai pasakome, negu žadame nulinį saugojimą, kurio nesame pajėgūs patikrinti.
 
 **Debesų DI niekada neįsijungia savaime.** Atskiras sutikimo ekranas paaiškina jums šiuos dalykus prieš pirmąjį siuntimą, ir niekas neišsiunčiama, kol nesutinkate. Jei vietinis DI nesuveikia, Plume tyliai nepersijungia į debesį: ji jums apie tai praneša ir laukia jūsų sprendimo. Šį sutikimą galite bet kada atšaukti nustatymuose.
@@ -107,6 +110,11 @@ Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies 
 | **Techniniai piktnaudžiavimo signalai** (pakartotiniai viršijimai, vientisumo patikros nesėkmė — be jokio teksto) | Saugumas, kova su sukčiavimu | Ištrynus paskyrą atsiejami nuo jūsų tapatybės |
 | **Programėlės kalba ir versija** | Pateikti tinkamą turinį | Iki jūsų paskyros ištrynimo |
 | **Jūsų kuriamų individualių kalbų turinys** (jos pavadinimas, abėcėlė ir žodynas — žodžiai ir apibrėžimai, kuriuos jūs arba kiti asmenys į ją įrašė) | Leisti jums rasti savo kalbą kitame įrenginyje, ją plėtoti ir dalytis ja su kitais naudotojais | Kol kalba egzistuoja. Jei ją ištrinate, jos kortelė išnyksta — tačiau jau **kito asmens importuota** kopija tampa jo nuosavybe ir **išlieka**, kaip jau trečiosios šalies gautas pranešimas, kurio negalime nueiti ištrinti pas jį |
+| **Jūsų Kamufliažo žodynai** (jų pavadinimas, tema, kalba, pasirinktas ženklas ir žodžių poros „tikrasis žodis → kodinis žodis“) | Maskuoti ir iššifruoti jūsų žinutes, leisti jums rasti savo žodyną kitame įrenginyje, jį plėtoti ir juo dalytis | Kol žodynas egzistuoja. **Į šiukšlinę perkeltas žodynas lieka saugomas**: šios šiukšlinės automatinio ištuštinimo dar nėra. Jis išnyksta ištrynus jūsų paskyrą |
+| **Laukiantys žodžiai** (individuali kalba ir Maskuotė): atskiri jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta — niekada ne sakinys — su jų pasikartojimų skaičiumi ir pirmo bei paskutinio pasirodymo datomis | Pasiūlyti jums juos įtraukti į jūsų žodyną ir leisti DI paslaugai juos apdoroti, kai jį plėtojate | Saugomi ir juos įtraukus, kol egzistuoja kalba ar žodynas. **Jei rašote su Kamufliažo žodynu, kuriuo su jumis pasidalijo kitas asmuo**, jo trūkstami žodžiai atidedami **to asmens žodyne**, ir tas asmuo juos mato |
+| **Jūsų kalbų ir žodynų bendrinimas** (dalijimosi žetonas, saugomas tik kaip kontrolinis kodas; importavimų ir susiejimų istorija) | Leisti jūsų artimiesiems skaityti jūsų žinutes. Žodyno savininkas mato su juo susietų asmenų sąrašą (rodomą vardą ir „Google“ profilio nuotrauką — niekada ne el. pašto adresą) | Žetonas nustoja galioti. Atšaukto bendrinimo pėdsakas saugomas |
+| **Nemaskuoti fragmentai** (Maskuotės režimas be žodyno: trumpi žinutės gabalėliai, ne ilgesni kaip 40 simbolių, likę įskaitomi po maskavimo) | Tobulinti bendrą maskavimo tinklelį | Be paskyros identifikatoriaus, susieti tik su pseudonimiziniu įrenginio kontroliniu kodu. Trukmė dar nenustatyta, ir ištrynus paskyrą jie neištrinami |
+| **Žodžių apibrėžimai** (žodis ir jo sugeneruotas apibrėžimas, kai prašote savo žodyno žodžio apibrėžimo) | Neleisti sugeneruoti to paties apibrėžimo du kartus | Visiems bendra talpykla, **be** paskyros ar kalbos **identifikatoriaus**. Ištrynus paskyrą ji neištrinama |
 | **Techninės strigčių ataskaitos** (klaidos tipas, sutrumpintas techninis iškvietimų dėklas, programėlės versija, operacinė sistema — niekada teksto turinys) | Diagnozuoti ir taisyti programėlės strigtis | Reguliuoja mūsų strigčių ataskaitų paslaugų teikėjas (žr. 9 skyrių). Šis rinkimas priklauso nuo jūsų sutikimo ir jungiklio, kurį galime bet kada išjungti, be programėlės atnaujinimo |
 
 **Ko nerenkame:** jūsų vardo, jūsų kontaktų, jūsų buvimo vietos, jūsų adresų knygos, jūsų nuotraukų, jūsų kalendoriaus, jūsų programėlių istorijos. Plume neprašo nė vieno iš šių leidimų.
@@ -193,7 +201,7 @@ Kadangi programėlė leidžia performuluoti laisvą tekstą ir rodo reklamą, ji
 
 ## 10. Saugumas
 
-Mainai tarp programėlės ir mūsų serverių yra šifruoti (HTTPS/TLS). Prieigą prie duomenų bazėje esančių duomenų riboja serverio taisyklės: jautrios funkcijos nepasiekiamos iš programėlės. Nė viena sistema nėra visiškai saugi. Tekstas, kurį performuluojate, ir tekstas, kurį Pagalbinis skaitymas rodo ekrane, pas mus nesaugomi, ir tai savaime riboja tai, ką įsilaužimas galėtų apie juos atskleisti. **Tai galioja ne viskam:** jūsų kuriamų individualių kalbų žodynas **yra** saugomas (žr. 3 skyrių) ir realaus įsilaužimo atveju būtų atskleistas kaip bet kuris kitas šioje politikoje minimas duomuo — jį saugome tomis pačiomis serverio prieigos taisyklėmis kaip ir likusius duomenis.
+Mainai tarp programėlės ir mūsų serverių yra šifruoti (HTTPS/TLS). Prieigą prie duomenų bazėje esančių duomenų riboja serverio taisyklės: jautrios funkcijos nepasiekiamos iš programėlės. Nė viena sistema nėra visiškai saugi. Tekstas, kurį performuluojate, ir tekstas, kurį Pagalbinis skaitymas rodo ekrane, pas mus nesaugomi, ir tai savaime riboja tai, ką įsilaužimas galėtų apie juos atskleisti. **Tai galioja ne viskam:** jūsų kuriamų individualių kalbų žodynas, jūsų Kamufliažo žodynai ir laukiantys žodžiai **yra** saugomi (žr. 3 skyrių) ir realaus įsilaužimo atveju būtų atskleisti kaip bet kuris kitas šioje politikoje minimas duomuo — juos saugome tomis pačiomis serverio prieigos taisyklėmis kaip ir likusius duomenis.
 
 ---
 

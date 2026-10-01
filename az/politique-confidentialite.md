@@ -1,6 +1,8 @@
 # Plume-un məxfilik siyasəti
 
-**Son yenilənmə: 12 sentyabr 2026** — Versiya 2.0
+**Son yenilənmə: 1 oktyabr 2026** — Versiya 2.1
+
+> *2.1 versiyasında nə dəyişib:* versiya 2.0-ın qeyd etmədiyi **Kamuflyaj rejimini** təsvir edirik və artıq dəqiq olmayan bir iddianı düzəldirik: həm şəxsi dillər, həm də Kamuflyaj üçün **mesajlarınızdakı hələ lüğətinizdə olmayan sözlər tək-tək saxlanılır** — heç vaxt cümlə deyil — onları əlavə etməyi sizə təklif edə bilmək üçün. Təfərrüat «Bir dəqiqədə» bölməsində, §2.2-də və §3-də yer alır.
 
 > *Versiya 1.0-dan bəri nə dəyişib və tətbiqdə qəbul ekranını yenidən niyə görə bilərsiniz:* artıq doğru olmayan iki iddianı düzəldirik. Birincisi, **şəxsi dillər** funksiyası yaratdığınız məzmunu (ad, əlifba, lüğət) serverlərimizdə saxlayır — versiya 1.0 səhvən heç bir mətnin saxlanmadığını bildirirdi. İkincisi, artıq bir **texniki nasazlıq hesabatı** aləti istifadə edirik — versiya 1.0 belə bir alətin mövcud olmadığını bildirirdi. Bu iki nöqtənin təfərrüatı aşağıdakı «Bir dəqiqədə» bölməsində, həmçinin §3 və §9-da yer alır. Bunlar tətbiqdə yeni razılıq tələbini yaradan tam olaraq iki dəyişiklik kateqoriyasıdır (bax §11).
 
@@ -25,7 +27,7 @@ Plume sizə yazmaqda kömək edir: yazdığınız tətbiqin içində birbaşa m�
 
 Yadda saxlamalı üç şey:
 
-1. **Plume nə yenidən tərtib etdiyiniz mətnləri, nə də ekranda oxunan mətni saxlamır.** Bunların nə surətini, nə də jurnalını saxlayırıq. **Şüurlu və könüllü istisna:** əgər bir **şəxsi dil** (öz qurduğunuz dil, sözlər lüğəti və onların tərifləri ilə) yaradarsanız, həmin dilin məzmunu serverlərimizdə **saxlanılır** — bu, onu başqa cihazda tapmağınıza, inkişaf etdirməyinizə və paylaşmağınıza imkan verən yeganə yoldur. Təfərrüat §3-də yer alır.
+1. **Plume nə yenidən tərtib etdiyiniz mətnləri, nə də ekranda oxunan mətni saxlamır.** Bunların nə surətini, nə də jurnalını saxlayırıq. **Şüurlu və könüllü istisnalar:** əgər bir **şəxsi dil** (öz qurduğunuz dil, sözlər lüğəti və onların tərifləri ilə) və ya **kamuflyaj lüğəti** (sözlərdən ibarət gizli kodunuzu) yaradarsanız, onun məzmunu serverlərimizdə **saxlanılır** — bu, onu başqa cihazda tapmağınıza, inkişaf etdirməyinizə və paylaşmağınıza imkan verən yeganə yoldur. Bu iki rejimdə yazdığınız zaman isə **mesajınızdakı hələ lüğətinizdə olmayan tək sözlər** tək-tək kənara qoyulur — heç vaxt cümlə deyil — onları əlavə etməyi sizə təklif etmək üçün. Təfərrüat §3-də yer alır.
 2. **Seçdiyiniz mühərrikdən asılı olaraq, mətniniz telefonunuzu tərk edir və ya etmir.** İki mühərrik (Lokal Dəst və Lokal SI) tamamilə cihazda işləyir. Üçüncüsü (Bulud SI) mətni Avropa İttifaqından **kənarda** yerləşən süni intellekt xidmətinə göndərir. Siz seçirsiniz, və Bulud SI heç vaxt açıq razılığınız olmadan aktivləşmir.
 3. **Plume güclü icazələr tələb edir** (digər tətbiqlərdə göstərilən məzmunu oxumaq, ekranı çəkmək). Aşağıda onların nəyə xidmət etdiyini və nəyə xidmət etmədiyini dəqiq izah edirik.
 
@@ -82,7 +84,8 @@ Bulud SI-ni seçdiyinizdə, və ya cihazınız Lokal SI üçün kifayət qədər
 - Mətn **Avropa İttifaqında** (Mərkəzi Avropa regionu, Frankfurt) yerləşdirilən server infrastrukturumuz vasitəsilə keçir.
 - Sonra o, Avropa İttifaqından **kənarda** yerləşən bir marşrutlaşdırma vasitəçisinə ötürülür, bu da onu üçüncü tərəfin süni intellekt modeli ilə işlətdirir.
 - **Deməli, bu, Avropa İttifaqından kənara məlumat ötürülməsidir.** Biz əksini iddia etmirik və bu mərhələ üçün heç bir Avropa hostinq vədi vermirik.
-- **Plume mətninizi saxlamır.** Server funksiyalarımızın heç biri mətninizin məzmununu yazmır: yalnız kvotanızı saymaq və sui-istifadəni aşkar etmək üçün texniki sorğu identifikatoru və cihazınızın identifikatorunu qeyd edirik.
+- **Plume mətninizi saxlamır.** Server funksiyalarımızın heç biri mətninizin məzmununu yazmır: yalnız kvotanızı saymaq və sui-istifadəni aşkar etmək üçün texniki sorğu identifikatoru və cihazınızın identifikatorunu qeyd edirik. **Yeganə istisna:** Şəxsi dil rejimində və Kamuflyaj rejimində lüğətinizdə olmayan tək sözlər kənara qoyulur (bax §3).
+- **Kamuflyaj və Şəxsi dil rejimləri eyni yolu izləyir** hər dəfə SI-yə ehtiyac duyduqda: lüğətinizin tam əhatə etmədiyi mesajı kamuflyaj etmək və ya deşifrə etmək, sözü uyğunlaşdırmaq və ya təsrif etmək, yaxud lüğətinizi böyütmək üçün (bu zaman gözləyən sözlər SI xidmətinə göndərilir). Kamuflyaj rejimini təqdim edən ekran bunu aktivləşdirməzdən əvvəl sizə bildirir.
 - **Bu təchizatçıların öz tərəflərində nə etdiklərini zəmanət verə bilmirik.** Bunu sizə deməyi, yoxlaya bilmədiyimiz sıfır saxlama vəd etməkdən üstün tuturuq.
 
 **Bulud SI heç vaxt öz-özünə aktivləşmir.** Xüsusi bir razılıq ekranı ilk göndərilişdən əvvəl bu məqamları izah edir, və siz qəbul etmədən heç nə göndərilmir. Lokal SI uğursuz olarsa, Plume səssizcə buluda keçmir: sizə bildirir və qərarınızı gözləyir. Bu razılığı istənilən vaxt ayarlarda ləğv edə bilərsiniz.
@@ -107,6 +110,11 @@ Serverlərimizdə saxlanılan hər şey budur:
 | **Sui-istifadənin texniki siqnalları** (təkrarlanan aşımlar, tamlıq yoxlamasının uğursuzluğu — heç bir mətn olmadan) | Təhlükəsizlik, fırıldaqçılıqla mübarizə | Hesabın silinməsi zamanı kimliyinizdən ayrılır |
 | **Tətbiqin dili və versiyası** | Doğru məzmunu təqdim etmək | Hesabınız silinənə qədər |
 | **Yaratdığınız şəxsi dillərin məzmunu** (adı, əlifbası və lüğəti — sizin və ya digər şəxslərin orada yazdığı sözlər və tərifləri) | Dilinizi başqa cihazda tapmağınıza, onu inkişaf etdirməyinizə və digər istifadəçilərlə paylaşmağınıza imkan vermək | Dil mövcud olduğu müddətcə. Onu silsəniz, onun kartı yox olur — lakin artıq **başqa bir şəxs tərəfindən idxal edilmiş** bir surət artıq ona məxsusdur və **yaşamağa davam edir**, üçüncü tərəfin artıq aldığı bir mesaj kimi ki, onu onların yanında silə bilmirik |
+| **Kamuflyaj lüğətləriniz** (adı, mövzusu, dili, seçilmiş emblem və «real söz → kod sözü» söz cütləri) | Mesajlarınızı kamuflyaj etmək və deşifrə etmək, lüğətinizi başqa cihazda tapmağınıza, inkişaf etdirməyinizə və paylaşmağınıza imkan vermək | Lüğət mövcud olduğu müddətcə. **Zibil qutusuna atılmış lüğət saxlanılmağa davam edir**: bu zibil qutusunun avtomatik boşaldılması hələ mövcud deyil. O, hesabınız silindikdə yoxa çıxır |
+| **Gözləyən sözlər** (şəxsi dil və Kamuflyaj): mesajlarınızdakı hələ lüğətinizdə olmayan tək sözlər — heç vaxt cümlə deyil —, görünmə sayı və ilk və son görünmə tarixləri ilə | Onları lüğətinizə əlavə etməyi sizə təklif etmək və lüğətinizi böyütdüyünüz zaman SI xidməti tərəfindən emal etdirmək | Əlavə edildikdən sonra da, dil və ya lüğət mövcud olduğu müddətcə saxlanılır. **Əgər başqa şəxsin sizinlə paylaşdığı kamuflyaj lüğəti ilə yazırsınızsa**, ona çatışmayan sözlər **onun lüğətində** kənara qoyulur və o şəxs onları görə bilər |
+| **Dillərinizin və lüğətlərinizin paylaşımı** (paylaşım jetonu, yalnız barmaq izi (heş) şəklində saxlanılır; idxalların və bağlantıların tarixçəsi) | Yaxınlarınızın mesajlarınızı oxumasına imkan vermək. Lüğətin sahibi ona bağlı olan şəxslərin siyahısını görür (göstərilən ad və Google profil şəkli — heç vaxt e-poçt ünvanı deyil) | Jetonun müddəti bitir. Ləğv edilmiş paylaşımın izi saxlanılır |
+| **Kamuflyaj edilməmiş fraqmentlər** (lüğətsiz Kamuflyaj rejimi: kamuflyajdan sonra oxunaqlı qalmış mesajın qısa parçaları, ən çox 40 simvol) | Ümumi kamuflyaj şəbəkəsini yaxşılaşdırmaq | Hesab identifikatoru olmadan, yalnız cihazın psevdonim barmaq izinə bağlı. Hələ heç bir müddət müəyyən edilməyib və hesab silindikdə silinmirlər |
+| **Sözlərin tərifləri** (söz və onun yaradılmış tərifi, lüğətinizdəki sözün tərifini istədiyiniz zaman) | Eyni tərifi iki dəfə yaratmamaq | Hamı üçün ümumi keş, hesab və ya dil **identifikatoru olmadan**. Hesab silindikdə silinmir |
 | **Texniki nasazlıq hesabatları** (xəta növü, kəsilmiş texniki çağırış yığını, tətbiqin versiyası, əməliyyat sistemi — heç vaxt mətn məzmunu deyil) | Tətbiqin nasazlıqlarını diaqnoz qoymaq və düzəltmək | Nasazlıq hesabatı təchizatçımız tərəfindən idarə olunur (bax §9). Bu toplama razılığınıza və istənilən vaxt, tətbiq yeniləməsi olmadan, söndürə biləcəyimiz bir açara tabedir |
 
 **Toplamadığımız:** adınız, kontaktlarınız, məkanınız, ünvan kitabçanız, fotolarınız, təqviminiz, tətbiqlərinizin tarixçəsi. Plume bu icazələrdən heç birini tələb etmir.
@@ -193,7 +201,7 @@ Tətbiq sərbəst mətnin yenidən tərtibinə imkan verdiyi və reklam göstər
 
 ## 10. Təhlükəsizlik
 
-Tətbiq ilə serverlərimiz arasındakı mübadilələr şifrələnib (HTTPS/TLS). Verilənlər bazasındakı məlumatlara giriş server qaydaları ilə məhdudlaşdırılıb: həssas funksiyalara tətbiqdən daxil olmaq mümkün deyil. Heç bir sistem tam təhlükəsiz deyil. Yenidən tərtib etdiyiniz mətn və Dəstəkli Oxunun ekranda göstərdiyi mətn bizdə saxlanılmır, bu da bir müdaxilənin onlar haqqında nə açıqlaya biləcəyini mexaniki olaraq məhdudlaşdırır. **Bu, hər şey üçün doğru deyil:** yaratdığınız şəxsi dillərin lüğəti **saxlanılır** (bax §3), və real bir müdaxilə baş versə, bu siyasətin digər hər hansı məlumatı kimi ifşa olunardı — biz onu qalanı ilə eyni server giriş qaydaları ilə qoruyuruq.
+Tətbiq ilə serverlərimiz arasındakı mübadilələr şifrələnib (HTTPS/TLS). Verilənlər bazasındakı məlumatlara giriş server qaydaları ilə məhdudlaşdırılıb: həssas funksiyalara tətbiqdən daxil olmaq mümkün deyil. Heç bir sistem tam təhlükəsiz deyil. Yenidən tərtib etdiyiniz mətn və Dəstəkli Oxunun ekranda göstərdiyi mətn bizdə saxlanılmır, bu da bir müdaxilənin onlar haqqında nə açıqlaya biləcəyini mexaniki olaraq məhdudlaşdırır. **Bu, hər şey üçün doğru deyil:** yaratdığınız şəxsi dillərin lüğəti, kamuflyaj lüğətləriniz və gözləyən sözlər **saxlanılır** (bax §3), və real bir müdaxilə baş versə, bu siyasətin digər hər hansı məlumatı kimi ifşa olunardı — biz onu qalanı ilə eyni server giriş qaydaları ilə qoruyuruq.
 
 ---
 

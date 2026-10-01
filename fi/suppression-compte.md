@@ -1,6 +1,6 @@
 # Poista tilisi ja tietosi — Plume
 
-**Viimeksi päivitetty: 12. syyskuuta 2026** — Versio 2.0
+**Viimeksi päivitetty: 1. lokakuuta 2026** — Versio 2.1
 
 Sovellus, jota tämä koskee: **Plume** (`com.plume.plume`), julkaisija **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — julkaistu Google Playssä nimellä **openfunworld**.
 
@@ -33,15 +33,16 @@ Poisto pyyhkii **lopullisesti**:
 
 - **tilisi** (sähköpostiosoite, salasana, istunto);
 - **käyttölaskurisi** — päivässä ja kuukaudessa kulutettujen uudelleenkirjoitusten määrän;
-- **ehdotuksesi** — ne ehdotukset, jotka olet mahdollisesti lähettänyt meille sovelluksesta. Se on ainoa vapaa teksti, jota säilytämme;
+- **ehdotuksesi** — ne ehdotukset, jotka olet mahdollisesti lähettänyt meille sovelluksesta;
 - **pyyntötunnisteesi** — pyydettyjen uudelleenkirjoitusten tekniset viitteet;
 - **krediittisi ja kiintiön avaukset** — käyttämättömät ostetut krediitit, mainoksilla saadut avaukset, mukautetut ylärajat;
 - **laitteidesi liitoksen tiliisi** — muut puhelimesi tai taulutietokoneesi irrotetaan, ja niistä tulee jälleen tavallisia nimettömiä laitteita;
-- **luomasi omat kielet** — niiden nimen, aakkoston, sanaston, jakotunnuksesi ja tuontihistoriasi. **Mitä tämä poisto ei voi tehdä:** jos joku toinen on jo tuonut kopion kielestäsi, kyseinen kopio kuuluu tästä lähtien hänelle ja **säilyy** poistostasi huolimatta — kuten kolmannelle jo vastaanotettu viesti, jota emme voi poistaa hänen puoleltaan.
+- **naamiointisanastosi**, myös roskakoriin siirretyt — niiden nimen, teeman, sanaparit, odottavat sanat, jakotunnuksesi sekä liitokset molempiin suuntiin (sanastot, jotka olet jakanut, ja ne, jotka on jaettu sinulle);
+- **luomasi omat kielet** — niiden nimen, aakkoston, sanaston, odottavat sanat, jakotunnuksesi ja tuontihistoriasi. **Mitä tämä poisto ei voi tehdä:** jos joku toinen on jo tuonut kopion kielestäsi, kyseinen kopio kuuluu tästä lähtien hänelle ja **säilyy** poistostasi huolimatta — kuten kolmannelle jo vastaanotettu viesti, jota emme voi poistaa hänen puoleltaan.
 
 Laite, jolta pyydät poistoa, **tehdään tehottomaksi**: sen liitos tiliisi pyyhitään, sen tunnistusavain tuhotaan ja korvataan kuolleella arvolla, ja sen kieli ja sovellusversio pyyhitään. Jäljelle jää vain läpinäkymätön numero, jonka avulla sinua ei voi enää tunnistaa eikä laitetta löytää.
 
-**Emme ole koskaan tallentaneet uudelleen kirjoittamiasi tekstejä emmekä tekstiä, jonka Lukuapu on lukenut näytöltä**: niitä ei säilytetä missään palvelimillamme, joten niistä ei ole mitään poistettavaa. **Tämä ei päde mahdollisesti luomasi oman kielen sanastoon**: sen sisältö (nimi, aakkosto, sanat ja määritelmät) todella tallennetaan palvelimillemme — tilisi poistaminen poistaa sen, kuten kaiken muunkin sinulle kuuluvan (katso alta).
+**Emme tallenna uudelleen kirjoittamiasi tekstejä emmekä tekstiä, jonka Lukuapu on lukenut näytöltä**: niitä ei säilytetä missään palvelimillamme, joten niistä ei ole mitään poistettavaa. **Tämä ei päde omiin kieliisi ja naamiointisanastoihisi**: niiden sisältö (nimi, aakkosto tai teema, sanat ja määritelmät) sekä viestiesi yksittäiset sanat, jotka niistä vielä puuttuivat, todella tallennetaan palvelimillemme — tilisi poistaminen poistaa ne, kuten kaiken muunkin sinulle kuuluvan (katso yltä).
 
 **Puhelimessasi** persoonasi, avatarisi, asetuksesi ja sovelluskohtaiset sääntösi on tallennettu paikallisesti. Ne pyyhitään, kun teet poiston sovelluksesta, ja ne katoavat joka tapauksessa, **kun poistat Plumen laitteestasi**.
 
@@ -59,6 +60,12 @@ Kolme jälkiryhmää jää jäljelle, mutta **yhteys henkilöllisyyteesi on katk
 | **Tekniset turvallisuusmerkit** (toistuvat ylitykset, epäonnistuneet eheystarkistukset) | Väärinkäytösten torjunta. Nämä merkinnät eivät sisällä **mitään tekstiä**, ja ne säilytetään **ilman laitetunnistetta**. |
 
 Näitä anonymisoituja tietoja säilytetään lakisääteisten, erityisesti kirjanpidollisten velvoitteidemme edellyttämän ajan, minkä jälkeen ne poistetaan tai koostetaan.
+
+**Kolmea muuta kohdetta tilisi poistaminen ei poista**, koska ne eivät ole sidottuja sinuun tai eivät enää pelkästään sinuun:
+
+- **naamioimattomat katkelmat** — Naamiointi-tilassa ilman sanastoa viestin lyhyet palat (enintään 40 merkkiä), jotka pysyivät luettavina naamioinnin jälkeen: niillä ei ole tilin tunnistetta, vain laitteen pseudonyymi tiiviste;
+- **sanojen määritelmät** — kaikille käyttäjille yhteinen välimuisti, ilman tilin tai kielen tunnistetta;
+- **sanat, jotka kirjoitit jonkun toisen naamiointisanastolla** — ne pantiin sivuun hänen sanastoonsa, joka kuuluu hänelle, ja ne seuraavat sen kohtaloa.
 
 ---
 

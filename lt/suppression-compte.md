@@ -1,6 +1,6 @@
 # Savo paskyros ir duomenų ištrynimas — Plume
 
-**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 12 d.** — Versija 2.0
+**Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 2.1
 
 Susijusi programėlė: **Plume** (`com.plume.plume`), kurią leidžia **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — paskelbta Google Play parduotuvėje vardu **openfunworld**.
 
@@ -33,15 +33,16 @@ Ištrynimas **negrįžtamai** panaikina:
 
 - **jūsų paskyrą** (el. pašto adresą, slaptažodį, seansą);
 - **jūsų naudojimo skaitiklius** — per dieną ir per mėnesį sunaudotų performulavimų skaičių;
-- **jūsų pasiūlymus** — pasiūlymus, kuriuos mums atsiuntėte iš programėlės. Tai vienintelis laisvas tekstas, kurį saugome;
+- **jūsų pasiūlymus** — pasiūlymus, kuriuos mums atsiuntėte iš programėlės;
 - **jūsų užklausų identifikatorius** — prašytų performulavimų technines nuorodas;
 - **jūsų kvotos kreditus ir atrakinimus** — nupirktus nesunaudotus kreditus, už reklamą gautus atrakinimus, pakoreguotas ribas;
 - **jūsų įrenginių susiejimą su jūsų paskyra** — kiti jūsų telefonai ar planšetiniai kompiuteriai atsiejami ir vėl tampa paprastais anoniminiais įrenginiais;
-- **jūsų sukurtos individualios kalbos** — jų pavadinimas, abėcėlė, žodynas, jūsų dalijimosi žetonai ir importavimo istorija. **Ko šis ištrynimas negali padaryti:** jei kas nors kitas jau importavo jūsų kalbos kopiją pas save, ta kopija dabar priklauso jam ir **išlieka** po jūsų ištrynimo — kaip jau trečiosios šalies gautas pranešimas, kurio negalime pas juos ištrinti.
+- **jūsų Kamufliažo žodynus**, įskaitant į šiukšlinę perkeltus — jų pavadinimą, temą, žodžių poras, laukiančius žodžius, jūsų dalijimosi žetonus ir abipusius susiejimus (žodynus, kuriais pasidalijote jūs, ir tuos, kuriais pasidalijo su jumis);
+- **jūsų sukurtas individualias kalbas** — jų pavadinimą, abėcėlę, žodyną, laukiančius žodžius, jūsų dalijimosi žetonus ir importavimo istoriją. **Ko šis ištrynimas negali padaryti:** jei kas nors kitas jau importavo jūsų kalbos kopiją pas save, ta kopija dabar priklauso jam ir **išlieka** po jūsų ištrynimo — kaip jau trečiosios šalies gautas pranešimas, kurio negalime pas juos ištrinti.
 
 Įrenginys, iš kurio prašote ištrynimo, yra **neutralizuojamas**: jo susiejimas su jūsų paskyra ištrinamas, jo identifikavimo raktas sunaikinamas ir pakeičiamas negyva reikšme, jo kalba ir programėlės versija ištrinamos. Lieka tik neperprantamas numeris, kuris nebeleidžia nei jūsų identifikuoti, nei rasti įrenginio.
 
-**Mes niekada nesaugojome tekstų, kuriuos performulavote, nei teksto, kurį nuo ekrano nuskaitė pagalbinis skaitymas**: jie niekur mūsų serveriuose nesaugomi, todėl ten nėra ko trinti. **Tai negalioja individualios kalbos, kurią būtumėte sukūrę, žodynui**: jo turinys (pavadinimas, abėcėlė, žodžiai ir apibrėžimai) iš tiesų saugomas mūsų serveriuose — jūsų paskyros ištrynimas jį pašalina, kaip ir likusią jums priklausančią nuosavybę (žr. toliau).
+**Mes nesaugome tekstų, kuriuos performulavote, nei teksto, kurį nuo ekrano nuskaitė pagalbinis skaitymas**: jie niekur mūsų serveriuose nesaugomi, todėl ten nėra ko trinti. **Tai negalioja jūsų individualioms kalboms ir Kamufliažo žodynams**: jų turinys (pavadinimas, abėcėlė ar tema, žodžiai ir apibrėžimai), taip pat atskiri jūsų žinučių žodžiai, kurių juose dar trūko, iš tiesų saugomi mūsų serveriuose — jūsų paskyros ištrynimas juos pašalina, kaip ir likusią jums priklausančią nuosavybę (žr. aukščiau).
 
 **Jūsų telefone** jūsų personos, jūsų avatarai, jūsų nustatymai ir jūsų taisyklės kiekvienai programėlei saugomi vietoje. Juos ištrina ištrynimas iš programėlės, ir bet kuriuo atveju jie **dingsta, kai pašalinate Plume**.
 
@@ -59,6 +60,12 @@ Lieka trijų kategorijų pėdsakai, tačiau **ryšys su jūsų tapatybe yra nutr
 | **Techniniai saugumo signalai** (pakartotiniai viršijimai, vientisumo patikrų nesėkmės) | Kova su sukčiavimu. Šiuose įrašuose nėra **jokio teksto** ir jie saugomi **be įrenginio identifikatoriaus**. |
 
 Šie nuasmeninti duomenys saugomi tiek, kiek reikalauja mūsų teisinės, visų pirma apskaitos, prievolės, o paskui ištrinami arba apibendrinami.
+
+**Trys kiti elementai paskyros ištrynimo metu neištrinami**, nes jie nesusiję su jumis arba nebesusiję tik su jumis:
+
+- **nemaskuoti fragmentai** — Maskuotės režimu be žodyno trumpi žinutės gabalėliai (ne ilgesni kaip 40 simbolių), likę įskaitomi po maskavimo: juose nėra jokio paskyros identifikatoriaus, tik pseudonimizinis įrenginio kontrolinis kodas;
+- **žodžių apibrėžimai** — visiems naudotojams bendra talpykla, be paskyros ar kalbos identifikatoriaus;
+- **žodžiai, kuriuos parašėte su kito asmens Kamufliažo žodynu** — jie atidėti jo žodyne, kuris jam priklauso, ir dalijasi jo likimu.
 
 ---
 

@@ -1,6 +1,8 @@
 # Pravila o privatnosti aplikacije Plume
 
-**Posljednje ažuriranje: 12. rujna 2026.** — Verzija 2.0
+**Posljednje ažuriranje: 1. listopada 2026.** — Verzija 2.1
+
+> *Što se promijenilo u verziji 2.1:* opisujemo **način Kamuflaža**, koji verzija 2.0 nije spominjala, i ispravljamo tvrdnju koja više nije bila točna: i za osobne jezike i za Kamuflažu, **riječi iz vaših poruka kojih još nema u vašem rječniku čuvaju se, jedna po jedna** — nikada rečenica — kako bismo vam mogli predložiti da ih dodate. Pojedinosti su u «U jednoj minuti», u §2.2 i u §3.
 
 > *Što se promijenilo od verzije 1.0 i zašto je moguće da ponovno vidite zaslon
 > za prihvaćanje u aplikaciji:* ispravljamo dvije tvrdnje koje više nisu bile točne.
@@ -33,7 +35,7 @@ Plume vam pomaže pisati: preoblikuje vaš tekst izravno u aplikaciji u kojoj up
 
 Tri stvari koje treba zapamtiti:
 
-1. **Plume ne pohranjuje ni tekstove koje preoblikujete ni tekst pročitan sa zaslona.** Ne čuvamo ni kopiju ni zapisnik. **Prihvaćena i namjerna iznimka:** ako stvorite **osobni jezik** (vlastiti izmišljeni jezik, s rječnikom riječi i njihovih značenja), sadržaj tog jezika **se**, naprotiv, čuva na našim poslužiteljima — to je jedini način da vam omogućimo da ga pronađete na drugom uređaju, da ga razvijate i da ga dijelite. Pojedinosti su u §3.
+1. **Plume ne pohranjuje ni tekstove koje preoblikujete ni tekst pročitan sa zaslona.** Ne čuvamo ni kopiju ni zapisnik. **Prihvaćene i namjerne iznimke:** ako stvorite **osobni jezik** (vlastiti izmišljeni jezik, s rječnikom riječi i njihovih značenja) ili **rječnik kamuflaže** (vaš tajni kod riječi), njihov sadržaj **se**, naprotiv, čuva na našim poslužiteljima — to je jedini način da vam omogućimo da ga pronađete na drugom uređaju, da ga razvijate i da ga dijelite. A kada pišete u ta dva načina, **pojedinačne riječi iz vaše poruke kojih još nema u vašem rječniku** izdvajaju se, jedna po jedna — nikada rečenica — kako bismo vam predložili da ih dodate. Pojedinosti su u §3.
 2. **Ovisno o pogonu koji odaberete, vaš tekst napušta ili ne napušta vaš telefon.** Dva pogona (Lokalni komplet i Lokalna umjetna inteligencija) rade u cijelosti na uređaju. Treći (Umjetna inteligencija u oblaku) šalje tekst usluzi umjetne inteligencije **smještenoj izvan Europske unije**. Vi birate, a Umjetna inteligencija u oblaku nikada se ne aktivira bez vaše izričite privole.
 3. **Plumeu su potrebna snažna dopuštenja** (čitanje sadržaja prikazanog u drugim aplikacijama, snimanje zaslona). U nastavku objašnjavamo točno čemu služe i čemu ne služe.
 
@@ -90,7 +92,8 @@ Kada odaberete Umjetnu inteligenciju u oblaku ili kada vaš uređaj nije dovoljn
 - Tekst prolazi kroz našu poslužiteljsku infrastrukturu, smještenu u **Europskoj uniji** (regija Srednja Europa, Frankfurt).
 - Zatim se prenosi na posrednika za usmjeravanje **smještenog izvan Europske unije**, koji ga daje na obradu modelu umjetne inteligencije treće strane.
 - **Riječ je dakle o prijenosu podataka izvan Europske unije.** Ne tvrdimo suprotno i za taj korak ne prikazujemo nikakvo obećanje o europskom smještaju.
-- **Plume ne pohranjuje vaš tekst.** Nijedna naša poslužiteljska funkcija ne zapisuje sadržaj vašeg teksta: bilježimo samo tehnički identifikator zahtjeva i identifikator vašeg uređaja, radi obračuna vaše kvote i otkrivanja zlouporaba.
+- **Plume ne pohranjuje vaš tekst.** Nijedna naša poslužiteljska funkcija ne zapisuje sadržaj vašeg teksta: bilježimo samo tehnički identifikator zahtjeva i identifikator vašeg uređaja, radi obračuna vaše kvote i otkrivanja zlouporaba. **Jedina iznimka:** u načinu Osobni jezik i u načinu Kamuflaža pojedinačne riječi kojih nema u vašem rječniku izdvajaju se (vidjeti §3).
+- **Načini Kamuflaža i Osobni jezik idu istim putem** svaki put kada trebaju umjetnu inteligenciju: za kamufliranje ili dekodiranje poruke koju vaš rječnik ne pokriva u potpunosti, za usklađivanje ili sprezanje riječi, ili za rast vašeg rječnika (riječi na čekanju tada se šalju usluzi umjetne inteligencije). Zaslon koji predstavlja način Kamuflaža najavljuje vam to prije njegova uključivanja.
 - **Što ti pružatelji usluga rade sa svoje strane, ne možemo jamčiti.** Radije vam to kažemo nego da vam obećavamo nulto zadržavanje koje nismo u mogućnosti provjeriti.
 
 **Umjetna inteligencija u oblaku nikada se ne aktivira sama od sebe.** Poseban zaslon za privolu objašnjava vam te točke prije prvog slanja i ništa se ne šalje dok ne prihvatite. Ako Lokalna umjetna inteligencija zakaže, Plume ne prelazi u oblak potiho: obavijestit će vas o tome i pričekati vašu odluku. Tu privolu možete povući u svakom trenutku u postavkama.
@@ -115,6 +118,11 @@ Evo svega što se pohranjuje na našim poslužiteljima:
 | **Tehnički signali zlouporabe** (ponovljena prekoračenja, neuspjela provjera cjelovitosti — bez ikakvog teksta) | Sigurnost, borba protiv prijevara | Odvajaju se od vašeg identiteta pri brisanju računa |
 | **Jezik i verzija aplikacije** | Isporuka ispravnog sadržaja | Do brisanja vašeg računa |
 | **Sadržaj osobnih jezika koje stvorite** (njegov naziv, njegovo pismo i njegov rječnik — riječi i značenja koje ste vi, ili druge osobe, u njega upisali) | Omogućiti vam da svoj jezik pronađete na drugom uređaju, da ga razvijate i da ga dijelite s drugim korisnicima | Dok jezik postoji. Ako ga izbrišete, njegov zapis nestaje — ali kopija koju je već **uvezla druga osoba** od tada pripada njoj i **opstaje**, poput poruke koju je treća strana već primila, a koju ne možemo izbrisati kod nje |
+| **Vaši rječnici kamuflaže** (njihov naziv, tema, jezik, odabrani amblem i parovi riječi «stvarna riječ → šifrirana riječ») | Kamufliranje i dekodiranje vaših poruka, omogućiti vam da svoj rječnik pronađete na drugom uređaju, da ga razvijate i da ga dijelite | Dok rječnik postoji. **Rječnik premješten u koš ostaje sačuvan**: automatsko pražnjenje tog koša još ne postoji. Nestaje brisanjem vašeg računa |
+| **Riječi na čekanju** (osobni jezik i Kamuflaža): pojedinačne riječi iz vaših poruka kojih još nema u vašem rječniku — nikada rečenica —, s brojem pojavljivanja i datumima prvog i posljednjeg pojavljivanja | Predložiti vam da ih dodate u svoj rječnik i dati ih obraditi usluzi umjetne inteligencije kada ga proširujete | Sačuvane i nakon dodavanja, dok jezik ili rječnik postoji. **Ako pišete s rječnikom kamuflaže koji je druga osoba podijelila s vama**, riječi kojih u njemu nema izdvajaju se **u njezinu rječniku**, i ta ih osoba može vidjeti |
+| **Dijeljenje vaših jezika i rječnika** (token za dijeljenje, pohranjen samo u obliku otiska; povijest uvoza i povezivanja) | Omogućiti vašim bližnjima da čitaju vaše poruke. Vlasnik rječnika vidi popis osoba povezanih s njim (prikazno ime i Googleova profilna slika — nikada adresa e-pošte) | Token istječe. Trag opozvanog dijeljenja se čuva |
+| **Nekamuflirani fragmenti** (način Kamuflaža bez rječnika: kratki komadi poruke, najviše 40 znakova, koji su ostali čitljivi nakon kamufliranja) | Poboljšati zajedničku mrežu kamuflaže | Bez identifikatora računa, povezani samo s pseudonimnim otiskom uređaja. Trajanje još nije određeno i ne brišu se brisanjem računa |
+| **Definicije riječi** (riječ i njezina generirana definicija, kada zatražite definiciju riječi iz svog rječnika) | Ne generirati dvaput istu definiciju | Zajednička predmemorija za sve, **bez identifikatora** računa ili jezika. Ne briše se brisanjem računa |
 | **Tehnička izvješća o rušenju** (vrsta pogreške, skraćeni tehnički poziv, verzija aplikacije, operacijski sustav — nikada tekstualni sadržaj) | Dijagnosticiranje i ispravljanje rušenja aplikacije | Njima upravlja naš pružatelj usluge prijavljivanja rušenja (vidjeti §9). To prikupljanje podliježe vašoj privoli i prekidaču koji možemo isključiti u bilo kojem trenutku, bez ažuriranja aplikacije |
 
 **Što ne prikupljamo:** vaše ime, vaše kontakte, vašu lokaciju, vaš adresar, vaše fotografije, vaš kalendar, povijest vaših aplikacija. Plume ne traži nijedno od tih dopuštenja.
@@ -201,7 +209,7 @@ Budući da aplikacija omogućuje preoblikovanje slobodnog teksta i prikazuje ogl
 
 ## 10. Sigurnost
 
-Razmjena između aplikacije i naših poslužitelja je šifrirana (HTTPS/TLS). Pristup podacima u bazi ograničen je poslužiteljskim pravilima: osjetljive funkcije nisu dostupne iz aplikacije. Nijedan sustav nije savršeno siguran. Tekst koji preoblikujete i onaj koji Potpomognuto čitanje prikazuje na zaslonu ne pohranjuju se kod nas, što mehanički ograničava ono što bi upad mogao o njima otkriti. **To ne vrijedi za sve:** rječnik osobnih jezika koje stvorite, naprotiv, **se** pohranjuje (vidjeti §3) i bio bi izložen poput bilo kojeg drugog podatka iz ovih pravila u slučaju stvarnog upada — štitimo ga istim poslužiteljskim pravilima pristupa kao i ostatak.
+Razmjena između aplikacije i naših poslužitelja je šifrirana (HTTPS/TLS). Pristup podacima u bazi ograničen je poslužiteljskim pravilima: osjetljive funkcije nisu dostupne iz aplikacije. Nijedan sustav nije savršeno siguran. Tekst koji preoblikujete i onaj koji Potpomognuto čitanje prikazuje na zaslonu ne pohranjuju se kod nas, što mehanički ograničava ono što bi upad mogao o njima otkriti. **To ne vrijedi za sve:** rječnik osobnih jezika koje stvorite, vaši rječnici kamuflaže i riječi na čekanju, naprotiv, **se** pohranjuju (vidjeti §3) i bili bi izloženi poput bilo kojeg drugog podatka iz ovih pravila u slučaju stvarnog upada — štitimo ih istim poslužiteljskim pravilima pristupa kao i ostatak.
 
 ---
 

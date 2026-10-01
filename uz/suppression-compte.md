@@ -1,6 +1,6 @@
 # Hisobingiz va ma'lumotlaringizni o'chirish — Plume
 
-**Oxirgi yangilanish: 12 sentyabr 2026** — 2.0-versiya
+**Oxirgi yangilanish: 1 oktyabr 2026** — 2.1-versiya
 
 Tegishli ilova: **Plume** (`com.plume.plume`), **SASU RedLine Music** tomonidan nashr etilgan, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, Fransiya — Google Play’da **openfunworld** nomi ostida chop etilgan.
 
@@ -33,15 +33,16 @@ O'chirish quyidagilarni **butunlay** o'chiradi:
 
 - **hisobingiz** (elektron pochta manzili, parol, sessiya);
 - **foydalanish hisoblagichlaringiz** — kuniga va oyiga sarflangan qayta shakllantirishlar soni;
-- **takliflaringiz** — ilovadan bizga yuborgan takliflaringiz. Bu biz saqlagan yagona erkin matn edi;
+- **takliflaringiz** — ilovadan bizga yuborgan takliflaringiz;
 - **so'rov identifikatorlaringiz** — so'ralgan qayta shakllantirishlarning texnik havolalari;
 - **kvota kreditlaringiz va ochilishlaringiz** — sarflanmagan sotib olingan kreditlar, reklama orqali olingan ochilishlar, sozlangan chegaralar;
 - **qurilmalaringizning hisobingizga bog'lanishi** — boshqa telefonlaringiz yoki planshetlaringiz ajratiladi va oddiy anonim qurilmalarga aylanadi;
-- **siz yaratgan shaxsiy tillar** — ularning nomi, alifbosi, lug'ati, ulashish jetonlaringiz va import tarixingiz. **Ushbu o'chirish qila olmaydigan narsa:** agar boshqa birov allaqachon tilingizning nusxasini o'zida import qilgan bo'lsa, ushbu nusxa endi unga tegishli va sizning o'chirishingizdan **keyin ham saqlanib qoladi** — xuddi uchinchi shaxs tomonidan allaqachon qabul qilingan xabar kabi, biz uni uning tomonida o'chira olmaymiz.
+- **Kamuflyaj lug'atlaringiz**, chiqindi qutisiga tashlanganlari ham — ularning nomi, mavzusi, so'z juftliklari, kutilayotgan so'zlar, ulashish jetonlaringiz va ikki tomonlama bog'lanishlar (siz ulashgan lug'atlar va sizga ulashilganlar);
+- **siz yaratgan shaxsiy tillar** — ularning nomi, alifbosi, lug'ati, kutilayotgan so'zlar, ulashish jetonlaringiz va import tarixingiz. **Ushbu o'chirish qila olmaydigan narsa:** agar boshqa birov allaqachon tilingizning nusxasini o'zida import qilgan bo'lsa, ushbu nusxa endi unga tegishli va sizning o'chirishingizdan **keyin ham saqlanib qoladi** — xuddi uchinchi shaxs tomonidan allaqachon qabul qilingan xabar kabi, biz uni uning tomonida o'chira olmaymiz.
 
 O'chirishni so'ragan qurilmangiz **neytrallashtiriladi**: uning hisobingizga bog'lanishi o'chiriladi, identifikatsiya kaliti yo'q qilinib, o'lik qiymat bilan almashtiriladi, uning tili va ilova versiyasi o'chiriladi. Faqat sizni identifikatsiya qilish yoki qurilmani topishga imkon bermaydigan tushunarsiz raqam qoladi.
 
-**Biz siz qayta shakllantirgan matnlarni ham, Yordamchi O'qish tomonidan ekranda ko'rsatilgan matnni ham hech qachon saqlamaganmiz:** ular serverlarimizda hech qayerda saqlanmagan, shuning uchun o'chiradigan hech narsa yo'q. **Bu siz yaratgan shaxsiy tilning lug'atiga tegishli emas:** uning kontenti (nomi, alifbosi, so'zlar va ta'riflar) haqiqatan ham serverlarimizda saqlanadi — hisobingizni o'chirish uni o'chiradi, sizga tegishli qolgan hamma narsa kabi (quyida ko'ring).
+**Biz siz qayta shakllantirgan matnlarni ham, Yordamchi O'qish tomonidan ekranda ko'rsatilgan matnni ham saqlamaymiz:** ular serverlarimizda hech qayerda saqlanmaydi, shuning uchun o'chiradigan hech narsa yo'q. **Bu shaxsiy tillaringiz va Kamuflyaj lug'atlaringizga tegishli emas:** ularning kontenti (nomi, alifbosi yoki mavzusi, so'zlar va ta'riflar) hamda xabarlaringizdagi ularda hali yo'q alohida so'zlar haqiqatan ham serverlarimizda saqlanadi — hisobingizni o'chirish ularni o'chiradi, sizga tegishli qolgan hamma narsa kabi (yuqorida ko'ring).
 
 **Telefoningizda**, personalaringiz, avatarlaringiz, sozlamalaringiz va ilova bo'yicha qoidalaringiz mahalliy saqlanadi. Ular ilovadan o'chirish orqali o'chiriladi va har qanday holatda **Plume’ni o'chirib tashlaganingizda yo'qoladi**.
 
@@ -59,6 +60,12 @@ To'rtta iz toifasi qoladi, lekin **shaxsingiz bilan bog'liqlik uzilgan**: hisob 
 | **Xavfsizlikning texnik signallari** (takroriy chegaradan oshishlar, yaxlitlikni tekshirish muvaffaqiyatsizliklari) | Firibgarlikka qarshi kurash. Ushbu yozuvlar **hech qanday matn** o'z ichiga olmaydi va **qurilma identifikatorisiz** saqlanadi. |
 
 Ushbu anonimlashtirilgan ma'lumotlar qonuniy majburiyatlarimiz, xususan buxgalteriya majburiyatlari talab qiladigan muddat davomida saqlanadi, so'ngra o'chiriladi yoki jamlab yig'iladi.
+
+**Hisobingiz o'chirilganda yana uchta element o'chirilmaydi**, chunki ular sizga bog'langan emas yoki endi faqat sizga bog'langan emas:
+
+- **kamuflyaj qilinmagan parchalar** — lug'atsiz Kamuflyaj rejimida kamuflyajdan keyin o'qiladigan holda qolgan xabarning qisqa bo'laklari (ko'pi bilan 40 belgi): ularda hisob identifikatori yo'q, faqat qurilmaning psevdonim izi bor;
+- **so'z ta'riflari** — barcha foydalanuvchilar uchun umumiy kesh, hisob yoki til identifikatorisiz;
+- **boshqa shaxsning Kamuflyaj lug'ati bilan yozgan so'zlaringiz** — ular uning lug'atida chetga olib qo'yilgan, bu lug'at unga tegishli va uning taqdiriga ergashadi.
 
 ---
 

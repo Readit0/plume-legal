@@ -1,6 +1,6 @@
 # Pípa àkántì yín àti dátà yín rẹ́ — Plume
 
-**Ìmúdójú ìkẹyìn: ọjọ́ 12 oṣù kẹsàn-án ọdún 2026** — Ẹ̀dà 2.0
+**Ìmúdójú ìkẹyìn: ọjọ́ 1 oṣù kẹwàá ọdún 2026** — Ẹ̀dà 2.1
 
 
 Ohun èlò tí ó kàn: **Plume** (`com.plume.plume`), tí **SASU RedLine Music** tẹ̀ jáde, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — tí a tẹ̀ jáde lórí Google Play lábẹ́ orúkọ **openfunworld**.
@@ -34,15 +34,16 @@ A ń ṣàyẹ̀wò bí ìbéèrè náà bá ti wá gan-an láti ọ̀dọ̀ ol�
 
 - **àkántì yín** (àdírẹ́sì ìméèlì, ọ̀rọ̀-ìgbaniwọ́lé, ìjókòó);
 - **àwọn oníkà lílò yín** — iye àtúnṣe tí a lò ní ọjọ́ àti oṣù kọ̀ọ̀kan;
-- **àwọn àbá yín** — àwọn àbá tí ẹ lè ti fi ránṣẹ́ sí wa láti inú ohun èlò náà. Èyí ni ọ̀rọ̀ òmìnira kan ṣoṣo tí a ń fi pamọ́;
+- **àwọn àbá yín** — àwọn àbá tí ẹ lè ti fi ránṣẹ́ sí wa láti inú ohun èlò náà;
 - **àwọn àmì ìdámọ̀ ìbéèrè yín** — àwọn ìtọ́kasí ìmọ̀-ẹ̀rọ ti àwọn àtúnṣe tí a béèrè fún;
 - **àwọn ẹyọ ìwọ̀n lílò yín àti ìṣí sílẹ̀ yín** — àwọn ẹyọ tí a rà tí a kò tíì lò, ìṣí sílẹ̀ tí a rí gbà nípasẹ̀ ìpolówó ọjà, àwọn ààlà tí a tún tò;
 - **ìjọṣepọ̀ àwọn ẹ̀rọ yín pẹ̀lú àkántì yín** — àwọn fóònù tàbí tabúlẹ́ẹ̀tì yín mìíràn ni a ó yọ kúrò, wọn ó sì padà di ẹ̀rọ aláìdárúkọ lásán;
-- **àwọn èdè ti ara ẹni tí ẹ dá** — orúkọ rẹ̀, alfábẹ́ẹ̀tì rẹ̀, ìwé-ìtumọ̀ rẹ̀, àwọn àmì pípín yín, àti ìtàn gbígbà yín wọlé. **Ohun tí ìparẹ́ yìí kò lè ṣe:** bí ẹnìkejì bá ti gba ẹ̀dà èdè yín wọlé tẹ́lẹ̀, ẹ̀dà náà máa jẹ́ tirẹ̀ báyìí, yóò sì **wà** lẹ́yìn tí ẹ ti parẹ́ tiyín — gẹ́gẹ́bí ìránṣẹ́ tí ẹgbẹ́ kẹta ti gbà tẹ́lẹ̀, tí a kò sì lè lọ pa á rẹ́ ní ẹ̀gbẹ́ rẹ̀.
+- **àwọn àkójọ ọ̀rọ̀ ìpamọ́ra yín**, pẹ̀lú èyí tí a jù sínú àpótí ìdọ̀tí — orúkọ wọn, àkòrí wọn, àwọn ọ̀rọ̀ méjì-méjì wọn, àwọn ọ̀rọ̀ tí ń dúró, àwọn àmì pípín yín, àti àwọn àsopọ̀ ní ọ̀nà méjèèjì (àwọn àkójọ tí ẹ pín, àti èyí tí a pín fún yín);
+- **àwọn èdè ti ara ẹni tí ẹ dá** — orúkọ rẹ̀, alfábẹ́ẹ̀tì rẹ̀, ìwé-ìtumọ̀ rẹ̀, àwọn ọ̀rọ̀ tí ń dúró, àwọn àmì pípín yín, àti ìtàn gbígbà yín wọlé. **Ohun tí ìparẹ́ yìí kò lè ṣe:** bí ẹnìkejì bá ti gba ẹ̀dà èdè yín wọlé tẹ́lẹ̀, ẹ̀dà náà máa jẹ́ tirẹ̀ báyìí, yóò sì **wà** lẹ́yìn tí ẹ ti parẹ́ tiyín — gẹ́gẹ́bí ìránṣẹ́ tí ẹgbẹ́ kẹta ti gbà tẹ́lẹ̀, tí a kò sì lè lọ pa á rẹ́ ní ẹ̀gbẹ́ rẹ̀.
 
 Ẹ̀rọ tí ẹ ti béèrè ìparẹ́ láti inú rẹ̀ ni a ó **ṣe ní àìkàsí**: ìjọṣepọ̀ rẹ̀ pẹ̀lú àkántì yín ni a ó parẹ́, kọ́kọ́rọ́ ìdámọ̀ rẹ̀ ni a ó pa run kí a sì fi iye òkú rọ́pò rẹ̀, èdè àti ẹ̀dà ohun èlò náà ni a ó parẹ́. Kìkì nọ́mbà tí kò ṣe kedere ni yóò kù, tí kò ní jẹ́ kí a mọ ẹni tí ẹ̀ ń jẹ́ tàbí kí a rí ẹ̀rọ náà mọ́.
 
-**A kì í fi ọ̀rọ̀ tí ẹ tún ṣe, tàbí ọ̀rọ̀ tí Kíka Ìrànlọ́wọ́ fi hàn lórí ìbojú pamọ́ láéláé**: wọn kì í wà ní pípa mọ́ ní ibikíbi lórí àwọn olùpín wa, nítorí náà kò sí ohun tí a ó parẹ́. **Èyí kì í ṣe òótọ́ fún ìwé-ìtumọ̀ èdè ti ara ẹni tí ẹ lè ti dá**: àkóónú rẹ̀ (orúkọ, alfábẹ́ẹ̀tì, àwọn ọ̀rọ̀ àti ìtumọ̀ wọn) ni a ń fi pamọ́ ní tòótọ́ sórí àwọn olùpín wa — ìparẹ́ àkántì yín yóò parẹ́ rẹ̀ pẹ̀lú, gẹ́gẹ́bí ìyókù ohun tí í ṣe tiyín (wo ìsàlẹ̀).
+**A kì í fi ọ̀rọ̀ tí ẹ tún ṣe, tàbí ọ̀rọ̀ tí Kíka Ìrànlọ́wọ́ fi hàn lórí ìbojú pamọ́**: wọn kì í wà ní pípa mọ́ ní ibikíbi lórí àwọn olùpín wa, nítorí náà kò sí ohun tí a ó parẹ́. **Èyí kì í ṣe òótọ́ fún àwọn èdè ti ara ẹni àti àwọn àkójọ ọ̀rọ̀ ìpamọ́ra yín**: àkóónú wọn (orúkọ, alfábẹ́ẹ̀tì tàbí àkòrí, àwọn ọ̀rọ̀ àti ìtumọ̀ wọn), àti àwọn ọ̀rọ̀ ẹ̀yọ̀kan inú àwọn ìránṣẹ́ yín tí kò tíì sí nínú wọn, ni a ń fi pamọ́ ní tòótọ́ sórí àwọn olùpín wa — ìparẹ́ àkántì yín yóò parẹ́ wọn pẹ̀lú, gẹ́gẹ́bí ìyókù ohun tí í ṣe tiyín (wo òkè).
 
 **Lórí fóònù yín**, àwọn orúkọ ara ẹni yín, àwòrán wọn, ètò yín, àti àwọn òfin yín fún ohun èlò kọ̀ọ̀kan ni a fi pamọ́ ládùúgbò. Ìparẹ́ láti inú ohun èlò náà ń pa wọ́n rẹ́, wọ́n sì ń **parẹ́** nígbà gbogbo tí ẹ bá yọ Plume kúrò nínú ẹ̀rọ yín.
 
@@ -60,6 +61,12 @@ A ń ṣàyẹ̀wò bí ìbéèrè náà bá ti wá gan-an láti ọ̀dọ̀ ol�
 | **Àwọn àmì ìmọ̀-ẹ̀rọ ti ààbò** (àkóyọ tí ó ń tún ara rẹ̀ ṣe, àìṣàṣeyọrí ìdánwò àìdásí) | Ìjà sí ẹ̀tàn. Àwọn àkọsílẹ̀ wọ̀nyí kò ní **ọ̀rọ̀ kankan** nínú, a sì ń fi pamọ́ **láìsí àmì ìdámọ̀ ẹ̀rọ**. |
 
 A ń fi dátà tí a ti dá kúrò lára ẹni pamọ́ fún àkókò tí àwọn ojúṣe òfin wa, ní pàtàkì ti ìṣirò-owó, béèrè fún, lẹ́yìn náà ni a ó parẹ́ tàbí kí a kójọpọ̀.
+
+**Àwọn nǹkan mẹ́ta mìíràn kò parẹ́ nígbà tí a bá pa àkántì yín rẹ́**, nítorí pé a kò so wọ́n mọ́ yín, tàbí a kò so wọ́n mọ́ yín nìkan mọ́:
+
+- **àwọn àjẹkù tí a kò fi ìbòrí bò** — ní ipò Ìbòrí láìsí àkójọ, àwọn ègé kékeré inú ìránṣẹ́ (ohun kikọ 40 ní púpọ̀ jùlọ) tí ó ṣì ṣeé kà lẹ́yìn ìbòrí: wọn kò ní àmì ìdámọ̀ àkántì kankan, àmì ìka àdàmọ̀dì ti ẹ̀rọ nìkan ni wọ́n ní;
+- **ìtumọ̀ àwọn ọ̀rọ̀** — ibi ìpamọ́ kúkúrú gbogbogbò fún gbogbo àwọn olùlò, láìsí àmì ìdámọ̀ àkántì tàbí èdè;
+- **àwọn ọ̀rọ̀ tí ẹ kọ pẹ̀lú àkójọ ọ̀rọ̀ ìpamọ́ra ẹlòmíràn** — a ti yà wọ́n sọ́tọ̀ sínú àkójọ rẹ̀, tí ó jẹ́ tirẹ̀, wọ́n sì tẹ̀lé àyànmọ́ rẹ̀.
 
 ---
 

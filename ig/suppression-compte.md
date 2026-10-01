@@ -1,6 +1,6 @@
 # Hichapụ akaụntụ gị na data gị — Plume
 
-**Mmelite ikpeazụ: 12 Septemba 2026** — Ụdịdị 2.0
+**Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 2.1
 
 
 Ngwa metụtara: **Plume** (`com.plume.plume`), nke **SASU RedLine Music** bipụtara, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — e bipụtara na Google Play n'okpuru aha **openfunworld**.
@@ -34,15 +34,16 @@ Ihichapụ ahụ na-ehichapụ **ruo mgbe ebighị ebi**:
 
 - **akaụntụ gị** (adreesị email, paswọọdụ, oge nnọ)\;
 - **ọnụọgụ ojiji gị** — ọnụ ọgụgụ mgbanwe e ji kwa ụbọchị na kwa ọnwa\;
-- **aro gị** — aro ị na-eziga anyị site na ngwa ahụ. Ọ bụ naanị ederede efu anyị na-echekwa\;
+- **aro gị** — aro ị na-eziga anyị site na ngwa ahụ\;
 - **njirimara arịrịọ gị** — nrịbama teknụzụ nke mgbanwe ị rịọrọ\;
 - **mkpụrụoke na mmeghe oke gị** — mkpụrụoke a zụtara na-abụghị nke e jiri, mmeghe e nwetara site na mgbasa ozi, oke ndị e gbanwere\;
 - **njikọ ngwaọrụ gị na akaụntụ gị** — ekwentị gị ndị ọzọ ma ọ bụ tablet ndị ọzọ ka a na-ejikọ ma ha na-alaghachiri ọzọ dịka ngwaọrụ efu a na-amaghị onye nwe ha\;
-- **asụsụ nkeonwe ndị ị kere** — aha ha, mkpụrụedemede ha, okwu ha, akara ike ikesa gị na akụkọ mbubata gị. **Ihe ihichapụ a na-apụghị ime:** ọ bụrụ na onye ọzọ ebubatalarị mbipụta asụsụ gị n'ebe ya, mbipụta ahụ bụzikarị nke ya ma **na-anọgide** ọbụna mgbe ị hichapụrụ akaụntụ gị — dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya.
+- **akwụkwọ okwu nzuzo gị**, gụnyere ndị e tinyere n'ọkpọkọ mkpofu — aha ha, isiokwu ha, ụzọ okwu ha, okwu ndị na-echere, akara ike ikesa gị, na njikọ n'akụkụ abụọ (akwụkwọ okwu ị kesara, na ndị e kesara gị)\;
+- **asụsụ nkeonwe ndị ị kere** — aha ha, mkpụrụedemede ha, okwu ha, okwu ndị na-echere, akara ike ikesa gị na akụkọ mbubata gị. **Ihe ihichapụ a na-apụghị ime:** ọ bụrụ na onye ọzọ ebubatalarị mbipụta asụsụ gị n'ebe ya, mbipụta ahụ bụzikarị nke ya ma **na-anọgide** ọbụna mgbe ị hichapụrụ akaụntụ gị — dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya.
 
 Ngwaọrụ ị si na ya na-arịọ ihichapụ **ka a na-eme ka ọ ghara inwe isi.** Njikọ ya na akaụntụ gị ka a na-ehichapụ, igodo njirimara ya ka a na-ebibi ma dochie ya na ọnụahịa nwụrụ anwụ, asụsụ ya na ụdịdị ngwa ya ka a na-ehichapụ. Ọ na-afọdụ naanị nọmba a na-amaghị ihe, nke na-agaghị enye ohere ịmata onye ị bụ ma ọ bụ ịchọta ngwaọrụ ahụ ọzọ.
 
-**Anyị echekwabeghị mgbe ọ bụla ederede ị gbanwere ọzọ, ma ọ bụ ederede Ọgụgụ Enyemaka na-egosi n'ihuenyo:** ha adịghị n'ebe ọ bụla na sava anyị, n'ihi ya, ọ dịghị ihe ị ga-ehichapụ. **Nke a abụghị eziokwu maka okwu asụsụ nkeonwe ị kere.** Ọdịnaya ya (aha, mkpụrụedemede, okwu na nkọwa) ka a na-echekwa n'ezie na sava anyị — ihichapụ akaụntụ gị na-ehichapụ ya, dịka ihe ndị ọzọ niile bụ nke gị (lee n'okpuru).
+**Anyị anaghị echekwa ederede ị gbanwere ọzọ, ma ọ bụ ederede Ọgụgụ Enyemaka na-egosi n'ihuenyo:** ha adịghị n'ebe ọ bụla na sava anyị, n'ihi ya, ọ dịghị ihe ị ga-ehichapụ. **Nke a abụghị eziokwu maka asụsụ nkeonwe gị na akwụkwọ okwu nzuzo gị.** Ọdịnaya ha (aha, mkpụrụedemede ma ọ bụ isiokwu, okwu na nkọwa), yana okwu naanị otu nke dị n'ozi gị nke na-enwebeghị n'ime ha, ka a na-echekwa n'ezie na sava anyị — ihichapụ akaụntụ gị na-ehichapụ ha, dịka ihe ndị ọzọ niile bụ nke gị (lee n'elu).
 
 **N'ekwentị gị**, ụdị nkeonwe gị, foto ọnụ ha, ntọala gị, na iwu gị nke ngwa ọ bụla ka a na-echekwa n'ime ngwaọrụ ahụ. A na-ehichapụ ha site na ihichapụ site na ngwa ahụ, ha na-apụkwa mgbe ị wụfuru Plume.
 
@@ -60,6 +61,12 @@ Otu ụdị ihe anọ na-afọdụ, ma **njikọ ya na onye gị bụ ka a na-ak
 | **Akara teknụzụ nke nchekwa** (mgabiga ugboro ugboro, ọdịda nyocha izuoke) | Ọgụ megide aghụghọ. Ndekọ ndị a enweghị **ederede ọ bụla** ma e chekwara ha **na-enweghị njirimara ngwaọrụ**. |
 
 A na-echekwa data ndị a a na-amaghị onye ha bụ ruo ogologo oge ọrụ iwu anyị chọrọ, ọkachasị nke akụ na ụba, mgbe ahụ a na-ehichapụ ma ọ bụ ịchịkọta ha.
+
+**Ihe atọ ọzọ anaghị ehichapụ mgbe a kagburu akaụntụ gị**, n'ihi na ha ejikọtaghị gị, ma ọ bụ na ha abụghịzi naanị nke gị jikọtara:
+
+- **iberibe ndị a zoghị** — n'ụdị Nzuzo na-enweghị akwụkwọ okwu, obere iberibe ozi (ọtụtụ ihe karịrị mkpụrụedemede 40) ndị ka bụ ndị a pụrụ ịgụ mgbe nzuzo gasịrị: ha anaghị ebu njirimara akaụntụ ọ bụla, naanị mkpisi aka ngwaọrụ nke aha ụgha\;
+- **nkọwa okwu** — ebe nchekwa nkịtị maka ndị ọrụ niile, na-enweghị njirimara akaụntụ ma ọ bụ asụsụ\;
+- **okwu ndị ị dere site n'akwụkwọ okwu nzuzo onye ọzọ** — e debere ha n'akụkụ n'akwụkwọ okwu nke ya, nke bụ nke ya, ha na-agbasokwa ọnọdụ ya.
 
 ---
 

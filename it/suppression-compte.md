@@ -1,6 +1,6 @@
 # Cancellare il suo account e i suoi dati — Plume
 
-**Ultimo aggiornamento: 12 settembre 2026** — Versione 2.0
+**Ultimo aggiornamento: 1° ottobre 2026** — Versione 2.1
 
 Applicazione interessata: **Plume** (`com.plume.plume`), pubblicata da **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — distribuita su Google Play con il nome **openfunworld**.
 
@@ -33,15 +33,16 @@ La cancellazione elimina **definitivamente**:
 
 - **il suo account** (indirizzo e-mail, password, sessione);
 - **i suoi contatori di utilizzo** — il numero di riformulazioni consumate al giorno e al mese;
-- **i suoi suggerimenti** — le proposte che ci avesse inviato dall'applicazione. È l'unico testo libero che memorizziamo;
+- **i suoi suggerimenti** — le proposte che ci avesse inviato dall'applicazione;
 - **i suoi identificativi di richiesta** — i riferimenti tecnici delle riformulazioni richieste;
 - **i suoi crediti e sblocchi di quota** — crediti acquistati non consumati, sblocchi ottenuti tramite pubblicità, tetti adeguati;
 - **il collegamento dei suoi dispositivi al suo account** — i suoi altri telefoni o tablet vengono scollegati e ridiventano semplici dispositivi anonimi.
-- **le lingue personali che lei ha creato** — il loro nome, il loro alfabeto, il loro lessico, i suoi token di condivisione e la sua cronologia di importazione. **Ciò che questa cancellazione non può fare:** se qualcun altro ha già importato una copia della sua lingua presso di sé, questa copia gli appartiene ormai e **sopravvive** alla sua cancellazione — come un messaggio già ricevuto da un terzo, non possiamo cancellarlo dal suo lato.
+- **i suoi lessici di camuffamento**, compresi quelli spostati nel cestino — il loro nome, il loro tema, le loro coppie di parole, le parole in attesa, i suoi token di condivisione, e i collegamenti nei due sensi (i lessici che lei ha condiviso, e quelli che sono stati condivisi con lei);
+- **le lingue personali che lei ha creato** — il loro nome, il loro alfabeto, il loro lessico, le parole in attesa, i suoi token di condivisione e la sua cronologia di importazione. **Ciò che questa cancellazione non può fare:** se qualcun altro ha già importato una copia della sua lingua presso di sé, questa copia gli appartiene ormai e **sopravvive** alla sua cancellazione — come un messaggio già ricevuto da un terzo, non possiamo cancellarlo dal suo lato.
 
 Il dispositivo dal quale richiede la cancellazione viene **neutralizzato**: il suo collegamento al suo account è cancellato, la sua chiave di identificazione è distrutta e sostituita da un valore morto, la sua lingua e la sua versione dell'applicazione sono cancellate. Resta soltanto un numero opaco, che non consente più di identificarla né di ritrovare il dispositivo.
 
-**Non abbiamo mai memorizzato i testi che lei ha riformulato, né il testo letto sullo schermo dalla Lettura Assistita**: non sono conservati da nessuna parte sui nostri server, non c'è quindi nulla da cancellare al riguardo. **Questo non vale per il lessico di una lingua personale che lei avesse creato**: il suo contenuto (nome, alfabeto, parole e definizioni) è effettivamente memorizzato sui nostri server — la cancellazione del suo account lo elimina, come il resto di ciò che le appartiene (vedere sotto).
+**Non memorizziamo i testi che lei ha riformulato, né il testo letto sullo schermo dalla Lettura Assistita**: non sono conservati da nessuna parte sui nostri server, non c'è quindi nulla da cancellare al riguardo. **Questo non vale per le sue lingue personali e i suoi lessici di camuffamento**: il loro contenuto (nome, alfabeto o tema, parole e definizioni), così come le singole parole dei suoi messaggi che vi mancavano ancora, sono effettivamente memorizzati sui nostri server — la cancellazione del suo account li elimina, come il resto di ciò che le appartiene (vedere sopra).
 
 **Sul suo telefono**, i suoi persona, i suoi avatar, le sue impostazioni e le sue regole per applicazione sono memorizzati localmente. Vengono cancellati dalla cancellazione effettuata dall'applicazione e, in ogni caso, **scompaiono quando disinstalla Plume**.
 
@@ -59,6 +60,12 @@ Sussistono tre categorie di tracce, ma **il legame con la sua identità è recis
 | **I segnali tecnici di sicurezza** (superamenti ripetuti, esiti negativi del controllo di integrità) | Lotta contro le frodi. Queste registrazioni non contengono **alcun testo** e sono conservate **senza identificativo di dispositivo**. |
 
 Questi dati anonimizzati sono conservati per la durata richiesta dai nostri obblighi di legge, in particolare contabili, e poi cancellati o aggregati.
+
+**Altri tre elementi non vengono cancellati dalla cancellazione del suo account**, perché non sono collegati a lei, o non più soltanto a lei:
+
+- **i frammenti non camuffati** — nella modalità Mimetizzazione senza lessico, brevi porzioni di messaggio (al massimo 40 caratteri) rimaste leggibili dopo il camuffamento: non recano alcun identificativo di account, soltanto un'impronta pseudonima del dispositivo;
+- **le definizioni di parole** — una cache comune a tutti gli utenti, senza identificativo di account né di lingua;
+- **le parole che lei ha scritto con il lessico di camuffamento di un'altra persona** — sono state messe da parte nel suo lessico, che le appartiene, e ne seguono la sorte.
 
 ---
 

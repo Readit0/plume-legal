@@ -1,6 +1,8 @@
 # Politika zasebnosti aplikacije Plume
 
-**Zadnja posodobitev: 12. september 2026** — Različica 2.0
+**Zadnja posodobitev: 1. oktober 2026** — Različica 2.1
+
+> *Kaj se je spremenilo v različici 2.1:* opisujemo **način Maskiranje**, ki ga različica 2.0 ni omenjala, in popravljamo trditev, ki ni bila več točna: tako za osebne jezike kot za Maskiranje **se besede iz vaših sporočil, ki jih v vašem besednjaku še ni, hranijo posamično** — nikoli stavek — da vam lahko predlagamo, da jih dodate. Podrobnosti so v razdelku »V eni minuti«, v §2.2 in v §3.
 
 > *Kaj se je spremenilo od različice 1.0 in zakaj morda znova vidite zaslon za sprejem v aplikaciji:* popravljamo dve trditvi, ki nista bili več točni. Prvič, funkcija **osebni jeziki** na naših strežnikih hrani vsebino, ki jo ustvarite (ime, abecedo, besednjak) — različica 1.0 je napačno trdila, da se ne shranjuje nobeno besedilo. Drugič, zdaj uporabljamo orodje za **poročanje o tehničnih sesutjih** — različica 1.0 je trdila, da tako orodje ne obstaja. Podrobnosti o obeh točkah so v razdelku »V eni minuti« spodaj ter v §3 in §9. To sta natanko dve kategoriji sprememb, ki v aplikaciji sprožita novo zahtevo za soglasje (glejte §11).
 
@@ -25,7 +27,7 @@ Plume vam pomaga pisati: vaše besedilo preoblikuje neposredno v aplikaciji, v k
 
 Tri stvari, ki si jih velja zapomniti:
 
-1. **Plume ne hrani niti besedil, ki jih preoblikujete, niti besedila, prebranega z zaslona.** Ne hranimo niti kopije niti dnevniškega zapisa. **Zavestna in namerna izjema:** če ustvarite **osebni jezik** (svoj lastni izmišljeni jezik z besednjakom besed in njihovih pomenov), je vsebina tega jezika **shranjena** na naših strežnikih — to je edini način, da ga najdete na drugi napravi, ga nadgrajujete in delite z drugimi. Podrobnosti so v §3.
+1. **Plume ne hrani niti besedil, ki jih preoblikujete, niti besedila, prebranega z zaslona.** Ne hranimo niti kopije niti dnevniškega zapisa. **Zavestni in namerni izjemi:** če ustvarite **osebni jezik** (svoj lastni izmišljeni jezik z besednjakom besed in njihovih pomenov) ali **besednjak kamuflaže** (svojo skrivno kodo besed), je njegova vsebina **shranjena** na naših strežnikih — to je edini način, da ga najdete na drugi napravi, ga nadgrajujete in delite z drugimi. Ko pišete v teh dveh načinih, se **posamezne besede vašega sporočila, ki jih v vašem besednjaku še ni**, odložijo ob stran, ena za drugo — nikoli stavek — da vam lahko predlagamo, da jih dodate. Podrobnosti so v §3.
 2. **Glede na izbrani pogon vaše besedilo zapusti telefon ali pa ne.** Dva pogona (Lokalni komplet in Lokalna umetna inteligenca) delujeta v celoti na napravi. Tretji (Umetna inteligenca v oblaku) besedilo pošlje storitvi umetne inteligence, ki je **zunaj Evropske unije**. Izbirate vi, Umetna inteligenca v oblaku pa se nikoli ne vklopi brez vaše izrecne privolitve.
 3. **Plume potrebuje močna dovoljenja** (branje vsebine, prikazane v drugih aplikacijah, zajem zaslona). Spodaj natančno pojasnjujemo, čemu služijo in čemu ne.
 
@@ -82,7 +84,8 @@ Ko izberete Umetno inteligenco v oblaku ali ko vaša naprava ni dovolj zmogljiva
 - Besedilo gre skozi našo strežniško infrastrukturo, ki gostuje v **Evropski uniji** (regija Srednja Evropa, Frankfurt).
 - Nato se prenese na posrednika za usmerjanje, ki je **zunaj Evropske unije** in ga da v obdelavo modelu umetne inteligence tretje osebe.
 - **Gre torej za prenos podatkov zunaj Evropske unije.** Ne trdimo nasprotnega in za ta korak ne prikazujemo nobene obljube o evropskem gostovanju.
-- **Plume vašega besedila ne hrani.** Nobena naša strežniška funkcija ne zapisuje vsebine vašega besedila: zabeležimo le tehnični identifikator zahteve in identifikator vaše naprave, da preštejemo vašo kvoto in zaznamo zlorabe.
+- **Plume vašega besedila ne hrani.** Nobena naša strežniška funkcija ne zapisuje vsebine vašega besedila: zabeležimo le tehnični identifikator zahteve in identifikator vaše naprave, da preštejemo vašo kvoto in zaznamo zlorabe. **Edina izjema:** v načinu Osebni jezik in v načinu Maskiranje se posamezne besede, ki jih v vašem besednjaku ni, odložijo ob stran (glejte §3).
+- **Načina Maskiranje in Osebni jezik uporabljata isto pot**, kadar koli potrebujeta umetno inteligenco: da sporočilo, ki ga vaš besednjak ne pokriva v celoti, zamaskirata ali odkodirata, da besedo sklanjata ali spregata, ali da vaš besednjak povečata (čakajoče besede se nato pošljejo storitvi umetne inteligence). Zaslon, ki predstavi način Maskiranje, vas na to opozori, preden ga vklopite.
 - **Kaj ti ponudniki počnejo na svoji strani, ne moremo jamčiti.** Raje vam to povemo, kot da vam obljubljamo ničelno hrambo, ki je ne moremo preveriti.
 
 **Umetna inteligenca v oblaku se nikoli ne vklopi sama.** Poseben zaslon za privolitev vam te točke pojasni pred prvim pošiljanjem in nič ne odide, dokler ne sprejmete. Če Lokalna umetna inteligenca odpove, Plume ne preklopi v oblak potiho: to vam sporoči in počaka na vašo odločitev. To privolitev lahko kadar koli prekličete v nastavitvah.
@@ -107,6 +110,11 @@ Tukaj je vse, kar je shranjeno na naših strežnikih:
 | **Tehnični signali zlorabe** (ponavljajoče se prekoračitve, neuspešno preverjanje celovitosti — brez vsakršnega besedila) | Varnost, boj proti goljufijam | Ob izbrisu računa se ločijo od vaše identitete |
 | **Jezik in različica aplikacije** | Dostava ustrezne vsebine | Do izbrisa vašega računa |
 | **Vsebina osebnih jezikov, ki jih ustvarite** (njihovo ime, abeceda in besednjak — besede in pomeni, ki ste jih vanj vpisali vi ali druge osebe) | Da lahko svoj jezik najdete na drugi napravi, ga razvijate naprej in delite z drugimi uporabniki | Dokler jezik obstaja. Če ga izbrišete, njegov zapis izgine — vendar kopija, ki jo je že **uvozila druga oseba**, odslej pripada njej in **preživi**, tako kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati |
+| **Vaši besednjaki kamuflaže** (ime, tema, jezik, izbrani emblem in pari besed »prava beseda → kodna beseda«) | Maskirati in odkodirati vaša sporočila, da lahko svoj besednjak najdete na drugi napravi, ga razvijate naprej in delite | Dokler besednjak obstaja. **Besednjak, premaknjen v koš, ostane shranjen**: samodejnega praznjenja tega koša še ni. Izgine z izbrisom vašega računa |
+| **Čakajoče besede** (osebni jezik in Maskiranje): posamezne besede iz vaših sporočil, ki jih v vašem besednjaku še ni — nikoli stavek —, s številom pojavitev ter datumoma prve in zadnje pojavitve | Da vam jih lahko predlagamo za dodajanje v vaš besednjak in da jih obdela storitev umetne inteligence, ko ga povečujete | Shranjene tudi po dodajanju, dokler jezik ali besednjak obstaja. **Če pišete z besednjakom kamuflaže, ki ga je z vami delila druga oseba**, se manjkajoče besede odložijo ob stran **v njenem besednjaku**, ta oseba pa jih lahko vidi |
+| **Deljenje vaših jezikov in besednjakov** (žeton za deljenje, shranjen samo v obliki odtisa; zgodovina uvozov in povezav) | Da lahko vaši bližnji berejo vaša sporočila. Lastnik besednjaka vidi seznam oseb, ki so z njim povezane (prikazno ime in profilna fotografija Google — nikoli e-poštni naslov) | Žeton poteče. Sled preklicanega deljenja se hrani |
+| **Nezamaskirani delčki** (Maskiranje brez besednjaka: kratki kosi sporočila, dolgi največ 40 znakov, ki so po maskiranju ostali berljivi) | Izboljšati skupno mrežo maskiranja | Brez identifikatorja računa, vezani le na psevdonimni odtis naprave. Rok še ni določen in se ob izbrisu računa ne izbrišejo |
+| **Definicije besed** (beseda in njena ustvarjena definicija, ko zahtevate definicijo besede iz svojega besednjaka) | Da se ista definicija ne ustvari dvakrat | Skupni predpomnilnik za vse, **brez identifikatorja** računa ali jezika. Ob izbrisu računa se ne izbriše |
 | **Poročila o tehničnih sesutjih** (vrsta napake, skrajšana tehnična sled klicev, različica aplikacije, operacijski sistem — nikoli vsebina besedila) | Diagnosticiranje in odpravljanje sesutij aplikacije | Ureja jih naš ponudnik poročanja o sesutjih (glejte §9). Ta zbirka podatkov je odvisna od vaše privolitve in stikala, ki ga lahko kadar koli izklopimo, brez posodobitve aplikacije |
 
 **Česa ne zbiramo:** vašega imena, vaših stikov, vaše lokacije, vašega imenika, vaših fotografij, vašega koledarja, zgodovine vaših aplikacij. Plume ne zahteva nobenega od teh dovoljenj.
@@ -193,7 +201,7 @@ Ker aplikacija omogoča preoblikovanje prostega besedila in prikazuje oglase, ni
 
 ## 10. Varnost
 
-Izmenjava med aplikacijo in našimi strežniki je šifrirana (HTTPS/TLS). Dostop do podatkov v bazi je omejen s strežniškimi pravili: občutljive funkcije iz aplikacije niso dosegljive. Noben sistem ni popolnoma varen. Besedilo, ki ga preoblikujete, in besedilo, ki ga Asistirano branje prikaže na zaslonu, se pri nas ne shranjujeta, kar mehansko omejuje to, kar bi vdor lahko razkril o njiju. **To ne velja za vse:** besednjak osebnih jezikov, ki jih ustvarite, pa **je** shranjen (glejte §3) in bi bil ob resničnem vdoru izpostavljen tako kot vsak drug podatek iz te politike — varujemo ga z istimi pravili dostopa na strežniku kot vse ostalo.
+Izmenjava med aplikacijo in našimi strežniki je šifrirana (HTTPS/TLS). Dostop do podatkov v bazi je omejen s strežniškimi pravili: občutljive funkcije iz aplikacije niso dosegljive. Noben sistem ni popolnoma varen. Besedilo, ki ga preoblikujete, in besedilo, ki ga Asistirano branje prikaže na zaslonu, se pri nas ne shranjujeta, kar mehansko omejuje to, kar bi vdor lahko razkril o njiju. **To ne velja za vse:** besednjak osebnih jezikov, ki jih ustvarite, vaši besednjaki kamuflaže in čakajoče besede pa **so** shranjeni (glejte §3) in bi bili ob resničnem vdoru izpostavljeni tako kot vsak drug podatek iz te politike — varujemo ga z istimi pravili dostopa na strežniku kot vse ostalo.
 
 ---
 

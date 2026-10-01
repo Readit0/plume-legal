@@ -1,6 +1,6 @@
 # Memadam akaun dan data anda — Plume
 
-**Kemas kini terakhir: 12 September 2026** — Versi 2.0
+**Kemas kini terakhir: 1 Oktober 2026** — Versi 2.1
 
 Aplikasi berkenaan: **Plume** (`com.plume.plume`), diterbitkan oleh **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — diterbitkan di Google Play di bawah nama **openfunworld**.
 
@@ -33,15 +33,16 @@ Pemadaman menghapuskan **secara kekal**:
 
 - **akaun anda** (alamat e-mel, kata laluan, sesi);
 - **kaunter penggunaan anda** — bilangan rumusan semula yang digunakan setiap hari dan setiap bulan;
-- **cadangan anda** — cadangan yang mungkin anda hantar kepada kami daripada aplikasi. Itulah satu-satunya teks bebas yang kami simpan;
+- **cadangan anda** — cadangan yang mungkin anda hantar kepada kami daripada aplikasi;
 - **pengecam permintaan anda** — rujukan teknikal bagi rumusan semula yang diminta;
 - **kredit dan pembukaan kuota anda** — kredit yang dibeli tetapi belum digunakan, pembukaan yang diperoleh melalui iklan, had yang telah dilaraskan;
 - **pengaitan peranti anda dengan akaun anda** — telefon atau tablet anda yang lain dileraikan dan kembali menjadi sekadar peranti tanpa nama;
-- **bahasa peribadi yang telah anda cipta** — nama, abjad, leksikon, token perkongsian dan sejarah import anda. **Apa yang tidak dapat dilakukan oleh pemadaman ini:** jika orang lain telah mengimport satu salinan bahasa anda di pihaknya, salinan itu kini menjadi miliknya dan **terus wujud** selepas pemadaman anda — seperti mesej yang telah diterima oleh pihak ketiga, kami tidak dapat memadamnya di sisi mereka.
+- **leksikon penyamaran anda**, termasuk yang dimasukkan ke dalam tong sampah — nama, tema, pasangan perkataan, perkataan yang menunggu, token perkongsian anda, dan pautan dalam kedua-dua arah (leksikon yang telah anda kongsikan, dan leksikon yang dikongsikan kepada anda);
+- **bahasa peribadi yang telah anda cipta** — nama, abjad, leksikon, perkataan yang menunggu, token perkongsian dan sejarah import anda. **Apa yang tidak dapat dilakukan oleh pemadaman ini:** jika orang lain telah mengimport satu salinan bahasa anda di pihaknya, salinan itu kini menjadi miliknya dan **terus wujud** selepas pemadaman anda — seperti mesej yang telah diterima oleh pihak ketiga, kami tidak dapat memadamnya di sisi mereka.
 
 Peranti yang anda gunakan untuk meminta pemadaman itu **dineutralkan**: pengaitannya dengan akaun anda dipadam, kunci pengenalannya dimusnahkan dan digantikan dengan satu nilai mati, bahasa dan versi aplikasinya dipadam. Yang tinggal hanyalah satu nombor legap, yang tidak lagi membolehkan sesiapa mengenal pasti anda mahupun mencari peranti itu.
 
-**Kami tidak pernah menyimpan teks yang anda rumus semula, mahupun teks yang dibaca pada skrin oleh Bacaan Berbantu**: kedua-duanya tidak disimpan di mana-mana pada pelayan kami, jadi tiada apa-apa yang perlu dipadam. **Ini tidak benar bagi leksikon sesuatu bahasa peribadi yang mungkin anda cipta**: kandungannya (nama, abjad, perkataan dan takrifan) memang disimpan pada pelayan kami — pemadaman akaun anda memadamnya, seperti selebihnya yang menjadi milik anda (lihat di bawah).
+**Kami tidak menyimpan teks yang anda rumus semula, mahupun teks yang dibaca pada skrin oleh Bacaan Berbantu**: kedua-duanya tidak disimpan di mana-mana pada pelayan kami, jadi tiada apa-apa yang perlu dipadam. **Ini tidak benar bagi bahasa peribadi dan leksikon penyamaran anda**: kandungannya (nama, abjad atau tema, perkataan dan takrifan), serta perkataan tunggal dalam mesej anda yang masih tiada di dalamnya, memang disimpan pada pelayan kami — pemadaman akaun anda memadamnya, seperti selebihnya yang menjadi milik anda (lihat di atas).
 
 **Pada telefon anda**, persona anda, avatar anda, tetapan anda dan peraturan setiap aplikasi anda disimpan secara setempat. Semuanya dipadam oleh pemadaman daripada aplikasi, dan bagaimanapun juga **hilang apabila anda menyahpasang Plume**.
 
@@ -59,6 +60,12 @@ Tiga kategori jejak masih kekal, tetapi **kaitannya dengan identiti anda diputus
 | **Isyarat teknikal keselamatan** (pelanggaran had berulang, kegagalan semakan integriti) | Pembanterasan penipuan. Rekod ini **tidak mengandungi sebarang teks** dan disimpan **tanpa pengecam peranti**. |
 
 Data yang telah dilupuskan identitinya ini disimpan selama tempoh yang dikehendaki oleh kewajipan undang-undang kami, khususnya kewajipan perakaunan, kemudian dipadam atau diagregatkan.
+
+**Tiga unsur lain tidak dipadam oleh pemadaman akaun anda**, kerana ia tidak dikaitkan dengan anda, atau tidak lagi dengan anda sahaja:
+
+- **serpihan yang tidak disamarkan** — dalam mod Penyamaran tanpa leksikon, potongan mesej yang pendek (40 aksara paling banyak) yang kekal boleh dibaca selepas penyamaran: ia tidak membawa sebarang pengecam akaun, hanya cap jari peranti yang bernama samaran;
+- **takrifan perkataan** — cache yang dikongsi oleh semua pengguna, tanpa pengecam akaun atau bahasa;
+- **perkataan yang anda tulis dengan leksikon penyamaran orang lain** — ia telah diketepikan dalam leksikonnya, yang menjadi milik orang itu, dan mengikut nasibnya.
 
 ---
 

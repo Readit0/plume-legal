@@ -1,6 +1,8 @@
 # Personvernerklæringa til Plume
 
-**Sist oppdatert: 12. september 2026** — Versjon 2.0
+**Sist oppdatert: 1. oktober 2026** — Versjon 2.1
+
+> *Kva som har endra seg i versjon 2.1:* Vi skildrar no **Kamuflasje-modusen**, som versjon 2.0 ikkje nemnde, og vi rettar ei påstand som har blitt unøyaktig: både for eigne språk og for Kamuflasje blir **orda i meldingane dine som enno manglar i ordlista di, lagra eitt og eitt** — aldri setninga — slik at vi kan tilby deg å leggje dei til. Detaljane står under «På eitt minutt», i §2.2 og i §3.
 
 > *Kva som har endra seg sidan versjon 1.0, og kvifor du kanskje ser samtykkeskjermen igjen i appen:* Vi rettar no to påstandar som ikkje lenger stemte. For det første: funksjonen **eigne språk** lagrar innhaldet du lagar (namn, alfabet, ordliste) på serverane våre — versjon 1.0 hevda feilaktig at ingen tekst vart lagra. For det andre bruker vi no eit verktøy for **teknisk feilrapportering** — versjon 1.0 hevda at det ikkje fanst noko slikt verktøy. Detaljane om desse to punkta finn du under «På eitt minutt» nedanfor, og i §3 og §9. Dette er nøyaktig dei to typane endringar som i appen utløyser eit nytt samtykke (sjå §11).
 
@@ -25,7 +27,7 @@ Plume hjelper deg å skrive: appen skriv om teksten din direkte i appen der du s
 
 Tre ting å hugse:
 
-1. **Plume lagrar verken teksten du omformulerer, eller teksten som blir lesen på skjermen.** Vi tek verken vare på ein kopi eller ein logg. **Eit medvite og friviljug unntak:** Om du lagar eit **eige språk** (ditt eige konstruerte språk, med ei ordliste med ord og definisjonar), blir innhaldet i dette språket derimot **lagra** på serverane våre — det er den einaste måten å la deg finne det att på ein annan eining, vidareutvikle det og dele det. Detaljane finn du i §3.
+1. **Plume lagrar verken teksten du omformulerer, eller teksten som blir lesen på skjermen.** Vi tek verken vare på ein kopi eller ein logg. **Medvitne og friviljuge unntak:** Om du lagar eit **eige språk** (ditt eige konstruerte språk, med ei ordliste med ord og definisjonar) eller ei **kamuflasjeordliste** (di eiga hemmelege ordkode), blir innhaldet derimot **lagra** på serverane våre — det er den einaste måten å la deg finne det att på ei anna eining, vidareutvikle det og dele det. Og når du skriv i desse to modusane, blir **dei enkeltståande orda i meldinga di som enno manglar i ordlista di** sette til side, eitt og eitt — aldri setninga — for å kunne tilby deg å leggje dei til. Detaljane finn du i §3.
 2. **Alt etter kva motor du vel, forlèt teksten din telefonen din eller ikkje.** To motorar (Lokal-kit og Lokal AI) arbeider heilt på eininga. Den tredje (Sky-AI) sender teksten til ei teneste for kunstig intelligens **som ligg utanfor EU**. Du vel sjølv, og Sky-AI blir aldri aktivert utan uttrykkjeleg samtykke frå deg.
 3. **Plume treng kraftige løyve** (å lese innhald som blir vist i andre appar, ta skjermbilete). Nedanfor forklarar vi nøyaktig kva dei blir brukte til, og kva dei ikkje blir brukte til.
 
@@ -82,7 +84,8 @@ Når du vel Sky-AI, eller når eininga di ikkje er kraftig nok for Lokal AI, bli
 - Teksten går gjennom serverinfrastrukturen vår, som er verta i **EU** (regionen Sentral-Europa, Frankfurt).
 - Han blir deretter sendt til ein rutingsformidlar **som ligg utanfor EU**, som let ein kunstig intelligens-modell frå ein tredjepart handsame han.
 - **Det er difor snakk om ein overføring av data ut av EU.** Vi hevdar ikkje det motsette, og vi lovar ikkje europeisk vertskap for dette steget.
-- **Plume lagrar ikkje teksten din.** Ingen av serverfunksjonane våre skriv innhaldet i teksten din: vi registrerer berre ein teknisk identifikator for førespurnaden og identifikatoren til eininga di, for å telje kvoten din og oppdage misbruk.
+- **Plume lagrar ikkje teksten din.** Ingen av serverfunksjonane våre skriv innhaldet i teksten din: vi registrerer berre ein teknisk identifikator for førespurnaden og identifikatoren til eininga di, for å telje kvoten din og oppdage misbruk. **Berre eitt unntak:** I modusen Eige språk og i Kamuflasje-modusen blir dei enkeltståande orda som manglar i ordlista di sette til side (sjå §3).
+- **Kamuflasje-modusen og modusen Eige språk bruker same vegen** kvar gong dei treng AI: for å kamuflere eller dekode ei melding som ordlista di ikkje dekkjer heilt, for å bøye eller konjugere eit ord, eller for å la ordlista di vekse (orda som ventar blir då sende til AI-tenesta). Skjermen som presenterer Kamuflasje-modusen varslar deg om dette før han blir aktivert.
 - **Kva desse leverandørane gjer på si side, kan vi ikkje garantere.** Vi føretrekkjer å fortelje deg dette framfor å love ein null-lagring vi ikkje er i stand til å kontrollere.
 
 **Sky-AI blir aldri aktivert av seg sjølv.** Ein eigen samtykkeskjerm forklarar deg desse punkta før den første sendinga, og ingenting forlèt eininga før du har godteke. Om Lokal AI feilar, byter ikkje Plume stilt til skya: han varslar deg og ventar på avgjerda di. Du kan trekkje tilbake dette samtykket når som helst i innstillingane.
@@ -107,6 +110,11 @@ Her er alt som blir lagra på serverane våre:
 | **Tekniske signal om misbruk** (gjentekne overskridingar, feila integritetskontroll — utan nokon tekst) | Tryggleik, kamp mot svindel | Fråkopla identiteten din når kontoen blir sletta |
 | **Språk og versjon av appen** | Levere rett innhald | Til kontoen din blir sletta |
 | **Innhaldet i dei eigne språka du lagar** (namnet, alfabetet, og ordlista — orda og definisjonane du, eller andre, har skrive der) | La deg finne att språket ditt på ei anna eining, vidareutvikle det, og dele det med andre brukarar | Så lenge språket eksisterer. Om du slettar det, forsvinn kortet — men ein kopi som **allereie er importert av ein annan person**, høyrer no til han, og **held fram å eksistere**, som ei melding nokon andre allereie har motteke, som vi ikkje kan gå og slette hjå dei |
+| **Kamuflasjeordlistene dine** (namnet, temaet, språket, det valde emblemet, og ordparet «verkeleg ord → kodeord») | Kamuflere og dekode meldingane dine, la deg finne ordlista att på ei anna eining, vidareutvikle henne og dele henne | Så lenge ordlista eksisterer. **Ei ordliste som er lagd i papirkorga, blir teken vare på**: det finst enno inga automatisk tømming av denne papirkorga. Ho forsvinn når kontoen din blir sletta |
+| **Orda som ventar** (eige språk og Kamuflasje): dei enkeltståande orda i meldingane dine som enno manglar i ordlista di — aldri setninga —, med talet på førekomstar og datoane for første og siste førekomst | Tilby deg å leggje dei til i ordlista di, og la AI-tenesta handsame dei når du lèt ordlista vekse | Tekne vare på òg etter at dei er lagde til, så lenge språket eller ordlista eksisterer. **Om du skriv med ei kamuflasjeordliste som ein annan person har delt med deg**, blir orda som manglar sette til side **i ordlista til den personen**, og vedkommande kan sjå dei |
+| **Deling av språka og ordlistene dine** (eit delingstoken, lagra berre som avtrykk; historikken over importar og koplingar) | La dei næraste dine lese meldingane dine. Eigaren av ei ordliste ser lista over personane som er kopla til henne (visingsnamn og Google-profilbilete — aldri e-postadressa) | Eit token går ut på dato. Sporet etter ei oppheva deling blir teke vare på |
+| **Ukamuflerte fragment** (Kamuflasje utan ordliste: korte meldingsbitar på høgst 40 teikn som er att lesbare etter kamuflasjen) | Forbetre det felles kamuflasjeoppsettet | Utan kontoidentifikator, berre knytte til eit pseudonymt avtrykk av eininga. Ingen varigheit er enno fastsett, og dei blir ikkje sletta når kontoen blir sletta |
+| **Orddefinisjonar** (ordet og den genererte definisjonen, når du ber om definisjonen av eit ord i ordlista di) | Unngå å generere same definisjon to gonger | Felles hurtigbuffer for alle, **utan identifikator** for konto eller språk. Han blir ikkje sletta når kontoen blir sletta |
 | **Tekniske feilrapportar** (type feil, avkorta teknisk kallstakk, appversjon, operativsystem — aldri innhald frå ein tekst) | Diagnostisere og rette feil i appen | Styrt av feilrapporteringsleverandøren vår (sjå §9). Denne innsamlinga krev samtykket ditt og ein brytar vi kan slå av når som helst, utan appoppdatering |
 
 **Det vi ikkje samlar inn:** namnet ditt, kontaktane dine, plasseringa di, adresseboka di, bileta dine, kalenderen din, historikken til appane dine. Plume ber ikkje om nokon av desse løyva.
@@ -193,7 +201,7 @@ Sidan appen let deg omformulere fri tekst og viser annonsar, er ho ikkje kvalifi
 
 ## 10. Tryggleik
 
-Utvekslingane mellom appen og serverane våre er krypterte (HTTPS/TLS). Tilgangen til dataa i databasen er avgrensa av serverreglar: sensitive funksjonar er ikkje tilgjengelege frå appen. Ikkje noko system er fullstendig trygt. Teksten du omformulerer, og teksten som Assistert lesing viser på skjermen, blir ikkje lagra hjå oss, noko som strukturelt avgrensar kva eit innbrot kan avsløre om dei. **Dette gjeld ikkje alt:** ordlista til dei eigne språka du lagar, blir derimot **lagra** (sjå §3), og ville blitt eksponert som all anna data i denne erklæringa ved eit verkeleg innbrot — vi vernar henne med dei same serverreglane for tilgang som resten.
+Utvekslingane mellom appen og serverane våre er krypterte (HTTPS/TLS). Tilgangen til dataa i databasen er avgrensa av serverreglar: sensitive funksjonar er ikkje tilgjengelege frå appen. Ikkje noko system er fullstendig trygt. Teksten du omformulerer, og teksten som Assistert lesing viser på skjermen, blir ikkje lagra hjå oss, noko som strukturelt avgrensar kva eit innbrot kan avsløre om dei. **Dette gjeld ikkje alt:** ordlista til dei eigne språka du lagar, kamuflasjeordlistene dine og orda som ventar, blir derimot **lagra** (sjå §3), og ville blitt eksponert som all anna data i denne erklæringa ved eit verkeleg innbrot — vi vernar henne med dei same serverreglane for tilgang som resten.
 
 ---
 

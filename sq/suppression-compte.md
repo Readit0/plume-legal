@@ -1,6 +1,6 @@
 # Fshirja e llogarisë dhe e të dhënave tuaja — Plume
 
-**Përditësimi i fundit: 12 shtator 2026** — Versioni 2.0
+**Përditësimi i fundit: 1 tetor 2026** — Versioni 2.1
 
 Aplikacioni i përfshirë: **Plume** (`com.plume.plume`), botuar nga **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikuar në Google Play me emrin **openfunworld**.
 
@@ -33,15 +33,16 @@ Fshirja e zhduk **përfundimisht**:
 
 - **llogarinë tuaj** (adresa e e-mailit, fjalëkalimi, sesioni);
 - **numëruesit tuaj të përdorimit** — numrin e riformulimeve të konsumuara në ditë dhe në muaj;
-- **sugjerimet tuaja** — propozimet që mund të na keni dërguar nga aplikacioni. Ky është i vetmi tekst i lirë që ne ruanim;
+- **sugjerimet tuaja** — propozimet që mund të na keni dërguar nga aplikacioni;
 - **identifikuesit tuaj të kërkesave** — referencat teknike të riformulimeve të kërkuara;
 - **kreditet dhe zhbllokimet tuaja të kuotës** — kreditet e blera e të pakonsumuara, zhbllokimet e fituara nga reklamat, kufijtë e përshtatur;
 - **lidhjen e pajisjeve tuaja me llogarinë tuaj** — telefonat ose tabletët tuaj të tjerë shkëputen dhe rikthehen në pajisje thjesht anonime.
-- **gjuhët personale që keni krijuar** — emrin e tyre, alfabetin e tyre, leksikun e tyre, kodet tuaja të ndarjes dhe historikun tuaj të importimit. **Çfarë nuk mund ta bëjë kjo fshirje:** nëse dikush tjetër ka importuar tashmë një kopje të gjuhës suaj te vetja, ajo kopje i përket tashmë atij dhe **mbijeton** fshirjes suaj — si një mesazh tashmë i marrë nga një palë e tretë, ne nuk mund ta fshijmë nga ana e tij.
+- **fjalorët tuaj të kamuflazhit**, përfshirë ata të hedhur në kosh — emrin e tyre, temën e tyre, çiftet e fjalëve, fjalët në pritje, kodet tuaja të ndarjes dhe lidhjet në të dyja drejtimet (fjalorët që keni ndarë dhe ata që janë ndarë me ju);
+- **gjuhët personale që keni krijuar** — emrin e tyre, alfabetin e tyre, leksikun e tyre, fjalët në pritje, kodet tuaja të ndarjes dhe historikun tuaj të importimit. **Çfarë nuk mund ta bëjë kjo fshirje:** nëse dikush tjetër ka importuar tashmë një kopje të gjuhës suaj te vetja, ajo kopje i përket tashmë atij dhe **mbijeton** fshirjes suaj — si një mesazh tashmë i marrë nga një palë e tretë, ne nuk mund ta fshijmë nga ana e tij.
 
 Pajisja nga e cila kërkoni fshirjen **neutralizohet**: lidhja e saj me llogarinë tuaj fshihet, çelësi i saj i identifikimit shkatërrohet dhe zëvendësohet me një vlerë të vdekur, gjuha e saj dhe versioni i saj i aplikacionit fshihen. Mbetet vetëm një numër i patejdukshëm, i cili nuk lejon më as t'ju identifikojë, as të gjendet pajisja.
 
-**Ne nuk i kemi ruajtur kurrë tekstet që keni riformuluar, as tekstin e lexuar në ekran nga Leximi i Asistuar**: ato nuk ruhen askund në serverët tanë, prandaj nuk ka asgjë për t'u fshirë prej tyre. **Kjo nuk vlen për leksikun e një gjuhe personale që mund të keni krijuar**: përmbajtja e saj (emri, alfabeti, fjalët dhe përkufizimet) ruhet vërtet në serverët tanë — fshirja e llogarisë suaj e fshin atë, ashtu si pjesa tjetër e asaj që ju përket (shih më poshtë).
+**Ne nuk i ruajmë tekstet që keni riformuluar, as tekstin e lexuar në ekran nga Leximi i Asistuar**: ato nuk ruhen askund në serverët tanë, prandaj nuk ka asgjë për t'u fshirë prej tyre. **Kjo nuk vlen për gjuhët tuaja personale dhe fjalorët tuaj të kamuflazhit**: përmbajtja e tyre (emri, alfabeti ose tema, fjalët dhe përkufizimet), si dhe fjalët e veçuara të mesazheve tuaja që u mungonin ende, ruhen vërtet në serverët tanë — fshirja e llogarisë suaj i fshin ato, ashtu si pjesa tjetër e asaj që ju përket (shih më lart).
 
 **Në telefonin tuaj**, personat tuaj, avatarët tuaj, cilësimet tuaja dhe rregullat tuaja për çdo aplikacion ruhen lokalisht. Ato fshihen nga fshirja e kryer prej aplikacionit dhe, në çdo rast, **zhduken kur e çinstaloni Plume-n**.
 
@@ -59,6 +60,12 @@ Tri kategori gjurmësh mbeten, por **lidhja me identitetin tuaj është prerë**
 | **Sinjalet teknike të sigurisë** (tejkalime të përsëritura, dështime të kontrollit të integritetit) | Lufta kundër mashtrimit. Këto regjistrime nuk përmbajnë **asnjë tekst** dhe ruhen **pa identifikues pajisjeje**. |
 
 Këto të dhëna të anonimizuara ruhen për kohëzgjatjen e kërkuar nga detyrimet tona ligjore, veçanërisht ato kontabël, pastaj fshihen ose grumbullohen.
+
+**Tre elemente të tjera nuk fshihen me fshirjen e llogarisë suaj**, sepse nuk janë të lidhura me ju, ose nuk janë më të lidhura vetëm me ju:
+
+- **fragmentet e pakamufluara** — në mënyrën Kamuflazh pa fjalor, copëza të shkurtra mesazhi (më së shumti 40 karaktere) që kanë mbetur të lexueshme pas kamuflimit: ato nuk mbartin asnjë identifikues llogarie, vetëm një gjurmë pseudonime të pajisjes;
+- **përkufizimet e fjalëve** — një memorie e përbashkët për të gjithë përdoruesit, pa identifikues llogarie apo gjuhe;
+- **fjalët që keni shkruar me fjalorin e kamuflazhit të një personi tjetër** — ato janë vendosur mënjanë në fjalorin e tij, që i përket atij personi, dhe ndjekin fatin e tij.
 
 ---
 

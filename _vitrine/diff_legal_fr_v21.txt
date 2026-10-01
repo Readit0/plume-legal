@@ -1,0 +1,85 @@
+diff --git a/politique-confidentialite.md b/politique-confidentialite.md
+index aaec4da..35a4c83 100644
+--- a/politique-confidentialite.md
++++ b/politique-confidentialite.md
+@@ -1,5 +1,7 @@
+ # Politique de confidentialité de Plume
+ 
+-**Dernière mise à jour : 12 septembre 2026** — Version 2.0
++**Dernière mise à jour : 1er octobre 2026** — Version 2.1
++
++> *Ce qui a changé en version 2.1 :* nous décrivons le **mode Camouflage**, que la version 2.0 ne mentionnait pas, et nous corrigeons une affirmation devenue inexacte : pour les langues personnelles comme pour le Camouflage, **les mots de vos messages qui manquent encore à votre lexique sont conservés, un par un** — jamais la phrase — afin de pouvoir vous proposer de les ajouter. Le détail est en « En une minute », au §2.2 et au §3.
+ 
+ > *Ce qui a changé depuis la version 1.0, et pourquoi vous revoyez peut-être l'écran d'acceptation dans l'application :* nous corrigeons deux affirmations qui n'étaient plus exactes. D'abord, la fonctionnalité **langues personnelles** conserve sur nos serveurs le contenu que vous créez (nom, alphabet, lexique) — la version 1.0 affirmait à tort qu'aucun texte n'était stocké. Ensuite, nous utilisons désormais un outil de **rapport de plantage technique** — la version 1.0 affirmait qu'aucun outil de ce type n'existait. Le détail de ces deux points est en « En une minute » ci-dessous, ainsi qu'aux §3 et §9. Ce sont exactement les deux catégories de changement qui, dans l'application, déclenchent une nouvelle demande d'accord (voir §11).
+@@ -26,5 +28,5 @@ Plume vous aide à écrire : elle reformule votre texte directement dans l'appli
+ Trois choses à retenir :
+ 
+-1. **Plume ne conserve ni les textes que vous reformulez, ni le texte lu à l'écran.** Nous n'en gardons ni copie, ni journal. **Exception assumée, et volontaire :** si vous créez une **langue personnelle** (votre propre langue construite, avec son lexique de mots et leurs définitions), le contenu de cette langue **est**, lui, conservé sur nos serveurs — c'est le seul moyen de vous permettre de la retrouver sur un autre appareil, de la faire évoluer et de la partager. Le détail est au §3.
++1. **Plume ne conserve ni les textes que vous reformulez, ni le texte lu à l'écran.** Nous n'en gardons ni copie, ni journal. **Exceptions assumées, et volontaires :** si vous créez une **langue personnelle** (votre propre langue construite, avec son lexique de mots et leurs définitions) ou un **carnet de camouflage** (votre code secret de mots), son contenu **est**, lui, conservé sur nos serveurs — c'est le seul moyen de vous permettre de le retrouver sur un autre appareil, de le faire évoluer et de le partager. Et quand vous écrivez dans ces deux modes, **les mots isolés de votre message qui manquent encore à votre lexique** sont mis de côté, un par un — jamais la phrase — pour vous proposer de les ajouter. Le détail est au §3.
+ 2. **Selon le moteur que vous choisissez, votre texte quitte ou ne quitte pas votre téléphone.** Deux moteurs (le Kit local et l'IA locale) travaillent entièrement sur l'appareil. Le troisième (l'IA Cloud) envoie le texte à un service d'intelligence artificielle **situé hors de l'Union européenne**. Vous choisissez, et l'IA Cloud ne s'active jamais sans votre accord explicite.
+ 3. **Plume a besoin d'autorisations puissantes** (lire le contenu affiché dans les autres applications, capturer l'écran). Nous expliquons ci-dessous précisément ce qu'elles servent et ce qu'elles ne servent pas.
+@@ -83,5 +85,6 @@ Quand vous choisissez l'IA Cloud, ou quand votre appareil n'est pas assez puissa
+ - Il est ensuite transmis à un intermédiaire de routage **situé hors de l'Union européenne**, qui le fait traiter par un modèle d'intelligence artificielle tiers.
+ - **Il s'agit donc d'un transfert de données hors de l'Union européenne.** Nous ne prétendons pas le contraire, et nous n'affichons aucune promesse d'hébergement européen pour cette étape.
+-- **Plume ne conserve pas votre texte.** Aucune de nos fonctions serveur n'écrit le contenu de votre texte : nous n'enregistrons qu'un identifiant technique de requête et l'identifiant de votre appareil, pour compter votre quota et détecter les abus.
++- **Plume ne conserve pas votre texte.** Aucune de nos fonctions serveur n'écrit le contenu de votre texte : nous n'enregistrons qu'un identifiant technique de requête et l'identifiant de votre appareil, pour compter votre quota et détecter les abus. **Seule exception :** en mode Langue personnelle et en mode Camouflage, les mots isolés qui manquent à votre lexique sont mis de côté (voir §3).
++- **Les modes Camouflage et Langue personnelle empruntent ce même trajet** chaque fois qu'ils ont besoin de l'IA : pour camoufler ou décoder un message que votre lexique ne couvre pas entièrement, pour accorder ou conjuguer un mot, ou pour faire grandir votre lexique (les mots en attente sont alors envoyés au service d'IA). L'écran qui présente le mode Camouflage vous l'annonce avant son activation.
+ - **Ce que ces prestataires font de leur côté, nous ne pouvons pas le garantir.** Nous préférons vous le dire plutôt que de vous promettre une rétention nulle que nous ne sommes pas en mesure de vérifier.
+ 
+@@ -108,4 +111,9 @@ Voici l'intégralité de ce qui est stocké sur nos serveurs :
+ | **Langue et version de l'application** | Servir le bon contenu | Jusqu'à la suppression de votre compte |
+ | **Le contenu des langues personnelles que vous créez** (son nom, son alphabet, et son lexique — les mots et les définitions que vous, ou d'autres personnes, y avez écrits) | Vous permettre de retrouver votre langue sur un autre appareil, de la faire évoluer, et de la partager avec d'autres utilisateurs | Tant que la langue existe. Si vous la supprimez, sa fiche disparaît — mais une copie déjà **importée par une autre personne** lui appartient désormais et **survit**, comme un message déjà reçu par un tiers que nous ne pouvons pas aller effacer chez lui |
++| **Vos carnets de camouflage** (leur nom, leur thème, leur langue, l'emblème choisi, et les paires de mots « mot réel → mot de code ») | Camoufler et décoder vos messages, vous permettre de retrouver votre carnet sur un autre appareil, de le faire évoluer et de le partager | Tant que le carnet existe. **Un carnet mis à la corbeille reste conservé** : il n'existe pas encore de vidage automatique de cette corbeille. Il disparaît à la suppression de votre compte |
++| **Les mots en attente** (langue personnelle et Camouflage) : les mots isolés de vos messages qui manquent encore à votre lexique — jamais la phrase —, avec leur nombre d'apparitions et les dates de première et de dernière apparition | Vous proposer de les ajouter à votre lexique, et les faire traiter par le service d'IA quand vous le faites grandir | Conservés même après leur ajout, tant que la langue ou le carnet existe. **Si vous écrivez avec un carnet de camouflage qu'une autre personne vous a partagé**, les mots qui lui manquent sont mis de côté **dans son carnet**, et cette personne peut les voir |
++| **Le partage de vos langues et de vos carnets** (un jeton de partage, stocké uniquement sous forme d'empreinte ; l'historique des imports et des liaisons) | Permettre à vos proches de lire vos messages. Le propriétaire d'un carnet voit la liste des personnes qui y sont liées (nom d'affichage et photo de profil Google — jamais l'adresse e-mail) | Un jeton expire. La trace d'un partage révoqué est conservée |
++| **Fragments non camouflés** (mode Camouflage sans carnet : de courts morceaux de message, 40 caractères au plus, restés lisibles après le camouflage) | Améliorer la grille de camouflage commune | Sans identifiant de compte, rattachés seulement à une empreinte pseudonyme de l'appareil. Aucune durée n'est encore fixée, et ils ne sont pas effacés à la suppression du compte |
++| **Définitions de mots** (le mot et sa définition générée, quand vous demandez la définition d'un mot de votre lexique) | Ne pas faire générer deux fois la même définition | Cache commun à tous, **sans identifiant** de compte ni de langue. Il n'est pas effacé à la suppression du compte |
+ | **Rapports de plantage technique** (type d'erreur, pile d'appel technique tronquée, version de l'app, système d'exploitation — jamais un contenu de texte) | Diagnostiquer et corriger les plantages de l'application | Régie par notre prestataire de rapport de plantage (voir §9). Cette collecte est soumise à votre consentement et à un interrupteur que nous pouvons couper à tout moment, sans mise à jour de l'application |
+ 
+@@ -194,5 +202,5 @@ Comme l'application permet de reformuler un texte libre et affiche de la publici
+ ## 10. Sécurité
+ 
+-Les échanges entre l'application et nos serveurs sont chiffrés (HTTPS/TLS). L'accès aux données en base est restreint par des règles serveur : les fonctions sensibles ne sont pas accessibles depuis l'application. Aucun système n'est parfaitement sûr. Le texte que vous reformulez et celui que la Lecture Assistée affiche à l'écran ne sont pas stockés chez nous, ce qui limite mécaniquement ce qu'une intrusion pourrait révéler à leur sujet. **Ce n'est pas vrai de tout :** le lexique des langues personnelles que vous créez, lui, **est** stocké (voir §3), et serait exposé comme n'importe quelle autre donnée de cette politique en cas d'intrusion réelle — nous le protégeons avec les mêmes règles d'accès serveur que le reste.
++Les échanges entre l'application et nos serveurs sont chiffrés (HTTPS/TLS). L'accès aux données en base est restreint par des règles serveur : les fonctions sensibles ne sont pas accessibles depuis l'application. Aucun système n'est parfaitement sûr. Le texte que vous reformulez et celui que la Lecture Assistée affiche à l'écran ne sont pas stockés chez nous, ce qui limite mécaniquement ce qu'une intrusion pourrait révéler à leur sujet. **Ce n'est pas vrai de tout :** le lexique des langues personnelles que vous créez, vos carnets de camouflage et les mots en attente, eux, **sont** stockés (voir §3), et serait exposé comme n'importe quelle autre donnée de cette politique en cas d'intrusion réelle — nous le protégeons avec les mêmes règles d'accès serveur que le reste.
+ 
+ ---
+diff --git a/suppression-compte.md b/suppression-compte.md
+index 74faaf6..6a82016 100644
+--- a/suppression-compte.md
++++ b/suppression-compte.md
+@@ -1,5 +1,5 @@
+ # Supprimer votre compte et vos données — Plume
+ 
+-**Dernière mise à jour : 12 septembre 2026** — Version 2.0
++**Dernière mise à jour : 1er octobre 2026** — Version 2.1
+ 
+ 
+@@ -35,13 +35,14 @@ La suppression efface **définitivement** :
+ - **votre compte** (adresse e-mail, mot de passe, session) ;
+ - **vos compteurs d'usage** — le nombre de reformulations consommées par jour et par mois ;
+-- **vos suggestions** — les propositions que vous nous auriez envoyées depuis l'application. C'est le seul texte libre que nous stockions ;
++- **vos suggestions** — les propositions que vous nous auriez envoyées depuis l'application ;
+ - **vos identifiants de requêtes** — les références techniques des reformulations demandées ;
+ - **vos crédits et déblocages de quota** — crédits achetés non consommés, déblocages obtenus par publicité, plafonds ajustés ;
+ - **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes ;
+-- **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
++- **vos carnets de camouflage**, y compris ceux mis à la corbeille — leur nom, leur thème, leurs paires de mots, les mots en attente, vos jetons de partage, et les liaisons dans les deux sens (les carnets que vous avez partagés, et ceux qu'on vous a partagés) ;
++- **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, les mots en attente, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
+ 
+ L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son rattachement à votre compte est effacé, sa clé d'identification est détruite et remplacée par une valeur morte, sa langue et sa version d'application sont effacées. Il ne reste qu'un numéro opaque, qui ne permet plus de vous identifier ni de retrouver l'appareil.
+ 
+-**Nous n'avons jamais stocké les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai du lexique d'une langue personnelle que vous auriez créée** : son contenu (nom, alphabet, mots et définitions) est bien stocké sur nos serveurs — la suppression de votre compte l'efface, comme le reste de ce qui vous appartient (voir ci-dessous).
++**Nous ne stockons pas les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai de vos langues personnelles et de vos carnets de camouflage** : leur contenu (nom, alphabet ou thème, mots et définitions), ainsi que les mots isolés de vos messages qui y manquaient encore, sont bien stockés sur nos serveurs — la suppression de votre compte les efface, comme le reste de ce qui vous appartient (voir ci-dessus).
+ 
+ **Sur votre téléphone**, vos personas, vos avatars, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
+@@ -62,4 +63,10 @@ Quatre catégories de traces subsistent, mais **le lien avec votre identité est
+ Ces données anonymisées sont conservées pour la durée requise par nos obligations légales, notamment comptables, puis supprimées ou agrégées.
+ 
++**Trois autres éléments ne sont pas effacés par la suppression de votre compte**, parce qu'ils ne vous sont pas rattachés, ou plus seulement à vous :
++
++- **les fragments non camouflés** — en mode Camouflage sans carnet, de courts morceaux de message (40 caractères au plus) restés lisibles après le camouflage : ils ne portent aucun identifiant de compte, seulement une empreinte pseudonyme de l'appareil ;
++- **les définitions de mots** — un cache commun à tous les utilisateurs, sans identifiant de compte ni de langue ;
++- **les mots que vous avez écrits avec le carnet de camouflage d'une autre personne** — ils ont été mis de côté dans son carnet, qui lui appartient, et suivent son sort.
++
+ ---
+ 

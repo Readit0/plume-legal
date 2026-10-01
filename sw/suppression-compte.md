@@ -1,6 +1,6 @@
 # Kufuta akaunti yako na data yako — Plume
 
-**Sasisho la mwisho: 12 Septemba 2026** — Toleo la 2.0
+**Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 2.1
 
 Programu inayohusika: **Plume** (`com.plume.plume`), inayochapishwa na **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — imechapishwa kwenye Google Play chini ya jina **openfunworld**.
 
@@ -33,15 +33,16 @@ Ufutaji unafuta **kabisa**:
 
 - **akaunti yako** (anwani ya barua pepe, nenosiri, kipindi cha kuingia);
 - **vihesabu vyako vya matumizi** — idadi ya maandishi yaliyoandikwa upya kwa siku na kwa mwezi;
-- **mapendekezo yako** — mapendekezo ambayo huenda ulitutumia kutoka ndani ya programu. Hayo ndiyo maandishi huru pekee tuliyokuwa tunayahifadhi;
+- **mapendekezo yako** — mapendekezo ambayo huenda ulitutumia kutoka ndani ya programu;
 - **vitambulisho vyako vya maombi** — marejeleo ya kiufundi ya maandishi uliyoomba yaandikwe upya;
 - **mikopo yako na ufunguzi wako wa viwango** — mikopo iliyonunuliwa lakini haijatumika, ufunguzi uliopatikana kwa matangazo, vikomo vilivyorekebishwa;
 - **kuunganishwa kwa vifaa vyako na akaunti yako** — simu zako nyingine au kompyuta zako kibao zinatenganishwa na kurudi kuwa vifaa visivyojulikana tu;
-- **lugha za kibinafsi ulizounda** — jina lake, alfabeti yake, msamiati wake, tokeni zako za kushiriki na historia yako ya kuingiza. **Kile ambacho ufutaji huu hauwezi kufanya:** ikiwa mtu mwingine tayari ameingiza nakala ya lugha yako kwake, nakala hiyo sasa ni mali yake na **inaendelea kuwepo** hata baada ya wewe kufuta — kama ujumbe ambao tayari umepokewa na mtu wa tatu, hatuwezi kuufuta kwa upande wake.
+- **kamusi zako za ufichaji**, pamoja na zile zilizowekwa kwenye pipa la taka — jina lake, mada yake, jozi zake za maneno, maneno yanayosubiri, tokeni zako za kushiriki, na viunganisho vya pande zote mbili (kamusi ulizoshiriki, na zile ulizoshirikishwa);
+- **lugha za kibinafsi ulizounda** — jina lake, alfabeti yake, msamiati wake, maneno yanayosubiri, tokeni zako za kushiriki na historia yako ya kuingiza. **Kile ambacho ufutaji huu hauwezi kufanya:** ikiwa mtu mwingine tayari ameingiza nakala ya lugha yako kwake, nakala hiyo sasa ni mali yake na **inaendelea kuwepo** hata baada ya wewe kufuta — kama ujumbe ambao tayari umepokewa na mtu wa tatu, hatuwezi kuufuta kwa upande wake.
 
 Kifaa ambacho kwacho unaomba ufutaji **kinatenguliwa**: kuunganishwa kwake na akaunti yako kunafutwa, ufunguo wake wa utambulisho unaharibiwa na kubadilishwa na thamani isiyo hai, lugha yake na toleo lake la programu vinafutwa. Inabaki namba isiyo na maana, isiyoruhusu tena kukutambua wewe wala kukipata kifaa hicho.
 
-**Hatujawahi kuhifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini na Usomaji Saidizi**: hayahifadhiwi mahali popote kwenye seva zetu, kwa hiyo hakuna cha kufuta. **Hii si kweli kwa msamiati wa lugha ya kibinafsi ambayo huenda uliiunda**: maudhui yake (jina, alfabeti, maneno na maana) yanahifadhiwa kweli kwenye seva zetu — kufuta akaunti yako kunayafuta, kama mali nyingine yako yote (angalia hapa chini).
+**Hatuhifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini na Usomaji Saidizi**: hayahifadhiwi mahali popote kwenye seva zetu, kwa hiyo hakuna cha kufuta. **Hii si kweli kwa lugha zako za kibinafsi na kamusi zako za ufichaji**: maudhui yake (jina, alfabeti au mada, maneno na maana), pamoja na maneno mahususi ya jumbe zako ambayo bado hayakuwemo ndani yake, yanahifadhiwa kweli kwenye seva zetu — kufuta akaunti yako kunayafuta, kama mali nyingine yako yote (angalia hapo juu).
 
 **Kwenye simu yako**, persona zako, avatari zako, mipangilio yako na kanuni zako kwa kila programu vimehifadhiwa hapohapo kifaani. Vinafutwa kwa ufutaji unaofanywa kutoka ndani ya programu, na kwa hali yoyote ile **vinatoweka unapoiondoa Plume kwenye kifaa chako**.
 
@@ -59,6 +60,12 @@ Aina tatu za alama zinabaki, lakini **uhusiano wake na utambulisho wako umekatwa
 | **Ishara za kiufundi za usalama** (kuvuka vikomo mara kwa mara, kushindwa kwa ukaguzi wa uadilifu) | Kupambana na udanganyifu. Kumbukumbu hizi **hazina maandishi yoyote** na huhifadhiwa **bila kitambulisho cha kifaa**. |
 
 Data hizi zilizofichwa utambulisho huhifadhiwa kwa muda unaohitajika na wajibu wetu wa kisheria, hasa wa uhasibu, kisha hufutwa au hujumlishwa.
+
+**Vitu vingine vitatu havifutwi na ufutaji wa akaunti yako**, kwa sababu havihusishwi nawe, au havihusishwi nawe peke yako tena:
+
+- **vipande visivyofichwa** — katika hali ya Kuficha bila kamusi, vipande vifupi vya ujumbe (herufi 40 zisizozidi) vilivyobaki vinasomeka baada ya kuficha: havina kitambulisho chochote cha akaunti, ila alama ya jina bandia ya kifaa tu;
+- **maana za maneno** — hifadhi ya muda ya pamoja kwa watumiaji wote, bila kitambulisho cha akaunti wala cha lugha;
+- **maneno uliyoyaandika kwa kamusi ya ufichaji ya mtu mwingine** — yamewekwa kando kwenye kamusi yake, ambayo ni mali yake, na yanafuata hatima yake.
 
 ---
 

@@ -1,6 +1,6 @@
 # Dileu eich cyfrif a'ch data — Plume
 
-**Diweddarwyd ddiwethaf: 12 Medi 2026** — Fersiwn 2.0
+**Diweddarwyd ddiwethaf: 1 Hydref 2026** — Fersiwn 2.1
 
 Yr ap dan sylw: **Plume** (`com.plume.plume`), a gyhoeddir gan **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — ar gael ar Google Play o dan yr enw **openfunworld**.
 
@@ -33,15 +33,16 @@ Mae'r dileu yn dileu **yn barhaol**:
 
 - **eich cyfrif** (cyfeiriad e-bost, cyfrinair, sesiwn);
 - **eich cownteri defnydd** — nifer yr ailysgrifennu a ddefnyddiwyd y dydd a'r mis;
-- **eich awgrymiadau** — y cynigion y byddech wedi'u hanfon atom o'r ap. Dyma'r unig destun rhydd rydym yn ei storio;
+- **eich awgrymiadau** — y cynigion y byddech wedi'u hanfon atom o'r ap;
 - **dynodyddion eich ceisiadau** — cyfeirnodau technegol yr ailysgrifennu y gofynnwyd amdano;
 - **eich credydau a'ch datgloadau cwota** — credydau a brynwyd ac na chawsant eu defnyddio, datgloadau a gafwyd drwy hysbyseb, terfynau wedi'u haddasu;
 - **cysylltiad eich dyfeisiau â'ch cyfrif** — mae eich ffonau neu dabledi eraill yn cael eu datgysylltu ac yn dychwelyd i fod yn ddyfeisiau dienw syml;
-- **yr ieithoedd personol rydych chi wedi'u creu** — eu henw, eu gwyddor, eu geirfa, eich tocynnau rhannu a'ch hanes mewnforio. **Yr hyn na all y dileu hwn ei wneud:** os yw rhywun arall eisoes wedi mewnforio copi o'ch iaith ganddo, mae'r copi hwnnw'n perthyn iddo ef o hynny ymlaen ac yn **goroesi** eich dileu — fel neges y mae trydydd parti eisoes wedi'i derbyn, na allwn ei dileu ganddo ef.
+- **eich geirfaoedd cuddliwio**, gan gynnwys y rhai a roddwyd yn y sbwriel — eu henw, eu thema, eu parau geiriau, y geiriau sy'n aros, eich tocynnau rhannu, a'r cysylltiadau i'r ddau gyfeiriad (y geirfaoedd rydych chi wedi'u rhannu, a'r rhai a rannwyd gyda chi);
+- **yr ieithoedd personol rydych chi wedi'u creu** — eu henw, eu gwyddor, eu geirfa, y geiriau sy'n aros, eich tocynnau rhannu a'ch hanes mewnforio. **Yr hyn na all y dileu hwn ei wneud:** os yw rhywun arall eisoes wedi mewnforio copi o'ch iaith ganddo, mae'r copi hwnnw'n perthyn iddo ef o hynny ymlaen ac yn **goroesi** eich dileu — fel neges y mae trydydd parti eisoes wedi'i derbyn, na allwn ei dileu ganddo ef.
 
 Mae'r ddyfais rydych yn gofyn am y dileu ohoni yn cael ei **niwtraleiddio**: mae ei chysylltiad â'ch cyfrif yn cael ei ddileu, mae ei hallwedd adnabod yn cael ei dinistrio a'i disodli gan werth marw, ac mae ei hiaith a'i fersiwn o'r ap yn cael eu dileu. Nid oes ar ôl ond rhif afloyw, nad yw'n caniatáu eich adnabod chi na dod o hyd i'r ddyfais mwyach.
 
-**Nid ydym erioed wedi storio'r testunau rydych wedi'u hailysgrifennu, na'r testun a ddarllenwyd ar y sgrin gan Darllen â Chymorth**: nid ydynt yn cael eu cadw yn unman ar ein gweinyddion, felly nid oes dim i'w ddileu. **Nid yw hyn yn wir am eirfa unrhyw iaith bersonol y gallech fod wedi'i chreu:** mae ei chynnwys (enw, gwyddor, geiriau a diffiniadau) yn cael ei storio ar ein gweinyddion mewn gwirionedd — mae dileu eich cyfrif yn ei ddileu, fel gweddill yr hyn sy'n perthyn i chi (gweler isod).
+**Nid ydym yn storio'r testunau rydych wedi'u hailysgrifennu, na'r testun a ddarllenwyd ar y sgrin gan Darllen â Chymorth**: nid ydynt yn cael eu cadw yn unman ar ein gweinyddion, felly nid oes dim i'w ddileu. **Nid yw hyn yn wir am eich ieithoedd personol a'ch geirfaoedd cuddliwio:** mae eu cynnwys (enw, gwyddor neu thema, geiriau a diffiniadau), a hefyd y geiriau unigol yn eich negeseuon a oedd yn dal i fod ar goll ohonynt, yn cael eu storio ar ein gweinyddion mewn gwirionedd — mae dileu eich cyfrif yn eu dileu, fel gweddill yr hyn sy'n perthyn i chi (gweler uchod).
 
 **Ar eich ffôn**, mae eich personas, eich afatarau, eich gosodiadau a'ch rheolau fesul ap yn cael eu storio'n lleol. Cânt eu dileu gan y dileu o'r ap, ac yn y pen draw **maent yn diflannu pan fyddwch yn dadosod Plume**.
 
@@ -59,6 +60,12 @@ Mae tri chategori o gofnodion yn aros, ond **mae'r cysylltiad â'ch hunaniaeth w
 | **Y signalau technegol diogelwch** (mynd dros y terfyn dro ar ôl tro, methiannau gwiriad cywirdeb) | Atal twyll. Nid yw'r cofnodion hyn yn cynnwys **unrhyw destun** ac fe'u cedwir **heb ddynodydd dyfais**. |
 
 Cedwir y data dienw hwn am yr hyd sy'n ofynnol gan ein rhwymedigaethau cyfreithiol, yn enwedig rhai cyfrifyddu, ac yna caiff ei ddileu neu ei gyfuno.
+
+**Nid yw tair eitem arall yn cael eu dileu pan fyddwch yn dileu eich cyfrif**, am nad ydynt wedi'u cysylltu â chi, neu nid â chi yn unig mwyach:
+
+- **darnau heb eu cuddliwio** — yn y modd Cuddliw heb eirfa, darnau byr o neges (40 nod ar y mwyaf) a arhosodd yn ddarllenadwy ar ôl cuddliwio: nid oes ganddynt unrhyw ddynodydd cyfrif, dim ond hash ffugenwol y ddyfais;
+- **diffiniadau geiriau** — storfa dros dro gyffredin i bob defnyddiwr, heb ddynodydd cyfrif nac iaith;
+- **y geiriau a ysgrifennwyd gennych gyda geirfa guddliwio person arall** — fe'u rhoddwyd o'r neilltu yng ngeirfa'r person hwnnw, sy'n perthyn iddo, ac maent yn dilyn ei hynt.
 
 ---
 

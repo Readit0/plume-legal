@@ -1,6 +1,6 @@
 # Ukususa i-akhawunti yakho nedatha yakho — Plume
 
-**Ukubuyekezwa kokugcina: 12 Septhemba 2026** — Uhlobo 2.0
+**Ukubuyekezwa kokugcina: 1 Okthoba 2026** — Uhlobo 2.1
 
 
 Uhlelo lokusebenza oluphathelene: **Plume** (`com.plume.plume`), lushicilelwe yi-**SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — lushicilelwe ku-Google Play ngaphansi kwegama **openfunworld**.
@@ -34,15 +34,16 @@ Ukususwa kususa **unomphela**:
 
 - **i-akhawunti yakho** (ikheli le-imeyili, i-phasiwedi, isigcawu);
 - **amabala akho okusetshenziswa** — inani lokubuyekeza okusetshenzisiwe ngosuku nangenyanga;
-- **iziphakamiso zakho** — iziphakamiso ongase ube usithumele kithi kusukela ohlelweni lokusebenza. Yiwona kuphela umbhalo okhululekile esiwugcinayo;
+- **iziphakamiso zakho** — iziphakamiso ongase ube usithumele kithi kusukela ohlelweni lokusebenza;
 - **izibonisi zesicelo sakho** — izinkomba zobuchwepheshe zokubuyekeza okuceliwe;
 - **amakhredithi wakho esabelo nokuvulwa** — amakhredithi athengiwe angakasetshenziswa, ukuvulwa okutholwe ngesikhangiso, imikhawulo elungisiwe;
 - **ukuxhumana kwamadivayisi akho ne-akhawunti yakho** — amanye amafoni noma ama-tablet akho ayasuswa futhi abuyele emuva njengamadivayisi angaziwa;
-- **izilimi zomuntu siqu ozidalile** — igama lazo, uhlamvu lwazo, isichazamazwi sazo, ama-token wakho okwabelana kanye nomlando wakho wokungenisa. **Lokho ukususwa okungeke kukwenze:** uma omunye umuntu wayesethole ikhophi yolimi lwakho kakade, leyo khophi manje isiba ngeyakhe futhi **isala** ngemva kokususa kwakho — njengomlayezo owatholwa kakade omunye umuntu, esingakwazi ukumususa ohlangothini lwakhe.
+- **uhlu lwakho lwamagama okufihla**, kuhlanganise nalolo olulahlwe ebhokisini lemfucuza — igama lalo, indikimba yalo, ababili bamagama, amagama alindile, ama-token wakho okwabelana, nokuxhumanisa ngezindlela zombili (ohlu owabelane ngalo, nolo owabelwe ngalo);
+- **izilimi zomuntu siqu ozidalile** — igama lazo, uhlamvu lwazo, isichazamazwi sazo, amagama alindile, ama-token wakho okwabelana kanye nomlando wakho wokungenisa. **Lokho ukususwa okungeke kukwenze:** uma omunye umuntu wayesethole ikhophi yolimi lwakho kakade, leyo khophi manje isiba ngeyakhe futhi **isala** ngemva kokususa kwakho — njengomlayezo owatholwa kakade omunye umuntu, esingakwazi ukumususa ohlangothini lwakhe.
 
 Idivayisi ocela ukususwa kuyo **iyathanjiswa**: ukuxhumana kwayo ne-akhawunti yakho kuyasuswa, ukhiye wokuhlonza wayo uyabhujiswa futhi ushintshwe ngenani elifile, ulimi lwayo nohlobo loHlelo lokuSebenza kuyasuswa. Kusala kuphela inombolo engacacile, engasavumeli ukuthi ukhonjwe noma idivayisi itholwe.
 
-**Asisoze sagcina imibhalo owubuyekezayo, noma umbhalo Ukufunda Okusizayo okuboniswe esikrinini**: ayigcinwa noma kuphi kumaseva ethu, ngakho-ke akukho okususwayo. **Lokhu akulona iqiniso ngesichazamazwi solimi lomuntu siqu ongase ube ulidale**: okuqukethwe kwalo (igama, uhlamvu, amagama nezincazelo) kuyagcinwa ngempela kumaseva ethu — ukususwa kwe-akhawunti yakho kuyakususa, njengakho konke okunye okungokwakho (bheka ngezansi).
+**Asigcini imibhalo oyibuyekezayo, noma umbhalo Ukufunda Okusizayo okuboniswe esikrinini**: ayigcinwa noma kuphi kumaseva ethu, ngakho-ke akukho okususwayo. **Lokhu akulona iqiniso ngezilimi zakho zomuntu siqu nangohlu lwakho lwamagama okufihla**: okuqukethwe kwabo (igama, uhlamvu noma indikimba, amagama nezincazelo), kanye namagama ambalwa asemilayezweni yakho angekho kubo, kugcinwa ngempela kumaseva ethu — ukususwa kwe-akhawunti yakho kuyakususa, njengakho konke okunye okungokwakho (bheka ngenhla).
 
 **Efonini yakho**, amapersona akho, izithombe zawo, izilungiselelo zakho, nemithetho yakho ngohlelo lokusebenza ngalunye kugcinwa endaweni. Kususwa ngokususa kusukela ohlelweni lokusebenza, futhi kunoma yiziphi izimo **kuyanyamalala uma ususa i-Plume**.
 
@@ -60,6 +61,12 @@ Izigaba ezine zezinyathelo zisala, kodwa **ukuxhumana nobunye bakho kuyanqamuka*
 | **Izibonisi zobuchwepheshe zokuphepha** (ukudlula amakhefu okuphindiwe, ukwehluleka kokuhlola ubuqotho) | Ukulwa nenkohliso. Lezi zincwadi azinawo **noma yimuphi umbhalo** futhi zigcinwa **ngaphandle kwesibonisi sedivayisi**. |
 
 Le datha engahlonziwe igcinwa isikhathi esidingwa yizibopho zethu zomthetho, ikakhulukazi ezezimali, bese kususwa noma kuhlanganiswe.
+
+**Ezinye izinto ezintathu azisuswa uma i-akhawunti yakho isuswa**, ngoba azixhunyaniswe nawe, noma azisaxhunyaniswe nawe wedwa:
+
+- **izingcezu ezingafihlwanga** — kumodi yoKufihla ngaphandle kohlu, izingcezu ezimfushane zomlayezo (ubuningi bezinhlamvu ezingu-40) ezisala zifundeka ngemva kokufihla: azinaso isibonisi se-akhawunti, zinesigxivizo somunwe esingesona sangempela sedivayisi kuphela;
+- **izincazelo zamagama** — i-cache evamile kubo bonke abasebenzisi, ngaphandle kwesibonisi se-akhawunti noma solimi;
+- **amagama owabhale ngohlu lwamagama okufihla lomunye umuntu** — abekwe eceleni kuhlu lwakhe, olungolwakhe, futhi alandela ikusasa lalo.
 
 ---
 

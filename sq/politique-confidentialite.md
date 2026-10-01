@@ -1,6 +1,8 @@
 # Politika e privatësisë e Plume
 
-**Përditësimi i fundit: 12 shtator 2026** — Versioni 2.0
+**Përditësimi i fundit: 1 tetor 2026** — Versioni 2.1
+
+> *Çfarë ka ndryshuar në versionin 2.1:* ne përshkruajmë **mënyrën Kamuflazh**, që versioni 2.0 nuk e përmendte, dhe korrigjojmë një pohim që nuk ishte më i saktë: si për gjuhët personale, ashtu edhe për Kamuflazhin, **fjalët e mesazheve tuaja që mungojnë ende në leksikun tuaj ruhen, një nga një** — kurrë fjalia — në mënyrë që t'ju propozojmë t'i shtoni. Hollësitë gjenden te «Në një minutë», te §2.2 dhe te §3.
 
 > *Çfarë ka ndryshuar që nga versioni 1.0, dhe pse ndoshta po e shihni sërish ekranin e pranimit
 > në aplikacion:* po korrigjojmë dy pohime që nuk ishin më të sakta. Së pari, funksioni i
@@ -32,7 +34,7 @@ Plume ju ndihmon të shkruani: ajo e riformulon tekstin tuaj drejtpërdrejt në 
 
 Tri gjëra për t'i mbajtur mend:
 
-1. **Plume nuk ruan as tekstet që riformuloni, as tekstin e lexuar në ekran.** Nuk mbajmë as kopje, as regjistër të tyre. **Përjashtim i pranuar, dhe i vullnetar:** nëse krijoni një **gjuhë personale** (gjuhën tuaj të ndërtuar, me leksikun e saj të fjalëve dhe përkufizimeve të tyre), përmbajtja e kësaj gjuhe **ruhet** në serverët tanë — kjo është mënyra e vetme për t'ju lejuar ta gjeni përsëri në një pajisje tjetër, ta zhvilloni dhe ta ndani me të tjerët. Hollësitë gjenden te §3.
+1. **Plume nuk ruan as tekstet që riformuloni, as tekstin e lexuar në ekran.** Nuk mbajmë as kopje, as regjistër të tyre. **Përjashtime të pranuara, dhe vullnetare:** nëse krijoni një **gjuhë personale** (gjuhën tuaj të ndërtuar, me leksikun e saj të fjalëve dhe përkufizimeve të tyre) ose një **fjalor kamuflazhi** (kodin tuaj sekret të fjalëve), përmbajtja e tij **ruhet** në serverët tanë — kjo është mënyra e vetme për t'ju lejuar ta gjeni përsëri në një pajisje tjetër, ta zhvilloni dhe ta ndani me të tjerët. Dhe kur shkruani në këto dy mënyra, **fjalët e veçuara të mesazhit tuaj që mungojnë ende në leksikun tuaj** vendosen mënjanë, një nga një — kurrë fjalia — për t'ju propozuar t'i shtoni. Hollësitë gjenden te §3.
 2. **Në varësi të motorit që zgjidhni, teksti juaj del ose nuk del nga telefoni juaj.** Dy motorë (Kiti lokal dhe IA-ja lokale) punojnë tërësisht në pajisje. I treti (IA-ja Cloud) ia dërgon tekstin një shërbimi të inteligjencës artificiale **të vendosur jashtë Bashkimit Evropian**. Ju zgjidhni, dhe IA-ja Cloud nuk aktivizohet kurrë pa pëlqimin tuaj të shprehur.
 3. **Plume ka nevojë për leje të fuqishme** (të lexojë përmbajtjen e shfaqur në aplikacionet e tjera, të kapë ekranin). Më poshtë shpjegojmë saktësisht për çfarë shërbejnë dhe për çfarë nuk shërbejnë.
 
@@ -89,7 +91,8 @@ Kur zgjidhni IA-në Cloud, ose kur pajisja juaj nuk është mjaftueshëm e fuqis
 - Teksti kalon nëpër infrastrukturën tonë të serverëve, të strehuar në **Bashkimin Evropian** (rajoni Evropa Qendrore, Frankfurt).
 - Pastaj i transmetohet një ndërmjetësi rrugëzimi **të vendosur jashtë Bashkimit Evropian**, i cili bën që ta përpunojë një model inteligjence artificiale i palës së tretë.
 - **Bëhet fjalë, pra, për një transferim të të dhënave jashtë Bashkimit Evropian.** Nuk pretendojmë të kundërtën dhe nuk shfaqim asnjë premtim strehimi evropian për këtë hap.
-- **Plume nuk e ruan tekstin tuaj.** Asnjë nga funksionet tona serverike nuk e shkruan përmbajtjen e tekstit tuaj: ne regjistrojmë vetëm një identifikues teknik të kërkesës dhe identifikuesin e pajisjes suaj, për të numëruar kuotën tuaj dhe për të zbuluar abuzimet.
+- **Plume nuk e ruan tekstin tuaj.** Asnjë nga funksionet tona serverike nuk e shkruan përmbajtjen e tekstit tuaj: ne regjistrojmë vetëm një identifikues teknik të kërkesës dhe identifikuesin e pajisjes suaj, për të numëruar kuotën tuaj dhe për të zbuluar abuzimet. **Përjashtimi i vetëm:** në mënyrën Gjuhë personale dhe në mënyrën Kamuflazh, fjalët e veçuara që mungojnë në leksikun tuaj vendosen mënjanë (shih §3).
+- **Mënyrat Kamuflazh dhe Gjuhë personale ndjekin të njëjtën rrugë** sa herë që kanë nevojë për IA-në: për të kamufluar ose dekoduar një mesazh që leksiku juaj nuk e mbulon plotësisht, për të lakuar ose zgjedhuar një fjalë, ose për ta rritur leksikun tuaj (fjalët në pritje i dërgohen atëherë shërbimit të IA-së). Ekrani që paraqet mënyrën Kamuflazh ju njofton për këtë përpara aktivizimit të saj.
 - **Çfarë bëjnë këta ofrues nga ana e tyre, ne nuk mund ta garantojmë.** Preferojmë t'jua themi, në vend që t'ju premtojmë një mosruajtje që nuk jemi në gjendje ta verifikojmë.
 
 **IA-ja Cloud nuk aktivizohet kurrë vetvetiu.** Një ekran i posaçëm pëlqimi jua shpjegon këto pika para dërgimit të parë, dhe asgjë nuk niset derisa të keni pranuar. Nëse IA-ja lokale dështon, Plume nuk kalon në heshtje te cloud-i: jua sinjalizon dhe pret vendimin tuaj. Mund ta revokoni këtë pëlqim në çdo kohë te cilësimet.
@@ -114,6 +117,11 @@ Ja gjithçka që ruhet në serverët tanë:
 | **Sinjalet teknike të abuzimit** (tejkalime të përsëritura, dështim i kontrollit të integritetit — pa asnjë tekst) | Siguria, lufta kundër mashtrimit | Të shkëputura nga identiteti juaj në fshirjen e llogarisë |
 | **Gjuha dhe versioni i aplikacionit** | Të shërbejë përmbajtjen e duhur | Deri në fshirjen e llogarisë suaj |
 | **Përmbajtja e gjuhëve personale që krijoni** (emri i saj, alfabeti i saj, dhe leksiku i saj — fjalët dhe përkufizimet që ju, ose persona të tjerë, keni shkruar në të) | T'ju lejojë ta gjeni gjuhën tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani me përdorues të tjerë | Për sa kohë që gjuha ekziston. Nëse e fshini, skeda e saj zhduket — por një kopje tashmë **e importuar nga një person tjetër** i përket tashmë atij dhe **mbijeton**, si një mesazh i marrë tashmë nga një palë e tretë, të cilin ne nuk mund të shkojmë ta fshijmë te ai |
+| **Fjalorët tuaj të kamuflazhit** (emri, tema, gjuha, emblema e zgjedhur dhe çiftet e fjalëve «fjalë e vërtetë → fjalë kodi») | Të kamuflojë dhe dekodojë mesazhet tuaja, t'ju lejojë ta gjeni fjalorin tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani | Për sa kohë që fjalori ekziston. **Një fjalor i hedhur në kosh ruhet gjithsesi**: ende nuk ekziston zbrazje automatike e këtij koshi. Zhduket me fshirjen e llogarisë suaj |
+| **Fjalët në pritje** (gjuhë personale dhe Kamuflazh): fjalët e veçuara të mesazheve tuaja që mungojnë ende në leksikun tuaj — kurrë fjalia —, me numrin e shfaqjeve dhe datat e shfaqjes së parë e të fundit | T'ju propozojë t'i shtoni në leksikun tuaj dhe t'i përpunojë shërbimi i IA-së kur e rritni | Ruhen edhe pas shtimit, për sa kohë që gjuha ose fjalori ekziston. **Nëse shkruani me një fjalor kamuflazhi që një person tjetër ka ndarë me ju**, fjalët që i mungojnë vendosen mënjanë **në fjalorin e atij personi**, dhe ai person mund t'i shohë |
+| **Ndarja e gjuhëve dhe e fjalorëve tuaj** (një kod ndarjeje, i ruajtur vetëm në formë gjurme dixhitale; historiku i importimeve dhe i lidhjeve) | T'u lejojë të afërmve tuaj t'i lexojnë mesazhet tuaja. Pronari i një fjalori sheh listën e personave të lidhur me të (emri i shfaqur dhe fotoja e profilit Google — kurrë adresa e e-mailit) | Një kod skadon. Gjurma e një ndarjeje të shfuqizuar ruhet |
+| **Fragmentet e pakamufluara** (Kamuflazh pa fjalor: copëza të shkurtra mesazhi, më së shumti 40 karaktere, që kanë mbetur të lexueshme pas kamuflimit) | Të përmirësojë rrjetën e përbashkët të kamuflimit | Pa identifikues llogarie, të lidhura vetëm me një gjurmë pseudonime të pajisjes. Asnjë afat nuk është caktuar ende, dhe ato nuk fshihen me fshirjen e llogarisë |
+| **Përkufizimet e fjalëve** (fjala dhe përkufizimi i saj i gjeneruar, kur kërkoni përkufizimin e një fjale të leksikut tuaj) | Të mos gjenerohet dy herë i njëjti përkufizim | Memorie e përbashkët për të gjithë, **pa identifikues** llogarie apo gjuhe. Nuk fshihet me fshirjen e llogarisë |
 | **Raportet e plantimeve teknike** (lloji i gabimit, stiva teknike e thirrjeve e shkurtuar, versioni i aplikacionit, sistemi operativ — asnjëherë përmbajtje teksti) | Të diagnostikojë dhe të korrigjojë plantimet e aplikacionit | Rregulluar nga ofruesi ynë i raportimit të plantimeve (shih §9). Kjo mbledhje i nënshtrohet pëlqimit tuaj dhe një çelësi që mund ta fikim në çdo kohë, pa asnjë përditësim të aplikacionit |
 
 **Çfarë nuk mbledhim:** emrin tuaj, kontaktet tuaja, vendndodhjen tuaj, adresarin tuaj, fotografitë tuaja, kalendarin tuaj, historikun e aplikacioneve tuaja. Plume nuk kërkon asnjë nga këto leje.
@@ -200,7 +208,7 @@ Meqenëse aplikacioni lejon riformulimin e një teksti të lirë dhe shfaq rekla
 
 ## 10. Siguria
 
-Shkëmbimet mes aplikacionit dhe serverëve tanë janë të koduara (HTTPS/TLS). Aksesi te të dhënat në bazë kufizohet nga rregulla serverike: funksionet e ndjeshme nuk janë të arritshme nga aplikacioni. Asnjë sistem nuk është përsosmërisht i sigurt. Teksti që ju riformuloni dhe ai që Leximi i Asistuar shfaq në ekran nuk ruhen te ne, çka e kufizon mekanikisht atë që një ndërhyrje do të mund të zbulonte për to. **Kjo nuk vlen për gjithçka:** leksiku i gjuhëve personale që krijoni, ai, **ruhet** (shih §3), dhe do të ekspozohej si çdo e dhënë tjetër e kësaj politike në rast të një ndërhyrjeje reale — ne e mbrojmë atë me të njëjtat rregulla aksesi serverik si gjithçka tjetër.
+Shkëmbimet mes aplikacionit dhe serverëve tanë janë të koduara (HTTPS/TLS). Aksesi te të dhënat në bazë kufizohet nga rregulla serverike: funksionet e ndjeshme nuk janë të arritshme nga aplikacioni. Asnjë sistem nuk është përsosmërisht i sigurt. Teksti që ju riformuloni dhe ai që Leximi i Asistuar shfaq në ekran nuk ruhen te ne, çka e kufizon mekanikisht atë që një ndërhyrje do të mund të zbulonte për to. **Kjo nuk vlen për gjithçka:** leksiku i gjuhëve personale që krijoni, fjalorët tuaj të kamuflazhit dhe fjalët në pritje, ata, **ruhen** (shih §3), dhe do të ekspozoheshin si çdo e dhënë tjetër e kësaj politike në rast të një ndërhyrjeje reale — ne e mbrojmë atë me të njëjtat rregulla aksesi serverik si gjithçka tjetër.
 
 ---
 

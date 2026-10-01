@@ -1,6 +1,6 @@
 # I ka Konti ni I ka Kunnafoniw Jɔsili — Plume
 
-**A yɛlɛmana laban: 12 sɛtanburu 2026** — Versiyɔn 2.0
+**A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 2.1
 
 
 Aplikasiyɔn bɛnnen : **Plume** (`com.plume.plume`), **SASU RedLine Music** ye min jɛnsɛn, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — jɛnsɛnnen bɛ Google Play kan tɔgɔ **openfunworld** kɔrɔ.
@@ -34,15 +34,16 @@ Jɔsili bɛ ninnu jɔsi **badaa la** :
 
 - **i ka konti** (imɛli adɛrɛsi, gundokan, sɛsiyɔn) ;
 - **i ka baarakɛcogo jatebɔ** — kɔseginni hakɛ min baara la tile kɔnɔ ni kalo kɔnɔ ;
-- **i ka hakilinaw** — hakilina minnu i ye ci an ma ka bɔ aplikasiyɔn na. O de ye sɛbɛn hɔrɔnyalen kelen ye an tun bɛ mara ;
+- **i ka hakilinaw** — hakilina minnu i ye ci an ma ka bɔ aplikasiyɔn na ;
 - **i ka ɲininiw idantifan** — kɔseginni ɲinilenw ka teknik yoro ;
 - **i ka kota credit ni dabɔliw** — credit sanlen minnu ma baara la, dabɔli sɔrɔlen piblisite fɛ, dan latilenenw ;
 - **i ka sañseW jɛnni i ka konti ma** — i ka telefɔni tɔw walima tabɛli bɛ bɔ a la, u bɛ kɛ sañse tɔgɔ-lankolon kokura ;
-- **kan yɛrɛda minnu i ye dilan** — u tɔgɔ, u alifabɛ, u daɲɛgafe, i ka tilali tokɛn, ani i ka donni tariku. **Fɛɛn min jɔsili nin tɛ se ka kɛ :** ni mɔgɔ wɛrɛ ye kopi dɔ don a yɛrɛ la ka bɔ i ka kan na kɔrɔmɛ, kopi nin bɛ kɛ o mɔgɔ ta ye ka **to yen** hali i ka jɔsili kɔfɛ — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ.
+- **i ka Kaman-fini daɲɛgafew**, minnu bilala korbɛyi la, olu fana — u tɔgɔ, u thɛmu, u daɲɛ fila-filaw, daɲɛ minnu bɛ makɔnɔ, i ka tilali tokɛnw, ani jɛɲɔgɔnya fan fila bɛɛ la (daɲɛgafe minnu i ye tila, ani minnu tilara i fɛ) ;
+- **kan yɛrɛda minnu i ye dilan** — u tɔgɔ, u alifabɛ, u daɲɛgafe, daɲɛ minnu bɛ makɔnɔ, i ka tilali tokɛn, ani i ka donni tariku. **Fɛɛn min jɔsili nin tɛ se ka kɛ :** ni mɔgɔ wɛrɛ ye kopi dɔ don a yɛrɛ la ka bɔ i ka kan na kɔrɔmɛ, kopi nin bɛ kɛ o mɔgɔ ta ye ka **to yen** hali i ka jɔsili kɔfɛ — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ.
 
 Sañse i bɛ jɔsili ɲini a fɛ, o bɛ **kɛ fu ye** : a jɛnni i ka konti ma bɛ jɔsi, a idantifan key bɛ tiɲɛ ka caya ni hakɛ salen ye, a kan ni aplikasiyɔn versiyɔn bɛ jɔsi. Nimɔrɔ jɛlen dɔrɔn de bɛ to, min t'a to i dɔn walima ka sañse sɔrɔ kokura.
 
-**Sɛbɛn i bɛ minnu kɔsegin ani Dɛmɛni Kalanni bɛ minnu jira ekran kan, an ma olu mara abada** : u ma to yɔrɔ si an ka sɛrivɛriw kan, o de kosɔn foyi tɛ yen ka jɔsi. **O tɛ tiɲɛ ye kan yɛrɛda dɔ daɲɛgafe la ni i y'o dilan** : a kunnafoniw (tɔgɔ, alifabɛ, daɲɛw ni kɔrɔfɔlenw) bɛ mara an ka sɛrivɛriw kan tiɲɛ na — i ka konti jɔsili b'a jɔsi, i taw tɔw bɛɛ n'a fɔ (jaan lajɛ).
+**An tɛ sɛbɛn i bɛ minnu kɔsegin ani Dɛmɛni Kalanni bɛ minnu jira ekran kan, olu mara** : u ma to yɔrɔ si an ka sɛrivɛriw kan, o de kosɔn foyi tɛ yen ka jɔsi. **O tɛ tiɲɛ ye i ka kan yɛrɛdaw ni i ka Kaman-fini daɲɛgafew la** : u kunnafoniw (tɔgɔ, alifabɛ walima thɛmu, daɲɛw ni kɔrɔfɔlenw), ani i ka cidenw daɲɛ kelen-kelenw minnu tun tɛ u kɔnɔ fɔlɔ, olu bɛ mara an ka sɛrivɛriw kan tiɲɛ na — i ka konti jɔsili b'u jɔsi, i taw tɔw bɛɛ n'a fɔ (sanfɛ lajɛ).
 
 **I ka telefɔni kan**, i ka personaw, i ka avatarw, i ka labɛnw, ani i ka sariyaw aplikasiyɔn kelen-kelen na, olu bɛ mara sañse kan yɛrɛ. U bɛ jɔsi jɔsili kɛlen fɛ ka bɔ aplikasiyɔn na, wa u bɛ tunun tuma bɛɛ **ni i ye Plume bɔ**.
 
@@ -60,6 +61,12 @@ Suguya naani bɛ to, nka **i yɛrɛya jɛnni bɛ tiɲɛ**: i ka konti idantifan 
 | **Lakana teknik taamasiyɛnw** (dan-tɛmɛli caman, sɛgɛsɛgɛli dɛsɛliw) | Nanbaraya kɛlɛ. Sɛbɛnnen ninnu **sɛbɛn si t'u la** wa u bɛ mara **sañse idantifan si t'a la**. |
 
 Kunnafoni tɔgɔ-lankolon ninnu bɛ mara an ka sariyaka waajibiw kama, jatebɔ ta la, o kɔfɛ u bɛ jɔsi walima ka lajɛ ɲɔgɔn na.
+
+**Fɛn saba tɔw tɛ jɔsi ni i ka konti jɔsili ye**, bawo u tɛ i la, walima u tɛ i dɔrɔn ta ye tugun :
+
+- **Dogodogo ma minnu dogo** — Dogodogo cogoya la daɲɛgafe t'a la, ciden dɔgɔmanninw (sɛbɛn 40 ka tɛmɛ tɛ) minnu to kalan-bɔ la dogoli kɔfɛ : konti idantifan t'u la, ka sɔrɔ sañse ka fɔlɔ-taamasiyɛn lasɔmini dɔrɔn bɛ u la ;
+- **daɲɛw ka kɔrɔfɔliw** — mɔgɔ bɛɛ ka mara ɲɔgɔn, konti walima kan idantifan t'a la ;
+- **daɲɛ minnu i ye sɛbɛn mɔgɔ wɛrɛ ka Kaman-fini daɲɛgafe la** — olu bila a ka daɲɛgafe kɔnɔ, min ye a ta ye, ani u bɛ a ka to tugu.
 
 ---
 

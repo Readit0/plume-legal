@@ -1,6 +1,6 @@
 # Suprimir su cuenta y sus datos — Plume
 
-**Última actualización: 12 de septiembre de 2026** — Versión 2.0
+**Última actualización: 1 de octubre de 2026** — Versión 2.1
 
 Aplicación afectada: **Plume** (`com.plume.plume`), editada por **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France, publicada en Google Play bajo el nombre **openfunworld**.
 
@@ -33,15 +33,16 @@ La supresión borra **definitivamente**:
 
 - **su cuenta** (dirección de correo electrónico, contraseña, sesión);
 - **sus contadores de uso**: el número de reformulaciones consumidas por día y por mes;
-- **sus sugerencias**: las propuestas que nos hubiera enviado desde la aplicación. Es el único texto libre que almacenamos;
+- **sus sugerencias**: las propuestas que nos hubiera enviado desde la aplicación;
 - **sus identificadores de solicitud**: las referencias técnicas de las reformulaciones solicitadas;
 - **sus créditos y desbloqueos de cuota**: créditos comprados no consumidos, desbloqueos obtenidos mediante publicidad, topes ajustados;
 - **la vinculación de sus dispositivos a su cuenta**: sus otros teléfonos o tabletas quedan desvinculados y vuelven a ser simples dispositivos anónimos;
-- **los idiomas personales que usted creó**: su nombre, su alfabeto, su léxico, sus tokens de compartición y su historial de importación. **Lo que esta supresión no puede hacer:** si otra persona ya ha importado una copia de su idioma, esa copia pasa a pertenecerle a ella y **sobrevive** a su supresión, como un mensaje ya recibido por un tercero que no podemos borrar en su lado.
+- **sus léxicos de camuflaje**, incluidos los enviados a la papelera: su nombre, su tema, sus pares de palabras, las palabras pendientes, sus tokens de compartición, y las vinculaciones en ambos sentidos (los léxicos que usted compartió y los que se compartieron con usted);
+- **los idiomas personales que usted creó**: su nombre, su alfabeto, su léxico, las palabras pendientes, sus tokens de compartición y su historial de importación. **Lo que esta supresión no puede hacer:** si otra persona ya ha importado una copia de su idioma, esa copia pasa a pertenecerle a ella y **sobrevive** a su supresión, como un mensaje ya recibido por un tercero que no podemos borrar en su lado.
 
 El dispositivo desde el que solicita la supresión queda **neutralizado**: su vinculación a su cuenta se borra, su clave de identificación se destruye y se sustituye por un valor muerto, y su idioma y su versión de la aplicación se borran. Solo queda un número opaco, que ya no permite identificarle ni localizar el dispositivo.
 
-**Nunca hemos almacenado los textos que usted ha reformulado, ni el texto leído en la pantalla por la Lectura Asistida**: no se conservan en ninguna parte de nuestros servidores, así que no hay nada que suprimir al respecto. **Esto no es cierto del léxico de un idioma personal que usted pudiera haber creado**: su contenido (nombre, alfabeto, palabras y definiciones) sí se almacena en nuestros servidores — la supresión de su cuenta lo borra, como el resto de lo que le pertenece (véase más abajo).
+**No almacenamos los textos que usted ha reformulado, ni el texto leído en la pantalla por la Lectura Asistida**: no se conservan en ninguna parte de nuestros servidores, así que no hay nada que suprimir al respecto. **Esto no es cierto de sus idiomas personales ni de sus léxicos de camuflaje**: su contenido (nombre, alfabeto o tema, palabras y definiciones), así como las palabras sueltas de sus mensajes que aún les faltaban, sí se almacenan en nuestros servidores — la supresión de su cuenta los borra, como el resto de lo que le pertenece (véase más arriba).
 
 **En su teléfono**, sus personas, sus avatares, sus ajustes y sus reglas por aplicación se almacenan localmente. Se borran con la supresión efectuada desde la aplicación y, en cualquier caso, **desaparecen cuando desinstala Plume**.
 
@@ -59,6 +60,12 @@ Subsisten tres categorías de rastros, pero **el vínculo con su identidad queda
 | **Las señales técnicas de seguridad** (excesos repetidos, fallos de control de integridad) | Lucha contra el fraude. Estos registros no contienen **ningún texto** y se conservan **sin identificador de dispositivo**. |
 
 Estos datos anonimizados se conservan durante el tiempo exigido por nuestras obligaciones legales, en particular contables, y después se suprimen o se agregan.
+
+**Otros tres elementos no se borran al suprimir su cuenta**, porque no están vinculados a usted, o ya no solo a usted:
+
+- **los fragmentos no camuflados**: en el modo Camuflaje sin léxico, trozos cortos de mensaje (40 caracteres como máximo) que han seguido siendo legibles tras el camuflaje; no llevan ningún identificador de cuenta, solo una huella seudónima del dispositivo;
+- **las definiciones de palabras**: una caché común a todos los usuarios, sin identificador de cuenta ni de idioma;
+- **las palabras que usted escribió con el léxico de camuflaje de otra persona**: se apartaron en el léxico de esa persona, que le pertenece, y siguen su suerte.
 
 ---
 

@@ -1,6 +1,6 @@
 # Forigi vian konton kaj viajn datumojn — Plume
 
-**Lasta ĝisdatigo: la 12-a de septembro 2026** — Versio 2.0
+**Lasta ĝisdatigo: la 1-a de oktobro 2026** — Versio 2.1
 
 
 Koncernata aplikaĵo: **Plume** (`com.plume.plume`), eldonata de **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikigita en Google Play sub la nomo **openfunworld**.
@@ -34,15 +34,16 @@ La forigo viŝas **definitive**:
 
 - **vian konton** (retpoŝtadreso, pasvorto, seanco);
 - **viajn nombrilojn de uzado** — la nombron de reformuloj konsumitaj tage kaj monate;
-- **viajn sugestojn** — la proponojn, kiujn vi eventuale sendis al ni el la aplikaĵo. Tio estas la sola libera teksto, kiun ni konservas;
+- **viajn sugestojn** — la proponojn, kiujn vi eventuale sendis al ni el la aplikaĵo;
 - **viajn identigilojn de petoj** — la teknikajn referencojn de la petitaj reformuloj;
 - **viajn kreditojn kaj malŝlosojn de kvoto** — aĉetitajn nekonsumitajn kreditojn, malŝlosojn akiritajn per reklamo, alĝustigitajn plafonojn;
 - **la ligon de viaj aparatoj al via konto** — viaj aliaj telefonoj aŭ tabuletoj estas malligataj kaj refariĝas simplaj anonimaj aparatoj;
-- **la propraj lingvoj, kiujn vi kreis** — ilia nomo, ilia alfabeto, ilia vortaro, viaj kunhavigaj ĵetonoj kaj via importa historio. **Kion ĉi tiu forigo ne povas fari:** se iu alia jam importis kopion de via lingvo, tiu kopio apartenas de nun al tiu persono kaj **postvivas** vian forigon — kiel mesaĝo jam ricevita de triulo, ni ne povas forviŝi ĝin ĉe tiu.
+- **viajn kamuflajn vortarojn**, inkluzive tiujn metitajn en la rubujon — ilia nomo, ilia temo, iliaj vortoparoj, la atendantaj vortoj, viaj kunhavigaj ĵetonoj kaj la ligoj en ambaŭ direktoj (la vortaroj, kiujn vi kunhavigis, kaj tiuj, kiuj estis kunhavigitaj kun vi);
+- **la propraj lingvoj, kiujn vi kreis** — ilia nomo, ilia alfabeto, ilia vortaro, la atendantaj vortoj, viaj kunhavigaj ĵetonoj kaj via importa historio. **Kion ĉi tiu forigo ne povas fari:** se iu alia jam importis kopion de via lingvo, tiu kopio apartenas de nun al tiu persono kaj **postvivas** vian forigon — kiel mesaĝo jam ricevita de triulo, ni ne povas forviŝi ĝin ĉe tiu.
 
 La aparato, el kiu vi petas la forigon, estas **neŭtraligata**: ĝia ligo al via konto estas viŝata, ĝia identiga ŝlosilo estas detruata kaj anstataŭigata per morta valoro, kaj ĝiaj lingvo kaj versio de la aplikaĵo estas viŝataj. Restas nur opaka numero, kiu ne plu ebligas identigi vin nek retrovi la aparaton.
 
-**Ni neniam konservis la tekstojn, kiujn vi reformulis, nek la tekston, kiun la Asistata Legado legis sur la ekrano**: ili ne estas konservataj ie ajn sur niaj serviloj, do estas nenio por forigi pri ili. **Tio ne validas por la vortaro de propra lingvo, kiun vi eble kreis**: ĝia enhavo (nomo, alfabeto, vortoj kaj difinoj) ja estas konservata sur niaj serviloj — la forigo de via konto forviŝas ĝin, kiel la ceteron de tio, kio apartenas al vi (vidu sube).
+**Ni ne konservas la tekstojn, kiujn vi reformulis, nek la tekston, kiun la Asistata Legado legis sur la ekrano**: ili ne estas konservataj ie ajn sur niaj serviloj, do estas nenio por forigi pri ili. **Tio ne validas por viaj propraj lingvoj kaj viaj kamuflaj vortaroj**: ilia enhavo (nomo, alfabeto aŭ temo, vortoj kaj difinoj), same kiel la apartaj vortoj de viaj mesaĝoj, kiuj ankoraŭ mankis en ili, ja estas konservataj sur niaj serviloj — la forigo de via konto forviŝas ilin, kiel la ceteron de tio, kio apartenas al vi (vidu supre).
 
 **Sur via telefono**, viaj roluloj, viaj avataroj, viaj agordoj kaj viaj reguloj laŭ aplikaĵo estas konservataj loke. Ili estas viŝataj de la forigo farita el la aplikaĵo, kaj ĉiukaze **malaperas, kiam vi malinstalas Plume**.
 
@@ -60,6 +61,12 @@ Tri kategorioj de spuroj restas, sed **la ligo kun via identeco estas tranĉita*
 | **La teknikaj signaloj pri sekureco** (ripetaj superpasoj, malsukcesoj de integreca kontrolo) | Batalo kontraŭ fraŭdo. Tiuj registroj enhavas **neniun tekston** kaj estas konservataj **sen aparatidentigilo**. |
 
 Tiuj anonimigitaj datumoj estas konservataj dum la daŭro postulata de niaj juraj devoj, precipe kontaj, kaj poste forigataj aŭ agregataj.
+
+**Tri aliaj elementoj ne estas forviŝataj per la forigo de via konto**, ĉar ili ne estas ligitaj al vi, aŭ ne plu nur al vi:
+
+- **la nekamufluitaj fragmentoj** — en la reĝimo Kamuflado sen vortaro, mallongaj pecoj de mesaĝo (maksimume 40 signoj), kiuj restis legeblaj post la kamuflado: ili portas neniun kontan identigilon, nur pseŭdoniman haŝon de la aparato;
+- **la difinoj de vortoj** — kaŝmemoro komuna al ĉiuj uzantoj, sen identigilo de konto aŭ de lingvo;
+- **la vortoj, kiujn vi skribis per la kamufla vortaro de alia persono** — ili estis flankenmetitaj en ties vortaro, kiu apartenas al tiu persono, kaj sekvas ĝian sorton.
 
 ---
 

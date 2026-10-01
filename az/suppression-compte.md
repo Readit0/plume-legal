@@ -1,6 +1,6 @@
 # Hesabınızı və məlumatlarınızı silmək — Plume
 
-**Son yenilənmə: 12 sentyabr 2026-cı il** — Versiya 2.0
+**Son yenilənmə: 1 oktyabr 2026-cı il** — Versiya 2.1
 
 
 Aid olduğu tətbiq: **Plume** (`com.plume.plume`), nəşr edən **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, Fransa — Google Play-də **openfunworld** adı altında yayımlanır.
@@ -34,15 +34,16 @@ Silinmə **daimi olaraq** aşağıdakıları siləcək:
 
 - **hesabınız** (e-poçt ünvanı, şifrə, sessiya);
 - **istifadə sayğaclarınız** — gündə və ayda istehlak edilmiş yenidən formalaşdırma sayı;
-- **təklifləriniz** — tətbiqdən bizə göndərdiyiniz təkliflər. Bu, saxladığımız yeganə sərbəst mətndir;
+- **təklifləriniz** — tətbiqdən bizə göndərdiyiniz təkliflər;
 - **sorğu identifikatorlarınız** — tələb edilmiş yenidən formalaşdırmaların texniki istinadları;
 - **kvota kreditləriniz və açılışlarınız** — istehlak edilməmiş alınmış kreditlər, reklamla əldə edilmiş açılışlar, tənzimlənmiş həddlər;
 - **cihazlarınızın hesabınıza bağlılığı** — digər telefon və ya planşetləriniz ayrılır və sadə, anonim cihazlara çevrilir;
-- **yaratdığınız şəxsi dillər** — onların adı, əlifbası, lüğəti, paylaşım jetonlarınız və idxal tarixçəniz. **Bu silinmənin edə bilmədiyi:** əgər başqası artıq dilinizin bir nüsxəsini özündə idxal edibsə, bu nüsxə artıq ona məxsusdur və silinmənizdən sonra **yaşamağa davam edir** — kimlərsə tərəfindən artıq alınmış mesaj kimi, biz onu onun tərəfindən silə bilmərik.
+- **kamuflyaj lüğətləriniz**, zibil qutusuna atılmışlar da daxil olmaqla — onların adı, mövzusu, söz cütləri, gözləyən sözlər, paylaşım jetonlarınız və hər iki istiqamətdəki bağlantılar (paylaşdığınız lüğətlər və sizinlə paylaşılanlar);
+- **yaratdığınız şəxsi dillər** — onların adı, əlifbası, lüğəti, gözləyən sözlər, paylaşım jetonlarınız və idxal tarixçəniz. **Bu silinmənin edə bilmədiyi:** əgər başqası artıq dilinizin bir nüsxəsini özündə idxal edibsə, bu nüsxə artıq ona məxsusdur və silinmənizdən sonra **yaşamağa davam edir** — kimlərsə tərəfindən artıq alınmış mesaj kimi, biz onu onun tərəfindən silə bilmərik.
 
 Silinmə tələb etdiyiniz cihaz **zərərsizləşdirilir**: onun hesabınıza bağlılığı silinir, identifikasiya açarı məhv edilir və ölü dəyərlə əvəz olunur, dili və tətbiq versiyası silinir. Yalnız sizi identifikasiya etməyə və ya cihazı tapmağa imkan verməyən qeyri-şəffaf bir nömrə qalır.
 
-**Biz heç vaxt yenidən formalaşdırdığınız mətnləri, nə də Dəstəklənən Oxu tərəfindən ekranda oxunan mətni saxlamamışıq**: onlar serverlərimizdə heç yerdə saxlanılmır, buna görə silinəcək heç nə yoxdur. **Bu, yaratmış ola biləcəyiniz şəxsi dilin lüğəti üçün doğru deyil**: onun məzmunu (ad, əlifba, sözlər və tərif) serverlərimizdə həqiqətən saxlanılır — hesabınızın silinməsi onu silir, sizə məxsus olan qalan hər şey kimi (aşağıya baxın).
+**Biz yenidən formalaşdırdığınız mətnləri, nə də Dəstəklənən Oxu tərəfindən ekranda oxunan mətni saxlamırıq**: onlar serverlərimizdə heç yerdə saxlanılmır, buna görə silinəcək heç nə yoxdur. **Bu, şəxsi dilləriniz və kamuflyaj lüğətləriniz üçün doğru deyil**: onların məzmunu (ad, əlifba və ya mövzu, sözlər və tərif), həmçinin onlarda hələ çatışmayan mesajlarınızın tək sözləri serverlərimizdə həqiqətən saxlanılır — hesabınızın silinməsi onları silir, sizə məxsus olan qalan hər şey kimi (yuxarıya baxın).
 
 **Telefonunuzda** personalarınız, avatarlarınız, tənzimləmələriniz və tətbiq üzrə qaydalarınız yerli olaraq saxlanılır. Onlar tətbiqdən silinmə ilə silinir, və hər halda Plume-u sildikdə **yox olur**.
 
@@ -60,6 +61,12 @@ Dörd iz kateqoriyası qalır, lakin **kimliyinizlə əlaqə kəsilir**: hesab i
 | **Texniki təhlükəsizlik siqnalları** (təkrarlanan aşmalar, tamlıq yoxlaması uğursuzluqları) | Fırıldaqla mübarizə. Bu qeydlər **heç bir mətn** ehtiva etmir və **cihaz identifikatoru olmadan** saxlanılır. |
 
 Bu anonimləşdirilmiş məlumatlar qanuni öhdəliklərimizin, xüsusilə mühasibat öhdəliklərinin tələb etdiyi müddət ərzində saxlanılır, sonra silinir və ya toplanılır.
+
+**Üç digər element hesabınızın silinməsi ilə silinmir**, çünki onlar sizə bağlı deyil, ya da artıq yalnız sizə bağlı deyil:
+
+- **kamuflyaj edilməmiş fraqmentlər** — lüğətsiz Kamuflyaj rejimində, kamuflyajdan sonra oxunaqlı qalmış mesajın qısa parçaları (ən çox 40 simvol): onlar heç bir hesab identifikatoru daşımır, yalnız cihazın psevdonim barmaq izini daşıyır;
+- **sözlərin tərifləri** — bütün istifadəçilər üçün ümumi keş, hesab və ya dil identifikatoru olmadan;
+- **başqa şəxsin kamuflyaj lüğəti ilə yazdığınız sözlər** — onlar həmin şəxsin lüğətində kənara qoyulub, o lüğət ona məxsusdur və onun taleyini bölüşür.
 
 ---
 

@@ -1,6 +1,8 @@
 # Plume Gizlilik Politikası
 
-**Son güncelleme: 12 Eylül 2026** — Sürüm 2.0
+**Son güncelleme: 1 Ekim 2026** — Sürüm 2.1
+
+> *Sürüm 2.1'de neler değişti:* Sürüm 2.0'ın değinmediği **Kamuflaj modunu** anlatıyoruz ve geçerliliğini yitirmiş bir ifadeyi düzeltiyoruz: kişisel diller için de Kamuflaj için de **mesajlarınızdaki, sözlüğünüzde henüz bulunmayan sözcükler tek tek saklanır** — asla cümle değil — size bunları eklemeyi önerebilmek için. Ayrıntı «Bir dakikada» bölümünde, §2.2'de ve §3'tedir.
 
 > *Sürüm 1.0'dan bu yana neler değişti ve uygulamada onay ekranını neden yeniden görebilirsiniz:*
 > artık doğru olmayan iki ifadeyi düzeltiyoruz. Öncelikle, **kişisel diller** özelliği,
@@ -32,7 +34,7 @@ Plume yazmanıza yardımcı olur: metninizi, yazmakta olduğunuz uygulamanın i�
 
 Aklınızda tutmanız gereken üç şey:
 
-1. **Plume, ne yeniden ifade ettiğiniz metinleri ne de ekrandan okunan metni saklamaz.** Bunların ne bir kopyasını ne de bir kaydını tutarız. **Bilinçli olarak kabul edilmiş, gönüllü bir istisna:** bir **kişisel dil** (kendi oluşturduğunuz, sözlüğü ve tanımlarıyla kendi diliniz) oluşturursanız, bu dilin içeriği sunucularımızda **saklanır** — bunu başka bir cihazda yeniden bulmanızı, geliştirmenizi ve paylaşmanızı sağlayan tek yol budur. Ayrıntı §3'tedir.
+1. **Plume, ne yeniden ifade ettiğiniz metinleri ne de ekrandan okunan metni saklamaz.** Bunların ne bir kopyasını ne de bir kaydını tutarız. **Bilinçli olarak kabul edilmiş, gönüllü istisnalar:** bir **kişisel dil** (kendi oluşturduğunuz, sözlüğü ve tanımlarıyla kendi diliniz) ya da bir **kamuflaj sözlüğü** (sözcüklerden oluşan gizli kodunuz) oluşturursanız, içeriği sunucularımızda **saklanır** — bunu başka bir cihazda yeniden bulmanızı, geliştirmenizi ve paylaşmanızı sağlayan tek yol budur. Ayrıca bu iki modda yazdığınızda, **mesajınızdaki sözlüğünüzde henüz bulunmayan sözcükler**, size bunları eklemeyi önermek için tek tek — asla cümle değil — bir kenara ayrılır. Ayrıntı §3'tedir.
 2. **Seçtiğiniz motora göre metniniz telefonunuzdan çıkar ya da çıkmaz.** İki motor (yerel Kit ve yerel yapay zekâ) tamamen cihaz üzerinde çalışır. Üçüncüsü (Bulut yapay zekâ), metni **Avrupa Birliği dışında bulunan** bir yapay zekâ hizmetine gönderir. Seçim sizindir ve Bulut yapay zekâ, açık rızanız olmadan asla etkinleşmez.
 3. **Plume'ün güçlü izinlere ihtiyacı vardır** (diğer uygulamalarda görüntülenen içeriği okumak, ekranı yakalamak). Bunların tam olarak neye yaradığını ve neye yaramadığını aşağıda açıklıyoruz.
 
@@ -89,7 +91,8 @@ Bulut yapay zekâyı seçtiğinizde ya da cihazınız yerel yapay zekâ için ye
 - Metin, **Avrupa Birliği**'nde (Orta Avrupa bölgesi, Frankfurt) barındırılan sunucu altyapımızdan geçer.
 - Ardından, **Avrupa Birliği dışında bulunan** bir yönlendirme aracısına iletilir; o da metni üçüncü taraf bir yapay zekâ modeline işletir.
 - **Dolayısıyla bu, Avrupa Birliği dışına yapılan bir veri aktarımıdır.** Aksini iddia etmiyoruz ve bu aşama için hiçbir Avrupa'da barındırma vaadi göstermiyoruz.
-- **Plume metninizi saklamaz.** Sunucu işlevlerimizin hiçbiri metninizin içeriğini yazmaz: yalnızca teknik bir istek kimliğini ve cihazınızın kimliğini kaydederiz; kotanızı saymak ve kötüye kullanımları tespit etmek için.
+- **Plume metninizi saklamaz.** Sunucu işlevlerimizin hiçbiri metninizin içeriğini yazmaz: yalnızca teknik bir istek kimliğini ve cihazınızın kimliğini kaydederiz; kotanızı saymak ve kötüye kullanımları tespit etmek için. **Tek istisna:** kişisel dil modunda ve Kamuflaj modunda, sözlüğünüzde bulunmayan tek tek sözcükler bir kenara ayrılır (bkz. §3).
+- **Kamuflaj ve kişisel dil modları aynı güzergâhı izler**, yapay zekâya her ihtiyaç duyduklarında: sözlüğünüzün tam kapsamadığı bir mesajı kamufle etmek ya da çözmek, bir sözcüğü uyumlamak ya da çekimlemek veya sözlüğünüzü büyütmek için (bekleyen sözcükler bu durumda yapay zekâ hizmetine gönderilir). Kamuflaj modunu tanıtan ekran bunu, etkinleştirilmeden önce size bildirir.
 - **Bu sağlayıcıların kendi taraflarında ne yaptıklarını ise garanti edemeyiz.** Doğrulayacak durumda olmadığımız sıfır saklama vaadinde bulunmaktansa bunu size söylemeyi tercih ediyoruz.
 
 **Bulut yapay zekâ asla kendiliğinden etkinleşmez.** İlk gönderimden önce özel bir rıza ekranı size bu noktaları açıklar ve siz kabul etmediğiniz sürece hiçbir şey gönderilmez. Yerel yapay zekâ başarısız olursa Plume sessizce buluta geçmez: durumu size bildirir ve kararınızı bekler. Bu rızayı ayarlardan istediğiniz zaman geri alabilirsiniz.
@@ -114,6 +117,11 @@ Sunucularımızda saklananların tamamı şudur:
 | **Teknik kötüye kullanım sinyalleri** (tekrarlanan aşımlar, bütünlük denetimi başarısızlığı — hiçbir metin içermez) | Güvenlik, dolandırıcılıkla mücadele | Hesap silindiğinde kimliğinizden ayrılır |
 | **Uygulamanın dili ve sürümü** | Doğru içeriği sunmak | Hesabınızın silinmesine kadar |
 | **Oluşturduğunuz kişisel dillerin içeriği** (adı, alfabesi ve sözlüğü — sizin ya da başkalarının buraya yazdığı sözcükler ve tanımlar) | Dilinizi başka bir cihazda yeniden bulmanızı, geliştirmenizi ve başka kullanıcılarla paylaşmanızı sağlamak | Dil var olduğu sürece. Onu silerseniz kaydı ortadan kalkar — ancak **başka biri tarafından zaten içe aktarılmış** bir kopya artık ona aittir ve **varlığını sürdürür**, üçüncü bir kişinin çoktan aldığı bir mesaj gibi; onu kendi tarafından silmemiz mümkün değildir |
+| **Kamuflaj sözlükleriniz** (adları, temaları, dilleri, seçilen amblem ve «gerçek sözcük → kod sözcüğü» çiftleri) | Mesajlarınızı kamufle etmek ve çözmek, sözlüğünüzü başka bir cihazda yeniden bulmanızı, geliştirmenizi ve paylaşmanızı sağlamak | Sözlük var olduğu sürece. **Çöp kutusuna atılmış bir sözlük saklanmaya devam eder**: bu çöp kutusunu otomatik boşaltma henüz yoktur. Hesabınızın silinmesiyle ortadan kalkar |
+| **Bekleyen sözcükler** (kişisel dil ve Kamuflaj): mesajlarınızdaki, sözlüğünüzde henüz bulunmayan tek tek sözcükler — asla cümle değil —, görülme sayıları ve ilk ile son görülme tarihleriyle birlikte | Bunları sözlüğünüze eklemenizi önermek ve sözlüğünüzü büyüttüğünüzde yapay zekâ hizmetine işletmek | Eklendikten sonra bile, dil ya da sözlük var olduğu sürece saklanır. **Başka birinin sizinle paylaştığı bir kamuflaj sözlüğüyle yazarsanız**, eksik sözcükler **onun sözlüğünde** bir kenara ayrılır ve o kişi bunları görebilir |
+| **Dillerinizin ve sözlüklerinizin paylaşımı** (yalnızca özet değeri olarak saklanan bir paylaşım jetonu; içe aktarmaların ve bağlantıların geçmişi) | Yakınlarınızın mesajlarınızı okumasını sağlamak. Bir sözlüğün sahibi, ona bağlı kişilerin listesini görür (görünen ad ve Google profil fotoğrafı — asla e-posta adresi) | Jeton sona erer. İptal edilmiş bir paylaşımın izi saklanır |
+| **Kamufle edilmemiş parçalar** (sözlüksüz Kamuflaj modu: kamuflajdan sonra okunabilir kalan, en fazla 40 karakterlik kısa mesaj parçaları) | Ortak kamuflaj şablonunu iyileştirmek | Hesap kimliği olmadan, yalnızca cihazın takma adlı bir özet değerine bağlı. Henüz bir süre belirlenmemiştir ve hesap silindiğinde silinmezler |
+| **Sözcük tanımları** (sözlüğünüzdeki bir sözcüğün tanımını istediğinizde, sözcük ve üretilen tanımı) | Aynı tanımı iki kez ürettirmemek | Herkes için ortak önbellek; hesap ya da dil **kimliği olmadan**. Hesap silindiğinde silinmez |
 | **Teknik çökme raporları** (hata türü, kısaltılmış teknik çağrı yığını, uygulama sürümü, işletim sistemi — asla metin içeriği değil) | Uygulamanın çökmelerini teşhis etmek ve düzeltmek | Çökme raporlama sağlayıcımız tarafından yönetilir (bkz. §9). Bu toplama, rızanıza ve uygulamayı güncellemeden istediğimiz zaman kapatabileceğimiz bir anahtara tabidir |
 
 **Toplamadıklarımız:** adınız, kişileriniz, konumunuz, adres defteriniz, fotoğraflarınız, takviminiz, uygulama geçmişiniz. Plume bu izinlerin hiçbirini istemez.
@@ -200,7 +208,7 @@ Uygulama serbest bir metnin yeniden ifade edilmesine izin verdiği ve reklam gö
 
 ## 10. Güvenlik
 
-Uygulama ile sunucularımız arasındaki alışverişler şifrelidir (HTTPS/TLS). Veritabanındaki verilere erişim sunucu kurallarıyla sınırlandırılmıştır: hassas işlevlere uygulamadan erişilemez. Hiçbir sistem tam olarak güvenli değildir. Yeniden ifade ettiğiniz metin ve Destekli Okuma'nın ekranda gösterdiği metin bizde saklanmaz; bu da bir izinsiz girişin bunlar hakkında açığa çıkarabileceğini mekanik olarak sınırlar. **Bu, her şey için geçerli değildir:** oluşturduğunuz kişisel dillerin sözlüğü ise **saklanır** (bkz. §3) ve gerçek bir izinsiz giriş hâlinde bu politikadaki diğer herhangi bir veri gibi açığa çıkabilir — onu da geri kalanla aynı sunucu erişim kurallarıyla koruyoruz.
+Uygulama ile sunucularımız arasındaki alışverişler şifrelidir (HTTPS/TLS). Veritabanındaki verilere erişim sunucu kurallarıyla sınırlandırılmıştır: hassas işlevlere uygulamadan erişilemez. Hiçbir sistem tam olarak güvenli değildir. Yeniden ifade ettiğiniz metin ve Destekli Okuma'nın ekranda gösterdiği metin bizde saklanmaz; bu da bir izinsiz girişin bunlar hakkında açığa çıkarabileceğini mekanik olarak sınırlar. **Bu, her şey için geçerli değildir:** oluşturduğunuz kişisel dillerin sözlüğü, kamuflaj sözlükleriniz ve bekleyen sözcükler ise **saklanır** (bkz. §3) ve gerçek bir izinsiz giriş hâlinde bu politikadaki diğer herhangi bir veri gibi açığa çıkabilir — bunları da geri kalanla aynı sunucu erişim kurallarıyla koruyoruz.
 
 ---
 

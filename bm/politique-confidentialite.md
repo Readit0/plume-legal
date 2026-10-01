@@ -1,6 +1,8 @@
 # Plume ka Gundo Lakana Sariya
 
-**A yɛlɛmana laban: 12 sɛtanburu 2026** — Versiyɔn 2.0
+**A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 2.1
+
+> *Min yɛlɛmana versiyɔn 2.1 kɔnɔ :* an bɛ **Dogodogo cogoya** ɲɛfɔ, versiyɔn 2.0 ma min kuma, ani an bɛ fɔta dɔ latilen min ma kɛ tiɲɛ ye tugun : kan yɛrɛdaw ni Dogodogo fila bɛɛ la, **i ka cidenw kɔnɔ daɲɛ minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ, olu bɛ mara kelen-kelen** — ciden bɛɛ tɛ abada — walasa an ka se ka a fɔ i ye ko i ka u fara a kan. Ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ, §2.2 ni §3 kɔnɔ.
 
 > *Min yɛlɛmana kabini versiyɔn 1.0, ani mun na i bɛ se ka nangu ekran ye kokura aplikasiyɔn kɔnɔ:* an bɛ ka fɔta fila latilen minnu tun tɛ tiɲɛ ye tugun. Fɔlɔ, **kan yɛrɛda** fɛɛn bɛ i ka daɲɛgafe kunnafoniw (tɔgɔ, alifabɛ, daɲɛgafe) mara an ka sɛrivɛriw kan — versiyɔn 1.0 tun b'a fɔ, filiw kan, ko sɛbɛn si tɛ mara yɔrɔ si. O kɔfɛ, an bɛ ka jumtukaay dɔ baara la sisan min bɛ wele **teknikitigi binni rapɔɔri** — versiyɔn 1.0 tun b'a fɔ ko jumtukaay sugu min tɛ yen. Ninnu ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ ka taa ɲɛ, ani §3 ni §9 fana kɔnɔ. O ye ninnu ye yɛlɛmali suguya fila minnu bɛ nangu kura ɲini aplikasiyɔn kɔnɔ (§11 lajɛ).
 
@@ -25,7 +27,7 @@ Plume bɛ i dɛmɛ sɛbɛnni na : a bɛ i ka sɛbɛn kɔsegin i tɛrɛ bɛ min s
 
 Ko saba i ka kan ka to i hakili la :
 
-1. **Plume tɛ sɛbɛn minnu i bɛ kɔsegin mara, wala minnu bɛ kalan ekran kan.** An tɛ kopi mara, an tɛ jurnal mara. **Dan kelen bɛ yen, an y'a sugandi k'a kɛ ten, k'a lɔn kosɛbɛ :** ni i ye **kan yɛrɛda** dɔ dilan (i yɛrɛ ka kan min dilanna, min ni daɲɛgafe ye, daɲɛw ni u kɔrɔ fɔlenw ye), kan nin kunnafoniw **bɛ** mara an ka sɛrivɛriw kan — o kelenpe de bɛ se ka a to i ka se ka a sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa, k'a tila mɔgɔ tɔw fɛ. Ɲɛfɔli bɛ §3 kɔnɔ.
+1. **Plume tɛ sɛbɛn minnu i bɛ kɔsegin mara, wala minnu bɛ kalan ekran kan.** An tɛ kopi mara, an tɛ jurnal mara. **Dan fila bɛ yen, an y'u sugandi k'u kɛ ten, k'u lɔn kosɛbɛ :** ni i ye **kan yɛrɛda** dɔ dilan (i yɛrɛ ka kan min dilanna, min ni daɲɛgafe ye, daɲɛw ni u kɔrɔ fɔlenw ye) walima **Dogodogo daɲɛgafe** (daɲɛw gundo kɔdi), olu kunnafoniw **bɛ** mara an ka sɛrivɛriw kan — o kelenpe de bɛ se ka a to i ka se ka u sɔrɔ kokura sañse wɛrɛ kan, k'u yiriwa, k'u tila mɔgɔ tɔw fɛ. Ni i bɛ sɛbɛn kɛ nin cogoya fila in na, **i ka ciden kɔnɔ daɲɛ kelen-kelenw minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ** bɛ bila yɔrɔ kɔrɔ kelen-kelen — ciden bɛɛ tɛ abada — walasa an ka se ka a fɔ i ye ko i ka u fara a kan. Ɲɛfɔli bɛ §3 kɔnɔ.
 2. **Motɛri min i b'a sugandi la, i ka sɛbɛn bɛ bɔ i ka telefɔni na wala a tɛ bɔ.** Motɛri fila (Kiti bataki bi ani IA bataki bi) bɛ baara kɛ pewu sañse kan. Sabanan (IA Cloud) bɛ sɛbɛn ci intelijansi arifisyɛli sɛrivisi dɔ ma, min bɛ **Ɛrɔpu Tɔn kɔfɛ**. I b'a sugandi, wa IA Cloud tɛ wuli abada n'a ma kɛ i ka nangu jɛlen fɛ.
 3. **Plume mago bɛ yamaruya barikama la** (kunnafoniw kalan aplikasiyɔn tɔw kɔnɔ, ekran fotoyali). An bɛna a ɲɛfɔ ka jɛya ni kunnafoniw fɛ, a fɛɛrɛ minnu ye ni minnu tɛ.
 
@@ -82,7 +84,8 @@ A ka kan ka jɛya sira tiɲɛ kan :
 - Sɛbɛn bɛ tɛmɛ an ka sɛrivɛri enfrasitiriktiri fɛ, min bɛ to Ɛrɔpu Tɔn kɔnɔ (Ɛrɔpu Cɛmancɛ mara, Francfort).
 - O kɔfɛ a bɛ ci siraɲɛnabɔ cɛtigi dɔ ma, min bɛ Ɛrɔpu Tɔn kɔfɛ, min b'a to mɔgɔ wɛrɛ ka IA modɛli ka baara la a kan.
 - O de kosɔn, o ye kunnafoni ɲɛnabɔli ye ka bɔ Ɛrɔpu Tɔn kɔfɛ. An t'a fɔ ko o tɛ ten, an tɛ layidu si ta ko baara nin bɛ kɛ Ɛrɔpu kɔnɔ.
-- Plume tɛ i ka sɛbɛn mara. An ka sɛrivɛri fɛɛn si tɛ i ka sɛbɛn kunnafoniw sɛbɛn : an bɛ ɲininiw idantifan teknik ni i ka sañse idantifan dɔrɔn de mara, walasa ka i ka kota jate ani ka baara juguw dɔn.
+- Plume tɛ i ka sɛbɛn mara. An ka sɛrivɛri fɛɛn si tɛ i ka sɛbɛn kunnafoniw sɛbɛn : an bɛ ɲininiw idantifan teknik ni i ka sañse idantifan dɔrɔn de mara, walasa ka i ka kota jate ani ka baara juguw dɔn. **Dan kelen dɔrɔn :** Kan yɛrɛda cogoya ni Dogodogo cogoya la, daɲɛ kelen-kelenw minnu tɛ i ka daɲɛgafe kɔnɔ, olu bɛ bila yɔrɔ kɔrɔ (§3 lajɛ).
+- **Dogodogo ni Kan yɛrɛda cogoyaw bɛ taama sira kelen na** n'u mago bɛ IA la tuma o tuma : ka ciden dɔ dogo walima ka a dogo bɔ min tɛ ben i ka daɲɛgafe ma pewu, ka daɲɛ dɔ bɛn a cogo ma walima ka a ka sugu yɛlɛma, walima ka i ka daɲɛgafe yiriwa (daɲɛ minnu bɛ makɔnɔ, olu bɛ ci IA sɛrivisi ma o tuma na). Ekran min bɛ Dogodogo cogoya jira, o b'o fɔ i ye sani a ka wuli.
 - An tɛ se k'a lakana min bɛ kɛ dɛmɛbaga ninnu fɛ u yɛrɛ la. An b'a fɛ ka o fɔ i ye ka tɛmɛ ka layidu di i ma ko sɛbɛn si tɛ mara, an tɛ se ka o sɛgɛsɛgɛ.
 
 IA Cloud tɛ wuli abada a yɛrɛ ma. Nangu ekran kɛrɛnkɛrɛnnen bɛ ninnu ɲɛfɔ i ye sani ciyɛn fɔlɔ ka kɛ, foyi tɛ taa fo i ka sɔn. Ni IA bataki bi ma se, Plume tɛ tɛmɛ cloud ma gundo la : a b'a jira i la ka i ka desizɔn kɔnɔ. I bɛ se ka nangu nin bɔ tuma o tuma, labɛnw kɔnɔ.
@@ -107,6 +110,11 @@ Ninnu bɛɛ ye min mara an ka sɛrivɛriw kan :
 | **Baara-jugu teknik taamasiyɛnw** (dan-tɛmɛli caman, sɛbɛnni-sɛbɛnnen sɛgɛsɛgɛli dɛsɛli — sɛbɛn si t'a la) | Lakana, nanbaraya kɛlɛ | A bɔlen bɛ i yɛrɛ la konti jɔsili waati |
 | **Aplikasiyɔn kan ni versiyɔn** | Ka kunnafoni bɛnnen di i ma | Fo i ka konti ka jɔsi tuma |
 | **Kan yɛrɛda minnu i bɛ dilan olu kunnafoniw** (a tɔgɔ, a alifabɛ, ani a daɲɛgafe — daɲɛw ni u kɔrɔfɔlenw i, walima mɔgɔ tɔw, ye minnu sɛbɛn a la) | Ka a to i ka se ka i ka kan sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa, k'a tila baarakɛla tɔw fɛ | Fo kan ka to yen. Ni i y'a jɔsi, a fisi bɛ tunun — nka mɔgɔ wɛrɛ ye kopi min ta ka a don a yɛrɛ la ka kɔrɔmɛ, o kopi bɛ kɛ o mɔgɔ ta ye ka to yen — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ |
+| **I ka Kaman-fini daɲɛgafew** (u tɔgɔ, u thɛmu, u kan, taamasiyɛn sugandilen, ani daɲɛ fila-fila « daɲɛ tiɲɛnen → kɔdi daɲɛ ») | Ka i ka cidenw dogo ani ka u dogo bɔ, ka a to i ka se ka i ka daɲɛgafe sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa ani k'a tila | Fo ka se daɲɛgafe ka to yen. **Daɲɛgafe min bilala korbɛyi la (fɛn bilalenw yɔrɔ), o bɛ mara ka to yen** : o korbɛyi ka masinɛ jɔsili tɛ yen fɔlɔ. A bɛ jɔsi ni i ka konti jɔsili ye |
+| **Daɲɛ minnu bɛ makɔnɔ** (kan yɛrɛda ni Dogodogo) : i ka ciden kɔnɔ daɲɛ kelen-kelenw minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ — ciden bɛɛ tɛ abada —, u bɔli hakɛ ni u fɔlɔ ni u laban bɔli donw ye | Ka a fɔ i ye ko i ka u fara i ka daɲɛgafe kan, ani ka IA sɛrivisi k'u baara ni i b'a yiriwa | U bɛ mara hali u farali kɔfɛ, fo ka se kan walima daɲɛgafe ka to yen. **Ni i bɛ sɛbɛn kɛ Kaman-fini daɲɛgafe la min mɔgɔ wɛrɛ ye tila i fɛ**, daɲɛ minnu tɛ a kɔnɔ, olu bɛ bila **a ka daɲɛgafe kɔnɔ**, o mɔgɔ bɛ se k'u ye |
+| **I ka kanw ni i ka daɲɛgafew tilali** (tilali tokɛn, a bɛ mara fɔlɔ-taamasiyɛn (empreinte) cogo la dɔrɔn ; donni ni dɔnkili tarikuw) | Ka i ka mɔgɔ ɲɛnɛw ka i ka cidenw kalan. Daɲɛgafe tigi bɛ mɔgɔ minnu bɛ a la, olu tɔgɔw ye (jira tɔgɔ ni Google profili foto — ɛmɛli adirɛsi tɛ abada) | Tokɛn bɛ ban. Tilali jɔsilen tarikuw bɛ mara |
+| **Dogodogo ma minnu dogo** (Dogodogo cogoya daɲɛgafe t'a la : ciden dɔgɔmanninw, ka bɔ sɛbɛn 40 kan, minnu to kalan-bɔ la dogoli kɔfɛ) | Ka Dogodogo ka sɛbɛn-fan kɛrɛnkɛrɛnnen ɲɛ | Konti idantifan tɛ u la, ka sɔrɔ sañse ka fɔlɔ-taamasiyɛn lasɔmini dɔrɔn bɛ u la. Waati si ma sigi fɔlɔ, wa u tɛ jɔsi ni konti jɔsili ye |
+| **Daɲɛw ka kɔrɔfɔliw** (daɲɛ ani a kɔrɔfɔli dilannen, ni i ye i ka daɲɛgafe daɲɛ dɔ kɔrɔfɔli ɲini) | Ka kɔrɔfɔli kelen dilan siɲɛ fila bali | Mɔgɔ bɛɛ ka mara ɲɔgɔn, **konti walima kan idantifan t'a la**. A tɛ jɔsi ni konti jɔsili ye |
 | **Teknikitigi binni rapɔɔriw** (fili suguya, teknik wele sɛnɛ tigɛlen, aplikasiyɔn versiyɔn, sistɛmu jɔnjɔnnen — sɛbɛn kunnafoni tɛ abada) | Ka aplikasiyɔn binniw dɔn ka u latilen | An ka binni rapɔɔri dɛmɛbaga de b'a kunbɛn (§9 lajɛ). Kunnafoni lajɛli nin bɛ bɛn i ka nangu ma ani switi dɔ ma an bɛ se min tigɛ tuma o tuma, aplikasiyɔn yɛlɛmali t'a la |
 
 An tɛ min lajɛ : i tɔgɔ, i ka mɔgɔw kontaki, i ka yɔrɔ, i ka adɛrɛsi gafe, i ka fotow, i ka pograamu-kalanda, i ka aplikasiyɔnw tariku. Plume tɛ yamaruya ninnu si ɲini.
@@ -193,7 +201,7 @@ An tɛ kunnafoni si feere, an tɛ kunnafoni si di kunnafoni-feerekɛlaw ma.
 
 ## 10. Lakana
 
-Kuma-fɛ-kuma minnu bɛ kɛ aplikasiyɔn ni an ka sɛrivɛriw cɛ, olu bɛ gundo la (HTTPS/TLS). Sɔrɔli kunnafoni-jɔyɔrɔ ma, o dan bɛnna sɛrivɛri sariyaw fɛ : fɛɛn kunmajɔlenw tɛ se ka sɔrɔ ka bɔ aplikasiyɔn na. Sistɛmu si tɛ lakana pewu. Sɛbɛn i bɛ min kɔsegin ani Dɛmɛni Kalanni bɛ min jira ekran kan, olu tɛ mara an fɛ, o de bɛ dan don a la min bɛ se ka bɔ kɛnɛ ma ni donni jugu dɔ kɛra. **O tɛ tiɲɛ ye fɛɛn bɛɛ la :** kan yɛrɛda minnu i bɛ dilan olu ka daɲɛgafe, o **bɛ** mara (§3 lajɛ), o bɛna bɔ kɛnɛ ma i n'a fɔ sariya nin ka kunnafoni tɔw bɛɛ ni donni jugu tiɲɛ kɛra — an b'a lakana ni sɛrivɛri sɔrɔli sariya kelenw ye i n'a fɔ fɛɛn tɔw.
+Kuma-fɛ-kuma minnu bɛ kɛ aplikasiyɔn ni an ka sɛrivɛriw cɛ, olu bɛ gundo la (HTTPS/TLS). Sɔrɔli kunnafoni-jɔyɔrɔ ma, o dan bɛnna sɛrivɛri sariyaw fɛ : fɛɛn kunmajɔlenw tɛ se ka sɔrɔ ka bɔ aplikasiyɔn na. Sistɛmu si tɛ lakana pewu. Sɛbɛn i bɛ min kɔsegin ani Dɛmɛni Kalanni bɛ min jira ekran kan, olu tɛ mara an fɛ, o de bɛ dan don a la min bɛ se ka bɔ kɛnɛ ma ni donni jugu dɔ kɛra. **O tɛ tiɲɛ ye fɛɛn bɛɛ la :** kan yɛrɛda minnu i bɛ dilan olu ka daɲɛgafe, i ka Kaman-fini daɲɛgafew ani daɲɛ minnu bɛ makɔnɔ, olu **bɛ** mara (§3 lajɛ), olu bɛna bɔ kɛnɛ ma i n'a fɔ sariya nin ka kunnafoni tɔw bɛɛ ni donni jugu tiɲɛ kɛra — an b'u lakana ni sɛrivɛri sɔrɔli sariya kelenw ye i n'a fɔ fɛɛn tɔw.
 
 ---
 

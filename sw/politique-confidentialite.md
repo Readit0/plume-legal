@@ -1,6 +1,8 @@
 # Sera ya faragha ya Plume
 
-**Sasisho la mwisho: 12 Septemba 2026** — Toleo la 2.0
+**Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 2.1
+
+> *Kilichobadilika katika toleo la 2.1:* tunaeleza **hali ya Kuficha**, ambayo toleo la 2.0 halikuitaja, na tunarekebisha kauli iliyokuwa imeacha kuwa sahihi: kwa lugha za kibinafsi na kwa Kuficha, **maneno ya jumbe zako ambayo bado hayamo kwenye msamiati wako huhifadhiwa moja baada ya jingine** — kamwe sentensi — ili tuweze kukupendekezea kuyaongeza. Maelezo yako katika "Kwa dakika moja", katika §2.2 na katika §3.
 
 > *Kilichobadilika tangu toleo la 1.0, na kwa nini huenda ukaona tena skrini ya kukubali ndani
 > ya programu:* tunarekebisha kauli mbili ambazo hazikuwa sahihi tena. Kwanza, kipengele cha
@@ -32,7 +34,7 @@ Plume inakusaidia kuandika: inaandika upya maandishi yako moja kwa moja ndani ya
 
 Mambo matatu ya kukumbuka:
 
-1. **Plume haihifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini.** Hatuwekei nakala wala kumbukumbu ya matumizi. **Ubaguzi tunaoukubali kwa makusudi:** ukiunda **lugha ya kibinafsi** (lugha yako mwenyewe uliyoitunga, yenye msamiati wa maneno na maana zake), maudhui ya lugha hiyo **yanahifadhiwa** kwenye seva zetu — hii ndiyo njia pekee ya kukuwezesha kuipata tena kwenye kifaa kingine, kuiendeleza, na kuishiriki. Maelezo yako katika §3.
+1. **Plume haihifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini.** Hatuwekei nakala wala kumbukumbu ya matumizi. **Vighairi tunavyovikubali kwa makusudi:** ukiunda **lugha ya kibinafsi** (lugha yako mwenyewe uliyoitunga, yenye msamiati wa maneno na maana zake) au **kamusi ya ufichaji** (msimbo wako wa siri wa maneno), maudhui yake **yanahifadhiwa** kwenye seva zetu — hii ndiyo njia pekee ya kukuwezesha kuyapata tena kwenye kifaa kingine, kuyaendeleza, na kuyashiriki. Na unapoandika katika hali hizi mbili, **maneno mahususi ya ujumbe wako ambayo bado hayamo kwenye msamiati wako** huwekwa kando, moja baada ya jingine — kamwe sentensi — ili kukupendekezea kuyaongeza. Maelezo yako katika §3.
 2. **Kutegemea injini unayochagua, maandishi yako yanatoka au hayatoki kwenye simu yako.** Injini mbili (Seti ya Ndani na AI ya Ndani) hufanya kazi yote ndani ya kifaa. Ya tatu (AI ya Wingu) hutuma maandishi kwenye huduma ya akili bandia **iliyoko nje ya Umoja wa Ulaya**. Wewe ndiye unayechagua, na AI ya Wingu haiwashwi kamwe bila ridhaa yako ya wazi.
 3. **Plume inahitaji ruhusa zenye nguvu kubwa** (kusoma maudhui yanayoonyeshwa katika programu nyingine, kupiga picha ya skrini). Hapa chini tunaeleza kwa usahihi zinatumika kwa nini na hazitumiki kwa nini.
 
@@ -89,7 +91,8 @@ Unapochagua AI ya Wingu, au wakati kifaa chako hakina nguvu za kutosha kwa AI ya
 - Maandishi hupita katika miundombinu yetu ya seva, inayopangishwa katika **Umoja wa Ulaya** (eneo la Ulaya ya Kati, Frankfurt).
 - Kisha hutumwa kwa mpatanishi wa uelekezaji **aliyeko nje ya Umoja wa Ulaya**, ambaye huyakabidhi modeli ya akili bandia ya mtu wa tatu ili kuyachakata.
 - **Kwa hiyo huu ni uhamishaji wa data nje ya Umoja wa Ulaya.** Hatudai kinyume chake, na hatutoi ahadi yoyote ya upangishaji ndani ya Ulaya kwa hatua hii.
-- **Plume haihifadhi maandishi yako.** Hakuna kazi yoyote ya seva zetu inayoandika maudhui ya maandishi yako: tunarekodi tu kitambulisho cha kiufundi cha ombi na kitambulisho cha kifaa chako, ili kuhesabu kiwango chako na kugundua matumizi mabaya.
+- **Plume haihifadhi maandishi yako.** Hakuna kazi yoyote ya seva zetu inayoandika maudhui ya maandishi yako: tunarekodi tu kitambulisho cha kiufundi cha ombi na kitambulisho cha kifaa chako, ili kuhesabu kiwango chako na kugundua matumizi mabaya. **Kighairi pekee:** katika hali ya Lugha ya kibinafsi na katika hali ya Kuficha, maneno mahususi ambayo hayamo kwenye msamiati wako huwekwa kando (angalia §3).
+- **Hali za Kuficha na Lugha ya kibinafsi hupitia njia hiyo hiyo** kila zinapohitaji AI: kuficha au kusimbua ujumbe ambao msamiati wako haujaufunika kikamilifu, kulinganisha au kuunganisha neno kisarufi, au kukuza msamiati wako (maneno yanayosubiri hutumwa kwenye huduma ya AI wakati huo). Skrini inayotambulisha hali ya Kuficha inakutangazia hili kabla ya kuiwasha.
 - **Kile watoa huduma hawa wanachofanya upande wao, hatuwezi kukidhamini.** Tunapendelea kukuambia hivi kuliko kukuahidi kutohifadhi kabisa jambo ambalo hatuko katika nafasi ya kulihakiki.
 
 **AI ya Wingu haiwashwi kamwe yenyewe.** Skrini maalum ya ridhaa inakueleza mambo haya kabla ya utumaji wa kwanza, na hakuna kinachotoka mpaka ukubali. Ikiwa AI ya Ndani itashindwa, Plume haihamii wingu kimyakimya: inakuarifu na kusubiri uamuzi wako. Unaweza kubatilisha ridhaa hii wakati wowote katika mipangilio.
@@ -114,6 +117,11 @@ Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 | **Ishara za kiufundi za matumizi mabaya** (kuvuka vikomo mara kwa mara, kushindwa kwa ukaguzi wa uadilifu — bila maandishi yoyote) | Usalama, kupambana na udanganyifu | Hutenganishwa na utambulisho wako unapofuta akaunti |
 | **Lugha na toleo la programu** | Kutoa maudhui sahihi | Mpaka utakapofuta akaunti yako |
 | **Maudhui ya lugha za kibinafsi unazounda** (jina lake, alfabeti yake, na msamiati wake — maneno na maana zilizoandikwa na wewe, au watu wengine, ndani yake) | Kukuwezesha kuipata tena lugha yako kwenye kifaa kingine, kuiendeleza, na kuishiriki na watumiaji wengine | Mradi lugha ipo. Ukiifuta, faili lake hutoweka — lakini nakala ambayo tayari **imeingizwa na mtu mwingine** sasa ni mali yake na **inaendelea kuwepo**, kama ujumbe ambao tayari umepokewa na mtu wa tatu ambao hatuwezi kwenda kuufuta kwake |
+| **Kamusi zako za ufichaji** (jina lake, mada yake, lugha yake, nembo uliyochagua, na jozi za maneno "neno halisi → neno la msimbo") | Kuficha na kusimbua jumbe zako, kukuwezesha kuipata kamusi yako kwenye kifaa kingine, kuiendeleza na kuishiriki | Kadiri kamusi hiyo inavyokuwepo. **Kamusi iliyowekwa kwenye pipa la taka huendelea kuhifadhiwa**: bado hakuna ufutaji wa kiotomatiki wa pipa hilo. Hufutwa wakati akaunti yako inapofutwa |
+| **Maneno yanayosubiri** (lugha ya kibinafsi na Kuficha): maneno mahususi ya jumbe zako ambayo bado hayamo kwenye msamiati wako — kamwe sentensi —, pamoja na idadi ya mara yalipotokea na tarehe za kutokea mara ya kwanza na ya mwisho | Kukupendekezea kuyaongeza kwenye msamiati wako, na kuyapeleka kwenye huduma ya AI unapoukuza | Huhifadhiwa hata baada ya kuongezwa, kadiri lugha au kamusi inavyokuwepo. **Ukiandika kwa kamusi ya ufichaji ambayo mtu mwingine amekushirikisha**, maneno yanayokosekana huwekwa kando **kwenye kamusi yake**, na mtu huyo anaweza kuyaona |
+| **Ushirikishaji wa lugha na kamusi zako** (tokeni ya kushiriki, inayohifadhiwa tu kama alama ya dijitali; historia ya uingizaji na ya viunganisho) | Kuwawezesha wapendwa wako kusoma jumbe zako. Mmiliki wa kamusi huona orodha ya watu waliounganishwa nayo (jina la kuonyeshwa na picha ya wasifu ya Google — kamwe anwani ya barua pepe) | Tokeni huisha muda wake. Kumbukumbu ya ushirikishaji uliobatilishwa huhifadhiwa |
+| **Vipande visivyofichwa** (hali ya Kuficha bila kamusi: vipande vifupi vya ujumbe, herufi 40 zisizozidi, vilivyobaki vinasomeka baada ya kuficha) | Kuboresha mfumo wa pamoja wa kuficha | Bila kitambulisho cha akaunti, vimeambatishwa tu na alama ya jina bandia ya kifaa. Bado hakuna muda uliowekwa, na havifutwi akaunti inapofutwa |
+| **Maana za maneno** (neno na maana yake iliyozalishwa, unapoomba maana ya neno la msamiati wako) | Kuepuka kuzalisha maana ile ile mara mbili | Hifadhi ya muda ya pamoja kwa wote, **bila kitambulisho** cha akaunti wala cha lugha. Haifutwi akaunti inapofutwa |
 | **Ripoti za hitilafu za kiufundi** (aina ya hitilafu, mfuatano wa wito wa kiufundi uliopunguzwa, toleo la programu, mfumo wa uendeshaji — kamwe maudhui ya maandishi) | Kubaini na kurekebisha hitilafu za programu | Inasimamiwa na mtoa huduma wetu wa kuripoti hitilafu (angalia §9). Ukusanyaji huu unategemea ridhaa yako na swichi tunayoweza kuizima wakati wowote, bila kuhitaji sasisho la programu |
 
 **Kile tusichokusanya:** jina lako, anwani zako za mawasiliano, mahali ulipo, kitabu chako cha anwani, picha zako, kalenda yako, historia ya programu zako. Plume haiombi ruhusa yoyote kati ya hizo.
@@ -200,7 +208,7 @@ Kwa kuwa programu inaruhusu kuandika upya maandishi huru na inaonyesha matangazo
 
 ## 10. Usalama
 
-Mawasiliano kati ya programu na seva zetu yamesimbwa (HTTPS/TLS). Ufikiaji wa data katika hifadhidata umewekewa mipaka na kanuni za seva: kazi nyeti hazifikiki kutoka kwenye programu. Hakuna mfumo ulio salama kikamilifu. Maandishi unayoyaandika upya na yale ambayo Usomaji Saidizi huonyesha kwenye skrini hayahifadhiwi kwetu, jambo linalopunguza kimaumbile kile ambacho uvamizi ungeweza kufichua kuyahusu. **Hii si kweli kwa kila kitu:** msamiati wa lugha za kibinafsi unazounda, wenyewe, **unahifadhiwa** (angalia §3), na ungeweza kufichuliwa kama data nyingine yoyote ya sera hii endapo kutatokea uvamizi halisi — tunauulinda kwa kanuni zile zile za ufikiaji wa seva kama data nyingine.
+Mawasiliano kati ya programu na seva zetu yamesimbwa (HTTPS/TLS). Ufikiaji wa data katika hifadhidata umewekewa mipaka na kanuni za seva: kazi nyeti hazifikiki kutoka kwenye programu. Hakuna mfumo ulio salama kikamilifu. Maandishi unayoyaandika upya na yale ambayo Usomaji Saidizi huonyesha kwenye skrini hayahifadhiwi kwetu, jambo linalopunguza kimaumbile kile ambacho uvamizi ungeweza kufichua kuyahusu. **Hii si kweli kwa kila kitu:** msamiati wa lugha za kibinafsi unazounda, kamusi zako za ufichaji na maneno yanayosubiri, vyenyewe, **vinahifadhiwa** (angalia §3), na vingeweza kufichuliwa kama data nyingine yoyote ya sera hii endapo kutatokea uvamizi halisi — tunavilinda kwa kanuni zile zile za ufikiaji wa seva kama data nyingine.
 
 ---
 

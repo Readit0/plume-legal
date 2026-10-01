@@ -1,6 +1,6 @@
 # Smazání vašeho účtu a vašich údajů — Plume
 
-**Poslední aktualizace: 12. září 2026** — Verze 2.0
+**Poslední aktualizace: 1. října 2026** — Verze 2.1
 
 Dotčená aplikace: **Plume** (`com.plume.plume`), vydávaná společností **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — zveřejněná v Google Play pod jménem **openfunworld**.
 
@@ -33,15 +33,16 @@ Smazání **trvale** vymaže:
 
 - **váš účet** (e-mailová adresa, heslo, relace);
 - **vaše počítadla využití** — počet přeformulování spotřebovaných za den a za měsíc;
-- **vaše návrhy** — podněty, které jste nám případně z aplikace zaslali. Jde o jediný volný text, který jsme uchovávali;
+- **vaše návrhy** — podněty, které jste nám případně z aplikace zaslali;
 - **vaše identifikátory požadavků** — technické odkazy na vyžádaná přeformulování;
 - **vaše kredity a odemčení limitu** — zakoupené a nespotřebované kredity, odemčení získaná za reklamu, upravené stropy;
 - **vazbu vašich zařízení na váš účet** — vaše ostatní telefony či tablety jsou odpojeny a stávají se opět prostými anonymními zařízeními;
-- **vlastní jazyky, které jste vytvořili** — jejich název, abecedu, slovník, vaše sdílecí tokeny a vaši historii importu. **Co toto smazání nedokáže:** pokud si někdo jiný již naimportoval kopii vašeho jazyka, tato kopie mu od té chvíle patří a **přežije** vaše smazání — podobně jako zpráva, kterou už přijala třetí strana a kterou nemůžeme smazat u ní.
+- **vaše kamuflážní slovníky**, včetně těch přesunutých do koše — jejich název, téma, dvojice slov, čekající slova, vaše sdílecí tokeny a propojení v obou směrech (slovníky, které jste sdíleli vy, i ty, které byly sdíleny vám);
+- **vlastní jazyky, které jste vytvořili** — jejich název, abecedu, slovník, čekající slova, vaše sdílecí tokeny a vaši historii importu. **Co toto smazání nedokáže:** pokud si někdo jiný již naimportoval kopii vašeho jazyka, tato kopie mu od té chvíle patří a **přežije** vaše smazání — podobně jako zpráva, kterou už přijala třetí strana a kterou nemůžeme smazat u ní.
 
 Zařízení, ze kterého o smazání žádáte, je **neutralizováno**: jeho vazba na váš účet je vymazána, jeho identifikační klíč je zničen a nahrazen mrtvou hodnotou, jeho jazyk a verze aplikace jsou vymazány. Zůstává jen neprůhledné číslo, které již neumožňuje ani vás identifikovat, ani zařízení dohledat.
 
-**Nikdy jsme neukládali texty, které jste přeformulovali, ani text přečtený z obrazovky Asistovaným čtením**: nejsou nikde na našich serverech uchovávány, není tedy co mazat. **To ale neplatí pro slovník vlastního jazyka, který jste případně vytvořili:** jeho obsah (název, abeceda, slova a definice) je na našich serverech skutečně uložen — smazáním vašeho účtu se smaže i on, stejně jako zbytek toho, co vám patří (viz níže).
+**Neukládáme texty, které jste přeformulovali, ani text přečtený z obrazovky Asistovaným čtením**: nejsou nikde na našich serverech uchovávány, není tedy co mazat. **To ale neplatí pro vaše vlastní jazyky a kamuflážní slovníky:** jejich obsah (název, abeceda či téma, slova a definice) i jednotlivá slova z vašich zpráv, která v nich stále chyběla, jsou na našich serverech skutečně uložena — smazáním vašeho účtu se smažou, stejně jako zbytek toho, co vám patří (viz výše).
 
 **Ve vašem telefonu** jsou vaše persony, vaši avataři, vaše nastavení a vaše pravidla pro jednotlivé aplikace uloženy místně. Smazáním z aplikace jsou vymazány a v každém případě **zmizí, když Plume odinstalujete**.
 
@@ -59,6 +60,12 @@ Přetrvávají tři kategorie stop, ale **vazba na vaši totožnost je přeruše
 | **Technické bezpečnostní signály** (opakovaná překročení, selhání kontroly integrity) | Boj proti podvodům. Tyto záznamy neobsahují **žádný text** a jsou uchovávány **bez identifikátoru zařízení**. |
 
 Tyto anonymizované údaje jsou uchovávány po dobu vyžadovanou našimi právními povinnostmi, zejména účetními, a poté smazány nebo agregovány.
+
+**Tři další položky se smazáním vašeho účtu nemažou**, protože nejsou vázány na vás, nebo už ne jen na vás:
+
+- **nezamaskované fragmenty** — v režimu Maskování bez slovníku krátké útržky zprávy (nejvýše 40 znaků), které po maskování zůstaly čitelné: nenesou žádný identifikátor účtu, pouze pseudonymní otisk zařízení;
+- **definice slov** — společná mezipaměť pro všechny uživatele, bez identifikátoru účtu či jazyka;
+- **slova, která jste napsali s kamuflážním slovníkem jiné osoby** — byla odložena do jejího slovníku, který patří jí, a sdílejí jeho osud.
 
 ---
 

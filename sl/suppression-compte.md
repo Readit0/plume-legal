@@ -1,6 +1,6 @@
 # Izbris vašega računa in vaših podatkov — Plume
 
-**Zadnja posodobitev: 12. september 2026** — Različica 2.0
+**Zadnja posodobitev: 1. oktober 2026** — Različica 2.1
 
 Zadevna aplikacija: **Plume** (`com.plume.plume`), ki jo izdaja **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — objavljena v Google Play pod imenom **openfunworld**.
 
@@ -33,15 +33,16 @@ Izbris **dokončno** odstrani:
 
 - **vaš račun** (e-poštni naslov, geslo, sejo);
 - **vaše števce uporabe** — število preoblikovanj, porabljenih na dan in na mesec;
-- **vaše predloge** — predloge, ki ste nam jih poslali iz aplikacije. To je edino prosto besedilo, ki smo ga hranili;
+- **vaše predloge** — predloge, ki ste nam jih poslali iz aplikacije;
 - **vaše identifikatorje zahtev** — tehnične reference zahtevanih preoblikovanj;
 - **vaše dobropise in odklepe kvote** — kupljene neporabljene dobropise, odklepe, pridobljene z oglasom, prilagojene zgornje meje;
 - **povezanost vaših naprav z vašim računom** — vaši drugi telefoni ali tablice se odvežejo in spet postanejo navadne anonimne naprave;
-- **osebni jeziki, ki ste jih ustvarili** — njihovo ime, abeceda, besednjak, vaši žetoni za deljenje in vaša zgodovina uvozov. **Česa ta izbris ne more storiti:** če je nekdo drug že uvozil kopijo vašega jezika k sebi, ta kopija odslej pripada njemu in **preživi** vaš izbris — kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati.
+- **vaše besednjake kamuflaže**, tudi tiste, ki so v košu — njihovo ime, temo, pare besed, čakajoče besede, vaše žetone za deljenje in povezave v obe smeri (besednjake, ki ste jih delili, in tiste, ki so bili deljeni z vami);
+- **osebni jeziki, ki ste jih ustvarili** — njihovo ime, abeceda, besednjak, čakajoče besede, vaši žetoni za deljenje in vaša zgodovina uvozov. **Česa ta izbris ne more storiti:** če je nekdo drug že uvozil kopijo vašega jezika k sebi, ta kopija odslej pripada njemu in **preživi** vaš izbris — kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati.
 
 Naprava, s katere zahtevate izbris, se **nevtralizira**: njena povezanost z vašim računom se izbriše, njen identifikacijski ključ se uniči in nadomesti z mrtvo vrednostjo, njen jezik in različica aplikacije se izbrišeta. Ostane le neprozorna številka, ki ne omogoča več niti vaše identifikacije niti najdbe naprave.
 
-**Nikoli nismo hranili besedil, ki ste jih preoblikovali, niti besedila, ki ga je Asistirano branje prebralo z zaslona:** nikjer na naših strežnikih se ne hranijo, zato od njih ni ničesar za izbrisati. **To ne velja za besednjak morebitnega osebnega jezika, ki ste ga ustvarili:** njegova vsebina (ime, abeceda, besede in pomeni) je res shranjena na naših strežnikih — izbris vašega računa jo izbriše, tako kot vse ostalo, kar vam pripada (glejte spodaj).
+**Ne hranimo besedil, ki ste jih preoblikovali, niti besedila, ki ga je Asistirano branje prebralo z zaslona:** nikjer na naših strežnikih se ne hranijo, zato od njih ni ničesar za izbrisati. **To ne velja za vaše osebne jezike in besednjake kamuflaže:** njihova vsebina (ime, abeceda ali tema, besede in pomeni) ter posamezne besede iz vaših sporočil, ki jih v njih še ni bilo, so res shranjene na naših strežnikih — izbris vašega računa jih izbriše, tako kot vse ostalo, kar vam pripada (glejte zgoraj).
 
 **Na vašem telefonu** so vaše persone, vaši avatarji, vaše nastavitve in vaša pravila po aplikaciji shranjeni lokalno. Izbriše jih izbris, sprožen iz aplikacije, v vsakem primeru pa **izginejo, ko odstranite Plume**.
 
@@ -59,6 +60,12 @@ Ostanejo tri kategorije sledi, vendar je **povezava z vašo identiteto prekinjen
 | **Tehnični varnostni signali** (ponavljajoče se prekoračitve, neuspešna preverjanja celovitosti) | Boj proti goljufijam. Ti zapisi ne vsebujejo **nobenega besedila** in se hranijo **brez identifikatorja naprave**. |
 
 Ti anonimizirani podatki se hranijo toliko časa, kolikor zahtevajo naše zakonske, zlasti računovodske obveznosti, nato pa se izbrišejo ali združijo.
+
+**Treh drugih elementov izbris vašega računa ne izbriše**, ker niso povezani z vami ali niso več povezani samo z vami:
+
+- **nezamaskirani delčki** — v načinu Maskiranje brez besednjaka kratki kosi sporočila (največ 40 znakov), ki so po maskiranju ostali berljivi: ne nosijo nobenega identifikatorja računa, le psevdonimni odtis naprave;
+- **definicije besed** — skupni predpomnilnik za vse uporabnike, brez identifikatorja računa ali jezika;
+- **besede, ki ste jih napisali z besednjakom kamuflaže druge osebe** — odložene so bile ob stran v njenem besednjaku, ki pripada njej, in delijo njegovo usodo.
 
 ---
 

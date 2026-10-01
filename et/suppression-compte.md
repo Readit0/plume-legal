@@ -1,6 +1,6 @@
 # Oma konto ja andmete kustutamine — Plume
 
-**Viimati uuendatud: 12. september 2026** — Versioon 2.0
+**Viimati uuendatud: 1. oktoober 2026** — Versioon 2.1
 
 Asjaomane rakendus: **Plume** (`com.plume.plume`), välja andnud **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — avaldatud Google Play poes nime **openfunworld** all.
 
@@ -33,15 +33,16 @@ Kustutamine kaotab **lõplikult**:
 
 - **teie konto** (e-posti aadress, parool, sessioon);
 - **teie kasutusloendurid** — päevas ja kuus tarbitud ümbersõnastuste arv;
-- **teie ettepanekud** — soovitused, mille olete meile rakendusest saatnud. See on ainus vabatekst, mida me talletame;
+- **teie ettepanekud** — soovitused, mille olete meile rakendusest saatnud;
 - **teie päringute identifikaatorid** — tellitud ümbersõnastuste tehnilised viited;
 - **teie kvoodikrediidid ja avatud lisakasutused** — ostetud tarbimata krediidid, reklaami eest saadud lisakasutused, kohandatud ülempiirid;
 - **teie seadmete seotus teie kontoga** — teie muud telefonid või tahvelarvutid lahutatakse kontost ja neist saavad taas lihtsalt anonüümsed seadmed;
-- **teie loodud isiklikud keeled** — nende nimi, tähestik, sõnavara, teie jagamisžetoonid ja teie importimisajalugu. **Mida see kustutamine ei suuda teha:** kui keegi teine on juba importinud koopia teie keelest, kuulub see koopia nüüd temale ja **jääb alles** ka pärast teie kustutamist — nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada.
+- **teie maskeerimissõnastikud**, sealhulgas prügikasti viidud — nende nimi, teema, sõnapaarid, ootel olevad sõnad, teie jagamisžetoonid ning sidemed mõlemas suunas (sõnastikud, mida te olete jaganud, ja need, mida on teiega jagatud);
+- **teie loodud isiklikud keeled** — nende nimi, tähestik, sõnavara, ootel olevad sõnad, teie jagamisžetoonid ja teie importimisajalugu. **Mida see kustutamine ei suuda teha:** kui keegi teine on juba importinud koopia teie keelest, kuulub see koopia nüüd temale ja **jääb alles** ka pärast teie kustutamist — nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada.
 
 Seade, millest te kustutamist taotlete, **neutraliseeritakse**: selle seos teie kontoga kustutatakse, selle identifitseerimisvõti hävitatakse ja asendatakse surnud väärtusega, selle keel ja rakenduse versioon kustutatakse. Alles jääb ainult läbipaistmatu number, mis ei võimalda enam teid tuvastada ega seadet üles leida.
 
-**Me ei ole kunagi talletanud tekste, mida te ümber sõnastasite, ega teksti, mille abistatud lugemine ekraanilt luges**: neid ei säilitata meie serverites kusagil, seega ei ole seal midagi kustutada. **See ei kehti isikliku keele sõnavara kohta, mille te olete võib-olla loonud**: selle sisu (nimi, tähestik, sõnad ja määratlused) säilitatakse tõepoolest meie serverites — teie konto kustutamine kustutab selle, nagu kõik muu, mis teile kuulub (vt allpool).
+**Me ei talleta tekste, mida te ümber sõnastasite, ega teksti, mille abistatud lugemine ekraanilt luges**: neid ei säilitata meie serverites kusagil, seega ei ole seal midagi kustutada. **See ei kehti teie isiklike keelte ja maskeerimissõnastike kohta**: nende sisu (nimi, tähestik või teema, sõnad ja määratlused) ning teie sõnumite üksikud sõnad, mis neist veel puudusid, talletatakse tõepoolest meie serverites — teie konto kustutamine kustutab need, nagu kõik muu, mis teile kuulub (vt ülal).
 
 **Teie telefonis** on teie personad, teie avatarid, teie seaded ja teie rakendusepõhised reeglid salvestatud kohapeal. Rakendusest tehtud kustutamine kaotab need ning igal juhul **kaovad need siis, kui te Plume'i desinstallite**.
 
@@ -59,6 +60,12 @@ Alles jääb kolm liiki jälgi, kuid **seos teie isikuga on katkestatud**: teie 
 | **Turvalisuse tehnilised signaalid** (korduvad ületamised, terviklikkuse kontrolli ebaõnnestumised) | Pettusevastane võitlus. Need kirjed ei sisalda **ühtegi teksti** ja neid säilitatakse **ilma seadme identifikaatorita**. |
 
 Neid anonüümitud andmeid säilitatakse meie juriidiliste, eelkõige raamatupidamiskohustustega nõutud aja jooksul ning seejärel kustutatakse või koondatakse.
+
+**Kolme muud elementi teie konto kustutamine ei kustuta**, sest need ei ole seotud teiega või enam mitte ainult teiega:
+
+- **maskeerimata fragmendid** — režiimis Maskeering ilma sõnastikuta sõnumi lühikesed lõigud (kuni 40 tähemärki), mis jäid pärast maskeerimist loetavaks: neil ei ole konto identifikaatorit, ainult seadme pseudonüümne räsi;
+- **sõnade määratlused** — kõigile kasutajatele ühine vahemälu, ilma konto või keele identifikaatorita;
+- **sõnad, mille kirjutasite kellegi teise maskeerimissõnastikuga** — need pandi kõrvale tema sõnastikus, mis kuulub temale, ja jagavad selle saatust.
 
 ---
 

@@ -1,6 +1,6 @@
 # Ștergerea contului și a datelor dumneavoastră — Plume
 
-**Ultima actualizare: 12 septembrie 2026** — Versiunea 2.0
+**Ultima actualizare: 1 octombrie 2026** — Versiunea 2.1
 
 Aplicația vizată: **Plume** (`com.plume.plume`), editată de **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publicată pe Google Play sub numele **openfunworld**.
 
@@ -33,15 +33,16 @@ Verificăm dacă cererea provine într-adevăr de la titularul contului, apoi pr
 
 - **contul dumneavoastră** (adresa de e-mail, parola, sesiunea);
 - **contoarele dumneavoastră de utilizare** — numărul de reformulări consumate pe zi și pe lună;
-- **sugestiile dumneavoastră** — propunerile pe care ni le-ați fi trimis din aplicație. Este singurul text liber pe care îl stocăm;
+- **sugestiile dumneavoastră** — propunerile pe care ni le-ați fi trimis din aplicație;
 - **identificatorii cererilor dumneavoastră** — referințele tehnice ale reformulărilor solicitate;
 - **creditele și deblocările dumneavoastră de cotă** — credite achiziționate neconsumate, deblocări obținute prin publicitate, plafoane ajustate;
 - **asocierea dispozitivelor dumneavoastră cu contul dumneavoastră** — celelalte telefoane sau tablete ale dumneavoastră sunt dezlegate și redevin simple dispozitive anonime;
-- **limbile personale pe care le-ați creat** — numele lor, alfabetul lor, lexicul lor, jetoanele dumneavoastră de partajare și istoricul dumneavoastră de import. **Ceea ce această ștergere nu poate face:** dacă altcineva a importat deja o copie a limbii dumneavoastră la el, această copie îi aparține de acum și **supraviețuiește** ștergerii dumneavoastră — precum un mesaj deja primit de un terț, nu îl putem șterge la el.
+- **lexiconurile dumneavoastră de camuflaj**, inclusiv cele puse la coș — numele lor, tema lor, perechile lor de cuvinte, cuvintele în așteptare, jetoanele dumneavoastră de partajare și asocierile în ambele sensuri (lexiconurile pe care le-ați partajat și cele care au fost partajate cu dumneavoastră);
+- **limbile personale pe care le-ați creat** — numele lor, alfabetul lor, lexicul lor, cuvintele în așteptare, jetoanele dumneavoastră de partajare și istoricul dumneavoastră de import. **Ceea ce această ștergere nu poate face:** dacă altcineva a importat deja o copie a limbii dumneavoastră la el, această copie îi aparține de acum și **supraviețuiește** ștergerii dumneavoastră — precum un mesaj deja primit de un terț, nu îl putem șterge la el.
 
 Dispozitivul de pe care solicitați ștergerea este **neutralizat**: asocierea sa cu contul dumneavoastră este ștearsă, cheia sa de identificare este distrusă și înlocuită cu o valoare moartă, limba și versiunea sa de aplicație sunt șterse. Nu mai rămâne decât un număr opac, care nu mai permite nici identificarea dumneavoastră, nici regăsirea dispozitivului.
 
-**Nu am stocat niciodată textele pe care le-ați reformulat, nici textul citit pe ecran de Citirea Asistată**: acestea nu sunt păstrate nicăieri pe serverele noastre, prin urmare nu există nimic de șters. **Acest lucru nu este valabil pentru lexicul unei limbi personale pe care ați fi creat-o**: conținutul acesteia (nume, alfabet, cuvinte și definiții) este într-adevăr stocat pe serverele noastre — ștergerea contului dumneavoastră îl elimină, la fel ca restul a ceea ce vă aparține (a se vedea mai jos).
+**Nu stocăm textele pe care le-ați reformulat, nici textul citit pe ecran de Citirea Asistată**: acestea nu sunt păstrate nicăieri pe serverele noastre, prin urmare nu există nimic de șters. **Acest lucru nu este valabil pentru limbile dumneavoastră personale și pentru lexiconurile dumneavoastră de camuflaj**: conținutul lor (nume, alfabet sau temă, cuvinte și definiții), precum și cuvintele izolate din mesajele dumneavoastră care le lipseau încă, sunt într-adevăr stocate pe serverele noastre — ștergerea contului dumneavoastră le elimină, la fel ca restul a ceea ce vă aparține (a se vedea mai sus).
 
 **Pe telefonul dumneavoastră**, personele, avatarurile, setările și regulile dumneavoastră per aplicație sunt stocate local. Ele sunt șterse prin ștergerea efectuată din aplicație și, în orice caz, **dispar atunci când dezinstalați Plume**.
 
@@ -59,6 +60,12 @@ Trei categorii de urme subzistă, dar **legătura cu identitatea dumneavoastră 
 | **Semnalele tehnice de securitate** (depășiri repetate, eșecuri ale controlului de integritate) | Combaterea fraudei. Aceste înregistrări nu conțin **niciun text** și sunt păstrate **fără identificator de dispozitiv**. |
 
 Aceste date anonimizate sunt păstrate pe durata impusă de obligațiile noastre legale, în special contabile, apoi sunt șterse sau agregate.
+
+**Alte trei elemente nu sunt șterse prin ștergerea contului dumneavoastră**, deoarece nu vă sunt asociate sau nu vă mai sunt asociate doar dumneavoastră:
+
+- **fragmentele necamuflate** — în modul Camuflaj fără lexicon, bucăți scurte de mesaj (cel mult 40 de caractere) rămase lizibile după camuflare: ele nu poartă niciun identificator de cont, ci doar o amprentă pseudonimă a dispozitivului;
+- **definițiile cuvintelor** — un cache comun tuturor utilizatorilor, fără identificator de cont sau de limbă;
+- **cuvintele pe care le-ați scris cu lexiconul de camuflaj al unei alte persoane** — ele au fost puse deoparte în lexiconul acesteia, care îi aparține, și urmează soarta lui.
 
 ---
 

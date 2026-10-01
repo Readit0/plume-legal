@@ -1,6 +1,6 @@
 # Famafana ny kaontinao sy ny angonao — Plume
 
-**Nohavaozina farany : 12 septambra 2026** — Version 2.0
+**Nohavaozina farany : 1 oktobra 2026** — Version 2.1
 
 
 Fampiharana voakasika : **Plume** (`com.plume.plume`), navoakan'ny **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — naparitaka tao amin'ny Google Play miaraka amin'ny anarana **openfunworld**.
@@ -34,15 +34,16 @@ Ny famafana dia manesotra **mandrakizay** :
 
 - **ny kaontinao** (adiresy mailaka, teny miafina, session) ;
 - **ny mpanisa fampiasanao** — ny isan'ny fanoratana indray lany isan'andro sy isam-bolana ;
-- **ny tolo-kevitrao** — ny tolo-kevitra izay nalefanao taminay avy ao amin'ny fampiharana. Izy io no hany lahatsoratra malalaka natehirizinay ;
+- **ny tolo-kevitrao** — ny tolo-kevitra izay nalefanao taminay avy ao amin'ny fampiharana ;
 - **ny famantaran'ny fangatahanao** — ny fanamarihana ara-teknikan'ny fanoratana indray nangatahina ;
 - **ny quota sy fanokafana quota-nao** — quota vidina tsy lany, fanokafana azo tamin'ny fanentanana, fetra novaina ;
 - **ny fifamatorana eo amin'ny fitaovanao sy ny kaontinao** — ny findainao na ny tablet-nao hafa dia mifaha ary miverina ho fitaovana tsy fantatra tsotra ;
-- **ny fiteny manokana noforoninao** — ny anarany, ny abidiny, ny rakibolany, ny jetonao fizarana ary ny tantaram-pametrahanao. **Izay tsy vitan'ity famafana ity :** raha efa nampiditra kopian'ny fiteninao any amin'ny olon-kafa, dia an'io olona io izao izany kopia izany ary **mbola miaina** aorian'ny famafanao — toy ny hafatra efa noraisin'olon-kafa, tsy azonay esorina any aminy izany.
+- **ny lisitry ny teny fanafenana anananao**, anisan'izany ireo apetraka ao amin'ny fako — ny anarany, ny lohahevitra, ny tenin-tsoratra mivady, ireo teny miandry, ny jetonao fizarana, ary ny fifandraisana amin'ny lafiny roa (ny lisitra nozarainao, sy ireo nozaraina taminao) ;
+- **ny fiteny manokana noforoninao** — ny anarany, ny abidiny, ny rakibolany, ireo teny miandry, ny jetonao fizarana ary ny tantaram-pametrahanao. **Izay tsy vitan'ity famafana ity :** raha efa nampiditra kopian'ny fiteninao any amin'ny olon-kafa, dia an'io olona io izao izany kopia izany ary **mbola miaina** aorian'ny famafanao — toy ny hafatra efa noraisin'olon-kafa, tsy azonay esorina any aminy izany.
 
 Ny fitaovana angatahanao ny famafana dia **atao tsy misy vokany** : fafana ny fifamatorany amin'ny kaontinao, ravana ny fanalahidy famantarany ary soloana sanda maty, fafana ny fiteniny sy ny version'ny fampiharana. Tsy misy sisa afa-tsy isa opaka, izay tsy ahafahana mamantatra anao intsony na mahita indray ilay fitaovana.
 
-**Tsy nitahiry ny lahatsoratra novakinao indray na ny lahatsoratra novakina teo amin'ny efijery amin'ny alalan'ny Famakiana Ampian-jery mihitsy izahay** : tsy tehirizina na aiza na aiza ao amin'ny mpizaranay ireny, koa tsy misy afafa momba azy ireo. **Tsy marina izany momba ny rakibolan'ny fiteny manokana izay mety noforoninao** : ny votoatiny (anarana, abidy, teny ary famaritana) dia tena voatahiry ao amin'ny mpizaranay — ny famafana ny kaontinao dia mamafa izany, toy ny sisa amin'izay an'anao (jereo etsy ambany).
+**Tsy mitahiry ny lahatsoratra sorataninao indray na ny lahatsoratra novakina teo amin'ny efijery amin'ny alalan'ny Famakiana Ampian-jery izahay** : tsy tehirizina na aiza na aiza ao amin'ny mpizaranay ireny, koa tsy misy afafa momba azy ireo. **Tsy marina izany momba ny fiteny manokana noforoninao sy ny lisitry ny teny fanafenana anananao** : ny votoatiny (anarana, abidy na lohahevitra, teny ary famaritana), ary koa ireo teny tsirairay ao amin'ny hafatrao izay mbola tsy ao aminy, dia tena voatahiry ao amin'ny mpizaranay — ny famafana ny kaontinao dia mamafa azy ireo, toy ny sisa amin'izay an'anao (jereo etsy ambony).
 
 **Eo amin'ny findainao**, ny personanao, ny avataranao, ny kirakiranao ary ny fitsipikao isaky ny fampiharana dia voatahiry an-toerana. Fafan'ny famafana avy ao amin'ny fampiharana izy ireo, ary amin'ny fomba rehetra dia **lasa rehefa manesotra an'i Plume ianao**.
 
@@ -60,6 +61,12 @@ Sokajy efatra amin'ny fanamarihana no mbola misy, saingy **tapaka ny fifamatoran
 | **Ny mariky ara-teknikan'ny filaminana** (fihoaram-pefy miverimberina, tsy fahombiazan'ny fanamarinam-pahamarinana) | Ady amin'ny hosoka. Ireto firaketana ireto dia tsy misy **lahatsoratra na kely akory** ary tehirizina **tsy misy famantarana fitaovana**. |
 
 Ireo angona tsy nahafantarina intsony ireo dia tehirizina araka ny faharetana takin'ny adidinay ara-dalàna, indrindra ny ara-kaonty, avy eo dia fafana na atambatra.
+
+**Singa telo hafa no tsy fafan'ny famafana ny kaontinao**, satria tsy mifandray aminao izy ireo, na tsy aminao irery intsony :
+
+- **ireo sombin-teny tsy voafina** — amin'ny maodin'ny Fanafenana tsy misy lisitra, sombin-hafatra fohy (40 tarehin-tsoratra na latsaka) mbola azo vakiana aorian'ny fanafenana : tsy mitondra famantarana kaonty mihitsy izy ireo, sonian'ny fitaovana tsy manonona anarana ihany ;
+- **ny famaritana ny teny** — cache iombonana ho an'ny mpampiasa rehetra, tsy misy famantarana kaonty na fiteny ;
+- **ireo teny nosoratanao tamin'ny lisitry ny teny fanafenana an'olon-kafa** — atokana ao amin'ny lisitr'io olona io izy ireo, izay an'io olona io, ary manaraka ny anjarany.
 
 ---
 

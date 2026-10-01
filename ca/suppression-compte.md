@@ -1,6 +1,6 @@
 # Suprimir el seu compte i les seves dades — Plume
 
-**Última actualització: 12 de setembre de 2026** — Versió 2.0
+**Última actualització: 1 d'octubre de 2026** — Versió 2.1
 
 
 Aplicació afectada: **Plume** (`com.plume.plume`), editada per **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France, publicada a Google Play amb el nom **openfunworld**.
@@ -34,15 +34,16 @@ La supressió esborra **definitivament**:
 
 - **el seu compte** (adreça electrònica, contrasenya, sessió);
 - **els seus comptadors d'ús**: el nombre de reformulacions consumides per dia i per mes;
-- **els seus suggeriments**: les propostes que ens hagi enviat des de l'aplicació. És l'únic text lliure que emmagatzemem;
+- **els seus suggeriments**: les propostes que ens hagi enviat des de l'aplicació;
 - **els seus identificadors de sol·licitud**: les referències tècniques de les reformulacions demanades;
 - **els seus crèdits i desbloquejos de quota**: crèdits comprats no consumits, desbloquejos obtinguts amb publicitat, topalls ajustats;
 - **la vinculació dels seus dispositius al seu compte**: els seus altres telèfons o tauletes queden deslligats i tornen a ser simples dispositius anònims;
-- **els idiomes personals que ha creat**: el seu nom, el seu alfabet, el seu lèxic, els seus testimonis de compartició i el seu historial d'importació. **El que aquesta supressió no pot fer:** si algú altre ja ha importat una còpia del seu idioma a casa seva, aquesta còpia passa a pertànyer-li i **sobreviu** a la seva supressió — com un missatge ja rebut per un tercer, que no podem esborrar de la seva banda.
+- **els seus lèxics de camuflatge**, inclosos els enviats a la paperera: el seu nom, el seu tema, les seves parelles de paraules, les paraules pendents, els seus testimonis de compartició i els vincles en els dos sentits (els lèxics que ha compartit i els que s'han compartit amb vostè);
+- **els idiomes personals que ha creat**: el seu nom, el seu alfabet, el seu lèxic, les paraules pendents, els seus testimonis de compartició i el seu historial d'importació. **El que aquesta supressió no pot fer:** si algú altre ja ha importat una còpia del seu idioma a casa seva, aquesta còpia passa a pertànyer-li i **sobreviu** a la seva supressió — com un missatge ja rebut per un tercer, que no podem esborrar de la seva banda.
 
 El dispositiu des del qual demana la supressió queda **neutralitzat**: la seva vinculació al compte s'esborra, la seva clau d'identificació es destrueix i se substitueix per un valor mort, i el seu idioma i la seva versió de l'aplicació s'esborren. Només queda un número opac, que ja no permet identificar-lo ni retrobar el dispositiu.
 
-**Mai no hem emmagatzemat els textos que ha reformulat, ni el text llegit a la pantalla per la Lectura Assistida**: no es conserven enlloc dels nostres servidors, de manera que no hi ha res a suprimir-ne. **Això no és cert del lèxic d'un idioma personal que hagi pogut crear:** el seu contingut (nom, alfabet, paraules i definicions) sí que s'emmagatzema als nostres servidors — la supressió del seu compte l'esborra, com la resta del que li pertany (vegeu més avall).
+**No emmagatzemem els textos que ha reformulat, ni el text llegit a la pantalla per la Lectura Assistida**: no es conserven enlloc dels nostres servidors, de manera que no hi ha res a suprimir-ne. **Això no és cert dels seus idiomes personals ni dels seus lèxics de camuflatge:** el seu contingut (nom, alfabet o tema, paraules i definicions), així com les paraules aïllades dels seus missatges que hi mancaven encara, sí que s'emmagatzema als nostres servidors — la supressió del seu compte l'esborra, com la resta del que li pertany (vegeu més amunt).
 
 **Al seu telèfon**, les seves personas, els seus avatars, els seus paràmetres i les seves regles per aplicació s'emmagatzemen localment. S'esborren amb la supressió feta des de l'aplicació i, en tot cas, **desapareixen quan desinstal·la Plume**.
 
@@ -60,6 +61,12 @@ Subsisteixen tres categories de rastres, però **el vincle amb la seva identitat
 | **Els senyals tècnics de seguretat** (excessos repetits, fallades del control d'integritat) | Lluita contra el frau. Aquests registres no contenen **cap text** i es conserven **sense identificador de dispositiu**. |
 
 Aquestes dades anonimitzades es conserven durant el temps que exigeixen les nostres obligacions legals, especialment les comptables, i després se suprimeixen o s'agreguen.
+
+**Tres altres elements no s'esborren amb la supressió del seu compte**, perquè no estan vinculats amb vostè, o ja no ho estan només amb vostè:
+
+- **els fragments no camuflats**: en mode Camuflatge sense lèxic, trossos curts de missatge (40 caràcters com a màxim) que han quedat llegibles després del camuflatge; no porten cap identificador de compte, només una empremta pseudònima del dispositiu;
+- **les definicions de paraules**: una memòria cau comuna a tots els usuaris, sense identificador de compte ni d'idioma;
+- **les paraules que ha escrit amb el lèxic de camuflatge d'una altra persona**: s'han apartat al seu lèxic, que li pertany, i en segueixen la sort.
 
 ---
 

@@ -1,6 +1,8 @@
 # Politik konfidansyalite Plume
 
-**Dènye mizajou: 12 septanm 2026** — Vèsyon 2.0
+**Dènye mizajou: 1 oktòb 2026** — Vèsyon 2.1
+
+> *Sa ki chanje nan vèsyon 2.1:* nou dekri **mòd Kamouflaj la**, vèsyon 2.0 pa t mansyone, epi nou korije yon afimasyon ki pa t egzat ankò: pou lang pèsonèl yo kou pou Kamouflaj la, **mo ki nan mesaj ou yo ki poko nan vokabilè ou yo konsève, youn pa youn** — pa janm fraz la — pou n ka pwopoze w ajoute yo. Detay yo nan «Nan yon minit», nan §2.2 ak nan §3.
 
 > *Sa ki chanje depi vèsyon 1.0, epi poukisa ou ka wè ekran akò a ankò
 > nan aplikasyon an:* n ap korije de deklarasyon ki pa t egzat ankò. Premyèman,
@@ -33,7 +35,7 @@ Plume ede w ekri: li reformile tèks ou dirèkteman nan aplikasyon kote w ap tap
 
 Twa bagay pou w sonje:
 
-1. **Plume pa konsève ni tèks ou reformile yo, ni tèks li li sou ekran an.** Nou pa kenbe ni kopi, ni jounal sou yo. **Eksepsyon nou aksepte, epi nou fè espre pou li:** si w kreye yon **lang pèsonèl** (pwòp lang ou envante, ak yon vokabilè mo ak definisyon yo), kontni lang sa a **konsève**, pito, sou sèvè nou yo — se sèl fason pou n pèmèt ou jwenn li ankò sou yon lòt aparèy, fè l evolye epi pataje l. Detay la nan §3.
+1. **Plume pa konsève ni tèks ou reformile yo, ni tèks li li sou ekran an.** Nou pa kenbe ni kopi, ni jounal sou yo. **Eksepsyon nou aksepte, epi nou fè espre pou yo:** si w kreye yon **lang pèsonèl** (pwòp lang ou envante, ak yon vokabilè mo ak definisyon yo) oswa yon **diksyonè kamouflaj** (kòd sekrè mo ou yo), kontni yo **konsève**, pito, sou sèvè nou yo — se sèl fason pou n pèmèt ou jwenn yo ankò sou yon lòt aparèy, fè yo evolye epi pataje yo. Epi lè w ap ekri nan de mòd sa yo, **mo apa ki nan mesaj ou a ki poko nan vokabilè ou a** mete sou kote, youn pa youn — pa janm fraz la — pou n pwopoze w ajoute yo. Detay la nan §3.
 2. **Selon motè ou chwazi a, tèks ou a kite telefòn ou oswa li pa kite l.** De motè (Kit Lokal la ak IA Lokal la) travay nèt sou aparèy la. Twazyèm nan (IA Cloud la) voye tèks la bay yon sèvis entèlijans atifisyèl ki **chita andeyò Inyon Ewopeyen an**. Se ou menm ki chwazi, epi IA Cloud la pa janm aktive san akò eksplisit ou.
 3. **Plume bezwen otorizasyon ki gen anpil pouvwa** (li kontni ki parèt nan lòt aplikasyon yo, kaptire ekran an). Pi ba a nou eksplike egzakteman a kisa yo sèvi, epi a kisa yo pa sèvi.
 
@@ -90,7 +92,8 @@ Lè w chwazi IA Cloud la, oswa lè aparèy ou pa gen ase pisans pou IA Lokal la,
 - Tèks la pase nan enfrastrikti sèvè nou an, ki ebèje nan **Inyon Ewopeyen an** (rejyon Ewòp santral, Frankfurt).
 - Apre sa yo voye l bay yon entèmedyè woutaj ki **chita andeyò Inyon Ewopeyen an**, ki fè yon modèl entèlijans atifisyèl lòt konpayi trete l.
 - **Donk se yon transfè done andeyò Inyon Ewopeyen an.** Nou pa pretann se pa sa, epi nou pa afiche okenn pwomès ebèjman ewopeyen pou etap sa a.
-- **Plume pa konsève tèks ou.** Okenn nan fonksyon sèvè nou yo pa ekri kontni tèks ou: nou anrejistre sèlman yon idantifyan teknik demann nan ak idantifyan aparèy ou, pou konte kota ou epi detekte abi.
+- **Plume pa konsève tèks ou.** Okenn nan fonksyon sèvè nou yo pa ekri kontni tèks ou: nou anrejistre sèlman yon idantifyan teknik demann nan ak idantifyan aparèy ou, pou konte kota ou epi detekte abi. **Sèl eksepsyon:** nan mòd Lang pèsonèl ak nan mòd Kamouflaj, mo apa ki pa nan vokabilè ou a mete sou kote (gade §3).
+- **Mòd Kamouflaj ak mòd Lang pèsonèl pran menm chemen sa a** chak fwa yo bezwen IA a: pou kamouflaje oswa dekode yon mesaj vokabilè ou a pa kouvri nèt, pou akòde oswa konjige yon mo, oswa pou fè vokabilè ou a grandi (mo ki an atant yo voye bay sèvis IA a lè sa a). Ekran ki prezante mòd Kamouflaj la anonse w sa anvan l aktive.
 - **Sa founisè sa yo fè bò kote pa yo, nou pa ka garanti l.** Nou pito di w sa olye pou nou pwomèt ou zewo konsèvasyon lè nou pa an mezi pou verifye sa.
 
 **IA Cloud la pa janm aktive pou kont li.** Yon ekran konsantman espesyal esplike w pwen sa yo anvan premye voye a, epi anyen pa pati toutotan ou poko aksepte. Si IA Lokal la echwe, Plume pa chanje pou al nan cloud la an silans: li fè w konnen epi li tann desizyon w. Ou ka retire akò sa a nenpòt ki lè nan paramèt yo.
@@ -115,6 +118,11 @@ Men tout sa ki estoke sou sèvè nou yo:
 | **Siyal teknik abi** (depasman repete, echèk kontwòl entegrite — san okenn tèks) | Sekirite, lit kont fwod | Detache ak idantite w lè yo efase kont lan |
 | **Lang ak vèsyon aplikasyon an** | Bay bon kontni an | Jiskaske ou efase kont ou |
 | **Kontni lang pèsonèl ou kreye yo** (non li, alfabè li ak vokabilè li — mo ak definisyon ou menm, oswa lòt moun, te ekri ladan l) | Pèmèt ou jwenn lang ou a ankò sou yon lòt aparèy, fè l evolye, epi pataje l ak lòt itilizatè | Toutotan lang lan egziste. Si w efase l, fich li a disparèt — men yon kopi yon lòt moun **te deja enpòte** vin pou moun sa a depi lè sa a epi li **kontinye egziste**, tankou yon mesaj yon twazyèm moun deja resevwa ke nou pa ka al efase lakay li |
+| **Diksyonè kamouflaj ou yo** (non yo, tèm yo, lang yo, anblèm ou chwazi a, ak pè mo yo «vrè mo → mo kòd») | Kamouflaje epi dekode mesaj ou yo, pèmèt ou jwenn diksyonè ou a ankò sou yon lòt aparèy, fè l evolye epi pataje l | Toutotan diksyonè a egziste. **Yon diksyonè yo mete nan poubèl la rete konsève**: poko gen okenn vidaj otomatik poubèl sa a. Li disparèt lè w efase kont ou |
+| **Mo ki an atant yo** (lang pèsonèl ak Kamouflaj): mo apa ki nan mesaj ou yo ki poko nan vokabilè ou a — pa janm fraz la —, ak kantite fwa yo parèt ak dat premye fwa ak dènye fwa yo parèt | Pwopoze w ajoute yo nan vokabilè ou a, epi fè sèvis IA a trete yo lè w ap fè l grandi | Konsève menm apre yo fin ajoute, toutotan lang lan oswa diksyonè a egziste. **Si w ekri ak yon diksyonè kamouflaj yon lòt moun pataje avè w**, mo ki manke ladan l yo mete sou kote **nan diksyonè pa li a**, epi moun sa a ka wè yo |
+| **Pataj lang ou yo ak diksyonè ou yo** (yon jeton pataj, estoke sèlman sou fòm anprent; istorik enpòtasyon yo ak lyen yo) | Pèmèt moun ou renmen yo li mesaj ou yo. Pwopriyetè yon diksyonè wè lis moun ki lye ak li (non afichaj ak foto pwofil Google — pa janm adrès imèl la) | Yon jeton ekspire. Se tras yon pataj yo anile ki konsève |
+| **Fragman ki pa kamouflaje yo** (mòd Kamouflaj san diksyonè: ti moso mesaj, 40 karaktè o pi plis, ki rete lizib apre kamouflaj la) | Amelyore gri kamouflaj komen an | San idantifyan kont, lye sèlman ak yon anprent sipozenonm aparèy la. Poko gen okenn dire ki fikse, epi yo pa efase lè yo efase kont lan |
+| **Definisyon mo yo** (mo a ak definisyon yo jenere pou li a, lè w mande definisyon yon mo nan vokabilè ou a) | Pa fè jenere menm definisyon an de fwa | Kachèt komen pou tout moun, **san idantifyan** kont ni lang. Li pa efase lè yo efase kont lan |
 | **Rapò teknik krach yo** (kalite erè a, chemen apèl teknik ki koupe, vèsyon aplikasyon an, sistèm dopresyon an — pa janm yon kontni tèks) | Dyagnostike epi korije krach aplikasyon an | Se founisè rapò krach nou an ki jere sa (gade §9). Koleksyon sa a soumèt ak konsantman ou ak yon switch nou ka koupe nenpòt ki lè, san mizajou aplikasyon an |
 
 **Sa nou pa kolekte:** non ou, kontak ou yo, kote w ye, kanè adrès ou, foto ou yo, ajanda ou, istorik aplikasyon ou yo. Plume pa mande okenn nan otorizasyon sa yo.
@@ -201,7 +209,7 @@ Kòm aplikasyon an pèmèt reformile yon tèks lib epi li afiche reklam, li pa e
 
 ## 10. Sekirite
 
-Echanj ant aplikasyon an ak sèvè nou yo chifre (HTTPS/TLS). Aksè ak done ki nan baz la limite ak règ sou sèvè a: fonksyon ki sansib yo pa aksesib depi nan aplikasyon an. Pa gen sistèm ki pafètman an sekirite. Tèks ou reformile a ak sa Lekti Asiste afiche sou ekran an pa estoke lakay nou, sa ki limite mekanikman sa yon entrizyon ta ka revele sou yo. **Sa pa vre pou tout bagay:** vokabilè lang pèsonèl ou kreye yo, pou pa l, **estoke** (gade §3), epi li ta ekspoze menm jan ak nenpòt lòt done nan politik sa a si gen yon vrè entrizyon — nou pwoteje l ak menm règ aksè sèvè a menm jan ak rès la.
+Echanj ant aplikasyon an ak sèvè nou yo chifre (HTTPS/TLS). Aksè ak done ki nan baz la limite ak règ sou sèvè a: fonksyon ki sansib yo pa aksesib depi nan aplikasyon an. Pa gen sistèm ki pafètman an sekirite. Tèks ou reformile a ak sa Lekti Asiste afiche sou ekran an pa estoke lakay nou, sa ki limite mekanikman sa yon entrizyon ta ka revele sou yo. **Sa pa vre pou tout bagay:** vokabilè lang pèsonèl ou kreye yo, diksyonè kamouflaj ou yo ak mo ki an atant yo, pou pa yo, **estoke** (gade §3), epi yo ta ekspoze menm jan ak nenpòt lòt done nan politik sa a si gen yon vrè entrizyon — nou pwoteje yo ak menm règ aksè sèvè a menm jan ak rès la.
 
 ---
 

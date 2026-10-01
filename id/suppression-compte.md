@@ -1,6 +1,6 @@
 # Menghapus akun dan data Anda — Plume
 
-**Terakhir diperbarui: 12 September 2026** — Versi 2.0
+**Terakhir diperbarui: 1 Oktober 2026** — Versi 2.1
 
 Aplikasi yang bersangkutan: **Plume** (`com.plume.plume`), diterbitkan oleh **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — dipublikasikan di Google Play dengan nama **openfunworld**.
 
@@ -33,15 +33,16 @@ Penghapusan menghilangkan **secara permanen**:
 
 - **akun Anda** (alamat e-mail, kata sandi, sesi);
 - **penghitung penggunaan Anda** — jumlah penyusunan ulang yang terpakai per hari dan per bulan;
-- **saran-saran Anda** — usulan yang mungkin Anda kirimkan kepada kami dari dalam aplikasi. Itulah satu-satunya teks bebas yang kami simpan;
+- **saran-saran Anda** — usulan yang mungkin Anda kirimkan kepada kami dari dalam aplikasi;
 - **identitas permintaan Anda** — rujukan teknis penyusunan ulang yang diminta;
 - **kredit dan pembukaan kuota Anda** — kredit yang dibeli tetapi belum terpakai, pembukaan yang diperoleh lewat iklan, batas yang telah disesuaikan;
 - **penautan perangkat Anda ke akun Anda** — ponsel atau tablet Anda yang lain dilepaskan dan kembali menjadi sekadar perangkat anonim.
-- **bahasa pribadi yang telah Anda buat** — namanya, aksaranya, kosakatanya, token berbagi Anda, dan riwayat impor Anda. **Apa yang tidak dapat dilakukan oleh penghapusan ini:** jika orang lain telah mengimpor sebuah salinan bahasa Anda ke perangkatnya, salinan itu sejak itu menjadi miliknya dan **tetap ada** setelah penghapusan Anda — seperti sebuah pesan yang sudah diterima oleh pihak ketiga, yang tidak dapat kami hapuskan di sisi mereka.
+- **leksikon penyamaran Anda**, termasuk yang dipindahkan ke tempat sampah — namanya, temanya, pasangan katanya, kata-kata yang menunggu, token berbagi Anda, dan penautan dua arah (leksikon yang Anda bagikan, dan yang dibagikan kepada Anda);
+- **bahasa pribadi yang telah Anda buat** — namanya, aksaranya, kosakatanya, kata-kata yang menunggu, token berbagi Anda, dan riwayat impor Anda. **Apa yang tidak dapat dilakukan oleh penghapusan ini:** jika orang lain telah mengimpor sebuah salinan bahasa Anda ke perangkatnya, salinan itu sejak itu menjadi miliknya dan **tetap ada** setelah penghapusan Anda — seperti sebuah pesan yang sudah diterima oleh pihak ketiga, yang tidak dapat kami hapuskan di sisi mereka.
 
 Perangkat yang Anda gunakan untuk meminta penghapusan **dinetralkan**: penautannya ke akun Anda dihapus, kunci identifikasinya dimusnahkan dan diganti dengan sebuah nilai mati, bahasa dan versi aplikasinya dihapus. Yang tersisa hanyalah sebuah nomor buram, yang tidak lagi memungkinkan siapa pun mengenali Anda maupun menemukan perangkat itu.
 
-**Kami tidak pernah menyimpan teks yang Anda susun ulang, maupun teks yang dibaca di layar oleh Bacaan Terbantu**: keduanya tidak tersimpan di mana pun pada server kami, jadi tidak ada yang perlu dihapus. **Ini tidak berlaku untuk kosakata sebuah bahasa pribadi yang mungkin telah Anda buat**: kontennya (nama, aksara, kata-kata, dan definisi) memang disimpan di server kami — penghapusan akun Anda menghapusnya juga, seperti hal-hal lain yang menjadi milik Anda (lihat di bawah).
+**Kami tidak menyimpan teks yang Anda susun ulang, maupun teks yang dibaca di layar oleh Bacaan Terbantu**: keduanya tidak tersimpan di mana pun pada server kami, jadi tidak ada yang perlu dihapus. **Ini tidak berlaku untuk bahasa pribadi dan leksikon penyamaran Anda**: kontennya (nama, aksara atau tema, kata-kata, dan definisi), serta kata-kata tersendiri dari pesan Anda yang belum ada di dalamnya, memang disimpan di server kami — penghapusan akun Anda menghapusnya juga, seperti hal-hal lain yang menjadi milik Anda (lihat di atas).
 
 **Di ponsel Anda**, persona Anda, avatar Anda, pengaturan Anda, dan aturan per aplikasi Anda tersimpan secara lokal. Semuanya dihapus oleh penghapusan dari dalam aplikasi, dan bagaimanapun juga **hilang ketika Anda menghapus instalasi Plume**.
 
@@ -59,6 +60,12 @@ Tiga kategori jejak tetap ada, tetapi **kaitannya dengan identitas Anda diputus*
 | **Sinyal teknis keamanan** (pelampauan berulang, kegagalan pemeriksaan integritas) | Pemberantasan kecurangan. Catatan-catatan ini **tidak memuat teks apa pun** dan disimpan **tanpa identitas perangkat**. |
 
 Data yang telah dianonimkan ini disimpan selama jangka waktu yang diwajibkan oleh kewajiban hukum kami, terutama kewajiban akuntansi, lalu dihapus atau diagregasi.
+
+**Tiga hal lain tidak dihapus oleh penghapusan akun Anda**, karena tidak terkait dengan Anda, atau tidak lagi terkait hanya dengan Anda:
+
+- **fragmen yang tidak disamarkan** — dalam mode Kamuflase tanpa leksikon, potongan pendek pesan (paling banyak 40 karakter) yang tetap terbaca setelah penyamaran: tidak membawa identitas akun apa pun, hanya sidik samaran perangkat;
+- **definisi kata** — cache bersama untuk semua pengguna, tanpa identitas akun maupun bahasa;
+- **kata-kata yang Anda tulis dengan leksikon penyamaran orang lain** — kata-kata itu disisihkan di leksikonnya, yang menjadi miliknya, dan mengikuti nasibnya.
 
 ---
 

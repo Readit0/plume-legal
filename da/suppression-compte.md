@@ -1,6 +1,6 @@
 # Slet din konto og dine oplysninger — Plume
 
-**Sidst opdateret: 12. september 2026** — Version 2.0
+**Sidst opdateret: 1. oktober 2026** — Version 2.1
 
 Berørt app: **Plume** (`com.plume.plume`), udgivet af **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — offentliggjort på Google Play under navnet **openfunworld**.
 
@@ -33,15 +33,16 @@ Sletningen fjerner **endeligt**:
 
 - **din konto** (e-mailadresse, adgangskode, session);
 - **dine forbrugstællere** — antallet af omformuleringer, der er brugt pr. dag og pr. måned;
-- **dine forslag** — de forslag, du måtte have sendt os fra appen. Det er den eneste frie tekst, vi gemmer;
+- **dine forslag** — de forslag, du måtte have sendt os fra appen;
 - **dine anmodningsidentifikatorer** — de tekniske referencer for de omformuleringer, der er blevet anmodet om;
 - **dine kreditter og kvoteoplåsninger** — købte kreditter, der ikke er brugt, oplåsninger opnået via annoncer, justerede lofter;
 - **tilknytningen af dine enheder til din konto** — dine andre telefoner eller tablets frigøres og bliver igen almindelige anonyme enheder;
-- **de personlige sprog, du har oprettet** — deres navn, deres alfabet, deres ordbog, dine delingstokens og din importhistorik. **Hvad denne sletning ikke kan gøre:** hvis en anden person allerede har importeret en kopi af dit sprog hos sig selv, tilhører den kopi derefter vedkommende og **overlever** din sletning — ligesom en besked, en tredjepart allerede har modtaget, som vi ikke kan slette hos den pågældende.
+- **dine camouflageordlister**, også dem der er lagt i papirkurven — deres navn, deres tema, deres ordpar, de ventende ord, dine delingstokens og forbindelserne i begge retninger (de ordlister, du har delt, og dem, der er blevet delt med dig);
+- **de personlige sprog, du har oprettet** — deres navn, deres alfabet, deres ordbog, de ventende ord, dine delingstokens og din importhistorik. **Hvad denne sletning ikke kan gøre:** hvis en anden person allerede har importeret en kopi af dit sprog hos sig selv, tilhører den kopi derefter vedkommende og **overlever** din sletning — ligesom en besked, en tredjepart allerede har modtaget, som vi ikke kan slette hos den pågældende.
 
 Den enhed, som du beder om sletningen fra, bliver **neutraliseret**: dens tilknytning til din konto slettes, dens identifikationsnøgle destrueres og erstattes af en død værdi, og dens sprog og appversion slettes. Tilbage er kun et uigennemsigtigt nummer, som hverken gør det muligt at identificere dig eller at finde enheden.
 
-**Vi har aldrig gemt de tekster, du har omformuleret, eller den tekst, Assisteret læsning har læst på skærmen**: de bliver ikke opbevaret nogen steder på vores servere, og der er derfor intet at slette af dem. **Det gælder ikke for ordbogen i et personligt sprog, du måtte have oprettet:** dets indhold (navn, alfabet, ord og betydninger) bliver rent faktisk gemt på vores servere — sletning af din konto sletter det, ligesom resten af det, der tilhører dig (se nedenfor).
+**Vi gemmer ikke de tekster, du har omformuleret, eller den tekst, Assisteret læsning har læst på skærmen**: de bliver ikke opbevaret nogen steder på vores servere, og der er derfor intet at slette af dem. **Det gælder ikke for dine personlige sprog og dine camouflageordlister:** deres indhold (navn, alfabet eller tema, ord og betydninger) samt de enkelte ord i dine beskeder, der endnu manglede i dem, bliver rent faktisk gemt på vores servere — sletning af din konto sletter dem, ligesom resten af det, der tilhører dig (se ovenfor).
 
 **På din telefon** er dine personaer, dine avatarer, dine indstillinger og dine regler pr. app gemt lokalt. De slettes ved sletningen fra appen, og de forsvinder under alle omstændigheder, **når du afinstallerer Plume**.
 
@@ -59,6 +60,12 @@ Tre kategorier af spor består, men **forbindelsen til din identitet er brudt**:
 | **Tekniske sikkerhedssignaler** (gentagne overskridelser, mislykkede integritetskontroller) | Bekæmpelse af svindel. Disse registreringer indeholder **ingen tekst** og gemmes **uden enhedsidentifikator**. |
 
 Disse anonymiserede oplysninger gemmes i den periode, som vores retlige forpligtelser kræver, navnlig de bogføringsmæssige, og slettes eller aggregeres derefter.
+
+**Tre andre elementer slettes ikke, når du sletter din konto**, fordi de ikke er knyttet til dig, eller ikke længere kun til dig:
+
+- **ikke-camouflerede fragmenter** — i Kamuflage-tilstand uden ordliste korte stykker af en besked (højst 40 tegn), som forblev læselige efter camouflagen: de bærer ingen kontoidentifikator, kun en pseudonym hashværdi for enheden;
+- **ordbetydninger** — en fælles cache for alle brugere, uden identifikator for konto eller sprog;
+- **de ord, du har skrevet med en anden persons camouflageordliste** — de er lagt til side i vedkommendes ordliste, som tilhører vedkommende, og følger dens skæbne.
 
 ---
 

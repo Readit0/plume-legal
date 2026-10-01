@@ -1,6 +1,6 @@
 # Supprimer votre compte et vos données — Plume
 
-**Dernière mise à jour : 12 septembre 2026** — Version 2.0
+**Dernière mise à jour : 1er octobre 2026** — Version 2.1
 
 
 Application concernée : **Plume** (`com.plume.plume`), éditée par **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publiée sur Google Play sous le nom **openfunworld**.
@@ -34,15 +34,16 @@ La suppression efface **définitivement** :
 
 - **votre compte** (adresse e-mail, mot de passe, session) ;
 - **vos compteurs d'usage** — le nombre de reformulations consommées par jour et par mois ;
-- **vos suggestions** — les propositions que vous nous auriez envoyées depuis l'application. C'est le seul texte libre que nous stockions ;
+- **vos suggestions** — les propositions que vous nous auriez envoyées depuis l'application ;
 - **vos identifiants de requêtes** — les références techniques des reformulations demandées ;
 - **vos crédits et déblocages de quota** — crédits achetés non consommés, déblocages obtenus par publicité, plafonds ajustés ;
 - **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes ;
-- **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
+- **vos carnets de camouflage**, y compris ceux mis à la corbeille — leur nom, leur thème, leurs paires de mots, les mots en attente, vos jetons de partage, et les liaisons dans les deux sens (les carnets que vous avez partagés, et ceux qu'on vous a partagés) ;
+- **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, les mots en attente, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
 
 L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son rattachement à votre compte est effacé, sa clé d'identification est détruite et remplacée par une valeur morte, sa langue et sa version d'application sont effacées. Il ne reste qu'un numéro opaque, qui ne permet plus de vous identifier ni de retrouver l'appareil.
 
-**Nous n'avons jamais stocké les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai du lexique d'une langue personnelle que vous auriez créée** : son contenu (nom, alphabet, mots et définitions) est bien stocké sur nos serveurs — la suppression de votre compte l'efface, comme le reste de ce qui vous appartient (voir ci-dessous).
+**Nous ne stockons pas les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai de vos langues personnelles et de vos carnets de camouflage** : leur contenu (nom, alphabet ou thème, mots et définitions), ainsi que les mots isolés de vos messages qui y manquaient encore, sont bien stockés sur nos serveurs — la suppression de votre compte les efface, comme le reste de ce qui vous appartient (voir ci-dessus).
 
 **Sur votre téléphone**, vos personas, vos avatars, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
 
@@ -60,6 +61,12 @@ Quatre catégories de traces subsistent, mais **le lien avec votre identité est
 | **Les signaux techniques de sécurité** (dépassements répétés, échecs de contrôle d'intégrité) | Lutte contre la fraude. Ces enregistrements ne contiennent **aucun texte** et sont conservés **sans identifiant d'appareil**. |
 
 Ces données anonymisées sont conservées pour la durée requise par nos obligations légales, notamment comptables, puis supprimées ou agrégées.
+
+**Trois autres éléments ne sont pas effacés par la suppression de votre compte**, parce qu'ils ne vous sont pas rattachés, ou plus seulement à vous :
+
+- **les fragments non camouflés** — en mode Camouflage sans carnet, de courts morceaux de message (40 caractères au plus) restés lisibles après le camouflage : ils ne portent aucun identifiant de compte, seulement une empreinte pseudonyme de l'appareil ;
+- **les définitions de mots** — un cache commun à tous les utilisateurs, sans identifiant de compte ni de langue ;
+- **les mots que vous avez écrits avec le carnet de camouflage d'une autre personne** — ils ont été mis de côté dans son carnet, qui lui appartient, et suivent son sort.
 
 ---
 

@@ -1,6 +1,6 @@
 # Usunięcie Twojego konta i Twoich danych — Plume
 
-**Ostatnia aktualizacja: 12 września 2026 r.** — Wersja 2.0
+**Ostatnia aktualizacja: 1 października 2026 r.** — Wersja 2.1
 
 Aplikacja, której dotyczy: **Plume** (`com.plume.plume`), wydawana przez **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publikowana w Google Play pod nazwą **openfunworld**.
 
@@ -33,15 +33,16 @@ Usunięcie kasuje **bezpowrotnie**:
 
 - **Twoje konto** (adres e-mail, hasło, sesja);
 - **Twoje liczniki użycia** — liczbę przeformułowań wykorzystanych dziennie i miesięcznie;
-- **Twoje sugestie** — propozycje, które zostałyby nam przez Ciebie przesłane z poziomu aplikacji. To jedyny dowolny tekst, jaki przechowywaliśmy;
+- **Twoje sugestie** — propozycje, które zostałyby nam przez Ciebie przesłane z poziomu aplikacji;
 - **Twoje identyfikatory żądań** — techniczne odniesienia zleconych przeformułowań;
 - **Twoje kredyty i odblokowania limitu** — zakupione, a niewykorzystane kredyty, odblokowania uzyskane za reklamy, skorygowane limity;
 - **powiązanie Twoich urządzeń z Twoim kontem** — Twoje pozostałe telefony lub tablety zostają odłączone i stają się z powrotem zwykłymi anonimowymi urządzeniami;
-- **języki własne, które zostały przez Ciebie stworzone** — ich nazwa, alfabet, słownik, Twoje tokeny udostępniania i historia importu. **Czego to usunięcie nie może zrobić:** jeśli ktoś inny zaimportował już u siebie kopię Twojego języka, ta kopia należy odtąd do niego i **przetrwa** Twoje usunięcie — tak jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć z jej strony.
+- **Twoje leksykony kamuflażu**, także te przeniesione do kosza — ich nazwa, motyw, pary słów, słowa oczekujące, Twoje tokeny udostępniania oraz powiązania w obu kierunkach (leksykony, które zostały przez Ciebie udostępnione, i te, które udostępniono Tobie);
+- **języki własne, które zostały przez Ciebie stworzone** — ich nazwa, alfabet, słownik, słowa oczekujące, Twoje tokeny udostępniania i historia importu. **Czego to usunięcie nie może zrobić:** jeśli ktoś inny zaimportował już u siebie kopię Twojego języka, ta kopia należy odtąd do niego i **przetrwa** Twoje usunięcie — tak jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć z jej strony.
 
 Urządzenie, z którego żądasz usunięcia, zostaje **zneutralizowane**: jego powiązanie z Twoim kontem zostaje skasowane, jego klucz identyfikacyjny zostaje zniszczony i zastąpiony wartością martwą, jego język i wersja aplikacji zostają skasowane. Pozostaje wyłącznie nieprzejrzysty numer, który nie pozwala już ani Cię zidentyfikować, ani odnaleźć urządzenia.
 
-**Nigdy nie przechowywaliśmy tekstów, które zostały przez Ciebie przeformułowane, ani tekstu odczytanego z ekranu przez Czytanie Wspomagane**: nie są one nigdzie zachowywane na naszych serwerach, nie ma zatem czego usuwać. **Nie dotyczy to słownika ewentualnie stworzonego przez Ciebie języka własnego:** jego treść (nazwa, alfabet, słowa i definicje) jest rzeczywiście przechowywana na naszych serwerach — usunięcie Twojego konta ją kasuje, tak jak resztę tego, co do Ciebie należy (zob. poniżej).
+**Nie przechowujemy tekstów, które zostały przez Ciebie przeformułowane, ani tekstu odczytanego z ekranu przez Czytanie Wspomagane**: nie są one nigdzie zachowywane na naszych serwerach, nie ma zatem czego usuwać. **Nie dotyczy to Twoich języków własnych ani leksykonów kamuflażu:** ich treść (nazwa, alfabet lub motyw, słowa i definicje), a także pojedyncze słowa z Twoich wiadomości, których jeszcze w nich brakowało, są rzeczywiście przechowywane na naszych serwerach — usunięcie Twojego konta je kasuje, tak jak resztę tego, co do Ciebie należy (zob. powyżej).
 
 **W Twoim telefonie** Twoje persony, Twoje awatary, Twoje ustawienia i Twoje reguły dla poszczególnych aplikacji są przechowywane lokalnie. Są kasowane przez usunięcie wykonane z poziomu aplikacji, a w każdym razie **znikają, gdy odinstalujesz Plume**.
 
@@ -59,6 +60,12 @@ Utrzymują się trzy kategorie śladów, ale **związek z Twoją tożsamością 
 | **Techniczne sygnały bezpieczeństwa** (powtarzające się przekroczenia, niepowodzenia kontroli integralności) | Przeciwdziałanie oszustwom. Zapisy te nie zawierają **żadnego tekstu** i są przechowywane **bez identyfikatora urządzenia**. |
 
 Te zanonimizowane dane są przechowywane przez okres wymagany naszymi obowiązkami prawnymi, w szczególności księgowymi, a następnie usuwane lub agregowane.
+
+**Trzy inne elementy nie są kasowane wraz z usunięciem Twojego konta**, ponieważ nie są powiązane z Tobą lub nie są już powiązane wyłącznie z Tobą:
+
+- **fragmenty niezakamuflowane** — w trybie Kamuflaż bez leksykonu, krótkie fragmenty wiadomości (najwyżej 40 znaków), które po kamuflażu pozostały czytelne: nie zawierają żadnego identyfikatora konta, wyłącznie pseudonimowy odcisk urządzenia;
+- **definicje słów** — pamięć podręczna wspólna dla wszystkich użytkowników, bez identyfikatora konta ani języka;
+- **słowa wpisane przez Ciebie z użyciem leksykonu kamuflażu innej osoby** — zostały odłożone na bok w jej leksykonie, który do niej należy, i podzielają jego los.
 
 ---
 

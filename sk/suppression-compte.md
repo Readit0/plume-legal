@@ -1,6 +1,6 @@
 # Vymazanie vášho účtu a vašich údajov — Plume
 
-**Posledná aktualizácia: 12. septembra 2026** — Verzia 2.0
+**Posledná aktualizácia: 1. októbra 2026** — Verzia 2.1
 
 Dotknutá aplikácia: **Plume** (`com.plume.plume`), vydávaná spoločnosťou **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — zverejnená v Google Play pod menom **openfunworld**.
 
@@ -33,15 +33,16 @@ Vymazanie **natrvalo** odstráni:
 
 - **váš účet** (e-mailová adresa, heslo, relácia);
 - **vaše počítadlá používania** — počet preformulovaní spotrebovaných za deň a za mesiac;
-- **vaše návrhy** — podnety, ktoré ste nám prípadne z aplikácie zaslali. Ide o jediný voľný text, ktorý sme uchovávali;
+- **vaše návrhy** — podnety, ktoré ste nám prípadne z aplikácie zaslali;
 - **vaše identifikátory požiadaviek** — technické odkazy na vyžiadané preformulovania;
 - **vaše kredity a odomknutia limitu** — zakúpené a nespotrebované kredity, odomknutia získané za reklamu, upravené stropy;
 - **väzbu vašich zariadení na váš účet** — vaše ostatné telefóny či tablety sú odpojené a stávajú sa opäť jednoduchými anonymnými zariadeniami;
-- **vlastné jazyky, ktoré ste vytvorili** — ich názov, ich abecedu, ich slovník, vaše zdieľacie tokeny a vašu históriu importov. **Čo toto vymazanie nedokáže:** ak si niekto iný už importoval kópiu vášho jazyka, táto kópia mu odvtedy patrí a **pretrváva** aj po vašom vymazaní — podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme z jej strany vymazať.
+- **vaše kamuflážne slovníky**, vrátane tých presunutých do koša — ich názov, tému, dvojice slov, čakajúce slová, vaše zdieľacie tokeny a prepojenia v oboch smeroch (slovníky, ktoré ste zdieľali, aj tie, ktoré boli zdieľané s vami);
+- **vlastné jazyky, ktoré ste vytvorili** — ich názov, ich abecedu, ich slovník, čakajúce slová, vaše zdieľacie tokeny a vašu históriu importov. **Čo toto vymazanie nedokáže:** ak si niekto iný už importoval kópiu vášho jazyka, táto kópia mu odvtedy patrí a **pretrváva** aj po vašom vymazaní — podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme z jej strany vymazať.
 
 Zariadenie, z ktorého o vymazanie žiadate, je **neutralizované**: jeho väzba na váš účet je vymazaná, jeho identifikačný kľúč je zničený a nahradený mŕtvou hodnotou, jeho jazyk a verzia aplikácie sú vymazané. Zostáva iba nepriehľadné číslo, ktoré už neumožňuje ani vás identifikovať, ani zariadenie dohľadať.
 
-**Nikdy sme neukladali texty, ktoré ste preformulovali, ani text prečítaný z obrazovky Asistovaným čítaním**: neboli nikde na našich serveroch uchovávané, nie je teda čo vymazávať. **To neplatí o slovníku vlastného jazyka, ktorý ste si prípadne vytvorili:** jeho obsah (názov, abeceda, slová a definície) sa na našich serveroch skutočne uchováva — vymazaním vášho účtu sa vymaže aj on, rovnako ako všetko ostatné, čo vám patrí (pozri nižšie).
+**Texty, ktoré ste preformulovali, ani text prečítaný z obrazovky Asistovaným čítaním, neukladáme**: nie sú nikde na našich serveroch uchovávané, nie je teda čo vymazávať. **To neplatí o vašich vlastných jazykoch a kamuflážnych slovníkoch:** ich obsah (názov, abeceda alebo téma, slová a definície), ako aj izolované slová z vašich správ, ktoré v nich ešte chýbali, sa na našich serveroch skutočne uchovávajú — vymazaním vášho účtu sa vymažú, rovnako ako všetko ostatné, čo vám patrí (pozri vyššie).
 
 **Vo vašom telefóne** sú vaše persony, vaši avatari, vaše nastavenia a vaše pravidlá pre jednotlivé aplikácie uložené lokálne. Vymazaním z aplikácie sú odstránené a v každom prípade **zmiznú, keď Plume odinštalujete**.
 
@@ -59,6 +60,12 @@ Pretrvávajú tri kategórie stôp, ale **väzba na vašu totožnosť je preruš
 | **Technické bezpečnostné signály** (opakované prekročenia, zlyhania kontroly integrity) | Boj proti podvodom. Tieto záznamy neobsahujú **žiadny text** a uchovávajú sa **bez identifikátora zariadenia**. |
 
 Tieto anonymizované údaje sa uchovávajú počas obdobia vyžadovaného našimi zákonnými povinnosťami, najmä účtovnými, a potom sa vymažú alebo agregujú.
+
+**Tri ďalšie prvky sa vymazaním vášho účtu nemažú**, pretože nie sú viazané na vás, alebo už nie sú viazané iba na vás:
+
+- **nezamaskované fragmenty** — v režime Maskovanie bez slovníka krátke kúsky správy (najviac 40 znakov), ktoré po maskovaní zostali čitateľné: nenesú žiadny identifikátor účtu, iba pseudonymný odtlačok zariadenia;
+- **definície slov** — vyrovnávacia pamäť spoločná pre všetkých používateľov, bez identifikátora účtu či jazyka;
+- **slová, ktoré ste napísali s kamuflážnym slovníkom inej osoby** — boli odložené bokom do jej slovníka, ktorý jej patrí, a nasledujú jeho osud.
 
 ---
 

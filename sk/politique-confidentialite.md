@@ -1,6 +1,8 @@
 # Zásady ochrany osobných údajov aplikácie Plume
 
-**Posledná aktualizácia: 12. septembra 2026** — Verzia 2.0
+**Posledná aktualizácia: 1. októbra 2026** — Verzia 2.1
+
+> *Čo sa zmenilo vo verzii 2.1:* opisujeme **režim Maskovanie**, ktorý verzia 2.0 nespomínala, a opravujeme tvrdenie, ktoré prestalo byť presné: pre vlastné jazyky aj pre Maskovanie **sa slová z vašich správ, ktoré vo vašom slovníku ešte chýbajú, uchovávajú po jednom** — nikdy veta — aby sme vám mohli navrhnúť ich pridanie. Podrobnosti sú v časti „V jednej minúte“, v §2.2 a v §3.
 
 > *Čo sa zmenilo od verzie 1.0 a prečo sa vám možno v aplikácii znova zobrazila obrazovka so súhlasom:* opravujeme dve tvrdenia, ktoré už neboli presné. Po prvé, funkcia **vlastné jazyky** uchováva na našich serveroch obsah, ktorý vytvoríte (názov, abecedu, slovník) — verzia 1.0 nesprávne tvrdila, že sa neuchováva žiadny text. Po druhé, teraz používame nástroj na **technické hlásenie pádov** — verzia 1.0 tvrdila, že žiadny takýto nástroj neexistuje. Podrobnosti o oboch bodoch nájdete nižšie v časti „V jednej minúte“ a v §3 a §9. Ide presne o dve kategórie zmien, ktoré v aplikácii spúšťajú novú žiadosť o súhlas (pozri §11).
 
@@ -25,7 +27,7 @@ Plume vám pomáha písať: preformuluje váš text priamo v aplikácii, v ktore
 
 Tri veci, ktoré si treba zapamätať:
 
-1. **Plume neuchováva ani vaše preformulované texty, ani text prečítaný z obrazovky.** Neuchovávame o nich ani kópiu, ani záznam v protokoloch. **Výnimka, ktorú si uvedomujeme a ktorá je zámerná:** ak si vytvoríte **vlastný jazyk** (svoj vlastný skonštruovaný jazyk so slovníkom slov a ich definícií), obsah tohto jazyka **sa** naopak na našich serveroch uchováva — je to jediný spôsob, ako vám umožniť nájsť ho na inom zariadení, ďalej ho rozvíjať a zdieľať. Podrobnosti sú v §3.
+1. **Plume neuchováva ani vaše preformulované texty, ani text prečítaný z obrazovky.** Neuchovávame o nich ani kópiu, ani záznam v protokoloch. **Výnimky, ktoré si uvedomujeme a ktoré sú zámerné:** ak si vytvoríte **vlastný jazyk** (svoj vlastný skonštruovaný jazyk so slovníkom slov a ich definícií) alebo **kamuflážny slovník** (svoj tajný kód zo slov), jeho obsah **sa** naopak na našich serveroch uchováva — je to jediný spôsob, ako vám umožniť nájsť ho na inom zariadení, ďalej ho rozvíjať a zdieľať. A keď píšete v týchto dvoch režimoch, **izolované slová vašej správy, ktoré vo vašom slovníku ešte chýbajú**, sa odkladajú bokom, po jednom — nikdy veta — aby sme vám mohli navrhnúť ich pridanie. Podrobnosti sú v §3.
 2. **Podľa toho, ktorý engine si zvolíte, váš text opustí alebo neopustí váš telefón.** Dva enginy (Lokálna súprava a Lokálna AI) pracujú výhradne v zariadení. Tretí (Cloudová AI) odosiela text službe umelej inteligencie **nachádzajúcej sa mimo Európskej únie**. Voľba je na vás a Cloudová AI sa nikdy neaktivuje bez vášho výslovného súhlasu.
 3. **Plume potrebuje silné oprávnenia** (čítať obsah zobrazený v iných aplikáciách, snímať obrazovku). Nižšie presne vysvetľujeme, na čo slúžia a na čo neslúžia.
 
@@ -82,7 +84,8 @@ Keď si zvolíte Cloudovú AI alebo keď vaše zariadenie nie je dosť výkonné
 - Text prechádza našou serverovou infraštruktúrou, umiestnenou v **Európskej únii** (región stredná Európa, Frankfurt).
 - Následne je odovzdaný smerovaciemu sprostredkovateľovi **nachádzajúcemu sa mimo Európskej únie**, ktorý ho dá spracovať modelu umelej inteligencie tretej strany.
 - **Ide teda o prenos údajov mimo Európskej únie.** Netvrdíme opak a pre tento krok neuvádzame žiadny prísľub európskeho hostingu.
-- **Plume váš text neuchováva.** Žiadna z našich serverových funkcií obsah vášho textu nezapisuje: zaznamenávame iba technický identifikátor požiadavky a identifikátor vášho zariadenia, aby sme počítali váš limit a odhaľovali zneužitia.
+- **Plume váš text neuchováva.** Žiadna z našich serverových funkcií obsah vášho textu nezapisuje: zaznamenávame iba technický identifikátor požiadavky a identifikátor vášho zariadenia, aby sme počítali váš limit a odhaľovali zneužitia. **Jediná výnimka:** v režime Vlastný jazyk a v režime Maskovanie sa izolované slová, ktoré vo vašom slovníku chýbajú, odkladajú bokom (pozri §3).
+- **Režimy Maskovanie a Vlastný jazyk používajú tú istú cestu** zakaždým, keď potrebujú AI: na zamaskovanie alebo dekódovanie správy, ktorú váš slovník nepokrýva úplne, na vyskloňovanie alebo vyčasovanie slova, alebo na rozšírenie vášho slovníka (čakajúce slová sa potom odosielajú službe AI). Obrazovka predstavujúca režim Maskovanie vás na to upozorní pred jeho zapnutím.
 - **To, čo títo poskytovatelia robia na svojej strane, zaručiť nevieme.** Radšej vám to povieme, než by sme vám sľubovali nulové uchovávanie, ktoré nie sme schopní overiť.
 
 **Cloudová AI sa nikdy neaktivuje sama od seba.** Vyhradená obrazovka súhlasu vám tieto body vysvetlí pred prvým odoslaním a nič neodíde, kým súhlas neudelíte. Ak Lokálna AI zlyhá, Plume neprepne potichu do cloudu: oznámi vám to a počká na vaše rozhodnutie. Tento súhlas môžete kedykoľvek odvolať v nastaveniach.
@@ -107,6 +110,11 @@ Tu je všetko, čo je uložené na našich serveroch:
 | **Technické signály zneužitia** (opakované prekročenia, zlyhanie kontroly integrity — bez akéhokoľvek textu) | Bezpečnosť, boj proti podvodom | Oddelené od vašej totožnosti pri vymazaní účtu |
 | **Jazyk a verzia aplikácie** | Doručovať správny obsah | Do vymazania vášho účtu |
 | **Obsah vlastných jazykov, ktoré vytvoríte** (jeho názov, jeho abeceda a jeho slovník — slová a definície, ktoré ste doň zapísali vy alebo iné osoby) | Umožniť vám nájsť váš jazyk na inom zariadení, ďalej ho rozvíjať a zdieľať s inými používateľmi | Kým jazyk existuje. Ak ho vymažete, jeho záznam zmizne — kópia, ktorú si však už **importovala iná osoba**, jej odvtedy patrí a **pretrváva**, podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme ísť vymazať |
+| **Vaše kamuflážne slovníky** (názov, téma, jazyk, zvolený emblém a dvojice slov „skutočné slovo → kódové slovo“) | Maskovať a dekódovať vaše správy, umožniť vám nájsť váš slovník na inom zariadení, ďalej ho rozvíjať a zdieľať | Kým slovník existuje. **Slovník presunutý do koša zostáva uchovaný**: automatické vyprázdňovanie tohto koša zatiaľ neexistuje. Zmizne vymazaním vášho účtu |
+| **Čakajúce slová** (vlastný jazyk a Maskovanie): izolované slová z vašich správ, ktoré vo vašom slovníku ešte chýbajú — nikdy veta —, s počtom výskytov a dátumami prvého a posledného výskytu | Navrhnúť vám ich pridanie do slovníka a dať ich spracovať službou AI, keď ho rozširujete | Uchovávané aj po pridaní, kým existuje jazyk alebo slovník. **Ak píšete s kamuflážnym slovníkom, ktorý s vami zdieľala iná osoba**, chýbajúce slová sa odkladajú bokom **do jej slovníka** a táto osoba ich môže vidieť |
+| **Zdieľanie vašich jazykov a slovníkov** (zdieľací token, uložený iba ako odtlačok; história importov a prepojení) | Umožniť vašim blízkym čítať vaše správy. Vlastník slovníka vidí zoznam osôb, ktoré sú k nemu prepojené (zobrazované meno a profilová fotografia Google — nikdy e-mailová adresa) | Token vyprší. Stopa po zrušenom zdieľaní sa uchováva |
+| **Nezamaskované fragmenty** (Maskovanie bez slovníka: krátke kúsky správy, najviac 40 znakov, ktoré po maskovaní zostali čitateľné) | Zlepšovať spoločnú mriežku maskovania | Bez identifikátora účtu, viazané iba na pseudonymný odtlačok zariadenia. Zatiaľ nie je stanovená žiadna lehota a pri vymazaní účtu sa nemažú |
+| **Definície slov** (slovo a jeho vygenerovaná definícia, keď si vyžiadate definíciu slova z vášho slovníka) | Nenechať dvakrát vygenerovať tú istú definíciu | Vyrovnávacia pamäť spoločná pre všetkých, **bez identifikátora** účtu či jazyka. Pri vymazaní účtu sa nemaže |
 | **Technické hlásenia pádov** (typ chyby, skrátený technický zásobník volaní, verzia aplikácie, operačný systém — nikdy obsah textu) | Diagnostikovať a opravovať pády aplikácie | Riadi ich náš poskytovateľ hlásenia pádov (pozri §9). Toto zhromažďovanie podlieha vášmu súhlasu a prepínaču, ktorý môžeme kedykoľvek vypnúť bez aktualizácie aplikácie |
 
 **Čo nezhromažďujeme:** vaše meno, vaše kontakty, vašu polohu, váš adresár, vaše fotografie, váš kalendár, históriu vašich aplikácií. Plume o žiadne z týchto oprávnení nežiada.
@@ -193,7 +201,7 @@ Keďže aplikácia umožňuje preformulovať voľný text a zobrazuje reklamu, n
 
 ## 10. Bezpečnosť
 
-Komunikácia medzi aplikáciou a našimi servermi je šifrovaná (HTTPS/TLS). Prístup k údajom v databáze je obmedzený pravidlami na strane servera: citlivé funkcie nie sú z aplikácie dostupné. Žiadny systém nie je dokonale bezpečný. Text, ktorý preformulujete, a text, ktorý Asistované čítanie zobrazuje na obrazovke, u nás nie sú uložené, čo mechanicky obmedzuje to, čo by o nich mohlo vniknutie do systému odhaliť. **To neplatí o všetkom:** slovník vlastných jazykov, ktoré vytvoríte, **je** naopak uložený (pozri §3) a v prípade skutočného vniknutia by bol vystavený rovnako ako akýkoľvek iný údaj v týchto zásadách — chránime ho rovnakými pravidlami prístupu na strane servera ako všetko ostatné.
+Komunikácia medzi aplikáciou a našimi servermi je šifrovaná (HTTPS/TLS). Prístup k údajom v databáze je obmedzený pravidlami na strane servera: citlivé funkcie nie sú z aplikácie dostupné. Žiadny systém nie je dokonale bezpečný. Text, ktorý preformulujete, a text, ktorý Asistované čítanie zobrazuje na obrazovke, u nás nie sú uložené, čo mechanicky obmedzuje to, čo by o nich mohlo vniknutie do systému odhaliť. **To neplatí o všetkom:** slovník vlastných jazykov, ktoré vytvoríte, vaše kamuflážne slovníky a čakajúce slová **sú** naopak uložené (pozri §3) a v prípade skutočného vniknutia by boli vystavené rovnako ako akýkoľvek iný údaj v týchto zásadách — chránime ho rovnakými pravidlami prístupu na strane servera ako všetko ostatné.
 
 ---
 

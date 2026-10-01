@@ -1,6 +1,6 @@
 # Að eyða aðgangi þínum og gögnum þínum — Plume
 
-**Síðast uppfært: 12. september 2026** — Útgáfa 2.0
+**Síðast uppfært: 1. október 2026** — Útgáfa 2.1
 
 Forritið sem um ræðir: **Plume** (`com.plume.plume`), gefið út af **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — birt á Google Play undir nafninu **openfunworld**.
 
@@ -33,15 +33,16 @@ Eyðingin fjarlægir **endanlega**:
 
 - **aðganginn þinn** (netfang, lykilorð, innskráningarlotu);
 - **notkunarteljarana þína** — fjölda umorðana sem notaðar hafa verið á dag og á mánuði;
-- **ábendingarnar þínar** — þær tillögur sem þú kannt að hafa sent okkur úr forritinu. Þetta er eini frjálsi textinn sem við geymum;
+- **ábendingarnar þínar** — þær tillögur sem þú kannt að hafa sent okkur úr forritinu;
 - **fyrirspurnaauðkennin þín** — tæknilegar tilvísanir þeirra umorðana sem beðið var um;
 - **inneignirnar þínar og kvótaopnanir** — keypta inneign sem ekki hefur verið notuð, opnanir sem fengust með auglýsingum, aðlöguð þök;
 - **tengingu tækjanna þinna við aðganginn þinn** — hinir símarnir þínir eða spjaldtölvurnar eru aftengd og verða aftur einföld nafnlaus tæki.
-- **eigin tungumál sem þú hefur búið til** — nafn þeirra, stafróf, orðasafn, deilitáknin þín og innflutningssögu þína. **Það sem þessi eyðing getur ekki gert:** ef einhver annar hefur þegar flutt inn afrit af tungumálinu þínu til sín, tilheyrir það afrit honum upp frá því og **lifir áfram** eftir eyðingu þína — líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti, sem við getum ekki fengið eytt hjá honum.
+- **Felulitaorðasöfnin þín**, þar með talin þau sem færð hafa verið í ruslið — nafn þeirra, þema, orðapör, orðin sem bíða, deilitáknin þín og tengingar í báðar áttir (orðasöfnin sem þú hefur deilt og þau sem deilt hefur verið með þér);
+- **eigin tungumál sem þú hefur búið til** — nafn þeirra, stafróf, orðasafn, orðin sem bíða, deilitáknin þín og innflutningssögu þína. **Það sem þessi eyðing getur ekki gert:** ef einhver annar hefur þegar flutt inn afrit af tungumálinu þínu til sín, tilheyrir það afrit honum upp frá því og **lifir áfram** eftir eyðingu þína — líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti, sem við getum ekki fengið eytt hjá honum.
 
 Tækið sem þú biður um eyðinguna úr er **gert óvirkt**: tenging þess við aðganginn þinn er þurrkuð út, auðkennislykli þess er eytt og hann settur í dautt gildi, og tungumál þess og forritsútgáfa eru þurrkuð út. Eftir stendur aðeins ógegnsæ tala, sem gerir hvorki kleift að bera kennsl á þig né að finna tækið.
 
-**Við höfum aldrei geymt textana sem þú hefur umorðað né textann sem Studdur lestur las af skjánum**: þeir eru hvergi varðveittir á netþjónum okkar, og því er engu af þeim að eyða. **Þetta á ekki við um orðasafn þess eigin tungumáls sem þú kannt að hafa búið til**: efni þess (nafn, stafróf, orð og merkingar) er sannarlega geymt á netþjónum okkar — þegar aðgangi þínum er eytt hverfur það líka, líkt og allt annað sem tilheyrir þér (sjá hér að neðan).
+**Við geymum ekki textana sem þú hefur umorðað né textann sem Studdur lestur las af skjánum**: þeir eru hvergi varðveittir á netþjónum okkar, og því er engu af þeim að eyða. **Þetta á ekki við um eigin tungumál þín og Felulitaorðasöfn**: efni þeirra (nafn, stafróf eða þema, orð og merkingar), ásamt stökum orðum úr skilaboðunum þínum sem enn vantaði í þau, er sannarlega geymt á netþjónum okkar — þegar aðgangi þínum er eytt hverfur það líka, líkt og allt annað sem tilheyrir þér (sjá hér að ofan).
 
 **Í símanum þínum** eru persónurnar þínar, táknmyndirnar þínar, stillingarnar þínar og reglurnar þínar fyrir hvert forrit geymdar staðbundið. Þeim er eytt þegar eyðingin fer fram úr forritinu, og þær **hverfa hvort eð er þegar þú fjarlægir Plume**.
 
@@ -59,6 +60,12 @@ Tækið sem þú biður um eyðinguna úr er **gert óvirkt**: tenging þess vi�
 | **Tæknileg öryggismerki** (endurtekin yfirkeyrsla marka, misheppnaðar heilleikaprófanir) | Barátta gegn svikum. Þessar færslur innihalda **engan texta** og eru geymdar **án tækisauðkennis**. |
 
 Þessi nafnlausu gögn eru geymd þann tíma sem lagaskyldur okkar krefjast, einkum þær bókhaldslegu, og þeim er síðan eytt eða þau tekin saman í heildartölur.
+
+**Þrennt annað er ekki þurrkað út þegar aðgangi þínum er eytt**, vegna þess að það er ekki tengt þér, eða ekki lengur eingöngu þér:
+
+- **óhulin brot** — í stillingunni Felulitur án orðasafns, stuttir bútar úr skilaboðum (í mesta lagi 40 stafir) sem urðu eftir læsilegir eftir að þau voru falin: þau bera ekkert auðkenni aðgangs, aðeins dulnefnda kjötkássu tækisins;
+- **skilgreiningar orða** — skyndiminni sem er sameiginlegt öllum notendum, án auðkennis aðgangs eða tungumáls;
+- **orðin sem þú hefur skrifað með Felulitaorðasafni annars aðila** — þau voru lögð til hliðar í orðasafni hans, sem er hans eigið, og deila örlögum þess.
 
 ---
 

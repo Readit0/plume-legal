@@ -1,6 +1,8 @@
 # Plumes integritetspolicy
 
-**Senast uppdaterad: 12 september 2026** — Version 2.0
+**Senast uppdaterad: 1 oktober 2026** — Version 2.1
+
+> *Vad som har ändrats i version 2.1:* vi beskriver **Kamouflage-läget**, som version 2.0 inte nämnde, och vi korrigerar ett påstående som har blivit felaktigt: både för egna språk och för Kamouflage **sparas de ord i dina meddelanden som ännu saknas i ditt lexikon, ett i taget** — aldrig meningen — för att kunna föreslå dig att lägga till dem. Detaljerna finns under ”På en minut”, i §2.2 och i §3.
 
 > *Vad som har ändrats sedan version 1.0, och varför du kanske ser godkännandeskärmen igen i
 > appen:* vi korrigerar två påståenden som inte längre stämde. För det första sparar
@@ -32,7 +34,7 @@ Plume hjälper dig att skriva: den formulerar om din text direkt i den app där 
 
 Tre saker att komma ihåg:
 
-1. **Plume sparar varken de texter du omformulerar eller den text som läses av på skärmen.** Vi behåller varken kopia eller logg. **Ett medvetet och avsett undantag:** om du skapar ett **eget språk** (ditt egna konstruerade språk, med sitt lexikon av ord och deras definitioner), sparas innehållet i det språket **däremot** på våra servrar — det är det enda sättet att låta dig hitta det på en annan enhet, utveckla det och dela det. Detaljerna finns i §3.
+1. **Plume sparar varken de texter du omformulerar eller den text som läses av på skärmen.** Vi behåller varken kopia eller logg. **Medvetna och avsedda undantag:** om du skapar ett **eget språk** (ditt egna konstruerade språk, med sitt lexikon av ord och deras definitioner) eller en **kamouflageordlista** (din hemliga ordkod), sparas dess innehåll **däremot** på våra servrar — det är det enda sättet att låta dig hitta det på en annan enhet, utveckla det och dela det. Och när du skriver i de här två lägena läggs **de enskilda ord i ditt meddelande som ännu saknas i ditt lexikon** åt sidan, ett i taget — aldrig meningen — för att föreslå dig att lägga till dem. Detaljerna finns i §3.
 2. **Beroende på vilken motor du väljer lämnar din text telefonen — eller inte.** Två motorer (det lokala kitet och den lokala AI:n) arbetar helt och hållet på enheten. Den tredje (Moln-AI) skickar texten till en tjänst för artificiell intelligens **som ligger utanför Europeiska unionen**. Du väljer, och Moln-AI aktiveras aldrig utan ditt uttryckliga samtycke.
 3. **Plume behöver kraftfulla behörigheter** (läsa innehåll som visas i andra appar, spela in skärmen). Vi förklarar nedan exakt vad de används till och vad de inte används till.
 
@@ -89,7 +91,8 @@ När du väljer Moln-AI, eller när din enhet inte är tillräckligt kraftfull f
 - Texten passerar vår serverinfrastruktur, som ligger i **Europeiska unionen** (regionen Centraleuropa, Frankfurt).
 - Den skickas därefter till en routningsförmedlare **som ligger utanför Europeiska unionen**, som låter en artificiell intelligens-modell från en tredje part behandla den.
 - **Det rör sig alltså om en överföring av uppgifter till ett land utanför Europeiska unionen.** Vi påstår inte motsatsen, och vi visar inget löfte om europeisk lagring för det steget.
-- **Plume sparar inte din text.** Ingen av våra serverfunktioner skriver ned innehållet i din text: vi registrerar bara en teknisk identifierare för förfrågan och identifieraren för din enhet, för att räkna din kvot och upptäcka missbruk.
+- **Plume sparar inte din text.** Ingen av våra serverfunktioner skriver ned innehållet i din text: vi registrerar bara en teknisk identifierare för förfrågan och identifieraren för din enhet, för att räkna din kvot och upptäcka missbruk. **Enda undantaget:** i läget Eget språk och i Kamouflage-läget läggs de enskilda ord som saknas i ditt lexikon åt sidan (se §3).
+- **Lägena Kamouflage och Eget språk använder samma färdväg** varje gång de behöver AI: för att kamouflera eller avkoda ett meddelande som ditt lexikon inte helt täcker, för att böja ett ord eller för att utveckla ditt lexikon (de väntande orden skickas då till AI-tjänsten). Skärmen som presenterar Kamouflage-läget meddelar dig detta innan det aktiveras.
 - **Vad de här leverantörerna gör på sin sida kan vi inte garantera.** Vi föredrar att säga det rakt ut i stället för att lova dig en nollagring som vi inte har möjlighet att kontrollera.
 
 **Moln-AI aktiveras aldrig av sig själv.** En särskild samtyckesskärm förklarar de här punkterna för dig före den första sändningen, och ingenting skickas i väg förrän du har godkänt. Om den lokala AI:n misslyckas växlar Plume inte över till molnet i tysthet: den talar om det för dig och väntar på ditt beslut. Du kan när som helst återkalla det godkännandet i inställningarna.
@@ -114,6 +117,11 @@ Här är allt som lagras på våra servrar:
 | **Tekniska signaler om missbruk** (upprepade överskridanden, misslyckad äkthetskontroll av appen — utan någon text alls) | Säkerhet, bedrägeribekämpning | Frikopplas från din identitet när kontot raderas |
 | **Appens språk och version** | Leverera rätt innehåll | Till dess att ditt konto raderas |
 | **Innehållet i de egna språk du skapar** (namn, alfabet och lexikon — de ord och definitioner som du, eller andra personer, har skrivit i det) | Låta dig hitta ditt språk på en annan enhet, utveckla det och dela det med andra användare | Så länge språket finns kvar. Om du raderar det försvinner dess post — men en kopia som redan har **importerats av någon annan** tillhör då den personen och **lever kvar**, precis som ett meddelande som redan har mottagits av en tredje part och som vi inte kan radera hos denne |
+| **Dina kamouflageordlistor** (deras namn, tema, språk, den valda emblemet och ordparen ”verkligt ord → kodord”) | Kamouflera och avkoda dina meddelanden, låta dig hitta din ordlista på en annan enhet, utveckla den och dela den | Så länge ordlistan finns kvar. **En ordlista som flyttats till papperskorgen sparas kvar**: det finns ännu ingen automatisk tömning av den papperskorgen. Den försvinner när ditt konto raderas |
+| **De väntande orden** (eget språk och Kamouflage): de enskilda orden i dina meddelanden som ännu saknas i ditt lexikon — aldrig meningen —, med antal förekomster och datum för första och senaste förekomst | Föreslå dig att lägga till dem i ditt lexikon, och låta AI-tjänsten behandla dem när du utvecklar det | Sparas även efter att de lagts till, så länge språket eller ordlistan finns kvar. **Om du skriver med en kamouflageordlista som någon annan har delat med dig** läggs de ord som saknas åt sidan **i den personens ordlista**, och den personen kan se dem |
+| **Delningen av dina språk och dina ordlistor** (ett delningstoken, som lagras enbart som ett avtryck; historiken över importer och kopplingar) | Låta dina nära läsa dina meddelanden. Ägaren till en ordlista ser listan över de personer som är kopplade till den (visningsnamn och Google-profilbild — aldrig e-postadressen) | Ett token upphör att gälla. Spåret av en återkallad delning sparas |
+| **Okamouflerade fragment** (Kamouflage-läget utan ordlista: korta meddelandebitar, högst 40 tecken, som förblev läsbara efter kamoufleringen) | Förbättra det gemensamma kamouflageschemat | Utan kontoidentifierare, kopplade enbart till ett pseudonymt avtryck av enheten. Ingen lagringstid är ännu fastställd, och de raderas inte när kontot raderas |
+| **Orddefinitioner** (ordet och dess genererade definition, när du ber om definitionen av ett ord i ditt lexikon) | Undvika att samma definition genereras två gånger | Gemensamt cache för alla, **utan identifierare** för konto eller språk. Det raderas inte när kontot raderas |
 | **Rapporter om tekniska krascher** (feltyp, trunkerad teknisk anropsstack, appversion, operativsystem — aldrig något textinnehåll) | Diagnostisera och åtgärda kraschar i appen | Hanteras av vår leverantör av kraschrapportering (se §9). Denna insamling förutsätter ditt samtycke och en strömbrytare som vi kan stänga av när som helst, utan appuppdatering |
 
 **Vad vi inte samlar in:** ditt namn, dina kontakter, din position, din adressbok, dina foton, din kalender, historiken över dina appar. Plume begär ingen av de behörigheterna.
@@ -200,7 +208,7 @@ Eftersom appen gör det möjligt att formulera om fri text och visar reklam är 
 
 ## 10. Säkerhet
 
-Utbytet mellan appen och våra servrar är krypterat (HTTPS/TLS). Åtkomsten till uppgifterna i databasen är begränsad av serverregler: de känsliga funktionerna går inte att nå från appen. Inget system är fullkomligt säkert. Den text du omformulerar och den som Assisterad läsning visar på skärmen lagras inte hos oss, vilket rent mekaniskt begränsar vad ett intrång skulle kunna avslöja om dem. **Det gäller inte allt:** lexikonet för de egna språk du skapar **lagras** däremot (se §3), och skulle exponeras som vilken annan uppgift som helst i den här policyn vid ett verkligt intrång — vi skyddar det med samma serveråtkomstregler som allt annat.
+Utbytet mellan appen och våra servrar är krypterat (HTTPS/TLS). Åtkomsten till uppgifterna i databasen är begränsad av serverregler: de känsliga funktionerna går inte att nå från appen. Inget system är fullkomligt säkert. Den text du omformulerar och den som Assisterad läsning visar på skärmen lagras inte hos oss, vilket rent mekaniskt begränsar vad ett intrång skulle kunna avslöja om dem. **Det gäller inte allt:** lexikonet för de egna språk du skapar, dina kamouflageordlistor och de väntande orden **lagras** däremot (se §3), och skulle exponeras som vilken annan uppgift som helst i den här policyn vid ett verkligt intrång — vi skyddar det med samma serveråtkomstregler som allt annat.
 
 ---
 

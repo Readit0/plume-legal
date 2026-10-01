@@ -1,6 +1,6 @@
 # Slett kontoen din og dataa dine — Plume
 
-**Sist oppdatert: 12. september 2026** — Versjon 2.0
+**Sist oppdatert: 1. oktober 2026** — Versjon 2.1
 
 
 Appen dette gjeld: **Plume** (`com.plume.plume`), gjeven ut av **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — publisert på Google Play under namnet **openfunworld**.
@@ -34,15 +34,16 @@ Slettinga fjernar **for godt**:
 
 - **kontoen din** (e-postadresse, passord, økt);
 - **bruksteljarane dine** — talet på omformuleringar brukte per dag og per månad;
-- **forslaga dine** — framlegga du måtte ha sendt oss frå appen. Det er den einaste frie teksten vi lagra;
+- **forslaga dine** — framlegga du måtte ha sendt oss frå appen;
 - **førespurnadsidentifikatorane dine** — dei tekniske referansane til dei etterspurde omformuleringane;
 - **kreditten og kvoteopplåsingane dine** — kjøpt kreditt som ikkje er brukt, opplåsingar oppnådde gjennom annonsar, justerte tak;
 - **koplinga mellom einingane dine og kontoen din** — dei andre telefonane eller nettbretta dine blir fråkopla og blir att som vanlege anonyme einingar;
-- **dei eigne språka du har laga** — namnet deira, alfabetet deira, ordlista deira, delingstoken dine og importhistorikken din. **Det denne slettinga ikkje kan gjere:** om nokon andre allereie har importert ein kopi av språket ditt hjå seg, høyrer den kopien no til dei, og **held fram å eksistere** etter slettinga di — som ei melding nokon andre allereie har motteke, kan vi ikkje slette henne hjå dei.
+- **kamuflasjeordlistene dine**, medrekna dei som er lagde i papirkorga — namnet deira, temaet deira, ordparia deira, orda som ventar, delingstokena dine, og koplingane i begge retningar (ordlistene du har delt, og dei som er delte med deg);
+- **dei eigne språka du har laga** — namnet deira, alfabetet deira, ordlista deira, orda som ventar, delingstoken dine og importhistorikken din. **Det denne slettinga ikkje kan gjere:** om nokon andre allereie har importert ein kopi av språket ditt hjå seg, høyrer den kopien no til dei, og **held fram å eksistere** etter slettinga di — som ei melding nokon andre allereie har motteke, kan vi ikkje slette henne hjå dei.
 
 Eininga du ber om sletting frå, blir **nøytralisert**: koplinga hennar til kontoen din blir sletta, identifikasjonsnøkkelen hennar blir øydelagd og bytt ut med ein daud verdi, språket hennar og appversjonen hennar blir sletta. Det står berre att eit ugjennomsiktig nummer, som ikkje lenger let nokon identifisere deg eller finne att eininga.
 
-**Vi har aldri lagra tekstane du har omformulert, eller teksten som Assistert lesing les på skjermen**: dei blir ikkje tekne vare på nokon stad på servarane våre, så det er ingenting å slette der. **Dette gjeld ikkje ordlista til eit eige språk du måtte ha laga**: innhaldet hans (namn, alfabet, ord og definisjonar) er faktisk lagra på servarane våre — sletting av kontoen din fjernar det, som resten av det som høyrer til deg (sjå nedanfor).
+**Vi lagrar ikkje tekstane du har omformulert, eller teksten som Assistert lesing les på skjermen**: dei blir ikkje tekne vare på nokon stad på servarane våre, så det er ingenting å slette der. **Dette gjeld ikkje dei eigne språka dine og kamuflasjeordlistene dine**: innhaldet deira (namn, alfabet eller tema, ord og definisjonar), og dei enkeltståande orda i meldingane dine som enno manglar der, er faktisk lagra på servarane våre — sletting av kontoen din fjernar dei, som resten av det som høyrer til deg (sjå ovanfor).
 
 **På telefonen din** er personaane dine, avatarane dine, innstillingane dine og reglane dine per app lagra lokalt. Dei blir sletta ved sletting frå appen, og forsvinn under alle omstende **når du avinstallerer Plume**.
 
@@ -60,6 +61,12 @@ Fire kategoriar spor blir verande, men **koplinga til identiteten din blir brote
 | **Tekniske tryggingssignal** (gjentekne overskridingar, feila integritetskontroll) | Kamp mot svindel. Desse registreringane inneheld **ingen tekst** og blir tekne vare på **utan einingsidentifikator**. |
 
 Desse anonymiserte dataa blir tekne vare på så lenge dei rettslege pliktene våre, særleg rekneskapsplikta, krev det, og blir deretter sletta eller aggregerte.
+
+**Tre andre element blir ikkje sletta når kontoen din blir sletta**, fordi dei ikkje er knytte til deg, eller ikkje lenger berre til deg:
+
+- **dei ukamuflerte fragmenta** — i Kamuflasje-modus utan ordliste, korte meldingsbitar (høgst 40 teikn) som er att lesbare etter kamuflasjen: dei har ingen kontoidentifikator, berre eit pseudonymt avtrykk av eininga;
+- **orddefinisjonane** — eit felles hurtigbuffer for alle brukarar, utan kontoidentifikator og utan språkidentifikator;
+- **orda du har skrive med kamuflasjeordlista til ein annan person** — dei er sette til side i ordlista til den personen, som tilhøyrer vedkommande, og følgjer same lagnad som henne.
 
 ---
 

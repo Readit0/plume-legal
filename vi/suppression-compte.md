@@ -1,6 +1,6 @@
 # Xóa tài khoản và dữ liệu của bạn — Plume
 
-**Cập nhật lần cuối: ngày 12 tháng 9 năm 2026** — Phiên bản 2.0
+**Cập nhật lần cuối: ngày 1 tháng 10 năm 2026** — Phiên bản 2.1
 
 Ứng dụng liên quan: **Plume** (`com.plume.plume`), do **SASU RedLine Music** phát hành, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — phát hành trên Google Play dưới tên **openfunworld**.
 
@@ -33,15 +33,16 @@ Việc xóa sẽ xóa **vĩnh viễn**:
 
 - **tài khoản của bạn** (địa chỉ email, mật khẩu, phiên đăng nhập);
 - **các bộ đếm mức sử dụng của bạn** — số lượt viết lại đã dùng theo ngày và theo tháng;
-- **các góp ý của bạn** — những đề xuất mà bạn có thể đã gửi cho chúng tôi từ trong ứng dụng. Đó là văn bản tự do duy nhất mà chúng tôi lưu trữ;
+- **các góp ý của bạn** — những đề xuất mà bạn có thể đã gửi cho chúng tôi từ trong ứng dụng;
 - **các mã yêu cầu của bạn** — những tham chiếu kỹ thuật của các lượt viết lại đã yêu cầu;
 - **các tín dụng và lượt mở khóa hạn mức của bạn** — tín dụng đã mua chưa dùng, lượt mở khóa có được nhờ quảng cáo, các mức trần đã điều chỉnh;
 - **việc gắn các thiết bị của bạn với tài khoản** — những điện thoại hay máy tính bảng khác của bạn được gỡ liên kết và trở lại thành những thiết bị ẩn danh đơn thuần.
-- **các ngôn ngữ cá nhân mà bạn đã tạo ra** — tên gọi, bảng chữ cái, từ điển, các mã chia sẻ và lịch sử nhập của bạn. **Điều mà việc xóa này không thể làm được:** nếu một người khác đã nhập một bản sao ngôn ngữ của bạn về máy của họ, bản sao đó từ nay thuộc về họ và **vẫn tồn tại** sau khi bạn xóa — giống như một tin nhắn mà một bên thứ ba đã nhận được, chúng tôi không thể xóa nó khỏi phía họ.
+- **các từ điển ngụy trang của bạn**, kể cả những từ điển đã bỏ vào thùng rác — tên, chủ đề, các cặp từ, các từ đang chờ, các mã chia sẻ của bạn, và các liên kết theo cả hai chiều (những từ điển bạn đã chia sẻ, và những từ điển được chia sẻ cho bạn);
+- **các ngôn ngữ cá nhân mà bạn đã tạo ra** — tên gọi, bảng chữ cái, từ điển, các từ đang chờ, các mã chia sẻ và lịch sử nhập của bạn. **Điều mà việc xóa này không thể làm được:** nếu một người khác đã nhập một bản sao ngôn ngữ của bạn về máy của họ, bản sao đó từ nay thuộc về họ và **vẫn tồn tại** sau khi bạn xóa — giống như một tin nhắn mà một bên thứ ba đã nhận được, chúng tôi không thể xóa nó khỏi phía họ.
 
 Thiết bị mà từ đó bạn yêu cầu xóa sẽ được **vô hiệu hóa**: việc gắn nó với tài khoản của bạn bị xóa, khóa định danh của nó bị hủy và được thay bằng một giá trị chết, ngôn ngữ và phiên bản ứng dụng của nó bị xóa. Chỉ còn lại một dãy số vô nghĩa, không còn cho phép nhận dạng bạn cũng như tìm lại thiết bị.
 
-**Chúng tôi chưa bao giờ lưu trữ những văn bản bạn đã viết lại, cũng như văn bản mà Đọc Có Hỗ Trợ đọc trên màn hình**: chúng chưa từng được giữ ở bất kỳ đâu trên máy chủ của chúng tôi, nên không có gì để xóa cả. **Điều này không đúng với từ điển của một ngôn ngữ cá nhân mà bạn có thể đã tạo ra**: nội dung của nó (tên gọi, bảng chữ cái, các từ và định nghĩa) thực sự được lưu giữ trên máy chủ của chúng tôi — việc xóa tài khoản của bạn sẽ xóa nó, cũng như phần còn lại của những gì thuộc về bạn (xem bên dưới).
+**Chúng tôi không lưu trữ những văn bản bạn đã viết lại, cũng như văn bản mà Đọc Có Hỗ Trợ đọc trên màn hình**: chúng không được giữ ở bất kỳ đâu trên máy chủ của chúng tôi, nên không có gì để xóa cả. **Điều này không đúng với các ngôn ngữ cá nhân và các từ điển ngụy trang của bạn**: nội dung của chúng (tên gọi, bảng chữ cái hoặc chủ đề, các từ và định nghĩa), cùng với những từ riêng lẻ trong tin nhắn của bạn mà chúng còn thiếu, thực sự được lưu giữ trên máy chủ của chúng tôi — việc xóa tài khoản của bạn sẽ xóa chúng, cũng như phần còn lại của những gì thuộc về bạn (xem ở trên).
 
 **Trên điện thoại của bạn**, các persona, ảnh đại diện, thiết lập và quy tắc theo từng ứng dụng của bạn được lưu cục bộ. Chúng bị xóa khi bạn thực hiện việc xóa từ trong ứng dụng, và trong mọi trường hợp **chúng biến mất khi bạn gỡ cài đặt Plume**.
 
@@ -59,6 +60,12 @@ Ba loại dấu vết vẫn còn, nhưng **mối liên hệ với danh tính c�
 | **Các tín hiệu kỹ thuật về an ninh** (vượt hạn mức nhiều lần, kiểm tra tính toàn vẹn thất bại) | Chống gian lận. Các bản ghi này **không chứa bất kỳ văn bản nào** và được lưu **không kèm mã định danh thiết bị**. |
 
 Những dữ liệu đã được ẩn danh này được lưu trong thời hạn mà các nghĩa vụ pháp lý của chúng tôi, nhất là nghĩa vụ kế toán, đòi hỏi, sau đó bị xóa hoặc được tổng hợp lại.
+
+**Ba mục khác không bị xóa khi tài khoản của bạn bị xóa**, vì chúng không gắn với bạn, hoặc không chỉ gắn với riêng bạn:
+
+- **các đoạn chưa được ngụy trang** — ở chế độ Ngụy trang không có từ điển, những mẩu tin nhắn ngắn (tối đa 40 ký tự) vẫn đọc được sau khi ngụy trang: chúng không mang mã định danh tài khoản nào, chỉ có một dấu vân tay giả danh của thiết bị;
+- **các định nghĩa của từ** — một bộ nhớ đệm chung cho mọi người dùng, không có mã định danh tài khoản hay ngôn ngữ;
+- **các từ bạn đã viết với từ điển ngụy trang của người khác** — chúng đã được để riêng ra trong từ điển của người đó, vốn thuộc về người đó và chịu chung số phận với nó.
 
 ---
 

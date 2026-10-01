@@ -1,6 +1,8 @@
 # Sartu Sutura bu Plume
 
-**Yeesalaat bu mujj: 12 sattumbar 2026** — Bindeef 2.0
+**Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 2.1
+
+> *Lu soppiku ci bindeef 2.1:* dinanu leeral **mode Nëbb**, bi bindeef 2.0 waxul ko, te dinanu jubbanti benn wax bu dootul dëgg: ci **làkk yu bopp** yi ak ci Nëbb itam, **baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire dañu leen di denc, benn-benn** — mukk du kàddu gi — ngir mën la ko wax nga yokk leen. Ndetaal bi nekk na ci "Ci benn diriit", ci §2.2 ak ci §3.
 
 > *Lu soppiku ci bindeef 1.0 ba léegi, ak lu tax mën nga gis ekran wone nangu bi ci aplikasion bi:* danuy jubbanti ñaari wax yu meunul woon dëgg. Bu njëkk, jumtukaay bu **làkk yu bopp** yi dafay denc ci sunuy server kontenu bi nga sos (turam, alfabet, dictionnaire) — bindeef 1.0 wax na, lu meunul dëgg, ne amul benn mbind bu denc. Ci topp, dañu jëfandikoo léegi jumtukaay bu **rapoor ci njumte yu teknik** — bindeef 1.0 wax woon na ne amul benn jumtukaay bu mel noonu. Ndetaal bu ñaari lëkkalekaay yii nekk na ci "Ci benn diriit" ci suuf, walla itam ci §3 ak §9. Ñooy exactement ñaari melo yu soppiku, ci aplikasion bi, di jibal genn nangu gu bees (xool §11).
 
@@ -25,7 +27,7 @@ Plume dana la dimbali ci bindal: dana soppi sa mbind fi nga koy bindee ci aplika
 
 Ñatti yëf yu war nga fàttaliku:
 
-1. **Plume duñu denc dara ci sa mbind yi nga soppi, walla mbind mi ñu jàng ci ekran bi.** Duñu ko topp, duñu ko bind ci jurnal. **Ay dellëg bu ñu def ci sa xalaat, te sa bopp nga ko def:** su nga sos benn **làkk bu bopp** (sa làkk bu bopp, jaar ci dictionnaire bu baat ak tekki), kontenu bu làkk boobu, moom, **danuy ko denc** ci sunuy server — moo di kaal wu rekk wu mën la wallu nga ci gis ci beneen sañse (téléphone), yokk ko, te séddale ko. Ndetaal ci §3.
+1. **Plume duñu denc dara ci sa mbind yi nga soppi, walla mbind mi ñu jàng ci ekran bi.** Duñu ko topp, duñu ko bind ci jurnal. **Ay dellëg yu ñu def ci sa xalaat, te sa bopp nga ko def:** su nga sos benn **làkk bu bopp** (sa làkk bu bopp, jaar ci dictionnaire bu baat ak tekki) walla benn **Denc-kàddu bu nëbb** (sa kod bu mbóot ci baat), kontenu bi, moom, **danuy ko denc** ci sunuy server — moo di kaal wu rekk wu mën la wallu nga ci gis ci beneen sañse (téléphone), yokk ko, te séddale ko. Te bu nga bind ci ñaari mode yooyu, **baat yi nekk ci sa bataaxal te manquee ci sa dictionnaire** dañu leen di wacc ci wet, benn-benn — mukk du kàddu gi — ngir mën la ko wax nga yokk leen. Ndetaal ci §3.
 2. **Ci lu aju ci moteur wi nga tann, sa mbind dana génn walla dootul génn ci sa téléphone.** Ñaari moteur (Kit bu bopp bi ak IA bu bopp bi) dañuy liggéey lépp ci sañse bi. Bu ñetteel bi (IA Cloud) dana yónnee mbind mi ci benn service intelligence artificielle bu nekk **ci biir Bànq bu Ëropp**. Yaw nga koy tann, te IA Cloud du fippu mukk lu ndare sa nangu wu wér.
 3. **Plume soxla na sañ-sañ yu am doole** (jàng lu feeñ ci yeneen aplikasion, nangu ekran bi). Ci suuf dinanu la leer nu ñuy jëfandikoo leen ak nu ñu leen jëfandikoowul.
 
@@ -82,7 +84,8 @@ Bu nga tann IA Cloud, walla bu sa sañse doyul doole ngir IA bu bopp bi, mbind m
 - Mbind mi dana jaar ci sunu infrastructure server, bu nekk ci **biir Bànq bu Ëropp** (Ëropp digg, Frankfurt).
 - Gannaaw loolu dañu koy yónnee ci benn moroom bu jottali bu nekk **ci biti Bànq bu Ëropp**, moo koy jox benn modèl IA bu ñetteel moroom ngir mu liggéeyal ko.
 - **Kon lii yónnee done ci biti Bànq bu Ëropp la.** Duñu wax ni lu ko wor la, te duñu wax benn dëgg-dëgg wu wone ni hébergement bi nekk ci Ëropp ci diirub tàkkalu boobu.
-- **Plume duñu denc sa mbind.** Amul benn fonksiyon server yu Plume di bind kontenu bu sa mbind: dañuy denc rekk benn identifiant technique bu laaj bi ak identifiant bu sa sañse, ngir xayma sa quota ak gis njumte yi.
+- **Plume duñu denc sa mbind.** Amul benn fonksiyon server yu Plume di bind kontenu bu sa mbind: dañuy denc rekk benn identifiant technique bu laaj bi ak identifiant bu sa sañse, ngir xayma sa quota ak gis njumte yi. **Benn dellëg rekk:** ci mode Làkk bu bopp ak ci mode Nëbb, baat yi manquee ci sa dictionnaire dañu leen di wacc ci wet (xool §3).
+- **Mode Nëbb ak mode Làkk bu bopp ñoo jaar ci yoon wi ci boppam** saa su ñu soxlaa AI: ngir nëbb walla ubbi benn bataaxal bu sa dictionnaire cuuxul lépp, ngir toppatoo walla conjuguer benn baat, walla ngir yokk sa dictionnaire (baat yi ngi xaar dañuy yónnee ci xëtu AI bi). Ekran bi di won mode Nëbb dina la ko xamal balaa nga ko tàllal.
 - **Lu prestataire yii di def ci seen wetu, duñu ko garanti.** Bëgg nanu koy leeral ci yaw ci lu gën a fés wuute ak nu ñuy dige la ne mbind du denc mukk, fekk du nanu am doole ngir wér ci loolu.
 
 **IA Cloud du fippu boppam mukk.** Benn ekran bu nangu bu jagleel dana la leeral yëf yii laata bu njëkk mbind mi yónnee, te dara du génn ba kañ nga nangu ko. Su IA bu bopp bi dee ñàkk, Plume du ci suuf sonne ci cloud bi: dana la xamal te xaar sa dogal. Mën nga wéyal nangu boobu bés bu nekk ci paramet yi.
@@ -107,6 +110,11 @@ Lii mooy lépp lu ñuy denc ci sunuy server:
 | **Marque technique bu njumte** (bàyyi wàll bu ñu def ay yoon, njumte ci contrôle bu intégrité — amul benn mbind) | Kaaraange, xeex njumte | Séddoo ci sa boppu bu kant bi far |
 | **Làkk ak bindeef bu aplikasion bi** | Jox lu baax ci kontenu | Ba kant bi dee far |
 | **Kontenu bu làkk yu bopp yi nga sos** (turam, alfabet, ak dictionnaire — baat yi ak tekki yi yaw walla ñeneen def ci) | Wallu la gis sa làkk ci beneen sañse, yokk ko, te séddale ko ak ñeneen jëfandikookat | Ba kañ làkk bi di nekk. Su nga far ko, fiche bi day mucc — waaye kopi bu ñu **jël** (import) ci beneen moom nekk na moom te dana **des** ni benn bataaxal ku ñeneen jot na ko, te duñu ko mën a far ci moom |
+| **Say Denc-kàddu yu nëbb** (turam, temaam, làkk bi, emblème bi nga tànn, ak ay jotali baat "baat bu dëgg → baat bu kod") | Nëbb ak ubbi say bataaxal, wallu la gis sa denc-kàddu ci beneen sañse, yokk ko te séddale ko | Ba kañ denc-kàddu bi di nekk. **Denc-kàddu bu ñu tàbbal ci corbeille day des:** amul benn wàññi bu otomatik ci corbeille bi ba tay. Day far su nga far sa kont |
+| **Baat yi ngi xaar** (làkk bu bopp ak Nëbb): baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire — mukk du kàddu gi —, ak lim bi ñu feeñ ak bés bu njëkk ak bu mujj bu ñu feeñ | Wax la nga yokk leen ci sa dictionnaire, te xëtu AI bi di leen jëfandikoo bu nga yokkee sa dictionnaire | Dañu leen di denc ba tay gannaaw bi ñu leen yokkee, ba kañ làkk bi walla denc-kàddu bi di nekk. **Su nga bindee ak denc-kàddu bu nëbb bu ku ñeneen séddale la**, baat yi manquee dañu leen di wacc **ci denc-kàddu bi**, te kooku mën na leen gis |
+| **Séddale say làkk ak say denc-kàddu** (benn jeton bu séddale, bu ñu denc rekk ni empreinte; jaar-jaar bu import ak lëkkalekaay) | May say mbokk jàng sa bataaxal yi. Boroom denc-kàddu bi gis na limu ñi ko lëkkale (turu wone ak nataalu profil Google — mukk du adresse email) | Jeton bi day jeex. Raaya bu séddale bu ñu far dañu ko denc |
+| **Cat yu ñu nëbbul** (mode Nëbb te amul denc-kàddu: ay cat yu gàtt ci bataaxal bi, 40 caractère rekk ci kaw, yu des ñu mën leen jàng gannaaw nëbb bi) | Rafetal tabel nëbb bu bokk | Amul identifiant bu kont, dañu leen jëlee rekk ak empreinte bu pseudonyme bu sañse bi. Benn diir taxawalul ba tay, te duñu leen far su kont bi faree |
+| **Tekki yu baat yi** (baat bi ak tekkam bu ñu sos, su nga laajee tekkam bu benn baat ci sa dictionnaire) | Bañ a sos ñaari yoon tekki bi kenn | Cache bu bokk ngir ñépp, **amul identifiant** bu kont walla bu làkk. Duñu ko far su kont bi faree |
 | **Rapoor bu njumte teknik** (melo njumte, jubbanti technique bu wàññi, bindeef aplikasion bi, système d'exploitation — du benn mbind) | Xàmle ak jubbanti njumte yu aplikasion bi | Sunu fournisseur bu rapoor njumte moo koy yorë (xool §9). Dénc bii dafay aju ci sa nangu ak ci benn bouton bu mën nu tere sunu bopp bés bu nekk, te sonn a yeesal aplikasion bi |
 
 **Lu duñu jël:** sa tur, sa jokkoo yi, sa nekkin, sa carnet adresse, sa nataal yi, sa calendrier, jaar-jaar bu sa aplikasion yi. Plume duñu laaj benn ci sañ-sañ yii.
@@ -193,7 +201,7 @@ Ci li aplikasion bi di may soppi mbind bu bopp te di won reklaam, aplikasion bi 
 
 ## 10. Kaaraange
 
-Jokkoo diggante aplikasion bi ak sunuy server dañu ko chiffré (HTTPS/TLS). Jotu ci done yi ci base de données dafa dañu ko wàññi ci sart server: fonksiyon yu am solo duñu jot ci ci aplikasion bi. Amul benn système bu mat sëkk ci kaaraange. Mbind mi nga soppi ak mi Jàngukaay bu Ndimbal di won ci ekran bi duñu leen denc ci nun, loolu day wàññi lu benn dugg bu bañ mën a feeñal ci seen mbir. **Loolu du dëgg ci lépp:** dictionnaire bu làkk yu bopp yi nga sos, moom, **dañu ko denc** (xool §3), te dana mën a feeñ ni benn done bu des ci sart bii su fekkée am dugg bu bañ ci dëgg-dëgg — dañu koy wattu ak sart yu jot yu server yu mel ni lu des yépp.
+Jokkoo diggante aplikasion bi ak sunuy server dañu ko chiffré (HTTPS/TLS). Jotu ci done yi ci base de données dafa dañu ko wàññi ci sart server: fonksiyon yu am solo duñu jot ci ci aplikasion bi. Amul benn système bu mat sëkk ci kaaraange. Mbind mi nga soppi ak mi Jàngukaay bu Ndimbal di won ci ekran bi duñu leen denc ci nun, loolu day wàññi lu benn dugg bu bañ mën a feeñal ci seen mbir. **Loolu du dëgg ci lépp:** dictionnaire bu làkk yu bopp yi nga sos, say denc-kàddu yu nëbb ak baat yi ngi xaar, moom, **dañu leen denc** (xool §3), te danañu mën a feeñ ni benn done bu des ci sart bii su fekkée am dugg bu bañ ci dëgg-dëgg — dañu koy wattu ak sart yu jot yu server yu mel ni lu des yépp.
 
 ---
 

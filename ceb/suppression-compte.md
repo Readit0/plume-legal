@@ -1,6 +1,6 @@
 # Pagtangtang sa inyong account ug datos — Plume
 
-**Kataposang pag-update: 12 Septyembre 2026** — Bersyon 2.0
+**Kataposang pag-update: 1 Oktubre 2026** — Bersyon 2.1
 
 
 Aplikasyon nga naapektuhan: **Plume** (`com.plume.plume`), gimantala sa **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, France — gipatik sa Google Play ubos sa ngalan **openfunworld**.
@@ -34,15 +34,16 @@ Ang pagtangtang mopapas **hangtod sa hangtod**:
 
 - **ang inyong account** (email address, password, session) ;
 - **ang inyong mga counter sa paggamit** — ang gidaghanon sa pagsulat pag-usab nga nagasto matag adlaw ug matag bulan ;
-- **ang inyong mga suhestiyon** — ang mga sugyot nga inyong gipadala kanamo gikan sa aplikasyon. Kini ra ang libre nga teksto nga among gitipigan ;
+- **ang inyong mga suhestiyon** — ang mga sugyot nga inyong gipadala kanamo gikan sa aplikasyon ;
 - **ang inyong mga identifier sa request** — ang teknikal nga mga reference sa mga pagsulat pag-usab nga gihangyo ;
 - **ang inyong mga credit ug pag-unlock sa quota** — mga credit nga gipalit apan wala pa magasto, mga pag-unlock nga nakuha pinaagi sa advertisement, mga cap nga na-adjust ;
 - **ang pagsumpay sa inyong mga device ngadto sa inyong account** — ang inyong ubang mga telepono o tablet gilain ug mahibalik nga yano nga anonymous nga mga device ;
-- **ang mga personal nga pinulongan nga inyong gimugna** — ang ngalan, ang alpabeto, ang bokabularyo niini, ang inyong mga share token ug ang inyong import history. **Ang dili mahimo niini nga pagtangtang:** kung ang laing tawo na-import na ang usa ka kopya sa inyong pinulongan didto kaniya, iya na kini nga kopya karon ug **magpabilin**, human sa inyong pagtangtang — sama sa usa ka mensahe nga nadawat na sa laing tawo, dili namo kaya pukanon kini didto kaniya.
+- **ang inyong mga lista sa pagtabon**, lakip ang gibalhin sa basurahan — ang ilang ngalan, tema, mga parisan sa pulong, mga pulong nga naghulat, inyong mga share token ug ang mga koneksyon sa duha ka direksyon (ang mga lista nga inyong gipaambit, ug kadtong gipaambit kaninyo) ;
+- **ang mga personal nga pinulongan nga inyong gimugna** — ang ngalan, ang alpabeto, ang bokabularyo niini, ang mga pulong nga naghulat, ang inyong mga share token ug ang inyong import history. **Ang dili mahimo niini nga pagtangtang:** kung ang laing tawo na-import na ang usa ka kopya sa inyong pinulongan didto kaniya, iya na kini nga kopya karon ug **magpabilin**, human sa inyong pagtangtang — sama sa usa ka mensahe nga nadawat na sa laing tawo, dili namo kaya pukanon kini didto kaniya.
 
 Ang device diin inyong gihangyo ang pagtangtang **gi-neutralize**: ang pagsumpay niini sa inyong account gitangtang, ang identification key niini gigub-on ug giilisan og patay nga value, ang pinulongan ug bersyon sa aplikasyon niini gitangtang. Nabilin na lang ang usa ka opaque nga numero, nga dili na makatugot sa pag-ila kaninyo ni sa pagpangita pag-usab sa device.
 
-**Wala gyud namo gitipigan ang mga teksto nga inyong gisulat pag-usab, ni ang teksto nga gibasa sa screen sa Assisted Reading**: wala kini gitipigan bisan asa sa among mga server, busa walay bisan unsa nga tangtangon niini. **Dili kini tinuod sa bokabularyo sa usa ka personal nga pinulongan nga inyong gimugna:** ang sulod niini (ngalan, alpabeto, mga pulong ug kahulugan) tinuod nga gitipigan sa among mga server — ang pagtangtang sa inyong account nagapapas niini, sama sa uban pang butang nga iya ninyo (tan-awa sa ubos).
+**Wala namo gitipigan ang mga teksto nga inyong gisulat pag-usab, ni ang teksto nga gibasa sa screen sa Assisted Reading**: wala kini gitipigan bisan asa sa among mga server, busa walay bisan unsa nga tangtangon niini. **Dili kini tinuod sa inyong personal nga mga pinulongan ug sa inyong mga lista sa pagtabon:** ang sulod niini (ngalan, alpabeto o tema, mga pulong ug kahulugan), lakip ang mga bulag nga pulong sa inyong mga mensahe nga kulang pa niini, tinuod nga gitipigan sa among mga server — ang pagtangtang sa inyong account nagapapas niini, sama sa uban pang butang nga iya ninyo (tan-awa sa ibabaw).
 
 **Sa inyong telepono**, ang inyong mga persona, mga avatar, mga setting ug mga rule matag aplikasyon gitipigan nga lokal. Mapapas kini sa pagtangtang gikan sa aplikasyon, ug sa bisan unsang kaso **mahanaw kung inyong i-uninstall ang Plume**.
 
@@ -60,6 +61,12 @@ Upat ka kategorya sa mga bakas ang magpabilin, apan **ang sumpay sa inyong pagka
 | **Ang mga teknikal nga signal sa seguridad** (balik-balik nga paglapas, pagkapakyas sa integrity check) | Pakigbugno batok sa panlimbong. Kini nga mga rekord walay **bisan unsang teksto** ug gitipigan **nga walay device identifier**. |
 
 Kini nga mga anonymized nga datos gitipigan sulod sa gidugayon nga gikinahanglan sa among mga legal nga obligasyon, ilabina ang accounting, dayon matangtang o ma-aggregate.
+
+**Tulo pa ka elemento ang wala mapapas sa pagtangtang sa inyong account**, tungod kay wala kini konektado kaninyo, o dili na kaninyo lamang konektado:
+
+- **ang mga dili natagoan nga tipik** — sa Pagtago nga mode nga walay lista, mubo nga mga piraso sa mensahe (40 ka karakter ang pinakamaksimum) nga nagpabilin nga mabasa human sa pagtago: walay dala nga account identifier, kundili pseudonymous nga fingerprint lamang sa device ;
+- **ang mga kahulugan sa pulong** — usa ka komon nga cache alang sa tanang user, walay identifier sa account o pinulongan ;
+- **ang mga pulong nga inyong gisulat gamit ang lista sa pagtabon sa laing tawo** — gibutang kini sa tabi sa iyang lista, nga iya niya, ug nagsunod sa kapalaran niini.
 
 ---
 

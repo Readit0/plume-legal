@@ -1,6 +1,6 @@
 # Brisanje vašeg naloga i vaših podataka — Plume
 
-**Zadnje ažuriranje: 12. septembar 2026.** — Verzija 2.0
+**Zadnje ažuriranje: 1. oktobar 2026.** — Verzija 2.1
 
 
 Predmetna aplikacija: **Plume** (`com.plume.plume`), izdaje **SASU RedLine Music**, Abbaye 208-1, 208 Résidence Lavoisier, 18100 Vierzon, Francuska — objavljena na Google Play-u pod imenom **openfunworld**.
@@ -34,15 +34,16 @@ Brisanje **trajno** uklanja:
 
 - **vaš nalog** (e-mail adresa, lozinka, sesija);
 - **vaše brojače korištenja** — broj preformulacija potrošenih po danu i po mjesecu;
-- **vaše prijedloge** — prijedloge koje ste nam eventualno poslali iz aplikacije. To je jedini slobodni tekst koji čuvamo;
+- **vaše prijedloge** — prijedloge koje ste nam eventualno poslali iz aplikacije;
 - **vaše identifikatore zahtjeva** — tehničke reference traženih preformulacija;
 - **vaše kredite i otključavanja kvote** — kupljene neiskorištene kredite, otključavanja dobijena putem oglasa, prilagođena ograničenja;
 - **povezanost vaših uređaja sa vašim nalogom** — vaši drugi telefoni ili tableti se odvezuju i ponovo postaju obični anonimni uređaji;
-- **lične jezike koje ste kreirali** — njihov naziv, alfabet, rječnik, vaše tokene dijeljenja i vašu historiju uvoza. **Šta ovo brisanje ne može učiniti:** ako je neko drugi već uvezao kopiju vašeg jezika kod sebe, ta kopija sada pripada njemu i **opstaje** nakon vašeg brisanja — poput poruke koju je treća strana već primila, ne možemo je obrisati na njenoj strani.
+- **vaše rječnike kamuflaže**, uključujući one prebačene u korpu za smeće — njihov naziv, temu, parove riječi, riječi na čekanju, vaše tokene dijeljenja i povezivanja u oba smjera (rječnici koje ste podijelili i oni koji su podijeljeni s vama);
+- **lične jezike koje ste kreirali** — njihov naziv, alfabet, rječnik, riječi na čekanju, vaše tokene dijeljenja i vašu historiju uvoza. **Šta ovo brisanje ne može učiniti:** ako je neko drugi već uvezao kopiju vašeg jezika kod sebe, ta kopija sada pripada njemu i **opstaje** nakon vašeg brisanja — poput poruke koju je treća strana već primila, ne možemo je obrisati na njenoj strani.
 
 Uređaj sa kojeg tražite brisanje je **neutralisan**: njegova povezanost sa vašim nalogom se briše, njegov identifikacioni ključ se uništava i zamjenjuje mrtvom vrijednošću, njegov jezik i verzija aplikacije se brišu. Ostaje samo neproziran broj, koji vas više ne omogućava identifikovati niti pronaći uređaj.
 
-**Nikada nismo čuvali tekstove koje ste preformulisali, niti tekst koji je Asistirano čitanje pročitalo na ekranu**: oni se nikada ne čuvaju na našim serverima, pa nema šta brisati. **Ovo ne vrijedi za rječnik ličnog jezika koji ste eventualno kreirali**: njegov sadržaj (naziv, alfabet, riječi i definicije) se zaista čuva na našim serverima — brisanje vašeg naloga ga briše, kao i ostatak onoga što vam pripada (vidi ispod).
+**Ne čuvamo tekstove koje ste preformulisali, niti tekst koji je Asistirano čitanje pročitalo na ekranu**: oni se nikada ne čuvaju na našim serverima, pa nema šta brisati. **Ovo ne vrijedi za vaše lične jezike i vaše rječnike kamuflaže**: njihov sadržaj (naziv, alfabet ili tema, riječi i definicije), kao i pojedinačne riječi iz vaših poruka koje su im još nedostajale, se zaista čuvaju na našim serverima — brisanje vašeg naloga ih briše, kao i ostatak onoga što vam pripada (vidi iznad).
 
 **Na vašem telefonu**, vaše persone, vaši avatari, vaša podešavanja i vaša pravila po aplikaciji su sačuvani lokalno. Brišu se brisanjem iz aplikacije, i u svakom slučaju **nestaju kada deinstalirate Plume**.
 
@@ -60,6 +61,12 @@ Ostaju četiri kategorije tragova, ali **veza sa vašim identitetom je prekinuta
 | **Tehnički sigurnosni signali** (ponovljena prekoračenja, neuspjesi provjere integriteta) | Borba protiv prevara. Ovi zapisi ne sadrže **nikakav tekst** i čuvaju se **bez identifikatora uređaja**. |
 
 Ovi anonimizovani podaci se čuvaju onoliko dugo koliko zahtijevaju naše zakonske, posebno računovodstvene, obaveze, a zatim se brišu ili agregiraju.
+
+**Tri druga elementa se ne brišu brisanjem vašeg naloga**, jer nisu povezani s vama, ili više nisu povezani samo s vama:
+
+- **nekamuflirani fragmenti** — u režimu Kamuflaža bez rječnika, kratki dijelovi poruke (najviše 40 znakova) koji su ostali čitljivi nakon kamufliranja: ne nose nikakav identifikator naloga, samo pseudonimni otisak uređaja;
+- **definicije riječi** — zajednički keš za sve korisnike, bez identifikatora naloga ili jezika;
+- **riječi koje ste napisali s rječnikom kamuflaže druge osobe** — odložene su u njenom rječniku, koji njoj pripada, i dijele njegovu sudbinu.
 
 ---
 
