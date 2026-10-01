@@ -1,6 +1,8 @@
 # Umgaqo-nkqubo woBumfihlo bePlume
 
-**Uhlaziyo lokugqibela: 1 ku-Okthobha 2026** — Uhlobo 2.1
+**Uhlaziyo lokugqibela: 1 ku-Okthobha 2026** — Uhlobo 2.2
+
+> *Oko kutshintshileyo kuhlobo 2.2:* sichaza **Unxibelelwano ngomsindo**, umguquleli welizwi lwe-Plume, obungekho kuhlobo 2.1: oko kuhlala kwifowuni yakho, oko kuphumayo kwimowudi ye-AI Pro, kunye nokufundwa ngokuvakalayo yinjini yokwenza ilizwi yefowuni (jonga §4.1 no-§9).
 
 > *Oko kutshintshileyo kuhlobo 2.1:* sichaza **imowudi yokuFihla**, ebingakhankanywanga kuhlobo 2.0, size silungise ibango elingasachanekanga: kwiilwimi zabucala nakwiKufihla, **amagama asemiyalezweni yakho angekabikho kwisichazi-magama sakho agcinwa ngalinye ngalinye** — ayizange kugcinwe isivakalisi — ukuze sikwazi ukukucebisa ukuba uwongeze. Iinkcukacha zikwi-"Kumzuzu omnye", kwi-§2.2 nakwi-§3. Sikwalatha nephutha lesibini: **iipersona zakho ezizodwa kunye neeavatha zazo ziyagcinwa kwiiseva zethu** — azihlali kuphela kwifowuni yakho (jonga i-§3).
 
@@ -134,6 +136,16 @@ Iqhosha lemakrofoni likuvumela ukuba uthethe endaweni yokubhala. Imvume yokufike
 
 Ukuba wala imvume yemakrofoni, ukubhala ngekhibhodi kuyahlala kufumaneka.
 
+### 4.1 Unxibelelwano ngomsindo (umguquleli welizwi)
+
+Unxibelelwano ngomsindo luguqulela ngelizwi elizwakalayo ingxoxo phakathi kwabantu ababini. **Imayikhrofowuni ivulwa kuphela xa uchukumisa isangqa**, kwaye iyavalwa ekupheleni kwesivakalisi ngasinye.
+
+- **Intetho** ibhalwa yinjini enye yokwazi ilizwi yefowuni esetyenziswa ekuthetheni ngokusebenzisa ilizwi, ngezilumkiso ezifanayo nezingasentla. **I-Plume ifumana umbhalo kuphela, ungabi ngumsindo.** Ukuba imodyuli yolwimi engasebenzisi i-intanethi ayikho, i-Plume icela ifowuni ukuba iyikhuphele; ngeli xesha, injini yefowuni inokubhala kwi-intanethi.
+- **Kwimowudi ye-Ikiti yasekhaya** (simahla), uguqulelo lwenzeka **kwifowuni yakho**.
+- **Kwimowudi ye-AI Pro** (abanomrhumo), umbhalo obhaliweyo uthunyelwa kumaseva ethu emva koko kumboneleli wethu wokucubungula ngobukrelekrele bokwenziwa, olungisa iimpazamo zokumamela aze awuguqulele — ngendlela efanayo naleyo yokwe-§2.2. **Asiwugcini umbhalo okanye uguqulelo lwawo.**
+- **Ukufundwa ngokuvakalayo** kwenziwa yinjini yokwenza ilizwi yefowuni (ngokuqhelekileyo eyeGoogle). Kwiimowudi zozibini, i-Plume iyicela **amazwi ayo asebenzisa i-intanethi**, adlala ngendlela yendalo ngakumbi: umbhalo oguqulelweyo emva koko uthunyelwa kumshicileli wayo ukuze uthethwe. Xa ungekho kwi-intanethi, ilizwi elifakwe kwifowuni lithatha indawo.
+- **Imbali yengxoxo ihlala kwifowuni yakho** kwaye iyanyamalala xa uphuma kwiscreen. Kukhunjulwa kuphela isibini solwimi esikhethiweyo, injini ekhethiweyo kunye nenani lengxoxo (kwisibhengezo senqanaba elisimahla) kwidivayisi.
+
 ---
 
 ## 5. Isibhengezo
@@ -191,7 +203,7 @@ Njengoko i-app ivumela ukulungiswa kombhalo okhululekileyo kwaye ibonisa izibhen
 | **Umnikezeli wethu wokucutshwa nge-AI** | Ukulathisa izicelo nokucutshwa kombhalo yimodeli ye-AI yeqela lesithathu | **Ngaphandle kweManyano yaseYurophu** |
 | **Google Play / Google Billing** | Intlawulo, imirhumo | Google Ireland / i-United States |
 | **Google AdMob** | Isibhengezo esinomvuzo | Google Ireland / i-United States |
-| **Google (iinkonzo zenkqubo zefowuni)** | Ukwazi ilizwi, iimodyuli zoguqulelo ngaphandle kwe-intanethi | Kuxhomekeke kwidivayisi yakho |
+| **Google (iinkonzo zenkqubo zefowuni)** | Ukwazi ilizwi, ukwenza ilizwi (ukufundwa ngokuvakalayo koNxibelelwano ngomsindo), iimodyuli zoguqulelo ngaphandle kwe-intanethi | Kuxhomekeke kwidivayisi yakho |
 | **Umnikezeli wethu weengxelo zeengxaki** | Ingxelo yeengxaki zobuchwepheshe — kuphela iimpazamo zenkqubo, zihluziwe phambi kokuthunyelwa: ayikhe ibe ngumbhalo wakho | I-United States |
 
 **Asithengisi nayiphi na idatha kwaye asiyiniki nabaphi na abarhwebi bedatha.**

@@ -1,6 +1,8 @@
 # Téarmaí agus Coinníollacha Ginearálta Úsáide agus Díola — Plume
 
-**Nuashonrú deireanach: 31 Iúil 2026** — Leagan 1.0
+**Nuashonrú deireanach: 1 Deireadh Fómhair 2026** — Leagan 1.1
+
+> *A bhfuil athraithe i leagan 1.1:* déanaimid cur síos ar **Cumarsáid fhuaime**, ateangaire gutha Plume, agus ar a mhód **AI Pro** (Airteagail 2 agus 6). Scríobhaimid dhá riail faoi chreidmheasanna an tsíntiúis go soiléir: tá siad **míosúil agus ní charnaítear iad** ó mhí go mí (Airteagal 6), agus mura **n-athnuaitear** an síntiús, fanann iarmhéid na míosa deireanaí inúsáidte ar feadh **7 lá** sula scriostar é (Airteagal 7). Fanann na creidmheasanna a cheannaítear sa siopa, ar a seal, **faighte go buan** (Airteagal 8).
 
 ---
 
@@ -24,7 +26,8 @@ Is uirlis chabhrach scríbhneoireachta é Plume a fheidhmíonn ar Android. Ligea
 - **téacs atá á scríobh agat a athfhoclú**, go díreach san fheidhmchlár ina scríobhann tú é, agus stíl ("persona") á roghnú agat;
 - **téacs atá ar taispeáint ar an scáileán a aistriú nó a achoimriú**, agus moladh freagra ar theachtaireacht a fuair tú a fháil;
 - an **Léitheoireacht Chuidithe** a úsáid, a chuireann aistriúchán anuas ar an téacs atá ar taispeáint ar an scáileán;
-- téacs a **dheachtú** in ionad é a chlóscríobh.
+- téacs a **dheachtú** in ionad é a chlóscríobh;
+- **Cumarsáid fhuaime** a úsáid, ateangaire gutha a aistríonn comhrá idir beirt os ard, nó i scríbhinn (mód Scríobh).
 
 Ag brath ar do ghléas agus ar do rogha, déantar an phróiseáil **ar do ghuthán** nó **ar fhreastalaithe cianda**. Tá cur síos ar chúrsaíocht bheacht do chuid sonraí inár mbeartas príobháideachais: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Tá uasteorainn le húsáid na seirbhíse, chun costas na próiseála a rialú.
 - Nuair a dhéantar an phróiseáil **ar do ghléas** (gléasanna atá comhoiriúnach leis an IS áitiúil): **úsáid gan teorainn**, faoi réir amháin theorainneacha teicniúla do ghutháin (ceallra, téamh).
 - Nuair a dhéantar an phróiseáil **ar ár bhfreastalaithe**: tá uasteorainn leis an úsáid in aghaidh an lae agus in aghaidh na míosa, toisc go bhfuil costas fíor ar gach glao. *Ar dháta na scríbhneoireachta: 1 000 in aghaidh an lae agus 9 000 in aghaidh na míosa.*
 
+**Tá creidmheasanna an tsíntiúis míosúil agus ní charnaítear iad.** Tá creidmheasanna míosa bailí go deireadh na míosa sin: ní **iompraítear** an méid nár úsáideadh go dtí an chéad mhí eile, áit a ndéantar an cuntar a athshocrú ar nialas. Mura n-athnuaitear an síntiús, baineann Airteagal 7.
+
+**Cumarsáid fhuaime.** Tá an mód **Kit áitiúil** saor in aisce: déantar an t-aistriúchán ar do ghuthán (ar an leibhéal saor in aisce, d'fhéadfadh fógra a bheith le feiceáil ó am go chéile). Tá an mód **AI Pro** forchoimeádta do shíntiúsóirí: caitheann gach aistriúchán líon **seasta** aonad cuóta, de réir na sprioctheanga — *ar dháta na scríbhneoireachta, 1 aonad, agus 3 do theanga atá marcáilte PRO*. Taispeántar an costas san fheidhmchlár roimh an úsáid agus **bainfear go huathoibríoch** é tar éis gach aistriúchán rathúil; ní bhaintear aon rud as aistriúchán a theipeann. Gan iarmhéid leordhóthanach, ní dhéantar an t-aistriúchán AI Pro.
+
 **Pointí comónta do na leibhéil ar fad:**
 
 - Tá **anailís scáileáin** (aistriú nó moladh freagra) níos costasaí ná athfhoclú simplí agus caitheann sí **roinnt aonad cuóta** — 5 faoi láthair.
@@ -102,6 +109,8 @@ Tá uasteorainn le húsáid na seirbhíse, chun costas na próiseála a rialú.
 
 **Deireadh an tsíntiúis.** Ag an dáta éaga, filleann do chuntas ar an leibhéal saor in aisce. Ní chailleann tú do chuntas, ná do chuid personaí, ná do chuid socruithe.
 
+**Mura n-athnuaitear do shíntiús, tá 7 lá ag do chreidmheasanna atá fágtha.** Fanann iarmhéid creidmheasanna do mhí dheireanach an tsíntiúis inúsáidte ar feadh **7 lá** ó dheireadh an tsíntiúis; tar éis na tréimhse sin, **scriostar go buan** é. Cuireann an feidhmchlár teachtaireacht chugat ag tús na tréimhse seo, leis an iarmhéid agus an spriocdháta. Ní bhaineann an tréimhse seo i gcás aisíoca. Ní bhaineann sé le creidmheasanna a cheannaítear sa siopa (Airteagal 8): fanann siad faighte.
+
 ---
 
 ## Airteagal 8 — Paicéid agus ceannacháin aonair
@@ -110,7 +119,7 @@ Díoltar ábhair áirithe (paicéid personaí, creidmheasanna cuóta breise) ina
 
 *Praghas ar dháta na scríbhneoireachta: 2,99 € an paicéad. Is é an praghas a cheanglaíonn ort an ceann a thaispeántar tráth an cheannaigh.*
 
-Tá paicéad a cheannaítear **faighte go buan** agus ceangailte le do chuntas. Faigheann tú ar ais é trí logáil isteach ar ghléas eile, agus ligeann feidhm "Athchóirigh mo cheannacháin" an fheidhmchláir duit é a fháil ar ais más gá.
+Tá paicéad a cheannaítear **faighte go buan** agus ceangailte le do chuntas — murab ionann agus creidmheasanna míosúla an tsíntiúis (Airteagail 6 agus 7), ní théann sé in éag. Faigheann tú ar ais é trí logáil isteach ar ghléas eile, agus ligeann feidhm "Athchóirigh mo cheannacháin" an fheidhmchláir duit é a fháil ar ais más gá.
 
 Ní úsáidtear na creidmheasanna cuóta a cheannaítear **go dtí go mbíonn do chuótaí don tréimhse ídithe**, ionas nach n-íocfaidh tú riamh faoi dhó as an úsáid chéanna.
 

@@ -1,6 +1,8 @@
 # Ĝeneralaj kondiĉoj de uzo kaj de vendo — Plume
 
-**Lasta ĝisdatigo: la 31-a de julio 2026** — Versio 1.0
+**Lasta ĝisdatigo: la 1-a de oktobro 2026** — Versio 1.1
+
+> *Kio ŝanĝiĝis en versio 1.1:* ni priskribas **Aŭdian komunikadon**, la voĉan interpretiston de Plume, kaj ĝian reĝimon **AI Pro** (Artikoloj 2 kaj 6). Ni skribas nigre sur blanke du regulojn pri la kreditoj de la abono: ili estas **monataj kaj ne akumuliĝas** de unu monato al la sekva (Artikolo 6), kaj se la abono **ne estas renovigita**, la restaĵo de la lasta monato restas uzebla dum **7 tagoj** antaŭ ol esti forigita (Artikolo 7). La kreditoj aĉetitaj en la vendejo, male, restas **akiritaj definitive** (Artikolo 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume estas ilo helpa por redaktado, funkcianta sur Android. Ĝi ebligas al vi:
 - **reformuli tekston**, kiun vi estas skribanta, rekte en la aplikaĵo, en kiu vi ĝin skribas, elektante stilon («rolulo»);
 - **traduki aŭ resumi tekston montratan sur la ekrano**, kaj ricevi proponon de respondo al ricevita mesaĝo;
 - uzi la **Asistatan Legadon**, kiu surmetas tradukon sur la tekston montratan sur la ekrano;
-- **dikti** tekston anstataŭ tajpi ĝin.
+- **dikti** tekston anstataŭ tajpi ĝin;
+- uzi **Aŭdian komunikadon**, voĉan interpretiston, kiu traduktas laŭte konversacion inter du homoj, aŭ skribe (Skriba reĝimo).
 
 Laŭ via aparato kaj via elekto, la prilaborado okazas **sur via telefono** aŭ **sur foraj serviloj**. La preciza cirkulado de viaj datumoj estas priskribita en nia politiko pri privateco: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ La uzo de la servo estas limigita, por regi la koston de la prilaborado.
 - Kiam la prilaborado okazas **sur via aparato** (aparatoj kongruaj kun la loka AI): **senlima uzado**, kun la sola rezervo de la teknikaj limoj de via telefono (baterio, varmiĝo).
 - Kiam la prilaborado okazas **sur niaj serviloj**: la uzo estas limigita tage kaj monate, ĉar ĉiu voko havas realan koston. *Je la dato de redaktado: 1 000 tage kaj 9 000 monate.*
 
+**La kreditoj de la abono estas monataj kaj ne akumuliĝas.** La kreditoj de monato validas ĝis la fino de tiu monato: kio ne estis uzita **ne estas transportita** al la sekva monato, kie la nombrilo rekomencas de nulo. Se la abono ne estas renovigita, validas Artikolo 7.
+
+**Aŭdia komunikado.** La reĝimo **Loka ilaro** estas senpaga: la traduko okazas en via telefono (en la senpaga nivelo, reklamo povas aperi de tempo al tempo). La reĝimo **AI Pro** estas rezervita por abonantoj: ĉiu traduko konsumas **fiksitan** nombron da kvotunuoj, laŭ la cellingvo — *je la dato de redaktado, 1 unuo, kaj 3 por lingvo markita PRO*. La kosto estas montrata en la aplikaĵo antaŭ la uzo kaj **aŭtomate debetata** post ĉiu sukcesa traduko; malsukcesa traduko ne estas debetata. Sen sufiĉa restaĵo, la traduko AI Pro ne estas farata.
+
 **Komunaj punktoj por ĉiuj niveloj:**
 
 - **Ekrananalizo** (traduko aŭ propono de respondo) estas pli kosta ol simpla reformulo kaj konsumas **plurajn unuojn de kvoto** — nuntempe 5.
@@ -103,6 +110,8 @@ La uzo de la servo estas limigita, por regi la koston de la prilaborado.
 
 **Fino de la abono.** Je la limdato, via konto revenas al la senpaga nivelo. Vi perdas nek vian konton, nek viajn rolulojn, nek viajn agordojn.
 
+**Se via abono ne estas renovigita, viaj restantaj kreditoj validas 7 tagojn.** La kredita restaĵo de via lasta abonmonato restas uzebla dum **7 tagoj** ekde la fino de la abono; post tiu templimo ĝi estas **definitive forigita**. La aplikaĵo avertas vin per mesaĝo ĉe la komenco de tiu periodo, kun la restaĵo kaj la limdato. Tiu templimo ne validas en kazo de repago. La kreditoj aĉetitaj en la vendejo (Artikolo 8) **ne estas koncernataj**: ili restas akiritaj.
+
 ---
 
 ## Artikolo 8 — Pakoj kaj unuopaj aĉetoj
@@ -111,7 +120,7 @@ Iuj enhavoj (pakoj da roluloj, kromaj kvotokreditoj) estas venditaj unuope, sen 
 
 *Tarifo je la dato de redaktado: 2,99 € por pako. La prezo, kiu ligas vin, estas tiu montrata je la momento de la aĉeto.*
 
-Aĉetita pako estas **akirita definitive** kaj ligita al via konto. Vi retrovas ĝin rekonektiĝante sur alia aparato, kaj la funkcio «Restarigi miajn aĉetojn» de la aplikaĵo ebligas al vi reakiri ĝin se necese.
+Aĉetita pako estas **akirita definitive** kaj ligita al via konto — male ol la monataj kreditoj de la abono (Artikoloj 6 kaj 7), ĝi ne eksvalidiĝas. Vi retrovas ĝin rekonektiĝante sur alia aparato, kaj la funkcio «Restarigi miajn aĉetojn» de la aplikaĵo ebligas al vi reakiri ĝin se necese.
 
 La aĉetitaj kvotokreditoj estas uzataj nur **kiam viaj kvotoj de la periodo estas elĉerpitaj**, por ke vi neniam pagu dufoje la saman uzon.
 

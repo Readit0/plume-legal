@@ -1,6 +1,8 @@
 # Palisiya sa Pagkapribado sa Plume
 
-**Kataposang pag-update: 1 Oktubre 2026** — Bersyon 2.1
+**Kataposang pag-update: 1 Oktubre 2026** — Bersyon 2.2
+
+> *Ang nausab sa bersyon 2.2:* among gihubit ang **Audio nga komunikasyon**, ang tigbadbad sa tingog sa Plume, nga wala sa bersyon 2.1: unsa ang magpabilin sa inyong telepono, unsa ang mogawas sa AI Pro nga mode, ug ang pagbasa nga makabati pinaagi sa speech synthesis engine sa telepono (tan-awa ang §4.1 ug §9).
 
 > *Ang nausab sa bersyon 2.1:* among gihubit ang **Pagtago nga mode**, nga wala hisgoti sa bersyon 2.0, ug among giayo ang usa ka pahayag nga dili na tukma: alang sa personal nga mga pinulongan ug sa Pagtago, **ang mga pulong sa inyong mga mensahe nga kulang pa sa inyong bokabularyo gitipigan, usa-usa** — dili gyud ang tibuok nga sentensiya — aron makasugyot kami nga idugang ninyo kini. Ang detalye naa sa «Sa Usa ka Minuto», sa §2.2 ug sa §3. Among giayo usab ang ikaduha nga sayop: **ang inyong gi-customize nga mga persona ug ang ilang mga avatar gitipigan sa among mga server** — dili lang sila magpabilin sa inyong telepono (tan-awa ang §3).
 
@@ -134,6 +136,16 @@ Usa ka microphone nga button nagatugot kaninyo sa pagdikta imbes mag-type. Ang p
 
 Kung inyong dumilian ang permiso sa mikropono, magamit gihapon ang pag-type sa keyboard, siyempre.
 
+### 4.1 Audio nga komunikasyon (ang tigbadbad sa tingog)
+
+Ang Audio nga komunikasyon nagahubad nga makabati sa usa ka panag-istorya tali sa duha ka tawo. **Ang mikropono moabli lamang kung hikapan ninyo ang bola**, ug mosira kini sa katapusan sa matag tudling-pulong.
+
+- **Ang pagsulti** gi-transcribe sa samang speech recognition engine sa telepono nga gigamit sa pagdikta, uban sa samang mga pagpugong sa ibabaw. **Ang Plume nakadawat lamang sa teksto, dili gayod sa audio.** Kung wala ang offline nga module sa usa ka pinulongan, mohangyo ang Plume sa telepono nga i-download kini; sa tunga-tunga, ang engine sa telepono makapag-transcribe online.
+- **Sa Lokal nga kit nga mode** (libre), ang paghubad mahitabo **sa inyong telepono**.
+- **Sa AI Pro nga mode** (mga subscriber), ang na-transcribe nga teksto ipadala sa among mga server ug dayon sa among tighatag sa pagproseso sa AI, nga mag-ayo sa mga sayop sa pagpamati ug mohubad niini — pinaagi sa samang agianan sa §2.2. **Wala namo gitipigan ang teksto ni ang paghubad niini.**
+- **Ang pagbasa nga makabati** gihimo sa speech synthesis engine sa telepono (kasagaran kang Google). Sa duha ka mode, gihangyo ni Plume ang iyang **online nga mga tingog**, nga mas natural: ang gihubad nga teksto ipasa dayon sa iyang magmamantala aron mabasa. Kung offline, ang tingog nga na-install sa telepono ang mopuli.
+- **Ang kasaysayan sa panag-istorya magpabilin sa inyong telepono** ug mawala kung mogawas kamo sa screen. Ang gipili nga parisan sa pinulongan, ang gipili nga engine ug ang gidaghanon sa mga panag-istorya (alang sa ad sa libre nga level) lamang ang mahinumdoman sa device.
+
 ---
 
 ## 5. Advertising
@@ -191,7 +203,7 @@ Sanglit ang aplikasyon nagtugot sa pagsulat pag-usab og libre nga teksto ug naga
 | **Among provider sa pagproseso sa AI** | Pagdala sa mga request ug pagproseso sa teksto pinaagi sa usa ka third-party nga modelo sa artipisyal nga intelihensiya | **Gawas sa European Union** |
 | **Google Play / Google Billing** | Pagbayad, mga subscription | Google Ireland / United States |
 | **Google AdMob** | Rewarded advertising | Google Ireland / United States |
-| **Google (mga system service sa telepono)** | Speech recognition, mga offline translation module | Depende sa inyong device |
+| **Google (mga system service sa telepono)** | Speech recognition, speech synthesis (pagbasa nga makabati alang sa Audio nga komunikasyon), mga offline translation module | Depende sa inyong device |
 | **Among provider sa taho sa crash** | Teknikal nga taho sa crash — mga sayop lamang sa programa, gi-filter una sa pagpadala: dili gyud ang inyong teksto | United States |
 
 **Wala kami magbaligya og bisan unsang datos ug wala kami magtugyan niini ngadto sa mga data broker.**

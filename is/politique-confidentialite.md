@@ -1,6 +1,8 @@
 # Persónuverndarstefna Plume
 
-**Síðast uppfært: 1. október 2026** — Útgáfa 2.1
+**Síðast uppfært: 1. október 2026** — Útgáfa 2.2
+
+> *Hvað breyttist í útgáfu 2.2:* við lýsum **Hljóðsamskipti**, talþýðanda Plume, sem var ekki til í útgáfu 2.1: hvað helst í símanum þínum, hvað fer út í AI Pro ham, og upplesturinn upphátt með talgervli símans (sjá §4.1 og §9).
 
 > *Hvað breyttist í útgáfu 2.1:* við lýsum **stillingunni Felulitur**, sem útgáfa 2.0 nefndi ekki, og leiðréttum fullyrðingu sem er ekki lengur rétt: bæði fyrir eigin tungumál og fyrir Felulit **eru orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt geymd, eitt og eitt** — aldrei setningin — til þess að geta boðið þér að bæta þeim við. Nánar er fjallað um það í „Á einni mínútu“, í §2.2 og í §3. Við leiðréttum einnig aðra villu: **eigin persónur þínar og táknmyndir þeirra eru vistaðar á netþjónum okkar** — þær verða ekki eingöngu eftir í símanum þínum (sjá §3).
 
@@ -142,6 +144,16 @@ Hljóðnemahnappur gerir þér kleift að lesa inn texta í stað þess að slá
 
 Ef þú hafnar heimild fyrir hljóðnemanum er innsláttur á lyklaborði að sjálfsögðu áfram í boði.
 
+### 4.1 Hljóðsamskipti (talþýðandinn)
+
+Hljóðsamskipti þýðir samtal tveggja einstaklinga upphátt. **Hljóðneminn opnast aðeins þegar þú snertir kúluna**, og hann slekkur á sér í lok hverrar setningar.
+
+- **Talið** er umritað af sömu talgreiningarvél símans og talinnslátturinn notar, með sömu fyrirvörum og hér að ofan. **Plume fær aðeins textann, aldrei hljóðið.** Ef einingu fyrir tungumál án nettengingar vantar biður Plume símann um að sækja hana; á meðan getur vél símans umritað á netinu.
+- **Í ham Staðbundinn pakki** (ókeypis) fer þýðingin fram **í símanum þínum**.
+- **Í ham AI Pro** (áskrifendur) er umritaði textinn sendur á netþjóna okkar og síðan til þjónustuaðila okkar í gervigreindarvinnslu, sem leiðréttir hlustunarvillur og þýðir hann — sömu leið og í §2.2. **Við geymum hvorki textann né þýðingu hans.**
+- **Upplesturinn upphátt** er í höndum talgervils símans (yfirleitt frá Google). Í báðum hömum biður Plume hana um eðlilegri **raddir sínar á netinu**: þýdda textanum er þá komið til útgefanda hennar til framburðar. Án nettengingar tekur rödd sem er uppsett í símanum við.
+- **Samtalssagan helst í símanum þínum** og hverfur þegar þú yfirgefur skjáinn. Aðeins valið tungumálapar, valin vél og fjöldi samtala (fyrir auglýsingar ókeypis þrepsins) eru vistuð í tækinu.
+
 ---
 
 ## 5. Auglýsingar
@@ -199,7 +211,7 @@ Plume er hjálpartæki við ritun, ætlað notendum **16 ára og eldri**. Við s
 | **Gervigreindarvinnsluaðilinn okkar** | Beining fyrirspurna og vinnsla textans með gervigreindarlíkani þriðja aðila | **Utan Evrópusambandsins** |
 | **Google Play / Google Billing** | Greiðslur, áskriftir | Google Ireland / Bandaríkin |
 | **Google AdMob** | Verðlaunaauglýsingar | Google Ireland / Bandaríkin |
-| **Google (kerfisþjónustur símans)** | Talgreining, þýðingareiningar án nettengingar | Eftir tækinu þínu |
+| **Google (kerfisþjónustur símans)** | Talgreining, talgerving (upplestur Hljóðsamskipti upphátt), þýðingareiningar án nettengingar | Eftir tækinu þínu |
 | **Hrunskýrsluþjónustuaðilinn okkar** | Tæknileg hrunskýrsla — aðeins forritsvillur, síaðar áður en þær eru sendar: aldrei textinn þinn | Bandaríkin |
 
 **Við seljum engin gögn og látum engin gögn af hendi til gagnamiðlara.**

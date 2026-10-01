@@ -1,6 +1,8 @@
 # Política de privacidade de Plume
 
-**Última actualización: 1 de outubro de 2026** — Versión 2.1
+**Última actualización: 1 de outubro de 2026** — Versión 2.2
+
+> *O que cambiou na versión 2.2:* describimos **Comunicación de audio**, o intérprete de voz de Plume, que non existía na versión 2.1: o que queda no seu teléfono, o que sae en modo IA Pro, e a lectura en voz alta polo motor de síntese de voz do teléfono (véxase §4.1 e §9).
 
 > *O que cambiou na versión 2.1:* describimos o **modo Camuflaxe**, que a versión 2.0 non mencionaba, e corriximos unha afirmación que deixara de ser exacta: tanto para os idiomas persoais como para a Camuflaxe, **as palabras das súas mensaxes que aínda faltan no seu léxico consérvanse, unha a unha** — nunca a frase — para poder propoñerlle engadilas. O detalle está en «Nun minuto», no §2.2 e no §3. Corriximos tamén un segundo erro: **as súas personas personalizadas e os seus avatares gárdanse nos nosos servidores** — non quedan só no seu teléfono (véxase o §3).
 
@@ -134,6 +136,16 @@ Un botón de micrófono permítelle ditar en vez de escribir. O permiso de acces
 
 Se rexeita o permiso do micrófono, a escritura co teclado segue evidentemente dispoñible.
 
+### 4.1 Comunicación de audio (o intérprete de voz)
+
+Comunicación de audio traduce en voz alta unha conversa entre dúas persoas. **O micrófono só se abre cando toca a bóla**, e péchase ao final de cada frase.
+
+- **A fala** transcríbese co mesmo motor de recoñecemento de voz do teléfono que o ditado, coas mesmas reservas que máis arriba. **Plume só recibe o texto, nunca o audio.** Se falta o módulo sen conexión dun idioma, Plume pídelle ao teléfono que o descargue; mentres tanto, o motor do teléfono pode transcribir en liña.
+- **En modo Kit local** (gratuíto), a tradución faise **no seu teléfono**.
+- **En modo IA Pro** (persoas subscritas), o texto transcrito envíase aos nosos servidores e despois ao noso provedor de tratamento por IA, que corrixe os erros de escoita e o traduce — polo mesmo percorrido que no §2.2. **Non conservamos nin o texto nin a súa tradución.**
+- **A lectura en voz alta** faa o motor de síntese de voz do teléfono (en xeral o de Google). Nos dous modos, Plume pídelle as súas **voces en liña**, máis naturais: o texto traducido transmítese entón ao seu editor para ser pronunciado. Sen conexión, unha voz instalada no teléfono toma o relevo.
+- **O historial da conversa queda no seu teléfono** e desaparece cando sae da pantalla. Só se memorizan no dispositivo o par de idiomas escollido, o motor escollido e o número de conversas (para a publicidade do nivel gratuíto).
+
 ---
 
 ## 5. Publicidade
@@ -191,7 +203,7 @@ Dado que a aplicación permite reformular un texto libre e amosa publicidade, no
 | **O noso provedor de tratamento por IA** | Encamiñamento das solicitudes e tratamento do texto por un modelo de intelixencia artificial de terceiros | **Fóra da Unión Europea** |
 | **Google Play / Google Billing** | Pagamento, subscricións | Google Ireland / Estados Unidos |
 | **Google AdMob** | Publicidade con recompensa | Google Ireland / Estados Unidos |
-| **Google (servizos de sistema do teléfono)** | Recoñecemento de voz, módulos de tradución sen conexión | Segundo o seu dispositivo |
+| **Google (servizos de sistema do teléfono)** | Recoñecemento de voz, síntese de voz (lectura en voz alta de Comunicación de audio), módulos de tradución sen conexión | Segundo o seu dispositivo |
 | **O noso provedor de informes de fallos** | Informe técnico de fallos: unicamente erros do programa, filtrados antes do envío; nunca o seu texto | Estados Unidos |
 
 **Non vendemos ningún dato nin cedemos ningún a corredores de datos.**

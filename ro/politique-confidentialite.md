@@ -1,6 +1,8 @@
 # Politica de confidențialitate a Plume
 
-**Ultima actualizare: 1 octombrie 2026** — Versiunea 2.1
+**Ultima actualizare: 1 octombrie 2026** — Versiunea 2.2
+
+> *Ce s-a schimbat în versiunea 2.2:* descriem **Comunicarea audio**, interpretul vocal al Plume, care nu exista în versiunea 2.1: ce rămâne pe telefonul dumneavoastră, ce pleacă în modul IA Pro și citirea cu voce tare de către motorul de sinteză vocală al telefonului (vezi §4.1 și §9).
 
 > *Ce s-a schimbat în versiunea 2.1:* descriem **modul Camuflaj**, pe care versiunea 2.0 nu îl menționa, și corectăm o afirmație devenită inexactă: atât pentru limbile personale, cât și pentru Camuflaj, **cuvintele din mesajele dumneavoastră care lipsesc încă din lexicul dumneavoastră sunt păstrate, unul câte unul** — niciodată fraza — pentru a vă putea propune să le adăugați. Detaliul este în „Într-un minut”, la §2.2 și la §3. Corectăm și o a doua eroare: **personele dumneavoastră personalizate și avatarurile lor sunt salvate pe serverele noastre** — ele nu rămân doar pe telefonul dumneavoastră (vezi §3).
 
@@ -142,6 +144,16 @@ Un buton de microfon vă permite să dictați în loc să tastați. Permisiunea 
 
 Dacă refuzați permisiunea pentru microfon, introducerea de la tastatură rămâne, bineînțeles, disponibilă.
 
+### 4.1 Comunicare audio (interpretul vocal)
+
+Comunicarea audio traduce cu voce tare o conversație între două persoane. **Microfonul se deschide numai atunci când atingeți bila**, și se închide la sfârșitul fiecărei fraze.
+
+- **Vorbirea** este transcrisă de același motor de recunoaștere vocală al telefonului ca dictarea, cu aceleași rezerve ca mai sus. **Plume primește doar textul, niciodată sunetul.** Dacă lipsește modulul offline al unei limbi, Plume cere telefonului să îl descarce; între timp, motorul telefonului poate transcrie online.
+- **În modul Kit local** (gratuit), traducerea se face **pe telefonul dumneavoastră**.
+- **În modul IA Pro** (abonați), textul transcris este trimis serverelor noastre, apoi furnizorului nostru de procesare prin IA, care corectează erorile de ascultare și îl traduce — pe același traseu ca la §2.2. **Nu păstrăm nici textul, nici traducerea lui.**
+- **Citirea cu voce tare** este făcută de motorul de sinteză vocală al telefonului (în general cel Google). În ambele moduri, Plume îi cere **vocile sale online**, mai naturale: textul tradus este atunci transmis editorului său pentru a fi pronunțat. Fără conexiune, o voce instalată pe telefon preia rolul.
+- **Istoricul conversației rămâne pe telefonul dumneavoastră** și dispare când părăsiți ecranul. Pe dispozitiv se rețin doar perechea de limbi aleasă, motorul ales și numărul de conversații (pentru publicitatea nivelului gratuit).
+
 ---
 
 ## 5. Publicitatea
@@ -199,7 +211,7 @@ Plume este un instrument de asistență la redactare, destinat unui public **de 
 | **Prestatorul nostru de prelucrare prin IA** | Direcționarea cererilor și prelucrarea textului de către un model de inteligență artificială terț | **În afara Uniunii Europene** |
 | **Google Play / Google Billing** | Plată, abonamente | Google Ireland / Statele Unite |
 | **Google AdMob** | Publicitate cu recompensă | Google Ireland / Statele Unite |
-| **Google (serviciile de sistem ale telefonului)** | Recunoaștere vocală, module de traducere offline | În funcție de dispozitivul dumneavoastră |
+| **Google (serviciile de sistem ale telefonului)** | Recunoaștere vocală, sinteză vocală (citirea cu voce tare din Comunicarea audio), module de traducere offline | În funcție de dispozitivul dumneavoastră |
 | **Prestatorul nostru de raportare a erorilor** | Raportare a plantărilor tehnice — doar erori ale programului, filtrate înainte de trimitere: niciodată textul dumneavoastră | Statele Unite ale Americii |
 
 **Nu vindem niciun fel de date și nu cedăm date către brokeri de date.**

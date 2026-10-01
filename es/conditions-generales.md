@@ -1,6 +1,8 @@
 # Condiciones generales de uso y de venta — Plume
 
-**Última actualización: 31 de julio de 2026** — Versión 1.0
+**Última actualización: 1 de octubre de 2026** — Versión 1.1
+
+> *Qué ha cambiado en la versión 1.1:* describimos **Comunicación de audio**, el intérprete de voz de Plume, y su modo **IA Pro** (artículos 2 y 6). Escribimos negro sobre blanco dos reglas sobre los créditos de la suscripción: son **mensuales y no se acumulan** de un mes al siguiente (artículo 6), y si la suscripción **no se renueva**, el saldo del último mes sigue siendo utilizable durante **7 días** antes de ser borrado (artículo 7). Los créditos comprados en la tienda, en cambio, siguen **adquiridos definitivamente** (artículo 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume es una herramienta de ayuda a la redacción que funciona en Android. Le pe
 - **reformular un texto** que está escribiendo, directamente en la aplicación en la que lo escribe, eligiendo un estilo («persona»);
 - **traducir o resumir el texto mostrado en la pantalla**, y obtener una propuesta de respuesta a un mensaje recibido;
 - utilizar la **Lectura Asistida**, que superpone una traducción al texto mostrado en la pantalla;
-- **dictar** un texto en lugar de escribirlo.
+- **dictar** un texto en lugar de escribirlo;
+- utilizar **Comunicación de audio**, un intérprete de voz que traduce en voz alta una conversación entre dos personas, o por escrito (modo Escritura).
 
 Según su dispositivo y su elección, el tratamiento se efectúa **en su teléfono** o **en servidores remotos**. La circulación exacta de sus datos se describe en nuestra política de privacidad: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ El uso del servicio está limitado, para controlar el coste del tratamiento.
 - Cuando el tratamiento se efectúa **en su dispositivo** (dispositivos compatibles con la IA local): **uso ilimitado**, con la única reserva de los límites técnicos de su teléfono (batería, calentamiento).
 - Cuando el tratamiento se efectúa **en nuestros servidores**: el uso está limitado por día y por mes, porque cada llamada tiene un coste real. *A la fecha de redacción: 1000 al día y 9000 al mes.*
 
+**Los créditos de la suscripción son mensuales y no se acumulan.** Los créditos de un mes son válidos hasta el final de ese mes: lo que no se ha utilizado **no se traslada** al mes siguiente, en el que el contador vuelve a cero. Si la suscripción no se renueva, se aplica el artículo 7.
+
+**Comunicación de audio.** El modo **Kit local** es gratuito: la traducción se realiza en su teléfono (en el nivel gratuito, de vez en cuando puede aparecer un anuncio). El modo **IA Pro** está reservado a los suscriptores: cada traducción consume un número **fijo** de unidades de cuota, según el idioma de destino — *a la fecha de redacción, 1 unidad, y 3 para un idioma marcado como PRO*. El coste se indica en la aplicación antes del uso y se **cobra automáticamente** tras cada traducción lograda; una traducción que falla no se cobra. Sin saldo suficiente, la traducción IA Pro no se realiza.
+
 **Puntos comunes a todos los niveles:**
 
 - Un **análisis de pantalla** (traducción o propuesta de respuesta) es más costoso que una reformulación simple y consume **varias unidades de cuota**, actualmente 5.
@@ -102,6 +109,8 @@ El uso del servicio está limitado, para controlar el coste del tratamiento.
 
 **Fin de la suscripción.** Al vencimiento, su cuenta vuelve al nivel gratuito. No pierde ni su cuenta, ni sus personas, ni sus ajustes.
 
+**Si su suscripción no se renueva, sus créditos restantes duran 7 días.** El saldo de créditos de su último mes de suscripción sigue siendo utilizable durante **7 días** a partir del final de la suscripción; transcurrido ese plazo, se **borra definitivamente**. La aplicación le avisa con un mensaje al comienzo de este periodo, con el saldo y la fecha límite. Este plazo no se aplica en caso de reembolso. Los créditos comprados en la tienda (artículo 8) **no se ven afectados**: siguen adquiridos.
+
 ---
 
 ## Artículo 8 — Packs y compras unitarias
@@ -110,7 +119,7 @@ Determinados contenidos (packs de personas, créditos de cuota adicionales) se v
 
 *Tarifa a la fecha de redacción: 2,99 € por pack. El precio que le vincula es el mostrado en el momento de la compra.*
 
-Un pack comprado queda **adquirido definitivamente** y vinculado a su cuenta. Lo recupera al volver a conectarse en otro dispositivo, y la función «Restaurar compras» de la aplicación le permite recuperarlo si es necesario.
+Un pack comprado queda **adquirido definitivamente** y vinculado a su cuenta —a diferencia de los créditos mensuales de la suscripción (artículos 6 y 7), no caduca. Lo recupera al volver a conectarse en otro dispositivo, y la función «Restaurar compras» de la aplicación le permite recuperarlo si es necesario.
 
 Los créditos de cuota comprados solo se utilizan **una vez agotadas sus cuotas del periodo**, para que nunca pague dos veces el mismo uso.
 

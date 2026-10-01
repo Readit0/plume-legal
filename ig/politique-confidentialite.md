@@ -1,6 +1,8 @@
 # Amụma Nzuzo nke Plume
 
-**Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 2.1
+**Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 2.2
+
+> *Ihe gbanwere n'ụdịdị 2.2:* anyị na-akọwa **Mkparịta ụka olu**, onye nsụgharị olu nke Plume, nke na-adịghị n'ụdịdị 2.1: ihe fọdụrụ n'ime ekwentị gị, ihe na-apụ n'ụdị AI Pro, na ọgụgụ n'olu dị elu site n'injin nhazi olu nke ekwentị (lee §4.1 na §9).
 
 > *Ihe gbanwere n'ụdịdị 2.1:* anyị na-akọwa **ụdị Nzuzo**, nke ụdịdị 2.0 kwuru ihe ọ bụla gbasara ya, anyị na-edozikwa otu nkwupụta nke na-ezighị ezi ọzọ: maka asụsụ nkeonwe na maka Nzuzo nke ọma, **a na-echekwa okwu ndị dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị, otu otu** — ọ dịghị mgbe a na-echekwa ahịrịokwu ahụ — ka anyị nwee ike ịtụ aro ka ị tinye ha. Nkọwa dị n'«N'otu nkeji», na §2.2 na na §3. Anyị na-edozikwa nkwupụta ọzọ na-ezighị ezi: **a na-echekwa ụdị nkeonwe gị na foto ọnụ ha na sava anyị** — ha anaghị anọgide naanị n'ekwentị gị (lee §3).
 
@@ -134,6 +136,16 @@ Bọtịnụ mikrophonu na-enye gị ohere ikwu okwu kama ịpị ya. A na-arị
 
 Ọ bụrụ na ị jụ ikike mikrophonu, ọ bụ ihe doro anya na ntinye site na bọọdụ igodo ka fọdụrụ.
 
+### 4.1 Mkparịta ụka olu (onye nsụgharị olu)
+
+Mkparịta ụka olu na-atụgharị mkparịta ụka n'etiti mmadụ abụọ n'olu dị elu. **Mikrophonu na-emeghe naanị mgbe ị metụrụ bọl ahụ aka**, ọ na-emechikwa na njedebe nke ahịrị ọ bụla.
+
+- **A na-edegharị okwu** site n'otu injin nnata olu nke ekwentị dị ka ikwu okwu na-ede, ya na otu ihe mgbochi dị ka e kwuru n'elu. **Plume na-anata naanị ederede, ọ bụghị olu mgbe ọ bụla.** Ọ bụrụ na modul na-enweghị ịntanetị nke asụsụ efu, Plume na-arịọ ekwentị ka ọ budata ya; ka ọ dị ugbu a, injin ekwentị nwere ike ide ya n'ịntanetị.
+- **N'ụdị Kit mpaghara** (efu), a na-atụgharị ya **n'ime ekwentị gị**.
+- **N'ụdị AI Pro** (ndị debara aha), a na-ezipu ederede e dere ede n'ime sava anyị ma mgbe ahụ gaa n'ọrụ nhazi AI anyị, nke na-ewere njehie ọgbụgba ntị ma tụgharịa ya — n'otu ụzọ dị ka §2.2. **Anyị anaghị edebe ederede ma ọ bụ ntụgharị ya.**
+- **Ọgụgụ n'olu dị elu** bụ injin nhazi olu nke ekwentị na-eme ya (n'ozuzu, nke Google). N'ụdị abụọ, Plume na-arịọ ya **olu ya ndị dị n'ịntanetị**, ndị dị ka nke eke: a na-ezigara ederede a tụgharịrị onye na-ebipụta ya ka o kwuo ya. Mgbe ọ nweghị ịntanetị, olu etinyere n'ime ekwentị na-anọchi ya.
+- **Akụkọ mkparịta ụka na-anọgide n'ime ekwentị gị** ma na-apụ mgbe ị hapụrụ ihuenyo. Naanị ụzọ asụsụ a họọrọ, injin a họọrọ na ọnụ ọgụgụ mkparịta ụka (maka mgbasa ozi ọkwa efu) ka a na-echekwa n'ime ngwaọrụ.
+
 ---
 
 ## 5. Mgbasa ozi
@@ -191,7 +203,7 @@ Ebe ọ bụ na ngwa ahụ na-enye ohere ịgbanwe ederede efu ma na-egosi mgbas
 | **Onye ọrụ nhazi AI anyị** | Nhazi ụzọ arịrịọ na nhazi ederede site na ihe nlereanya AI nke onye ọzọ | **N'èzí Mgbakọ Ọrụ Europe** |
 | **Google Play / Google Billing** | Ịkwụ ụgwọ, ndebanye aha | Google Ireland / United States |
 | **Google AdMob** | Mgbasa ozi enyere onyinye | Google Ireland / United States |
-| **Google** (ọrụ sistemụ ekwentị) | Nnata olu, ngwungwu ntụgharị asụsụ na-enweghị ịntanetị | Dabere na ngwaọrụ gị |
+| **Google** (ọrụ sistemụ ekwentị) | Nnata olu, nhazi olu (Mkparịta ụka olu n'olu dị elu), ngwungwu ntụgharị asụsụ na-enweghị ịntanetị | Dabere na ngwaọrụ gị |
 | **Onye ọrụ mkpesa nsogbu anyị** | Mkpesa nsogbu teknụzụ — naanị mmejọ mmemme, e nzachara tupu mbufe: ọ dịghị mgbe ọ bụ ederede gị | United States |
 
 **Anyị anaghị ere data ọ bụla, anyị anaghịkwa enyefe ya na ndị na-azụ ahịa data.**

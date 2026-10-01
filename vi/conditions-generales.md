@@ -1,6 +1,8 @@
 # Điều kiện chung về sử dụng và bán hàng — Plume
 
-**Cập nhật lần cuối: ngày 31 tháng 7 năm 2026** — Phiên bản 1.0
+**Cập nhật lần cuối: ngày 1 tháng 10 năm 2026** — Phiên bản 1.1
+
+> *Những gì đã thay đổi trong phiên bản 1.1:* chúng tôi mô tả **Giao tiếp bằng giọng nói**, thông dịch viên giọng nói của Plume, và chế độ **AI Pro** của tính năng này (Điều 2 và 6). Chúng tôi viết rõ ràng hai quy tắc về tín dụng của gói đăng ký: tín dụng **theo tháng và không cộng dồn** từ tháng này sang tháng khác (Điều 6), và nếu gói đăng ký **không được gia hạn**, số dư của tháng cuối vẫn dùng được trong **7 ngày** trước khi bị xóa (Điều 7). Còn tín dụng mua trong cửa hàng thì **thuộc về bạn vĩnh viễn** (Điều 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume là một công cụ hỗ trợ viết hoạt động trên Android. Nó c
 - **viết lại một đoạn văn bản** mà bạn đang soạn, ngay trong ứng dụng nơi bạn đang viết, bằng cách chọn một phong cách ("persona");
 - **dịch hoặc tóm tắt văn bản hiển thị trên màn hình**, và nhận một đề xuất trả lời cho một tin nhắn nhận được;
 - sử dụng **Đọc Có Hỗ Trợ**, tính năng phủ một bản dịch lên văn bản hiển thị trên màn hình;
-- **đọc** một đoạn văn bản thay vì gõ nó.
+- **đọc** một đoạn văn bản thay vì gõ nó;
+- sử dụng **Giao tiếp bằng giọng nói**, một thông dịch viên giọng nói dịch thành lời cuộc trò chuyện giữa hai người, hoặc bằng văn bản (chế độ Viết).
 
 Tùy theo thiết bị và lựa chọn của bạn, việc xử lý diễn ra **trên điện thoại của bạn** hoặc **trên các máy chủ từ xa**. Đường đi chính xác của dữ liệu của bạn được mô tả trong chính sách quyền riêng tư của chúng tôi: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Việc sử dụng dịch vụ bị giới hạn trần, nhằm kiểm soát chi
 - Khi việc xử lý diễn ra **trên thiết bị của bạn** (các thiết bị tương thích với AI cục bộ): **sử dụng không giới hạn**, chỉ chịu duy nhất các giới hạn kỹ thuật của điện thoại bạn (pin, nhiệt độ).
 - Khi việc xử lý diễn ra **trên máy chủ của chúng tôi**: mức sử dụng bị giới hạn theo ngày và theo tháng, bởi vì mỗi lệnh gọi đều có một chi phí thực. *Vào thời điểm soạn thảo: 1.000 mỗi ngày và 9.000 mỗi tháng.*
 
+**Tín dụng của gói đăng ký tính theo tháng và không cộng dồn.** Tín dụng của một tháng có giá trị đến hết tháng đó: phần chưa dùng **không được chuyển** sang tháng sau, khi bộ đếm bắt đầu lại từ số không. Nếu gói đăng ký không được gia hạn, Điều 7 sẽ được áp dụng.
+
+**Giao tiếp bằng giọng nói.** Chế độ **Bộ cục bộ** miễn phí: việc dịch diễn ra trên điện thoại của bạn (ở bậc miễn phí, thỉnh thoảng có thể hiển thị quảng cáo). Chế độ **AI Pro** dành riêng cho người đăng ký: mỗi bản dịch tiêu tốn một số đơn vị hạn mức **cố định**, tùy theo ngôn ngữ đích — *vào thời điểm soạn thảo, 1 đơn vị, và 3 đơn vị cho ngôn ngữ được đánh dấu PRO*. Chi phí được hiển thị trong ứng dụng trước khi dùng và **được trừ tự động** sau mỗi bản dịch thành công; bản dịch thất bại không bị trừ. Nếu không đủ số dư, bản dịch AI Pro sẽ không được thực hiện.
+
 **Những điểm chung cho mọi bậc:**
 
 - Một lượt **phân tích màn hình** (dịch hoặc đề xuất trả lời) tốn kém hơn một lượt viết lại đơn thuần và tiêu thụ **nhiều đơn vị hạn mức** — hiện tại là 5.
@@ -102,6 +109,8 @@ Việc sử dụng dịch vụ bị giới hạn trần, nhằm kiểm soát chi
 
 **Kết thúc gói đăng ký.** Khi đến hạn, tài khoản của bạn trở về bậc miễn phí. Bạn không mất tài khoản, không mất các persona, cũng không mất các thiết lập của mình.
 
+**Nếu gói đăng ký của bạn không được gia hạn, số tín dụng còn lại có thời hạn 7 ngày.** Số dư tín dụng của tháng đăng ký cuối cùng vẫn dùng được trong **7 ngày** kể từ khi gói đăng ký kết thúc; hết thời hạn này, số dư sẽ **bị xóa vĩnh viễn**. Ứng dụng sẽ báo cho bạn bằng một thông báo ngay từ đầu giai đoạn này, kèm số dư và ngày hết hạn. Thời hạn này không áp dụng trong trường hợp hoàn tiền. Tín dụng mua trong cửa hàng (Điều 8) **không bị ảnh hưởng**: chúng vẫn thuộc về bạn.
+
 ---
 
 ## Điều 8 — Gói nội dung và mua lẻ
@@ -110,7 +119,7 @@ Một số nội dung (gói persona, tín dụng hạn mức bổ sung) được
 
 *Giá vào thời điểm soạn thảo: 2,99 € mỗi gói. Mức giá ràng buộc bạn là mức giá hiển thị tại thời điểm mua.*
 
-Một gói đã mua là **thuộc về bạn vĩnh viễn** và gắn với tài khoản của bạn. Bạn tìm lại được nó khi đăng nhập trên một thiết bị khác, và chức năng "Khôi phục giao dịch mua" của ứng dụng cho phép bạn lấy lại nó nếu cần.
+Một gói đã mua là **thuộc về bạn vĩnh viễn** và gắn với tài khoản của bạn — khác với tín dụng hằng tháng của gói đăng ký (Điều 6 và 7), nó không hết hạn. Bạn tìm lại được nó khi đăng nhập trên một thiết bị khác, và chức năng "Khôi phục giao dịch mua" của ứng dụng cho phép bạn lấy lại nó nếu cần.
 
 Các tín dụng hạn mức đã mua chỉ được dùng **sau khi hạn mức của kỳ đó đã hết**, để bạn không bao giờ phải trả hai lần cho cùng một lần sử dụng.
 

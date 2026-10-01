@@ -1,6 +1,8 @@
 # Plume ka Baarakɛcogo ni Feereli Sariyaw
 
-**A yɛlɛmana laban: 31 zuluye 2026** — Versiyɔn 1.0
+**A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 1.1
+
+> *Min yɛlɛmana versiyɔn 1.1 kɔnɔ :* an bɛ **Kumakan ka baro** ɲɛfɔ, Plume ka kumakan ntalen, ani a **AI Pro** cogoya (Atikili 2 ni 6). An bɛ sariya fila sɛbɛn jɛlen na abɔnema kredi kan : olu ye **kalo-kalo ye, u tɛ ɲɔgɔn kan lajɛ** kalo kelen ma ka taa a kɔrɔ (Atikili 6), ani ni abɔnema **ma kokura**, kalo laban kɔrɔ bɛ se ka baara **tile 7** kɔnɔ sani a ka ban (Atikili 7). Kredi minnu sanna butiki la, olu bɛ to **sanlen badaa** (Atikili 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume ye sɛbɛnni dɛmɛ jumtukaay ye min bɛ baara kɛ Android kan. A b'a to i
 - ka sɛbɛn dɔ kɔsegin i tɛrɛ bɛ min sɛbɛn, aplikasiyɔn yɛrɛ kɔnɔ i b'a sɛbɛn yɔrɔ min na, ka cogo dɔ sugandi (« persona ») ;
 - ka sɛbɛn min bɛ ekran kan baabu walima ka a surunya, ani ka jaabi hakilina sɔrɔ ciden sɔrɔlen kama ;
 - ka **Dɛmɛni Kalanni** baara la, min bɛ baabuli bila sɛbɛn kan min bɛ ekran kan ;
-- ka sɛbɛn dɔ kuma i sanni ka a sɛbɛn ni bolokala ye.
+- ka sɛbɛn dɔ kuma i sanni ka a sɛbɛn ni bolokala ye ;
+- ka **Kumakan ka baro** baara la, kumakan ntalen min bɛ mɔgɔ fila cɛ baro ntalen kumakan na, wala sɛbɛnni la (Sɛbɛnni cogoya).
 
 Ka bɛn i ka sañse ni i ka sugandili ma, baara bɛ kɛ **i ka telefɔni kan** walima **sɛrivɛri jamanadenw kan**. I ka kunnafoniw ɲɛnabɔli tigitigi ɲɛfɔlen bɛ an ka gundo lakana sariya kɔnɔ : `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Sɛrivisi baarakɛcogo dan bɛnna, walasa ka baara sara kunbɛn.
 - Ni baara bɛ kɛ **i ka sañse kan** (sañse minnu bɛnnen bɛ IA bataki bi ye) : **baarakɛcogo dan tɛ**, i ka telefɔni teknik danw dɔrɔn kɔnɔ (batiri, funteni).
 - Ni baara bɛ kɛ **an ka sɛrivɛriw kan** : baarakɛcogo dan bɛnna tile kɔnɔ ni kalo kɔnɔ, sabu wele kelen-kelen bɛɛ ka sara tiɲɛ don. *Sɛbɛnni don na : 1000 tile kɔnɔ ani 9000 kalo kɔnɔ.*
 
+**Abɔnema kredi ye kalo-kalo ye, u tɛ ɲɔgɔn kan lajɛ.** Kalo kelen kredi bɛ baara la fo ka se o kalo laban ma : min ma baara kɛ, o **tɛ ta** kalo nata ma, a ka jatebɔ bɛ daminɛ ka bɔ fu la. Ni abɔnema ma kokura, Atikili 7 bɛ ta.
+
+**Kumakan ka baro.** **Kit lokali** cogoya ye fu ye : ntalen bɛ kɛ i ka telefɔni kan (fu jɔyɔrɔ la, piblisite dɔ bɛ se ka jira waati ni waati). **AI Pro** cogoya ye abɔnetɔw dama ye : ntalen kelen-kelen bɛɛ bɛ kota kunu **sabatilen** kɛ ka da ntalenkan kan — *sɛbɛnni don na, kunu 1, ani 3 kan min tɔgɔ ye PRO*. Sɔngɔ bɛ jira aplikasiyɔn kɔnɔ sani baara ka kɛ, ani **a bɛ bɔ a yɛrɛ ma** ntalen sabatilen kelen-kelen bɛɛ kɔ ; ntalen min ma ɲɛ, o tɛ bɔ. Ni dolo ma to a la, AI Pro ntalen tɛ kɛ.
+
 **Fɛɛn minnu bɛ jɔyɔrɔ bɛɛ la :**
 
 - **Ekran sɛgɛsɛgɛli** (baabuli walima jaabi hakilina) a sara ka bon ka tɛmɛ kɔseginni nɔgɔman kan wa a bɛ **kota fɛn caman** minɛ — sisan 5.
@@ -103,6 +110,8 @@ Sɛrivisi baarakɛcogo dan bɛnna, walasa ka baara sara kunbɛn.
 
 **Abɔnema laban.** Ni waati banna, i ka konti bɛ segin jɔyɔrɔ fu ma. I tɛ i ka konti bɔnɛ, i ka personaw, wala i ka labɛnw.
 
+**Ni i ka abɔnema ma kokura, i ka kredi to bɛ tile 7 sɔrɔ.** I ka abɔnema kalo laban kredi to bɛ se ka baara kɛ **tile 7** kɔnɔ abɔnema ban don na ; o waati tɛmɛnen kɔ, a bɛ **jɔsi badaa**. Aplikasiyɔn bɛ i lasɔmi ni cikan ye o waati daminɛ la, ni dolo ni ban don ye. O waati tɛ ta wari segin ko la. Kredi minnu sanna butiki la (Atikili 8), olu **t'o la** : olu bɛ to sanlen.
+
 ---
 
 ## Atikili 8 — Pakiw ni Sanni Kelen-kelenw
@@ -111,7 +120,7 @@ Kunnafoni dɔw (persona pakiw, kota credit wɛrɛw) bɛ feere kelen-kelen na, ab
 
 *Sɔngɔ sɛbɛnni don na : €2.99 paki kelen na. Sɔngɔ min b'a to i ka kan, o ye min jirala sanni waati la.*
 
-Paki sanlen bɛ kɛ i taw ye badaa kɔnɔ, a jɛnnen bɛ i ka konti ma. I b'a sɔrɔ ni i donna kokura sañse wɛrɛ kan, aplikasiyɔn ka « N ka sanniw lasegin » fɛɛn b'a to i bɛ se k'a sɔrɔ kokura ni a ka kan.
+Paki sanlen bɛ kɛ i taw ye badaa kɔnɔ, a jɛnnen bɛ i ka konti ma — abɔnema kalo-kalo kredi (Atikili 6 ni 7) cogo la, a tɛ ban. I b'a sɔrɔ ni i donna kokura sañse wɛrɛ kan, aplikasiyɔn ka « N ka sanniw lasegin » fɛɛn b'a to i bɛ se k'a sɔrɔ kokura ni a ka kan.
 
 Kota credit sanlen tɛ baara la fo waati nin kota ka ban, walasa i kana baarakɛcogo kelen sara siɲɛ fila abada.
 

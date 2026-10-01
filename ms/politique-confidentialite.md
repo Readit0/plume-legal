@@ -1,6 +1,8 @@
 # Dasar Privasi Plume
 
-**Kemas kini terakhir: 1 Oktober 2026** — Versi 2.1
+**Kemas kini terakhir: 1 Oktober 2026** — Versi 2.2
+
+> *Perkara yang berubah dalam versi 2.2:* kami menerangkan **Komunikasi audio**, jurubahasa suara Plume, yang tidak wujud dalam versi 2.1: apa yang kekal pada telefon anda, apa yang dihantar dalam mod AI Pro, dan bacaan lantang oleh enjin sintesis pertuturan telefon (lihat §4.1 dan §9).
 
 > *Apa yang berubah dalam versi 2.1:* kami menerangkan **mod Penyamaran**, yang tidak disebut dalam versi 2.0, dan kami membetulkan satu kenyataan yang telah menjadi tidak tepat: bagi bahasa peribadi mahupun Penyamaran, **perkataan dalam mesej anda yang masih belum ada dalam leksikon anda disimpan, satu demi satu** — tidak pernah ayatnya — supaya kami dapat mencadangkan anda menambahkannya. Butirannya terdapat dalam “Dalam satu minit”, dalam §2.2 dan dalam §3. Kami juga membetulkan satu lagi kesilapan: **persona tersuai anda dan avatarnya disimpan sandaran pada pelayan kami** — ia bukan hanya kekal pada telefon anda (lihat §3).
 
@@ -134,6 +136,16 @@ Satu butang mikrofon membolehkan anda mendikte dan bukannya menaip. Kebenaran ak
 
 Jika anda menolak kebenaran mikrofon, kemasukan teks melalui papan kekunci sudah tentu masih tersedia.
 
+### 4.1 Komunikasi audio (jurubahasa suara)
+
+Komunikasi audio menterjemah secara lantang perbualan antara dua orang. **Mikrofon hanya dibuka apabila anda menyentuh bebola itu**, dan ia ditutup pada penghujung setiap ayat.
+
+- **Pertuturan** ditranskripsikan oleh enjin pengecaman pertuturan telefon yang sama seperti pendiktean, dengan syarat yang sama seperti di atas. **Plume hanya menerima teks, tidak pernah audio.** Jika modul luar talian bagi sesuatu bahasa tiada, Plume meminta telefon memuat turunnya; sementara itu, enjin telefon mungkin mentranskripsi dalam talian.
+- **Dalam mod Kit tempatan** (percuma), terjemahan dilakukan **pada telefon anda**.
+- **Dalam mod AI Pro** (pelanggan), teks yang ditranskripsi dihantar ke pelayan kami kemudian kepada penyedia pemprosesan AI kami, yang membetulkan kesilapan pendengaran dan menterjemahkannya — melalui laluan yang sama seperti §2.2. **Kami tidak menyimpan teks mahupun terjemahannya.**
+- **Bacaan lantang** dilakukan oleh enjin sintesis pertuturan telefon (biasanya milik Google). Dalam kedua-dua mod, Plume meminta **suara dalam talian** yang lebih semula jadi daripadanya: teks yang diterjemah kemudian dihantar kepada penerbitnya untuk disebut. Apabila di luar talian, suara yang dipasang pada telefon mengambil alih.
+- **Sejarah perbualan kekal pada telefon anda** dan hilang apabila anda meninggalkan skrin. Hanya pasangan bahasa yang dipilih, enjin yang dipilih dan bilangan perbualan (untuk iklan peringkat percuma) disimpan pada peranti.
+
 ---
 
 ## 5. Pengiklanan
@@ -191,7 +203,7 @@ Oleh sebab aplikasi ini membolehkan perumusan semula teks bebas dan memaparkan i
 | **Pembekal pemprosesan AI kami** | Penghalaan permintaan dan pemprosesan teks oleh sebuah model kecerdasan buatan pihak ketiga | **Di luar Kesatuan Eropah** |
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Syarikat |
 | **Google AdMob** | Pengiklanan berganjaran | Google Ireland / Amerika Syarikat |
-| **Google (perkhidmatan sistem telefon)** | Pengecaman suara, modul terjemahan luar talian | Mengikut peranti anda |
+| **Google (perkhidmatan sistem telefon)** | Pengecaman suara, sintesis pertuturan (bacaan lantang bagi Komunikasi audio), modul terjemahan luar talian | Mengikut peranti anda |
 | **Pembekal laporan ranap kami** | Laporan ranap teknikal — hanya ralat program, ditapis sebelum penghantaran: tidak pernah teks anda | Amerika Syarikat |
 
 **Kami tidak menjual sebarang data dan tidak menyerahkan sebarang data kepada broker data.**

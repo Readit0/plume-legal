@@ -1,6 +1,8 @@
 # Splošni pogoji uporabe in prodaje — Plume
 
-**Zadnja posodobitev: 31. julij 2026** — Različica 1.0
+**Zadnja posodobitev: 1. oktober 2026** — Različica 1.1
+
+> *Kaj se je spremenilo v različici 1.1:* opisujemo **Zvočno komunikacijo**, glasovnega tolmača Plume, in njen način **UI Pro** (člena 2 in 6). Črno na belem zapisujemo dve pravili o kreditih naročnine: so **mesečni in se ne kopičijo** iz meseca v mesec (člen 6), če se naročnina **ne obnovi**, pa ostane stanje zadnjega meseca uporabno še **7 dni**, nato se izbriše (člen 7). Kupljeni krediti v trgovini pa ostanejo **pridobljeni trajno** (člen 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume je orodje za pomoč pri pisanju, ki deluje v sistemu Android. Omogoča vam
 - da **preoblikujete besedilo**, ki ga pravkar pišete, neposredno v aplikaciji, v kateri ga pišete, z izbiro sloga (»persona«);
 - da **prevedete ali povzamete besedilo, prikazano na zaslonu**, in dobite predlog odgovora na prejeto sporočilo;
 - da uporabite **Asistirano branje**, ki besedilo, prikazano na zaslonu, prekrije s prevodom;
-- da besedilo **narekujete**, namesto da ga tipkate.
+- da besedilo **narekujete**, namesto da ga tipkate;
+- da uporabljate **Zvočno komunikacijo**, glasovnega tolmača, ki na glas prevaja pogovor med dvema osebama ali pisno (način Pisanje).
 
 Odvisno od vaše naprave in vaše izbire obdelava poteka **na vašem telefonu** ali **na oddaljenih strežnikih**. Natančno kroženje vaših podatkov je opisano v naši politiki zasebnosti: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Uporaba storitve je omejena, da se obvladuje strošek obdelave.
 - Kadar obdelava poteka **na vaši napravi** (naprave, združljive z Lokalno umetno inteligenco): **neomejena uporaba**, s pridržkom zgolj tehničnih omejitev vašega telefona (baterija, segrevanje).
 - Kadar obdelava poteka **na naših strežnikih**: uporaba je omejena na dan in na mesec, ker ima vsak klic dejanski strošek. *Na dan pisanja: 1.000 na dan in 9.000 na mesec.*
 
+**Krediti naročnine so mesečni in se ne kopičijo.** Krediti za posamezen mesec veljajo do konca tega meseca: neporabljeno se **ne prenese** v naslednji mesec, v katerem se števec začne znova pri nič. Če se naročnina ne obnovi, se uporabi člen 7.
+
+**Zvočna komunikacija.** Način **Lokalni komplet** je brezplačen: prevajanje poteka v vašem telefonu (na brezplačni ravni se lahko občasno prikaže oglas). Način **UI Pro** je namenjen naročnikom: vsak prevod porabi **stalno** število enot kvote glede na ciljni jezik — *na dan pisanja 1 enoto in 3 za jezik z oznako PRO*. Cena je v aplikaciji prikazana pred uporabo in se **samodejno odbije** po vsakem uspešnem prevodu; neuspel prevod se ne odbije. Brez zadostnega stanja se prevod UI Pro ne izvede.
+
 **Skupno vsem ravnem:**
 
 - Ena **analiza zaslona** (prevod ali predlog odgovora) je dražja od preprostega preoblikovanja in porabi **več enot kvote** — trenutno 5.
@@ -102,6 +109,8 @@ Uporaba storitve je omejena, da se obvladuje strošek obdelave.
 
 **Prenehanje naročnine.** Ob izteku se vaš račun vrne na brezplačno raven. Ne izgubite ne računa, ne person, ne nastavitev.
 
+**Če se vaša naročnina ne obnovi, imajo preostali krediti 7 dni.** Stanje kreditov zadnjega meseca naročnine ostane uporabno **7 dni** od konca naročnine; po tem roku se **dokončno izbriše**. Aplikacija vas s sporočilom opozori že na začetku tega obdobja, s stanjem in končnim datumom. Ta rok ne velja v primeru povračila. Kupljenih kreditov v trgovini (člen 8) to **ne zadeva**: ostanejo pridobljeni.
+
 ---
 
 ## Člen 8 — Paketi in posamični nakupi
@@ -110,7 +119,7 @@ Nekatere vsebine (paketi person, dodatni dobropisi kvote) se prodajajo posamičn
 
 *Cena na dan pisanja: 2,99 € na paket. Cena, ki vas zavezuje, je tista, prikazana ob nakupu.*
 
-Kupljeni paket je **pridobljen trajno** in vezan na vaš račun. Najdete ga ob ponovni prijavi na drugi napravi, funkcija »Obnovi moje nakupe« v aplikaciji pa vam omogoča, da ga po potrebi obnovite.
+Kupljeni paket je **pridobljen trajno** in vezan na vaš račun — za razliko od mesečnih kreditov naročnine (člena 6 in 7) ne poteče. Najdete ga ob ponovni prijavi na drugi napravi, funkcija »Obnovi moje nakupe« v aplikaciji pa vam omogoča, da ga po potrebi obnovite.
 
 Kupljeni dobropisi kvote se uporabijo **šele, ko so vaše kvote za obdobje izčrpane**, da nikoli ne bi dvakrat plačali iste uporabe.
 

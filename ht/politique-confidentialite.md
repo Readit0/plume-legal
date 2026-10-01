@@ -1,6 +1,8 @@
 # Politik konfidansyalite Plume
 
-**Dènye mizajou: 1 oktòb 2026** — Vèsyon 2.1
+**Dènye mizajou: 1 oktòb 2026** — Vèsyon 2.2
+
+> *Sa ki chanje nan vèsyon 2.2:* nou dekri **Kominikasyon odyo**, entèprèt vokal Plume lan, ki pa t egziste nan vèsyon 2.1: sa ki rete sou telefòn ou, sa ki ale nan mòd IA Pro, ak lekti a vwa wo pa motè sentèz vokal telefòn lan (gade §4.1 ak §9).
 
 > *Sa ki chanje nan vèsyon 2.1:* nou dekri **mòd Kamouflaj la**, vèsyon 2.0 pa t mansyone, epi nou korije yon afimasyon ki pa t egzat ankò: pou lang pèsonèl yo kou pou Kamouflaj la, **mo ki nan mesaj ou yo ki poko nan vokabilè ou yo konsève, youn pa youn** — pa janm fraz la — pou n ka pwopoze w ajoute yo. Detay yo nan «Nan yon minit», nan §2.2 ak nan §3. Nou korije tou yon dezyèm erè: **pèsona pèsonalize ou yo ak avata yo sove sou sèvè nou yo** — yo pa rete sèlman sou telefòn ou (gade §3).
 
@@ -142,6 +144,16 @@ Yon bouton mikwo pèmèt ou dikte olye pou w tape. Yo mande otorizasyon pou aks�
 
 Si w refize otorizasyon mikwo a, ou toujou ka tape sou klavye a, byensi.
 
+### 4.1 Kominikasyon odyo (entèprèt vokal la)
+
+Kominikasyon odyo tradui a vwa wo yon konvèsasyon ant de moun. **Mikwo a ouvè sèlman lè w manyen bòl la**, epi li fèmen nan fen chak fraz.
+
+- **Pawòl la** transkri pa menm motè rekonesans vokal telefòn lan ke dikte a, ak menm rezèv yo ke anwo a. **Plume resevwa sèlman tèks la, jamè son an.** Si modil san koneksyon yon lang manke, Plume mande telefòn lan pou l telechaje l; pandan sa, motè telefòn lan ka transkri sou entènèt.
+- **Nan mòd Kit lokal** (gratis), tradiksyon an fèt **sou telefòn ou**.
+- **Nan mòd IA Pro** (abonne), tèks transkri a voye sou sèvè nou yo epi answit bay founisè tretman IA nou an, ki korije erè koute yo epi tradui l — pa menm chemen ak nan §2.2. **Nou pa konsève ni tèks la ni tradiksyon li.**
+- **Lekti a vwa wo** fèt pa motè sentèz vokal telefòn lan (jeneralman sa Google). Nan de mòd yo, Plume mande li **vwa an liy** li yo, ki pi natirèl: tèks tradui a transmèt answit bay editè li pou yo pwononse l. San koneksyon, yon vwa ki enstale sou telefòn lan pran relè a.
+- **Istorik konvèsasyon an rete sou telefòn ou** epi li disparèt lè w kite ekran an. Se sèlman pè lang ou chwazi a, motè ou chwazi a ak kantite konvèsasyon (pou piblisite nivo gratis la) ki sonje sou aparèy la.
+
 ---
 
 ## 5. Piblisite
@@ -199,7 +211,7 @@ Kòm aplikasyon an pèmèt reformile yon tèks lib epi li afiche reklam, li pa e
 | **Founisè tretman IA nou an** | Achemine demann yo epi trete tèks la ak yon modèl entèlijans atifisyèl lòt konpayi | **Andeyò Inyon Ewopeyen an** |
 | **Google Play / Google Billing** | Peman, abònman | Google Ireland / Etazini |
 | **Google AdMob** | Reklam ak rekonpans | Google Ireland / Etazini |
-| **Google (sèvis sistèm telefòn nan)** | Rekonesans vokal, modil tradiksyon san koneksyon | Selon aparèy ou |
+| **Google (sèvis sistèm telefòn nan)** | Rekonesans vokal, sentèz vokal (lekti a vwa wo pou Kominikasyon odyo), modil tradiksyon san koneksyon | Selon aparèy ou |
 | **Founisè rapò krach nou an** | Rapò teknik krach — sèlman erè pwogram, filtre anvan yo voye yo: pa janm tèks ou | Etazini |
 
 **Nou pa vann okenn done epi nou pa sede okenn done bay koutye done.**

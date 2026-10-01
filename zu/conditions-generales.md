@@ -1,6 +1,8 @@
 # Imigomo Ejwayelekile Yokusetshenziswa Nokuthengiswa — Plume
 
-**Ukubuyekezwa kokugcina: 31 Julayi 2026** — Uhlobo 1.0
+**Ukubuyekezwa kokugcina: 1 Okthoba 2026** — Uhlobo 1.1
+
+> *Okushintshile ohlotsheni 1.1:* sichaza **Ukuxhumana ngomsindo**, umhumushi wezwi we-Plume, kanye nemodi yawo ye-**AI Pro** (Izigaba 2 no-6). Sibhala ngokusobala imithetho emibili mayelana namakhredithi okubhalisela: **anenyanga ngayinye futhi awuqoqeki** kusukela kwenye inyanga kuya kwenye (Isigaba 6), futhi uma ukubhalisela **kungavuselelwa**, ibhalansi yenyanga yokugcina isasebenziseka **izinsuku ezi-7** ngaphambi kokususwa (Isigaba 7). Amakhredithi athengwe esitolo, kodwa, ahlala **etholwe unomphela** (Isigaba 8).
 
 
 ---
@@ -25,7 +27,8 @@ I-Plume iyithuluzi losizo lokubhala olusebenza ku-Android. Ikuvumela ukuthi:
 - **ubuyekeze umbhalo** owubhalayo, ngqo ohlelweni lokusebenza obhala kulo, ngokukhetha isitayela ("persona");
 - **uhumushe noma ufinyeze umbhalo** obonakala esikrinini, futhi uthole isiphakamiso sempendulo yomlayezo otholiwe;
 - usebenzise **Ukufunda Okusizayo**, okubeka inguqulo phezu kombhalo obonakala esikrinini;
-- **ukhulume** umbhalo esikhundleni sokuwuthayipha.
+- **ukhulume** umbhalo esikhundleni sokuwuthayipha;
+- usebenzise **Ukuxhumana ngomsindo**, umhumushi wezwi ohumusha ngezwi elikhulu ingxoxo phakathi kwabantu ababili, noma ngokubhala (imodi yokuBhala).
 
 Kuya ngedivayisi yakho nokukhetha kwakho, ukucubungula kwenzeka **efonini yakho** noma **kumaseva akude**. Indlela edatha yakho ehamba ngayo ngokuqondile ichazwe kwinqubomgomo yethu yobumfihlo: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Ukusetshenziswa kwesevisi kunomkhawulo, ukuze kulawulwe izindleko zokucubungula.
 - Uma ukucubungula kwenzeka **edivayisini yakho** (amadivayisi ahambisana ne-Local AI): **ukusetshenziswa okungenamkhawulo**, ngaphandle kwemikhawulo yobuchwepheshe yefoni yakho (ibhethri, ukushisa).
 - Uma ukucubungula kwenzeka **kumaseva ethu**: ukusetshenziswa kunomkhawulo ngosuku nangenyanga, ngoba ucingo ngalunye lunentengo yangempela. *Ngosuku lokubhalwa: 1,000 ngosuku no-9,000 ngenyanga.*
 
+**Amakhredithi okubhalisela anenyanga ngayinye futhi awuqoqeki.** Amakhredithi enyanga eyodwa asebenza kuze kube sekupheleni kwaleyo nyanga: okungasetshenzisiwe **akudluliselwa** enyangeni elandelayo, lapho isibali siqala kabusha ku-zero. Uma ukubhalisela kungavuselelwa, kusebenza Isigaba 7.
+
+**Ukuxhumana ngomsindo.** Imodi ye-**Ikhithi yasendaweni** ayikhokhelwa: ukuhumusha kwenzeka efonini yakho (ezingeni lamahhala, isikhangiso singavela ngezikhathi ezithile). Imodi ye-**AI Pro** igcinelwe ababhalisile: ukuhumusha ngakunye kusebenzisa inombolo **emisiwe** yamayunithi esabelo, kuye ngolimi oluhunyushelwa kulo — *ngosuku lokubhalwa, iyunithi eyi-1, nezi-3 kulolu limi olumakwe ngokuthi PRO*. Izindleko ziboniswa ku-app ngaphambi kokusebenzisa futhi **zinqunywa ngokuzenzekelayo** ngemva kokuhumusha ngakunye okuphumelele; ukuhumusha okwehlulekile akunqunyelwa. Ngaphandle kwebhalansi eyanele, ukuhumusha kwe-AI Pro akwenziwa.
+
 **Amaphuzu ajwayelekile kuwo wonke amazinga:**
 
 - **Ukuhlaziya isikrini** (ukuhumusha noma isiphakamiso sempendulo) kubiza kakhulu kunokubuyekeza okulula futhi kudla **amayunithi amaningi esabelo** — okwamanje angu-5.
@@ -103,6 +110,8 @@ Ukusetshenziswa kwesevisi kunomkhawulo, ukuze kulawulwe izindleko zokucubungula.
 
 **Ukuphela kokubhalisela.** Ekupheleni, i-akhawunti yakho ibuyela ezingeni lamahhala. Awulahlekelwa i-akhawunti yakho, amapersona akho, noma izilungiselelo zakho.
 
+**Uma ukubhalisela kwakho kungavuselelwa, amakhredithi asele anezinsuku ezi-7.** Ibhalansi yamakhredithi enyanga yakho yokugcina yokubhalisela isasebenziseka **izinsuku ezi-7** kusukela ekupheleni kokubhalisela; ngemva kwaleso sikhathi, **isuswa unomphela**. I-app ikuxwayisa ngomlayezo kusukela ekuqaleni kwalesi sikhathi, ngebhalansi nosuku lokugcina. Lesi sikhathi asisebenzi uma kubuyiselwa imali. Amakhredithi athengwe esitolo (Isigaba 8) **awathintwa**: ahlala eyakho.
+
 ---
 
 ## Isigaba 8 — Amaphakethe nokuthenga okuyodwa
@@ -111,7 +120,7 @@ Okunye okuqukethwe (amaphakethe amapersona, amakhredithi wesabelo owengeziwe) ku
 
 *Inani ngosuku lokubhalwa: ama-euro angu-2.99 ngephakethe. Inani elikubophezelayo yilelo eliboniswayo ngesikhathi sokuthenga.*
 
-Iphakethe elithengiwe **litholwa unomphela** futhi lixhunywe ku-akhawunti yakho. Uyalithola uma ungena kabusha kwenye idivayisi, futhi umsebenzi "Buyisela okuthengile kwami" wohlelo lokusebenza ukuvumela ukuthi ulibuyisele uma kudingeka.
+Iphakethe elithengiwe **litholwa unomphela** futhi lixhunywe ku-akhawunti yakho — ngokungafani namakhredithi enyanga ngayinye okubhalisela (Izigaba 6 no-7), aliphelelwa yisikhathi. Uyalithola uma ungena kabusha kwenye idivayisi, futhi umsebenzi "Buyisela okuthengile kwami" wohlelo lokusebenza ukuvumela ukuthi ulibuyisele uma kudingeka.
 
 Amakhredithi esabelo athengiwe asetshenziswa **kuphela ngemva kokuthi isabelo sesikhathi sakho siphelile**, ukuze ungakhokhi kabili ukusetshenziswa okufanayo.
 

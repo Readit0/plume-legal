@@ -1,6 +1,8 @@
 # Imigaqo Jikelele yokuSetyenziswa nokuThengiswa — Plume
 
-**Uhlaziyo lokugqibela: 31 kaJulayi 2026** — Uhlobo 1.0
+**Uhlaziyo lokugqibela: 1 ku-Okthobha 2026** — Uhlobo 1.1
+
+> *Oko kutshintshileyo kuhlobo 1.1:* sichaza **Unxibelelwano ngomsindo**, umguquleli welizwi lwe-Plume, kunye nemowudi yalo ye-**AI Pro** (Amaqaku 2 no-6). Sibhala ngokucacileyo imithetho emibini malunga nee-kredithi zomrhumo: zi **zinyanga ngenyanga kwaye aziqokelelwa** ukusuka kwenyanga ukuya kwenye (Inqaku 6), kwaye ukuba umrhumo **awuhlaziywa**, ibhalansi yenyanga yokugqibela iqhubeka isetyenziswa **iintsuku ezi-7** ngaphambi kokuba icinywe (Inqaku 7). Ii-kredithi ezithengwe evenkileni, zona, zihlala **zifunyenwe ngokungapheliyo** (Inqaku 8).
 
 
 ---
@@ -25,7 +27,8 @@ IPlume sisixhobo sokunceda ekubhaleni esisebenza kwi-Android. Ikuvumela ukuba:
 - **ulungise umbhalo** owubhalayo, ngqo kwiapp oyibhalela kuyo, ukhetha isimbo ("persona");
 - **uguqulele okanye ufinyeze umbhalo obonakala kwiskrini**, kwaye ufumane ingcebiso yempendulo kumyalezo ofumeneyo;
 - usebenzise **ukuFundwa Okuncedayo**, okubeka uguqulelo phezu kombhalo obonakala kwiskrini;
-- **uthethe** umbhalo endaweni yokuwubhala.
+- **uthethe** umbhalo endaweni yokuwubhala;
+- usebenzise **Unxibelelwano ngomsindo**, umguquleli welizwi oguqulela ngelizwi elizwakalayo ingxoxo phakathi kwabantu ababini, okanye ngokubhaliweyo (imowudi yoKubhala).
 
 Kuxhomekeke kwidivayisi yakho nokhetho lwakho, ukucutshwa kwenzeka **kwifowuni yakho** okanye **kwiiseva ezikude**. Ukuhamba okuchanekileyo kwedatha yakho kuchazwe kumgaqo-nkqubo wethu woBumfihlo: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Ukusetyenziswa kwenkonzo kunqunyelwe, ukuze kulawulwe iindleko zokucuta.
 - Xa ukucuta kwenzeka **kwidivayisi yakho** (iidivayisi ezihambelana ne-AI yasekhaya): **ukusetyenziswa okungenammda**, phantsi kwemida yobuchwepheshe yefowuni yakho kuphela (ibhetri, ukushisa).
 - Xa ukucuta kwenzeka **kwiiseva zethu**: ukusetyenziswa kunqunyelwe ngosuku nangenyanga, ngenxa yokuba isicelo ngasinye sinendleko yokwenene. *Ngomhla wokubhalwa: 1 000 ngosuku kunye ne-9 000 ngenyanga.*
 
+**Ii-kredithi zomrhumo zinyanga ngenyanga kwaye aziqokelelwa.** Ii-kredithi zenyanga enye zisebenza kude kube sekupheleni kwenyanga leyo: oko kungasetyenziswanga **akudluliselwa** kwinyanga elandelayo, apho ikhawuntara iqala kwakhona ukusuka kwi-zero. Ukuba umrhumo awuhlaziywa, kusebenza Inqaku 7.
+
+**Unxibelelwano ngomsindo.** Imowudi ye-**Ikiti yasekhaya** ayihlawulelwa: uguqulelo lwenzeka kwifowuni yakho (kwinqanaba elisimahla, isibhengezo sinokubonakala amaxesha ngamaxesha). Imowudi ye-**AI Pro** igcinelwe abanomrhumo: uguqulelo ngalunye lusebenzisa inani **elimiselweyo** lamayunithi equota, ngokwolwimi ekuguqulelwa kulo — *ngomhla wokubhalwa, iyunithi e-1, kunye nee-3 kulwimi olufakwe uphawu lwe-PRO*. Ixabiso libonisiwe kwi-app phambi kokusetyenziswa kwaye **liyabhitywa ngokuzenzekelayo** emva kokuguqulela ngempumelelo ngalunye; uguqulelo oluhlulekileyo alubhitywa. Ngaphandle kwebhalansi eyaneleyo, uguqulelo lwe-AI Pro alwenziwa.
+
 **Izinto eziqhelekileyo kuwo onke amanqanaba:**
 
 - **Ukuhlalutya iskrini** (uguqulelo okanye ingcebiso yempendulo) kubiza ngaphezulu kunentlungiswano elula kwaye kusebenzisa **iiyunithi ezininzi ze-quota** — okwangoku 5.
@@ -103,6 +110,8 @@ Ukusetyenziswa kwenkonzo kunqunyelwe, ukuze kulawulwe iindleko zokucuta.
 
 **Ukuphela komrhumo.** Xa isigaba siphela, i-akhawunti yakho ibuyela kwinqanaba elisimahla. Awuphulukani ne-akhawunti yakho, iipersona zakho, okanye iisetingi zakho.
 
+**Ukuba umrhumo wakho awuhlaziywa, ii-kredithi eziseleyo zinexesha leentsuku ezi-7.** Ibhalansi yee-kredithi zenyanga yakho yokugqibela yomrhumo iqhubeka isetyenziswa **iintsuku ezi-7** ukususela ekupheleni komrhumo; emva kwelo xesha, **icinywa ngokusisigxina**. I-app ikulumkisa ngomyalezo ukususela ekuqaleni kweli xesha, kunye nebhalansi nomhla wokugqibela. Eli xesha alisebenzi ekubuyiselweni kwemali. Ii-kredithi ezithengwe evenkileni (Inqaku 8) **azichatshazelwa**: zihlala zezakho.
+
 ---
 
 ## Inqaku 8 — Amaphakheji nezithengo ngamnye
@@ -111,7 +120,7 @@ Eminye imixholo (amaphakheji epersona, ii-kredithi zе-quota ezongezelelweyo) zi
 
 *Ixabiso ngomhla wokubhalwa: i-€2.99 ngephakheji. Ixabiso elikubophelelayo lelo liboniswe ngexesha lokuthenga.*
 
-Iphakheji ethengiweyo **ifunyenwe ngokungapheliyo** kwaye idibene ne-akhawunti yakho. Uyayifumana xa uphinda ungena kwenye idivayisi, kwaye umsebenzi "Buyisela izithengo zam" we-app ukuvumela ukuyibuyisa xa kufuneka.
+Iphakheji ethengiweyo **ifunyenwe ngokungapheliyo** kwaye idibene ne-akhawunti yakho — ngokungafaniyo nee-kredithi zenyanga zomrhumo (Amaqaku 6 no-7), ayiphelelwa lixesha. Uyayifumana xa uphinda ungena kwenye idivayisi, kwaye umsebenzi "Buyisela izithengo zam" we-app ukuvumela ukuyibuyisa xa kufuneka.
 
 Ii-kredithi ze-quota ezithengiweyo zisetyenziswa kuphela **emva kokuba ii-quota zesigaba zigqityiwe**, ukuze ungabi nakuhlawula kabini ngokusetyenziswa okufanayo.
 

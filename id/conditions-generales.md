@@ -1,6 +1,8 @@
 # Syarat dan Ketentuan Umum Penggunaan dan Penjualan — Plume
 
-**Terakhir diperbarui: 31 Juli 2026** — Versi 1.0
+**Terakhir diperbarui: 1 Oktober 2026** — Versi 1.1
+
+> *Apa yang berubah pada versi 1.1:* kami menjelaskan **Komunikasi audio**, penerjemah suara Plume, dan mode **AI Pro**-nya (Pasal 2 dan 6). Kami menuliskan dengan jelas dua aturan tentang kredit langganan: kredit itu **bersifat bulanan dan tidak terakumulasi** dari bulan ke bulan (Pasal 6), dan jika langganan **tidak diperpanjang**, sisa saldo bulan terakhir tetap dapat digunakan selama **7 hari** sebelum dihapus (Pasal 7). Kredit yang dibeli di toko, sebaliknya, tetap **dimiliki secara permanen** (Pasal 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume adalah alat bantu menulis yang bekerja di Android. Aplikasi ini memungkink
 - **menyusun ulang sebuah teks** yang sedang Anda tulis, langsung di dalam aplikasi tempat Anda menulisnya, dengan memilih sebuah gaya ("persona");
 - **menerjemahkan atau meringkas teks yang tampil di layar**, dan memperoleh usulan jawaban atas sebuah pesan yang diterima;
 - menggunakan **Bacaan Terbantu**, yang menampilkan terjemahan di atas teks yang tampil di layar;
-- **mendikte** sebuah teks alih-alih mengetiknya.
+- **mendikte** sebuah teks alih-alih mengetiknya;
+- menggunakan **Komunikasi audio**, sebuah penerjemah suara yang menerjemahkan percakapan antara dua orang dengan suara keras, atau secara tertulis (mode Tulis).
 
 Bergantung pada perangkat Anda dan pilihan Anda, pemrosesan dilakukan **di ponsel Anda** atau **di server jarak jauh**. Peredaran data Anda yang sesungguhnya dijelaskan dalam kebijakan privasi kami: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Penggunaan layanan dibatasi, untuk mengendalikan biaya pemrosesan.
 - Ketika pemrosesan dilakukan **di perangkat Anda** (perangkat yang kompatibel dengan AI lokal): **penggunaan tanpa batas**, hanya dengan syarat batas teknis ponsel Anda (baterai, panas).
 - Ketika pemrosesan dilakukan **di server kami**: penggunaan dibatasi per hari dan per bulan, karena setiap panggilan memiliki biaya nyata. *Pada tanggal penulisan: 1.000 per hari dan 9.000 per bulan.*
 
+**Kredit langganan bersifat bulanan dan tidak terakumulasi.** Kredit satu bulan berlaku hingga akhir bulan tersebut: yang tidak terpakai **tidak dibawa** ke bulan berikutnya, di mana penghitung kembali ke nol. Jika langganan tidak diperpanjang, Pasal 7 berlaku.
+
+**Komunikasi audio.** Mode **Kit lokal** gratis: penerjemahan dilakukan di ponsel Anda (pada tingkat gratis, iklan dapat muncul sesekali). Mode **AI Pro** khusus pelanggan: setiap terjemahan menggunakan sejumlah unit kuota yang **tetap**, tergantung bahasa tujuan — *pada tanggal penulisan, 1 unit, dan 3 untuk bahasa yang bertanda PRO*. Biayanya ditampilkan di aplikasi sebelum digunakan dan **didebit otomatis** setelah setiap terjemahan yang berhasil; terjemahan yang gagal tidak didebit. Tanpa saldo yang cukup, terjemahan AI Pro tidak dilakukan.
+
 **Hal yang berlaku untuk semua tingkat:**
 
 - Sebuah **analisis layar** (terjemahan atau usulan jawaban) lebih mahal daripada penyusunan ulang sederhana dan menghabiskan **beberapa satuan kuota** — saat ini 5.
@@ -102,6 +109,8 @@ Penggunaan layanan dibatasi, untuk mengendalikan biaya pemrosesan.
 
 **Akhir langganan.** Pada saat jatuh tempo, akun Anda kembali ke tingkat gratis. Anda tidak kehilangan akun Anda, tidak pula persona Anda, tidak pula pengaturan Anda.
 
+**Jika langganan Anda tidak diperpanjang, sisa kredit Anda berlaku 7 hari.** Saldo kredit bulan langganan terakhir Anda tetap dapat digunakan selama **7 hari** sejak berakhirnya langganan; setelah batas waktu itu, saldo tersebut **dihapus secara permanen**. Aplikasi memberi tahu Anda lewat pesan sejak awal periode ini, lengkap dengan saldo dan tenggat waktunya. Batas waktu ini tidak berlaku dalam hal pengembalian dana. Kredit yang dibeli di toko (Pasal 8) **tidak termasuk**: kredit itu tetap menjadi milik Anda.
+
 ---
 
 ## Pasal 8 — Paket dan pembelian satuan
@@ -110,7 +119,7 @@ Sebagian konten (paket persona, kredit kuota tambahan) dijual satuan, tanpa lang
 
 *Tarif pada tanggal penulisan: 2,99 € per paket. Harga yang mengikat Anda adalah harga yang ditampilkan pada saat pembelian.*
 
-Sebuah paket yang dibeli **dimiliki secara permanen** dan ditautkan ke akun Anda. Anda menemukannya kembali saat masuk di perangkat lain, dan fungsi "Pulihkan pembelian saya" di dalam aplikasi memungkinkan Anda mendapatkannya kembali bila perlu.
+Sebuah paket yang dibeli **dimiliki secara permanen** dan ditautkan ke akun Anda — berbeda dengan kredit bulanan langganan (Pasal 6 dan 7), paket tidak kedaluwarsa. Anda menemukannya kembali saat masuk di perangkat lain, dan fungsi "Pulihkan pembelian saya" di dalam aplikasi memungkinkan Anda mendapatkannya kembali bila perlu.
 
 Kredit kuota yang dibeli baru digunakan **setelah kuota periode Anda habis**, agar Anda tidak pernah membayar dua kali untuk penggunaan yang sama.
 

@@ -1,6 +1,8 @@
 # Politika zasebnosti aplikacije Plume
 
-**Zadnja posodobitev: 1. oktober 2026** — Različica 2.1
+**Zadnja posodobitev: 1. oktober 2026** — Različica 2.2
+
+> *Kaj se je spremenilo v različici 2.2:* opisujemo **Zvočno komunikacijo**, glasovnega tolmača Plume, ki v različici 2.1 ni obstajal: kaj ostane v vašem telefonu, kaj odide v načinu UI Pro in branje na glas z govornim sintetizatorjem telefona (glejte §4.1 in §9).
 
 > *Kaj se je spremenilo v različici 2.1:* opisujemo **način Maskiranje**, ki ga različica 2.0 ni omenjala, in popravljamo trditev, ki ni bila več točna: tako za osebne jezike kot za Maskiranje **se besede iz vaših sporočil, ki jih v vašem besednjaku še ni, hranijo posamično** — nikoli stavek — da vam lahko predlagamo, da jih dodate. Podrobnosti so v razdelku »V eni minuti«, v §2.2 in v §3. Popravljamo tudi drugo napako: **vaše prilagojene persone in njihovi avatarji se shranjujejo na naših strežnikih** — ne ostanejo samo na vašem telefonu (glejte §3).
 
@@ -134,6 +136,16 @@ Gumb z mikrofonom vam omogoča, da narekujete, namesto da tipkate. Dovoljenje za
 
 Če dovoljenje za mikrofon zavrnete, vnos s tipkovnico seveda ostane na voljo.
 
+### 4.1 Zvočna komunikacija (glasovni tolmač)
+
+Zvočna komunikacija na glas prevaja pogovor med dvema osebama. **Mikrofon se odpre le, ko se dotaknete krogle**, in se izklopi ob koncu vsakega stavka.
+
+- **Govor** prepisuje isto prepoznavanje govora telefona kot narekovanje, z enakimi pridržki kot zgoraj. **Plume prejme samo besedilo, nikoli zvoka.** Če modul jezika za uporabo brez povezave manjka, Plume telefon prosi, naj ga prenese; do takrat lahko telefon prepisuje prek spleta.
+- **V načinu Lokalni komplet** (brezplačen) prevajanje poteka **v vašem telefonu**.
+- **V načinu UI Pro** (naročniki) se prepisano besedilo pošlje na naše strežnike in nato našemu ponudniku obdelave z umetno inteligenco, ki popravi napake pri poslušanju in ga prevede — po isti poti kot v §2.2. **Ne hranimo ne besedila ne njegovega prevoda.**
+- **Branje na glas** opravi govorni sintetizator telefona (običajno Googlov). V obeh načinih Plume od njega zahteva naravnejše **spletne glasove**: prevedeno besedilo se nato posreduje njegovemu izdajatelju za izgovorjavo. Brez povezave prevzame glas, nameščen v telefonu.
+- **Zgodovina pogovora ostane v vašem telefonu** in izgine, ko zapustite zaslon. V napravi se ohranijo le izbrani par jezikov, izbrani način in število pogovorov (za oglas brezplačne ravni).
+
 ---
 
 ## 5. Oglaševanje
@@ -191,7 +203,7 @@ Ker aplikacija omogoča preoblikovanje prostega besedila in prikazuje oglase, ni
 | **Naš ponudnik obdelave z umetno inteligenco** | Usmerjanje zahtev in obdelava besedila z modelom umetne inteligence tretje osebe | **Zunaj Evropske unije** |
 | **Google Play / Google Billing** | Plačilo, naročnine | Google Ireland / Združene države |
 | **Google AdMob** | Nagrajeno oglaševanje | Google Ireland / Združene države |
-| **Google (sistemske storitve telefona)** | Prepoznavanje govora, moduli za prevajanje brez povezave | Odvisno od vaše naprave |
+| **Google (sistemske storitve telefona)** | Prepoznavanje govora, sinteza govora (branje na glas v Zvočni komunikaciji), moduli za prevajanje brez povezave | Odvisno od vaše naprave |
 | **Naš ponudnik poročanja o sesutjih** | Poročanje o tehničnih sesutjih — le napake programa, filtrirane pred pošiljanjem: nikoli vaše besedilo | Združene države |
 
 **Nobenih podatkov ne prodajamo in jih ne odstopamo posrednikom s podatki.**

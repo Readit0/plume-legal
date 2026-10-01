@@ -1,6 +1,8 @@
 # Plumes privatlivspolitik
 
-**Sidst opdateret: 1. oktober 2026** — Version 2.1
+**Sidst opdateret: 1. oktober 2026** — Version 2.2
+
+> *Hvad der er ændret i version 2.2:* vi beskriver **Lydkommunikation**, Plumes stemmetolk, som ikke fandtes i version 2.1: hvad der bliver på din telefon, hvad der forlader den i AI Pro-tilstand, og højtlæsningen via telefonens talesyntesemotor (se §4.1 og §9).
 
 > *Hvad der er ændret i version 2.1:* vi beskriver **Kamuflage-tilstanden**, som version 2.0 ikke nævnte, og vi retter et udsagn, der ikke længere er korrekt: for personlige sprog som for Kamuflage **gemmes de ord i dine beskeder, der endnu mangler i din ordbog, ét for ét** — aldrig sætningen — så vi kan foreslå dig at tilføje dem. Detaljerne findes under “På et minut”, i §2.2 og i §3. Vi retter også en anden fejl: **dine egne personaer og deres avatarer er sikkerhedskopieret på vores servere** — de bliver ikke kun på din telefon (se §3).
 
@@ -134,6 +136,16 @@ En mikrofonknap giver dig mulighed for at diktere i stedet for at skrive. Tillad
 
 Hvis du afviser tilladelsen til mikrofonen, er indtastning på tastaturet naturligvis fortsat mulig.
 
+### 4.1 Lydkommunikation (stemmetolken)
+
+Lydkommunikation oversætter en samtale mellem to personer højt. **Mikrofonen åbner kun, når du rører kuglen**, og den lukker ved slutningen af hver sætning.
+
+- **Talen** transskriberes af den samme talegenkendelsesmotor på telefonen som dikteringen, med de samme forbehold som ovenfor. **Plume modtager kun teksten, aldrig lyden.** Hvis offlinemodulet til et sprog mangler, beder Plume telefonen om at hente det; i mellemtiden kan telefonens motor transskribere online.
+- **I Lokalt kit-tilstand** (gratis) foregår oversættelsen **på din telefon**.
+- **I AI Pro-tilstand** (abonnenter) sendes den transskriberede tekst til vores servere og derefter til vores leverandør af AI-behandling, som retter lyttefejl og oversætter den — via samme vej som i §2.2. **Vi gemmer hverken teksten eller dens oversættelse.**
+- **Højtlæsningen** foretages af telefonens talesyntesemotor (som regel Googles). I begge tilstande beder Plume den om dens mere naturlige **onlinestemmer**: den oversatte tekst videregives så til dens udgiver for at blive udtalt. Uden forbindelse overtager en stemme, der er installeret på telefonen.
+- **Samtalens historik bliver på din telefon** og forsvinder, når du forlader skærmen. Kun det valgte sprogpar, den valgte tilstand og antallet af samtaler (til det gratis niveaus reklamer) huskes på enheden.
+
 ---
 
 ## 5. Reklame
@@ -191,7 +203,7 @@ Da appen gør det muligt at omformulere fri tekst og viser reklame, er den ikke 
 | **Vores leverandør af AI-behandling** | Videresendelse af anmodningerne og behandling af teksten med en tredjeparts model for kunstig intelligens | **Uden for Den Europæiske Union** |
 | **Google Play / Google Billing** | Betaling, abonnementer | Google Ireland / USA |
 | **Google AdMob** | Belønnet reklame | Google Ireland / USA |
-| **Google (telefonens systemtjenester)** | Talegenkendelse, offlinemoduler til oversættelse | Afhængigt af din enhed |
+| **Google (telefonens systemtjenester)** | Talegenkendelse, talesyntese (højtlæsning i Lydkommunikation), offlinemoduler til oversættelse | Afhængigt af din enhed |
 | **Vores leverandør af fejlrapportering** | Tekniske fejlrapporter — kun programfejl, filtreret inden afsendelse: aldrig din tekst | USA |
 
 **Vi sælger ingen oplysninger og videregiver ingen oplysninger til databrokere.**

@@ -1,6 +1,8 @@
 # Opći uvjeti korištenja i prodaje — Plume
 
-**Posljednje ažuriranje: 31. srpnja 2026.** — Verzija 1.0
+**Posljednje ažuriranje: 1. listopada 2026.** — Verzija 1.1
+
+> *Što se promijenilo u verziji 1.1:* opisujemo **Audio komunikacija**, glasovnog tumača aplikacije Plume, i njegov način **AI Pro** (članci 2 i 6). Crno na bijelo pišemo dva pravila o kreditima pretplate: oni su **mjesečni i ne zbrajaju se** iz mjeseca u mjesec (članak 6), a ako se pretplata **ne obnovi**, saldo posljednjeg mjeseca ostaje upotrebljiv **7 dana** prije nego što se izbriše (članak 7). Krediti kupljeni u trgovini, naprotiv, ostaju **trajno stečeni** (članak 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume je alat za pomoć pri pisanju koji radi na Androidu. Omogućuje vam:
 - da **preoblikujete tekst** koji upravo pišete, izravno u aplikaciji u kojoj ga pišete, uz odabir stila („persona“);
 - da **prevedete ili sažmete tekst prikazan na zaslonu** te da dobijete prijedlog odgovora na primljenu poruku;
 - da koristite **Potpomognuto čitanje**, koje prekriva tekst prikazan na zaslonu prijevodom;
-- da tekst **diktirate** umjesto da ga tipkate.
+- da tekst **diktirate** umjesto da ga tipkate;
+- koristiti **Audio komunikacija**, glasovnog tumača koji naglas prevodi razgovor između dviju osoba ili pisanim putem (način Pisanje).
 
 Ovisno o vašem uređaju i vašem odabiru, obrada se odvija **na vašem telefonu** ili **na udaljenim poslužiteljima**. Točno kretanje vaših podataka opisano je u našim pravilima o privatnosti: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Korištenje usluge je ograničeno, radi nadzora troška obrade.
 - Kada se obrada odvija **na vašem uređaju** (uređaji kompatibilni s Lokalnom umjetnom inteligencijom): **neograničeno korištenje**, uz jedini pridržaj tehničkih ograničenja vašeg telefona (baterija, zagrijavanje).
 - Kada se obrada odvija **na našim poslužiteljima**: korištenje je ograničeno po danu i po mjesecu, jer svaki poziv ima stvaran trošak. *Na dan pisanja: 1.000 dnevno i 9.000 mjesečno.*
 
+**Krediti pretplate su mjesečni i ne zbrajaju se.** Krediti jednog mjeseca vrijede do kraja tog mjeseca: ono što nije iskorišteno **ne prenosi se** u sljedeći mjesec, u kojem brojač kreće od nule. Ako se pretplata ne obnovi, primjenjuje se članak 7.
+
+**Audio komunikacija.** Način **Lokalni komplet** je besplatan: prijevod se odvija na vašem telefonu (na besplatnoj razini povremeno se može prikazati oglas). Način **AI Pro** rezerviran je za pretplatnike: svaki prijevod troši **stalan** broj jedinica kvote, ovisno o ciljnom jeziku — *na dan pisanja, 1 jedinicu, a 3 za jezik označen oznakom PRO*. Cijena je prikazana u aplikaciji prije upotrebe i **automatski se naplaćuje** nakon svakog uspješnog prijevoda; neuspjeli prijevod se ne naplaćuje. Bez dovoljnog salda prijevod AI Pro se ne izvodi.
+
 **Zajedničko za sve razine:**
 
 - Jedna **analiza zaslona** (prijevod ili prijedlog odgovora) skuplja je od jednostavnog preoblikovanja i troši **više jedinica kvote** — trenutačno 5.
@@ -102,6 +109,8 @@ Korištenje usluge je ograničeno, radi nadzora troška obrade.
 
 **Prestanak pretplate.** Po isteku se vaš račun vraća na besplatnu razinu. Ne gubite ni svoj račun, ni svoje persone, ni svoje postavke.
 
+**Ako se vaša pretplata ne obnovi, vaši preostali krediti imaju 7 dana.** Saldo kredita posljednjeg mjeseca vaše pretplate ostaje upotrebljiv **7 dana** od završetka pretplate; nakon tog roka **trajno se briše**. Aplikacija vas obavještava porukom već na početku tog razdoblja, sa saldom i krajnjim datumom. Taj se rok ne primjenjuje u slučaju povrata novca. Krediti kupljeni u trgovini (članak 8) **nisu obuhvaćeni**: ostaju stečeni.
+
 ---
 
 ## Članak 8 — Paketi i pojedinačne kupnje
@@ -110,7 +119,7 @@ Određeni sadržaji (paketi persona, dodatni krediti kvote) prodaju se pojedina�
 
 *Cijena na dan pisanja: 2,99 € po paketu. Cijena koja vas obvezuje jest ona prikazana u trenutku kupnje.*
 
-Kupljeni paket **stječe se trajno** i vezan je uz vaš račun. Pronaći ćete ga ponovnom prijavom na drugom uređaju, a funkcija „Vrati moje kupnje“ u aplikaciji omogućuje vam da ga po potrebi vratite.
+Kupljeni paket **stječe se trajno** i vezan je uz vaš račun — za razliku od mjesečnih kredita pretplate (članci 6 i 7), ne istječe. Pronaći ćete ga ponovnom prijavom na drugom uređaju, a funkcija „Vrati moje kupnje“ u aplikaciji omogućuje vam da ga po potrebi vratite.
 
 Kupljeni krediti kvote koriste se **tek nakon što se iscrpe vaše kvote za razdoblje**, kako nikada ne biste dvaput platili isto korištenje.
 

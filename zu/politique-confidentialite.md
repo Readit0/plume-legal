@@ -1,6 +1,8 @@
 # Inqubomgomo yobumfihlo ye-Plume
 
-**Ukubuyekezwa kokugcina: 1 Okthoba 2026** — Uhlobo 2.1
+**Ukubuyekezwa kokugcina: 1 Okthoba 2026** — Uhlobo 2.2
+
+> *Okushintshile ohlotsheni 2.2:* sichaza **Ukuxhumana ngomsindo**, umhumushi wezwi we-Plume, ebengekho kuhlobo 2.1: okusala efonini yakho, okuphuma kumodi ye-AI Pro, nokufundwa ngokuvakalayo yinjini yokukhiqiza izwi yefoni (bheka §4.1 no-§9).
 
 > *Okushintshile ohlotsheni 2.1:* sichaza **imodi yoKufihla**, uhlobo 2.0 olungayibalanga, futhi silungisa isitatimende esingasaqondile: kuzo zombili izilimi zomuntu siqu nokuKufihla, **amagama emilayezweni yakho angekho esichazamazwini sakho agcinwa ngamunye ngamunye** — akusoze kwagcinwa isahluko sonke — ukuze sikwazi ukukuphakamisela ukuthi uwengeze. Imininingwane isenkabeni ethi "Ngomzuzu owodwa", ku-§2.2 nasku-§3. Silungisa nephutha lesibili: **amapersona akho azenzele futhi izithombe zawo kugcinwa kumaseva ethu** — akusali kuphela efonini yakho (bheka i-§3).
 
@@ -134,6 +136,16 @@ Inkinobho yemakrofoni ikuvumela ukuthi ukhulume esikhundleni sokuthayipha. Imvum
 
 Uma wenqaba imvume yemakrofoni, ukuthayipha ngekhibhodi kusala kutholakala ngokusobala.
 
+### 4.1 Ukuxhumana ngomsindo (umhumushi wezwi)
+
+Ukuxhumana ngomsindo kuhumusha ngezwi elikhulu ingxoxo phakathi kwabantu ababili. **Imakrofoni ivuleka kuphela uma uthinta indilinga**, futhi ivalwa ekupheleni kwemishwana ngayinye.
+
+- **Inkulumo** ibhalwa yinjini efanayo yokubona izwi yefoni esetshenziswa ekukhulumeni esikhundleni sokuthayipha, ngezimo ezifanayo nezingenhla. **I-Plume yamukela umbhalo kuphela, ingalutholi izwi.** Uma imodyuli yolimi engasebenzisi i-inthanethi ingekho, i-Plume icela ifoni ukuthi iyilande; kwesikhashana, injini yefoni ingabhala nge-inthanethi.
+- **Kumodi ye-Ikhithi yasendaweni** (mahhala), ukuhumusha kwenzeka **efonini yakho**.
+- **Kumodi ye-AI Pro** (ababhalisile), umbhalo obhaliwe uthunyelwa kumaseva ethu bese uya kumhlinzeki wethu wokucubungula ngobuhlakani bokwenziwa, olungisa amaphutha okulalela futhi awuhumushe — ngendlela efanayo nele-§2.2. **Asiwugcini umbhalo noma ukuhumusha kwawo.**
+- **Ukufundwa ngokuvakalayo** kwenziwa yinjini yokukhiqiza izwi yefoni (imvamisa eye-Google). Kuwo womabili amamodi, i-Plume iyicela **amazwi ayo asebenzisa i-inthanethi**, abonakala emvelo kakhulu: umbhalo ohunyushiwe bese udluliselwa kumshicileli wayo ukuze ubizwe. Uma ungaxhunyiwe, izwi elifakwe efonini lithatha indawo.
+- **Umlando wengxoxo uhlala efonini yakho** futhi unyamalala uma uphuma esikrinini. Kuqashelwa kuphela ipheya yezilimi ekhethiwe, injini ekhethiwe nenani lezingxoxo (kwesikhangiso sezinga lamahhala) kudivayisi.
+
 ---
 
 ## 5. Ukukhangisa
@@ -191,7 +203,7 @@ Njengoba uhlelo lokusebenza luvumela ukubuyekezwa kombhalo omahhala futhi luboni
 | **Umhlinzeki wethu wokucubungula nge-AI** | Ukuqondisa izicelo nokucubungula umbhalo ngemodeli ye-AI yenkampani yesithathu | **Ngaphandle kweNyunyana yaseYurophu** |
 | **Google Play / Google Billing** | Inkokhelo, ukubhalisela | Google Ireland / Amazwe Ahlangene aseMelika |
 | **Google AdMob** | Ukukhangisa okunomvuzo | Google Ireland / Amazwe Ahlangene aseMelika |
-| **Google (izinsizakalo zesistimu zefoni)** | Ukubona izwi, izingxenye zokuhumusha ngaphandle kwe-inthanethi | Kuya ngedivayisi yakho |
+| **Google (izinsizakalo zesistimu zefoni)** | Ukubona izwi, ukukhiqiza izwi (ukufundwa ngokuvakalayo kokuXhumana ngomsindo), izingxenye zokuhumusha ngaphandle kwe-inthanethi | Kuya ngedivayisi yakho |
 | **Umhlinzeki wethu wemibiko yamaphutha** | Ukubika iphutha lobuchwepheshe — amaphutha ohlelo kuphela, ahlungwa ngaphambi kokuthunyelwa: akusoze umbhalo wakho | Amazwe Ahlangene aseMelika |
 
 **Asithengisi noma iyiphi idatha futhi asiyidluliseli kubathengisi bedatha.**

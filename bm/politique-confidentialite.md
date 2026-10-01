@@ -1,6 +1,8 @@
 # Plume ka Gundo Lakana Sariya
 
-**A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 2.1
+**A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 2.2
+
+> *Min yɛlɛmana versiyɔn 2.2 kɔnɔ :* an bɛ **Kumakan ka baro** ɲɛfɔ, Plume ka kumakan ntalen min tun tɛ versiyɔn 2.1 kɔnɔ : min bɛ to i ka telefɔni kan, min bɛ bɔ AI Pro cogoya la, ani telefɔni kumakan dilanni baarakɛminɛn bɛ min kalan ni jamu ye (a filɛ §4.1 ni §9).
 
 > *Min yɛlɛmana versiyɔn 2.1 kɔnɔ :* an bɛ **Dogodogo cogoya** ɲɛfɔ, versiyɔn 2.0 ma min kuma, ani an bɛ fɔta dɔ latilen min ma kɛ tiɲɛ ye tugun : kan yɛrɛdaw ni Dogodogo fila bɛɛ la, **i ka cidenw kɔnɔ daɲɛ minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ, olu bɛ mara kelen-kelen** — ciden bɛɛ tɛ abada — walasa an ka se ka a fɔ i ye ko i ka u fara a kan. Ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ, §2.2 ni §3 kɔnɔ. An bɛ fɔta filanan fana latilen : **i ka persona kɛrɛnkɛrɛnnenw ni u ka avatarw bɛ mara an ka sɛrivɛriw kan** — u tɛ to i ka telefɔni kan dɔrɔn (§3 lajɛ).
 
@@ -134,6 +136,16 @@ Kunnafoni nafama ani tiɲɛ : sistɛmu motɛri nin ye i ka telefɔni ta ye, a ca
 
 Ni i banna mikoro yamaruya ma, bolokala sɛbɛnni bɛ to yen ka bɛn.
 
+### 4.1 Kumakan ka baro (kumakan ntalen)
+
+Kumakan ka baro bɛ mɔgɔ fila cɛ baro ntalen kumakan na. **Mikoro bɛ da yɛlɛn dɔrɔn ni i ye bɔlɔ la ka fɛn kunbabaw degun**, ani a bɛ da datugu kuma kelen-kelen bɛɛ laban na.
+
+- **Kuma** bɛ sɛbɛn kɛ telefɔni kumakan dɔnni baarakɛminɛn kelen min bɛ kumakan sɛbɛnni kɛ, ni lasɔminiw kelen ye kuntilenna sanfɛla la. **Plume bɛ sɛbɛn dɔrɔn sɔrɔ, kumakan t'a sɔrɔ abada.** Ni kan modili network t'a la tɛ yen, Plume bɛ telefɔni ɲini ka a ta ; o waati la, telefɔni baarakɛminɛn bɛ se ka sɛbɛn kɛ internɛti kan.
+- **Kit lokali cogoya la** (fu), ntalen bɛ kɛ **i ka telefɔni kan**.
+- **AI Pro cogoya la** (abɔnetɔw), sɛbɛn min kɛra, o bɛ ci an ka sɛrivɛriw ma, ka taa an ka AI baarakɛla ma min bɛ lamɛnni fili jɔ ani ka a ntalen — sira kelen ye min bɛ §2.2 kɔnɔ. **An tɛ sɛbɛn mara, a ntalen fana tɛ.**
+- **Kalan ni jamu ye** telefɔni kumakan dilanni baarakɛminɛn de bɛ min kɛ (Google ta ka ca). Cogoya fila bɛɛ la, Plume bɛ a **internɛti kumaw** deli, minnu ka nɔgɔn ka bon : ntalen sɛbɛn bɛ ci a dilanbaga ma walasa a ka kalan. Ni internɛti tɛ yen, kumakan min sigilen bɛ telefɔni kan, o bɛ a ta.
+- **Baro kɔrɔ bɛ to i ka telefɔni kan** ani a bɛ ban ni i bɔra ekran na. Kan fila min sugandira, baarakɛminɛn min sugandira, ani baro hakɛ (fu jɔyɔrɔ piblisite kama) dɔrɔn de bɛ mara baarakɛminɛn kan.
+
 ---
 
 ## 5. Piblisite
@@ -191,7 +203,7 @@ Komi aplikasiyɔn b'a to sɛbɛn hɔrɔnyalen kɔsegin ani a bɛ piblisite jira,
 | **An ka IA baara dɛmɛbaga** | Ɲininiw sira jirali ani sɛbɛn baara kɛli mɔgɔ wɛrɛ ka IA modɛli fɛ | **Ɛrɔpu Tɔn kɔfɛ** |
 | **Google Play / Google Billing** | Sara, Abɔnema | Google Ireland / Etazini |
 | **Google AdMob** | Piblisite sara | Google Ireland / Etazini |
-| **Google** (telefɔni sistɛmu sɛrivisiw) | Kumakan dɔnni, baabuli modɛli network t'a la | Ka bɛn i ka sañse ma |
+| **Google** (telefɔni sistɛmu sɛrivisiw) | Kumakan dɔnni, kumakan dilanni (Kumakan ka baro kalan ni jamu ye), baabuli modɛli network t'a la | Ka bɛn i ka sañse ma |
 | **An ka binni rapɔɔri dɛmɛbaga** | Teknikitigi binni rapɔɔri — porogaramu fili dɔrɔn, filitɛrilen sani ciyɛn : i ka sɛbɛn tɛ abada | Etazini |
 
 An tɛ kunnafoni si feere, an tɛ kunnafoni si di kunnafoni-feerekɛlaw ma.

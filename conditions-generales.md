@@ -1,6 +1,8 @@
 # Conditions générales d'utilisation et de vente — Plume
 
-**Dernière mise à jour : 31 juillet 2026** — Version 1.0
+**Dernière mise à jour : 1er octobre 2026** — Version 1.1
+
+> *Ce qui a changé en version 1.1 :* nous décrivons **Communication audio**, l'interprète vocal de Plume, et son mode **IA Pro** (Articles 2 et 6). Nous écrivons noir sur blanc deux règles sur les crédits de l'abonnement : ils sont **mensuels et ne se cumulent pas** d'un mois sur l'autre (Article 6), et si l'abonnement **n'est pas renouvelé**, le solde du dernier mois reste utilisable **7 jours** avant d'être effacé (Article 7). Les crédits achetés en boutique restent, eux, **acquis définitivement** (Article 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume est un outil d'aide à la rédaction fonctionnant sur Android. Il vous per
 - de **reformuler un texte** que vous êtes en train d'écrire, directement dans l'application où vous l'écrivez, en choisissant un style (« persona ») ;
 - de **traduire ou de résumer du texte affiché à l'écran**, et d'obtenir une proposition de réponse à un message reçu ;
 - d'utiliser la **Lecture Assistée**, qui superpose une traduction au texte affiché à l'écran ;
-- de **dicter** un texte à la place de le taper.
+- de **dicter** un texte à la place de le taper ;
+- d'utiliser **Communication audio**, un interprète vocal qui traduit à voix haute une conversation entre deux personnes, ou par écrit (mode Écriture).
 
 Selon votre appareil et votre choix, le traitement s'effectue **sur votre téléphone** ou **sur des serveurs distants**. La circulation exacte de vos données est décrite dans notre politique de confidentialité : `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ L'usage du service est plafonné, pour maîtriser le coût du traitement.
 - Lorsque le traitement s'effectue **sur votre appareil** (appareils compatibles avec l'IA locale) : **usage illimité**, sous la seule réserve des limites techniques de votre téléphone (batterie, chauffe).
 - Lorsque le traitement s'effectue **sur nos serveurs** : l'usage est plafonné par jour et par mois, parce que chaque appel a un coût réel. *À la date de rédaction : 1 000 par jour et 9 000 par mois.*
 
+**Les crédits de l'abonnement sont mensuels et ne se cumulent pas.** Les crédits d'un mois sont valables jusqu'à la fin de ce mois : ce qui n'a pas été utilisé **n'est pas reporté** sur le mois suivant, où le compteur repart de zéro. Si l'abonnement n'est pas renouvelé, l'Article 7 s'applique.
+
+**Communication audio.** Le mode **Kit local** est gratuit : la traduction se fait sur votre téléphone (au palier gratuit, une publicité peut s'afficher de temps en temps). Le mode **IA Pro** est réservé aux abonnés : chaque traduction consomme un nombre **fixe** d'unités de quota, selon la langue d'arrivée — *à la date de rédaction, 1 unité, et 3 pour une langue marquée PRO*. Le coût est indiqué dans l'application avant l'usage et **débité automatiquement** après chaque traduction réussie ; une traduction qui échoue n'est pas débitée. Sans solde suffisant, la traduction IA Pro n'est pas effectuée.
+
 **Points communs à tous les paliers :**
 
 - Une **analyse d'écran** (traduction ou proposition de réponse) est plus coûteuse qu'une reformulation simple et consomme **plusieurs unités de quota** — actuellement 5.
@@ -103,6 +110,8 @@ L'usage du service est plafonné, pour maîtriser le coût du traitement.
 
 **Fin de l'abonnement.** À l'échéance, votre compte revient au palier gratuit. Vous ne perdez ni votre compte, ni vos personas, ni vos réglages.
 
+**Si votre abonnement n'est pas renouvelé, vos crédits restants ont 7 jours.** Le solde de crédits de votre dernier mois d'abonnement reste utilisable pendant **7 jours** à compter de la fin de l'abonnement ; passé ce délai, il est **définitivement effacé**. L'application vous prévient par un message dès le début de cette période, avec le solde et la date limite. Ce délai ne s'applique pas en cas de remboursement. Les crédits achetés en boutique (Article 8) **ne sont pas concernés** : ils restent acquis.
+
 ---
 
 ## Article 8 — Packs et achats à l'unité
@@ -111,7 +120,7 @@ Certains contenus (packs de personas, crédits de quota supplémentaires) sont v
 
 *Tarif à la date de rédaction : 2,99 € par pack. Le prix qui vous engage est celui affiché au moment de l'achat.*
 
-Un pack acheté est **acquis définitivement** et rattaché à votre compte. Vous le retrouvez en vous reconnectant sur un autre appareil, et la fonction « Restaurer mes achats » de l'application vous permet de le récupérer si nécessaire.
+Un pack acheté est **acquis définitivement** et rattaché à votre compte — contrairement aux crédits mensuels de l'abonnement (Articles 6 et 7), il n'expire pas. Vous le retrouvez en vous reconnectant sur un autre appareil, et la fonction « Restaurer mes achats » de l'application vous permet de le récupérer si nécessaire.
 
 Les crédits de quota achetés ne sont utilisés **qu'une fois vos quotas de la période épuisés**, afin que vous ne payiez jamais deux fois la même utilisation.
 

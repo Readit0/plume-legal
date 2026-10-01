@@ -1,6 +1,8 @@
 # Bendrosios naudojimo ir pardavimo sąlygos — Plume
 
-**Paskutinį kartą atnaujinta: 2026 m. liepos 31 d.** — Versija 1.0
+**Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 1.1
+
+> *Kas pasikeitė versijoje 1.1:* aprašome **Garso komunikaciją**, Plume balso vertėją, ir jos **DI Pro** režimą (2 ir 6 straipsniai). Aiškiai užrašome dvi prenumeratos kreditų taisykles: jie yra **mėnesiniai ir nesikaupia** iš mėnesio į mėnesį (6 straipsnis), o jei prenumerata **neatnaujinama**, paskutinio mėnesio likutį galima naudoti dar **7 dienas**, kol jis bus ištrintas (7 straipsnis). Parduotuvėje nupirkti kreditai, priešingai, lieka **įgyti galutinai** (8 straipsnis).
 
 ---
 
@@ -24,7 +26,8 @@ Plume yra pagalbinė rašymo priemonė, veikianti Android sistemoje. Ji leidžia
 - **performuluoti tekstą**, kurį tuo metu rašote, tiesiai toje programėlėje, kurioje jį rašote, pasirinkus stilių („personą“);
 - **išversti arba apibendrinti ekrane rodomą tekstą** ir gauti atsakymo į gautą žinutę pasiūlymą;
 - naudotis **pagalbiniu skaitymu**, kuris uždeda vertimą ant ekrane rodomo teksto;
-- **diktuoti** tekstą užuot jį rašius.
+- **diktuoti** tekstą užuot jį rašius;
+- naudotis **Garso komunikacija** – balso vertėju, kuris balsu verčia dviejų žmonių pokalbį arba verčia raštu (Rašymo režimas).
 
 Priklausomai nuo jūsų įrenginio ir jūsų pasirinkimo, tvarkymas vyksta **jūsų telefone** arba **nuotoliniuose serveriuose**. Tikslus jūsų duomenų judėjimas aprašytas mūsų privatumo politikoje: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Paslaugos naudojimas yra ribojamas, kad būtų suvaldytos tvarkymo sąnaudos.
 - Kai tvarkymas vyksta **jūsų įrenginyje** (su vietiniu DI suderinami įrenginiai): **neribotas naudojimas**, tik su jūsų telefono techninių ribų išlyga (baterija, kaitimas).
 - Kai tvarkymas vyksta **mūsų serveriuose**: naudojimas ribojamas per dieną ir per mėnesį, nes kiekvienas iškvietimas turi realią kainą. *Šio dokumento rengimo dieną: 1 000 per dieną ir 9 000 per mėnesį.*
 
+**Prenumeratos kreditai yra mėnesiniai ir nesikaupia.** Mėnesio kreditai galioja iki to mėnesio pabaigos: tai, kas nepanaudota, **nėra perkeliama** į kitą mėnesį, kuriame skaitiklis pradeda iš nulio. Jei prenumerata neatnaujinama, taikomas 7 straipsnis.
+
+**Garso komunikacija.** **Vietinio rinkinio** režimas yra nemokamas: vertimas atliekamas jūsų telefone (nemokamame lygyje retkarčiais gali būti rodoma reklama). **DI Pro** režimas skirtas prenumeratoriams: kiekvienas vertimas sunaudoja **fiksuotą** kvotos vienetų skaičių, priklausomai nuo tikslinės kalbos — *šio dokumento rengimo dieną 1 vienetą, o kalbai, pažymėtai PRO, 3*. Kaina nurodoma programėlėje prieš naudojimą ir po kiekvieno sėkmingo vertimo **nurašoma automatiškai**; nepavykęs vertimas nenurašomas. Be pakankamo likučio DI Pro vertimas neatliekamas.
+
 **Bendra visiems lygiams:**
 
 - **Ekrano analizė** (vertimas arba atsakymo pasiūlymas) kainuoja brangiau nei paprastas performulavimas ir sunaudoja **kelis kvotos vienetus** — šiuo metu 5.
@@ -102,6 +109,8 @@ Paslaugos naudojimas yra ribojamas, kad būtų suvaldytos tvarkymo sąnaudos.
 
 **Prenumeratos pabaiga.** Pasibaigus terminui jūsų paskyra grįžta į nemokamą lygį. Neprarandate nei savo paskyros, nei savo personų, nei savo nustatymų.
 
+**Jei jūsų prenumerata neatnaujinama, likusius kreditus galite naudoti 7 dienas.** Paskutinio prenumeratos mėnesio kreditų likutį galima naudoti **7 dienas** nuo prenumeratos pabaigos; praėjus šiam laikui jis **negrįžtamai ištrinamas**. Programėlė apie tai praneša žinute nuo šio laikotarpio pradžios, nurodydama likutį ir galutinę datą. Ši lengvata netaikoma grąžinus pinigus. Parduotuvėje nupirkti kreditai (8 straipsnis) **šio termino neliečia**: jie lieka jūsų.
+
 ---
 
 ## 8 straipsnis — Rinkiniai ir atskiri pirkiniai
@@ -110,7 +119,7 @@ Tam tikras turinys (personų rinkiniai, papildomi kvotos kreditai) parduodamas a
 
 *Kaina šio dokumento rengimo dieną: 2,99 € už rinkinį. Jus saistanti kaina yra ta, kuri rodoma pirkimo metu.*
 
-Nupirktas rinkinys yra **įgytas galutinai** ir susietas su jūsų paskyra. Jį rasite prisijungę kitame įrenginyje, o programėlės funkcija „Atkurti mano pirkinius“ leidžia prireikus jį susigrąžinti.
+Nupirktas rinkinys yra **įgytas galutinai** ir susietas su jūsų paskyra — skirtingai nei mėnesiniai prenumeratos kreditai (6 ir 7 straipsniai), jo galiojimas nesibaigia. Jį rasite prisijungę kitame įrenginyje, o programėlės funkcija „Atkurti mano pirkinius“ leidžia prireikus jį susigrąžinti.
 
 Nupirkti kvotos kreditai naudojami **tik tada, kai jūsų laikotarpio kvotos išnaudotos**, kad niekada nemokėtumėte dukart už tą patį naudojimą.
 

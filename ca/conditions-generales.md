@@ -1,6 +1,8 @@
 # Condicions generals d'ús i de venda — Plume
 
-**Última actualització: 31 de juliol de 2026** — Versió 1.0
+**Última actualització: 1 d'octubre de 2026** — Versió 1.1
+
+> *Què ha canviat en la versió 1.1:* descrivim **Comunicació d'àudio**, l'intèrpret de veu de Plume, i el seu mode **IA Pro** (articles 2 i 6). Escrivim negre sobre blanc dues regles sobre els crèdits de la subscripció: són **mensuals i no s'acumulen** d'un mes a l'altre (article 6), i si la subscripció **no es renova**, el saldo de l'últim mes continua sent utilitzable **7 dies** abans de ser esborrat (article 7). Els crèdits comprats a la botiga, en canvi, continuen sent **adquirits definitivament** (article 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume és una eina d'ajuda a la redacció que funciona sobre Android. Li permet:
 - **reformular un text** que està escrivint, directament a l'aplicació on l'escriu, triant un estil («persona»);
 - **traduir o resumir el text que es mostra a la pantalla**, i obtenir una proposta de resposta a un missatge rebut;
 - utilitzar la **Lectura Assistida**, que superposa una traducció al text que es mostra a la pantalla;
-- **dictar** un text en lloc d'escriure'l.
+- **dictar** un text en lloc d'escriure'l;
+- utilitzar **Comunicació d'àudio**, un intèrpret de veu que tradueix en veu alta una conversa entre dues persones, o per escrit (mode Escriptura).
 
 Segons el seu dispositiu i la seva elecció, el tractament es fa **al seu telèfon** o **a servidors remots**. La circulació exacta de les seves dades es descriu a la nostra política de privadesa: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ L'ús del servei té un límit, per controlar el cost del tractament.
 - Quan el tractament es fa **al seu dispositiu** (dispositius compatibles amb la IA local): **ús il·limitat**, amb l'única reserva dels límits tècnics del seu telèfon (bateria, escalfament).
 - Quan el tractament es fa **als nostres servidors**: l'ús té un límit diari i mensual, perquè cada crida té un cost real. *En la data de redacció: 1.000 al dia i 9.000 al mes.*
 
+**Els crèdits de la subscripció són mensuals i no s'acumulen.** Els crèdits d'un mes són vàlids fins al final d'aquell mes: el que no s'ha utilitzat **no es trasllada** al mes següent, en què el comptador torna a zero. Si la subscripció no es renova, s'aplica l'article 7.
+
+**Comunicació d'àudio.** El mode **Kit local** és gratuït: la traducció es fa al seu telèfon (al nivell gratuït, de tant en tant pot aparèixer un anunci). El mode **IA Pro** està reservat als subscriptors: cada traducció consumeix un nombre **fix** d'unitats de quota, segons l'idioma de destinació — *en la data de redacció, 1 unitat, i 3 per a un idioma marcat com a PRO*. El cost s'indica a l'aplicació abans de l'ús i es **carrega automàticament** després de cada traducció reeixida; una traducció que falla no es carrega. Sense saldo suficient, la traducció IA Pro no s'efectua.
+
 **Punts comuns a tots els nivells:**
 
 - Una **anàlisi de pantalla** (traducció o proposta de resposta) és més costosa que una reformulació simple i consumeix **diverses unitats de quota**: actualment 5.
@@ -103,6 +110,8 @@ L'ús del servei té un límit, per controlar el cost del tractament.
 
 **Fi de la subscripció.** En arribar al venciment, el seu compte torna al nivell gratuït. No perd ni el compte, ni les seves personas, ni els seus paràmetres.
 
+**Si la seva subscripció no es renova, els crèdits que li queden tenen 7 dies.** El saldo de crèdits de l'últim mes de subscripció continua sent utilitzable durant **7 dies** a partir del final de la subscripció; passat aquest termini, s'**esborra definitivament**. L'aplicació l'avisa amb un missatge a l'inici d'aquest període, amb el saldo i la data límit. Aquest termini no s'aplica en cas de reemborsament. Els crèdits comprats a la botiga (article 8) **no hi estan afectats**: continuen adquirits.
+
 ---
 
 ## Article 8 — Paquets i compres per unitats
@@ -111,7 +120,7 @@ Determinats continguts (paquets de personas, crèdits de quota addicionals) es v
 
 *Tarifa en la data de redacció: 2,99 € per paquet. El preu que l'obliga és el que es mostra en el moment de la compra.*
 
-Un paquet comprat s'**adquireix definitivament** i queda vinculat al seu compte. El retroba en tornar-se a connectar en un altre dispositiu, i la funció «Restaura les compres» de l'aplicació li permet recuperar-lo si cal.
+Un paquet comprat s'**adquireix definitivament** i queda vinculat al seu compte —a diferència dels crèdits mensuals de la subscripció (articles 6 i 7), no caduca. El retroba en tornar-se a connectar en un altre dispositiu, i la funció «Restaura les compres» de l'aplicació li permet recuperar-lo si cal.
 
 Els crèdits de quota comprats només s'utilitzen **un cop esgotades les seves quotes del període**, perquè no pagui mai dues vegades el mateix ús.
 

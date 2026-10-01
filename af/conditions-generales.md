@@ -1,6 +1,8 @@
 # Algemene gebruiks- en verkoopsvoorwaardes — Plume
 
-**Laas bygewerk: 31 Julie 2026** — Weergawe 1.0
+**Laas bygewerk: 1 Oktober 2026** — Weergawe 1.1
+
+> *Wat in weergawe 1.1 verander het:* ons beskryf **Klankgesprek**, Plume se stemtolk, en die **KI Pro**-modus daarvan (Artikels 2 en 6). Ons skryf twee reëls oor die intekening se krediete swart op wit neer: hulle is **maandeliks en versamel nie** van een maand na die volgende nie (Artikel 6), en as die intekening **nie hernu word nie**, bly die saldo van die laaste maand **7 dae** lank bruikbaar voordat dit uitgevee word (Artikel 7). Krediete wat in die winkel gekoop is, bly daarenteen **finaal verkry** (Artikel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume is 'n hulpmiddel vir skryfwerk wat op Android werk. Dit laat jou toe:
 - om **'n teks te herformuleer** wat jy besig is om te skryf, direk in die app waarin jy dit skryf, deur 'n styl (“persona”) te kies;
 - om **teks te vertaal of op te som wat op die skerm vertoon word**, en om 'n antwoordvoorstel op 'n ontvangde boodskap te kry;
 - om **Ondersteunde Lees** te gebruik, wat 'n vertaling bo-oor die teks plaas wat op die skerm vertoon word;
-- om 'n teks te **dikteer** in plaas daarvan om dit te tik.
+- om 'n teks te **dikteer** in plaas daarvan om dit te tik;
+- om **Klankgesprek** te gebruik, 'n stemtolk wat 'n gesprek tussen twee mense hardop vertaal, of skriftelik (Skryf-modus).
 
 Na gelang van jou toestel en jou keuse vind die verwerking **op jou foon** of **op afgeleë bedieners** plaas. Die presiese beweging van jou data word in ons privaatheidsbeleid beskryf: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Die gebruik van die diens het 'n boonste grens, om die koste van die verwerking 
 - Wanneer die verwerking **op jou toestel** plaasvind (toestelle wat met die plaaslike KI versoenbaar is): **onbeperkte gebruik**, onderhewig slegs aan die tegniese perke van jou foon (battery, hitte).
 - Wanneer die verwerking **op ons bedieners** plaasvind: die gebruik het 'n plafon per dag en per maand, omdat elke oproep 'n werklike koste het. *Op die datum van skryf: 1 000 per dag en 9 000 per maand.*
 
+**Die intekening se krediete is maandeliks en versamel nie.** Die krediete van 'n maand is geldig tot aan die einde van daardie maand: wat nie gebruik is nie, word **nie oorgedra** na die volgende maand nie, waar die teller van nul af begin. As die intekening nie hernu word nie, is Artikel 7 van toepassing.
+
+**Klankgesprek.** Die **Plaaslike kit**-modus is gratis: die vertaling vind op jou foon plaas (op die gratis vlak kan 'n advertensie af en toe verskyn). Die **KI Pro**-modus is slegs vir intekenaars: elke vertaling gebruik 'n **vaste** aantal kwota-eenhede, na gelang van die teikentaal — *op die datum van skryf, 1 eenheid, en 3 vir 'n taal wat as PRO gemerk is*. Die koste word in die app vertoon voordat jy dit gebruik en word **outomaties afgetrek** na elke suksesvolle vertaling; 'n vertaling wat misluk, word nie afgetrek nie. Sonder 'n genoegsame saldo word die KI Pro-vertaling nie uitgevoer nie.
+
 **Gemeenskaplik aan alle vlakke:**
 
 - 'n **Skermontleding** (vertaling of antwoordvoorstel) is duurder as 'n eenvoudige herformulering en verbruik **verskeie kwota-eenhede** — tans 5.
@@ -102,6 +109,8 @@ Die gebruik van die diens het 'n boonste grens, om die koste van die verwerking 
 
 **Einde van die intekening.** By verstryking keer jou rekening terug na die gratis vlak. Jy verloor nóg jou rekening, nóg jou personas, nóg jou instellings.
 
+**As jou intekening nie hernu word nie, het jou oorblywende krediete 7 dae.** Die kredietsaldo van jou laaste intekeningmaand bly **7 dae** lank bruikbaar vanaf die einde van die intekening; ná hierdie tydperk word dit **finaal uitgevee**. Die app waarsku jou met 'n boodskap aan die begin van hierdie tydperk, met die saldo en die sperdatum. Hierdie termyn is nie van toepassing in geval van 'n terugbetaling nie. Krediete wat in die winkel gekoop is (Artikel 8) is **nie hierby betrokke nie**: hulle bly verkry.
+
 ---
 
 ## Artikel 8 — Pakkette en enkelaankope
@@ -110,7 +119,7 @@ Sekere inhoud (persona-pakkette, bykomende kwotakrediete) word per stuk verkoop,
 
 *Tarief op die datum van skryf: 2,99 € per pakket. Die prys wat jou bind, is dié wat by die aankoop vertoon word.*
 
-'n Pakket wat gekoop is, is **finaal verkry** en aan jou rekening gekoppel. Jy kry dit terug deur op 'n ander toestel weer aan te meld, en die funksie “Herstel my aankope” van die app laat jou toe om dit indien nodig te herwin.
+'n Pakket wat gekoop is, is **finaal verkry** en aan jou rekening gekoppel — anders as die maandelikse intekeningkrediete (Artikels 6 en 7), verval dit nie. Jy kry dit terug deur op 'n ander toestel weer aan te meld, en die funksie “Herstel my aankope” van die app laat jou toe om dit indien nodig te herwin.
 
 Die kwotakrediete wat gekoop is, word **eers gebruik wanneer jou kwotas vir die tydperk uitgeput is**, sodat jy nooit twee keer vir dieselfde gebruik betaal nie.
 

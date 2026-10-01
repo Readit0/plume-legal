@@ -1,6 +1,8 @@
 # Termeni și condiții de utilizare și de vânzare — Plume
 
-**Ultima actualizare: 31 iulie 2026** — Versiunea 1.0
+**Ultima actualizare: 1 octombrie 2026** — Versiunea 1.1
+
+> *Ce s-a schimbat în versiunea 1.1:* descriem **Comunicarea audio**, interpretul vocal al Plume, și modul său **IA Pro** (Articolele 2 și 6). Scriem negru pe alb două reguli privind creditele abonamentului: sunt **lunare și nu se cumulează** de la o lună la alta (Articolul 6), iar dacă abonamentul **nu este reînnoit**, soldul ultimei luni rămâne utilizabil **7 zile** înainte de a fi șters (Articolul 7). Creditele cumpărate din magazin rămân, în schimb, **dobândite definitiv** (Articolul 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume este un instrument de asistență la redactare care funcționează pe Andr
 - să **reformulați un text** pe care îl scrieți, direct în aplicația în care îl scrieți, alegând un stil („persona”);
 - să **traduceți sau să rezumați text afișat pe ecran** și să obțineți o propunere de răspuns la un mesaj primit;
 - să folosiți **Citirea Asistată**, care suprapune o traducere peste textul afișat pe ecran;
-- să **dictați** un text în loc să îl tastați.
+- să **dictați** un text în loc să îl tastați;
+- să folosiți **Comunicarea audio**, un interpret vocal care traduce cu voce tare o conversație între două persoane sau în scris (modul Scriere).
 
 În funcție de dispozitivul dumneavoastră și de alegerea dumneavoastră, prelucrarea se efectuează **pe telefonul dumneavoastră** sau **pe servere la distanță**. Circulația exactă a datelor dumneavoastră este descrisă în politica noastră de confidențialitate: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Utilizarea serviciului este plafonată, pentru a menține sub control costul pre
 - Atunci când prelucrarea se efectuează **pe dispozitivul dumneavoastră** (dispozitive compatibile cu IA locală): **utilizare nelimitată**, sub singura rezervă a limitelor tehnice ale telefonului dumneavoastră (baterie, încălzire).
 - Atunci când prelucrarea se efectuează **pe serverele noastre**: utilizarea este plafonată pe zi și pe lună, deoarece fiecare apel are un cost real. *La data redactării: 1 000 pe zi și 9 000 pe lună.*
 
+**Creditele abonamentului sunt lunare și nu se cumulează.** Creditele unei luni sunt valabile până la sfârșitul acelei luni: ceea ce nu a fost folosit **nu se reportează** în luna următoare, în care contorul pornește de la zero. Dacă abonamentul nu este reînnoit, se aplică Articolul 7.
+
+**Comunicare audio.** Modul **Kit local** este gratuit: traducerea se face pe telefonul dumneavoastră (la nivelul gratuit, o reclamă poate fi afișată din când în când). Modul **IA Pro** este rezervat abonaților: fiecare traducere consumă un număr **fix** de unități de cotă, în funcție de limba țintă — *la data redactării, 1 unitate, și 3 pentru o limbă marcată PRO*. Costul este indicat în aplicație înainte de utilizare și **debitat automat** după fiecare traducere reușită; o traducere eșuată nu este debitată. Fără sold suficient, traducerea IA Pro nu se efectuează.
+
 **Elemente comune tuturor nivelurilor:**
 
 - O **analiză de ecran** (traducere sau propunere de răspuns) este mai costisitoare decât o simplă reformulare și consumă **mai multe unități de cotă** — în prezent 5.
@@ -102,6 +109,8 @@ Utilizarea serviciului este plafonată, pentru a menține sub control costul pre
 
 **Încetarea abonamentului.** La scadență, contul dumneavoastră revine la nivelul gratuit. Nu vă pierdeți nici contul, nici personele, nici setările.
 
+**Dacă abonamentul dumneavoastră nu este reînnoit, creditele rămase au 7 zile.** Soldul de credite din ultima lună de abonament rămâne utilizabil timp de **7 zile** de la încheierea abonamentului; după acest termen, este **șters definitiv**. Aplicația vă avertizează printr-un mesaj încă de la începutul acestei perioade, cu soldul și data limită. Acest termen nu se aplică în caz de rambursare. Creditele cumpărate din magazin (Articolul 8) **nu sunt vizate**: rămân dobândite.
+
 ---
 
 ## Articolul 8 — Pachete și achiziții unitare
@@ -110,7 +119,7 @@ Anumite conținuturi (pachete de persone, credite suplimentare de cotă) sunt v�
 
 *Tarif la data redactării: 2,99 € pe pachet. Prețul care vă angajează este cel afișat în momentul achiziției.*
 
-Un pachet achiziționat este **dobândit definitiv** și asociat contului dumneavoastră. Îl regăsiți reconectându-vă pe un alt dispozitiv, iar funcția „Restaurați achizițiile mele” din aplicație vă permite să îl recuperați dacă este necesar.
+Un pachet achiziționat este **dobândit definitiv** și asociat contului dumneavoastră — spre deosebire de creditele lunare ale abonamentului (Articolele 6 și 7), nu expiră. Îl regăsiți reconectându-vă pe un alt dispozitiv, iar funcția „Restaurați achizițiile mele” din aplicație vă permite să îl recuperați dacă este necesar.
 
 Creditele de cotă achiziționate sunt utilizate **numai după epuizarea cotelor dumneavoastră aferente perioadei**, pentru ca să nu plătiți niciodată de două ori aceeași utilizare.
 

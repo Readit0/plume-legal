@@ -1,6 +1,8 @@
 # Usoro Ojiji na Ire Izugbe — Plume
 
-**Mmelite ikpeazụ: 31 Julaị 2026** — Ụdịdị 1.0
+**Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 1.1
+
+> *Ihe gbanwere n'ụdịdị 1.1:* anyị na-akọwa **Mkparịta ụka olu**, onye nsụgharị olu nke Plume, na ụdị **AI Pro** ya (Ngalaba 2 na 6). Anyị na-ede n'ụzọ doro anya iwu abụọ gbasara kredit ndebanye aha: ha bụ **kwa ọnwa ma ha anaghị agbakwunye** site n'otu ọnwa gaa n'ọzọ (Ngalaba 6), na ọ bụrụ na **edeghachighị** ndebanye aha, ndị fọdụrụ nke ọnwa ikpeazụ ka nwere ike iji ya ruo **ụbọchị 7** tupu e hichapụ ya (Ngalaba 7). Kredit ndị a zụtara n'ụlọ ahịa, n'aka nke ha, ka **bụ nke gị ruo mgbe ebighị ebi** (Ngalaba 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume bụ ngwá ọrụ enyemaka ide ihe na-arụ ọrụ na Android. Ọ na-en
 - **ịgbanwe ederede** ị na-ede n'oge ahụ, ozugbo n'ime ngwa ị na-edere ya, na-ahọrọ ụdị ("ụdị nkeonwe")\;
 - **ịsụgharị ma ọ bụ dee nchịkọta ederede a na-egosi n'ihuenyo**, na inweta aro azịza maka ozi ị natara\;
 - iji **Ọgụgụ Enyemaka**, nke na-etinye ntụgharị asụsụ n'elu ederede a na-egosi n'ihuenyo\;
-- **ikwu okwu** ederede kama ịpị ya.
+- **ikwu okwu** ederede kama ịpị ya;
+- iji **Mkparịta ụka olu**, onye nsụgharị olu na-atụgharị mkparịta ụka n'etiti mmadụ abụọ n'olu dị elu, ma ọ bụ n'ide (ụdị Ide).
 
 Dabere na ngwaọrụ gị na nhọrọ gị, a na-arụ ọrụ ahụ **n'ime ekwentị gị** ma ọ bụ **na sava dị anya**. Etu eziokwu data gị si agagharị ka a kọwapụtara n'amụma nzuzo anyị: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ E tinyere oke n'ojiji ọrụ ahụ iji chịkwaa ọnụ ahịa nhazi ya.
 - Mgbe a na-arụ ọrụ **n'ime ngwaọrụ gị** (ngwaọrụ kwekọrọ na AI Ime Ngwa): **ojiji na-enweghị oke**, naanị n'okpuru oke teknụzụ nke ekwentị gị (batrị, ọkụ).
 - Mgbe a na-arụ ọrụ **na sava anyị**: e tinyere oke n'ojiji kwa ụbọchị na kwa ọnwa, n'ihi na oku ọ bụla nwere ọnụ ahịa n'ezie. *N'ụbọchị e dere ihe a: 1,000 kwa ụbọchị na 9,000 kwa ọnwa.*
 
+**Kredit ndebanye aha bụ kwa ọnwa ma ha anaghị agbakwunye.** Kredit nke otu ọnwa dị irè ruo ngwụsị ọnwa ahụ: ihe a na-ejighị **anaghị aga** n'ọnwa na-esote, ebe ụdị ọnụ ọgụgụ na-amaliteghachi site na efu. Ọ bụrụ na edeghachighị ndebanye aha, Ngalaba 7 na-emetụta.
+
+**Mkparịta ụka olu.** Ụdị **Kit mpaghara** bụ nke efu: a na-atụgharị ya n'ime ekwentị gị (n'ọkwa efu, mgbasa ozi nwere ike ịpụta mgbe ụfọdụ). Ụdị **AI Pro** bụ naanị maka ndị debara aha: ntụgharị ọ bụla na-eji ọnụ ọgụgụ **kpọmkwem** nke ngalaba oke, dabere n'asụsụ ebumnuche — *n'ụbọchị e dere ya, otu ngalaba, na 3 maka asụsụ akara PRO*. A na-egosi ọnụ ahịa ya na ngwa tupu iji ya, ma **a na-ewepụ ya na-akpaghị aka** mgbe ntụgharị ọ bụla gara nke ọma; a naghị ewepụ ntụgharị dara. Ma ọ bụrụ na ego fọdụrụ ezughị, a naghị eme ntụgharị AI Pro.
+
 **Ihe niile jikọtara n'ọkwa niile:**
 
 - **Nyocha ihuenyo** (ntụgharị asụsụ ma ọ bụ aro azịza) na-akpata ọnụ ahịa karịa mgbanwe nkịtị ma na-eji **ọtụtụ mkpụrụ oke** — ugbu a 5.
@@ -103,6 +110,8 @@ E tinyere oke n'ojiji ọrụ ahụ iji chịkwaa ọnụ ahịa nhazi ya.
 
 **Njedebe ndebanye aha.** Mgbe oge ya gwụsịrị, akaụntụ gị na-alaghachi n'ọkwa efu. Ị anaghị efunahụ akaụntụ gị, ụdị nkeonwe gị, ma ọ bụ ntọala gị.
 
+**Ọ bụrụ na edeghachighị ndebanye aha gị, kredit ndị fọdụrụ nwere ụbọchị 7.** Ego kredit nke ọnwa ndebanye aha ikpeazụ gị ka nwere ike iji ya ruo **ụbọchị 7** site na njedebe ndebanye aha; mgbe oge ahụ gafere, a **na-ehichapụ ya ruo mgbe ebighị ebi**. Ngwa ahụ na-ejiri ozi mara gị site na mmalite oge a, ya na ego fọdụrụ na ụbọchị njedebe. Oge a anaghị emetụta ma ọ bụrụ na e weghachiri gị ego. Kredit ndị a zụtara n'ụlọ ahịa (Ngalaba 8) **adịghị metụtara**: ha ka bụ nke gị.
+
 ---
 
 ## Ngalaba 8 — Mkpọ na ịzụta n'otu n'otu
@@ -111,7 +120,7 @@ A na-ere ọdịnaya ụfọdụ (mkpọ ụdị nkeonwe, mkpụrụoke oke ọz
 
 *Ọnụahịa n'ụbọchị e dere ihe a: 2.99 € kwa mkpọ. Ọnụahịa na-ekewe gị bụ nke e gosiri n'oge ịzụta.*
 
-Mkpọ a zụtara **bụ nke gị ruo mgbe ebighị ebi** ma jikọtara na akaụntụ gị. Ị na-achọta ya site na ịbanye n'ọzọ site na ngwaọrụ ọzọ, ọrụ "Weghachi ịzụta m" nke ngwa ahụ na-enyekwa gị ohere iweghachi ya ma ọ dị mkpa.
+Mkpọ a zụtara **bụ nke gị ruo mgbe ebighị ebi** ma jikọtara na akaụntụ gị — n'adịghị ka kredit kwa ọnwa nke ndebanye aha (Ngalaba 6 na 7), ọ naghị agwụ oge. Ị na-achọta ya site na ịbanye n'ọzọ site na ngwaọrụ ọzọ, ọrụ "Weghachi ịzụta m" nke ngwa ahụ na-enyekwa gị ohere iweghachi ya ma ọ dị mkpa.
 
 A na-eji mkpụrụoke oke ị zụtara **naanị mgbe oke gị nke oge ahụ gwụsịrị**, ka ị ghara ịkwụ ụgwọ ugboro abụọ maka otu ojiji.
 

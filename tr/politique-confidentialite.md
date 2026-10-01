@@ -1,6 +1,8 @@
 # Plume Gizlilik Politikası
 
-**Son güncelleme: 1 Ekim 2026** — Sürüm 2.1
+**Son güncelleme: 1 Ekim 2026** — Sürüm 2.2
+
+> *Sürüm 2.2'de neler değişti:* Plume'un sesli tercümanı olan ve Sürüm 2.1'de bulunmayan **Sesli iletişim**'i açıklıyoruz: telefonunuzda neyin kaldığını, Yapay Zekâ Pro modunda neyin dışarı çıktığını ve telefonun konuşma sentezi motoru tarafından sesli okumayı (bkz. §4.1 ve §9).
 
 > *Sürüm 2.1'de neler değişti:* Sürüm 2.0'ın değinmediği **Kamuflaj modunu** anlatıyoruz ve geçerliliğini yitirmiş bir ifadeyi düzeltiyoruz: kişisel diller için de Kamuflaj için de **mesajlarınızdaki, sözlüğünüzde henüz bulunmayan sözcükler tek tek saklanır** — asla cümle değil — size bunları eklemeyi önerebilmek için. Ayrıntı «Bir dakikada» bölümünde, §2.2'de ve §3'tedir. İkinci bir hatayı da düzeltiyoruz: **özel personalarınız ve avatarları sunucularımızda yedeklenir** — yalnızca telefonunuzda kalmazlar (bkz. §3).
 
@@ -141,6 +143,16 @@ Bir mikrofon düğmesi, yazmak yerine dikte etmenizi sağlar. Mikrofona erişim 
 
 Mikrofon iznini reddederseniz, klavyeyle yazma elbette kullanılabilir kalır.
 
+### 4.1 Sesli iletişim (sesli tercüman)
+
+Sesli iletişim, iki kişi arasındaki bir konuşmayı sesli olarak çevirir. **Mikrofon yalnızca küreye dokunduğunuzda açılır** ve her cümlenin sonunda kapanır.
+
+- **Konuşma**, dikteyle aynı telefon konuşma tanıma motoru tarafından, yukarıdakiyle aynı çekinceler altında yazıya dökülür. **Plume yalnızca metni alır, sesi asla.** Bir dilin çevrimdışı modülü eksikse Plume telefondan onu indirmesini ister; bu arada telefonun motoru çevrimiçi olarak yazıya dökebilir.
+- **Yerel kit modunda** (ücretsiz) çeviri **telefonunuzda** yapılır.
+- **Yapay Zekâ Pro modunda** (aboneler) yazıya dökülen metin sunucularımıza, ardından dinleme hatalarını düzelten ve metni çeviren yapay zekâ işleme sağlayıcımıza gönderilir — §2.2'dekiyle aynı yoldan. **Ne metni ne de çevirisini saklarız.**
+- **Sesli okuma**, telefonun konuşma sentezi motoru (genellikle Google'ınki) tarafından yapılır. Her iki modda Plume, bu motordan daha doğal **çevrimiçi seslerini** ister: çevrilen metin bu durumda seslendirilmesi için yayıncısına iletilir. Çevrimdışıyken telefonda yüklü bir ses devreye girer.
+- **Konuşma geçmişi telefonunuzda kalır** ve ekrandan çıktığınızda kaybolur. Cihazda yalnızca seçilen dil çifti, seçilen motor ve konuşma sayısı (ücretsiz kademenin reklamı için) hatırlanır.
+
 ---
 
 ## 5. Reklam
@@ -198,7 +210,7 @@ Uygulama serbest bir metnin yeniden ifade edilmesine izin verdiği ve reklam gö
 | **Yapay zekâ işleme sağlayıcımız** | İsteklerin yönlendirilmesi ve metnin üçüncü taraf bir yapay zekâ modeliyle işlenmesi | **Avrupa Birliği dışında** |
 | **Google Play / Google Billing** | Ödeme, abonelikler | Google Ireland / Amerika Birleşik Devletleri |
 | **Google AdMob** | Ödüllü reklam | Google Ireland / Amerika Birleşik Devletleri |
-| **Google (telefonun sistem hizmetleri)** | Konuşma tanıma, çevrimdışı çeviri modülleri | Cihazınıza göre değişir |
+| **Google (telefonun sistem hizmetleri)** | Konuşma tanıma, konuşma sentezi (Sesli iletişim'in sesli okuması), çevrimdışı çeviri modülleri | Cihazınıza göre değişir |
 | **Çökme raporlama sağlayıcımız** | Teknik çökme raporlama — yalnızca gönderilmeden önce filtrelenmiş program hataları: metniniz asla değil | Amerika Birleşik Devletleri |
 
 **Hiçbir veriyi satmıyoruz ve hiçbirini veri simsarlarına devretmiyoruz.**

@@ -1,6 +1,8 @@
 # Condições gerais de utilização e de venda — Plume
 
-**Última atualização: 31 de julho de 2026** — Versão 1.0
+**Última atualização: 1 de outubro de 2026** — Versão 1.1
+
+> *O que mudou na versão 1.1:* descrevemos a **Comunicação áudio**, o intérprete de voz do Plume, e o seu modo **IA Pro** (Artigos 2 e 6). Escrevemos preto no branco duas regras sobre os créditos da subscrição: são **mensais e não se acumulam** de um mês para o seguinte (Artigo 6), e se a subscrição **não for renovada**, o saldo do último mês continua utilizável durante **7 dias** antes de ser apagado (Artigo 7). Os créditos comprados na loja, esses, continuam **adquiridos definitivamente** (Artigo 8).
 
 ---
 
@@ -24,7 +26,8 @@ A Plume é uma ferramenta de apoio à escrita que funciona em Android. Permite-l
 - **reformular um texto** que está a escrever, diretamente na aplicação onde o escreve, escolhendo um estilo («persona»);
 - **traduzir ou resumir texto apresentado no ecrã**, e obter uma proposta de resposta a uma mensagem recebida;
 - utilizar a **Leitura Assistida**, que sobrepõe uma tradução ao texto apresentado no ecrã;
-- **ditar** um texto em vez de o escrever.
+- **ditar** um texto em vez de o escrever;
+- utilizar a **Comunicação áudio**, um intérprete de voz que traduz em voz alta uma conversa entre duas pessoas, ou por escrito (modo Escrita).
 
 Consoante o seu dispositivo e a sua escolha, o tratamento efetua-se **no seu telemóvel** ou **em servidores remotos**. A circulação exata dos seus dados está descrita na nossa política de privacidade: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ A utilização do serviço tem um limite máximo, para controlar o custo do trat
 - Quando o tratamento se efetua **no seu dispositivo** (dispositivos compatíveis com a IA local): **utilização ilimitada**, sob a única reserva dos limites técnicos do seu telemóvel (bateria, aquecimento).
 - Quando o tratamento se efetua **nos nossos servidores**: a utilização tem um limite máximo por dia e por mês, porque cada chamada tem um custo real. *À data de redação: 1000 por dia e 9000 por mês.*
 
+**Os créditos da subscrição são mensais e não se acumulam.** Os créditos de um mês são válidos até ao fim desse mês: o que não foi utilizado **não é transferido** para o mês seguinte, em que o contador recomeça do zero. Se a subscrição não for renovada, aplica-se o Artigo 7.
+
+**Comunicação áudio.** O modo **Kit local** é gratuito: a tradução faz-se no seu telemóvel (no nível gratuito, pode ser apresentado um anúncio de vez em quando). O modo **IA Pro** está reservado aos subscritores: cada tradução consome um número **fixo** de unidades de quota, consoante o idioma de destino — *à data de redação, 1 unidade, e 3 para um idioma assinalado PRO*. O custo é indicado na aplicação antes da utilização e **debitado automaticamente** após cada tradução bem-sucedida; uma tradução que falhe não é debitada. Sem saldo suficiente, a tradução IA Pro não é efetuada.
+
 **Pontos comuns a todos os escalões:**
 
 - Uma **análise de ecrã** (tradução ou proposta de resposta) é mais dispendiosa do que uma reformulação simples e consome **várias unidades de quota** — atualmente 5.
@@ -102,6 +109,8 @@ A utilização do serviço tem um limite máximo, para controlar o custo do trat
 
 **Fim da subscrição.** No termo, a sua conta regressa ao escalão gratuito. Não perde nem a sua conta, nem os seus personas, nem as suas definições.
 
+**Se a sua subscrição não for renovada, os créditos restantes têm 7 dias.** O saldo de créditos do seu último mês de subscrição continua utilizável durante **7 dias** a contar do fim da subscrição; passado este prazo, é **definitivamente apagado**. A aplicação avisa-o com uma mensagem desde o início deste período, com o saldo e a data-limite. Este prazo não se aplica em caso de reembolso. Os créditos comprados na loja (Artigo 8) **não são abrangidos**: continuam adquiridos.
+
 ---
 
 ## Artigo 8 — Pacotes e compras avulsas
@@ -110,7 +119,7 @@ Determinados conteúdos (pacotes de personas, créditos de quota suplementares) 
 
 *Tarifa à data de redação: 2,99 € por pacote. O preço que o vincula é o apresentado no momento da compra.*
 
-Um pacote comprado fica **adquirido definitivamente** e associado à sua conta. Volta a encontrá-lo ao iniciar sessão noutro dispositivo, e a função «Restaurar compras» da aplicação permite-lhe recuperá-lo se necessário.
+Um pacote comprado fica **adquirido definitivamente** e associado à sua conta — ao contrário dos créditos mensais da subscrição (Artigos 6 e 7), não expira. Volta a encontrá-lo ao iniciar sessão noutro dispositivo, e a função «Restaurar compras» da aplicação permite-lhe recuperá-lo se necessário.
 
 Os créditos de quota comprados só são utilizados **depois de esgotadas as suas quotas do período**, para que nunca pague duas vezes a mesma utilização.
 

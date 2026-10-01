@@ -1,6 +1,8 @@
 # Kondisyon jeneral itilizasyon ak vant — Plume
 
-**Dènye mizajou: 31 jiyè 2026** — Vèsyon 1.0
+**Dènye mizajou: 1 oktòb 2026** — Vèsyon 1.1
+
+> *Sa ki chanje nan vèsyon 1.1:* nou dekri **Kominikasyon odyo**, entèprèt vokal Plume lan, ak mòd **IA Pro** li a (Atik 2 ak 6). Nou ekri nwa sou blan de règ sou kredi abònman an: yo **chak mwa e yo pa akimile** soti yon mwa pou rive nan yon lòt (Atik 6), epi si abònman an **pa renouvle**, rès kredi dènye mwa a rete itilizab pandan **7 jou** anvan yo efase l (Atik 7). Kredi ou achte nan boutik la, yo menm, rete **pou tout tan** (Atik 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume se yon zouti ki ede moun ekri epi ki mache sou Android. Li pèmèt ou:
 - **reformile yon tèks** w ap ekri, dirèkteman nan aplikasyon kote w ap ekri l la, lè w chwazi yon estil ('pèsona');
 - **tradui oswa rezime tèks ki parèt sou ekran an**, epi jwenn yon pwopozisyon repons pou yon mesaj ou resevwa;
 - sèvi ak **Lekti Asiste**, ki mete yon tradiksyon anwo tèks ki parèt sou ekran an;
-- **dikte** yon tèks olye pou w tape l.
+- **dikte** yon tèks olye pou w tape l;
+- itilize **Kominikasyon odyo**, yon entèprèt vokal ki tradui a vwa wo yon konvèsasyon ant de moun, oswa pa ekri (mòd Ekri).
 
 Selon aparèy ou ak chwa w, tretman an fèt **sou telefòn ou** oswa **sou sèvè ki lwen**. Politik konfidansyalite nou an dekri egzakteman ki wout done ou yo pran: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Gen yon limit sou itilizasyon sèvis la, pou kontwole depans tretman an.
 - Lè tretman an fèt **sou aparèy ou** (aparèy ki konpatib ak IA Lokal la): **itilizasyon san limit**, sèl rezèv la se limit teknik telefòn ou (batri, chalè).
 - Lè tretman an fèt **sou sèvè nou yo**: gen yon limit itilizasyon pa jou ak pa mwa, paske chak apèl gen yon depans reyèl. *Nan dat nou ekri dokiman sa a: 1 000 pa jou ak 9 000 pa mwa.*
 
+**Kredi abònman an se chak mwa e yo pa akimile.** Kredi yon mwa valab jiska fen mwa sa a: sa ki pa itilize **pa pote** sou mwa kap vini an, kote konpteur la rekòmanse a zewo. Si abònman an pa renouvle, Atik 7 aplike.
+
+**Kominikasyon odyo.** Mòd **Kit lokal** gratis: tradiksyon an fèt sou telefòn ou (nan nivo gratis la, yon piblisite ka parèt detanzantan). Mòd **IA Pro** rezève pou abonne yo: chak tradiksyon konsome yon kantite **fiks** inite kota, dapre lang destinasyon an — *nan dat nou ekri dokiman sa a, 1 inite, ak 3 pou yon lang ki make PRO*. Pri a make nan aplikasyon an anvan ou itilize l epi li **retire otomatikman** apre chak tradiksyon ki reyisi; yon tradiksyon ki echwe pa retire anyen. San ase balans, tradiksyon IA Pro pa fèt.
+
 **Pwen ki menm pou tout nivo yo:**
 
 - Yon **analiz ekran** (tradiksyon oswa pwopozisyon repons) koute pi chè pase yon senp reformilasyon epi li konsome **plizyè inite kota** — 5 kounye a.
@@ -102,6 +109,8 @@ Gen yon limit sou itilizasyon sèvis la, pou kontwole depans tretman an.
 
 **Fen abònman an.** Lè li rive nan echeyans, kont ou retounen nan nivo gratis la. Ou pa pèdi ni kont ou, ni pèsona ou yo, ni paramèt ou yo.
 
+**Si abònman ou pa renouvle, kredi ki rete yo gen 7 jou.** Balans kredi dènye mwa abònman ou an rete itilizab pandan **7 jou** apati fen abònman an; apre delè sa a, li **efase pou tout bon**. Aplikasyon an avèti w ak yon mesaj depi kòmansman peryòd sa a, ak balans lan ak dat limit la. Delè sa a pa aplike an ka ranbousman. Kredi ou achte nan boutik la (Atik 8) **pa konsène**: yo rete pou ou.
+
 ---
 
 ## Atik 8 — Pak ak acha inite pa inite
@@ -110,7 +119,7 @@ Gen kèk kontni (pak pèsona, kredi kota anplis) yo vann inite pa inite, san ab�
 
 *Tarif nan dat nou ekri dokiman sa a: 2,99 € pa pak. Pri ki angaje w la se sa yo afiche nan moman acha a.*
 
-Yon pak ou achte se **pou tout tan** epi li mare ak kont ou. Ou jwenn li ankò lè w rekonekte sou yon lòt aparèy, epi fonksyon 'Retabli acha mwen yo' nan aplikasyon an pèmèt ou rekipere l si sa nesesè.
+Yon pak ou achte se **pou tout tan** epi li mare ak kont ou — kontrèman ak kredi mansyèl abònman an (Atik 6 ak 7), li pa ekspire. Ou jwenn li ankò lè w rekonekte sou yon lòt aparèy, epi fonksyon 'Retabli acha mwen yo' nan aplikasyon an pèmèt ou rekipere l si sa nesesè.
 
 Kredi kota ou achte yo itilize **sèlman lè kota peryòd la fin epwize**, konsa ou pa janm peye de fwa pou menm itilizasyon an.
 

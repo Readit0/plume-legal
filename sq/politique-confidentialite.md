@@ -1,6 +1,8 @@
 # Politika e privatësisë e Plume
 
-**Përditësimi i fundit: 1 tetor 2026** — Versioni 2.1
+**Përditësimi i fundit: 1 tetor 2026** — Versioni 2.2
+
+> *Çfarë ka ndryshuar në versionin 2.2:* përshkruajmë **Komunikimin audio**, përkthyesin zanor të Plume, që nuk ekzistonte në versionin 2.1: çfarë mbetet në telefonin tuaj, çfarë del në mënyrën IA Pro, dhe leximi me zë të lartë nga motori i sintezës së zërit të telefonit (shihni §4.1 dhe §9).
 
 > *Çfarë ka ndryshuar në versionin 2.1:* ne përshkruajmë **mënyrën Kamuflazh**, që versioni 2.0 nuk e përmendte, dhe korrigjojmë një pohim që nuk ishte më i saktë: si për gjuhët personale, ashtu edhe për Kamuflazhin, **fjalët e mesazheve tuaja që mungojnë ende në leksikun tuaj ruhen, një nga një** — kurrë fjalia — në mënyrë që t'ju propozojmë t'i shtoni. Hollësitë gjenden te «Në një minutë», te §2.2 dhe te §3. Korrigjojmë edhe një gabim të dytë: **personat tuaj të personalizuar dhe avatarët e tyre ruhen në serverët tanë** — ata nuk mbeten vetëm në telefonin tuaj (shihni §3).
 
@@ -141,6 +143,16 @@ Një buton mikrofoni ju lejon të diktoni në vend që të shkruani. Leja e akse
 
 Nëse e refuzoni lejen e mikrofonit, shkrimi me tastierë mbetet natyrisht i disponueshëm.
 
+### 4.1 Komunikimi audio (përkthyesi zanor)
+
+Komunikimi audio përkthen me zë të lartë një bisedë mes dy personave. **Mikrofoni hapet vetëm kur prekni sferën**, dhe mbyllet në fund të çdo fjalie.
+
+- **Të folurit** transkriptohet nga i njëjti motor i njohjes së zërit të telefonit si diktimi, me të njëjtat rezerva si më sipër. **Plume merr vetëm tekstin, kurrë audion.** Nëse mungon moduli jashtë linje i një gjuhe, Plume i kërkon telefonit ta shkarkojë; ndërkohë, motori i telefonit mund të transkriptojë në linjë.
+- **Në mënyrën Kit lokal** (falas), përkthimi bëhet **në telefonin tuaj**.
+- **Në mënyrën IA Pro** (abonentët), teksti i transkriptuar dërgohet te serverat tanë e pastaj te ofruesi ynë i përpunimit me inteligjencë artificiale, që korrigjon gabimet e dëgjimit dhe e përkthen — me të njëjtin itinerar si në §2.2. **Nuk e ruajmë as tekstin, as përkthimin e tij.**
+- **Leximi me zë të lartë** bëhet nga motori i sintezës së zërit të telefonit (zakonisht ai i Google). Në të dyja mënyrat, Plume i kërkon **zërat e tij në linjë**, më natyralë: teksti i përkthyer i dërgohet atëherë botuesit të tij për t'u shqiptuar. Pa lidhje, merr përsipër një zë i instaluar në telefon.
+- **Historiku i bisedës mbetet në telefonin tuaj** dhe zhduket kur e braktisni ekranin. Në pajisje ruhen vetëm çifti i gjuhëve të zgjedhura, motori i zgjedhur dhe numri i bisedave (për reklamën e nivelit falas).
+
 ---
 
 ## 5. Reklamat
@@ -198,7 +210,7 @@ Meqenëse aplikacioni lejon riformulimin e një teksti të lirë dhe shfaq rekla
 | **Ofruesi ynë i përpunimit me IA** | Përcjellja e kërkesave dhe përpunimi i tekstit nga një model inteligjence artificiale i palës së tretë | **Jashtë Bashkimit Evropian** |
 | **Google Play / Google Billing** | Pagesa, abonimet | Google Ireland / Shtetet e Bashkuara |
 | **Google AdMob** | Reklamat me shpërblim | Google Ireland / Shtetet e Bashkuara |
-| **Google (shërbimet e sistemit të telefonit)** | Njohja e zërit, modulet e përkthimit jashtë linje | Sipas pajisjes suaj |
+| **Google (shërbimet e sistemit të telefonit)** | Njohja e zërit, sinteza e zërit (leximi me zë të lartë për Komunikimin audio), modulet e përkthimit jashtë linje | Sipas pajisjes suaj |
 | **Ofruesi ynë i raportimit të plantimeve** | Raportim i plantimeve teknike — vetëm gabime të programit, të filtruara para dërgimit: asnjëherë teksti juaj | Shtetet e Bashkuara |
 
 **Nuk shesim asnjë të dhënë dhe nuk i japim asnjë ndërmjetësi të dhënash.**

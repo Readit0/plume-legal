@@ -1,6 +1,8 @@
 # Almennir skilmálar um notkun og sölu — Plume
 
-**Síðast uppfært: 31. júlí 2026** — Útgáfa 1.0
+**Síðast uppfært: 1. október 2026** — Útgáfa 1.1
+
+> *Hvað breyttist í útgáfu 1.1:* við lýsum **Hljóðsamskipti**, talþýðanda Plume, og **AI Pro** ham hans (greinar 2 og 6). Við skrifum svart á hvítu tvær reglur um inneign áskriftarinnar: hún er **mánaðarleg og safnast ekki upp** frá einum mánuði til annars (grein 6), og ef áskriftin **er ekki endurnýjuð** er hægt að nota stöðuna úr síðasta mánuðinum í **7 daga** áður en hún er þurrkuð út (grein 7). Inneign sem keypt er í versluninni **er eign þín til frambúðar** (grein 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume er hjálpartæki við ritun sem starfar á Android. Það gerir þér klei
 - að **umorða texta** sem þú ert að skrifa, beint í því forriti þar sem þú skrifar hann, með því að velja stíl („persónu“);
 - að **þýða eða draga saman texta sem birtist á skjánum**, og að fá tillögu að svari við mótteknum skilaboðum;
 - að nota **Studdan lestur**, sem leggur þýðingu ofan á textann sem birtist á skjánum;
-- að **lesa inn** texta í stað þess að slá hann inn.
+- að **lesa inn** texta í stað þess að slá hann inn;
+- að nota **Hljóðsamskipti**, talþýðanda sem þýðir samtal tveggja einstaklinga upphátt, eða skriflega (Skriftarhamur).
 
 Eftir tækinu þínu og vali þínu fer vinnslan fram **í símanum þínum** eða **á fjarlægum netþjónum**. Nákvæmri leið gagnanna þinna er lýst í persónuverndarstefnu okkar: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Notkun þjónustunnar hefur þak, til að halda utan um kostnað við vinnsluna.
 - Þegar vinnslan fer fram **í tækinu þínu** (tæki sem styðja staðbundnu gervigreindina): **ótakmörkuð notkun**, með þeim eina fyrirvara að tæknileg mörk símans þíns setji henni skorður (rafhlaða, hitnun).
 - Þegar vinnslan fer fram **á netþjónum okkar**: notkunin hefur þak á dag og á mánuði, því hvert kall hefur raunverulegan kostnað. *Þegar þetta er ritað: 1.000 á dag og 9.000 á mánuði.*
 
+**Inneign áskriftarinnar er mánaðarleg og safnast ekki upp.** Inneign mánaðar gildir til loka þess mánaðar: það sem ekki var notað **flyst ekki** yfir á næsta mánuð, þar sem teljarinn byrjar aftur á núlli. Ef áskriftin er ekki endurnýjuð gildir grein 7.
+
+**Hljóðsamskipti.** Hamurinn **Staðbundinn pakki** er ókeypis: þýðingin fer fram í símanum þínum (á ókeypis þrepinu getur auglýsing birst öðru hverju). Hamurinn **AI Pro** er eingöngu fyrir áskrifendur: hver þýðing notar **fastan** fjölda kvótaeininga eftir marktungumálinu — *þegar þetta er skrifað, 1 einingu, og 3 fyrir tungumál sem er merkt PRO*. Kostnaðurinn er sýndur í forritinu áður en það er notað og **dreginn sjálfkrafa frá** eftir hverja vel heppnaða þýðingu; misheppnuð þýðing er ekki gjaldfærð. Án nægrar stöðu er AI Pro þýðingin ekki framkvæmd.
+
 **Sameiginlegt öllum þrepum:**
 
 - **Skjágreining** (þýðing eða tillaga að svari) er dýrari en einföld umorðun og eyðir **fleiri en einni kvótaeiningu** — sem stendur 5.
@@ -102,6 +109,8 @@ Notkun þjónustunnar hefur þak, til að halda utan um kostnað við vinnsluna.
 
 **Lok áskriftar.** Við lok tímabilsins fer aðgangurinn þinn aftur á ókeypis þrepið. Þú missir hvorki aðganginn þinn, persónurnar þínar né stillingarnar þínar.
 
+**Ef áskriftin þín er ekki endurnýjuð hefur inneignin sem eftir er 7 daga.** Inneignarstaða síðasta áskriftarmánaðarins er nothæf í **7 daga** frá lokum áskriftarinnar; að þeim tíma liðnum er hún **þurrkuð út fyrir fullt og allt**. Forritið lætur þig vita með skilaboðum strax í upphafi þessa tímabils, með stöðunni og lokadagsetningunni. Þessi frestur gildir ekki ef um endurgreiðslu er að ræða. Inneign sem keypt er í versluninni (grein 8) **fellur ekki hér undir**: hún er áfram þín eign.
+
 ---
 
 ## Grein 8 — Pakkar og stök kaup
@@ -110,7 +119,7 @@ Sumt efni (persónupakkar, viðbótarkvótainneign) er selt stakt, án áskrifta
 
 *Verð þegar þetta er ritað: 2,99 € fyrir hvern pakka. Það verð sem bindur þig er það sem birtist við kaupin.*
 
-Pakki sem keyptur hefur verið er **eign þín til frambúðar** og tengdur aðgangi þínum. Þú finnur hann aftur með því að skrá þig inn í öðru tæki, og aðgerðin „Endurheimta kaupin mín“ í forritinu gerir þér kleift að ná í hann ef þarf.
+Pakki sem keyptur hefur verið er **eign þín til frambúðar** og tengdur aðgangi þínum — ólíkt mánaðarlegri inneign áskriftarinnar (greinar 6 og 7) rennur hann ekki út. Þú finnur hann aftur með því að skrá þig inn í öðru tæki, og aðgerðin „Endurheimta kaupin mín“ í forritinu gerir þér kleift að ná í hann ef þarf.
 
 Kvótainneign sem keypt hefur verið er **ekki notuð fyrr en kvótar tímabilsins eru uppurnir**, svo að þú greiðir aldrei tvisvar fyrir sömu notkunina.
 

@@ -1,6 +1,8 @@
 # Plumes integritetspolicy
 
-**Senast uppdaterad: 1 oktober 2026** — Version 2.1
+**Senast uppdaterad: 1 oktober 2026** — Version 2.2
+
+> *Vad som har ändrats i version 2.2:* vi beskriver **Ljudkommunikation**, Plumes rösttolk, som inte fanns i version 2.1: vad som stannar i din telefon, vad som skickas i läget AI Pro, och högläsningen med telefonens talsyntes (se §4.1 och §9).
 
 > *Vad som har ändrats i version 2.1:* vi beskriver **Kamouflage-läget**, som version 2.0 inte nämnde, och vi korrigerar ett påstående som har blivit felaktigt: både för egna språk och för Kamouflage **sparas de ord i dina meddelanden som ännu saknas i ditt lexikon, ett i taget** — aldrig meningen — för att kunna föreslå dig att lägga till dem. Detaljerna finns under ”På en minut”, i §2.2 och i §3. Vi rättar också ett andra fel: **dina egna personas och deras avatarer sparas på våra servrar** — de stannar inte bara i din telefon (se §3).
 
@@ -141,6 +143,16 @@ En mikrofonknapp låter dig diktera i stället för att skriva. Behörigheten ti
 
 Om du nekar mikrofonbehörigheten är det förstås fortfarande möjligt att skriva på tangentbordet.
 
+### 4.1 Ljudkommunikation (rösttolken)
+
+Ljudkommunikation översätter ett samtal mellan två personer högt. **Mikrofonen öppnas bara när du trycker på klotet**, och stängs i slutet av varje mening.
+
+- **Talet** skrivs ut av samma taligenkänning i telefonen som diktering, med samma förbehåll som ovan. **Plume tar bara emot texten, aldrig ljudet.** Om offlinemodulen för ett språk saknas ber Plume telefonen att ladda ner den; under tiden kan telefonens motor skriva ut online.
+- **I läget Lokalt kit** (gratis) sker översättningen **i din telefon**.
+- **I läget AI Pro** (prenumeranter) skickas den utskrivna texten till våra servrar och därefter till vår leverantör av AI-behandling, som rättar lyssningsfel och översätter den — samma väg som i §2.2. **Vi sparar varken texten eller dess översättning.**
+- **Högläsningen** görs av telefonens talsyntes (oftast Googles). I båda lägena ber Plume den om dess mer naturliga **onlineröster**: den översatta texten skickas då till dess utgivare för att uttalas. Utan anslutning tar en röst som är installerad på telefonen över.
+- **Samtalshistoriken stannar i din telefon** och försvinner när du lämnar skärmen. Bara det valda språkparet, det valda läget och antalet samtal (för annonsen på gratisnivån) sparas på enheten.
+
 ---
 
 ## 5. Reklam
@@ -198,7 +210,7 @@ Eftersom appen gör det möjligt att formulera om fri text och visar reklam är 
 | **Vår leverantör av AI-behandling** | Vidarebefordran av förfrågningarna och behandling av texten med en artificiell intelligens-modell från en tredje part | **Utanför Europeiska unionen** |
 | **Google Play / Google Billing** | Betalning, prenumerationer | Google Ireland / USA |
 | **Google AdMob** | Belönad reklam | Google Ireland / USA |
-| **Google (telefonens systemtjänster)** | Taligenkänning, offlinemoduler för översättning | Beroende på din enhet |
+| **Google (telefonens systemtjänster)** | Taligenkänning, talsyntes (högläsning för Ljudkommunikation), offlinemoduler för översättning | Beroende på din enhet |
 | **Vår leverantör av kraschrapportering** | Teknisk kraschrapportering — endast programfel, filtrerade innan de skickas: aldrig din text | USA |
 
 **Vi säljer inga uppgifter och lämnar inga uppgifter vidare till datamäklare.**

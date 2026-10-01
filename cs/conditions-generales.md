@@ -1,6 +1,8 @@
 # Všeobecné podmínky užívání a prodeje — Plume
 
-**Poslední aktualizace: 31. července 2026** — Verze 1.0
+**Poslední aktualizace: 1. října 2026** — Verze 1.1
+
+> *Co se změnilo ve verzi 1.1:* popisujeme **Hlasovou komunikaci**, hlasového tlumočníka Plume, a její režim **AI Pro** (články 2 a 6). Černé na bílém zapisujeme dvě pravidla o kreditech předplatného: jsou **měsíční a nenarůstají** z jednoho měsíce na další (článek 6) a pokud se předplatné **neobnoví**, zůstatek z posledního měsíce lze využít ještě **7 dní**, než bude vymazán (článek 7). Kredity zakoupené v obchodě naopak zůstávají **získány natrvalo** (článek 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume je nástroj pro pomoc s psaním fungující v systému Android. Umožňuje
 - **přeformulovat text**, který právě píšete, přímo v aplikaci, ve které jej píšete, s volbou stylu („persona“);
 - **přeložit nebo shrnout text zobrazený na obrazovce** a získat návrh odpovědi na přijatou zprávu;
 - používat **Asistované čtení**, které překrývá text zobrazený na obrazovce překladem;
-- **diktovat** text namísto jeho psaní.
+- **diktovat** text namísto jeho psaní;
+- používat **Hlasovou komunikaci**, hlasového tlumočníka, který nahlas překládá rozhovor mezi dvěma lidmi, nebo písemně (režim Psaní).
 
 Podle vašeho zařízení a vaší volby probíhá zpracování **ve vašem telefonu**, nebo **na vzdálených serverech**. Přesný pohyb vašich údajů je popsán v našich zásadách ochrany osobních údajů: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Užívání služby je omezeno, aby byly udrženy náklady na zpracování.
 - Probíhá-li zpracování **ve vašem zařízení** (zařízení kompatibilní s Místní AI): **neomezené užívání**, s jedinou výhradou technických mezí vašeho telefonu (baterie, zahřívání).
 - Probíhá-li zpracování **na našich serverech**: užívání je omezeno na den a na měsíc, protože každé volání má skutečné náklady. *Ke dni sepsání: 1 000 za den a 9 000 za měsíc.*
 
+**Kredity předplatného jsou měsíční a nenarůstají.** Kredity za jeden měsíc platí do konce tohoto měsíce: co nebylo využito, se **nepřevádí** do následujícího měsíce, kde se počítadlo vrací na nulu. Pokud se předplatné neobnoví, použije se článek 7.
+
+**Hlasová komunikace.** Režim **Místní sada** je zdarma: překlad probíhá ve vašem telefonu (na bezplatné úrovni se může občas zobrazit reklama). Režim **AI Pro** je vyhrazen předplatitelům: každý překlad spotřebuje **pevný** počet jednotek limitu podle cílového jazyka — *ke dni sepsání 1 jednotku a 3 pro jazyk označený PRO*. Cena je před použitím uvedena v aplikaci a po každém úspěšném překladu se **strhává automaticky**; překlad, který se nezdaří, se nestrhává. Bez dostatečného zůstatku se překlad AI Pro neprovede.
+
 **Společné pro všechny úrovně:**
 
 - **Analýza obrazovky** (překlad nebo návrh odpovědi) je nákladnější než prosté přeformulování a spotřebuje **několik jednotek limitu** — v současnosti 5.
@@ -102,6 +109,8 @@ Užívání služby je omezeno, aby byly udrženy náklady na zpracování.
 
 **Konec předplatného.** Po uplynutí platnosti se váš účet vrací na bezplatnou úroveň. Nepřijdete ani o svůj účet, ani o své persony, ani o svá nastavení.
 
+**Pokud se vaše předplatné neobnoví, vaše zbývající kredity platí 7 dní.** Zůstatek kreditů z posledního měsíce vašeho předplatného lze využít po dobu **7 dní** od konce předplatného; po uplynutí této lhůty je **nenávratně vymazán**. Aplikace vás na začátku tohoto období upozorní zprávou se zůstatkem a konečným datem. Tato lhůta se neuplatní v případě vrácení peněz. Kredity zakoupené v obchodě (článek 8) se **netýkají**: zůstávají získány.
+
 ---
 
 ## Článek 8 — Balíčky a jednorázové nákupy
@@ -110,7 +119,7 @@ Některý obsah (balíčky person, dodatečné kredity limitu) se prodává jedn
 
 *Cena ke dni sepsání: 2,99 € za balíček. Cena, která vás zavazuje, je cena zobrazená v okamžiku nákupu.*
 
-Zakoupený balíček je **získán natrvalo** a vázán na váš účet. Najdete jej po opětovném přihlášení na jiném zařízení a funkce „Obnovit moje nákupy“ v aplikaci vám jej v případě potřeby umožní získat zpět.
+Zakoupený balíček je **získán natrvalo** a vázán na váš účet — na rozdíl od měsíčních kreditů předplatného (články 6 a 7) nevyprší. Najdete jej po opětovném přihlášení na jiném zařízení a funkce „Obnovit moje nákupy“ v aplikaci vám jej v případě potřeby umožní získat zpět.
 
 Zakoupené kredity limitu se použijí **až poté, co jsou vaše limity za dané období vyčerpány**, abyste nikdy neplatili dvakrát za totéž použití.
 

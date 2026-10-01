@@ -1,6 +1,8 @@
 # Fepetra ankapobeny amin'ny fampiasana sy ny fivarotana — Plume
 
-**Nohavaozina farany : 31 jolay 2026** — Version 1.0
+**Nohavaozina farany : 1 oktobra 2026** — Version 1.1
+
+> *Izay niova tamin'ny version 1.1 :* mamaritra ny **Fifandraisana an-peo** izahay, ilay mpandika feo ao amin'ny Plume, sy ny maody **AI Pro** azy (Andininy 2 sy 6). Soratanay mazava ny fitsipika roa momba ny crédit'ny famandrihana : **isam-bolana izy ireo ary tsy mitambatra** amin'ny volana manaraka (Andininy 6), ary raha **tsy novaozina** ny famandrihana, mbola azo ampiasaina mandritra ny **7 andro** ny sisa tavela tamin'ny volana farany alohan'ny hamafana azy (Andininy 7). Ny crédit novidiana tao amin'ny fivarotana kosa dia mijanona **an'anao mandrakizay** (Andininy 8).
 
 
 ---
@@ -25,7 +27,8 @@ Fitaovana fanampiana amin'ny fanoratana mandeha amin'ny Android i Plume. Ahafaha
 - **manoratra indray lahatsoratra** izay ianao dia mbola manoratra, mivantana ao amin'ny fampiharana anoratanao azy, amin'ny fisafidianana endrika (« persona ») ;
 - **mandika na mamintina lahatsoratra** aseho eo amin'ny efijery, ary mahazo tolo-baliny ho an'ny hafatra noraisina ;
 - mampiasa ny **Famakiana Ampian-jery**, izay mametraka fandikan-teny eo ambonin'ny lahatsoratra aseho eo amin'ny efijery ;
-- **miteny mba ho voasoratra** ny lahatsoratra iray fa tsy manindry lakile.
+- **miteny mba ho voasoratra** ny lahatsoratra iray fa tsy manindry lakile ;
+- ampiasaina ny **Fifandraisana an-peo**, mpandika feo mandika avo ny resaka eo amin'ny olona roa, na an-tsoratra (maody Soratra).
 
 Arakaraka ny fitaovanao sy ny safidinao, dia atao **eo amin'ny findainao** na **eo amin'ny mpizara lavitra** ny fikirakirana. Ny lalana marina alehan'ny angonao dia voafaritra ao amin'ny politikanay momba ny fiainana manokana : `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Voafetra ny fampiasana ny serivisy, mba hifehezana ny vidin'ny fikirakirana.
 - Rehefa atao **eo amin'ny fitaovanao** ny fikirakirana (fitaovana mifanaraka amin'ny IA an-toerana) : **fampiasana tsy misy fetra**, miankina fotsiny amin'ny fetran'ny fahaiza-mandehan'ny findainao (bataria, hafanana).
 - Rehefa atao **eo amin'ny mpizaranay** ny fikirakirana : voafetra isan'andro sy isam-bolana ny fampiasana, satria manana vidiny marina ny antso tsirairay. *Amin'ny fotoana nanoratana ity : 1 000 isan'andro sy 9 000 isam-bolana.*
 
+**Isam-bolana ny crédit'ny famandrihana ary tsy mitambatra.** Manan-kery hatramin'ny faran'io volana io ny crédit'ny volana iray : ny tsy nampiasaina dia **tsy afindra** amin'ny volana manaraka, izay manomboka amin'ny aotra ny mpanisa. Raha tsy novaozina ny famandrihana, ampiharina ny Andininy 7.
+
+**Fifandraisana an-peo.** Maimaim-poana ny maody **Kit eo an-toerana** : ao amin'ny findainao no anaovana ny fandikana (amin'ny ambaratonga maimaim-poana, mety hisy dokam-barotra miseho indraindray). Natokana ho an'ny mpamandrika ny maody **AI Pro** : mampiasa isa **raikitra** amin'ny quota ny fandikana tsirairay, arakaraka ny fiteny kendrena — *amin'ny fotoana nanoratana ity, 1 singa, ary 3 ho an'ny fiteny misy marika PRO*. Aseho ao amin'ny fampiharana ny vidiny alohan'ny fampiasana ary **ahena ho azy** aorian'ny fandikana tsirairay vita soa aman-tsara ; tsy ahena ny fandikana tsy nahomby. Raha tsy ampy ny sisa, tsy atao ny fandikana AI Pro.
+
 **Zavatra iombonan'ny ambaratonga rehetra :**
 
 - Ny **fandinihana efijery** iray (fandikan-teny na tolo-baliny) dia lafo vidiny kokoa noho ny fanoratana indray tsotra ary mandany **quota maromaro** — 5 amin'izao fotoana izao.
@@ -103,6 +110,8 @@ Voafetra ny fampiasana ny serivisy, mba hifehezana ny vidin'ny fikirakirana.
 
 **Fiafaran'ny famandrihana.** Rehefa tapitra, dia miverina amin'ny ambaratonga maimaim-poana ny kaontinao. Tsy very ny kaontinao, na ny personanao, na ny kirakiranao.
 
+**Raha tsy novaozina ny famandrihanao, manana 7 andro ny crédit tavela.** Mijanona azo ampiasaina mandritra ny **7 andro** manomboka amin'ny faran'ny famandrihana ny sisa tavela tamin'ny volana farany nandrihanao ; rehefa lany io fe-potoana io dia **fafana tanteraka** izany. Mampahafantatra anao amin'ny hafatra ny fampiharana hatrany am-piandohan'ity vanim-potoana ity, miaraka amin'ny sisa sy ny daty farany. Tsy ampiharina io fe-potoana io raha misy famerenana vola. Tsy tafiditra ao ny crédit novidiana tao amin'ny fivarotana (Andininy 8) : mijanona an'anao ireo.
+
 ---
 
 ## Andininy 8 — Pakizy sy fividianana tsirairay
@@ -111,7 +120,7 @@ Misy votoaty sasany (pakizin'ny persona, quota fanampiny) amidy tsirairay, tsy m
 
 *Vidiny amin'ny fotoana nanoratana ity : 2,99 € isaky ny pakizy iray. Ny vidiny mifamatotra aminao dia ilay aseho amin'ny fotoana fividianana.*
 
-Ny pakizy vidina dia **an'anao mandrakizay** ary mifamatotra amin'ny kaontinao. Hitanao indray izy io rehefa miditra amin'ny fitaovana hafa, ary ny endri-javatra « Averio ny fividianako » ao amin'ny fampiharana no hahafahanao maka azy indray raha ilaina.
+Ny pakizy vidina dia **an'anao mandrakizay** ary mifamatotra amin'ny kaontinao — tsy toy ny crédit isam-bolana amin'ny famandrihana (Andininy 6 sy 7), dia tsy lany daty izy. Hitanao indray izy io rehefa miditra amin'ny fitaovana hafa, ary ny endri-javatra « Averio ny fividianako » ao amin'ny fampiharana no hahafahanao maka azy indray raha ilaina.
 
 Ny quota vidina dia ampiasaina **rehefa lany ny quota-nao amin'ny vanim-potoana** ihany, mba tsy handoavanao indroa ny fampiasana iray ihany.
 

@@ -1,6 +1,8 @@
 # Allgemeine Nutzungs- und Verkaufsbedingungen — Plume
 
-**Letzte Aktualisierung: 31. Juli 2026** — Version 1.0
+**Letzte Aktualisierung: 1. Oktober 2026** — Version 1.1
+
+> *Was sich in Version 1.1 geändert hat:* Wir beschreiben die **Audio-Kommunikation**, den Sprachdolmetscher von Plume, und ihren Modus **KI Pro** (Artikel 2 und 6). Wir halten zwei Regeln zu den Abo-Guthaben schwarz auf weiß fest: Sie sind **monatlich und sammeln sich nicht an** von einem Monat zum nächsten (Artikel 6), und wenn das Abonnement **nicht verlängert wird**, bleibt das Guthaben des letzten Monats **7 Tage** lang nutzbar, bevor es gelöscht wird (Artikel 7). Im Shop gekaufte Guthaben bleiben dagegen **endgültig erworben** (Artikel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume ist ein Werkzeug zur Unterstützung beim Schreiben, das unter Android läu
 - einen Text, den Sie gerade schreiben, **umzuschreiben**, und zwar direkt in der App, in der Sie ihn schreiben, indem Sie einen Stil (eine „Persona“) wählen;
 - auf dem Bildschirm angezeigten Text **zu übersetzen oder zusammenzufassen** und einen Antwortvorschlag auf eine empfangene Nachricht zu erhalten;
 - das **Assistierte Lesen** zu nutzen, das eine Übersetzung über den auf dem Bildschirm angezeigten Text legt;
-- einen Text zu **diktieren**, statt ihn zu tippen.
+- einen Text zu **diktieren**, statt ihn zu tippen;
+- die **Audio-Kommunikation** zu nutzen, einen Sprachdolmetscher, der ein Gespräch zwischen zwei Personen laut oder schriftlich (Schreibmodus) übersetzt.
 
 Je nach Gerät und Ihrer Wahl erfolgt die Verarbeitung **auf Ihrem Handy** oder **auf entfernten Servern**. Der genaue Weg Ihrer Daten wird in unserer Datenschutzerklärung beschrieben: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Die Nutzung des Dienstes ist begrenzt, um die Verarbeitungskosten zu beherrschen
 - Wenn die Verarbeitung **auf Ihrem Gerät** erfolgt (Geräte, die mit der Lokalen KI kompatibel sind): **unbegrenzte Nutzung**, allein vorbehaltlich der technischen Grenzen Ihres Handys (Akku, Wärmeentwicklung).
 - Wenn die Verarbeitung **auf unseren Servern** erfolgt: Die Nutzung ist pro Tag und pro Monat begrenzt, weil jeder Aufruf tatsächliche Kosten verursacht. *Zum Zeitpunkt der Abfassung: 1.000 pro Tag und 9.000 pro Monat.*
 
+**Die Guthaben des Abonnements sind monatlich und sammeln sich nicht an.** Die Guthaben eines Monats gelten bis zum Ende dieses Monats: Was nicht verbraucht wurde, wird **nicht übertragen** auf den Folgemonat, in dem der Zähler wieder bei null beginnt. Wird das Abonnement nicht verlängert, gilt Artikel 7.
+
+**Audio-Kommunikation.** Der Modus **Lokales Kit** ist kostenlos: Die Übersetzung erfolgt auf Ihrem Handy (in der kostenlosen Stufe kann gelegentlich Werbung angezeigt werden). Der Modus **KI Pro** ist Abonnenten vorbehalten: Jede Übersetzung verbraucht je nach Zielsprache eine **feste** Anzahl an Kontingenteinheiten — *zum Zeitpunkt der Abfassung 1 Einheit und 3 für eine als PRO gekennzeichnete Sprache*. Die Kosten werden vor der Nutzung in der App angezeigt und nach jeder erfolgreichen Übersetzung **automatisch abgebucht**; eine fehlgeschlagene Übersetzung wird nicht abgebucht. Ohne ausreichendes Guthaben wird die KI-Pro-Übersetzung nicht durchgeführt.
+
 **Für alle Stufen gilt:**
 
 - Eine **Bildschirmanalyse** (Übersetzung oder Antwortvorschlag) ist teurer als eine einfache Umschreibung und verbraucht **mehrere Kontingenteinheiten** — derzeit 5.
@@ -102,6 +109,8 @@ Die Nutzung des Dienstes ist begrenzt, um die Verarbeitungskosten zu beherrschen
 
 **Ende des Abonnements.** Bei Ablauf kehrt Ihr Konto auf die kostenlose Stufe zurück. Sie verlieren weder Ihr Konto noch Ihre Personas noch Ihre Einstellungen.
 
+**Wird Ihr Abonnement nicht verlängert, bleiben Ihre restlichen Guthaben 7 Tage lang gültig.** Das Guthaben Ihres letzten Abonnementmonats bleibt ab dem Ende des Abonnements **7 Tage** lang nutzbar; nach Ablauf dieser Frist wird es **endgültig gelöscht**. Die App warnt Sie zu Beginn dieses Zeitraums mit einer Nachricht, die das Guthaben und die Frist nennt. Diese Frist gilt nicht im Fall einer Erstattung. Im Shop gekaufte Guthaben (Artikel 8) sind **nicht betroffen**: Sie bleiben erworben.
+
 ---
 
 ## Artikel 8 — Pakete und Einzelkäufe
@@ -110,7 +119,7 @@ Bestimmte Inhalte (Persona-Pakete, zusätzliche Kontingentguthaben) werden einze
 
 *Preis zum Zeitpunkt der Abfassung: 2,99 € pro Paket. Verbindlich ist für Sie der Preis, der beim Kauf angezeigt wird.*
 
-Ein gekauftes Paket ist **endgültig erworben** und an Ihr Konto gebunden. Sie finden es wieder, wenn Sie sich auf einem anderen Gerät anmelden, und die Funktion „Käufe wiederherstellen“ der App erlaubt Ihnen, es bei Bedarf zurückzuholen.
+Ein gekauftes Paket ist **endgültig erworben** und an Ihr Konto gebunden — anders als die monatlichen Guthaben des Abonnements (Artikel 6 und 7) verfällt es nicht. Sie finden es wieder, wenn Sie sich auf einem anderen Gerät anmelden, und die Funktion „Käufe wiederherstellen“ der App erlaubt Ihnen, es bei Bedarf zurückzuholen.
 
 Gekaufte Kontingentguthaben werden **erst verwendet, wenn Ihre Kontingente des Zeitraums aufgebraucht sind**, damit Sie niemals zweimal für dieselbe Nutzung bezahlen.
 

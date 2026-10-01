@@ -1,6 +1,8 @@
 # Kushtet e përgjithshme të përdorimit dhe të shitjes — Plume
 
-**Përditësimi i fundit: 31 korrik 2026** — Versioni 1.0
+**Përditësimi i fundit: 1 tetor 2026** — Versioni 1.1
+
+> *Çfarë ka ndryshuar në versionin 1.1:* përshkruajmë **Komunikimin audio**, përkthyesin zanor të Plume, dhe mënyrën e tij **IA Pro** (Nenet 2 dhe 6). Shkruajmë qartë dy rregulla për kreditet e abonimit: ato janë **mujore dhe nuk grumbullohen** nga një muaj në tjetrin (Neni 6), dhe nëse abonimi **nuk rinovohet**, bilanci i muajit të fundit mbetet i përdorshëm **7 ditë** përpara se të fshihet (Neni 7). Kreditet e blera në dyqan mbeten, në të kundërt, **të fituara përfundimisht** (Neni 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume është një mjet ndihmës për shkrimin që funksionon në Android. Ai ju
 - **të riformuloni një tekst** që po e shkruani, drejtpërdrejt në aplikacionin ku po e shkruani, duke zgjedhur një stil («persona»);
 - **të përktheni ose të përmblidhni tekstin e shfaqur në ekran**, dhe të merrni një propozim përgjigjeje për një mesazh të marrë;
 - të përdorni **Leximin e Asistuar**, i cili mbivendos një përkthim mbi tekstin e shfaqur në ekran;
-- **të diktoni** një tekst në vend që ta shkruani.
+- **të diktoni** një tekst në vend që ta shkruani;
+- të përdorni **Komunikimin audio**, një përkthyes zanor që përkthen me zë të lartë një bisedë mes dy personave, ose me shkrim (mënyra Shkrim).
 
 Në varësi të pajisjes suaj dhe të zgjedhjes suaj, përpunimi kryhet **në telefonin tuaj** ose **në serverë të largët**. Qarkullimi i saktë i të dhënave tuaja përshkruhet në politikën tonë të privatësisë: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Përdorimi i shërbimit është i kufizuar, për të kontrolluar koston e përpu
 - Kur përpunimi kryhet **në pajisjen tuaj** (pajisje të përputhshme me IA-në lokale): **përdorim i pakufizuar**, me rezervën e vetme të kufijve teknikë të telefonit tuaj (bateria, nxehja).
 - Kur përpunimi kryhet **në serverët tanë**: përdorimi është i kufizuar në ditë dhe në muaj, sepse çdo thirrje ka një kosto reale. *Në datën e hartimit: 1 000 në ditë dhe 9 000 në muaj.*
 
+**Kreditet e abonimit janë mujore dhe nuk grumbullohen.** Kreditet e një muaji janë të vlefshme deri në fund të atij muaji: ato që nuk janë përdorur **nuk barten** në muajin tjetër, ku numëruesi fillon nga zero. Nëse abonimi nuk rinovohet, zbatohet Neni 7.
+
+**Komunikimi audio.** Mënyra **Kit lokal** është falas: përkthimi bëhet në telefonin tuaj (në nivelin falas, herë pas here mund të shfaqet një reklamë). Mënyra **IA Pro** u rezervohet abonentëve: çdo përkthim konsumon një numër **fiks** njësish kuote, sipas gjuhës së synuar — *në datën e hartimit, 1 njësi, dhe 3 për një gjuhë të shënuar PRO*. Kostoja tregohet në aplikacion përpara përdorimit dhe **zbritet automatikisht** pas çdo përkthimi të suksesshëm; një përkthim që dështon nuk zbritet. Pa gjendje të mjaftueshme, përkthimi IA Pro nuk kryhet.
+
 **Pika të përbashkëta për të gjitha nivelet:**
 
 - Një **analizë ekrani** (përkthim ose propozim përgjigjeje) është më e kushtueshme se një riformulim i thjeshtë dhe konsumon **disa njësi kuote** — aktualisht 5.
@@ -102,6 +109,8 @@ Përdorimi i shërbimit është i kufizuar, për të kontrolluar koston e përpu
 
 **Fundi i abonimit.** Në datën e skadimit, llogaria juaj kthehet në nivelin falas. Ju nuk e humbisni as llogarinë tuaj, as personat tuaj, as cilësimet tuaja.
 
+**Nëse abonimi juaj nuk rinovohet, kreditet e mbetura kanë 7 ditë.** Gjendja e krediteve të muajit tuaj të fundit të abonimit mbetet e përdorshme për **7 ditë** nga fundi i abonimit; pas këtij afati, ajo **fshihet përfundimisht**. Aplikacioni ju njofton me një mesazh që nga fillimi i këtij afati, me gjendjen dhe datën kufi. Ky afat nuk zbatohet në rast rimbursimi. Kreditet e blera në dyqan (Neni 8) **nuk preken**: ato mbeten të fituara.
+
 ---
 
 ## Neni 8 — Paketat dhe blerjet me copë
@@ -110,7 +119,7 @@ Disa përmbajtje (paketa personash, kredite kuote shtesë) shiten me copë, pa a
 
 *Tarifa në datën e hartimit: 2,99 € për paketë. Çmimi që ju detyron është ai i shfaqur në çastin e blerjes.*
 
-Një paketë e blerë **fitohet përfundimisht** dhe lidhet me llogarinë tuaj. Ju e gjeni sërish duke u rilidhur në një pajisje tjetër, dhe funksioni «Restauro blerjet e mia» i aplikacionit ju lejon ta rimerrni nëse është e nevojshme.
+Një paketë e blerë **fitohet përfundimisht** dhe lidhet me llogarinë tuaj — ndryshe nga kreditet mujore të abonimit (Nenet 6 dhe 7), nuk skadon. Ju e gjeni sërish duke u rilidhur në një pajisje tjetër, dhe funksioni «Restauro blerjet e mia» i aplikacionit ju lejon ta rimerrni nëse është e nevojshme.
 
 Kreditet e kuotës të blera përdoren **vetëm pasi kuotat tuaja të periudhës të kenë shteruar**, që të mos paguani kurrë dy herë të njëjtin përdorim.
 

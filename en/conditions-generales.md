@@ -1,6 +1,8 @@
 # Terms and Conditions of Use and Sale — Plume
 
-**Last updated: 31 July 2026** — Version 1.0
+**Last updated: 1 October 2026** — Version 1.1
+
+> *What changed in version 1.1:* we describe **Audio communication**, Plume's voice interpreter, and its **AI Pro** mode (Articles 2 and 6). We spell out two rules about subscription credits in black and white: they are **monthly and do not accumulate** from one month to the next (Article 6), and if the subscription is **not renewed**, the balance of the last month remains usable for **7 days** before being erased (Article 7). Credits purchased in the shop, by contrast, remain **permanently acquired** (Article 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume is a writing-assistance tool that runs on Android. It allows you:
 - to **rewrite a text** that you are writing, directly in the application where you are writing it, by choosing a style (a "persona");
 - to **translate or summarise text shown on the screen**, and to obtain a suggested reply to a message you have received;
 - to use **Assisted Reading**, which overlays a translation on the text shown on the screen;
-- to **dictate** a text instead of typing it.
+- to **dictate** a text instead of typing it;
+- to use **Audio communication**, a voice interpreter that translates a conversation between two people aloud, or in writing (Writing mode).
 
 Depending on your device and on your choice, processing takes place **on your phone** or **on remote servers**. Exactly how your data circulates is described in our privacy policy: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Use of the service is capped, in order to keep the cost of processing under cont
 - Where processing takes place **on your device** (devices compatible with the On-device AI): **unlimited use**, subject only to the technical limits of your phone (battery, heat).
 - Where processing takes place **on our servers**: use is capped per day and per month, because each call has a real cost. *At the time of writing: 1,000 per day and 9,000 per month.*
 
+**Subscription credits are monthly and do not accumulate.** The credits for a month are valid until the end of that month: whatever has not been used is **not carried over** to the next month, when the counter starts again from zero. If the subscription is not renewed, Article 7 applies.
+
+**Audio communication.** The **Local kit** mode is free: translation is done on your phone (on the free tier, an ad may occasionally be shown). The **AI Pro** mode is reserved for subscribers: each translation uses a **fixed** number of quota units, depending on the target language — *at the time of writing, 1 unit, and 3 for a language marked PRO*. The cost is shown in the application before use and **debited automatically** after each successful translation; a translation that fails is not debited. Without a sufficient balance, the AI Pro translation is not performed.
+
 **Points common to all tiers:**
 
 - A **screen analysis** (translation or suggested reply) is more expensive than a simple rewrite and consumes **several quota units** — currently 5.
@@ -102,6 +109,8 @@ Use of the service is capped, in order to keep the cost of processing under cont
 
 **End of the subscription.** When it expires, your account returns to the free tier. You lose neither your account, nor your personas, nor your settings.
 
+**If your subscription is not renewed, your remaining credits last 7 days.** The credit balance of your last subscription month remains usable for **7 days** from the end of the subscription; after that period, it is **permanently erased**. The application warns you with a message at the start of this period, with the balance and the deadline. This period does not apply in case of a refund. Credits purchased in the shop (Article 8) are **not affected**: they remain acquired.
+
 ---
 
 ## Article 8 — Packs and one-off purchases
@@ -110,7 +119,7 @@ Certain content (persona packs, additional quota credits) is sold on a one-off b
 
 *Price at the time of writing: €2.99 per pack. The price that binds you is the one displayed at the time of purchase.*
 
-A purchased pack is **acquired permanently** and attached to your account. You find it again by signing in on another device, and the application's "Restore purchases" feature lets you recover it if necessary.
+A purchased pack is **acquired permanently** and attached to your account — unlike the monthly subscription credits (Articles 6 and 7), it does not expire. You find it again by signing in on another device, and the application's "Restore purchases" feature lets you recover it if necessary.
 
 Purchased quota credits are used **only once your quotas for the period are used up**, so that you never pay twice for the same use.
 

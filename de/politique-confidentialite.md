@@ -1,6 +1,8 @@
 # Datenschutzerklärung von Plume
 
-**Letzte Aktualisierung: 1. Oktober 2026** — Version 2.1
+**Letzte Aktualisierung: 1. Oktober 2026** — Version 2.2
+
+> *Was sich in Version 2.2 geändert hat:* Wir beschreiben die **Audio-Kommunikation**, den Sprachdolmetscher von Plume, den es in Version 2.1 noch nicht gab: was auf Ihrem Handy bleibt, was im Modus KI Pro das Handy verlässt, und das Vorlesen durch die Sprachsynthese-Engine des Handys (siehe §4.1 und §9).
 
 > *Was sich in Version 2.1 geändert hat:* Wir beschreiben den **Modus „Tarnung“**, den Version 2.0 nicht erwähnte, und berichtigen eine Aussage, die nicht mehr zutraf: Bei eigenen Sprachen wie bei der Tarnung **werden die Wörter Ihrer Nachrichten, die in Ihrem Lexikon noch fehlen, einzeln aufbewahrt** — niemals der Satz —, damit wir Ihnen vorschlagen können, sie hinzuzufügen. Die Einzelheiten finden Sie unter „In einer Minute“, in Abschnitt 2.2 und in Abschnitt 3. Wir korrigieren außerdem einen zweiten Fehler: **Ihre eigenen Personas und deren Avatare werden auf unseren Servern gesichert** — sie bleiben nicht nur auf Ihrem Handy (siehe Abschnitt 3).
 
@@ -134,6 +136,16 @@ Hier ist alles, was auf unseren Servern gespeichert wird:
 
 Wenn Sie die Mikrofonberechtigung ablehnen, bleibt selbstverständlich die Eingabe über die Tastatur verfügbar.
 
+### 4.1 Audio-Kommunikation (der Sprachdolmetscher)
+
+Die Audio-Kommunikation übersetzt ein Gespräch zwischen zwei Personen laut. **Das Mikrofon öffnet sich nur, wenn Sie die Kugel berühren**, und es schaltet sich am Ende jedes Satzes ab.
+
+- **Die Sprache** wird von derselben Spracherkennungs-Engine des Handys transkribiert wie beim Diktieren, mit denselben Vorbehalten wie oben. **Plume erhält nur den Text, niemals das Audio.** Fehlt das Offline-Modul einer Sprache, bittet Plume das Handy, es herunterzuladen; in der Zwischenzeit kann die Engine des Handys online transkribieren.
+- **Im Modus Lokales Kit** (kostenlos) erfolgt die Übersetzung **auf Ihrem Handy**.
+- **Im Modus KI Pro** (Abonnenten) wird der transkribierte Text an unsere Server und dann an unseren KI-Verarbeitungsdienstleister gesendet, der Hörfehler korrigiert und ihn übersetzt — über denselben Weg wie in §2.2. **Wir speichern weder den Text noch seine Übersetzung.**
+- **Das Vorlesen** übernimmt die Sprachsynthese-Engine des Handys (in der Regel die von Google). In beiden Modi fordert Plume von ihr ihre natürlicheren **Online-Stimmen** an: Der übersetzte Text wird dann an ihren Herausgeber übermittelt, damit er gesprochen wird. Offline übernimmt eine auf dem Handy installierte Stimme.
+- **Der Gesprächsverlauf bleibt auf Ihrem Handy** und verschwindet, wenn Sie den Bildschirm verlassen. Nur das gewählte Sprachpaar, die gewählte Engine und die Anzahl der Gespräche (für die Werbung der kostenlosen Stufe) werden auf dem Gerät gespeichert.
+
 ---
 
 ## 5. Werbung
@@ -191,7 +203,7 @@ Da die App das Umschreiben freier Texte erlaubt und Werbung anzeigt, ist sie fü
 | **Unser Dienstleister für die KI-Verarbeitung** | Weiterleitung der Anfragen und Verarbeitung des Textes durch ein KI-Modell eines Dritten | **Außerhalb der Europäischen Union** |
 | **Google Play / Google Billing** | Zahlung, Abonnements | Google Ireland / Vereinigte Staaten |
 | **Google AdMob** | Werbung mit Belohnung | Google Ireland / Vereinigte Staaten |
-| **Google (Systemdienste des Handys)** | Spracherkennung, Offline-Übersetzungsmodule | Je nach Ihrem Gerät |
+| **Google (Systemdienste des Handys)** | Spracherkennung, Sprachsynthese (Vorlesen der Audio-Kommunikation), Offline-Übersetzungsmodule | Je nach Ihrem Gerät |
 | **Unser Dienstleister für Absturzberichte** | Technische Absturzberichte — ausschließlich Programmfehler, vor der Übermittlung gefiltert: niemals Ihr Text | Vereinigte Staaten |
 
 **Wir verkaufen keine Daten und geben keine an Datenhändler weiter.**

@@ -1,6 +1,8 @@
 # Politikan'ny fiainana manokana an'i Plume
 
-**Nohavaozina farany : 1 oktobra 2026** — Version 2.1
+**Nohavaozina farany : 1 oktobra 2026** — Version 2.2
+
+> *Izay niova tamin'ny version 2.2 :* mamaritra ny **Fifandraisana an-peo** izahay, ilay mpandika feo ao amin'ny Plume, izay tsy nisy tao amin'ny version 2.1 : izay mijanona ao amin'ny findainao, izay mivoaka amin'ny maody AI Pro, ary ny famakiana avo amin'ny alalan'ny motera sintezin'ny feon'ny finday (jereo ny §4.1 sy §9).
 
 > *Izay niova tamin'ny version 2.1 :* mamaritra ny **maodin'ny Fanafenana** izahay, izay tsy voalaza tao amin'ny version 2.0, ary manitsy fanambarana iray izay tsy marina intsony : ho an'ny fiteny manokana sy ho an'ny Fanafenana, **ireo teny ao amin'ny hafatrao izay mbola tsy ao amin'ny rakibolanao dia tehirizina, tsirairay avy** — tsy mihitsy ny fehezanteny — mba hahafahanay manoro hevitra anao hanampy azy ireo. Ny antsipiriany dia ao amin'ny « Ao anatin'ny iray minitra », ao amin'ny §2.2 ary ao amin'ny §3. Manitsy ihany koa ny hadisoana faharoa izahay : **ny persona nataonao manokana sy ny avatarany dia voatahiry ao amin'ny mpizaranay** — tsy eo amin'ny findainao ihany izy ireo (jereo §3).
 
@@ -134,6 +136,16 @@ Bokotra fitaovam-peo iray no ahafahanao miteny mba ho voasoratra fa tsy manindry
 
 Raha mandà ny alalan'ny fitaovam-peo ianao, dia mbola azo ampiasaina mazava ho azy ny fanoratana amin'ny lakiletra.
 
+### 4.1 Fifandraisana an-peo (ilay mpandika feo)
+
+Mandika avo ny resaka eo amin'ny olona roa ny Fifandraisana an-peo. **Tsy misokatra ny mikrô raha tsy rehefa mikasika ny boribory ianao**, ary mijanona rehefa tapitra ny fehezanteny tsirairay.
+
+- **Ny fiteny** dia adika ho soratra amin'ny motera fanekena feo mitovy amin'ny an'ny fanoratana am-peo ao amin'ny findainao, miaraka amin'ny fitandremana mitovy amin'ny etsy ambony. **Ny lahatsoratra ihany no azon'ny Plume, tsy ny feo mihitsy.** Raha tsy ao ny module tsy misy aterineto ho an'ny fiteny iray, dia angatahan'ny Plume ny finday hampidina azy ; mandritra izany, mety hanoratra amin'ny aterineto ny motera ao amin'ny finday.
+- **Amin'ny maody Kit eo an-toerana** (maimaim-poana), **ao amin'ny findainao** no anaovana ny fandikana.
+- **Amin'ny maody AI Pro** (mpamandrika), ny lahatsoratra voasoratra dia alefa any amin'ny serveurinay, avy eo any amin'ny mpanome tolotra fanodinana IA anay, izay manitsy ny hadisoana tamin'ny fihainoana ary mandika azy — amin'ny lalana mitovy amin'ny ao amin'ny §2.2. **Tsy tehirizinay ny lahatsoratra na ny adikany.**
+- **Ny famakiana avo** dia ataon'ny motera sintezin'ny feon'ny finday (matetika ny an'i Google). Amin'ny maody roa dia angatahin'i Plume amin'ilay motera ny **feo an-tserasera** mahafinaritra kokoa : alefa amin'ny mpamoaka azy ny lahatsoratra voadika mba hotononina. Rehefa tsy misy tambajotra, ny feo napetraka ao amin'ny finday no maka ny toerany.
+- **Mijanona ao amin'ny findainao ny tantaran'ny resaka** ary ringana rehefa miala amin'ny efijery ianao. Ny tsiroaroa fiteny nofidiana, ny motera nofidiana ary ny isan'ny resaka (ho an'ny dokam-barotra amin'ny ambaratonga maimaim-poana) ihany no tehirizina ao amin'ny fitaovana.
+
 ---
 
 ## 5. Fanentanana
@@ -191,7 +203,7 @@ Satria ahafahana manoratra indray lahatsoratra malalaka ny fampiharana ary mampi
 | **Ny mpanome serivisy fikirakirana IA anay** | Fandefasana ny fangatahana sy fikirakirana ny lahatsoratra amin'ny maodely IA an'ny antoko fahatelo | **Ivelan'ny Vondrona Eoropeana** |
 | **Google Play / Google Billing** | Fandoavam-bola, famandrihana | Google Ireland / Etazonia |
 | **Google AdMob** | Fanentanana mahazoana valisoa | Google Ireland / Etazonia |
-| **Google (serivisin'ny rafitry ny finday)** | Fanekena feo, singa fandikan-teny tsy misy aterineto | Arakaraka ny fitaovanao |
+| **Google (serivisin'ny rafitry ny finday)** | Fanekena feo, sintezin'ny feo (famakiana avo ao amin'ny Fifandraisana an-peo), singa fandikan-teny tsy misy aterineto | Arakaraka ny fitaovanao |
 | **Ny mpanome serivisy tatitra momba ny fisian'olana anay** | Tatitra momba ny fisian'olana ara-teknika — fahadisoan'ny rindrankajy ihany, sivanina alohan'ny fandefasana : tsy ny lahatsoratrao mihitsy | Etazonia |
 
 **Tsy mivarotra angona na inona na inona izahay ary tsy manome izany amin'ny mpanelanelana angona.**

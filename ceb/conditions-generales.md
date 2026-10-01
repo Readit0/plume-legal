@@ -1,6 +1,8 @@
 # Kinatibuk-ang mga Termino sa Paggamit ug Pagbaligya — Plume
 
-**Kataposang pag-update: 31 Hulyo 2026** — Bersyon 1.0
+**Kataposang pag-update: 1 Oktubre 2026** — Bersyon 1.1
+
+> *Ang nausab sa bersyon 1.1:* among gihubit ang **Audio nga komunikasyon**, ang tigbadbad sa tingog sa Plume, ug ang **AI Pro** nga mode niini (Artikulo 2 ug 6). Among gisulat nga klaro ang duha ka lagda bahin sa mga credit sa subscription: sila **binulan ug dili nagatigum** gikan sa usa ka bulan ngadto sa sunod (Artikulo 6), ug kung ang subscription **dili ma-renew**, ang salin sa katapusang bulan magamit gihapon sulod sa **7 ka adlaw** sa dili pa kini pagwagtangon (Artikulo 7). Ang mga credit nga gipalit sa shop, sa laing bahin, nagpabilin nga **hingpit nga naangkon** (Artikulo 8).
 
 
 ---
@@ -25,7 +27,8 @@ Ang Plume usa ka himan sa tabang sa pagsulat nga nagadagan sa Android. Gitugotan
 - **isulat pag-usab ang usa ka teksto** nga inyong gisulat, direkta sa aplikasyon diin inyo kining gisulat, pinaagi sa pagpili og estilo (« persona ») ;
 - **hubaron o himuon nga summary ang teksto** nga gipakita sa screen, ug makadawat og gisugyot nga tubag sa usa ka mensahe nga nadawat ;
 - gamiton ang **Assisted Reading**, nga nagabutang og hubad sa ibabaw sa teksto nga gipakita sa screen ;
-- **magdikta** og teksto imbes mag-type niini.
+- **magdikta** og teksto imbes mag-type niini;
+- paggamit sa **Audio nga komunikasyon**, usa ka tigbadbad sa tingog nga nagbadbad nga makabati sa usa ka panag-istorya tali sa duha ka tawo, o sa sinulat (mode sa Pagsulat).
 
 Depende sa inyong device ug sa inyong pilianan, ang pagproseso mahitabo **sa inyong telepono** o **sa layo nga mga server**. Ang eksaktong paglibot sa inyong datos gihulagway sa among palisiya sa pagkapribado: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Ang paggamit sa serbisyo may limitasyon, aron makontrol ang gasto sa pagproseso.
 - Kung ang pagproseso mahitabo **sa inyong device** (mga device nga compatible sa lokal nga AI): **walay limitasyon nga paggamit**, subject lamang sa teknikal nga mga limitasyon sa inyong telepono (baterya, kainit).
 - Kung ang pagproseso mahitabo **sa among mga server**: may limitasyon ang paggamit matag adlaw ug matag bulan, tungod kay ang matag call may tinuod nga gasto. *Sa petsa nga gisulat kini: 1,000 matag adlaw ug 9,000 matag bulan.*
 
+**Ang mga credit sa subscription binulan ug dili nagatigum.** Ang mga credit sa usa ka bulan balido hangtod sa katapusan sa maong bulan: ang wala magamit **dili ibalhin** sa sunod nga bulan, diin magsugod sa zero ang counter. Kung ang subscription dili ma-renew, ang Artikulo 7 ang magamit.
+
+**Audio nga komunikasyon.** Ang **Lokal nga kit** nga mode libre: ang paghubad mahitabo sa inyong telepono (sa libre nga level, usahay may ad nga mogawas). Ang **AI Pro** nga mode alang lamang sa mga subscriber: ang matag paghubad mogamit og **piho** nga gidaghanon sa mga yunit sa quota, sumala sa target nga pinulongan — *sa petsa nga gisulat kini, 1 ka yunit, ug 3 alang sa pinulongan nga gimarkahan og PRO*. Ang gasto gipakita sa aplikasyon sa dili pa gamiton ug **awtomatikong gikuha** human sa matag malampuson nga paghubad; ang paghubad nga napakyas dili kuhaan. Kung walay igong salin, ang AI Pro nga paghubad dili himoon.
+
 **Komon sa tanan nga level:**
 
 - Ang usa ka **pag-analisar sa screen** (hubad o gisugyot nga tubag) mas mahal kaysa sa yano nga pagsulat pag-usab ug naggasto og **pila ka unit sa quota** — sa pagkakaron 5.
@@ -103,6 +110,8 @@ Ang paggamit sa serbisyo may limitasyon, aron makontrol ang gasto sa pagproseso.
 
 **Katapusan sa subscription.** Sa pag-abot sa katapusan, mobalik ang inyong account sa libre nga level. Dili kamo mawad-an sa inyong account, sa inyong mga persona, ni sa inyong mga setting.
 
+**Kung ang inyong subscription dili ma-renew, ang inyong nahabilin nga mga credit adunay 7 ka adlaw.** Ang salin sa credit sa inyong katapusang bulan sa subscription magamit gihapon sulod sa **7 ka adlaw** gikan sa katapusan sa subscription; human niining panahona, kini **hingpit nga mawagtang**. Ang aplikasyon magpahibalo kaninyo pinaagi sa mensahe sa pagsugod niining panahona, uban ang salin ug ang katapusang petsa. Kini nga panahon dili magamit kung adunay refund. Ang mga credit nga gipalit sa shop (Artikulo 8) **dili apektado**: nagpabilin sila nga naangkon.
+
 ---
 
 ## Artikulo 8 — Mga pack ug per-unit nga pagpalit
@@ -111,7 +120,7 @@ Ang pipila ka sulod (mga pack sa persona, dugang nga credit sa quota) gibaligya 
 
 *Rate sa petsa nga gisulat kini: 2.99 € matag pack. Ang presyo nga mag-bind kaninyo mao kadtong gipakita sa higayon sa pagpalit.*
 
-Ang usa ka na-palit nga pack **hingpit nga naangkon** ug gisumpay sa inyong account. Makita ninyo kini pag-usab kung mag-login kamo sa laing device, ug ang function nga «Ibalik ang mga palit» sa aplikasyon nagatugot kaninyo sa pagkuha niini pag-usab kung kinahanglanon.
+Ang usa ka na-palit nga pack **hingpit nga naangkon** ug gisumpay sa inyong account — dili sama sa binulan nga mga credit sa subscription (Artikulo 6 ug 7), kini dili mag-expire. Makita ninyo kini pag-usab kung mag-login kamo sa laing device, ug ang function nga «Ibalik ang mga palit» sa aplikasyon nagatugot kaninyo sa pagkuha niini pag-usab kung kinahanglanon.
 
 Ang mga credit sa quota nga gipalit gigamit lamang **kung nahurot na ang inyong mga quota alang niining period**, aron dili kamo mobayad og makaduha alang sa samang paggamit.
 

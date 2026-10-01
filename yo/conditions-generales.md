@@ -1,6 +1,8 @@
 # Àwọn ìlànà gbogbogbò ti lílò àti títà — Plume
 
-**Ìmúdójú ìkẹyìn: ọjọ́ 31 oṣù keje ọdún 2026** — Ẹ̀dà 1.0
+**Ìmúdójú ìkẹyìn: ọjọ́ 1 oṣù kẹwàá ọdún 2026** — Ẹ̀dà 1.1
+
+> *Ohun tí ó yípadà nínú ẹ̀dà 1.1:* a ṣàpèjúwe **Ìbánisọ̀rọ̀ ohùn**, atúmọ̀ ohùn Plume, àti ipò **AI Pro** rẹ̀ (Abala 2 àti 6). A kọ òfin méjì nípa ẹyọ ìwọ̀n lílò ìforúkọsílẹ̀ sílẹ̀ kedere: wọ́n jẹ́ **oṣooṣù, wọn kì í kó jọ** láti oṣù kan sí òmíràn (Abala 6), tí ìforúkọsílẹ̀ bá sì **kò tún ṣe**, ìyókù oṣù tó kẹ́yìn yóò wà ní lílò fún **ọjọ́ 7** kí a tó pa á rẹ́ (Abala 7). Àwọn ẹyọ ìwọ̀n lílò tí a rà ní ibi ìtajà, ní tiwọn, ń jẹ́ **tí a rí gbà pátápátá** (Abala 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume jẹ́ irinṣẹ́ ìrànlọ́wọ́ ìkọ̀wé tí ó ń ṣiṣẹ́ 
 - **tún ọ̀rọ̀** tí ẹ̀ ń kọ ṣe, tààrà nínú ohun èlò tí ẹ̀ ń kọ ọ́ sí, nípa yíyan àkọ́nilétí ("persona");
 - **túmọ̀ tàbí kó** ọ̀rọ̀ tí ó farahàn lórí ìbojú **jọ**, kí ẹ sì rí àbá ìdáhùn sí ìránṣẹ́ tí a gbà;
 - lo **Kíka Ìrànlọ́wọ́**, tí ń fi ìtumọ̀ sí orí ọ̀rọ̀ tí ó farahàn lórí ìbojú;
-- **sọ̀rọ̀** dípò kíkọ.
+- **sọ̀rọ̀** dípò kíkọ;
+- lo **Ìbánisọ̀rọ̀ ohùn**, atúmọ̀ ohùn tí ó ń túmọ̀ ìjíròrò láàrin ènìyàn méjì sókè, tàbí ní kíkọ (ipò Kíkọ).
 
 Gẹ́gẹ́bí ẹ̀rọ yín àti yíyàn yín, iṣẹ́ náà ń wáyé **lórí fóònù yín** tàbí **lórí àwọn olùpín ọ̀nà jíjìn**. Bí dátà yín ṣe ń kọjá ní pàtó ni a ṣàpèjúwe rẹ̀ nínú ìlànà àṣírí wa: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ A gbé ààlà kalẹ̀ fún lílò iṣẹ́ náà, láti darí iye owó ìṣi
 - Nígbà tí iṣẹ́ náà bá ń wáyé **lórí ẹ̀rọ yín** (àwọn ẹ̀rọ tí ó bá Ìmọ̀ Àdámọ̀ ti Àdúgbò mu): **lílò tí kò ní ààlà**, pẹ̀lú kìkì ààlà ìmọ̀-ẹ̀rọ ti fóònù yín (bátìrì, gbígbóná).
 - Nígbà tí iṣẹ́ náà bá ń wáyé **lórí àwọn olùpín wa**: a gbé ààlà kalẹ̀ fún lílò ní ọjọ́ àti ní oṣù, nítorí ìpè kọ̀ọ̀kan ní iye owó tòótọ́. *Ní ọjọ́ tí a kọ èyí: ẹgbẹ̀rún kan ní ọjọ́ kan àti ẹgbàán mẹ́sàn-án ní oṣù kan.*
 
+**Àwọn ẹyọ ìwọ̀n lílò ìforúkọsílẹ̀ jẹ́ oṣooṣù, wọn kì í kó jọ.** Àwọn ẹyọ oṣù kan wà ní ìlò títí di òpin oṣù náà: èyí tí a kò lò **kì í tẹ̀ síwájú** sí oṣù tó tẹ̀lé e, níbi tí kàǹtà ti tún bẹ̀rẹ̀ láti òdo. Tí ìforúkọsílẹ̀ kò bá tún ṣe, Abala 7 ló wúlò.
+
+**Ìbánisọ̀rọ̀ ohùn.** Ipò **Ohun-èlò àdúgbò** jẹ́ ọ̀fẹ́: ìtumọ̀ ń wáyé lórí fóònù yín (ní ìpele ọ̀fẹ́, ìpolówó ọjà lè fara hàn nígbà mìíràn). Ipò **AI Pro** wà fún àwọn olùforúkọsílẹ̀ nìkan: ìtumọ̀ kọ̀ọ̀kan ń lo iye ẹyọ ìwọ̀n lílò **kan ṣoṣo tí a ti yàn**, gẹ́gẹ́ bí èdè tí a ń túmọ̀ sí — *ní ọjọ́ tí a kọ èyí, ẹyọ 1, àti 3 fún èdè tí a fi àmì PRO sí*. A fi iye owó náà hàn nínú ohun èlò náà kí ẹ tó lò ó, a sì **ń yọ ọ́ fúnra rẹ̀** lẹ́yìn ìtumọ̀ kọ̀ọ̀kan tó yege; a kì í yọ ìtumọ̀ tó kùnà. Láìsí ìyókù tó tó, a kò ní ṣe ìtumọ̀ AI Pro.
+
 **Àwọn ojú tí ó wọ́pọ̀ sí gbogbo àwọn ìpele:**
 
 - **Ìtúpalẹ̀ ìbojú** (ìtumọ̀ tàbí àbá ìdáhùn) ní iye owó jù àtúnṣe lásán lọ, ó sì ń lo **ọ̀pọ̀lọpọ̀ ẹyọ ìwọ̀n lílò** — báyìí ni ó jẹ́ márùn-ún.
@@ -103,6 +110,8 @@ A gbé ààlà kalẹ̀ fún lílò iṣẹ́ náà, láti darí iye owó ìṣi
 
 **Òpin ìforúkọsílẹ̀.** Nígbà tí àkókò náà bá pé, àkántì yín yóò padà sí ìpele ọ̀fẹ́. Ẹ kò ní pàdánù bóyá àkántì yín, orúkọ ara ẹni yín, tàbí ètò yín.
 
+**Tí ìforúkọsílẹ̀ yín kò bá tún ṣe, ọjọ́ 7 ni àwọn ẹyọ tó kù yóò fi wà.** Ìyókù ẹyọ oṣù ìforúkọsílẹ̀ yín tó kẹ́yìn yóò wà ní lílò fún **ọjọ́ 7** láti ìgbà tí ìforúkọsílẹ̀ parí; lẹ́yìn àkókò yìí, a ó **pa á rẹ́ pátápátá**. Ohun èlò náà yóò fi ìránṣẹ́ kìlọ̀ fún yín láti ìbẹ̀rẹ̀ àkókò yìí, pẹ̀lú ìyókù àti ọjọ́ ìkẹyìn. Àkókò yìí kò wúlò tí a bá dá owó yín padà. Àwọn ẹyọ tí a rà ní ibi ìtajà (Abala 8) **kò kàn**: wọ́n ṣì jẹ́ tiyín.
+
 ---
 
 ## Abala 8 — Àwọn ìdìpọ̀ àti ìríra ẹyọ kan ṣoṣo
@@ -111,7 +120,7 @@ A gbé ààlà kalẹ̀ fún lílò iṣẹ́ náà, láti darí iye owó ìṣi
 
 *Iye owó ní ọjọ́ tí a kọ èyí: 2,99 € ní ìdìpọ̀ kan. Iye owó tí ó dè yín ni èyí tí a fi hàn ní àkókò ìríra.*
 
-Ìdìpọ̀ tí a rà **jẹ́ tí a rí gbà pátápátá**, ó sì ní í ṣe pẹ̀lú àkántì yín. Ẹ ó rí i lẹ́ẹ̀kan sí i nígbà tí ẹ bá tún wọlé lórí ẹ̀rọ mìíràn, ẹ̀yà "Dá àwọn ìríra mi padà" nínú ohun èlò náà yóò sì jẹ́ kí ẹ tún gbà á bí ó bá yẹ.
+Ìdìpọ̀ tí a rà **jẹ́ tí a rí gbà pátápátá**, ó sì ní í ṣe pẹ̀lú àkántì yín — láìdàbí àwọn ẹyọ oṣooṣù ti ìforúkọsílẹ̀ (Abala 6 àti 7), kì í parí. Ẹ ó rí i lẹ́ẹ̀kan sí i nígbà tí ẹ bá tún wọlé lórí ẹ̀rọ mìíràn, ẹ̀yà "Dá àwọn ìríra mi padà" nínú ohun èlò náà yóò sì jẹ́ kí ẹ tún gbà á bí ó bá yẹ.
 
 Ẹyọ ìwọ̀n lílò tí a rà ni a ó lò **kìkì lẹ́yìn tí ìwọ̀n lílò sáà náà bá ti tán**, kí ẹ má ba san owó ẹ̀ẹ̀mejì fún lílò kan náà.
 

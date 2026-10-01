@@ -1,6 +1,8 @@
 # Plume Xidmət Şərtləri — İstifadə və Satış Qaydaları
 
-**Son yenilənmə: 31 iyul 2026-cı il** — Versiya 1.0
+**Son yenilənmə: 1 oktyabr 2026** — Versiya 1.1
+
+> *1.1 versiyasında nə dəyişib:* Plume-un səsli tərcüməçisi **Səsli ünsiyyət**i və onun **AI Pro** rejimini təsvir edirik (Maddə 2 və 6). Abunəlik kreditləri ilə bağlı iki qaydanı açıq yazırıq: onlar **aylıqdır və aydan aya yığılmır** (Maddə 6), abunəlik **yenilənməzsə**, son ayın qalığı silinməzdən əvvəl **7 gün** istifadə oluna bilər (Maddə 7). Mağazadan alınmış kreditlər isə **daimi olaraq əldə edilmiş** qalır (Maddə 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume Android üzərində işləyən yazı köməkçisi vasitəsidir. O sizə im
 - yazmaqda olduğunuz mətni, onu yazdığınız tətbiqin içində birbaşa, üslub («persona») seçərək **yenidən formalaşdırmaq**;
 - ekranda göstərilən mətni **tərcümə etmək və ya xülasə etmək**, və qəbul edilmiş mesaja cavab təklifi almaq;
 - ekranda göstərilən mətnin üzərinə tərcümə yerləşdirən **Dəstəklənən Oxu** funksiyasından istifadə etmək;
-- mətni yazmaq əvəzinə **diktə etmək**.
+- mətni yazmaq əvəzinə **diktə etmək**;
+- **Səsli ünsiyyət**dən istifadə etmək: iki nəfər arasındakı söhbəti ucadan və ya yazılı şəkildə (Yazı rejimi) tərcümə edən səsli tərcüməçi.
 
 Cihazınızdan və seçiminizdən asılı olaraq, emal **telefonunuzda** və ya **uzaq serverlərdə** həyata keçirilir. Məlumatlarınızın dəqiq hərəkəti məxfilik siyasətimizdə təsvir edilib: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Emal xərclərinə nəzarət etmək üçün xidmətin istifadəsi məhdudlaşdı
 - Emal **cihazınızda** həyata keçirildikdə (yerli süni intellektlə uyğun cihazlar): telefonunuzun texniki məhdudiyyətləri (batareya, qızma) istisna olmaqla, **limitsiz istifadə**.
 - Emal **serverlərimizdə** həyata keçirildikdə: hər çağırışın real dəyəri olduğu üçün istifadə gündə və ayda məhdudlaşdırılıb. *Yazı tarixinə: gündə 1 000, ayda 9 000.*
 
+**Abunəlik kreditləri aylıqdır və yığılmır.** Bir ayın kreditləri həmin ayın sonuna qədər etibarlıdır: istifadə olunmayan hissə növbəti aya **keçirilmir**, sayğac sıfırdan başlayır. Abunəlik yenilənməzsə, Maddə 7 tətbiq olunur.
+
+**Səsli ünsiyyət.** **Lokal dəst** rejimi pulsuzdur: tərcümə telefonunuzda həyata keçirilir (pulsuz səviyyədə arabir reklam göstərilə bilər). **AI Pro** rejimi abunəçilər üçündür: hər tərcümə hədəf dilə görə **sabit** sayda kvota vahidi sərf edir — *yazı tarixinə: 1 vahid, PRO işarəli dil üçün isə 3*. Qiymət istifadədən əvvəl tətbiqdə göstərilir və hər uğurlu tərcümədən sonra **avtomatik tutulur**; uğursuz tərcümə üçün tutulma aparılmır. Kifayət qədər qalıq olmadıqda AI Pro tərcüməsi icra olunmur.
+
 **Bütün səviyyələr üçün ortaq nöqtələr:**
 
 - **Ekran təhlili** (tərcümə və ya cavab təklifi) sadə yenidən formalaşdırmadan daha bahalıdır və **bir neçə kvota vahidi** istehlak edir — hazırda 5.
@@ -103,6 +110,8 @@ Emal xərclərinə nəzarət etmək üçün xidmətin istifadəsi məhdudlaşdı
 
 **Abunəliyin sonu.** Müddət bitdikdə, hesabınız pulsuz səviyyəyə qayıdır. Nə hesabınızı, nə personalarınızı, nə də tənzimləmələrinizi itirmirsiniz.
 
+**Abunəliyiniz yenilənməzsə, qalan kreditlərinizin 7 günü var.** Son abunəlik ayınızın kredit qalığı abunəliyin bitməsindən etibarən **7 gün** istifadə oluna bilər; bu müddətdən sonra **birdəfəlik silinir**. Tətbiq bu müddətin əvvəlində sizi qalıq və son tarixlə birlikdə mesajla xəbərdar edir. Bu müddət geri ödəmə halında tətbiq olunmur. Mağazadan alınmış kreditlər (Maddə 8) **bu qaydaya aid deyil**: onlar əldə edilmiş qalır.
+
 ---
 
 ## Maddə 8 — Paketlər və vahid alışlar
@@ -111,7 +120,7 @@ Bəzi məzmun (persona paketləri, əlavə kvota kreditləri) abunəliksiz, vahi
 
 *Yazı tarixinə tarif: paket üçün 2,99 €. Sizi bağlayan qiymət alış zamanı göstərilən qiymətdir.*
 
-Alınmış paket **daimi olaraq əldə edilir** və hesabınıza bağlanır. Başqa cihazda yenidən daxil olduqda onu tapırsınız, və tətbiqin «Alışlarımı bərpa et» funksiyası lazım olduqda onu bərpa etməyə imkan verir.
+Alınmış paket **daimi olaraq əldə edilir** və hesabınıza bağlanır — abunəliyin aylıq kreditlərindən (Maddə 6 və 7) fərqli olaraq, onun müddəti bitmir. Başqa cihazda yenidən daxil olduqda onu tapırsınız, və tətbiqin «Alışlarımı bərpa et» funksiyası lazım olduqda onu bərpa etməyə imkan verir.
 
 Alınmış kvota kreditləri **yalnız dövrün kvotaları bitdikdən sonra** istifadə olunur, beləliklə eyni istifadəyə heç vaxt iki dəfə ödəməzsiniz.
 

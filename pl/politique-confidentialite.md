@@ -1,6 +1,8 @@
 # Polityka prywatności aplikacji Plume
 
-**Ostatnia aktualizacja: 1 października 2026 r.** — Wersja 2.1
+**Ostatnia aktualizacja: 1 października 2026 r.** — Wersja 2.2
+
+> *Co się zmieniło w wersji 2.2:* opisujemy **Komunikację głosową**, tłumacza głosowego Plume, której nie było w wersji 2.1: co zostaje na Twoim telefonie, co jest wysyłane w trybie AI Pro oraz odczyt na głos przez silnik syntezy mowy telefonu (zob. §4.1 i §9).
 
 > *Co się zmieniło w wersji 2.1:* opisujemy **tryb Kamuflaż**, o którym wersja 2.0 nie wspominała, i prostujemy twierdzenie, które przestało być dokładne: zarówno w przypadku języków własnych, jak i Kamuflażu, **słowa z Twoich wiadomości, których wciąż brakuje w Twoim słowniku, są przechowywane pojedynczo** — nigdy zdanie — aby można było zaproponować Ci ich dodanie. Szczegóły znajdziesz w części „W jedną minutę”, w §2.2 i w §3. Prostujemy też drugi błąd: **Twoje własne persony i ich awatary są zapisywane na naszych serwerach** — nie pozostają wyłącznie w Twoim telefonie (zob. §3).
 
@@ -134,6 +136,16 @@ Przycisk mikrofonu pozwala Ci dyktować zamiast pisać. O uprawnienie dostępu d
 
 Jeśli odmówisz uprawnienia do mikrofonu, wprowadzanie tekstu z klawiatury pozostaje oczywiście dostępne.
 
+### 4.1 Komunikacja głosowa (tłumacz głosowy)
+
+Komunikacja głosowa tłumaczy na głos rozmowę dwóch osób. **Mikrofon otwiera się tylko wtedy, gdy dotkniesz kuli**, i wyłącza się na końcu każdego zdania.
+
+- **Mowa** jest zamieniana na tekst przez ten sam silnik rozpoznawania mowy telefonu co dyktowanie, z tymi samymi zastrzeżeniami co powyżej. **Plume otrzymuje tylko tekst, nigdy dźwięk.** Jeśli brakuje modułu offline danego języka, Plume prosi telefon o jego pobranie; w międzyczasie silnik telefonu może zamieniać mowę na tekst online.
+- **W trybie Zestaw lokalny** (bezpłatnym) tłumaczenie odbywa się **na Twoim telefonie**.
+- **W trybie AI Pro** (subskrybenci) tekst zamieniony z mowy jest wysyłany na nasze serwery, a następnie do naszego dostawcy przetwarzania AI, który poprawia błędy rozpoznania i go tłumaczy — tą samą drogą co w §2.2. **Nie przechowujemy ani tekstu, ani jego tłumaczenia.**
+- **Odczyt na głos** wykonuje silnik syntezy mowy telefonu (zwykle ten od Google). W obu trybach Plume prosi go o bardziej naturalne **głosy online**: przetłumaczony tekst jest wtedy przekazywany jego wydawcy w celu wypowiedzenia. Bez połączenia z siecią przejmuje to głos zainstalowany w telefonie.
+- **Historia rozmowy zostaje na Twoim telefonie** i znika, gdy opuścisz ekran. Na urządzeniu zapamiętywane są tylko wybrana para języków, wybrany silnik i liczba rozmów (na potrzeby reklam w poziomie bezpłatnym).
+
 ---
 
 ## 5. Reklama
@@ -191,7 +203,7 @@ Ponieważ aplikacja pozwala przeformułować dowolny tekst i wyświetla reklamy,
 | **Nasz dostawca przetwarzania przez AI** | Kierowanie żądań i przetwarzanie tekstu przez model sztucznej inteligencji podmiotu trzeciego | **Poza Unią Europejską** |
 | **Google Play / Google Billing** | Płatność, subskrypcje | Google Ireland / Stany Zjednoczone |
 | **Google AdMob** | Reklama z nagrodą | Google Ireland / Stany Zjednoczone |
-| **Google (usługi systemowe telefonu)** | Rozpoznawanie mowy, moduły tłumaczenia offline | Zależnie od Twojego urządzenia |
+| **Google (usługi systemowe telefonu)** | Rozpoznawanie mowy, synteza mowy (odczyt na głos w Komunikacji głosowej), moduły tłumaczenia offline | Zależnie od Twojego urządzenia |
 | **Nasz dostawca raportowania awarii** | Raportowanie awarii technicznych — wyłącznie błędy programu, filtrowane przed wysłaniem: nigdy Twój tekst | Stany Zjednoczone |
 
 **Nie sprzedajemy żadnych danych i nie przekazujemy żadnych danych brokerom danych.**

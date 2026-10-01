@@ -1,6 +1,8 @@
 # Allmänna villkor för användning och försäljning — Plume
 
-**Senast uppdaterad: 31 juli 2026** — Version 1.0
+**Senast uppdaterad: 1 oktober 2026** — Version 1.1
+
+> *Vad som har ändrats i version 1.1:* vi beskriver **Ljudkommunikation**, Plumes rösttolk, och dess läge **AI Pro** (artiklarna 2 och 6). Vi skriver ut två regler om prenumerationens krediter svart på vitt: de är **månadsvisa och sparas inte** från en månad till nästa (artikel 6), och om prenumerationen **inte förnyas** kan saldot för den sista månaden användas i **7 dagar** innan det raderas (artikel 7). Krediter som köpts i butiken är däremot **förvärvade för gott** (artikel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume är ett hjälpmedel för att skriva och fungerar på Android. Den gör det
 - att **formulera om en text** som du håller på att skriva, direkt i den app där du skriver den, genom att välja en stil (”persona”);
 - att **översätta eller sammanfatta text som visas på skärmen**, och att få ett förslag på svar på ett mottaget meddelande;
 - att använda **Assisterad läsning**, som lägger en översättning ovanpå den text som visas på skärmen;
-- att **diktera** en text i stället för att skriva den.
+- att **diktera** en text i stället för att skriva den;
+- att använda **Ljudkommunikation**, en rösttolk som översätter ett samtal mellan två personer högt, eller skriftligt (läget Skriva).
 
 Beroende på din enhet och ditt val sker behandlingen **i din telefon** eller **på fjärrservrar**. Exakt hur dina uppgifter cirkulerar beskrivs i vår integritetspolicy: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Användningen av tjänsten har ett tak, för att behandlingskostnaden ska kunna 
 - När behandlingen sker **i din enhet** (enheter som är kompatibla med den lokala AI:n): **obegränsad användning**, med enda förbehåll för din telefons tekniska gränser (batteri, värmeutveckling).
 - När behandlingen sker **på våra servrar**: användningen har ett tak per dag och per månad, eftersom varje anrop har en verklig kostnad. *Vid tidpunkten för den här texten: 1 000 per dag och 9 000 per månad.*
 
+**Prenumerationens krediter är månadsvisa och sparas inte.** Krediterna för en månad gäller till slutet av den månaden: det som inte har använts **förs inte över** till nästa månad, där räknaren börjar om från noll. Om prenumerationen inte förnyas gäller artikel 7.
+
+**Ljudkommunikation.** Läget **Lokalt kit** är gratis: översättningen sker i din telefon (på gratisnivån kan en annons visas då och då). Läget **AI Pro** är förbehållet prenumeranter: varje översättning förbrukar ett **fast** antal kvotenheter beroende på målspråket — *vid tidpunkten för den här texten 1 enhet, och 3 för ett språk markerat PRO*. Kostnaden visas i appen före användning och **dras automatiskt** efter varje lyckad översättning; en översättning som misslyckas debiteras inte. Utan tillräckligt saldo utförs ingen AI Pro-översättning.
+
 **Gemensamt för alla nivåer:**
 
 - En **skärmanalys** (översättning eller svarsförslag) kostar mer än en enkel omformulering och förbrukar **flera kvotenheter** — för närvarande 5.
@@ -102,6 +109,8 @@ Användningen av tjänsten har ett tak, för att behandlingskostnaden ska kunna 
 
 **När prenumerationen upphör.** Vid förfallodagen återgår ditt konto till gratisnivån. Du förlorar varken ditt konto, dina personas eller dina inställningar.
 
+**Om din prenumeration inte förnyas gäller dina återstående krediter i 7 dagar.** Kreditsaldot för din sista prenumerationsmånad kan användas i **7 dagar** från prenumerationens slut; efter den tiden **raderas det för gott**. Appen varnar dig med ett meddelande när perioden börjar, med saldot och sista dag. Den här tiden gäller inte vid återbetalning. Krediter som köpts i butiken (artikel 8) **berörs inte**: de förblir förvärvade.
+
 ---
 
 ## Artikel 8 — Paket och styckeköp
@@ -110,7 +119,7 @@ Vissa innehåll (paket med personas, extra kvotkrediter) säljs styckvis, utan p
 
 *Pris vid tidpunkten för den här texten: 2,99 € per paket. Det pris som binder dig är det som visas vid köptillfället.*
 
-Ett köpt paket är **förvärvat för gott** och knutet till ditt konto. Du hittar det igen när du loggar in på en annan enhet, och appens funktion ”Återställ mina köp” gör att du kan hämta tillbaka det vid behov.
+Ett köpt paket är **förvärvat för gott** och knutet till ditt konto — till skillnad från prenumerationens månadskrediter (artiklarna 6 och 7) löper det inte ut. Du hittar det igen när du loggar in på en annan enhet, och appens funktion ”Återställ mina köp” gör att du kan hämta tillbaka det vid behov.
 
 De kvotkrediter som köps används **först när dina kvoter för perioden är förbrukade**, så att du aldrig betalar två gånger för samma användning.
 

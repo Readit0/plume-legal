@@ -1,6 +1,8 @@
 # Algemene gebruiks- en verkoopvoorwaarden — Plume
 
-**Laatst bijgewerkt: 31 juli 2026** — Versie 1.0
+**Laatst bijgewerkt: 1 oktober 2026** — Versie 1.1
+
+> *Wat er in versie 1.1 is veranderd:* wij beschrijven **Audiocommunicatie**, de stemtolk van Plume, en de bijbehorende modus **AI Pro** (Artikelen 2 en 6). Wij leggen twee regels over de abonnementstegoeden zwart op wit vast: ze zijn **maandelijks en worden niet opgespaard** van de ene maand naar de volgende (Artikel 6), en als het abonnement **niet wordt verlengd**, blijft het saldo van de laatste maand nog **7 dagen** bruikbaar voordat het wordt gewist (Artikel 7). Tegoeden die in de winkel zijn gekocht, blijven daarentegen **definitief verworven** (Artikel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume is een hulpmiddel bij het schrijven dat op Android werkt. Het stelt u in s
 - een tekst die u aan het schrijven bent te **herschrijven**, rechtstreeks in de app waarin u hem schrijft, door een stijl (een "persona") te kiezen;
 - op het scherm weergegeven tekst **te vertalen of samen te vatten**, en een antwoordvoorstel te krijgen op een ontvangen bericht;
 - de **Leeshulp** te gebruiken, die een vertaling over de op het scherm weergegeven tekst legt;
-- een tekst te **dicteren** in plaats van hem te typen.
+- een tekst te **dicteren** in plaats van hem te typen;
+- **Audiocommunicatie** te gebruiken, een stemtolk die een gesprek tussen twee personen hardop vertaalt, of schriftelijk (modus Schrijven).
 
 Afhankelijk van uw apparaat en uw keuze vindt de verwerking plaats **op uw telefoon** of **op servers op afstand**. De precieze route van uw gegevens wordt beschreven in ons privacybeleid: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Het gebruik van de dienst is begrensd, om de verwerkingskosten te beheersen.
 - Wanneer de verwerking **op uw apparaat** plaatsvindt (apparaten die geschikt zijn voor de Lokale AI): **onbeperkt gebruik**, uitsluitend onder voorbehoud van de technische grenzen van uw telefoon (batterij, warmte).
 - Wanneer de verwerking **op onze servers** plaatsvindt: het gebruik is begrensd per dag en per maand, omdat elke oproep een reële kostprijs heeft. *Op het moment van schrijven: 1.000 per dag en 9.000 per maand.*
 
+**De tegoeden van het abonnement zijn maandelijks en worden niet opgespaard.** De tegoeden van een maand zijn geldig tot het einde van die maand: wat niet is gebruikt, **wordt niet overgedragen** naar de volgende maand, waarin de teller weer op nul begint. Wordt het abonnement niet verlengd, dan is Artikel 7 van toepassing.
+
+**Audiocommunicatie.** De modus **Lokale kit** is gratis: de vertaling gebeurt op uw telefoon (in de gratis laag kan af en toe een advertentie worden getoond). De modus **AI Pro** is voorbehouden aan abonnees: elke vertaling verbruikt een **vast** aantal quota-eenheden, afhankelijk van de doeltaal — *op de datum van opstelling 1 eenheid, en 3 voor een taal die als PRO is aangemerkt*. De kosten worden vóór het gebruik in de app getoond en na elke geslaagde vertaling **automatisch afgeschreven**; een mislukte vertaling wordt niet afgeschreven. Zonder voldoende saldo wordt de AI Pro-vertaling niet uitgevoerd.
+
 **Wat voor alle niveaus geldt:**
 
 - Een **schermanalyse** (vertaling of antwoordvoorstel) is duurder dan een eenvoudige herschrijving en verbruikt **meerdere quota-eenheden** — momenteel 5.
@@ -102,6 +109,8 @@ Het gebruik van de dienst is begrensd, om de verwerkingskosten te beheersen.
 
 **Einde van het abonnement.** Bij het verstrijken keert uw account terug naar het gratis niveau. U verliest noch uw account, noch uw persona's, noch uw instellingen.
 
+**Als uw abonnement niet wordt verlengd, hebben uw resterende tegoeden nog 7 dagen.** Het tegoedsaldo van uw laatste abonnementsmaand blijft **7 dagen** bruikbaar vanaf het einde van het abonnement; na deze termijn wordt het **definitief gewist**. De app waarschuwt u met een bericht vanaf het begin van deze periode, met het saldo en de uiterste datum. Deze termijn geldt niet bij een terugbetaling. Tegoeden die in de winkel zijn gekocht (Artikel 8) **vallen hier niet onder**: die blijven verworven.
+
 ---
 
 ## Artikel 8 — Pakketten en losse aankopen
@@ -110,7 +119,7 @@ Bepaalde inhoud (persona-pakketten, extra quotategoeden) wordt los verkocht, zon
 
 *Tarief op het moment van schrijven: € 2,99 per pakket. De prijs die u bindt, is die welke op het moment van aankoop wordt weergegeven.*
 
-Een gekocht pakket is **definitief verworven** en aan uw account gekoppeld. U vindt het terug door in te loggen op een ander apparaat, en met de functie "Aankopen herstellen" van de app kunt u het zo nodig terughalen.
+Een gekocht pakket is **definitief verworven** en aan uw account gekoppeld — in tegenstelling tot de maandelijkse tegoeden van het abonnement (Artikelen 6 en 7) verloopt het niet. U vindt het terug door in te loggen op een ander apparaat, en met de functie "Aankopen herstellen" van de app kunt u het zo nodig terughalen.
 
 Gekochte quotategoeden worden **pas gebruikt zodra uw quota van de periode op zijn**, zodat u nooit twee keer voor hetzelfde gebruik betaalt.
 

@@ -1,6 +1,8 @@
 # Programėlės Plume privatumo politika
 
-**Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 2.1
+**Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 2.2
+
+> *Kas pasikeitė versijoje 2.2:* aprašome **Garso komunikaciją**, Plume balso vertėją, kurios 2.1 versijoje nebuvo: kas lieka jūsų telefone, kas išsiunčiama **DI Pro** režimu ir skaitymas balsu telefono balso sintezės varikliu (žr. §4.1 ir §9).
 
 > *Kas pasikeitė versijoje 2.1:* aprašome **Maskuotės režimą**, kurio versija 2.0 neminėjo, ir taisome teiginį, kuris tapo netikslus: tiek individualioms kalboms, tiek Maskuotei **jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta, saugomi po vieną** — niekada ne sakinys — kad galėtume pasiūlyti juos įtraukti. Išsamiau — skyriuje „Per vieną minutę“, 2.2 ir 3 skyriuose. Taip pat taisome antrą klaidą: **jūsų individualizuotos personos ir jų avatarai saugomi mūsų serveriuose** — jie lieka ne tik jūsų telefone (žr. 3 skyrių).
 
@@ -134,6 +136,16 @@ Mikrofono mygtukas leidžia jums diktuoti vietoj rašymo. Leidimo naudotis mikro
 
 Jei atsisakote suteikti leidimą mikrofonui, įvedimas klaviatūra, savaime suprantama, lieka prieinamas.
 
+### 4.1 Garso komunikacija (balso vertėjas)
+
+Garso komunikacija balsu verčia dviejų žmonių pokalbį. **Mikrofonas atsidaro tik tada, kai paliečiate rutulį**, ir išsijungia kiekvieno sakinio pabaigoje.
+
+- **Kalba** transkribuojama tuo pačiu telefono kalbos atpažinimo varikliu kaip ir diktavimas, su tomis pačiomis pirmiau minėtomis išlygomis. **Plume gauna tik tekstą, niekada garso.** Jei trūksta kalbos modulio neprisijungus, Plume paprašo telefono jį atsisiųsti; kol kas telefono variklis gali transkribuoti internetu.
+- **Vietinio rinkinio režimu** (nemokamas) vertimas atliekamas **jūsų telefone**.
+- **DI Pro režimu** (prenumeratoriams) transkribuotas tekstas siunčiamas į mūsų serverius, o paskui mūsų dirbtinio intelekto apdorojimo paslaugų teikėjui, kuris ištaiso klausymo klaidas ir jį išverčia — tuo pačiu keliu kaip ir §2.2. **Nei teksto, nei jo vertimo nesaugome.**
+- **Skaitymą balsu** atlieka telefono balso sintezės variklis (paprastai Google). Abiem režimais „Plume“ paprašo jo natūralesnių **balsų internetu**: tuomet išverstas tekstas perduodamas jo leidėjui, kad būtų ištartas. Be ryšio perima telefone įdiegtas balsas.
+- **Pokalbio istorija lieka jūsų telefone** ir išnyksta, kai išeinate iš ekrano. Įrenginyje įsimenama tik pasirinkta kalbų pora, pasirinktas variklis ir pokalbių skaičius (nemokamo lygio reklamai).
+
 ---
 
 ## 5. Reklama
@@ -191,7 +203,7 @@ Kadangi programėlė leidžia performuluoti laisvą tekstą ir rodo reklamą, ji
 | **Mūsų DI apdorojimo paslaugų teikėjas** | Užklausų nukreipimas ir teksto apdorojimas trečiosios šalies dirbtinio intelekto modeliu | **Už Europos Sąjungos ribų** |
 | **Google Play / Google Billing** | Mokėjimai, prenumeratos | Google Ireland / Jungtinės Amerikos Valstijos |
 | **Google AdMob** | Apdovanojamoji reklama | Google Ireland / Jungtinės Amerikos Valstijos |
-| **Google (telefono sistemos paslaugos)** | Kalbos atpažinimas, vertimo neprisijungus moduliai | Priklausomai nuo jūsų įrenginio |
+| **Google (telefono sistemos paslaugos)** | Kalbos atpažinimas, balso sintezė (Garso komunikacijos skaitymas balsu), vertimo neprisijungus moduliai | Priklausomai nuo jūsų įrenginio |
 | **Mūsų strigčių ataskaitų paslaugų teikėjas** | Techninių strigčių ataskaitos — tik programos klaidos, filtruojamos prieš siuntimą: niekada jūsų tekstas | Jungtinės Amerikos Valstijos |
 
 **Mes neparduodame jokių duomenų ir neperleidžiame jų duomenų brokeriams.**

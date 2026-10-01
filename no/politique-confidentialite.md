@@ -1,6 +1,8 @@
 # Personvernerklæring for Plume
 
-**Sist oppdatert: 1. oktober 2026** — Versjon 2.1
+**Sist oppdatert: 1. oktober 2026** — Versjon 2.2
+
+> *Hva som er endret i versjon 2.2:* vi beskriver **Lydkommunikasjon**, Plumes stemmetolk, som ikke fantes i versjon 2.1: hva som blir på telefonen din, hva som sendes i KI Pro-modus, og opplesingen med telefonens talesyntesemotor (se §4.1 og §9).
 
 > *Hva som er endret i versjon 2.1:* vi beskriver nå **Kamuflasje-modusen**, som versjon 2.0 ikke nevnte, og vi retter en påstand som er blitt unøyaktig: både for personlige språk og for Kamuflasje **beholdes ordene i meldingene dine som ennå mangler i ordforrådet ditt, ett og ett** — aldri setningen — slik at vi kan foreslå deg å legge dem til. Detaljene finner du under «På ett minutt», i §2.2 og i §3. Vi retter også en annen feil: **dine egne personaer og avatarene deres lagres på serverne våre** — de blir ikke bare på telefonen din (se §3).
 
@@ -134,6 +136,16 @@ En mikrofonknapp lar deg diktere i stedet for å skrive. Tillatelsen til mikrofo
 
 Hvis du avslår tillatelsen til mikrofonen, er det selvsagt fortsatt mulig å skrive på tastaturet.
 
+### 4.1 Lydkommunikasjon (stemmetolken)
+
+Lydkommunikasjon oversetter en samtale mellom to personer høyt. **Mikrofonen åpnes bare når du berører kulen**, og den slås av ved slutten av hver setning.
+
+- **Talen** skrives ut av den samme talegjenkjenningsmotoren på telefonen som ved diktering, med de samme forbeholdene som ovenfor. **Plume mottar bare teksten, aldri lyden.** Hvis frakoblingsmodulen for et språk mangler, ber Plume telefonen om å laste den ned; i mellomtiden kan telefonens motor skrive ut på nett.
+- **I modusen Lokalt sett** (gratis) skjer oversettelsen **på telefonen din**.
+- **I modusen KI Pro** (abonnenter) sendes den utskrevne teksten til serverne våre og deretter til vår leverandør av KI-behandling, som retter lyttefeil og oversetter den — via samme vei som i §2.2. **Vi lagrer verken teksten eller oversettelsen.**
+- **Opplesingen** gjøres av telefonens talesyntesemotor (vanligvis Googles). I begge modusene ber Plume den om sine mer naturlige **nettstemmer**: den oversatte teksten sendes da til utgiveren for å bli uttalt. Uten tilkobling tar en stemme installert på telefonen over.
+- **Samtalehistorikken blir på telefonen din** og forsvinner når du forlater skjermen. Bare det valgte språkparet, den valgte motoren og antall samtaler (for annonsene på gratisnivået) huskes på enheten.
+
 ---
 
 ## 5. Reklame
@@ -191,7 +203,7 @@ Siden appen gjør det mulig å omformulere fri tekst og viser reklame, er den ik
 | **KI-behandlingsleverandøren vår** | Ruting av forespørslene og behandling av teksten med en kunstig intelligens-modell fra en tredjepart | **Utenfor Den europeiske union** |
 | **Google Play / Google Billing** | Betaling, abonnementer | Google Ireland / USA |
 | **Google AdMob** | Belønnet reklame | Google Ireland / USA |
-| **Google (systemtjenestene på telefonen)** | Talegjenkjenning, oversettelsesmoduler uten nett | Avhengig av enheten din |
+| **Google (systemtjenestene på telefonen)** | Talegjenkjenning, talesyntese (opplesing for Lydkommunikasjon), oversettelsesmoduler uten nett | Avhengig av enheten din |
 | **Krasjrapporteringsleverandøren vår** | Teknisk krasjrapportering — kun programfeil, filtrert før sending: aldri teksten din | USA |
 
 **Vi selger ingen opplysninger og gir ingen opplysninger videre til datameglere.**

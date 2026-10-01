@@ -1,6 +1,8 @@
 # Plume-un məxfilik siyasəti
 
-**Son yenilənmə: 1 oktyabr 2026** — Versiya 2.1
+**Son yenilənmə: 1 oktyabr 2026** — Versiya 2.2
+
+> *2.2 versiyasında nə dəyişib:* 2.1 versiyasında olmayan Plume-un səsli tərcüməçisi **Səsli ünsiyyət**i təsvir edirik: telefonunuzda nə qalır, AI Pro rejimində nə göndərilir və telefonun səs sintezi mühərrikinin ucadan oxuması (bax §4.1 və §9).
 
 > *2.1 versiyasında nə dəyişib:* versiya 2.0-ın qeyd etmədiyi **Kamuflyaj rejimini** təsvir edirik və artıq dəqiq olmayan bir iddianı düzəldirik: həm şəxsi dillər, həm də Kamuflyaj üçün **mesajlarınızdakı hələ lüğətinizdə olmayan sözlər tək-tək saxlanılır** — heç vaxt cümlə deyil — onları əlavə etməyi sizə təklif edə bilmək üçün. Təfərrüat «Bir dəqiqədə» bölməsində, §2.2-də və §3-də yer alır. Biz həmçinin ikinci bir səhvi də düzəldirik: **fərdiləşdirilmiş personalarınız və onların avatarları serverlərimizdə ehtiyat nüsxə kimi saxlanılır** — onlar yalnız telefonunuzda qalmır (bax §3).
 
@@ -134,6 +136,16 @@ Bir mikrofon düyməsi yazmaq əvəzinə diktə etməyə imkan verir. Mikrofona 
 
 Mikrofon icazəsini rədd etsəniz, klaviatura ilə yazma təbii ki, əlçatan qalır.
 
+### 4.1 Səsli ünsiyyət (səsli tərcüməçi)
+
+Səsli ünsiyyət iki nəfər arasındakı söhbəti ucadan tərcümə edir. **Mikrofon yalnız kürəyə toxunduğunuz zaman açılır** və hər cümlənin sonunda bağlanır.
+
+- **Nitq** diktə ilə eyni telefon səs tanıma mühərriki ilə mətnə çevrilir, yuxarıdakı eyni qeydlərlə. **Plume yalnız mətni alır, heç vaxt səsi almır.** Dilin oflayn modulu yoxdursa, Plume telefondan onu yükləməyi xahiş edir; bu arada telefonun mühərriki onlayn şəkildə mətnə çevirə bilər.
+- **Lokal dəst rejimində** (pulsuz) tərcümə **telefonunuzda** edilir.
+- **AI Pro rejimində** (abunəçilər) mətnə çevrilmiş mətn serverlərimizə, oradan da dinləmə səhvlərini düzəldib tərcümə edən süni intellektlə emal xidməti təchizatçımıza göndərilir — §2.2-dəki ilə eyni yolla. **Nə mətni, nə də onun tərcüməsini saxlamırıq.**
+- **Ucadan oxumanı** telefonun səs sintezi mühərriki (adətən Google-un mühərriki) həyata keçirir. Hər iki rejimdə Plume ondan daha təbii olan **onlayn səslərini** istəyir: bu halda tərcümə olunmuş mətn tələffüz üçün onun naşirinə ötürülür. Bağlantı olmadıqda telefonda quraşdırılmış səs onu əvəz edir.
+- **Söhbət tarixçəsi telefonunuzda qalır** və ekrandan çıxdıqda silinir. Cihazda yalnız seçilmiş dil cütü, seçilmiş mühərrik və söhbətlərin sayı (pulsuz səviyyənin reklamı üçün) yadda saxlanılır.
+
 ---
 
 ## 5. Reklam
@@ -191,7 +203,7 @@ Tətbiq sərbəst mətnin yenidən tərtibinə imkan verdiyi və reklam göstər
 | **SI emalı təchizatçımız** | Sorğuların yönləndirilməsi və mətnin üçüncü tərəfin süni intellekt modeli ilə emalı | **Avropa İttifaqından kənarda** |
 | **Google Play / Google Billing** | Ödəniş, abunəliklər | Google Ireland / ABŞ |
 | **Google AdMob** | Mükafatlı reklam | Google Ireland / ABŞ |
-| **Google (telefonun sistem xidmətləri)** | Səs tanıma, oflayn tərcümə modulları | Cihazınızdan asılı olaraq |
+| **Google (telefonun sistem xidmətləri)** | Səs tanıma, səs sintezi (Səsli ünsiyyət üçün ucadan oxuma), oflayn tərcümə modulları | Cihazınızdan asılı olaraq |
 | **Nasazlıq hesabatı təchizatçımız** | Texniki nasazlıq hesabatı — yalnız göndərilməzdən əvvəl filtrlənmiş proqram xətaları: heç vaxt mətniniz deyil | ABŞ |
 
 **Heç bir məlumat satmırıq və heç birini məlumat brokerlərinə ötürmürük.**

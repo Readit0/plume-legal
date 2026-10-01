@@ -1,6 +1,8 @@
 # Condicións xerais de uso e de venda — Plume
 
-**Última actualización: 31 de xullo de 2026** — Versión 1.0
+**Última actualización: 1 de outubro de 2026** — Versión 1.1
+
+> *O que cambiou na versión 1.1:* describimos **Comunicación de audio**, o intérprete de voz de Plume, e o seu modo **IA Pro** (Artigos 2 e 6). Escribimos en branco sobre negro dúas regras sobre os créditos da subscrición: son **mensuais e non se acumulan** dun mes a outro (Artigo 6), e se a subscrición **non se renova**, o saldo do último mes segue sendo utilizable durante **7 días** antes de borrarse (Artigo 7). Os créditos comprados na tenda, pola súa banda, seguen **adquiridos definitivamente** (Artigo 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume é unha ferramenta de axuda á redacción que funciona sobre Android. Perm
 - **reformular un texto** que está a escribir, directamente na aplicación na que o escribe, escollendo un estilo («persona»);
 - **traducir ou resumir o texto amosado na pantalla**, e obter unha proposta de resposta a unha mensaxe recibida;
 - utilizar a **Lectura Asistida**, que superpón unha tradución ao texto amosado na pantalla;
-- **ditar** un texto en vez de escribilo.
+- **ditar** un texto en vez de escribilo;
+- utilizar **Comunicación de audio**, un intérprete de voz que traduce en voz alta unha conversa entre dúas persoas, ou por escrito (modo Escrita).
 
 Segundo o seu dispositivo e a súa escolla, o tratamento efectúase **no seu teléfono** ou **en servidores remotos**. A circulación exacta dos seus datos descríbese na nosa política de privacidade: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ O uso do servizo ten un límite, para controlar o custo do tratamento.
 - Cando o tratamento se efectúa **no seu dispositivo** (dispositivos compatibles coa IA local): **uso ilimitado**, coa única reserva dos límites técnicos do seu teléfono (batería, quentamento).
 - Cando o tratamento se efectúa **nos nosos servidores**: o uso ten un límite por día e por mes, porque cada chamada ten un custo real. *Na data de redacción: 1.000 por día e 9.000 por mes.*
 
+**Os créditos da subscrición son mensuais e non se acumulan.** Os créditos dun mes son válidos ata o final dese mes: o que non se utilizou **non se transfire** ao mes seguinte, onde o contador volve a cero. Se a subscrición non se renova, aplícase o Artigo 7.
+
+**Comunicación de audio.** O modo **Kit local** é gratuíto: a tradución faise no seu teléfono (no nivel gratuíto, pode amosarse unha publicidade de cando en vez). O modo **IA Pro** está reservado ás persoas subscritas: cada tradución consome un número **fixo** de unidades de cota, segundo o idioma de chegada — *na data de redacción, 1 unidade, e 3 para un idioma marcado PRO*. O custo indícase na aplicación antes do uso e **débese automaticamente** tras cada tradución lograda; unha tradución que falla non se debita. Sen saldo suficiente, a tradución IA Pro non se realiza.
+
 **Puntos comúns a todos os niveis:**
 
 - Unha **análise de pantalla** (tradución ou proposta de resposta) é máis custosa que unha reformulación simple e consome **varias unidades de cota**: actualmente 5.
@@ -103,6 +110,8 @@ O uso do servizo ten un límite, para controlar o custo do tratamento.
 
 **Fin da subscrición.** Ao vencemento, a súa conta volve ao nivel gratuíto. Non perde nin a conta, nin as súas personas, nin os seus axustes.
 
+**Se a súa subscrición non se renova, os seus créditos restantes teñen 7 días.** O saldo de créditos do seu último mes de subscrición segue sendo utilizable durante **7 días** a partir do final da subscrición; transcorrido ese prazo, **bórrase definitivamente**. A aplicación avísalle cunha mensaxe desde o comezo deste período, co saldo e a data límite. Este prazo non se aplica en caso de reembolso. Os créditos comprados na tenda (Artigo 8) **non están afectados**: seguen adquiridos.
+
 ---
 
 ## Artigo 8 — Paquetes e compras por unidades
@@ -111,7 +120,7 @@ Determinados contidos (paquetes de personas, créditos de cota adicionais) vénd
 
 *Tarifa na data de redacción: 2,99 € por paquete. O prezo que o obriga é o amosado no momento da compra.*
 
-Un paquete comprado queda **adquirido definitivamente** e vinculado á súa conta. Recupérao ao conectarse de novo noutro dispositivo, e a función «Restaurar as compras» da aplicación permítelle recuperalo se cómpre.
+Un paquete comprado queda **adquirido definitivamente** e vinculado á súa conta — a diferenza dos créditos mensuais da subscrición (Artigos 6 e 7), non caduca. Recupérao ao conectarse de novo noutro dispositivo, e a función «Restaurar as compras» da aplicación permítelle recuperalo se cómpre.
 
 Os créditos de cota comprados só se utilizan **unha vez esgotadas as súas cotas do período**, para que non pague nunca dúas veces o mesmo uso.
 

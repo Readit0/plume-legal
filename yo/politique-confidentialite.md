@@ -1,6 +1,8 @@
 # Ìlànà àṣírí ti Plume
 
-**Ìmúdójú ìkẹyìn: ọjọ́ 1 oṣù kẹwàá ọdún 2026** — Ẹ̀dà 2.1
+**Ìmúdójú ìkẹyìn: ọjọ́ 1 oṣù kẹwàá ọdún 2026** — Ẹ̀dà 2.2
+
+> *Ohun tí ó yípadà nínú ẹ̀dà 2.2:* a ṣàpèjúwe **Ìbánisọ̀rọ̀ ohùn**, atúmọ̀ ohùn Plume tí kò sí nínú ẹ̀dà 2.1: ohun tí ó wà lórí fóònù yín, ohun tí ó ń jáde ní ipò AI Pro, àti kíkà sókè láti ọwọ́ ẹ̀rọ ìṣẹ̀dá ohùn fóònù (wo §4.1 àti §9).
 
 > *Ohun tí ó yípadà nínú ẹ̀dà 2.1:* a ṣàpèjúwe **ipò Ìbòrí**, tí ẹ̀dà 2.0 kò mẹ́nu bà, a sì ṣàtúnṣe ọ̀rọ̀ kan tí kò tọ̀nà mọ́: fún àwọn èdè ti ara ẹni àti fún Ìbòrí bákan náà, **àwọn ọ̀rọ̀ inú àwọn ìránṣẹ́ yín tí kò tíì sí nínú ìwé-ìtumọ̀ yín ni a ń fi pamọ́, ọ̀kọ̀ọ̀kan** — kì í ṣe gbólóhùn rárá — kí a lè dábàá fún yín láti fi wọ́n kún un. Kúlẹ̀kúlẹ̀ wà nínú "Nínú ìṣẹ́jú kan", ní §2.2 àti ní §3. À tún ṣàtúnṣe àṣìṣe kejì: **àwọn orúkọ ara ẹni yín àti àwọn àwòrán wọn ni a ń fi pamọ́ sórí àwọn olùpín wa** — wọn kì í wà lórí fóònù yín nìkan (wo §3).
 
@@ -134,6 +136,16 @@ Bọ́tìnnì máìkírófóònù ń fún yín láàyè láti sọ̀rọ̀ díp�
 
 Bí ẹ bá kọ̀ àṣẹ máìkírófóònù, títẹ̀wé pẹ̀lú kọ̀ǹpútà kékeré ń wà ní àrọ́wọ́tó dájúdájú.
 
+### 4.1 Ìbánisọ̀rọ̀ ohùn (atúmọ̀ ohùn)
+
+Ìbánisọ̀rọ̀ ohùn ń túmọ̀ ìjíròrò láàrin ènìyàn méjì sókè. **Gbohùngbohùn kì í ṣí àfi nígbà tí ẹ bá fọwọ́ kan bọ́ọ̀lù náà**, ó sì ń pa ní òpin gbólóhùn kọ̀ọ̀kan.
+
+- **Ọ̀rọ̀ ẹnu** ni ẹ̀rọ ìdánimọ̀ ohùn fóònù kan náà tí a ń lò fún sísọ̀rọ̀ dípò kíkọ ń kọ sílẹ̀, pẹ̀lú àwọn ìkìlọ̀ kan náà bí òkè. **Plume ń gba ọ̀rọ̀ ìkọ̀wé nìkan, kò ní gba ohùn láéláé.** Tí àwọn ẹ̀yà èdè láìsí ẹ̀rọ ayélujára kò bá sí, Plume yóò bẹ fóònù láti gbà á wọlé; ní àkókò yìí, ẹ̀rọ fóònù lè kọ̀ ọ́ sílẹ̀ lórí ayélujára.
+- **Ní ipò Ohun-èlò àdúgbò** (ọ̀fẹ́), ìtumọ̀ ń wáyé **lórí fóònù yín**.
+- **Ní ipò AI Pro** (àwọn olùforúkọsílẹ̀), a ń fi ọ̀rọ̀ ìkọ̀wé tí a kọ sílẹ̀ ránṣẹ́ sí àwọn olùpín wa, lẹ́yìn náà sí olùpèsè iṣẹ́ ìṣiṣẹ́ pẹ̀lú ìmọ̀ ẹ̀rọ àtọwọ́dá wa, tí ó ń ṣe àtúnṣe àṣìṣe ìgbọ́ròó, tí ó sì ń túmọ̀ rẹ̀ — ní ọ̀nà kan náà bí ti §2.2. **A kì í fi ọ̀rọ̀ náà tàbí ìtumọ̀ rẹ̀ pamọ́.**
+- **Kíkà sókè** ni ẹ̀rọ ìṣẹ̀dá ohùn fóònù ń ṣe (nígbà gbogbo ti Google). Ní àwọn ipò méjèèjì, Plume ń béèrè **àwọn ohùn rẹ̀ lórí ayélujára** lọ́wọ́ rẹ̀, tí ó dùn jù: a ó fi ọ̀rọ̀ tí a túmọ̀ ránṣẹ́ sí olùtẹ̀jáde rẹ̀ kí ó lè pè é. Nígbà tí kò bá sí ìsopọ̀, ohùn tí a fi sórí fóònù yóò gba ipò rẹ̀.
+- **Ìtàn ìjíròrò máa ń wà lórí fóònù yín** ó sì ń parẹ́ nígbà tí ẹ bá kúrò lórí ojú ìwé. Èdè méjì tí a yàn, ẹ̀rọ tí a yàn àti iye ìjíròrò (fún ìpolówó ọjà ìpele ọ̀fẹ́) nìkan ni a ń rántí lórí ẹ̀rọ náà.
+
 ---
 
 ## 5. Ìpolówó ọjà
@@ -191,7 +203,7 @@ Níwọ̀n bí ohun èlò náà ti ń jẹ́ kí a tún ọ̀rọ̀ òmìnira �
 | **Olùpèsè ìṣiṣẹ́ Ìmọ̀ Àdámọ̀ wa** | Títọ́ àwọn ìbéèrè àti ṣíṣiṣẹ́ lórí ọ̀rọ̀ nípasẹ̀ àwòṣe Ìmọ̀ Àdámọ̀ ti ẹgbẹ́ kẹta | **Ní ìta Ẹgbẹ́ Àwọn Orílẹ̀-èdè Yúróòpù** |
 | **Google Play / Google Billing** | Ìsanwó, ìforúkọsílẹ̀ | Google Ireland / Amẹ́ríkà |
 | **Google AdMob** | Ìpolówó ọjà ẹ̀san | Google Ireland / Amẹ́ríkà |
-| **Google (àwọn iṣẹ́ ètò fóònù)** | Ìdánimọ̀ ohùn, àwọn ẹ̀yà ìtumọ̀ láìsí ẹ̀rọ ayélujára | Gẹ́gẹ́bí ẹ̀rọ yín |
+| **Google (àwọn iṣẹ́ ètò fóònù)** | Ìdánimọ̀ ohùn, ìṣẹ̀dá ohùn (kíkà sókè fún Ìbánisọ̀rọ̀ ohùn), àwọn ẹ̀yà ìtumọ̀ láìsí ẹ̀rọ ayélujára | Gẹ́gẹ́bí ẹ̀rọ yín |
 | **Olùpèsè ìjábọ̀ ìṣòro wa** | Ìjábọ̀ ìṣòro ẹ̀rọ — kìkì àwọn àṣìṣe eto, tí a ti ṣàlẹ̀ kí ó tó fi ránṣẹ́: láéláé kì í ṣe ọ̀rọ̀ yín | Amẹ́ríkà |
 
 **A kì í tà dátà kankan, a kì í sì fi fún àwọn alágbàtà dátà.**

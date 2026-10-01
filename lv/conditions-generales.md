@@ -1,6 +1,8 @@
 # Lietošanas un pārdošanas vispārīgie noteikumi — Plume
 
-**Pēdējoreiz atjaunināts: 2026. gada 31. jūlijs** — Versija 1.0
+**Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 1.1
+
+> *Kas ir mainījies versijā 1.1:* mēs aprakstām **Audio saziņu**, Plume balss tulku, un tās režīmu **MI Pro** (2. un 6. pants). Mēs skaidri pierakstām divus noteikumus par abonementa kredītiem: tie ir **mēneša kredīti un nekrājas** no viena mēneša uz otru (6. pants), un, ja abonements **netiek atjaunots**, pēdējā mēneša atlikumu var izmantot vēl **7 dienas**, pirms tas tiek dzēsts (7. pants). Veikalā pirktie kredīti turpretī paliek **iegūti galīgi** (8. pants).
 
 ---
 
@@ -24,7 +26,8 @@ Plume ir rakstīšanas palīglīdzeklis, kas darbojas operētājsistēmā Androi
 - **pārformulēt tekstu**, ko jūs tobrīd rakstāt, tieši tajā lietotnē, kurā jūs to rakstāt, izvēloties stilu („personu“);
 - **tulkot vai apkopot ekrānā redzamo tekstu** un saņemt atbildes ierosinājumu uz saņemtu ziņojumu;
 - izmantot **asistēto lasīšanu**, kas uzliek tulkojumu virsū ekrānā redzamajam tekstam;
-- **diktēt** tekstu tā rakstīšanas vietā.
+- **diktēt** tekstu tā rakstīšanas vietā;
+- izmantot **Audio saziņu** — balss tulku, kas skaļi tulko sarunu starp diviem cilvēkiem vai rakstiski (Rakstīšanas režīms).
 
 Atkarībā no jūsu ierīces un jūsu izvēles apstrāde notiek **jūsu tālrunī** vai **attālinātos serveros**. Precīza jūsu datu aprite ir aprakstīta mūsu privātuma politikā: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Pakalpojuma lietošanai ir noteikts ierobežojums, lai kontrolētu apstrādes iz
 - Kad apstrāde notiek **jūsu ierīcē** (ierīces, kas ir savietojamas ar vietējo MI): **neierobežota lietošana**, vienīgi ar jūsu tālruņa tehnisko ierobežojumu atrunu (akumulators, sakaršana).
 - Kad apstrāde notiek **mūsu serveros**: lietošana ir ierobežota dienā un mēnesī, jo katram izsaukumam ir reālas izmaksas. *Šā dokumenta sagatavošanas dienā: 1 000 dienā un 9 000 mēnesī.*
 
+**Abonementa kredīti ir mēneša kredīti un nekrājas.** Mēneša kredīti ir derīgi līdz šā mēneša beigām: neizmantotais **netiek pārnests** uz nākamo mēnesi, kurā skaitītājs sāk no nulles. Ja abonements netiek atjaunots, piemēro 7. pantu.
+
+**Audio saziņa.** **Vietējā komplekta** režīms ir bezmaksas: tulkošana notiek jūsu tālrunī (bezmaksas līmenī laiku pa laikam var tikt rādīta reklāma). **MI Pro** režīms ir paredzēts abonentiem: katrs tulkojums patērē **fiksētu** kvotas vienību skaitu atkarībā no mērķa valodas — *šā dokumenta sagatavošanas dienā 1 vienību un 3 valodai, kas atzīmēta kā PRO*. Izmaksas tiek norādītas lietotnē pirms lietošanas un pēc katra sekmīga tulkojuma tiek **norakstītas automātiski**; neizdevies tulkojums netiek norakstīts. Bez pietiekama atlikuma MI Pro tulkojums netiek veikts.
+
 **Kopīgi visiem līmeņiem:**
 
 - **Ekrāna analīze** (tulkojums vai atbildes ierosinājums) izmaksā vairāk nekā vienkāršs pārformulējums un patērē **vairākas kvotas vienības** — pašlaik 5.
@@ -102,6 +109,8 @@ Pakalpojuma lietošanai ir noteikts ierobežojums, lai kontrolētu apstrādes iz
 
 **Abonementa beigas.** Termiņa beigās jūsu konts atgriežas bezmaksas līmenī. Jūs nezaudējat ne savu kontu, ne savas personas, ne savus iestatījumus.
 
+**Ja jūsu abonements netiek atjaunots, atlikušajiem kredītiem ir 7 dienas.** Jūsu pēdējā abonēšanas mēneša kredītu atlikums paliek izmantojams **7 dienas** no abonementa beigām; pēc šā termiņa tas tiek **neatgriezeniski dzēsts**. Lietotne ar ziņojumu jūs brīdina jau šā perioda sākumā, norādot atlikumu un beigu datumu. Šis termiņš netiek piemērots atmaksas gadījumā. Veikalā pirktie kredīti (8. pants) uz to **neattiecas**: tie paliek jūsu.
+
 ---
 
 ## 8. pants — Komplekti un atsevišķi pirkumi
@@ -110,7 +119,7 @@ Noteikts saturs (personu komplekti, papildu kvotas kredīti) tiek pārdots atsev
 
 *Cena šā dokumenta sagatavošanas dienā: 2,99 € par komplektu. Jums saistošā cena ir tā, kas tiek rādīta pirkuma brīdī.*
 
-Nopirktais komplekts ir **iegūts galīgi** un piesaistīts jūsu kontam. Jūs to atradīsiet, pieslēdzoties citā ierīcē, un lietotnes funkcija „Atjaunot manus pirkumus“ ļauj jums to vajadzības gadījumā atgūt.
+Nopirktais komplekts ir **iegūts galīgi** un piesaistīts jūsu kontam — atšķirībā no abonementa mēneša kredītiem (6. un 7. pants), tam nebeidzas derīguma termiņš. Jūs to atradīsiet, pieslēdzoties citā ierīcē, un lietotnes funkcija „Atjaunot manus pirkumus“ ļauj jums to vajadzības gadījumā atgūt.
 
 Nopirktie kvotas kredīti tiek izmantoti **tikai tad, kad jūsu perioda kvotas ir izsmeltas**, lai jūs nekad nemaksātu divreiz par vienu un to pašu lietojumu.
 

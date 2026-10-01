@@ -1,6 +1,8 @@
 # Polisi preifatrwydd Plume
 
-**Diweddarwyd ddiwethaf: 1 Hydref 2026** — Fersiwn 2.1
+**Diweddarwyd ddiwethaf: 1 Hydref 2026** — Fersiwn 2.2
+
+> *Beth sydd wedi newid yn fersiwn 2.2:* rydym yn disgrifio **Cyfathrebu sain**, dehonglydd llais Plume, nad oedd yn bodoli yn fersiwn 2.1: yr hyn sy'n aros ar eich ffôn, yr hyn sy'n gadael yn y modd AI Pro, a'r darllen yn uchel gan injan synthesis lleferydd y ffôn (gweler §4.1 a §9).
 
 > *Beth sydd wedi newid yn fersiwn 2.1:* rydym yn disgrifio'r **modd Cuddliw**, nad oedd fersiwn 2.0 yn sôn amdano, ac yn cywiro datganiad sydd wedi peidio â bod yn gywir: ar gyfer ieithoedd personol yn ogystal â Chuddliw, **mae'r geiriau yn eich negeseuon sy'n dal i fod ar goll o'ch geirfa yn cael eu cadw, fesul un** — byth y frawddeg — er mwyn gallu cynnig eu hychwanegu. Mae'r manylion yn “Mewn munud”, yn §2.2 ac yn §3. Rydym hefyd yn cywiro ail gamgymeriad: **mae eich personas personol a'u hafatarau yn cael eu cadw wrth gefn ar ein gweinyddion** — nid ydynt yn aros ar eich ffôn yn unig (gweler §3).
 
@@ -134,6 +136,16 @@ Mae botwm meicroffon yn caniatáu i chi arddweud yn lle teipio. Gofynnir am y ca
 
 Os byddwch yn gwrthod y caniatâd i'r meicroffon, mae teipio ar y bysellfwrdd ar gael o hyd, wrth gwrs.
 
+### 4.1 Cyfathrebu sain (y dehonglydd llais)
+
+Mae Cyfathrebu sain yn cyfieithu sgwrs rhwng dau berson yn uchel. **Dim ond pan fyddwch yn cyffwrdd â'r belen y mae'r meicroffon yn agor**, ac mae'n cau ar ddiwedd pob brawddeg.
+
+- **Mae'r lleferydd** yn cael ei drawsgrifio gan yr un injan adnabod lleferydd ar y ffôn â'r arddweud, gyda'r un gofalon ag uchod. **Dim ond y testun y mae Plume yn ei dderbyn, byth y sain.** Os yw modiwl all-lein iaith ar goll, mae Plume yn gofyn i'r ffôn ei lawrlwytho; yn y cyfamser, gall injan y ffôn drawsgrifio ar-lein.
+- **Yn y modd Pecyn lleol** (am ddim), mae'r cyfieithu'n digwydd **ar eich ffôn**.
+- **Yn y modd AI Pro** (tanysgrifwyr), anfonir y testun a drawsgrifiwyd i'n gweinyddion ac yna at ein darparwr prosesu AI, sy'n cywiro'r gwallau gwrando ac yn ei gyfieithu — ar yr un llwybr ag yn §2.2. **Nid ydym yn cadw'r testun na'i gyfieithiad.**
+- **Mae'r darllen yn uchel** yn cael ei wneud gan injan synthesis lleferydd y ffôn (Google's fel arfer). Yn y ddau fodd, mae Plume yn gofyn i'r injan hon am ei **lleisiau ar-lein**, sy'n fwy naturiol: yna trosglwyddir y testun a gyfieithwyd i'w chyhoeddwr i'w ynganu. Heb gysylltiad, mae llais sydd wedi'i osod ar y ffôn yn cymryd yr awenau.
+- **Mae hanes y sgwrs yn aros ar eich ffôn** ac yn diflannu pan fyddwch yn gadael y sgrin. Dim ond y pâr o ieithoedd a ddewiswyd, yr injan a ddewiswyd a nifer y sgyrsiau (ar gyfer hysbysebu'r lefel am ddim) sy'n cael eu cadw ar y ddyfais.
+
 ---
 
 ## 5. Hysbysebu
@@ -191,7 +203,7 @@ Gan fod yr ap yn caniatáu ailysgrifennu testun rhydd ac yn dangos hysbysebion, 
 | **Ein darparwr prosesu AI** | Llwybro'r ceisiadau a phrosesu'r testun gan fodel deallusrwydd artiffisial trydydd parti | **Y tu allan i'r Undeb Ewropeaidd** |
 | **Google Play / Google Billing** | Talu, tanysgrifiadau | Google Ireland / Yr Unol Daleithiau |
 | **Google AdMob** | Hysbysebu gwobrwyol | Google Ireland / Yr Unol Daleithiau |
-| **Google (gwasanaethau system y ffôn)** | Adnabod llais, modiwlau cyfieithu all-lein | Yn dibynnu ar eich dyfais |
+| **Google (gwasanaethau system y ffôn)** | Adnabod lleferydd, synthesis lleferydd (darllen yn uchel ar gyfer Cyfathrebu sain), modiwlau cyfieithu all-lein | Yn dibynnu ar eich dyfais |
 | **Ein darparwr adrodd am ddamweiniau** | Adrodd am ddamweiniau technegol — gwallau'r rhaglen yn unig, wedi'u hidlo cyn eu hanfon: byth eich testun | Yr Unol Daleithiau |
 
 **Nid ydym yn gwerthu unrhyw ddata ac nid ydym yn trosglwyddo dim ohono i froceriaid data.**

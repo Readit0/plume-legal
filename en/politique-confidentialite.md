@@ -1,6 +1,8 @@
 # Plume Privacy Policy
 
-**Last updated: 1 October 2026** — Version 2.1
+**Last updated: 1 October 2026** — Version 2.2
+
+> *What changed in version 2.2:* we describe **Audio communication**, Plume's voice interpreter, which did not exist in version 2.1: what stays on your phone, what leaves it in AI Pro mode, and reading aloud by the phone's speech synthesis engine (see §4.1 and §9).
 
 > *What has changed in version 2.1:* we describe the **Camouflage mode**, which version 2.0 did not mention, and we correct a statement that has become inaccurate: for custom languages as for Camouflage, **the words in your messages that are still missing from your lexicon are kept, one by one** — never the sentence — so that we can offer to add them for you. The details are in "In one minute", in §2.2 and in §3. We are also correcting a second error: **your custom personas and their avatars are backed up on our servers** — they do not stay only on your phone (see §3).
 
@@ -134,6 +136,16 @@ A microphone button lets you dictate instead of typing. Permission to access the
 
 If you decline the microphone permission, keyboard input of course remains available.
 
+### 4.1 Audio communication (the voice interpreter)
+
+Audio communication translates a conversation between two people aloud. **The microphone only opens when you touch the orb**, and it closes at the end of each sentence.
+
+- **Speech** is transcribed by the same speech recognition engine of the phone as dictation, with the same caveats as above. **Plume only receives the text, never the audio.** If the offline module for a language is missing, Plume asks the phone to download it; in the meantime, the phone's engine may transcribe online.
+- **In Local kit mode** (free), translation is done **on your phone**.
+- **In AI Pro mode** (subscribers), the transcribed text is sent to our servers and then to our AI processing provider, which corrects listening errors and translates it — by the same route as in §2.2. **We keep neither the text nor its translation.**
+- **Reading aloud** is done by the phone's speech synthesis engine (generally Google's). In both modes, Plume asks it for its more natural **online voices**: the translated text is then transmitted to its publisher in order to be pronounced. When offline, a voice installed on the phone takes over.
+- **The conversation history stays on your phone** and disappears when you leave the screen. Only the chosen language pair, the chosen engine and the number of conversations (for the free tier's advertising) are stored on the device.
+
 ---
 
 ## 5. Advertising
@@ -191,7 +203,7 @@ As the application allows free text to be rewritten and displays advertising, it
 | **Our AI processing provider** | Routing of requests and processing of the text by a third-party artificial intelligence model | **Outside the European Union** |
 | **Google Play / Google Billing** | Payment, subscriptions | Google Ireland / United States |
 | **Google AdMob** | Rewarded advertising | Google Ireland / United States |
-| **Google (phone system services)** | Speech recognition, offline translation modules | Depending on your device |
+| **Google (phone system services)** | Speech recognition, speech synthesis (reading aloud for Audio communication), offline translation modules | Depending on your device |
 | **Our crash reporting provider** | Technical crash reporting — only program errors, filtered before sending: never your text | United States |
 
 **We sell no data and transfer none to data brokers.**

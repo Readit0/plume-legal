@@ -1,6 +1,8 @@
 # Politiko pri privateco de Plume
 
-**Lasta ĝisdatigo: la 1-a de oktobro 2026** — Versio 2.1
+**Lasta ĝisdatigo: la 1-a de oktobro 2026** — Versio 2.2
+
+> *Kio ŝanĝiĝis en versio 2.2:* ni priskribas **Aŭdian komunikadon**, la voĉan interpretiston de Plume, kiu ne ekzistis en versio 2.1: kio restas en via telefono, kio foriras en la reĝimo AI Pro, kaj la laŭtlegado far la voĉsinteza motoro de la telefono (vidu §4.1 kaj §9).
 
 > *Kio ŝanĝiĝis en versio 2.1:* ni priskribas la **reĝimon Kamuflado**, kiun versio 2.0 ne mencis, kaj ni korektas aserton, kiu fariĝis malpreciza: kaj por la propraj lingvoj kaj por la Kamuflado, **la vortoj de viaj mesaĝoj, kiuj ankoraŭ mankas en via vortaro, estas konservataj unuope** — neniam la frazo — por ke ni povu proponi al vi aldoni ilin. La detaloj troviĝas en «En unu minuto», en §2.2 kaj en §3. Ni korektas ankaŭ duan eraron: **viaj propraj roluloj kaj iliaj avataroj estas savkopiitaj sur niaj serviloj** — ili ne restas nur sur via telefono (vidu §3).
 
@@ -134,6 +136,16 @@ Mikrofona butono ebligas al vi dikti anstataŭ tajpi. La permeso pri aliro al la
 
 Se vi rifuzas la permeson pri la mikrofono, la klavara tajpado kompreneble restas disponebla.
 
+### 4.1 Aŭdia komunikado (la voĉa interpretisto)
+
+Aŭdia komunikado traduktas laŭte konversacion inter du homoj. **La mikrofono malfermiĝas nur kiam vi tuŝas la globon**, kaj ĝi fermiĝas ĉe la fino de ĉiu frazo.
+
+- **La parolo** estas transskribata de la sama voĉrekona motoro de la telefono kiel la diktado, kun la samaj rezervoj kiel supre. **Plume ricevas nur la tekston, neniam la sonon.** Se la eksterreta modulo de lingvo mankas, Plume petas la telefonon elŝuti ĝin; intertempe la motoro de la telefono povas transskribi enrete.
+- **En la reĝimo Loka ilaro** (senpaga), la traduko okazas **en via telefono**.
+- **En la reĝimo AI Pro** (abonantoj), la transskribita teksto estas sendata al niaj serviloj kaj poste al nia provizanto de prilaborado per artefarita inteligento, kiu korektas la aŭskultajn erarojn kaj tradukas ĝin — tra la sama vojo kiel en §2.2. **Ni konservas nek la tekston nek ĝian tradukon.**
+- **La laŭtlegado** estas farata de la voĉsinteza motoro de la telefono (ĝenerale tiu de Google). En ambaŭ reĝimoj, Plume petas de ĝi siajn pli naturajn **enretajn voĉojn**: la tradukita teksto tiam estas transdonata al ĝia eldonanto por esti prononcata. Senrete, voĉo instalita en la telefono transprenas.
+- **La historio de la konversacio restas en via telefono** kaj malaperas kiam vi forlasas la ekranon. Nur la elektita paro de lingvoj, la elektita motoro kaj la nombro de konversacioj (por la reklamado de la senpaga nivelo) estas memorataj en la aparato.
+
 ---
 
 ## 5. Reklamado
@@ -191,7 +203,7 @@ Plume estas ilo helpa por redaktado, destinita al publiko **de 16 jaroj kaj pli*
 | **Nia provizanto de AI-prilaborado** | Vojigo de la petoj kaj prilaborado de la teksto per tria modelo de artefarita inteligenteco | **Ekster la Eŭropa Unio** |
 | **Google Play / Google Billing** | Pago, abonoj | Google Ireland / Usono |
 | **Google AdMob** | Rekompenca reklamado | Google Ireland / Usono |
-| **Google (sistemaj servoj de la telefono)** | Voĉrekono, eksterretaj tradukaj moduloj | Laŭ via aparato |
+| **Google (sistemaj servoj de la telefono)** | Voĉrekono, voĉsintezo (laŭtlegado de Aŭdia komunikado), eksterretaj tradukaj moduloj | Laŭ via aparato |
 | **Nia provizanto de kraŝo-raportado** | Teknika kraŝo-raportado — nur programaj eraroj, filtritaj antaŭ la sendo: neniam via teksto | Usono |
 
 **Ni vendas neniun datumon kaj cedas neniun al datum-makleristoj.**

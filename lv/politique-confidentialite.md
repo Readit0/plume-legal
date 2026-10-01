@@ -1,6 +1,8 @@
 # Lietotnes Plume privātuma politika
 
-**Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 2.1
+**Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 2.2
+
+> *Kas ir mainījies versijā 2.2:* mēs aprakstām **Audio saziņu**, Plume balss tulku, kura versijā 2.1 nebija: kas paliek jūsu tālrunī, kas tiek nosūtīts **MI Pro** režīmā un priekšlasīšana ar tālruņa runas sintēzes dzinēju (skatiet §4.1 un §9).
 
 > *Kas ir mainījies versijā 2.1:* mēs aprakstām **Maskēšanās režīmu**, ko versija 2.0 neminēja, un labojam apgalvojumu, kas kļuvis neprecīzs: gan personiskajām valodām, gan Maskēšanās režīmam **jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst, tiek saglabāti pa vienam** — nekad ne teikums —, lai mēs varētu jums piedāvāt tos pievienot. Sīkāk — sadaļā „Vienā minūtē”, 2.2. un 3. sadaļā. Mēs labojam arī otru kļūdu: **jūsu pielāgotās personas un to avatāri tiek saglabāti mūsu serveros** — tie nepaliek tikai jūsu tālrunī (skatīt 3. sadaļu).
 
@@ -134,6 +136,16 @@ Mikrofona poga ļauj jums diktēt rakstīšanas vietā. Atļauja piekļūt mikro
 
 Ja jūs atsakāties dot atļauju mikrofonam, ievade ar tastatūru, protams, paliek pieejama.
 
+### 4.1 Audio saziņa (balss tulks)
+
+Audio saziņa skaļi tulko sarunu starp diviem cilvēkiem. **Mikrofons atveras tikai tad, kad pieskaraties lodei**, un izslēdzas katra teikuma beigās.
+
+- **Runa** tiek pārrakstīta ar to pašu tālruņa runas atpazīšanas dzinēju, ko izmanto diktēšanai, ar tām pašām iepriekš minētajām atrunām. **Plume saņem tikai tekstu, nekad audio.** Ja trūkst valodas bezsaistes moduļa, Plume lūdz tālrunim to lejupielādēt; tikmēr tālruņa dzinējs var pārrakstīt tiešsaistē.
+- **Vietējā komplekta režīmā** (bezmaksas) tulkošana notiek **jūsu tālrunī**.
+- **MI Pro režīmā** (abonentiem) pārrakstītais teksts tiek nosūtīts uz mūsu serveriem un pēc tam mūsu mākslīgā intelekta apstrādes pakalpojumu sniedzējam, kas labo klausīšanās kļūdas un to iztulko — pa to pašu ceļu kā §2.2. **Mēs neglabājam ne tekstu, ne tā tulkojumu.**
+- **Priekšlasīšanu** veic tālruņa runas sintēzes dzinējs (parasti Google dzinējs). Abos režīmos Plume pieprasa tā dabiskākās **tiešsaistes balsis**: tad iztulkotais teksts tiek nodots tā izstrādātājam izrunāšanai. Bezsaistē pārņem tālrunī instalēta balss.
+- **Sarunas vēsture paliek jūsu tālrunī** un pazūd, kad izejat no ekrāna. Ierīcē tiek saglabāts tikai izvēlētais valodu pāris, izvēlētais dzinējs un sarunu skaits (bezmaksas līmeņa reklāmai).
+
 ---
 
 ## 5. Reklāma
@@ -191,7 +203,7 @@ Tā kā lietotne ļauj pārformulēt brīvu tekstu un rāda reklāmu, tā nav at
 | **Mūsu MI apstrādes pakalpojumu sniedzējs** | Pieprasījumu maršrutēšana un teksta apstrāde ar trešās puses mākslīgā intelekta modeli | **Ārpus Eiropas Savienības** |
 | **Google Play / Google Billing** | Maksājumi, abonementi | Google Ireland / Amerikas Savienotās Valstis |
 | **Google AdMob** | Apbalvotā reklāma | Google Ireland / Amerikas Savienotās Valstis |
-| **Google (tālruņa sistēmas pakalpojumi)** | Runas atpazīšana, bezsaistes tulkošanas moduļi | Atkarībā no jūsu ierīces |
+| **Google (tālruņa sistēmas pakalpojumi)** | Runas atpazīšana, runas sintēze (Audio saziņas priekšlasīšana), bezsaistes tulkošanas moduļi | Atkarībā no jūsu ierīces |
 | **Mūsu avāriju ziņošanas pakalpojumu sniedzējs** | Tehniskā avāriju ziņošana — tikai programmas kļūdas, filtrētas pirms nosūtīšanas: nekad jūsu teksts | Amerikas Savienotās Valstis |
 
 **Mēs nepārdodam nekādus datus un nenododam tos datu brokeriem.**

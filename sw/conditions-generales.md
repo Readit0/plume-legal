@@ -1,6 +1,8 @@
 # Masharti ya jumla ya matumizi na ya mauzo — Plume
 
-**Sasisho la mwisho: 31 Julai 2026** — Toleo la 1.0
+**Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 1.1
+
+> *Kilichobadilika katika toleo la 1.1:* tunaeleza **Mawasiliano ya sauti**, mkalimani wa sauti wa Plume, na hali yake ya **AI Pro** (Vifungu vya 2 na 6). Tunaandika wazi kanuni mbili kuhusu mikopo ya usajili: ni **ya kila mwezi na haikusanywi** kutoka mwezi mmoja hadi mwingine (Kifungu cha 6), na usajili ukiwa **haujafanywa upya**, salio la mwezi wa mwisho linaendelea kutumika kwa **siku 7** kabla ya kufutwa (Kifungu cha 7). Mikopo iliyonunuliwa dukani, kwa upande mwingine, inabaki **kuwa yako milele** (Kifungu cha 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume ni zana ya kusaidia uandishi inayofanya kazi kwenye Android. Inakuwezesha:
 - **kuandika upya maandishi** unayoyaandika, moja kwa moja ndani ya programu unayoyaandikia, ukichagua mtindo ("persona");
 - **kutafsiri au kufupisha maandishi yanayoonyeshwa kwenye skrini**, na kupata pendekezo la jibu kwa ujumbe uliopokea;
 - kutumia **Usomaji Saidizi**, unaoweka tafsiri juu ya maandishi yanayoonyeshwa kwenye skrini;
-- **kuandika kwa sauti** badala ya kuandika kwa kibodi.
+- **kuandika kwa sauti** badala ya kuandika kwa kibodi;
+- kutumia **Mawasiliano ya sauti**, mkalimani wa sauti anayetafsiri kwa sauti mazungumzo kati ya watu wawili, au kwa maandishi (hali ya Kuandika).
 
 Kutegemea kifaa chako na chaguo lako, uchakataji hufanyika **ndani ya simu yako** au **kwenye seva za mbali**. Mzunguko kamili wa data yako umeelezwa katika sera yetu ya faragha: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Matumizi ya huduma yamewekewa kikomo, ili kudhibiti gharama ya uchakataji.
 - Wakati uchakataji unafanyika **ndani ya kifaa chako** (vifaa vinavyoendana na AI ya Ndani): **matumizi yasiyo na kikomo**, chini ya vikwazo vya kiufundi vya simu yako pekee (betri, joto).
 - Wakati uchakataji unafanyika **kwenye seva zetu**: matumizi yamewekewa kikomo kwa siku na kwa mwezi, kwa sababu kila wito una gharama halisi. *Hadi tarehe ya kuandikwa: 1,000 kwa siku na 9,000 kwa mwezi.*
 
+**Mikopo ya usajili ni ya kila mwezi na haikusanywi.** Mikopo ya mwezi mmoja ni halali hadi mwisho wa mwezi huo: kisichotumika **hakihamishwi** kwenda mwezi unaofuata, ambapo kihesabu kinaanza upya kutoka sifuri. Usajili usipofanywa upya, Kifungu cha 7 kinatumika.
+
+**Mawasiliano ya sauti.** Hali ya **Kifurushi cha ndani** ni ya bure: tafsiri hufanywa kwenye simu yako (kwenye ngazi ya bure, tangazo linaweza kuonekana mara kwa mara). Hali ya **AI Pro** imetengwa kwa wanaojisajili: kila tafsiri hutumia idadi **maalum** ya vipimo vya kiwango, kulingana na lugha ya kutafsiriwa kwenda — *hadi tarehe ya kuandikwa, kipimo 1, na 3 kwa lugha iliyowekewa alama ya PRO*. Gharama huonyeshwa kwenye programu kabla ya matumizi na **hukatwa moja kwa moja** baada ya kila tafsiri iliyofanikiwa; tafsiri iliyoshindwa haikatwi. Bila salio la kutosha, tafsiri ya AI Pro haifanyiki.
+
 **Mambo ya pamoja kwa ngazi zote:**
 
 - **Uchanganuzi wa skrini** (tafsiri au pendekezo la jibu) una gharama kubwa kuliko uandishi upya wa kawaida na hutumia **vipimo kadhaa vya kiwango** — kwa sasa 5.
@@ -102,6 +109,8 @@ Matumizi ya huduma yamewekewa kikomo, ili kudhibiti gharama ya uchakataji.
 
 **Mwisho wa usajili.** Muda ukiisha, akaunti yako inarudi kwenye ngazi ya bure. Hupotezi akaunti yako, wala persona zako, wala mipangilio yako.
 
+**Usajili wako usipofanywa upya, mikopo iliyobaki ina siku 7.** Salio la mikopo ya mwezi wako wa mwisho wa usajili linaendelea kutumika kwa **siku 7** tangu usajili ulipoisha; baada ya muda huo, **linafutwa kabisa**. Programu inakuarifu kwa ujumbe tangu mwanzo wa kipindi hiki, pamoja na salio na tarehe ya mwisho. Muda huu hautumiki endapo utarejeshewa pesa. Mikopo iliyonunuliwa dukani (Kifungu cha 8) **haihusiki**: inabaki kuwa yako.
+
 ---
 
 ## Kifungu cha 8 — Vifurushi na ununuzi wa kipande kimoja
@@ -110,7 +119,7 @@ Baadhi ya maudhui (vifurushi vya persona, mikopo ya kiwango cha ziada) huuzwa ki
 
 *Bei hadi tarehe ya kuandikwa: 2.99 € kwa kifurushi. Bei inayokufunga ni ile inayoonyeshwa wakati wa ununuzi.*
 
-Kifurushi kilichonunuliwa ni **chako milele** na kimeunganishwa na akaunti yako. Unakikuta tena unapoingia kwenye kifaa kingine, na kipengele cha "Rejesha ununuzi wangu" cha programu kinakuwezesha kukirudisha ikiwa ni lazima.
+Kifurushi kilichonunuliwa ni **chako milele** na kimeunganishwa na akaunti yako — tofauti na mikopo ya kila mwezi ya usajili (Vifungu vya 6 na 7), haiisha muda. Unakikuta tena unapoingia kwenye kifaa kingine, na kipengele cha "Rejesha ununuzi wangu" cha programu kinakuwezesha kukirudisha ikiwa ni lazima.
 
 Mikopo ya kiwango iliyonunuliwa hutumika **tu baada ya viwango vyako vya kipindi hicho kuisha**, ili usilipe mara mbili kwa matumizi yale yale.
 

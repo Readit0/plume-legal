@@ -1,6 +1,8 @@
 # Yleiset käyttö- ja myyntiehdot — Plume
 
-**Viimeksi päivitetty: 31. heinäkuuta 2026** — Versio 1.0
+**Viimeksi päivitetty: 1. lokakuuta 2026** — Versio 1.1
+
+> *Mikä on muuttunut versiossa 1.1:* kuvaamme **Äänikeskustelu**-toiminnon, Plumen äänitulkin, ja sen **AI Pro**-tilan (kohdat 2 ja 6). Kirjoitamme mustaa valkoisella kaksi tilauksen krediitteihin liittyvää sääntöä: ne ovat **kuukausikohtaisia eivätkä kerry** kuukaudesta toiseen (kohta 6), ja jos tilausta **ei uusita**, viimeisen kuukauden saldo pysyy käytettävissä **7 päivää**, ennen kuin se poistetaan (kohta 7). Kaupasta ostetut krediitit puolestaan **säilyvät lopullisesti ominasi** (kohta 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume on kirjoittamisen apuväline, joka toimii Androidilla. Sen avulla voit:
 - **kirjoittaa uudelleen tekstin**, jota olet kirjoittamassa, suoraan siinä sovelluksessa, jossa sen kirjoitat, valitsemalla tyylin (”persoona”);
 - **kääntää tai tiivistää näytöllä näkyvän tekstin** ja saada ehdotuksen vastaukseksi saapuneeseen viestiin;
 - käyttää **Lukuapua**, joka asettaa käännöksen näytöllä näkyvän tekstin päälle;
-- **sanella** tekstin kirjoittamisen sijaan.
+- **sanella** tekstin kirjoittamisen sijaan;
+- käyttää **Äänikeskustelu**-toimintoa, äänitulkkia, joka kääntää kahden ihmisen välisen keskustelun ääneen tai kirjallisesti (Kirjoitus-tila).
 
 Laitteestasi ja valinnastasi riippuen käsittely tapahtuu **puhelimessasi** tai **etäpalvelimilla**. Tietojesi tarkka kulku on kuvattu tietosuojaselosteessamme: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Palvelun käytöllä on yläraja, jotta käsittelyn kustannukset pysyvät hallin
 - Kun käsittely tapahtuu **laitteessasi** (laitteet, jotka ovat yhteensopivia paikallisen tekoälyn kanssa): **rajaton käyttö**, ainoana varauksena puhelimesi tekniset rajat (akku, lämpeneminen).
 - Kun käsittely tapahtuu **palvelimillamme**: käytöllä on päivä- ja kuukausikohtainen yläraja, koska jokaisesta kutsusta aiheutuu todellinen kustannus. *Tätä kirjoitettaessa: 1 000 päivässä ja 9 000 kuukaudessa.*
 
+**Tilauksen krediitit ovat kuukausikohtaisia eivätkä kerry.** Kuukauden krediitit ovat voimassa kyseisen kuukauden loppuun: käyttämätöntä osaa **ei siirretä** seuraavalle kuukaudelle, jolloin laskuri alkaa taas nollasta. Jos tilausta ei uusita, sovelletaan kohtaa 7.
+
+**Äänikeskustelu.** **Paikallinen paketti**-tila on maksuton: käännös tehdään puhelimessasi (maksuttomalla tasolla mainos voi näkyä silloin tällöin). **AI Pro**-tila on varattu tilaajille: jokainen käännös kuluttaa **kiinteän** määrän kiintiöyksikköjä kohdekielen mukaan — *tätä kirjoitettaessa 1 yksikkö, ja 3 PRO-merkityllä kielellä*. Hinta näytetään sovelluksessa ennen käyttöä, ja se **veloitetaan automaattisesti** jokaisesta onnistuneesta käännöksestä; epäonnistunutta käännöstä ei veloiteta. Jos saldo ei riitä, AI Pro-käännöstä ei suoriteta.
+
 **Kaikille tasoille yhteistä:**
 
 - **Näytön analyysi** (käännös tai vastausehdotus) on kalliimpi kuin pelkkä uudelleenkirjoitus ja kuluttaa **useita kiintiöyksikköjä** — tällä hetkellä 5.
@@ -102,6 +109,8 @@ Palvelun käytöllä on yläraja, jotta käsittelyn kustannukset pysyvät hallin
 
 **Tilauksen päättyminen.** Määräajan päättyessä tilisi palaa maksuttomalle tasolle. Et menetä tiliäsi, persooniasi etkä asetuksiasi.
 
+**Jos tilaustasi ei uusita, jäljellä olevilla krediiteillä on 7 päivää.** Viimeisen tilauskuukautesi krediittisaldo pysyy käytettävissä **7 päivän** ajan tilauksen päättymisestä; sen jälkeen se **poistetaan lopullisesti**. Sovellus ilmoittaa asiasta viestillä heti tämän jakson alussa, saldon ja määräpäivän kera. Tätä määräaikaa ei sovelleta hyvityksen yhteydessä. Kaupasta ostetut krediitit (kohta 8) **eivät kuulu tähän**: ne säilyvät ominasi.
+
 ---
 
 ## Kohta 8 — Paketit ja kertaostot
@@ -110,7 +119,7 @@ Osa sisällöistä (persoonapaketit, kiintiön lisäkrediitit) myydään kappale
 
 *Hinta tätä kirjoitettaessa: 2,99 € paketilta. Sinua sitova hinta on se, joka näytetään ostohetkellä.*
 
-Ostettu paketti on **hankittu lopullisesti** ja liitetty tiliisi. Löydät sen uudelleen kirjautumalla toisella laitteella, ja sovelluksen toiminto ”Palauta ostokset” antaa sinun hakea sen tarvittaessa takaisin.
+Ostettu paketti on **hankittu lopullisesti** ja liitetty tiliisi — toisin kuin tilauksen kuukausikrediitit (kohdat 6 ja 7), se ei vanhene. Löydät sen uudelleen kirjautumalla toisella laitteella, ja sovelluksen toiminto ”Palauta ostokset” antaa sinun hakea sen tarvittaessa takaisin.
 
 Ostettuja kiintiökrediittejä käytetään **vasta, kun jakson kiintiösi on käytetty loppuun**, jotta et koskaan maksa samasta käytöstä kahdesti.
 

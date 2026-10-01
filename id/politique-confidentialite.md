@@ -1,6 +1,8 @@
 # Kebijakan Privasi Plume
 
-**Terakhir diperbarui: 1 Oktober 2026** — Versi 2.1
+**Terakhir diperbarui: 1 Oktober 2026** — Versi 2.2
+
+> *Apa yang berubah pada versi 2.2:* kami menjelaskan **Komunikasi audio**, penerjemah suara Plume, yang belum ada di versi 2.1: apa yang tetap di ponsel Anda, apa yang keluar dalam mode AI Pro, dan pembacaan dengan suara keras oleh mesin sintesis suara ponsel (lihat §4.1 dan §9).
 
 > *Apa yang berubah pada versi 2.1:* kami menjelaskan **mode Kamuflase**, yang tidak disebutkan oleh versi 2.0, dan kami mengoreksi satu pernyataan yang tidak lagi akurat: baik untuk bahasa pribadi maupun untuk Kamuflase, **kata-kata dalam pesan Anda yang belum ada di kosakata Anda disimpan, satu per satu** — tidak pernah kalimatnya — agar kami dapat mengusulkan kepada Anda untuk menambahkannya. Rinciannya ada di «Dalam satu menit», di §2.2, dan di §3. Kami juga mengoreksi kesalahan kedua: **persona kustom Anda beserta avatarnya disimpan di server kami** — keduanya tidak hanya berada di ponsel Anda (lihat §3).
 
@@ -142,6 +144,16 @@ Sebuah tombol mikrofon memungkinkan Anda mendikte alih-alih mengetik. Izin akses
 
 Jika Anda menolak izin mikrofon, pengetikan melalui papan ketik tentu saja tetap tersedia.
 
+### 4.1 Komunikasi audio (penerjemah suara)
+
+Komunikasi audio menerjemahkan percakapan antara dua orang dengan suara keras. **Mikrofon hanya terbuka saat Anda menyentuh bola**, dan menutup di akhir setiap kalimat.
+
+- **Ucapan** ditranskripsikan oleh mesin pengenalan suara ponsel yang sama dengan dikte, dengan batasan yang sama seperti di atas. **Plume hanya menerima teks, tidak pernah audio.** Jika modul luring suatu bahasa tidak ada, Plume meminta ponsel mengunduhnya; sementara itu, mesin ponsel dapat mentranskripsi secara daring.
+- **Dalam mode Kit lokal** (gratis), penerjemahan dilakukan **di ponsel Anda**.
+- **Dalam mode AI Pro** (pelanggan), teks hasil transkripsi dikirim ke server kami lalu ke penyedia pemrosesan AI kami, yang memperbaiki kesalahan pendengaran dan menerjemahkannya — melalui jalur yang sama seperti di §2.2. **Kami tidak menyimpan teks maupun terjemahannya.**
+- **Pembacaan dengan suara keras** dilakukan oleh mesin sintesis suara ponsel (umumnya milik Google). Dalam kedua mode, Plume meminta **suara daring**-nya yang lebih alami: teks terjemahan lalu dikirim ke penerbitnya untuk diucapkan. Saat luring, suara yang terpasang di ponsel mengambil alih.
+- **Riwayat percakapan tetap di ponsel Anda** dan hilang saat Anda meninggalkan layar. Hanya pasangan bahasa yang dipilih, mesin yang dipilih, dan jumlah percakapan (untuk iklan tingkat gratis) yang disimpan di perangkat.
+
 ---
 
 ## 5. Periklanan
@@ -199,7 +211,7 @@ Karena aplikasi ini memungkinkan penyusunan ulang teks bebas dan menampilkan ikl
 | **Penyedia pemrosesan AI kami** | Perutean permintaan dan pemrosesan teks oleh sebuah model kecerdasan buatan pihak ketiga | **Di luar Uni Eropa** |
 | **Google Play / Google Billing** | Pembayaran, langganan | Google Ireland / Amerika Serikat |
 | **Google AdMob** | Iklan berhadiah | Google Ireland / Amerika Serikat |
-| **Google (layanan sistem ponsel)** | Pengenalan suara, modul terjemahan luring | Sesuai perangkat Anda |
+| **Google (layanan sistem ponsel)** | Pengenalan suara, sintesis suara (pembacaan suara keras Komunikasi audio), modul terjemahan luring | Sesuai perangkat Anda |
 | **Penyedia pelaporan kerusakan kami** | Pelaporan kerusakan teknis — hanya kesalahan program, disaring sebelum dikirim: tidak pernah teks Anda | Amerika Serikat |
 
 **Kami tidak menjual data apa pun dan tidak menyerahkan data apa pun kepada pialang data.**

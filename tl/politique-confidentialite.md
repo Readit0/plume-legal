@@ -1,6 +1,8 @@
 # Patakaran sa Privacy ng Plume
 
-**Huling na-update: 1 Oktubre 2026** — Bersyon 2.1
+**Huling na-update: 1 Oktubre 2026** — Bersyon 2.2
+
+> *Ang nagbago sa bersyon 2.2:* inilalarawan namin ang **Audio na komunikasyon**, ang voice interpreter ng Plume, na wala sa bersyon 2.1: kung ano ang nananatili sa inyong telepono, kung ano ang lumalabas sa AI Pro mode, at ang pagbasa nang malakas ng speech synthesis engine ng telepono (tingnan ang §4.1 at §9).
 
 > *Ang nagbago sa bersyon 2.1:* inilalarawan namin ang **mode na Nakatago**, na hindi binanggit ng bersyon 2.0, at itinatama namin ang isang pahayag na hindi na tumpak: para sa mga personal na wika at para sa Nakatago, **ang mga salita sa inyong mga mensahe na wala pa sa inyong bokabularyo ay iniimbak, isa-isa** — hindi kailanman ang pangungusap — upang maimungkahi naming idagdag ninyo ang mga ito. Nasa «Sa loob ng isang minuto», sa §2.2 at sa §3 ang detalye. Itinatama rin namin ang ikalawang pagkakamali: **ang inyong mga custom na persona at ang kanilang mga avatar ay naka-back up sa aming mga server** — hindi lamang sa inyong telepono ang mga ito nananatili (tingnan ang §3).
 
@@ -142,6 +144,16 @@ May isang microphone button na nagbibigay-daan sa inyong magdikta sa halip na ma
 
 Kung tatanggihan ninyo ang permission ng mikropono, nananatiling magagamit siyempre ang pag-type sa keyboard.
 
+### 4.1 Audio na komunikasyon (ang voice interpreter)
+
+Isinasalin ng Audio na komunikasyon nang malakas ang usapan ng dalawang tao. **Bubukas lamang ang mikropono kapag hinawakan ninyo ang bola**, at namamatay ito sa dulo ng bawat pangungusap.
+
+- **Ang pagsasalita** ay isinusulat ng parehong speech recognition engine ng telepono tulad ng dictation, na may parehong mga paalala sa itaas. **Teksto lamang ang natatanggap ng Plume, hindi kailanman ang audio.** Kung wala ang offline na module ng isang wika, hihilingin ng Plume sa telepono na i-download ito; sa pansamantala, maaaring magsulat ang engine ng telepono online.
+- **Sa Lokal na kit mode** (libre), ang pagsasalin ay ginagawa **sa inyong telepono**.
+- **Sa AI Pro mode** (mga subscriber), ipinapadala ang naisulat na teksto sa aming mga server at pagkatapos ay sa aming provider ng pagpoproseso gamit ang artificial intelligence, na nag-aayos ng mga pagkakamali sa pakikinig at nagsasalin nito — sa parehong daanan tulad ng sa §2.2. **Hindi namin iniimbak ang teksto o ang salin nito.**
+- **Ang pagbasa nang malakas** ay ginagawa ng speech synthesis engine ng telepono (karaniwan ay ang sa Google). Sa dalawang mode, hinihingi ng Plume sa engine na ito ang mas natural nitong **online na mga boses**: ipinapadala noon ang isinaling teksto sa publisher nito upang bigkasin. Kapag offline, ang boses na naka-install sa telepono ang pumapalit.
+- **Nananatili sa inyong telepono ang kasaysayan ng usapan** at nawawala ito kapag umalis kayo sa screen. Tanging ang napiling pares ng wika, ang napiling engine at ang bilang ng mga usapan (para sa ad ng libreng antas) ang naaalala sa device.
+
 ---
 
 ## 5. Advertising
@@ -199,7 +211,7 @@ Dahil pinapayagan ng application ang pag-rephrase ng malayang teksto at nagpapak
 | **Ang aming provider ng AI processing** | Pagruruta ng mga request at pagproseso ng teksto ng isang third-party na modelo ng artificial intelligence | **Labas ng European Union** |
 | **Google Play / Google Billing** | Bayad, mga subscription | Google Ireland / Estados Unidos |
 | **Google AdMob** | Rewarded advertising | Google Ireland / Estados Unidos |
-| **Google (mga system service ng telepono)** | Speech recognition, mga offline na translation module | Depende sa inyong device |
+| **Google (mga system service ng telepono)** | Speech recognition, speech synthesis (pagbasa nang malakas ng Audio na komunikasyon), mga offline na translation module | Depende sa inyong device |
 | **Ang aming provider ng crash reporting** | Teknikal na crash reporting — mga error lamang ng programa, sinala bago ipadala: hindi kailanman ang inyong teksto | Estados Unidos |
 
 **Wala kaming ibinebentang anumang datos at wala kaming ibinibigay na anuman sa mga data broker.**

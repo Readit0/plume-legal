@@ -1,6 +1,8 @@
 # Condizioni generali di utilizzo e di vendita — Plume
 
-**Ultimo aggiornamento: 31 luglio 2026** — Versione 1.0
+**Ultimo aggiornamento: 1° ottobre 2026** — Versione 1.1
+
+> *Cosa è cambiato nella versione 1.1:* descriviamo **Comunicazione audio**, l'interprete vocale di Plume, e la sua modalità **IA Pro** (Articoli 2 e 6). Scriviamo nero su bianco due regole sui crediti dell'abbonamento: sono **mensili e non si cumulano** da un mese all'altro (Articolo 6), e se l'abbonamento **non viene rinnovato**, il saldo dell'ultimo mese resta utilizzabile per **7 giorni** prima di essere cancellato (Articolo 7). I crediti acquistati nello store restano invece **acquisiti definitivamente** (Articolo 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume è uno strumento di ausilio alla scrittura che funziona su Android. Le con
 - di **riformulare un testo** che sta scrivendo, direttamente nell'applicazione in cui lo scrive, scegliendo uno stile («persona»);
 - di **tradurre o riassumere il testo visualizzato sullo schermo**, e di ottenere una proposta di risposta a un messaggio ricevuto;
 - di utilizzare la **Lettura Assistita**, che sovrappone una traduzione al testo visualizzato sullo schermo;
-- di **dettare** un testo invece di digitarlo.
+- di **dettare** un testo invece di digitarlo;
+- di utilizzare **Comunicazione audio**, un interprete vocale che traduce ad alta voce una conversazione tra due persone, oppure per iscritto (modalità Scrittura).
 
 A seconda del suo dispositivo e della sua scelta, il trattamento avviene **sul suo telefono** oppure **su server remoti**. La circolazione esatta dei suoi dati è descritta nella nostra informativa sulla privacy: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ L'utilizzo del servizio ha un limite massimo, per tenere sotto controllo il cost
 - Quando il trattamento avviene **sul suo dispositivo** (dispositivi compatibili con l'IA locale): **utilizzo illimitato**, con la sola riserva dei limiti tecnici del suo telefono (batteria, surriscaldamento).
 - Quando il trattamento avviene **sui nostri server**: l'utilizzo ha un limite massimo giornaliero e mensile, perché ogni chiamata ha un costo reale. *Alla data di redazione: 1.000 al giorno e 9.000 al mese.*
 
+**I crediti dell'abbonamento sono mensili e non si cumulano.** I crediti di un mese sono validi fino alla fine di quel mese: ciò che non è stato utilizzato **non viene riportato** al mese successivo, in cui il contatore riparte da zero. Se l'abbonamento non viene rinnovato, si applica l'Articolo 7.
+
+**Comunicazione audio.** La modalità **Kit locale** è gratuita: la traduzione avviene sul suo telefono (nel livello gratuito, ogni tanto può comparire una pubblicità). La modalità **IA Pro** è riservata agli abbonati: ogni traduzione consuma un numero **fisso** di unità di quota, in base alla lingua di destinazione — *alla data di redazione, 1 unità, e 3 per una lingua contrassegnata PRO*. Il costo è indicato nell'applicazione prima dell'uso e **addebitato automaticamente** dopo ogni traduzione riuscita; una traduzione che fallisce non viene addebitata. Senza un saldo sufficiente, la traduzione IA Pro non viene eseguita.
+
 **Punti comuni a tutti i livelli:**
 
 - Un'**analisi dello schermo** (traduzione o proposta di risposta) è più costosa di una semplice riformulazione e consuma **più unità di quota** — attualmente 5.
@@ -102,6 +109,8 @@ L'utilizzo del servizio ha un limite massimo, per tenere sotto controllo il cost
 
 **Fine dell'abbonamento.** Alla scadenza, il suo account torna al livello gratuito. Non perde né il suo account, né i suoi persona, né le sue impostazioni.
 
+**Se il suo abbonamento non viene rinnovato, i suoi crediti residui hanno 7 giorni.** Il saldo di crediti del suo ultimo mese di abbonamento resta utilizzabile per **7 giorni** a partire dalla fine dell'abbonamento; trascorso tale termine, viene **cancellato definitivamente**. L'applicazione la avvisa con un messaggio fin dall'inizio di questo periodo, con il saldo e la data limite. Questo termine non si applica in caso di rimborso. I crediti acquistati nello store (Articolo 8) **non sono interessati**: restano acquisiti.
+
 ---
 
 ## Articolo 8 — Pacchetti e acquisti singoli
@@ -110,7 +119,7 @@ Alcuni contenuti (pacchetti di persona, crediti di quota supplementari) sono ven
 
 *Tariffa alla data di redazione: 2,99 € per pacchetto. Il prezzo che la vincola è quello indicato al momento dell'acquisto.*
 
-Un pacchetto acquistato è **acquisito definitivamente** e collegato al suo account. Lo ritrova accedendo nuovamente da un altro dispositivo, e la funzione «Ripristina gli acquisti» dell'applicazione le consente di recuperarlo se necessario.
+Un pacchetto acquistato è **acquisito definitivamente** e collegato al suo account — a differenza dei crediti mensili dell'abbonamento (Articoli 6 e 7), non scade. Lo ritrova accedendo nuovamente da un altro dispositivo, e la funzione «Ripristina gli acquisti» dell'applicazione le consente di recuperarlo se necessario.
 
 I crediti di quota acquistati vengono utilizzati **solo una volta esaurite le sue quote del periodo**, affinché lei non paghi mai due volte lo stesso utilizzo.
 

@@ -1,6 +1,8 @@
 # Beartas Príobháideachais Plume
 
-**Nuashonrú deireanach: 1 Deireadh Fómhair 2026** — Leagan 2.1
+**Nuashonrú deireanach: 1 Deireadh Fómhair 2026** — Leagan 2.2
+
+> *A bhfuil athraithe i leagan 2.2:* déanaimid cur síos ar **Cumarsáid fhuaime**, ateangaire gutha Plume, nach raibh ann i leagan 2.1: an méid a fhanann ar do ghuthán, an méid a imíonn i mód AI Pro, agus an léamh os ard ag inneall sintéise cainte an ghutháin (féach §4.1 agus §9).
 
 > *A bhfuil athraithe i leagan 2.1:* déanaimid cur síos ar an **mód Duaithníochta**, nár luaigh leagan 2.0, agus ceartaímid ráiteas nach raibh cruinn a thuilleadh: do theangacha pearsanta agus don Duaithníocht araon, **coinnítear na focail i do theachtaireachtaí atá fós ar iarraidh i do fhoclóir, ceann ar cheann** — ní an abairt riamh — ionas gur féidir moladh a dhéanamh duit iad a chur leis. Tá na sonraí in «In aon nóiméad amháin», ag §2.2 agus ag §3. Ceartaímid dara earráid freisin: **déantar do chuid personaí saincheaptha agus a n-abhatáir a chúltaca ar ár bhfreastalaithe** — ní fhanann siad ar do ghuthán amháin (féach §3).
 
@@ -134,6 +136,16 @@ Ligeann cnaipe micreafóin duit deachtú in ionad clóscríobh. Iarrtar an cead 
 
 Má dhiúltaíonn tú don chead micreafóin, fanann an iontráil tríd an méarchlár ar fáil, ar ndóigh.
 
+### 4.1 Cumarsáid fhuaime (an t-ateangaire guthach)
+
+Aistríonn Cumarsáid fhuaime comhrá idir beirt os ard. **Ní osclaítear an micreafón ach nuair a leagann tú do mhéar ar an mbóilín**, agus múchtar é ag deireadh gach abairte.
+
+- **Déantar an chaint** a thras-scríobh leis an inneall céanna aitheanta cainte ar an nguthán agus a úsáidtear don deachtú, faoi na gcúinsí céanna thuas. **Ní fhaigheann Plume ach an téacs, riamh an fhuaim.** Má tá modúl as líne teanga ar iarraidh, iarrann Plume ar an nguthán é a íoslódáil; idir an dá linn, féadfaidh inneall an ghutháin trasscríobh ar líne.
+- **Sa mhód Kit áitiúil** (saor in aisce), déantar an t-aistriúchán **ar do ghuthán**.
+- **Sa mhód AI Pro** (síntiúsóirí), seoltar an téacs trasscríofa chuig ár bhfreastalaithe agus ansin chuig ár soláthraí próiseála IS, a cheartaíonn na hearráidí éisteachta agus a aistríonn é — tríd an mbealach céanna agus i §2.2. **Ní choinnímid ná an téacs ná a aistriúchán.**
+- **Déanann inneall sintéise cainte an ghutháin** an léamh os ard (go ginearálta ceann Google). Sa dá mhód, iarrann Plume ar an inneall sin a **ghutha ar líne**, atá níos nádúrtha: seoltar an téacs aistrithe ansin chuig a fhoilsitheoir le go ndéanfar é a fhuaimniú. As líne, glacann guth atá suiteáilte ar an nguthán an áit.
+- **Fanann stair an chomhrá ar do ghuthán** agus imíonn sí nuair a fhágann tú an scáileán. Ní chuimhnítear ar an ngléas ach an péire teangacha roghnaithe, an t-inneall roghnaithe agus líon na gcomhrán (do fhógraíocht an leibhéil shaor in aisce).
+
 ---
 
 ## 5. Fógraíocht
@@ -191,7 +203,7 @@ Toisc go gceadaíonn an feidhmchlár téacs saor a athfhoclú agus go dtaispeán
 | **Ár soláthraí próiseála IS** | Ródú na n-iarratas agus próiseáil an téacs ag múnla intleachta saorga tríú páirtí | **Lasmuigh den Aontas Eorpach** |
 | **Google Play / Google Billing** | Íocaíocht, síntiúis | Google Ireland / Stáit Aontaithe Mheiriceá |
 | **Google AdMob** | Fógraíocht luaíochta | Google Ireland / Stáit Aontaithe Mheiriceá |
-| **Google (seirbhísí córais an ghutháin)** | Aithint chainte, modúil aistriúcháin as líne | De réir do ghléis |
+| **Google (seirbhísí córais an ghutháin)** | Aithint chainte, sintéis chainte (léamh os ard do Cumarsáid fhuaime), modúil aistriúcháin as líne | De réir do ghléis |
 | **Ár soláthraí tuairiscithe tuairte** | Tuairisciú teicniúil tuairte — earráidí ríomhchláir amháin, scagtha sula seoltar iad: ní do théacs riamh | Stáit Aontaithe Mheiriceá |
 
 **Ní dhíolaimid aon sonraí agus ní thugaimid aon sonraí do bhróicéirí sonraí.**

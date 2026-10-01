@@ -1,6 +1,8 @@
 # Privacybeleid van Plume
 
-**Laatst bijgewerkt: 1 oktober 2026** — Versie 2.1
+**Laatst bijgewerkt: 1 oktober 2026** — Versie 2.2
+
+> *Wat er in versie 2.2 is veranderd:* wij beschrijven **Audiocommunicatie**, de stemtolk van Plume, die in versie 2.1 niet bestond: wat er op uw telefoon blijft, wat er in de modus AI Pro wordt verstuurd, en het voorlezen door de spraaksynthese-engine van de telefoon (zie §4.1 en §9).
 
 > *Wat er in versie 2.1 is veranderd:* wij beschrijven de **Camouflagemodus**, die versie 2.0 niet vermeldde, en wij corrigeren een bewering die onjuist was geworden: zowel bij persoonlijke talen als bij Camouflage **worden de woorden uit uw berichten die nog in uw lexicon ontbreken, één voor één bewaard** — nooit de zin — om u te kunnen voorstellen ze toe te voegen. De details staan onder „In één minuut”, in §2.2 en in §3. Ook corrigeren wij een tweede fout: **uw eigen persona's en hun avatars worden op onze servers bewaard** — ze blijven niet alleen op uw telefoon (zie §3).
 
@@ -134,6 +136,16 @@ Met een microfoonknop kunt u dicteren in plaats van typen. De machtiging voor to
 
 Als u de microfoonmachtiging weigert, blijft invoer via het toetsenbord uiteraard beschikbaar.
 
+### 4.1 Audiocommunicatie (de stemtolk)
+
+Audiocommunicatie vertaalt een gesprek tussen twee personen hardop. **De microfoon gaat alleen open wanneer u de bol aanraakt**, en gaat aan het einde van elke zin weer dicht.
+
+- **Spraak** wordt omgezet in tekst door dezelfde spraakherkenningsengine van de telefoon als bij dictaat, met dezelfde voorbehouden als hierboven. **Plume ontvangt alleen de tekst, nooit het geluid.** Ontbreekt de offlinemodule van een taal, dan vraagt Plume de telefoon die te downloaden; intussen kan de engine van de telefoon online transcriberen.
+- **In de modus Lokale kit** (gratis) gebeurt de vertaling **op uw telefoon**.
+- **In de modus AI Pro** (abonnees) wordt de getranscribeerde tekst naar onze servers gestuurd en vervolgens naar onze verwerkingsdienst voor AI, die luisterfouten corrigeert en de tekst vertaalt — via hetzelfde pad als in §2.2. **Wij bewaren noch de tekst, noch de vertaling.**
+- **Het voorlezen** gebeurt door de spraaksynthese-engine van de telefoon (meestal die van Google). In beide modi vraagt Plume de engine om zijn natuurlijkere **onlinestemmen**: de vertaalde tekst wordt dan doorgegeven aan de uitgever ervan om te worden uitgesproken. Zonder verbinding neemt een op de telefoon geïnstalleerde stem het over.
+- **De gespreksgeschiedenis blijft op uw telefoon** en verdwijnt zodra u het scherm verlaat. Alleen het gekozen taalpaar, de gekozen engine en het aantal gesprekken (voor de advertenties van de gratis laag) worden op het toestel onthouden.
+
 ---
 
 ## 5. Advertenties
@@ -191,7 +203,7 @@ Omdat de app het herschrijven van vrije tekst mogelijk maakt en advertenties too
 | **Onze dienstverlener voor AI-verwerking** | Doorsturen van de aanvragen en verwerking van de tekst door een AI-model van een derde partij | **Buiten de Europese Unie** |
 | **Google Play / Google Billing** | Betaling, abonnementen | Google Ireland / Verenigde Staten |
 | **Google AdMob** | Beloonde advertenties | Google Ireland / Verenigde Staten |
-| **Google (systeemdiensten van de telefoon)** | Spraakherkenning, offline vertaalmodules | Afhankelijk van uw apparaat |
+| **Google (systeemdiensten van de telefoon)** | Spraakherkenning, spraaksynthese (voorlezen voor Audiocommunicatie), offline vertaalmodules | Afhankelijk van uw apparaat |
 | **Onze dienstverlener voor crashrapportage** | Technische crashrapportage — uitsluitend programmafouten, gefilterd vóór verzending: nooit uw tekst | Verenigde Staten |
 
 **Wij verkopen geen enkel gegeven en dragen er geen enkel over aan datahandelaren.**

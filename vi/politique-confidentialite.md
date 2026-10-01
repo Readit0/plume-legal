@@ -1,6 +1,8 @@
 # Chính sách quyền riêng tư của Plume
 
-**Cập nhật lần cuối: ngày 1 tháng 10 năm 2026** — Phiên bản 2.1
+**Cập nhật lần cuối: ngày 1 tháng 10 năm 2026** — Phiên bản 2.2
+
+> *Những gì đã thay đổi trong phiên bản 2.2:* chúng tôi mô tả **Giao tiếp bằng giọng nói**, thông dịch viên giọng nói của Plume, vốn chưa có trong phiên bản 2.1: những gì ở lại trên điện thoại của bạn, những gì được gửi đi ở chế độ AI Pro, và việc đọc thành tiếng bằng bộ tổng hợp giọng nói của điện thoại (xem §4.1 và §9).
 
 > *Những gì đã thay đổi trong phiên bản 2.1:* chúng tôi mô tả **chế độ Ngụy trang** mà phiên bản 2.0 không đề cập, và chúng tôi sửa một khẳng định đã không còn chính xác: đối với các ngôn ngữ cá nhân cũng như đối với Ngụy trang, **những từ trong tin nhắn của bạn mà từ điển của bạn còn thiếu được lưu giữ từng từ một** — không bao giờ lưu cả câu — để có thể đề xuất bạn thêm chúng vào. Chi tiết nằm ở mục « Trong một phút », ở §2.2 và ở §3. Chúng tôi cũng sửa một sai sót thứ hai: **các persona bạn tự tạo cùng ảnh đại diện của chúng được sao lưu trên máy chủ của chúng tôi** — chúng không chỉ nằm trên điện thoại của bạn (xem §3).
 
@@ -142,6 +144,16 @@ Một nút micrô cho phép bạn đọc thay vì gõ. Quyền truy cập micrô
 
 Nếu bạn từ chối quyền micrô, việc nhập liệu bằng bàn phím dĩ nhiên vẫn dùng được.
 
+### 4.1 Giao tiếp bằng giọng nói (thông dịch viên giọng nói)
+
+Giao tiếp bằng giọng nói dịch thành lời cuộc trò chuyện giữa hai người. **Micro chỉ mở khi bạn chạm vào quả cầu**, và tắt khi kết thúc mỗi câu.
+
+- **Lời nói** được chép lại bởi chính bộ nhận dạng giọng nói của điện thoại dùng cho nhập liệu bằng giọng nói, với các lưu ý tương tự như trên. **Plume chỉ nhận văn bản, không bao giờ nhận âm thanh.** Nếu thiếu gói ngoại tuyến của một ngôn ngữ, Plume yêu cầu điện thoại tải về; trong lúc đó, bộ máy của điện thoại có thể chép lời trực tuyến.
+- **Ở chế độ Bộ cục bộ** (miễn phí), việc dịch diễn ra **trên điện thoại của bạn**.
+- **Ở chế độ AI Pro** (người đăng ký), văn bản đã chép được gửi đến máy chủ của chúng tôi rồi đến nhà cung cấp xử lý bằng trí tuệ nhân tạo của chúng tôi, đơn vị này sửa lỗi nghe nhầm và dịch văn bản — theo cùng đường đi như ở §2.2. **Chúng tôi không lưu giữ văn bản lẫn bản dịch.**
+- **Việc đọc thành tiếng** do bộ tổng hợp giọng nói của điện thoại thực hiện (thường là của Google). Ở cả hai chế độ, Plume yêu cầu bộ này dùng **giọng trực tuyến** tự nhiên hơn: văn bản đã dịch khi đó được chuyển cho nhà phát hành của nó để đọc. Khi ngoại tuyến, một giọng đã cài trên điện thoại sẽ thay thế.
+- **Lịch sử cuộc trò chuyện ở lại trên điện thoại của bạn** và biến mất khi bạn rời màn hình. Trên thiết bị chỉ lưu cặp ngôn ngữ đã chọn, chế độ đã chọn và số cuộc trò chuyện (cho quảng cáo của bậc miễn phí).
+
 ---
 
 ## 5. Quảng cáo
@@ -199,7 +211,7 @@ Vì ứng dụng cho phép viết lại văn bản tự do và có hiển thị 
 | **Nhà cung cấp dịch vụ xử lý bằng AI của chúng tôi** | Định tuyến các yêu cầu và xử lý văn bản bằng một mô hình trí tuệ nhân tạo của bên thứ ba | **Ngoài Liên minh châu Âu** |
 | **Google Play / Google Billing** | Thanh toán, gói đăng ký | Google Ireland / Hoa Kỳ |
 | **Google AdMob** | Quảng cáo có thưởng | Google Ireland / Hoa Kỳ |
-| **Google (các dịch vụ hệ thống của điện thoại)** | Nhận dạng giọng nói, các gói dịch ngoại tuyến | Tùy theo thiết bị của bạn |
+| **Google (các dịch vụ hệ thống của điện thoại)** | Nhận dạng giọng nói, tổng hợp giọng nói (đọc thành tiếng của Giao tiếp bằng giọng nói), các gói dịch ngoại tuyến | Tùy theo thiết bị của bạn |
 | **Nhà cung cấp dịch vụ báo cáo sự cố của chúng tôi** | Báo cáo sự cố kỹ thuật — chỉ các lỗi chương trình, đã được lọc trước khi gửi: không bao giờ là văn bản của bạn | Hoa Kỳ |
 
 **Chúng tôi không bán bất kỳ dữ liệu nào và không nhượng bất kỳ dữ liệu nào cho các bên môi giới dữ liệu.**

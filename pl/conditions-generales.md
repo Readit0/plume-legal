@@ -1,6 +1,8 @@
 # Ogólne warunki korzystania i sprzedaży — Plume
 
-**Ostatnia aktualizacja: 31 lipca 2026 r.** — Wersja 1.0
+**Ostatnia aktualizacja: 1 października 2026 r.** — Wersja 1.1
+
+> *Co się zmieniło w wersji 1.1:* opisujemy **Komunikację głosową**, tłumacza głosowego Plume, oraz jej tryb **AI Pro** (Artykuły 2 i 6). Wprost zapisujemy dwie zasady dotyczące kredytów z subskrypcji: są **miesięczne i nie kumulują się** z miesiąca na miesiąc (Artykuł 6), a jeśli subskrypcja **nie zostanie odnowiona**, saldo z ostatniego miesiąca pozostaje do wykorzystania przez **7 dni**, zanim zostanie usunięte (Artykuł 7). Kredyty kupione w sklepie natomiast pozostają **nabyte na stałe** (Artykuł 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume jest narzędziem wspomagającym pisanie, działającym w systemie Android.
 - **przeformułować tekst**, który właśnie piszesz, bezpośrednio w aplikacji, w której go piszesz, przy wyborze stylu („persona”);
 - **przetłumaczyć lub streścić tekst wyświetlany na ekranie** oraz uzyskać propozycję odpowiedzi na otrzymaną wiadomość;
 - korzystać z **Czytania Wspomaganego**, które nakłada tłumaczenie na tekst wyświetlany na ekranie;
-- **dyktować** tekst zamiast go pisać.
+- **dyktować** tekst zamiast go pisać;
+- korzystać z **Komunikacji głosowej**, tłumacza głosowego, który na głos tłumaczy rozmowę dwóch osób lub tłumaczy pisemnie (tryb Pisanie).
 
 Zależnie od Twojego urządzenia i Twojego wyboru przetwarzanie odbywa się **w Twoim telefonie** albo **na serwerach zdalnych**. Dokładny obieg Twoich danych jest opisany w naszej polityce prywatności: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Korzystanie z usługi jest limitowane, aby zapanować nad kosztem przetwarzania.
 - Gdy przetwarzanie odbywa się **na Twoim urządzeniu** (urządzenia zgodne z Lokalną AI): **użycie nieograniczone**, z jedynym zastrzeżeniem ograniczeń technicznych Twojego telefonu (bateria, nagrzewanie).
 - Gdy przetwarzanie odbywa się **na naszych serwerach**: użycie jest limitowane dziennie i miesięcznie, ponieważ każde wywołanie ma rzeczywisty koszt. *Na dzień sporządzenia dokumentu: 1 000 dziennie i 9 000 miesięcznie.*
 
+**Kredyty z subskrypcji są miesięczne i nie kumulują się.** Kredyty z danego miesiąca są ważne do końca tego miesiąca: niewykorzystane **nie są przenoszone** na kolejny miesiąc, w którym licznik zaczyna od zera. Jeśli subskrypcja nie zostanie odnowiona, stosuje się Artykuł 7.
+
+**Komunikacja głosowa.** Tryb **Zestaw lokalny** jest bezpłatny: tłumaczenie odbywa się na Twoim telefonie (w poziomie bezpłatnym od czasu do czasu może się wyświetlić reklama). Tryb **AI Pro** jest zarezerwowany dla subskrybentów: każde tłumaczenie zużywa **stałą** liczbę jednostek limitu, zależnie od języka docelowego — *na dzień sporządzenia 1 jednostkę, a 3 dla języka oznaczonego PRO*. Koszt jest wskazany w aplikacji przed użyciem i **pobierany automatycznie** po każdym udanym tłumaczeniu; nieudane tłumaczenie nie jest pobierane. Bez wystarczającego salda tłumaczenie AI Pro nie jest wykonywane.
+
 **Elementy wspólne dla wszystkich poziomów:**
 
 - **Analiza ekranu** (tłumaczenie lub propozycja odpowiedzi) jest bardziej kosztowna niż zwykłe przeformułowanie i zużywa **kilka jednostek limitu** — obecnie 5.
@@ -102,6 +109,8 @@ Korzystanie z usługi jest limitowane, aby zapanować nad kosztem przetwarzania.
 
 **Zakończenie subskrypcji.** Po jej wygaśnięciu Twoje konto wraca na poziom bezpłatny. Nie tracisz ani konta, ani swoich person, ani swoich ustawień.
 
+**Jeśli Twoja subskrypcja nie zostanie odnowiona, pozostałe kredyty mają 7 dni.** Saldo kredytów z Twojego ostatniego miesiąca subskrypcji pozostaje do wykorzystania przez **7 dni** od zakończenia subskrypcji; po tym terminie jest **bezpowrotnie usuwane**. Aplikacja ostrzega Cię komunikatem od początku tego okresu, podając saldo i termin ostateczny. Ten termin nie ma zastosowania w razie zwrotu pieniędzy. Kredyty kupione w sklepie (Artykuł 8) **nie podlegają** temu terminowi: pozostają Twoje.
+
 ---
 
 ## Artykuł 8 — Pakiety i zakupy jednorazowe
@@ -110,7 +119,7 @@ Niektóre treści (pakiety person, dodatkowe kredyty limitu) są sprzedawane jed
 
 *Cena na dzień sporządzenia dokumentu: 2,99 € za pakiet. Ceną, która Cię wiąże, jest cena wyświetlana w chwili zakupu.*
 
-Zakupiony pakiet jest **nabyty na stałe** i powiązany z Twoim kontem. Odnajdziesz go, logując się ponownie na innym urządzeniu, a funkcja „Przywróć moje zakupy” w aplikacji pozwala Ci go w razie potrzeby odzyskać.
+Zakupiony pakiet jest **nabyty na stałe** i powiązany z Twoim kontem — w przeciwieństwie do miesięcznych kredytów z subskrypcji (Artykuły 6 i 7) nie wygasa. Odnajdziesz go, logując się ponownie na innym urządzeniu, a funkcja „Przywróć moje zakupy” w aplikacji pozwala Ci go w razie potrzeby odzyskać.
 
 Zakupione kredyty limitu są wykorzystywane **dopiero po wyczerpaniu Twoich limitów za dany okres**, tak aby nigdy nie płacić dwa razy za to samo użycie.
 

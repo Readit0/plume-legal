@@ -1,6 +1,8 @@
 # Plume'i privaatsuspoliitika
 
-**Viimati uuendatud: 1. oktoober 2026** — Versioon 2.1
+**Viimati uuendatud: 1. oktoober 2026** — Versioon 2.2
+
+> *Mis muutus versioonis 2.2:* kirjeldame **Helisuhtlust**, Plume'i häältõlki, mida versioonis 2.1 ei olnud: mis jääb teie telefoni, mis lahkub AI Pro režiimis ning telefoni kõnesünteesimootori ettelugemine (vt §4.1 ja §9).
 
 > *Mis muutus versioonis 2.1:* kirjeldame **režiimi Maskeering**, mida versioon 2.0 ei maininud, ja parandame väite, mis on muutunud ebatäpseks: nii isiklike keelte kui ka maskeerimise puhul **säilitatakse teie sõnumite sõnu, mis teie sõnavarast veel puuduvad, ükshaaval** — mitte kunagi lauset —, et saaksime teile pakkuda nende lisamist. Üksikasjad on jaotises „Ühe minutiga“, §2.2-s ja §3-s. Parandame ka teise vea: **teie kohandatud personad ja nende avatarid salvestatakse meie serveritesse** — need ei jää ainult teie telefoni (vt §3).
 
@@ -134,6 +136,16 @@ Mikrofoninupp võimaldab teil tippimise asemel dikteerida. Mikrofoni kasutamise 
 
 Kui te mikrofoni luba ei anna, jääb klaviatuuriga sisestamine muidugi alles.
 
+### 4.1 Helisuhtlus (häältõlk)
+
+Helisuhtlus tõlgib kahe inimese vestluse valjusti. **Mikrofon avaneb ainult siis, kui puudutate kera**, ja see sulgub iga lause lõpus.
+
+- **Kõne** transkribeeritakse sama telefoni kõnetuvastusmootoriga nagu dikteerimine, samade reservatsioonidega nagu eespool. **Plume saab ainult teksti, mitte kunagi heli.** Kui keele võrguühenduseta moodul puudub, palub Plume telefonil see alla laadida; vahepeal võib telefoni mootor transkribeerida võrgus.
+- **Režiimis Kohalik komplekt** (tasuta) toimub tõlge **teie telefonis**.
+- **Režiimis AI Pro** (tellijad) saadetakse transkribeeritud tekst meie serveritesse ja seejärel meie tehisintellektiga töötlemise teenusepakkujale, kes parandab kuulamisvead ja tõlgib selle — sama teed pidi nagu §2.2-s. **Me ei säilita ei teksti ega selle tõlget.**
+- **Ettelugemise** teeb telefoni kõnesünteesimootor (tavaliselt Google'i oma). Mõlemas režiimis palub Plume sellelt selle loomulikumaid **veebihääli**: tõlgitud tekst edastatakse siis selle väljaandjale hääldamiseks. Ilma ühenduseta võtab töö üle telefoni installitud hääl.
+- **Vestluse ajalugu jääb teie telefoni** ja kaob, kui lahkute ekraanilt. Seadmesse jäetakse meelde ainult valitud keelepaar, valitud režiim ja vestluste arv (tasuta taseme reklaami jaoks).
+
 ---
 
 ## 5. Reklaam
@@ -191,7 +203,7 @@ Kuna rakendus võimaldab vaba teksti ümber sõnastada ja kuvab reklaami, ei sob
 | **Meie tehisintellekti töötluse teenusepakkuja** | Päringute suunamine ja teksti töötlemine kolmanda osapoole tehisintellekti mudeliga | **Väljaspool Euroopa Liitu** |
 | **Google Play / Google Billing** | Makse, tellimused | Google Ireland / Ameerika Ühendriigid |
 | **Google AdMob** | Preemiareklaam | Google Ireland / Ameerika Ühendriigid |
-| **Google (telefoni süsteemiteenused)** | Kõnetuvastus, võrguühenduseta tõlkemoodulid | Sõltub teie seadmest |
+| **Google (telefoni süsteemiteenused)** | Kõnetuvastus, kõnesüntees (Helisuhtluse ettelugemine), võrguühenduseta tõlkemoodulid | Sõltub teie seadmest |
 | **Meie vearaportite teenusepakkuja** | Tehniline vealogimine — ainult programmivead, filtreeritud enne saatmist: mitte kunagi teie tekst | Ameerika Ühendriigid |
 
 **Me ei müü ühtegi andmet ega loovuta neid andmemaakleritele.**

@@ -1,6 +1,8 @@
 # Telerau ac amodau defnyddio a gwerthu — Plume
 
-**Diweddarwyd ddiwethaf: 31 Gorffennaf 2026** — Fersiwn 1.0
+**Diweddarwyd ddiwethaf: 1 Hydref 2026** — Fersiwn 1.1
+
+> *Beth sydd wedi newid yn fersiwn 1.1:* rydym yn disgrifio **Cyfathrebu sain**, dehonglydd llais Plume, a'i fodd **AI Pro** (Erthyglau 2 a 6). Rydym yn ysgrifennu dwy reol am gredydau'r tanysgrifiad yn glir: maent yn **fisol ac nid ydynt yn cronni** o un mis i'r nesaf (Erthygl 6), ac os nad yw'r tanysgrifiad **yn cael ei adnewyddu**, mae balans y mis olaf yn parhau i fod yn ddefnyddiadwy am **7 diwrnod** cyn cael ei ddileu (Erthygl 7). Mae'r credydau a brynir yn y siop, ar y llaw arall, yn parhau i fod **yn eiddo i chi'n barhaol** (Erthygl 8).
 
 ---
 
@@ -24,7 +26,8 @@ Offeryn i helpu gydag ysgrifennu sy'n rhedeg ar Android yw Plume. Mae'n caniatá
 - **ailysgrifennu testun** rydych chi wrthi'n ei ysgrifennu, yn uniongyrchol yn yr ap lle rydych chi'n ei ysgrifennu, drwy ddewis arddull ('persona');
 - **cyfieithu neu grynhoi testun sy'n cael ei ddangos ar y sgrin**, a chael cynnig o ateb i neges a dderbyniwyd;
 - defnyddio **Darllen â Chymorth**, sy'n gosod cyfieithiad dros y testun sy'n cael ei ddangos ar y sgrin;
-- **arddweud** testun yn lle ei deipio.
+- **arddweud** testun yn lle ei deipio;
+- defnyddio **Cyfathrebu sain**, dehonglydd llais sy'n cyfieithu sgwrs rhwng dau berson yn uchel, neu'n ysgrifenedig (modd Ysgrifennu).
 
 Yn dibynnu ar eich dyfais a'ch dewis, mae'r prosesu'n digwydd **ar eich ffôn** neu **ar weinyddion pell**. Mae union lwybr eich data wedi'i ddisgrifio yn ein polisi preifatrwydd: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Mae terfyn ar y defnydd o'r gwasanaeth, er mwyn rheoli cost y prosesu.
 - Pan fydd y prosesu'n digwydd **ar eich dyfais** (dyfeisiau sy'n gydnaws â'r AI Lleol): **defnydd diderfyn**, yn ddarostyngedig i derfynau technegol eich ffôn yn unig (batri, gwres).
 - Pan fydd y prosesu'n digwydd **ar ein gweinyddion**: mae terfyn ar y defnydd fesul dydd a fesul mis, oherwydd bod cost wirioneddol i bob galwad. *Ar ddyddiad ysgrifennu'r ddogfen hon: 1,000 y dydd a 9,000 y mis.*
 
+**Mae credydau'r tanysgrifiad yn fisol ac nid ydynt yn cronni.** Mae credydau mis yn ddilys tan ddiwedd y mis hwnnw: nid yw'r hyn na chafodd ei ddefnyddio **yn cael ei gario drosodd** i'r mis nesaf, lle mae'r cownter yn dechrau o sero. Os nad yw'r tanysgrifiad yn cael ei adnewyddu, mae Erthygl 7 yn berthnasol.
+
+**Cyfathrebu sain.** Mae'r modd **Pecyn lleol** am ddim: mae'r cyfieithu'n digwydd ar eich ffôn (ar y lefel am ddim, gall hysbyseb ymddangos o bryd i'w gilydd). Mae'r modd **AI Pro** wedi'i gadw ar gyfer tanysgrifwyr: mae pob cyfieithiad yn defnyddio nifer **penodedig** o unedau cwota, yn ôl yr iaith darged — *ar ddyddiad ysgrifennu'r ddogfen hon, 1 uned, a 3 ar gyfer iaith a nodir yn PRO*. Dangosir y gost yn yr ap cyn ei defnyddio ac fe'i **codir yn awtomatig** ar ôl pob cyfieithiad llwyddiannus; ni chodir tâl am gyfieithiad sy'n methu. Heb falans digonol, ni chyflawnir y cyfieithiad AI Pro.
+
 **Pwyntiau sy'n gyffredin i bob lefel:**
 
 - Mae **dadansoddi sgrin** (cyfieithu neu gynnig ateb) yn ddrutach nag ailysgrifennu syml ac yn defnyddio **sawl uned cwota** — 5 ar hyn o bryd.
@@ -102,6 +109,8 @@ Mae terfyn ar y defnydd o'r gwasanaeth, er mwyn rheoli cost y prosesu.
 
 **Diwedd y tanysgrifiad.** Pan ddaw i ben, mae eich cyfrif yn dychwelyd i'r lefel am ddim. Nid ydych yn colli eich cyfrif, na'ch personas, na'ch gosodiadau.
 
+**Os nad yw eich tanysgrifiad yn cael ei adnewyddu, mae gan eich credydau sy'n weddill 7 diwrnod.** Mae balans credydau eich mis olaf o danysgrifio yn parhau i fod yn ddefnyddiadwy am **7 diwrnod** o ddiwedd y tanysgrifiad; ar ôl y cyfnod hwn, caiff ei **ddileu'n derfynol**. Mae'r ap yn eich rhybuddio â neges ar ddechrau'r cyfnod hwn, gyda'r balans a'r dyddiad cau. Nid yw'r cyfnod hwn yn berthnasol os cewch ad-daliad. Nid yw'r credydau a brynir yn y siop (Erthygl 8) **yn cael eu heffeithio**: maent yn parhau i fod yn eiddo i chi.
+
 ---
 
 ## Erthygl 8 — Pecynnau a phryniannau unigol
@@ -110,7 +119,7 @@ Mae rhai cynhyrchion (pecynnau personas, credydau cwota ychwanegol) yn cael eu g
 
 *Pris ar ddyddiad ysgrifennu'r ddogfen hon: €2.99 y pecyn. Y pris sy'n eich rhwymo yw'r un a ddangosir adeg prynu.*
 
-Mae pecyn a brynwyd **yn eiddo i chi'n barhaol** ac ynghlwm wrth eich cyfrif. Byddwch yn ei gael eto drwy fewngofnodi ar ddyfais arall, ac mae nodwedd 'Adfer fy mhryniannau' yr ap yn caniatáu i chi ei adennill os bydd angen.
+Mae pecyn a brynwyd **yn eiddo i chi'n barhaol** ac ynghlwm wrth eich cyfrif — yn wahanol i gredydau misol y tanysgrifiad (Erthyglau 6 a 7), nid yw'n dod i ben. Byddwch yn ei gael eto drwy fewngofnodi ar ddyfais arall, ac mae nodwedd 'Adfer fy mhryniannau' yr ap yn caniatáu i chi ei adennill os bydd angen.
 
 Nid yw'r credydau cwota a brynwyd yn cael eu defnyddio **hyd nes y bydd eich cwotâu ar gyfer y cyfnod wedi'u disbyddu**, fel na fyddwch byth yn talu ddwywaith am yr un defnydd.
 

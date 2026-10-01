@@ -1,6 +1,8 @@
 # Plumen tietosuojaseloste
 
-**Viimeksi päivitetty: 1. lokakuuta 2026** — Versio 2.1
+**Viimeksi päivitetty: 1. lokakuuta 2026** — Versio 2.2
+
+> *Mikä on muuttunut versiossa 2.2:* kuvaamme **Äänikeskustelu**-toiminnon, Plumen äänitulkin, jota versiossa 2.1 ei vielä ollut: mikä jää puhelimeesi, mikä lähtee AI Pro-tilassa, ja ääneen lukeminen puhelimen puhesynteesimoottorilla (ks. §4.1 ja §9).
 
 > *Mikä on muuttunut versiossa 2.1:* kuvaamme **Naamiointi-tilan**, jota versio 2.0 ei maininnut, ja korjaamme väitteen, joka ei enää pitänyt paikkaansa: sekä omien kielten että Naamioinnin osalta **viestiesi sanat, jotka puuttuvat vielä sanastostasi, säilytetään yksi kerrallaan** — ei koskaan lausetta — jotta voimme ehdottaa niiden lisäämistä. Yksityiskohdat ovat kohdassa ”Minuutissa”, §2.2:ssa ja §3:ssa. Korjaamme myös toisen virheen: **omat persoonasi ja niiden avatarit tallennetaan palvelimillemme** — ne eivät jää pelkästään puhelimeesi (ks. §3).
 
@@ -134,6 +136,16 @@ Mikrofonipainike antaa sinun sanella kirjoittamisen sijaan. Mikrofonin käyttöo
 
 Jos kieltäydyt mikrofonin käyttöoikeudesta, näppäimistöllä kirjoittaminen on tietenkin edelleen käytettävissä.
 
+### 4.1 Äänikeskustelu (äänitulkki)
+
+Äänikeskustelu kääntää kahden ihmisen välisen keskustelun ääneen. **Mikrofoni avautuu vain, kun kosketat palloa**, ja se sulkeutuu jokaisen lauseen lopussa.
+
+- **Puhe** litteroidaan samalla puhelimen puheentunnistusmoottorilla kuin sanelu, samoin varauksin kuin yllä. **Plume vastaanottaa vain tekstin, ei koskaan ääntä.** Jos kielen verkoton moduuli puuttuu, Plume pyytää puhelinta lataamaan sen; sillä välin puhelimen moottori voi litteroida verkossa.
+- **Paikallinen paketti-tilassa** (maksuton) käännös tehdään **puhelimessasi**.
+- **AI Pro-tilassa** (tilaajat) litteroitu teksti lähetetään palvelimillemme ja sieltä tekoälykäsittelyn palveluntarjoajallemme, joka korjaa kuulemisvirheet ja kääntää sen — samaa reittiä kuin kohdassa §2.2. **Emme säilytä tekstiä emmekä sen käännöstä.**
+- **Ääneen lukemisen** tekee puhelimen puhesynteesimoottori (yleensä Googlen). Molemmissa tiloissa Plume pyytää siltä luonnollisempia **verkkoääniä**: käännetty teksti välitetään silloin sen julkaisijalle lausuttavaksi. Ilman yhteyttä puhelimeen asennettu ääni ottaa vuoron.
+- **Keskusteluhistoria pysyy puhelimessasi** ja katoaa, kun poistut näytöltä. Laitteelle tallennetaan vain valittu kielipari, valittu moottori ja keskustelujen määrä (maksuttoman tason mainontaa varten).
+
 ---
 
 ## 5. Mainonta
@@ -191,7 +203,7 @@ Koska sovellus mahdollistaa vapaan tekstin uudelleenkirjoittamisen ja näyttää
 | **Tekoälykäsittelyn palveluntarjoajamme** | Pyyntöjen välittäminen ja tekstin käsittely kolmannen osapuolen tekoälymallilla | **Euroopan unionin ulkopuolella** |
 | **Google Play / Google Billing** | Maksaminen, tilaukset | Google Ireland / Yhdysvallat |
 | **Google AdMob** | Palkkiomainonta | Google Ireland / Yhdysvallat |
-| **Google (puhelimen järjestelmäpalvelut)** | Puheentunnistus, verkottomat käännöspaketit | Laitteestasi riippuen |
+| **Google (puhelimen järjestelmäpalvelut)** | Puheentunnistus, puhesynteesi (Äänikeskustelun ääneen lukeminen), verkottomat käännöspaketit | Laitteestasi riippuen |
 | **Kaatumisraportoinnin palveluntarjoajamme** | Tekninen kaatumisraportointi — vain ohjelmavirheitä, suodatettu ennen lähetystä: ei koskaan tekstiäsi | Yhdysvallat |
 
 **Emme myy mitään tietoja emmekä luovuta niitä tietovälittäjille.**

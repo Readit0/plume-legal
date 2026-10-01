@@ -1,6 +1,8 @@
 # Bruksvilkår og salsvilkår — Plume
 
-**Sist oppdatert: 31. juli 2026** — Versjon 1.0
+**Sist oppdatert: 1. oktober 2026** — Versjon 1.1
+
+> *Kva som har endra seg i versjon 1.1:* vi skildrar **Lydkommunikasjon**, stemmetolken til Plume, og **KI Pro**-modusen hennar (Artikkel 2 og 6). Vi skriv to reglar om abonnementskredittane svart på kvitt: dei er **månadlege og blir ikkje samla opp** frå ein månad til den neste (Artikkel 6), og viss abonnementet **ikkje blir fornya**, kan saldoen frå den siste månaden brukast i **7 dagar** før han blir sletta (Artikkel 7). Kredittar kjøpte i butikken blir derimot **endeleg dine** (Artikkel 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume er eit skriveverktøy som køyrer på Android. Han lèt deg:
 - **omformulere ein tekst** du held på å skrive, direkte i appen der du skriv han, ved å velje ein stil («persona»);
 - **omsetje eller samandrage tekst** som blir vist på skjermen, og få eit forslag til svar på ei motteken melding;
 - bruke **Assistert lesing**, som legg ei omsetjing over teksten som blir vist på skjermen;
-- **tale inn** ein tekst i staden for å skrive han.
+- **tale inn** ein tekst i staden for å skrive han;
+- bruke **Lydkommunikasjon**, ein stemmetolk som omset ei samtale mellom to personar høgt, eller skriftleg (modusen Skriving).
 
 Alt etter eininga di og valet ditt skjer handsaminga **på telefonen din** eller **på fjerne servarar**. Den nøyaktige ferda til dataa dine er skildra i personvernerklæringa vår: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Bruken av tenesta er avgrensa, for å halde kontroll på kostnaden ved handsamin
 - Når handsaminga skjer **på eininga di** (einingar som er kompatible med Lokal AI): **ubegrensa bruk**, med berre atterhald om dei tekniske grensene til telefonen din (batteri, oppvarming).
 - Når handsaminga skjer **på servarane våre**: bruken er avgrensa per dag og per månad, fordi kvart kall har ein verkeleg kostnad. *På skrivetidspunktet: 1 000 per dag og 9 000 per månad.*
 
+**Abonnementskredittane er månadlege og blir ikkje samla opp.** Kredittane for ein månad gjeld til slutten av den månaden: det som ikkje er brukt, **blir ikkje overført** til neste månad, der teljaren startar på null att. Viss abonnementet ikkje blir fornya, gjeld Artikkel 7.
+
+**Lydkommunikasjon.** Modusen **Lokalt sett** er gratis: omsetjinga skjer på telefonen din (på gratisnivået kan det av og til visast ei reklame). Modusen **KI Pro** er reservert for abonnentar: kvar omsetjing brukar eit **fast** tal kvoteeiningar, avhengig av målspråket — *på skrivetidspunktet 1 eining, og 3 for eit språk merkt PRO*. Kostnaden blir vist i appen før bruk og **trekt automatisk** etter kvar vellukka omsetjing; ei omsetjing som mislukkast, blir ikkje trekt. Utan nok saldo blir ikkje KI Pro-omsetjinga utført.
+
 **Felles for alle nivå:**
 
 - Ei **skjermanalyse** (omsetjing eller svarforslag) er dyrare enn ei enkel omformulering og brukar **fleire kvoteeiningar** — for tida 5.
@@ -103,6 +110,8 @@ Bruken av tenesta er avgrensa, for å halde kontroll på kostnaden ved handsamin
 
 **Slutt på abonnementet.** Når abonnementet går ut, går kontoen din attende til gratisnivået. Du mistar verken kontoen din, personaane dine eller innstillingane dine.
 
+**Viss abonnementet ditt ikkje blir fornya, har dei attverande kredittane 7 dagar.** Kreditsaldoen frå den siste abonnementsmånaden din kan brukast i **7 dagar** frå abonnementet går ut; etter den fristen blir han **sletta for godt**. Appen varslar deg med ei melding frå starten av denne perioden, med saldo og siste frist. Fristen gjeld ikkje ved refusjon. Kredittar kjøpte i butikken (Artikkel 8) **er ikkje omfatta**: dei er framleis dine.
+
 ---
 
 ## Artikkel 8 — Pakkar og enkeltkjøp
@@ -111,7 +120,7 @@ Enkelte innhald (persona-pakkar, ekstra kvotekreditt) blir selde enkeltvis, utan
 
 *Pris på skrivetidspunktet: 2,99 € per pakke. Prisen som gjeld for deg, er den som blir vist på kjøpstidspunktet.*
 
-Ein kjøpt pakke er **endeleg din** og knytt til kontoen din. Du finn han att ved å logge inn på ei anna eining, og funksjonen «Gjenopprett kjøpa mine» i appen lèt deg hente han att om naudsynt.
+Ein kjøpt pakke er **endeleg din** og knytt til kontoen din — i motsetning til dei månadlege abonnementskredittane (Artikkel 6 og 7) går han ikkje ut. Du finn han att ved å logge inn på ei anna eining, og funksjonen «Gjenopprett kjøpa mine» i appen lèt deg hente han att om naudsynt.
 
 Kjøpt kvotekreditt blir brukt **først når kvotane dine for perioden er brukte opp**, slik at du aldri betaler to gonger for den same bruken.
 

@@ -1,6 +1,8 @@
 # Általános felhasználási és értékesítési feltételek — Plume
 
-**Utolsó frissítés: 2026. július 31.** — 1.0-s verzió
+**Utolsó frissítés: 2026. október 1.** — 1.1-es verzió
+
+> *Mi változott az 1.1-es verzióban:* bemutatjuk a **Hangos kommunikáció** funkciót, a Plume hangtolmácsát, és annak **AI Pro** módját (2. és 6. cikk). Fekete-fehéren leírunk két szabályt az előfizetés krediteiről: azok **havonták járnak és nem halmozódnak** hónapról hónapra (6. cikk), és ha az előfizetés **nem újul meg**, az utolsó hónap egyenlege **7 napig** felhasználható, mielőtt törlődik (7. cikk). A boltban vásárolt kreditek ezzel szemben **véglegesen megszerzettek** maradnak (8. cikk).
 
 ---
 
@@ -24,7 +26,8 @@ A Plume Androidon működő, fogalmazást segítő eszköz. Lehetővé teszi az 
 - hogy **átfogalmazzon egy szöveget**, amelyet éppen ír, közvetlenül abban az alkalmazásban, amelyben írja, egy stílus („persona”) kiválasztásával;
 - hogy **lefordítsa vagy összefoglalja a képernyőn megjelenő szöveget**, és javaslatot kapjon egy beérkezett üzenetre adandó válaszra;
 - hogy használja a **Segített Olvasást**, amely fordítást helyez a képernyőn megjelenő szöveg fölé;
-- hogy **diktáljon** egy szöveget ahelyett, hogy begépelné.
+- hogy **diktáljon** egy szöveget ahelyett, hogy begépelné;
+- hogy használja a **Hangos kommunikáció** funkciót, egy hangtolmácsot, amely hangosan fordít egy két személy közötti beszélgetést, vagy írásban (Írás mód).
 
 A készülékétől és a választásától függően a feldolgozás **az Ön telefonján** vagy **távoli szervereken** történik. Az adatai pontos áramlását az adatkezelési tájékoztatónk írja le: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ A szolgáltatás használata felső korláthoz kötött, a feldolgozás költsé
 - Amikor a feldolgozás **az Ön készülékén** történik (a Helyi MI-vel kompatibilis készülékek): **korlátlan használat**, kizárólag a telefonja műszaki korlátainak (akkumulátor, melegedés) fenntartásával.
 - Amikor a feldolgozás **a szervereinken** történik: a használat napi és havi felső korláthoz kötött, mivel minden hívásnak valós költsége van. *A szöveg írásának időpontjában: napi 1 000 és havi 9 000.*
 
+**Az előfizetés kreditei havonták járnak, és nem halmozódnak.** Egy hónap kreditei az adott hónap végéig érvényesek: ami nem lett felhasználva, az **nem vihető át** a következő hónapra, ahol a számláló nulláról indul. Ha az előfizetés nem újul meg, a 7. cikk az irányadó.
+
+**Hangos kommunikáció.** A **Helyi csomag** mód ingyenes: a fordítás az Ön telefonján történik (az ingyenes szinten időnként hirdetés jelenhet meg). Az **AI Pro** mód az előfizetők számára van fenntartva: minden fordítás **fix** számú kvótaegységet fogyaszt a célnyelvtől függően — *az írás időpontjában 1 egységet, a PRO jelölésű nyelv esetén 3-at*. A költség az alkalmazásban a használat előtt látható, és minden sikeres fordítás után **automatikusan levonásra kerül**; a sikertelen fordítás nem kerül levonásra. Elegendő egyenleg nélkül az AI Pro fordítás nem hajtódik végre.
+
 **Minden szintre érvényes közös pontok:**
 
 - Egy **képernyőelemzés** (fordítás vagy válaszjavaslat) költségesebb egy egyszerű átfogalmazásnál, és **több kvótaegységet** használ fel — jelenleg 5-öt.
@@ -102,6 +109,8 @@ A szolgáltatás használata felső korláthoz kötött, a feldolgozás költsé
 
 **Az előfizetés vége.** A lejáratkor a fiókja visszatér az ingyenes szintre. Nem veszíti el sem a fiókját, sem a personáit, sem a beállításait.
 
+**Ha az előfizetése nem újul meg, a megmaradt krediteknek 7 napjuk van.** Az utolsó előfizetési hónap kreditegyenlege az előfizetés végétől számított **7 napig** felhasználható; e határidő után **véglegesen törlődik**. Az alkalmazás e időszak kezdetén üzenetben értesíti Önt, az egyenleggel és a határidővel együtt. Ez a határidő visszatérítés esetén nem alkalmazandó. A boltban vásárolt kreditekre (8. cikk) ez **nem vonatkozik**: azok megszerzettek maradnak.
+
 ---
 
 ## 8. cikk — Csomagok és egyszeri vásárlások
@@ -110,7 +119,7 @@ Bizonyos tartalmakat (persona-csomagok, további kvótakreditek) egyesével, el�
 
 *Ár a szöveg írásának időpontjában: csomagonként 2,99 €. Az Önre kötelező ár az, amelyet a vásárlás pillanatában jelenítünk meg.*
 
-A megvásárolt csomag **véglegesen megszerzett**, és a fiókjához kapcsolódik. Másik készüléken bejelentkezve is megtalálja, és az alkalmazás „Vásárlásaim visszaállítása” funkciója lehetővé teszi, hogy szükség esetén visszaszerezze.
+A megvásárolt csomag **véglegesen megszerzett**, és a fiókjához kapcsolódik — az előfizetés havi krediteivel ellentétben (6. és 7. cikk) nem jár le. Másik készüléken bejelentkezve is megtalálja, és az alkalmazás „Vásárlásaim visszaállítása” funkciója lehetővé teszi, hogy szükség esetén visszaszerezze.
 
 A megvásárolt kvótakrediteket **csak azt követően használjuk fel, hogy az adott időszakra vonatkozó kvótái kimerültek**, hogy soha ne fizessen kétszer ugyanazért a használatért.
 

@@ -1,6 +1,8 @@
 # A Plume adatkezelési tájékoztatója
 
-**Utolsó frissítés: 2026. október 1.** — 2.1-es verzió
+**Utolsó frissítés: 2026. október 1.** — 2.2-es verzió
+
+> *Mi változott a 2.2-es verzióban:* bemutatjuk a **Hangos kommunikáció** funkciót, a Plume hangtolmácsát, amely a 2.1-es verzióban még nem létezett: mi marad az Ön telefonján, mi távozik AI Pro módban, és a hangos felolvasás a telefon beszédszintetizátorával (lásd a 4.1. és a 9. §-t).
 
 > *Mi változott a 2.1-es verzióban:* bemutatjuk az **Álcázás módot**, amelyet a 2.0-s verzió nem említett, és helyesbítünk egy állítást, amely már nem volt pontos: mind a saját nyelvek, mind az Álcázás esetében **az üzeneteinek azokat a szavait, amelyek még hiányoznak a szókincséből, egyenként megőrizzük** — soha nem a mondatot —, hogy javasolhassuk Önnek a felvételüket. A részletek az „Egy percben”, a 2.2. és a 3. pontban találhatók. Egy második hibát is helyesbítünk: **az egyéni personái és azok avatarjai a szervereinken mentésre kerülnek** — nem csak a telefonján maradnak (lásd a 3. pontot).
 
@@ -142,6 +144,16 @@ Egy mikrofongomb lehetővé teszi, hogy gépelés helyett diktáljon. A mikrofon
 
 Ha elutasítja a mikrofonengedélyt, a billentyűzetes bevitel természetesen továbbra is elérhető marad.
 
+### 4.1 Hangos kommunikáció (a hangtolmács)
+
+A Hangos kommunikáció hangosan fordít egy két személy közötti beszélgetést. **A mikrofon csak akkor nyílik meg, amikor megérinti a gömböt**, és minden mondat végén kikapcsol.
+
+- **A beszédet** a telefon ugyanazon beszédfelismerő motorja írja át szöveggé, mint a diktálásnál, a fentiekkel azonos fenntartásokkal. **A Plume csak a szöveget kapja meg, soha a hangot.** Ha egy nyelv offline modulja hiányzik, a Plume megkéri a telefont, hogy töltse le; addig a telefon motorja online is átírhat.
+- **Helyi csomag módban** (ingyenes) a fordítás **az Ön telefonján** történik.
+- **AI Pro módban** (előfizetők) az átírt szöveget a szervereinkre, majd MI-feldolgozó szolgáltatónkhoz küldjük, amely kijavítja a hallási hibákat és lefordítja — ugyanazon az úton, mint a 2.2. §-ban. **Sem a szöveget, sem a fordítását nem őrizzük meg.**
+- **A hangos felolvasást** a telefon beszédszintetizátora végzi (általában a Google-é). Mindkét módban a Plume kéri tőle a természetesebb **online hangjait**: ilyenkor a lefordított szöveg a kiejtés céljából eljut a kiadójához. Kapcsolat nélkül a telefonra telepített hang veszi át a szerepet.
+- **A beszélgetés előzménye az Ön telefonján marad**, és eltűnik, amikor elhagyja a képernyőt. Csak a választott nyelvpár, a választott motor és a beszélgetések száma (az ingyenes szint hirdetéséhez) kerül megjegyzésre az eszközön.
+
 ---
 
 ## 5. Hirdetések
@@ -199,7 +211,7 @@ Mivel az alkalmazás lehetővé teszi szabad szöveg átfogalmazását és hirde
 | **MI-feldolgozási szolgáltatónk** | A kérések továbbítása és a szöveg feldolgozása harmadik fél mesterséges intelligencia modelljével | **Az Európai Unión kívül** |
 | **Google Play / Google Billing** | Fizetés, előfizetések | Google Ireland / Egyesült Államok |
 | **Google AdMob** | Jutalmazott hirdetések | Google Ireland / Egyesült Államok |
-| **Google (a telefon rendszerszolgáltatásai)** | Beszédfelismerés, offline fordítási modulok | A készülékétől függően |
+| **Google (a telefon rendszerszolgáltatásai)** | Beszédfelismerés, beszédszintézis (a Hangos kommunikáció hangos felolvasása), offline fordítási modulok | A készülékétől függően |
 | **Hibajelentő szolgáltatónk** | Technikai hibajelentés — kizárólag programhibák, küldés előtt kiszűrve: soha az Ön szövege | Egyesült Államok |
 
 **Semmilyen adatot nem adunk el, és semmilyen adatot nem adunk át adatkereskedőknek.**

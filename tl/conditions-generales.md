@@ -1,6 +1,8 @@
 # Mga Tuntunin at Kundisyon ng Paggamit at Pagbebenta — Plume
 
-**Huling na-update: 31 Hulyo 2026** — Bersyon 1.0
+**Huling na-update: 1 Oktubre 2026** — Bersyon 1.1
+
+> *Ang nagbago sa bersyon 1.1:* inilalarawan namin ang **Audio na komunikasyon**, ang voice interpreter ng Plume, at ang **AI Pro** mode nito (Artikulo 2 at 6). Isinusulat namin nang malinaw ang dalawang tuntunin tungkol sa mga credit ng subscription: **buwanan ang mga ito at hindi naiipon** mula sa isang buwan patungo sa susunod (Artikulo 6), at kung **hindi na-renew** ang subscription, mananatiling magagamit ang balanse ng huling buwan nang **7 araw** bago ito burahin (Artikulo 7). Ang mga credit na binili sa tindahan naman ay nananatiling **panghabambuhay na pag-aari** (Artikulo 8).
 
 ---
 
@@ -24,7 +26,8 @@ Ang Plume ay isang kasangkapang pantulong sa pagsulat na gumagana sa Android. Pi
 - **mag-rephrase ng isang teksto** na kasalukuyan ninyong isinusulat, diretso sa loob ng application kung saan ninyo ito isinusulat, sa pamamagitan ng pagpili ng isang estilo ("persona");
 - **magsalin o magbuod ng tekstong nakikita sa screen**, at kumuha ng mungkahing sagot sa isang natanggap na mensahe;
 - gamitin ang **Assisted Reading**, na naglalagay ng salin sa ibabaw ng tekstong nakikita sa screen;
-- **magdikta** ng teksto sa halip na i-type ito.
+- **magdikta** ng teksto sa halip na i-type ito;
+- gumamit ng **Audio na komunikasyon**, isang voice interpreter na nagsasalin nang malakas ng usapan ng dalawang tao, o sa pamamagitan ng pagsulat (Pagsulat mode).
 
 Depende sa inyong device at sa inyong pili, ang pagproseso ay isinasagawa **sa inyong telepono** o **sa malalayong server**. Ang eksaktong daloy ng inyong datos ay inilalarawan sa aming patakaran sa privacy: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ May takda ang paggamit ng serbisyo, upang makontrol ang gastos ng pagproseso.
 - Kapag ang pagproseso ay isinasagawa **sa inyong device** (mga device na tugma sa Local AI): **walang takdang paggamit**, maliban lamang sa mga teknikal na hangganan ng inyong telepono (baterya, pag-init).
 - Kapag ang pagproseso ay isinasagawa **sa aming mga server**: may takda ang paggamit kada araw at kada buwan, dahil may tunay na gastos ang bawat call. *Sa petsa ng pagsulat nito: 1,000 kada araw at 9,000 kada buwan.*
 
+**Buwanan ang mga credit ng subscription at hindi naiipon.** Ang mga credit ng isang buwan ay balido hanggang sa katapusan ng buwang iyon: ang hindi nagamit ay **hindi inililipat** sa susunod na buwan, kung saan nagsisimula muli sa zero ang counter. Kung hindi na-renew ang subscription, ipinapatupad ang Artikulo 7.
+
+**Audio na komunikasyon.** Libre ang **Lokal na kit** mode: ang pagsasalin ay ginagawa sa inyong telepono (sa libreng antas, maaaring paminsan-minsang magpakita ng ad). Nakalaan sa mga subscriber ang **AI Pro** mode: bawat pagsasalin ay gumagamit ng **takdang** bilang ng quota unit, ayon sa target na wika — *sa petsa ng pagsulat nito, 1 unit, at 3 para sa wikang may markang PRO*. Ipinapakita ang gastos sa application bago gamitin at **awtomatikong ibinabawas** pagkatapos ng bawat matagumpay na pagsasalin; hindi ibinabawas ang pagsasaling nabigo. Kung walang sapat na balanse, hindi isasagawa ang AI Pro na pagsasalin.
+
 **Mga puntong pareho sa lahat ng antas:**
 
 - Ang isang **pagsusuri ng screen** (pagsasalin o mungkahing sagot) ay mas magastos kaysa sa isang simpleng pag-rephrase at kumukonsumo ng **ilang yunit ng quota** — kasalukuyan ay 5.
@@ -102,6 +109,8 @@ May takda ang paggamit ng serbisyo, upang makontrol ang gastos ng pagproseso.
 
 **Katapusan ng subscription.** Sa pagtatapos nito, babalik ang inyong account sa libreng antas. Hindi ninyo mawawala ang inyong account, ni ang inyong mga persona, ni ang inyong mga setting.
 
+**Kung hindi na-renew ang inyong subscription, may 7 araw ang natitira ninyong credit.** Mananatiling magagamit ang balanse ng credit ng inyong huling buwan ng subscription sa loob ng **7 araw** mula sa pagtatapos ng subscription; pagkalipas ng panahong ito, ito ay **tuluyang buburahin**. Aabisuhan kayo ng application sa pamamagitan ng mensahe sa simula ng panahong ito, kasama ang balanse at ang huling petsa. Hindi nalalapat ang panahong ito kung may refund. Ang mga credit na binili sa tindahan (Artikulo 8) ay **hindi sakop**: nananatili silang inyong pag-aari.
+
 ---
 
 ## Artikulo 8 — Mga pack at isahang pagbili
@@ -110,7 +119,7 @@ May ilang nilalaman (mga pack ng persona, dagdag na quota credit) na ibinebenta 
 
 *Presyo sa petsa ng pagsulat nito: 2.99 € kada pack. Ang presyong nagbubuklod sa inyo ay ang ipinapakita sa sandali ng pagbili.*
 
-Ang isang binili na pack ay **panghabambuhay na pag-aari** at nakaugnay sa inyong account. Matatagpuan ninyo itong muli kapag nag-log in kayo sa ibang device, at ang function na "Ibalik ang aking mga binili" ng application ay nagbibigay-daan sa inyong makuha itong muli kung kinakailangan.
+Ang isang binili na pack ay **panghabambuhay na pag-aari** at nakaugnay sa inyong account — hindi tulad ng buwanang credit ng subscription (Artikulo 6 at 7), hindi ito nawawalan ng bisa. Matatagpuan ninyo itong muli kapag nag-log in kayo sa ibang device, at ang function na "Ibalik ang aking mga binili" ng application ay nagbibigay-daan sa inyong makuha itong muli kung kinakailangan.
 
 Ang mga biniling quota credit ay ginagamit lamang **kapag naubos na ang inyong mga quota para sa panahong iyon**, upang hindi kayo kailanman magbayad nang dalawang beses para sa iisang paggamit.
 

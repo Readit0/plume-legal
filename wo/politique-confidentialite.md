@@ -1,6 +1,8 @@
 # Sartu Sutura bu Plume
 
-**Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 2.1
+**Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 2.2
+
+> *Lu soppiku ci bindeef 2.2:* dinanu leeral **Waxtaan ak baat**, tekkikat bu baat bu Plume, bu nekkul ci bindeef 2.1: li des ci sa téléphone, li génn ci mode AI Pro, ak jàng ci kaw ak baat bu moteur bu téléphone bi (gisal §4.1 ak §9).
 
 > *Lu soppiku ci bindeef 2.1:* dinanu leeral **mode Nëbb**, bi bindeef 2.0 waxul ko, te dinanu jubbanti benn wax bu dootul dëgg: ci **làkk yu bopp** yi ak ci Nëbb itam, **baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire dañu leen di denc, benn-benn** — mukk du kàddu gi — ngir mën la ko wax nga yokk leen. Ndetaal bi nekk na ci "Ci benn diriit", ci §2.2 ak ci §3. Dañu koy wéyal ci ñaareel njuumte bi: **say persona yu nga defar ak seen avatar dañu leen denc ci sunuy server** — du ci sa téléphone rekk lañuy des (gisal §3).
 
@@ -134,6 +136,16 @@ Benn bouton microphone dana la may nga bind ci baat, war du bind ci bët. Sañ-s
 
 Su nga bañee sañ-sañ microphone bi, bind ci bët dana des am ci say cër.
 
+### 4.1 Waxtaan ak baat (tekkikat bu baat)
+
+Waxtaan ak baat dafay tekki ci kaw ak baat waxtaan bu ñaari nit. **Microfon bi du ubbeeku lu dul bu nga laalee bool bi**, te dafay tëj ci mujjug kàddu gu nekk.
+
+- **Waxtaan bi** dañu koy bind ak moteur bu xam baat bu téléphone bi, bi ñuy jëfandikoo ci bind ci baat, ak yenn tànn yi nu wax ci kaw. **Plume dafay jot rekk bataaxal bi, du jot baat bi.** Su modul bu làkk bi bu amul internet nekkul, Plume dina laaj téléphone bi mu yebal ko; ci diir bi, moteur bu téléphone bi mën na bind ci internet.
+- **Ci mode Kit bu fi nekk** (amul fey), tekki bi dafay am **ci sa téléphone**.
+- **Ci mode AI Pro** (ñi nekk ci abonemaa), bataaxal bi ñu bind dañu koy yónnee ci sunuy serveur, ba noppi ci sunu service bu di liggéey ak intelligence artificielle, bu koy jubal njuumte yi ñu dégg te tekki ko — ci yoon wi ñuy jaar ci §2.2. **Duñu denc bataaxal bi, te duñu denc tekki bi.**
+- **Jàng bi ci kaw ak baat** moteur bu baat bu téléphone bi (ci anam gu nekk bu Google) mooy ko def. Ci mode yepp, Plume dafay laaj moteur bi **baat yi mu am ci internet**, yu gën a rafet: bataaxal bi ñu tekki dañu koy yónnee ci boroom moteur bi ngir mu waxe ko. Su amul internet, baat bu ñu samp ci téléphone bi mooy ko wuutu.
+- **Taariix waxtaan bi des na ci sa téléphone** te dina ñu ko far bu nga génnee ecran bi. Ñaari làkk yi nga tànn, moteur bi nga tànn ak limu waxtaan yi (ngir reklaam bu palier bu amul fey) rekk la ñuy denc ci sa téléphone.
+
 ---
 
 ## 5. Reklaam
@@ -191,7 +203,7 @@ Ci li aplikasion bi di may soppi mbind bu bopp te di won reklaam, aplikasion bi 
 | **Sunu fournisseur bu liggéey IA** | Jottali laaj yi ak liggéeyal mbind mi ci benn modèl IA bu ñetteel moroom | **Ci biti Bànq bu Ëropp** |
 | **Google Play / Google Billing** | Fey, abonemaa | Google Ireland / Amerik |
 | **Google AdMob** | Reklaam bu am njariñ | Google Ireland / Amerik |
-| **Google (service système bu téléphone)** | Xam baat, modul tekki bu suuf sanni internet | Ci lu aju ci sa sañse |
+| **Google (service système bu téléphone)** | Xam baat, jàng ci kaw ak baat (Waxtaan ak baat), modul tekki bu suuf sanni internet | Ci lu aju ci sa sañse |
 | **Sunu fournisseur bu rapoor njumte** | Rapoor njumte teknik — njumte yu programme rekk, filtre laata ñu yónnee: du sa mbind mukk | Amerik |
 
 **Duñu jaay benn done, te duñu leen jox courtier bu done yi.**

@@ -1,6 +1,8 @@
 # Plume'i üldised kasutus- ja müügitingimused
 
-**Viimati uuendatud: 31. juuli 2026** — Versioon 1.0
+**Viimati uuendatud: 1. oktoober 2026** — Versioon 1.1
+
+> *Mis muutus versioonis 1.1:* kirjeldame **Helisuhtlust**, Plume'i häältõlki, ja selle režiimi **AI Pro** (artiklid 2 ja 6). Kirjutame mustvalgelt kaks reeglit tellimuse krediitide kohta: need on **kuised ja ei kogune** ühest kuust teise (artikkel 6) ning kui tellimust **ei pikendata**, jääb viimase kuu saldo kasutatavaks **7 päevaks**, enne kui see kustutatakse (artikkel 7). Poest ostetud krediidid jäävad seevastu **lõplikult omandatuks** (artikkel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume on Androidis töötav kirjutamise abivahend. See võimaldab teil:
 - **sõnastada ümber teksti**, mida te parajasti kirjutate, otse selles rakenduses, kus te seda kirjutate, valides stiili („persona“);
 - **tõlkida või kokku võtta ekraanil kuvatavat teksti** ning saada ettepanekut vastuseks saabunud sõnumile;
 - kasutada **abistatud lugemist**, mis kuvab tõlke ekraanil kuvatava teksti peale;
-- teksti tippimise asemel **dikteerida**.
+- teksti tippimise asemel **dikteerida**;
+- kasutada **Helisuhtlust**, häältõlki, mis tõlgib kahe inimese vestluse valjusti või kirjalikult (kirjutamisrežiim).
 
 Sõltuvalt teie seadmest ja teie valikust toimub töötlemine **teie telefonis** või **kaugserverites**. Teie andmete täpset liikumist kirjeldab meie privaatsuspoliitika: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Teenuse kasutamisel on ülempiir, et hoida töötlemise kulu kontrolli all.
 - Kui töötlemine toimub **teie seadmes** (kohaliku tehisintellektiga ühilduvad seadmed): **piiramatu kasutus**, ainsaks piiranguks teie telefoni tehnilised võimalused (aku, kuumenemine).
 - Kui töötlemine toimub **meie serverites**: kasutusel on päevane ja kuine ülempiir, sest iga päring maksab meile päriselt. *Käesoleva dokumendi koostamise kuupäeval: 1 000 päevas ja 9 000 kuus.*
 
+**Tellimuse krediidid on kuised ja ei kogune.** Kuu krediidid kehtivad selle kuu lõpuni: kasutamata jäänut **ei kanta üle** järgmisele kuule, kus loendur algab nullist. Kui tellimust ei pikendata, kohaldub artikkel 7.
+
+**Helisuhtlus.** Režiim **Kohalik komplekt** on tasuta: tõlge toimub teie telefonis (tasuta tasemel võidakse aeg-ajalt näidata reklaami). Režiim **AI Pro** on mõeldud tellijatele: iga tõlge kulutab sihtkeelest sõltuvalt **kindla** arvu kvoodiühikuid — *käesoleva dokumendi koostamise kuupäeval 1 ühik ja 3 PRO-märgisega keele puhul*. Hind kuvatakse rakenduses enne kasutamist ja **arvestatakse automaatselt maha** pärast iga õnnestunud tõlget; ebaõnnestunud tõlget maha ei arvestata. Ilma piisava saldota AI Pro tõlget ei tehta.
+
 **Kõigile tasemetele ühine:**
 
 - **Ekraanianalüüs** (tõlge või vastuse ettepanek) on kulukam kui lihtne ümbersõnastus ja tarbib **mitu kvoodiühikut** — praegu 5.
@@ -102,6 +109,8 @@ Teenuse kasutamisel on ülempiir, et hoida töötlemise kulu kontrolli all.
 
 **Tellimuse lõppemine.** Tähtaja saabudes naaseb teie konto tasuta tasemele. Te ei kaota ei oma kontot, ei oma personasid ega oma seadeid.
 
+**Kui teie tellimust ei pikendata, kehtivad teie allesjäänud krediidid 7 päeva.** Teie viimase tellimuskuu krediidisaldo jääb kasutatavaks **7 päevaks** alates tellimuse lõppemisest; pärast seda tähtaega see **kustutatakse lõplikult**. Rakendus hoiatab teid selle perioodi alguses sõnumiga, kus on saldo ja tähtaeg. See tähtaeg ei kehti raha tagastamise korral. Poest ostetud krediite (artikkel 8) see **ei puuduta**: need jäävad omandatuks.
+
 ---
 
 ## Artikkel 8 — Paketid ja ühekordsed ostud
@@ -110,7 +119,7 @@ Teatavat sisu (personapaketid, täiendavad kvoodikrediidid) müüakse ühekaupa,
 
 *Hind käesoleva dokumendi koostamise kuupäeval: 2,99 € pakett. Teid siduv hind on see, mida kuvatakse ostu hetkel.*
 
-Ostetud pakett on **lõplikult omandatud** ja seotud teie kontoga. Leiate selle üles, kui logite sisse teises seadmes, ja rakenduse funktsioon „Taasta minu ostud“ võimaldab teil selle vajaduse korral tagasi saada.
+Ostetud pakett on **lõplikult omandatud** ja seotud teie kontoga — erinevalt tellimuse kuistest krediitidest (artiklid 6 ja 7) see ei aegu. Leiate selle üles, kui logite sisse teises seadmes, ja rakenduse funktsioon „Taasta minu ostud“ võimaldab teil selle vajaduse korral tagasi saada.
 
 Ostetud kvoodikrediite kasutatakse **alles siis, kui teie perioodi kvoodid on ammendunud**, et te ei maksaks kunagi kaks korda sama kasutuse eest.
 

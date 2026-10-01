@@ -1,6 +1,8 @@
 # Termini u Kundizzjonijiet Ġenerali ta' Użu u ta' Bejgħ — Plume
 
-**L-aħħar aġġornament: 31 ta' Lulju 2026** — Verżjoni 1.0
+**L-aħħar aġġornament: 1 ta' Ottubru 2026** — Verżjoni 1.1
+
+> *X'inbidel fil-verżjoni 1.1:* qed niddeskrivu l-**Komunikazzjoni awdjo**, l-interpretu bil-vuċi ta' Plume, u l-modalità **AI Pro** tagħha (Artikoli 2 u 6). Niktbu b'mod ċar żewġ regoli dwar il-krediti tal-abbonament: huma **ta' kull xahar u ma jinġabrux** minn xahar għall-ieħor (Artikolu 6), u jekk l-abbonament **ma jiġix imġedded**, il-bilanċ tal-aħħar xahar jibqa' jintuża għal **7 ijiem** qabel ma jitħassar (Artikolu 7). Il-krediti mixtrija fil-ħanut, min-naħa l-oħra, jibqgħu **miksuba b'mod permanenti** (Artikolu 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume hija għodda ta' għajnuna għall-kitba li taħdem fuq Android. Tippermett
 - **tirriformula test** li tkun qed tikteb, direttament fl-applikazzjoni fejn qed tiktbu, billi tagħżel stil ("persona");
 - **tittraduċi jew tqassar test muri fuq l-iskrin**, u tikseb proposta ta' tweġiba għal messaġġ li rċevejt;
 - tuża l-**Qari Assistit**, li jissovrapponi traduzzjoni fuq it-test muri fuq l-iskrin;
-- **tiddetta** test minflok tittajpjah.
+- **tiddetta** test minflok tittajpjah;
+- tuża l-**Komunikazzjoni awdjo**, interpretu bil-vuċi li jittraduċi b'leħen għoli konversazzjoni bejn żewġ persuni, jew bil-miktub (modalità Kitba).
 
 Skont l-apparat tiegħek u l-għażla tiegħek, l-ipproċessar isir **fuq it-telefown tiegħek** jew **fuq servers remoti**. Iċ-ċirkolazzjoni eżatta tad-data tiegħek hija deskritta fil-politika ta' privatezza tagħna: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ L-użu tas-servizz għandu limitu massimu, biex jiġi kkontrollat il-kost tal-ip
 - Meta l-ipproċessar isir **fuq l-apparat tiegħek** (apparati kompatibbli mal-IA lokali): **użu illimitat**, bl-unika riżerva tal-limiti tekniċi tat-telefown tiegħek (batterija, tisħin).
 - Meta l-ipproċessar isir **fuq is-servers tagħna**: l-użu għandu limitu massimu kuljum u kull xahar, għaliex kull sejħa għandha kost reali. *Fid-data tal-kitba: 1 000 kuljum u 9 000 kull xahar.*
 
+**Il-krediti tal-abbonament huma ta' kull xahar u ma jinġabrux.** Il-krediti ta' xahar huma validi sa tmiem dak ix-xahar: dak li ma jintużax **ma jiġix trasferit** għax-xahar ta' wara, fejn il-kontatur jibda mill-ġdid minn żero. Jekk l-abbonament ma jiġix imġedded, japplika l-Artikolu 7.
+
+**Komunikazzjoni awdjo.** Il-modalità **Kit lokali** hija b'xejn: it-traduzzjoni ssir fuq it-telefown tiegħek (fil-livell bla ħlas, jista' jidher reklam minn żmien għal żmien). Il-modalità **AI Pro** hija riżervata għall-abbonati: kull traduzzjoni tikkonsma numru **fiss** ta' unitajiet ta' kwota, skont il-lingwa fil-mira — *fid-data tal-kitba, unità 1, u 3 għal lingwa mmarkata PRO*. L-ispiża hija indikata fl-applikazzjoni qabel l-użu u **tiġi ddebitata awtomatikament** wara kull traduzzjoni li tirnexxi; traduzzjoni li tfalli ma tiġix iddebitata. Mingħajr bilanċ suffiċjenti, it-traduzzjoni AI Pro ma ssirx.
+
 **Punti komuni għal-livelli kollha:**
 
 - **Analiżi tal-iskrin** (traduzzjoni jew proposta ta' tweġiba) tiswa aktar minn riformulazzjoni sempliċi u tikkonsma **diversi unitajiet ta' kwota** — bħalissa 5.
@@ -102,6 +109,8 @@ L-użu tas-servizz għandu limitu massimu, biex jiġi kkontrollat il-kost tal-ip
 
 **Tmiem tal-abbonament.** Meta jiskadi, il-kont tiegħek jerġa' lura għal-livell bla ħlas. Ma titlifx la l-kont tiegħek, la l-personas tiegħek u lanqas is-settings tiegħek.
 
+**Jekk l-abbonament tiegħek ma jiġix imġedded, il-krediti li jifdal għandhom 7 ijiem.** Il-bilanċ tal-krediti tal-aħħar xahar tal-abbonament tiegħek jibqa' jintuża għal **7 ijiem** mit-tmiem tal-abbonament; wara dan iż-żmien, jitħassar **b'mod definittiv**. L-applikazzjoni twissik b'messaġġ mill-bidu ta' dan il-perjodu, bil-bilanċ u d-data limitu. Dan iż-żmien ma japplikax fil-każ ta' rimbors. Il-krediti mixtrija fil-ħanut (Artikolu 8) **mhumiex affettwati**: jibqgħu tiegħek.
+
 ---
 
 ## Artikolu 8 — Pakketti u xiri għal darba
@@ -110,7 +119,7 @@ L-użu tas-servizz għandu limitu massimu, biex jiġi kkontrollat il-kost tal-ip
 
 *Tariffa fid-data tal-kitba: 2,99 € għal kull pakkett. Il-prezz li jorbtok huwa dak muri fil-mument tax-xiri.*
 
-Pakkett mixtri huwa **akkwistat b'mod definittiv** u marbut mal-kont tiegħek. Issibu billi terġa' tikkonnettja ruħek fuq apparat ieħor, u l-funzjoni "Irkupra x-xiri tiegħi" tal-applikazzjoni tippermettilek tirkuprah jekk ikun meħtieġ.
+Pakkett mixtri huwa **akkwistat b'mod definittiv** u marbut mal-kont tiegħek — b'differenza mill-krediti ta' kull xahar tal-abbonament (Artikoli 6 u 7), ma tiskadix. Issibu billi terġa' tikkonnettja ruħek fuq apparat ieħor, u l-funzjoni "Irkupra x-xiri tiegħi" tal-applikazzjoni tippermettilek tirkuprah jekk ikun meħtieġ.
 
 Il-krediti ta' kwota mixtrija jintużaw **biss ladarba l-kwoti tiegħek tal-perjodu jkunu ntemmu**, sabiex qatt ma tħallas darbtejn għall-istess użu.
 

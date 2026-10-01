@@ -1,6 +1,8 @@
 # Genel kullanım ve satış koşulları — Plume
 
-**Son güncelleme: 31 Temmuz 2026** — Sürüm 1.0
+**Son güncelleme: 1 Ekim 2026** — Sürüm 1.1
+
+> *Sürüm 1.1'de neler değişti:* Plume'un sesli tercümanı **Sesli iletişim**'i ve **Yapay Zekâ Pro** modunu açıklıyoruz (Madde 2 ve 6). Abonelik kredileriyle ilgili iki kuralı açıkça yazıyoruz: krediler **aylıktır ve bir aydan diğerine birikmez** (Madde 6); abonelik **yenilenmezse**, son ayın bakiyesi silinmeden önce **7 gün** boyunca kullanılabilir kalır (Madde 7). Mağazadan satın alınan krediler ise **kesin olarak sizindir** (Madde 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume, Android üzerinde çalışan bir yazma yardımcısıdır. Şunları yapma
 - yazmakta olduğunuz bir metni, doğrudan onu yazdığınız uygulamanın içinde, bir üslup ("persona") seçerek **yeniden ifade etmek**;
 - ekranda görüntülenen bir metni **çevirmek ya da özetlemek** ve alınan bir mesaja verilecek yanıt önerisi almak;
 - ekranda görüntülenen metnin üzerine bir çeviri bindiren **Destekli Okuma**'yı kullanmak;
-- bir metni yazmak yerine **dikte etmek**.
+- bir metni yazmak yerine **dikte etmek**;
+- iki kişi arasındaki bir konuşmayı sesli olarak ya da yazılı olarak (Yazı modu) çeviren sesli tercüman **Sesli iletişim**'i kullanmak.
 
 Cihazınıza ve seçiminize göre işleme, **telefonunuzda** ya da **uzak sunucularda** gerçekleşir. Verilerinizin tam dolaşımı gizlilik politikamızda açıklanmıştır: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Yapay zekânın ürettiği bir yanıt, bu kuralları ihlal ediyorsa reddedilebil
 - İşleme **cihazınızda** gerçekleştiğinde (yerel yapay zekâ ile uyumlu cihazlar): yalnızca telefonunuzun teknik sınırları (batarya, ısınma) saklı kalmak kaydıyla **sınırsız kullanım**.
 - İşleme **sunucularımızda** gerçekleştiğinde: her çağrının gerçek bir maliyeti olduğu için kullanım günlük ve aylık olarak sınırlıdır. *Bu metnin yazıldığı tarihte: günde 1 000 ve ayda 9 000.*
 
+**Abonelik kredileri aylıktır ve birikmez.** Bir ayın kredileri o ayın sonuna kadar geçerlidir: kullanılmayanlar sonraki aya **devredilmez**, sayaç orada sıfırdan başlar. Abonelik yenilenmezse Madde 7 uygulanır.
+
+**Sesli iletişim.** **Yerel kit** modu ücretsizdir: çeviri telefonunuzda yapılır (ücretsiz kademede ara sıra bir reklam gösterilebilir). **Yapay Zekâ Pro** modu abonelere ayrılmıştır: her çeviri, hedef dile göre **sabit** sayıda kota birimi tüketir — *bu metnin yazıldığı tarihte 1 birim, PRO işaretli bir dil için 3 birim*. Maliyet kullanımdan önce uygulamada gösterilir ve her başarılı çeviriden sonra **otomatik olarak düşülür**; başarısız bir çeviri için düşüş yapılmaz. Yeterli bakiye yoksa Yapay Zekâ Pro çevirisi yapılmaz.
+
 **Tüm kademeler için ortak noktalar:**
 
 - Bir **ekran çözümlemesi** (çeviri ya da yanıt önerisi), basit bir yeniden ifadeden daha maliyetlidir ve **birden fazla kota birimi** tüketir — şu anda 5.
@@ -102,6 +109,8 @@ Yapay zekânın ürettiği bir yanıt, bu kuralları ihlal ediyorsa reddedilebil
 
 **Aboneliğin sona ermesi.** Vade dolduğunda hesabınız ücretsiz kademeye döner. Ne hesabınızı, ne personalarınızı, ne de ayarlarınızı kaybedersiniz.
 
+**Aboneliğiniz yenilenmezse, kalan kredilerinizin süresi 7 gündür.** Son abonelik ayınızın kredi bakiyesi, abonelik bitiminden itibaren **7 gün** boyunca kullanılabilir kalır; bu sürenin ardından **kalıcı olarak silinir**. Uygulama, bu dönemin başında bakiyeyi ve son tarihi belirten bir mesajla sizi uyarır. Bu süre iade durumunda uygulanmaz. Mağazadan satın alınan kredileri (Madde 8) **kapsamaz**: bunlar sizin olarak kalır.
+
 ---
 
 ## Madde 8 — Paketler ve tek seferlik satın almalar
@@ -110,7 +119,7 @@ Bazı içerikler (persona paketleri, ek kota kredileri) abonelik olmaksızın te
 
 *Bu metnin yazıldığı tarihteki fiyat: paket başına 2,99 €. Sizi bağlayan fiyat, satın alma anında gösterilen fiyattır.*
 
-Satın alınan bir paket **kesin olarak edinilmiş olur** ve hesabınıza bağlanır. Başka bir cihazda yeniden bağlandığınızda onu bulursunuz ve gerekirse uygulamanın "Satın almalarımı geri yükle" işlevi onu geri almanızı sağlar.
+Satın alınan bir paket **kesin olarak edinilmiş olur** ve hesabınıza bağlanır — aboneliğin aylık kredilerinden (Madde 6 ve 7) farklı olarak, süresi dolmaz. Başka bir cihazda yeniden bağlandığınızda onu bulursunuz ve gerekirse uygulamanın "Satın almalarımı geri yükle" işlevi onu geri almanızı sağlar.
 
 Satın alınan kota kredileri, aynı kullanımı asla iki kez ödememeniz için **yalnızca dönemin kotaları tükendikten sonra** kullanılır.
 

@@ -1,6 +1,8 @@
 # Zásady ochrany osobních údajů aplikace Plume
 
-**Poslední aktualizace: 1. října 2026** — Verze 2.1
+**Poslední aktualizace: 1. října 2026** — Verze 2.2
+
+> *Co se změnilo ve verzi 2.2:* popisujeme **Hlasovou komunikaci**, hlasového tlumočníka Plume, který ve verzi 2.1 neexistoval: co zůstává ve vašem telefonu, co odchází v režimu AI Pro a čtení nahlas syntezátorem řeči telefonu (viz §4.1 a §9).
 
 > *Co se změnilo ve verzi 2.1:* popisujeme **režim Maskování**, který verze 2.0 nezmiňovala, a opravujeme tvrzení, které přestalo být přesné: u vlastních jazyků i u Maskování **slova z vašich zpráv, která ve vašem slovníku stále chybí, uchováváme jedno po druhém** — nikdy ne větu — abychom vám mohli nabídnout jejich přidání. Podrobnosti jsou v části „V jedné minutě“, v §2.2 a v §3. Opravujeme také druhou chybu: **vaše vlastní persony a jejich avataři jsou zálohovány na našich serverech** — nezůstávají jen ve vašem telefonu (viz §3).
 
@@ -134,6 +136,16 @@ Tlačítko mikrofonu vám umožňuje diktovat namísto psaní. O oprávnění k 
 
 Pokud oprávnění k mikrofonu odmítnete, psaní na klávesnici samozřejmě zůstává k dispozici.
 
+### 4.1 Hlasová komunikace (hlasový tlumočník)
+
+Hlasová komunikace nahlas překládá rozhovor mezi dvěma lidmi. **Mikrofon se otevře, jen když se dotknete koule**, a na konci každé věty se vypne.
+
+- **Řeč** přepisuje stejný modul rozpoznávání řeči telefonu jako diktování, se stejnými výhradami jako výše. **Plume přijímá pouze text, nikdy zvuk.** Pokud chybí offline modul pro některý jazyk, Plume požádá telefon o jeho stažení; mezitím může modul telefonu přepisovat online.
+- **V režimu Místní sada** (zdarma) probíhá překlad **ve vašem telefonu**.
+- **V režimu AI Pro** (předplatitelé) se přepsaný text odešle na naše servery a poté našemu poskytovateli zpracování pomocí umělé inteligence, který opraví chyby při poslechu a přeloží jej — stejnou cestou jako v §2.2. **Neuchováváme ani text, ani jeho překlad.**
+- **Čtení nahlas** provádí syntezátor řeči telefonu (obvykle ten od Googlu). V obou režimech po něm Plume žádá jeho přirozenější **online hlasy**: přeložený text se pak předává jeho vydavateli k vyslovení. Bez připojení převezme čtení hlas nainstalovaný v telefonu.
+- **Historie rozhovoru zůstává ve vašem telefonu** a zmizí, když opustíte obrazovku. V zařízení se uchovává pouze zvolená dvojice jazyků, zvolený režim a počet rozhovorů (kvůli reklamě bezplatné úrovně).
+
 ---
 
 ## 5. Reklama
@@ -191,7 +203,7 @@ Protože aplikace umožňuje přeformulovat volný text a zobrazuje reklamu, nen
 | **Náš poskytovatel zpracování pomocí AI** | Směrování požadavků a zpracování textu modelem umělé inteligence třetí strany | **Mimo Evropskou unii** |
 | **Google Play / Google Billing** | Platba, předplatné | Google Ireland / Spojené státy |
 | **Google AdMob** | Odměňovaná reklama | Google Ireland / Spojené státy |
-| **Google (systémové služby telefonu)** | Rozpoznávání řeči, moduly offline překladu | Podle vašeho zařízení |
+| **Google (systémové služby telefonu)** | Rozpoznávání řeči, syntéza řeči (čtení nahlas v Hlasové komunikaci), moduly offline překladu | Podle vašeho zařízení |
 | **Náš poskytovatel hlášení pádů** | Hlášení technických pádů — pouze chyby programu, filtrované před odesláním: nikdy váš text | Spojené státy |
 
 **Žádné údaje neprodáváme a žádné nepostupujeme datovým brokerům.**

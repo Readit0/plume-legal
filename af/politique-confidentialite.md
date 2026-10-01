@@ -1,6 +1,8 @@
 # Plume se privaatheidsbeleid
 
-**Laas bygewerk: 1 Oktober 2026** — Weergawe 2.1
+**Laas bygewerk: 1 Oktober 2026** — Weergawe 2.2
+
+> *Wat in weergawe 2.2 verander het:* ons beskryf **Klankgesprek**, Plume se stemtolk, wat nie in weergawe 2.1 bestaan het nie: wat op jou foon bly, wat in KI Pro-modus wegstuur, en die voorlees deur die foon se spraaksintese-enjin (sien §4.1 en §9).
 
 > *Wat in weergawe 2.1 verander het:* ons beskryf die **Kamoeflering-modus**, wat weergawe 2.0 nie vermeld het nie, en ons stel 'n bewering reg wat onakkuraat geword het: vir persoonlike tale sowel as vir Kamoeflering word **die woorde van jou boodskappe wat nog in jou leksikon ontbreek, een vir een bewaar** — nooit die sin nie — sodat ons jou kan voorstel om hulle by te voeg. Die besonderhede is by "In een minuut", by §2.2 en by §3. Ons stel ook 'n tweede fout reg: **jou eie personas en hulle avatars word op ons bedieners gerugsteun** — hulle bly nie net op jou foon nie (sien §3).
 
@@ -134,6 +136,16 @@ Hier is alles wat op ons bedieners gestoor word:
 
 As jy die mikrofoon se toestemming weier, bly invoer met die sleutelbord vanselfsprekend beskikbaar.
 
+### 4.1 Klankgesprek (die stemtolk)
+
+Klankgesprek vertaal 'n gesprek tussen twee mense hardop. **Die mikrofoon gaan net oop wanneer jy die bal aanraak**, en dit sluit aan die einde van elke sin.
+
+- **Die spraak** word getranskribeer deur dieselfde spraakherkenningsenjin van die foon as die diktering, met dieselfde voorbehoude as hierbo. **Plume ontvang slegs die teks, nooit die klank nie.** As die vanlyn-module van 'n taal ontbreek, vra Plume die foon om dit af te laai; intussen kan die foon se enjin aanlyn transkribeer.
+- **In Plaaslike kit-modus** (gratis) vind die vertaling **op jou foon** plaas.
+- **In KI Pro-modus** (intekenaars) word die getranskribeerde teks na ons bedieners gestuur en dan na ons KI-verwerkingsverskaffer, wat luisterfoute regstel en dit vertaal — langs dieselfde roete as in §2.2. **Ons bewaar nóg die teks nóg die vertaling daarvan.**
+- **Die voorlees** word deur die foon se spraaksintese-enjin gedoen (gewoonlik dié van Google). In albei modusse vra Plume sy **aanlyn stemme** daarvoor, wat natuurliker is: die vertaalde teks word dan aan sy uitgewer gestuur om uitgespreek te word. Sonder verbinding neem 'n stem wat op die foon geïnstalleer is oor.
+- **Die gespreksgeskiedenis bly op jou foon** en verdwyn wanneer jy die skerm verlaat. Slegs die gekose taalpaar, die gekose enjin en die aantal gesprekke (vir die advertensies van die gratis vlak) word op die toestel onthou.
+
 ---
 
 ## 5. Advertensies
@@ -191,7 +203,7 @@ Aangesien die app dit moontlik maak om vrye teks te herformuleer en advertensies
 | **Ons diensverskaffer vir KI-verwerking** | Roetering van die versoeke en verwerking van die teks deur 'n model vir kunsmatige intelligensie van 'n derde party | **Buite die Europese Unie** |
 | **Google Play / Google Billing** | Betaling, intekeninge | Google Ireland / Verenigde State |
 | **Google AdMob** | Beloningsadvertensies | Google Ireland / Verenigde State |
-| **Google (die foon se stelseldienste)** | Spraakherkenning, vanlyn vertaalmodules | Na gelang van jou toestel |
+| **Google (die foon se stelseldienste)** | Spraakherkenning, spraaksintese (voorlees vir Klankgesprek), vanlyn vertaalmodules | Na gelang van jou toestel |
 | **Ons diensverskaffer vir ineenstortingsverslae** | Tegniese ineenstortingsverslae — slegs foute van die program, gefiltreer voor versending: nooit jou teks nie | Verenigde State |
 
 **Ons verkoop geen data nie en dra geen data aan datamakelaars oor nie.**

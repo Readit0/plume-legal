@@ -1,6 +1,8 @@
 # Plume — Foydalanish va sotish umumiy shartlari
 
-**Oxirgi yangilanish: 31 iyul 2026** — 1.0-versiya
+**Oxirgi yangilanish: 1 oktyabr 2026** — 1.1-versiya
+
+> *1.1-versiyada nima o'zgardi:* biz Plume'ning ovozli tarjimoni **Ovozli muloqot**ni va uning **AI Pro** rejimini tasvirlaymiz (2 va 6-moddalar). Obuna kreditlari haqidagi ikki qoidani ochiq yozamiz: ular **oylik bo'lib, bir oydan ikkinchisiga to'planmaydi** (6-modda), obuna **yangilanmasa** esa, oxirgi oyning qoldig'i o'chirilishidan oldin **7 kun** foydalanish mumkin bo'lib qoladi (7-modda). Do'konda sotib olingan kreditlar esa **doimiy ravishda olingan** bo'lib qoladi (8-modda).
 
 
 ---
@@ -25,7 +27,8 @@ Plume Android’da ishlaydigan yozish yordamchisi vositasidir. U sizga imkon ber
 - siz yozayotgan ilovaning o'zida, uslub ("persona") tanlab, **yozayotgan matningizni qayta shakllantirish**;
 - **ekranda ko'rsatilgan matnni tarjima qilish yoki qisqartirish** va kelgan xabarga javob taklifini olish;
 - ekranda ko'rsatilgan matn ustiga tarjimani joylashtiradigan **Yordamchi O'qish**dan foydalanish;
-- yozish o'rniga matnni **diktovka qilish**.
+- yozish o'rniga matnni **diktovka qilish**;
+- **Ovozli muloqot**dan foydalanish — ikki kishi o'rtasidagi suhbatni ovoz chiqarib yoki yozma ravishda (Yozuv rejimi) tarjima qiladigan ovozli tarjimon.
 
 Qurilmangizga va tanlovingizga qarab, qayta ishlash **telefoningizda** yoki **uzoq serverlarda** amalga oshiriladi. Ma'lumotlaringizning aniq aylanishi maxfiylik siyosatimizda tavsiflangan: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Xizmatdan foydalanish, qayta ishlash xarajatini nazorat qilish uchun cheklangan.
 - Qayta ishlash **qurilmangizda** amalga oshirilganda (Mahalliy AI bilan mos qurilmalar): **cheksiz foydalanish**, faqat telefoningizning texnik cheklovlari (batareya, qizib ketish) bilan cheklangan.
 - Qayta ishlash **serverlarimizda** amalga oshirilganda: foydalanish kuniga va oyiga cheklangan, chunki har bir chaqiruv haqiqiy xarajatga ega. *Ushbu hujjat yozilgan sanada: kuniga 1 000 va oyiga 9 000.*
 
+**Obuna kreditlari oylik bo'lib, to'planmaydi.** Bir oyning kreditlari shu oyning oxirigacha amal qiladi: ishlatilmagani keyingi oyga **o'tkazilmaydi**, u yerda hisoblagich noldan qayta boshlanadi. Obuna yangilanmasa, 7-modda qo'llaniladi.
+
+**Ovozli muloqot.** **Mahalliy to'plam** rejimi bepul: tarjima telefoningizda amalga oshiriladi (bepul darajada vaqti-vaqti bilan reklama ko'rsatilishi mumkin). **AI Pro** rejimi obunachilar uchun ajratilgan: har bir tarjima maqsadli tilga qarab kvotaning **belgilangan** miqdordagi birligini sarflaydi — *ushbu hujjat yozilgan sanada 1 birlik, PRO deb belgilangan til uchun 3 birlik*. Narxi foydalanishdan oldin ilovada ko'rsatiladi va har bir muvaffaqiyatli tarjimadan keyin **avtomatik yechib olinadi**; muvaffaqiyatsiz tarjima uchun yechilmaydi. Qoldiq yetarli bo'lmasa, AI Pro tarjimasi bajarilmaydi.
+
 **Barcha darajalar uchun umumiy nuqtalar:**
 
 - **Ekran tahlili** (tarjima yoki javob taklifi) oddiy qayta shakllantirishdan qimmatroq va **bir nechta kvota birligini** sarflaydi — hozirda 5 ta.
@@ -103,6 +110,8 @@ Xizmatdan foydalanish, qayta ishlash xarajatini nazorat qilish uchun cheklangan.
 
 **Obuna tugashi.** Muddat tugaganda, hisobingiz bepul darajaga qaytadi. Siz hisobingizni ham, personalaringizni ham, sozlamalaringizni ham yo'qotmaysiz.
 
+**Obunangiz yangilanmasa, qolgan kreditlaringiz 7 kun amal qiladi.** Obunangizning oxirgi oyidagi kredit qoldig'i obuna tugagandan boshlab **7 kun** davomida foydalanish mumkin bo'lib qoladi; bu muddat o'tgach, u **butunlay o'chiriladi**. Ilova sizni bu davr boshlanishidanoq qoldiq va oxirgi sana ko'rsatilgan xabar bilan ogohlantiradi. Pul qaytarilgan taqdirda bu muddat qo'llanilmaydi. Do'konda sotib olingan kreditlarga (8-modda) bu **taalluqli emas**: ular sizniki bo'lib qoladi.
+
 ---
 
 ## 8-modda — Paketlar va dona xaridlar
@@ -111,7 +120,7 @@ Ba'zi kontent (persona paketlari, qo'shimcha kvota kreditlari) obunasiz, dona-do
 
 *Ushbu hujjat yozilgan sanadagi tarif: paket uchun 2,99 €. Sizni bog'laydigan narx xarid paytida ko'rsatilgan narxdir.*
 
-Sotib olingan paket **doimiy ravishda olingan** va hisobingizga bog'langan. Siz uni boshqa qurilmaga qayta kirganingizda topasiz va ilovaning "Xaridlarimni tiklash" funksiyasi kerak bo'lganda uni qayta olish imkonini beradi.
+Sotib olingan paket **doimiy ravishda olingan** va hisobingizga bog'langan — obunaning oylik kreditlaridan (6 va 7-moddalar) farqli o'laroq, muddati tugamaydi. Siz uni boshqa qurilmaga qayta kirganingizda topasiz va ilovaning "Xaridlarimni tiklash" funksiyasi kerak bo'lganda uni qayta olish imkonini beradi.
 
 Sotib olingan kvota kreditlari faqat **davrning kvotalari tugagandan keyin** ishlatiladi, shunda siz bir xil foydalanish uchun hech qachon ikki marta to'lamaysiz.
 

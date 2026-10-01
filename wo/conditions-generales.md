@@ -1,6 +1,8 @@
 # Sart yu Jëfandiku ak Jaay — Plume
 
-**Yeesalaat bu mujj: 31 sulet 2026** — Bindeef 1.0
+**Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 1.1
+
+> *Lu soppiku ci bindeef 1.1:* dinanu leeral **Waxtaan ak baat**, tekkikat bu baat bu Plume, ak mode bi ñuy wax **AI Pro** (Article 2 ak 6). Dinanu bind ci kaw ñaari yoon yu jëm ci kredit yu abonemaa: **weer wu nekk la ñu te duñu yóbbu** weer wi ci topp (Article 6), te su abonemaa bi **yeesalul**, dayoo bi ci weer wi mujj dina des ngir **7 fan** laata ñu koy far (Article 7). Kredit yi ñu jënd ci butik bi, moom, dañuy **nekk ñoom ba fàww** (Article 8).
 
 
 ---
@@ -25,7 +27,8 @@ Plume benn jumtukaay la bu ndimbal ci bind, bu liggéey ci Android. Dana la may 
 - **soppi mbind** mi nga di bind, fi nga koy bindee ci aplikasion bi, ci tann benn style ("persona");
 - **tekki walla dawal mbind mi feeñ ci ekran bi**, te am benn tontu bu ñu tann ngir bataaxal bu nga jot;
 - jëfandikoo **Jàngukaay bu Ndimbal**, bu tegg tekki ci kaw mbind mi feeñ ci ekran bi;
-- **bind ci baat** war du bind ci bët.
+- **bind ci baat** war du bind ci bët;
+- jëfandikoo **Waxtaan ak baat**, tekkikat bu baat bu di tekki ak baat waxtaan bu ñaari nit, walla ci bind (mode Bind).
 
 Ci lu aju ci sa sañse ak sa tann, liggéey bi dana def **ci sa téléphone** walla **ci server yu sore**. Jottali bu wér-wéer bu say done nekk na ci sunu sart bu sutura: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -79,6 +82,10 @@ Jëfandikoo service bi dañu ko dayo, ngir wattu njëg bu liggéey bi.
 - Bu liggéey bi di def **ci sa sañse** (sañse yu jekk ak IA bu bopp bi): **jëfandikoo bu amul dayo**, ci diirub contrainte technique yu sa téléphone rekk (batterie, tàng).
 - Bu liggéey bi di def **ci sunuy server**: jëfandikoo bi dañu ko dayo bés ak weer, ndaxte appel bu nekk am na njëg bu wér. *Ci bés bu ñu bind: 1 000 bés bu nekk ak 9 000 weer bu nekk.*
 
+**Kredit yu abonemaa yi weer wu nekk la ñu te duñu yóbbu.** Kredit yu weer wu nekk dañuy jeex ci mujjug weer wi: li ñu jëfandikoowul **duñu ko yóbbu** weer wi ci topp, foofu compteur bi dina tàmbaliwaat ci zéro. Su abonemaa bi yeesalul, Article 7 mooy jëfe.
+
+**Waxtaan ak baat.** Mode **Kit bu fi nekk** amul fey: tekki bi dafay am ci sa téléphone (ci palier bu amul fey, ay yoon dina am reklaam bu feeñ). Mode **AI Pro** ñi nekk ci abonemaa rekk a koy jëfandikoo: tekki bu nekk dafay jëfandikoo ay unité quota yu **dëgër** ci kaw làkk bi ñuy tekki — *ci bés bu ñu bind, 1 unité, ak 3 ngir làkk bu ñu màndarga PRO*. Njëg bi dañu koy won ci aplikasion bi laata ñu koy jëfandikoo te **dina ñu ko jël ci boppam** bu tekki bi jàllee; tekki bu amul ndam duñu ko jël. Su amulee dayoo bu doy, tekki AI Pro du am.
+
 **Yëf yu bokk ci palier yépp:**
 
 - **Xool ekran** (tekki walla tontu bu ñu tann) am na njëg bu ëpp ci soppi mbind bu yomb, te dafay lakk **ay quota yu bari** — léegi 5.
@@ -103,6 +110,8 @@ Jëfandikoo service bi dañu ko dayo, ngir wattu njëg bu liggéey bi.
 
 **Mujjug abonemaa.** Bu diir bi jeex, sa kont dana dellu ci palier bu amul fey. Duñu la wàññi sa kont, say persona, walla say paramet.
 
+**Su sa abonemaa yeesalul, kredit yi des am nañu 7 fan.** Dayoo bu kredit yi ci sa weeru abonemaa bu mujj dina des ngir **7 fan** ci bés bi abonemaa bi jeexee; bu ñu jàllee ci diir bi, dina ñu ko **far ba fàww**. Aplikasion bi dina la xamal ak ab bataaxal ci tàmbali diir bii, ak dayoo bi ak bés bu mujj. Diir bii dëppoowul su ñu la delloo xaalis bi. Kredit yi ñu jënd ci butik bi (Article 8) **dañoo ko jëflantewul**: dañuy des ñoom.
+
 ---
 
 ## Article 8 — Pakke ak njënd ci kaw-kaw
@@ -111,7 +120,7 @@ Ay kontenu (pakke bu persona, kredit quota yu yokk) dañu leen di jaay ci kaw-ka
 
 *Njëg ci bés bu ñu bind: 2,99 € pakke bu nekk. Njëg bu la jaxasoo mooy bi ñu won ci diir bu njënd.*
 
-Pakke bu ñu jënd nekk na **moom ba fàww** te jaxasoo ak sa kont. Dangay ko gis su nga dellu jaar ci beneen sañse, te fonksiyon "Delloosi samay njënd" bu aplikasion bi dana la may ko jël su ko soxla woon.
+Pakke bu ñu jënd nekk na **moom ba fàww** te jaxasoo ak sa kont — wuute ak kredit yu weer wu nekk yu abonemaa yi (Article 6 ak 7), du jeex. Dangay ko gis su nga dellu jaar ci beneen sañse, te fonksiyon "Delloosi samay njënd" bu aplikasion bi dana la may ko jël su ko soxla woon.
 
 Kredit quota yu ñu jënd duñu leen jëfandikoo lu dul **bu quota bu diir bi jeex**, ngir bañ a fey ñaari yoon ci benn jëfandikoo.
 

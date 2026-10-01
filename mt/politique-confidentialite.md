@@ -1,6 +1,8 @@
 # Politika ta' Privatezza ta' Plume
 
-**L-aħħar aġġornament: 1 ta' Ottubru 2026** — Verżjoni 2.1
+**L-aħħar aġġornament: 1 ta' Ottubru 2026** — Verżjoni 2.2
+
+> *X'inbidel fil-verżjoni 2.2:* qed niddeskrivu l-**Komunikazzjoni awdjo**, l-interpretu bil-vuċi ta' Plume, li ma kinitx teżisti fil-verżjoni 2.1: dak li jibqa' fuq it-telefown tiegħek, dak li jitlaq fil-modalità AI Pro, u l-qari b'leħen għoli mill-magna tas-sintesi tad-diskors tat-telefown (ara §4.1 u §9).
 
 > *Dak li nbidel fil-verżjoni 2.1:* qed niddeskrivu l-**modalità Kamuflaġġ**, li l-verżjoni 2.0 ma semmietx, u qed nikkorreġu dikjarazzjoni li saret mhux eżatta: kemm għal-lingwi personali kif ukoll għall-Kamuflaġġ, **il-kliem mill-messaġġi tiegħek li għadu nieqes mil-leksiku tiegħek jinżamm, wieħed wieħed** — qatt is-sentenza — sabiex inkunu nistgħu nipproponulek iżżidhom. Id-dettall jinsab f'“F'minuta waħda”, fis-§2.2 u fis-§3. Nikkoreġu wkoll żball ieħor: **il-personas personalizzati tiegħek u l-avatars tagħhom huma ssejvjati fuq is-servers tagħna** — ma jibqgħux biss fuq it-telefown tiegħek (ara s-§3).
 
@@ -134,6 +136,16 @@ Buttuna tal-mikrofonu tippermettilek tiddetta minflok tittajpja. Il-permess ta' 
 
 Jekk tirrifjuta l-permess tal-mikrofonu, id-dħul bit-tastiera ovvjament jibqa' disponibbli.
 
+### 4.1 Komunikazzjoni awdjo (l-interpretu bil-vuċi)
+
+Il-Komunikazzjoni awdjo tittraduċi b'leħen għoli konversazzjoni bejn żewġ persuni. **Il-mikrofonu jinfetaħ biss meta tmiss il-ballun**, u jingħalaq fi tmiem kull sentenza.
+
+- **Id-diskors** jiġi ttranskritt mill-istess magna tar-rikonoxximent tad-diskors tat-telefown bħad-dettatura, bl-istess riżervi msemmija hawn fuq. **Plume jirċievi biss it-test, qatt l-awdjo.** Jekk jonqos il-modulu offline ta' lingwa, Plume jitlob lit-telefown biex iniżżlu; sadanittant, il-magna tat-telefown tista' tittranskrivi online.
+- **Fil-modalità Kit lokali** (bla ħlas), it-traduzzjoni ssir **fuq it-telefown tiegħek**.
+- **Fil-modalità AI Pro** (abbonati), it-test ittranskritt jintbagħat lis-servers tagħna u mbagħad lill-fornitur tagħna tal-ipproċessar bl-IA, li jikkoreġi l-iżbalji tal-ismigħ u jittraduċih — bl-istess rotta bħal fil-§2.2. **Ma nżommux la t-test u lanqas it-traduzzjoni tiegħu.**
+- **Il-qari b'leħen għoli** isir mill-magna tas-sintesi tad-diskors tat-telefown (ġeneralment dik ta' Google). Fiż-żewġ modalitajiet, Plume jitlobha **leħnijiet online** aktar naturali: it-test tradott imbagħad jiġi trażmess lill-pubblikatur tagħha biex jiġi pronunzjat. Meta ma jkunx hemm konnessjoni, leħen installat fuq it-telefown jieħu f'idejh.
+- **L-istorja tal-konversazzjoni tibqa' fuq it-telefown tiegħek** u tisparixxi meta titlaq mill-iskrin. Fuq l-apparat jinżammu biss il-par ta' lingwi magħżul, il-magna magħżula u n-numru ta' konversazzjonijiet (għar-reklamar tal-livell bla ħlas).
+
 ---
 
 ## 5. Reklamar
@@ -191,7 +203,7 @@ Peress li l-applikazzjoni tippermetti li jiġi rriformulat test liberu u turi re
 | **Il-fornitur tal-ipproċessar bl-IA tagħna** | Instradar tat-talbiet u pproċessar tat-test minn mudell ta' intelliġenza artifiċjali ta' terza parti | **Barra mill-Unjoni Ewropea** |
 | **Google Play / Google Billing** | Ħlas, abbonamenti | Google Ireland / Stati Uniti |
 | **Google AdMob** | Reklamar bi premju | Google Ireland / Stati Uniti |
-| **Google (servizzi tas-sistema tat-telefown)** | Rikonoxximent tal-vuċi, moduli ta' traduzzjoni offline | Skont l-apparat tiegħek |
+| **Google (servizzi tas-sistema tat-telefown)** | Rikonoxximent tal-vuċi, sintesi tad-diskors (qari b'leħen għoli tal-Komunikazzjoni awdjo), moduli ta' traduzzjoni offline | Skont l-apparat tiegħek |
 | **Il-fornitur tar-rappurtar ta' crashes tagħna** | Rappurtar ta' crashes tekniku — biss żbalji tal-programm, iffiltrati qabel il-bgħit: qatt it-test tiegħek | L-Istati Uniti |
 
 **Ma nbigħu ebda data u ma nċedu ebda data lil sensara tad-data.**

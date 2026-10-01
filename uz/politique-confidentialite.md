@@ -1,6 +1,8 @@
 # Plume maxfiylik siyosati
 
-**Oxirgi yangilanish: 1 oktyabr 2026** — 2.1-versiya
+**Oxirgi yangilanish: 1 oktyabr 2026** — 2.2-versiya
+
+> *2.2-versiyada nima o'zgardi:* biz 2.1-versiyada mavjud bo'lmagan, Plume'ning ovozli tarjimoni **Ovozli muloqot**ni tasvirlaymiz: telefoningizda nima qoladi, AI Pro rejimida nima chiqib ketadi va telefonning nutq sintezi mexanizmi orqali ovoz chiqarib o'qish (§4.1 va §9 ga qarang).
 
 > *2.1-versiyada nima o'zgardi:* biz 2.0-versiyada tilga olinmagan **Kamuflyaj rejimini** tasvirlaymiz va endi to'g'ri bo'lmagan bayonotni tuzatamiz: shaxsiy tillarda ham, Kamuflyajda ham **xabarlaringizdagi lug'atingizda hali yo'q so'zlar bittadan saqlanadi** — hech qachon jumla emas — ularni qo'shishni taklif qila olishimiz uchun. Batafsil ma'lumot "Bir daqiqada" bo'limida, §2.2 va §3 da. Biz ikkinchi xatoni ham tuzatamiz: **shaxsiylashtirilgan personalaringiz va ularning avatarlari serverlarimizda zaxiralanadi** — ular faqat telefoningizda qolmaydi (§3 ga qarang).
 
@@ -134,6 +136,16 @@ Mikrofon tugmasi yozish o'rniga diktovka qilish imkonini beradi. Mikrofonga kiri
 
 Agar mikrofon ruxsatini rad etsangiz, klaviaturada yozish, albatta, mavjud bo'lib qoladi.
 
+### 4.1 Ovozli muloqot (ovozli tarjimon)
+
+Ovozli muloqot ikki kishi o'rtasidagi suhbatni ovoz chiqarib tarjima qiladi. **Mikrofon faqat siz sharga tegingandagina ochiladi** va har bir gap oxirida o'chadi.
+
+- **Nutq** diktovka bilan bir xil bo'lgan telefonning ovoz tanish mexanizmi tomonidan, yuqoridagi kabi qaydlar bilan matnga aylantiriladi. **Plume faqat matnni oladi, hech qachon audioni emas.** Agar tilning oflayn moduli yetishmasa, Plume telefondan uni yuklab olishni so'raydi; bu orada telefon mexanizmi onlayn matnga aylantirishi mumkin.
+- **Mahalliy to'plam rejimida** (bepul) tarjima **telefoningizda** amalga oshiriladi.
+- **AI Pro rejimida** (obunachilar) matnga aylantirilgan matn bizning serverlarimizga, so'ng tinglash xatolarini tuzatib, uni tarjima qiladigan sun'iy intellekt orqali qayta ishlash provayderimizga yuboriladi — §2.2 dagi bilan bir xil yo'l orqali. **Biz na matnni, na uning tarjimasini saqlamaymiz.**
+- **Ovoz chiqarib o'qish**ni telefonning nutq sintezi mexanizmi (odatda Google'niki) bajaradi. Ikkala rejimda ham Plume undan tabiiyroq **onlayn ovozlarni** so'raydi: shunda tarjima qilingan matn talaffuz qilish uchun uning nashriyotchisiga uzatiladi. Aloqa bo'lmaganda telefonga o'rnatilgan ovoz uning o'rnini egallaydi.
+- **Suhbat tarixi telefoningizda qoladi** va ekrandan chiqqaningizda yo'qoladi. Qurilmada faqat tanlangan tillar jufti, tanlangan mexanizm va suhbatlar soni (bepul daraja reklamasi uchun) eslab qolinadi.
+
 ---
 
 ## 5. Reklama
@@ -191,7 +203,7 @@ Ilova erkin matnni qayta shakllantirish imkonini berganligi va reklama ko'rsatga
 | **AI qayta ishlash provayderimiz** | So'rovlarni yo'naltirish va matnni uchinchi tomonning sun'iy intellekt modeli bilan qayta ishlash | **Yevropa Ittifoqidan tashqarida** |
 | **Google Play / Google Billing** | To'lov, obunalar | Google Ireland / AQSh |
 | **Google AdMob** | Mukofotli reklama | Google Ireland / AQSh |
-| **Google (telefon tizim xizmatlari)** | Ovoz tanish, oflayn tarjima modullari | Qurilmangizga bog'liq |
+| **Google (telefon tizim xizmatlari)** | Ovoz tanish, nutq sintezi (Ovozli muloqotda ovoz chiqarib o'qish), oflayn tarjima modullari | Qurilmangizga bog'liq |
 | **Nosozlik hisoboti provayderimiz** | Texnik nosozlik hisoboti — faqat dastur xatolari, yuborishdan oldin filtrlangan: hech qachon matningiz emas | AQSh |
 
 **Biz hech qanday ma'lumotni sotmaymiz va ma'lumotlar brokerlariga bermaymiz.**

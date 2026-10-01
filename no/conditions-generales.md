@@ -1,6 +1,8 @@
 # Generelle vilkår for bruk og salg — Plume
 
-**Sist oppdatert: 31. juli 2026** — Versjon 1.0
+**Sist oppdatert: 1. oktober 2026** — Versjon 1.1
+
+> *Hva som er endret i versjon 1.1:* vi beskriver **Lydkommunikasjon**, Plumes stemmetolk, og dens **KI Pro**-modus (Artikkel 2 og 6). Vi skriver svart på hvitt to regler om abonnementskredittene: de er **månedlige og samles ikke opp** fra én måned til neste (Artikkel 6), og hvis abonnementet **ikke fornyes**, kan saldoen fra den siste måneden brukes i **7 dager** før den slettes (Artikkel 7). Kreditter kjøpt i butikken forblir derimot **ervervet for godt** (Artikkel 8).
 
 ---
 
@@ -24,7 +26,8 @@ Plume er et hjelpeverktøy for skriving som fungerer på Android. Det lar deg:
 - **omformulere en tekst** du holder på å skrive, direkte i appen der du skriver den, ved å velge en stil («persona»);
 - **oversette eller sammenfatte tekst som vises på skjermen**, og få et forslag til svar på en melding du har mottatt;
 - bruke **Assistert lesing**, som legger en oversettelse oppå teksten som vises på skjermen;
-- **diktere** en tekst i stedet for å skrive den.
+- **diktere** en tekst i stedet for å skrive den;
+- bruke **Lydkommunikasjon**, en stemmetolk som oversetter en samtale mellom to personer høyt, eller skriftlig (modusen Skriving).
 
 Avhengig av enheten din og valget ditt skjer behandlingen **på telefonen din** eller **på fjernservere**. Nøyaktig hvordan opplysningene dine beveger seg, er beskrevet i personvernerklæringen vår: `https://readit0.github.io/plume-legal/politique-confidentialite`.
 
@@ -78,6 +81,10 @@ Bruken av tjenesten har et tak, for å holde kontroll på behandlingskostnaden.
 - Når behandlingen skjer **på enheten din** (enheter som er kompatible med den lokale KI-en): **ubegrenset bruk**, med det ene forbeholdet at telefonen din har tekniske grenser (batteri, varmeutvikling).
 - Når behandlingen skjer **på serverne våre**: bruken har et tak per dag og per måned, fordi hvert kall har en reell kostnad. *På tidspunktet for skrivingen: 1 000 per dag og 9 000 per måned.*
 
+**Abonnementskredittene er månedlige og samles ikke opp.** Kredittene for en måned gjelder til slutten av den måneden: det som ikke er brukt, **overføres ikke** til neste måned, der telleren starter på null igjen. Hvis abonnementet ikke fornyes, gjelder Artikkel 7.
+
+**Lydkommunikasjon.** Modusen **Lokalt sett** er gratis: oversettelsen skjer på telefonen din (på gratisnivået kan det av og til vises en annonse). Modusen **KI Pro** er forbeholdt abonnenter: hver oversettelse bruker et **fast** antall kvoteenheter, avhengig av målspråket — *på skrivetidspunktet 1 enhet, og 3 for et språk merket PRO*. Kostnaden vises i appen før bruk og **trekkes automatisk** etter hver vellykket oversettelse; en oversettelse som mislykkes, trekkes ikke. Uten tilstrekkelig saldo blir ikke KI Pro-oversettelsen utført.
+
 **Felles for alle nivåene:**
 
 - En **skjermanalyse** (oversettelse eller svarforslag) er dyrere enn en enkel omformulering og bruker **flere kvoteenheter** — for tiden 5.
@@ -102,6 +109,8 @@ Bruken av tjenesten har et tak, for å holde kontroll på behandlingskostnaden.
 
 **Slutten på abonnementet.** Ved utløp går kontoen din tilbake til gratisnivået. Du mister verken kontoen din, personaene dine eller innstillingene dine.
 
+**Hvis abonnementet ditt ikke fornyes, har de gjenværende kredittene 7 dager.** Kredittsaldoen fra din siste abonnementsmåned kan brukes i **7 dager** fra abonnementet utløper; etter den fristen blir den **slettet for godt**. Appen varsler deg med en melding fra starten av denne perioden, med saldo og siste frist. Fristen gjelder ikke ved refusjon. Kreditter kjøpt i butikken (Artikkel 8) **omfattes ikke**: de forblir dine.
+
 ---
 
 ## Artikkel 8 — Pakker og enkeltkjøp
@@ -110,7 +119,7 @@ Enkelte innhold (personapakker, ekstra kvotekreditter) selges enkeltvis, uten ab
 
 *Pris på tidspunktet for skrivingen: 2,99 € per pakke. Prisen som binder deg, er den som vises på kjøpstidspunktet.*
 
-En pakke du har kjøpt, er **ervervet for godt** og knyttet til kontoen din. Du finner den igjen ved å logge inn på en annen enhet, og funksjonen «Gjenopprett kjøpene mine» i appen lar deg hente den tilbake om nødvendig.
+En pakke du har kjøpt, er **ervervet for godt** og knyttet til kontoen din — i motsetning til de månedlige abonnementskredittene (Artikkel 6 og 7) utløper den ikke. Du finner den igjen ved å logge inn på en annen enhet, og funksjonen «Gjenopprett kjøpene mine» i appen lar deg hente den tilbake om nødvendig.
 
 Kvotekreditter du har kjøpt, brukes **først når kvotene dine for perioden er brukt opp**, slik at du aldri betaler to ganger for den samme bruken.
 

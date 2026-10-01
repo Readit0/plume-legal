@@ -1,6 +1,8 @@
 # Pravila o privatnosti aplikacije Plume
 
-**Zadnje ažurirano: 1. oktobar 2026.** — Verzija 2.1
+**Zadnje ažurirano: 1. oktobar 2026.** — Verzija 2.2
+
+> *Šta se promijenilo u verziji 2.2:* opisujemo **Audio komunikaciju**, Plumeovog glasovnog tumača, koji nije postojao u verziji 2.1: šta ostaje na vašem telefonu, šta odlazi u načinu AI Pro, i čitanje naglas pomoću mašine za sintezu govora na telefonu (vidi §4.1 i §9).
 
 > *Šta se promijenilo u verziji 2.1:* opisujemo **režim Kamuflaža**, koji verzija 2.0 nije spominjala, i ispravljamo tvrdnju koja više nije tačna: i za lične jezike i za Kamuflažu, **riječi iz vaših poruka koje još nedostaju u vašem rječniku čuvaju se jedna po jedna** — nikada rečenica — kako bismo vam mogli predložiti da ih dodate. Detalji su u odjeljku „Za jedan minut", u §2.2 i u §3. Ispravljamo i drugu grešku: **vaše prilagođene persone i njihovi avatari sačuvani su na našim serverima** — ne ostaju samo na vašem telefonu (vidi §3).
 
@@ -134,6 +136,16 @@ Važna i iskrena napomena: ovaj sistemski motor pripada vašem telefonu, obično
 
 Ako odbijete dozvolu za mikrofon, unos putem tastature naravno ostaje dostupan.
 
+### 4.1 Audio komunikacija (glasovni tumač)
+
+Audio komunikacija naglas prevodi razgovor između dvije osobe. **Mikrofon se otvara samo kada dodirnete kuglu**, a zatvara se na kraju svake rečenice.
+
+- **Govor** transkribira ista mašina za prepoznavanje govora na telefonu kao i diktiranje, uz iste rezerve kao gore. **Plume prima samo tekst, nikada zvuk.** Ako nedostaje modul za rad van mreže za neki jezik, Plume traži od telefona da ga preuzme; u međuvremenu mašina telefona može transkribirati online.
+- **U načinu Lokalni komplet** (besplatno) prevod se obavlja **na vašem telefonu**.
+- **U načinu AI Pro** (pretplatnici) transkribirani tekst se šalje na naše servere, a zatim našem pružatelju AI obrade, koji ispravlja greške pri slušanju i prevodi ga — istim putem kao u §2.2. **Ne čuvamo ni tekst ni njegov prevod.**
+- **Čitanje naglas** obavlja mašina za sintezu govora na telefonu (uglavnom Googleova). U oba načina Plume od nje traži svoje prirodnije **online glasove**: preveden tekst se tada prosljeđuje njenom izdavaču radi izgovora. Bez veze preuzima glas instaliran na telefonu.
+- **Historija razgovora ostaje na vašem telefonu** i nestaje kada napustite ekran. Na uređaju se pamte samo odabrani par jezika, odabrani način rada i broj razgovora (za reklame besplatnog nivoa).
+
 ---
 
 ## 5. Reklame
@@ -191,7 +203,7 @@ Pošto aplikacija omogućava preformulisanje slobodnog teksta i prikazuje reklam
 | **Naš pružalac usluga obrade VI** | Usmjeravanje zahtjeva i obrada teksta modelom vještačke inteligencije treće strane | **Izvan Evropske unije** |
 | **Google Play / Google Billing** | Plaćanje, pretplate | Google Ireland / Sjedinjene Američke Države |
 | **Google AdMob** | Nagradne reklame | Google Ireland / Sjedinjene Američke Države |
-| **Google** (sistemske usluge telefona) | Prepoznavanje glasa, moduli za prevod van mreže | Zavisno od vašeg uređaja |
+| **Google** (sistemske usluge telefona) | Prepoznavanje glasa, sinteza govora (čitanje naglas za Audio komunikaciju), moduli za prevod van mreže | Zavisno od vašeg uređaja |
 | **Naš pružalac usluga izvještavanja o padovima** | Tehnički izvještaj o padu aplikacije — samo greške u programu, filtrirane prije slanja: nikada vaš tekst | Sjedinjene Američke Države |
 
 Ne prodajemo nikakve podatke i ne ustupamo ih posrednicima za podatke.

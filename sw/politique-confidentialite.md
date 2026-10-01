@@ -1,6 +1,8 @@
 # Sera ya faragha ya Plume
 
-**Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 2.1
+**Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 2.2
+
+> *Kilichobadilika katika toleo la 2.2:* tunaeleza **Mawasiliano ya sauti**, mkalimani wa sauti wa Plume, ambayo haikuwepo katika toleo la 2.1: kinachobaki kwenye simu yako, kinachotoka katika hali ya AI Pro, na usomaji kwa sauti unaofanywa na injini ya sauti ya simu (tazama §4.1 na §9).
 
 > *Kilichobadilika katika toleo la 2.1:* tunaeleza **hali ya Kuficha**, ambayo toleo la 2.0 halikuitaja, na tunarekebisha kauli iliyokuwa imeacha kuwa sahihi: kwa lugha za kibinafsi na kwa Kuficha, **maneno ya jumbe zako ambayo bado hayamo kwenye msamiati wako huhifadhiwa moja baada ya jingine** — kamwe sentensi — ili tuweze kukupendekezea kuyaongeza. Maelezo yako katika "Kwa dakika moja", katika §2.2 na katika §3. Pia tunarekebisha kosa la pili: **persona zako binafsi na avatari zao huhifadhiwa kwenye seva zetu** — hazibaki kwenye simu yako pekee (tazama §3).
 
@@ -141,6 +143,16 @@ Kitufe cha maikrofoni kinakuwezesha kuzungumza badala ya kuandika. Ruhusa ya kuf
 
 Ukikataa ruhusa ya maikrofoni, kuandika kwa kibodi bila shaka kunabaki kupatikana.
 
+### 4.1 Mawasiliano ya sauti (mkalimani wa sauti)
+
+Mawasiliano ya sauti hutafsiri kwa sauti mazungumzo kati ya watu wawili. **Kipaza sauti kinafunguka tu unapogusa tufe**, na kinazimika mwishoni mwa kila sentensi.
+
+- **Usemi** hunakiliwa na injini ile ile ya kutambua sauti ya simu inayotumika kwenye kuandika kwa sauti, kwa tahadhari zile zile za hapo juu. **Plume hupokea maandishi tu, kamwe sauti.** Moduli ya lugha ya nje ya mtandao ikikosekana, Plume huomba simu iipakue; wakati huo, injini ya simu inaweza kunakili mtandaoni.
+- **Katika hali ya Kifurushi cha ndani** (bure), tafsiri hufanywa **kwenye simu yako**.
+- **Katika hali ya AI Pro** (wanaojisajili), maandishi yaliyonakiliwa hutumwa kwa seva zetu kisha kwa mtoa huduma wetu wa usindikaji wa akili bandia, anayesahihisha makosa ya kusikia na kuyatafsiri — kwa njia ile ile kama katika §2.2. **Hatuhifadhi maandishi wala tafsiri yake.**
+- **Usomaji kwa sauti** hufanywa na injini ya sauti ya simu (kwa kawaida ya Google). Katika hali zote mbili, Plume huiomba **sauti zake za mtandaoni**, zilizo za asili zaidi: maandishi yaliyotafsiriwa hutumwa basi kwa mchapishaji wake ili yatamkwe. Bila mtandao, sauti iliyosakinishwa kwenye simu huchukua nafasi.
+- **Historia ya mazungumzo inabaki kwenye simu yako** na inatoweka unapotoka kwenye skrini. Ni jozi ya lugha uliyochagua, hali uliyochagua na idadi ya mazungumzo (kwa tangazo la ngazi ya bure) tu ndivyo vinavyohifadhiwa kwenye kifaa.
+
 ---
 
 ## 5. Matangazo
@@ -198,7 +210,7 @@ Kwa kuwa programu inaruhusu kuandika upya maandishi huru na inaonyesha matangazo
 | **Mtoa huduma wetu wa uchakataji wa AI** | Kuelekeza maombi na kuchakata maandishi kwa modeli ya akili bandia ya mtu wa tatu | **Nje ya Umoja wa Ulaya** |
 | **Google Play / Google Billing** | Malipo, usajili | Google Ireland / Marekani |
 | **Google AdMob** | Matangazo yenye zawadi | Google Ireland / Marekani |
-| **Google (huduma za mfumo za simu)** | Utambuzi wa sauti, moduli za tafsiri bila mtandao | Kutegemea kifaa chako |
+| **Google (huduma za mfumo za simu)** | Utambuzi wa sauti, usanisi wa sauti (usomaji kwa sauti wa Mawasiliano ya sauti), moduli za tafsiri bila mtandao | Kutegemea kifaa chako |
 | **Mtoa huduma wetu wa kuripoti hitilafu** | Ripoti ya hitilafu za kiufundi — hitilafu za programu pekee, zilizochujwa kabla ya kutumwa: kamwe maandishi yako | Marekani |
 
 **Hatuuzi data yoyote wala hatukabidhi data yoyote kwa madalali wa data.**
