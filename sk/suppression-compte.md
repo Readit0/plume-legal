@@ -37,6 +37,7 @@ Vymazanie **natrvalo** odstráni:
 - **vaše identifikátory požiadaviek** — technické odkazy na vyžiadané preformulovania;
 - **vaše kredity a odomknutia limitu** — zakúpené a nespotrebované kredity, odomknutia získané za reklamu, upravené stropy;
 - **väzbu vašich zariadení na váš účet** — vaše ostatné telefóny či tablety sú odpojené a stávajú sa opäť jednoduchými anonymnými zariadeniami;
+- **vaše vlastné persony**, vrátane tých presunutých do koša — ich názov, pokyny, avatar, miniatúry importovaných obrázkov (avatari person a emblémy jazykov) a vaše zdieľacie tokeny;
 - **vaše kamuflážne slovníky**, vrátane tých presunutých do koša — ich názov, tému, dvojice slov, čakajúce slová, vaše zdieľacie tokeny a prepojenia v oboch smeroch (slovníky, ktoré ste zdieľali, aj tie, ktoré boli zdieľané s vami);
 - **vlastné jazyky, ktoré ste vytvorili** — ich názov, ich abecedu, ich slovník, čakajúce slová, vaše zdieľacie tokeny a vašu históriu importov. **Čo toto vymazanie nedokáže:** ak si niekto iný už importoval kópiu vášho jazyka, táto kópia mu odvtedy patrí a **pretrváva** aj po vašom vymazaní — podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme z jej strany vymazať.
 
@@ -44,7 +45,7 @@ Zariadenie, z ktorého o vymazanie žiadate, je **neutralizované**: jeho väzba
 
 **Texty, ktoré ste preformulovali, ani text prečítaný z obrazovky Asistovaným čítaním, neukladáme**: nie sú nikde na našich serveroch uchovávané, nie je teda čo vymazávať. **To neplatí o vašich vlastných jazykoch a kamuflážnych slovníkoch:** ich obsah (názov, abeceda alebo téma, slová a definície), ako aj izolované slová z vašich správ, ktoré v nich ešte chýbali, sa na našich serveroch skutočne uchovávajú — vymazaním vášho účtu sa vymažú, rovnako ako všetko ostatné, čo vám patrí (pozri vyššie).
 
-**Vo vašom telefóne** sú vaše persony, vaši avatari, vaše nastavenia a vaše pravidlá pre jednotlivé aplikácie uložené lokálne. Vymazaním z aplikácie sú odstránené a v každom prípade **zmiznú, keď Plume odinštalujete**.
+**Vo vašom telefóne** sú vaše nastavenia a vaše pravidlá pre jednotlivé aplikácie uložené lokálne. Vymazaním z aplikácie sú odstránené a v každom prípade **zmiznú, keď Plume odinštalujete**.
 
 ---
 

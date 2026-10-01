@@ -2,7 +2,7 @@
 
 **Dènye mizajou: 1 oktòb 2026** — Vèsyon 2.1
 
-> *Sa ki chanje nan vèsyon 2.1:* nou dekri **mòd Kamouflaj la**, vèsyon 2.0 pa t mansyone, epi nou korije yon afimasyon ki pa t egzat ankò: pou lang pèsonèl yo kou pou Kamouflaj la, **mo ki nan mesaj ou yo ki poko nan vokabilè ou yo konsève, youn pa youn** — pa janm fraz la — pou n ka pwopoze w ajoute yo. Detay yo nan «Nan yon minit», nan §2.2 ak nan §3.
+> *Sa ki chanje nan vèsyon 2.1:* nou dekri **mòd Kamouflaj la**, vèsyon 2.0 pa t mansyone, epi nou korije yon afimasyon ki pa t egzat ankò: pou lang pèsonèl yo kou pou Kamouflaj la, **mo ki nan mesaj ou yo ki poko nan vokabilè ou yo konsève, youn pa youn** — pa janm fraz la — pou n ka pwopoze w ajoute yo. Detay yo nan «Nan yon minit», nan §2.2 ak nan §3. Nou korije tou yon dezyèm erè: **pèsona pèsonalize ou yo ak avata yo sove sou sèvè nou yo** — yo pa rete sèlman sou telefòn ou (gade §3).
 
 > *Sa ki chanje depi vèsyon 1.0, epi poukisa ou ka wè ekran akò a ankò
 > nan aplikasyon an:* n ap korije de deklarasyon ki pa t egzat ankò. Premyèman,
@@ -118,6 +118,7 @@ Men tout sa ki estoke sou sèvè nou yo:
 | **Siyal teknik abi** (depasman repete, echèk kontwòl entegrite — san okenn tèks) | Sekirite, lit kont fwod | Detache ak idantite w lè yo efase kont lan |
 | **Lang ak vèsyon aplikasyon an** | Bay bon kontni an | Jiskaske ou efase kont ou |
 | **Kontni lang pèsonèl ou kreye yo** (non li, alfabè li ak vokabilè li — mo ak definisyon ou menm, oswa lòt moun, te ekri ladan l) | Pèmèt ou jwenn lang ou a ankò sou yon lòt aparèy, fè l evolye, epi pataje l ak lòt itilizatè | Toutotan lang lan egziste. Si w efase l, fich li a disparèt — men yon kopi yon lòt moun **te deja enpòte** vin pou moun sa a depi lè sa a epi li **kontinye egziste**, tankou yon mesaj yon twazyèm moun deja resevwa ke nou pa ka al efase lakay li |
+| **Pèsona pèsonalize ou yo** (non yo, enstriksyon yo, avata ou chwazi a ak, si w enpòte yon imaj, yon miniatiray 512 piksèl oswa mwens — menm bagay pou anblèm yon lang pèsonèl ou enpòte) | Pèmèt ou jwenn yo ankò apre yon reenstalasyon oswa sou yon lòt aparèy, epi pataje yo. Enstriksyon yon pèsona voye bay sèvis IA a chak fwa w mande yon refòmilasyon ki itilize l | Toutotan pèsona a egziste. Yon pèsona yo mete nan poubèl la efase 30 jou apre, pwochen fwa w louvri lis pèsona ou yo. Tout disparèt lè w efase kont ou |
 | **Diksyonè kamouflaj ou yo** (non yo, tèm yo, lang yo, anblèm ou chwazi a, ak pè mo yo «vrè mo → mo kòd») | Kamouflaje epi dekode mesaj ou yo, pèmèt ou jwenn diksyonè ou a ankò sou yon lòt aparèy, fè l evolye epi pataje l | Toutotan diksyonè a egziste. **Yon diksyonè yo mete nan poubèl la rete konsève**: poko gen okenn vidaj otomatik poubèl sa a. Li disparèt lè w efase kont ou |
 | **Mo ki an atant yo** (lang pèsonèl ak Kamouflaj): mo apa ki nan mesaj ou yo ki poko nan vokabilè ou a — pa janm fraz la —, ak kantite fwa yo parèt ak dat premye fwa ak dènye fwa yo parèt | Pwopoze w ajoute yo nan vokabilè ou a, epi fè sèvis IA a trete yo lè w ap fè l grandi | Konsève menm apre yo fin ajoute, toutotan lang lan oswa diksyonè a egziste. **Si w ekri ak yon diksyonè kamouflaj yon lòt moun pataje avè w**, mo ki manke ladan l yo mete sou kote **nan diksyonè pa li a**, epi moun sa a ka wè yo |
 | **Pataj lang ou yo ak diksyonè ou yo** (yon jeton pataj, estoke sèlman sou fòm anprent; istorik enpòtasyon yo ak lyen yo) | Pèmèt moun ou renmen yo li mesaj ou yo. Pwopriyetè yon diksyonè wè lis moun ki lye ak li (non afichaj ak foto pwofil Google — pa janm adrès imèl la) | Yon jeton ekspire. Se tras yon pataj yo anile ki konsève |
@@ -127,7 +128,7 @@ Men tout sa ki estoke sou sèvè nou yo:
 
 **Sa nou pa kolekte:** non ou, kontak ou yo, kote w ye, kanè adrès ou, foto ou yo, ajanda ou, istorik aplikasyon ou yo. Plume pa mande okenn nan otorizasyon sa yo.
 
-**Sa ki rete sèlman sou telefòn ou:** pèsona pèsonalize ou yo ak avata yo, paramèt ou yo, règ ou yo pou chak aplikasyon, kach tradiksyon Lekti Asiste a (yo efase l nan fen chak sesyon). Anyen nan sa pa voye bay sèvè nou yo.
+**Sa ki rete sèlman sou telefòn ou:** paramèt ou yo, règ ou yo pou chak aplikasyon, kach tradiksyon Lekti Asiste a (yo efase l nan fen chak sesyon). Anyen nan sa pa voye bay sèvè nou yo.
 
 ---
 

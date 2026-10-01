@@ -38,6 +38,7 @@ Ny famafana dia manesotra **mandrakizay** :
 - **ny famantaran'ny fangatahanao** — ny fanamarihana ara-teknikan'ny fanoratana indray nangatahina ;
 - **ny quota sy fanokafana quota-nao** — quota vidina tsy lany, fanokafana azo tamin'ny fanentanana, fetra novaina ;
 - **ny fifamatorana eo amin'ny fitaovanao sy ny kaontinao** — ny findainao na ny tablet-nao hafa dia mifaha ary miverina ho fitaovana tsy fantatra tsotra ;
+- **ny persona nataonao manokana**, anisan'izany ireo apetraka ao amin'ny fako — ny anarany, ny toromarika, ny avatar, ny sary madinika amin'ireo sary nampidirinao (avatar'ny persona sy famantarana ny fiteny) ary ny jetonao fizarana ;
 - **ny lisitry ny teny fanafenana anananao**, anisan'izany ireo apetraka ao amin'ny fako — ny anarany, ny lohahevitra, ny tenin-tsoratra mivady, ireo teny miandry, ny jetonao fizarana, ary ny fifandraisana amin'ny lafiny roa (ny lisitra nozarainao, sy ireo nozaraina taminao) ;
 - **ny fiteny manokana noforoninao** — ny anarany, ny abidiny, ny rakibolany, ireo teny miandry, ny jetonao fizarana ary ny tantaram-pametrahanao. **Izay tsy vitan'ity famafana ity :** raha efa nampiditra kopian'ny fiteninao any amin'ny olon-kafa, dia an'io olona io izao izany kopia izany ary **mbola miaina** aorian'ny famafanao — toy ny hafatra efa noraisin'olon-kafa, tsy azonay esorina any aminy izany.
 
@@ -45,7 +46,7 @@ Ny fitaovana angatahanao ny famafana dia **atao tsy misy vokany** : fafana ny fi
 
 **Tsy mitahiry ny lahatsoratra sorataninao indray na ny lahatsoratra novakina teo amin'ny efijery amin'ny alalan'ny Famakiana Ampian-jery izahay** : tsy tehirizina na aiza na aiza ao amin'ny mpizaranay ireny, koa tsy misy afafa momba azy ireo. **Tsy marina izany momba ny fiteny manokana noforoninao sy ny lisitry ny teny fanafenana anananao** : ny votoatiny (anarana, abidy na lohahevitra, teny ary famaritana), ary koa ireo teny tsirairay ao amin'ny hafatrao izay mbola tsy ao aminy, dia tena voatahiry ao amin'ny mpizaranay — ny famafana ny kaontinao dia mamafa azy ireo, toy ny sisa amin'izay an'anao (jereo etsy ambony).
 
-**Eo amin'ny findainao**, ny personanao, ny avataranao, ny kirakiranao ary ny fitsipikao isaky ny fampiharana dia voatahiry an-toerana. Fafan'ny famafana avy ao amin'ny fampiharana izy ireo, ary amin'ny fomba rehetra dia **lasa rehefa manesotra an'i Plume ianao**.
+**Eo amin'ny findainao**, ny kirakiranao ary ny fitsipikao isaky ny fampiharana dia voatahiry an-toerana. Fafan'ny famafana avy ao amin'ny fampiharana izy ireo, ary amin'ny fomba rehetra dia **lasa rehefa manesotra an'i Plume ianao**.
 
 ---
 

@@ -38,6 +38,7 @@ Silinmə **daimi olaraq** aşağıdakıları siləcək:
 - **sorğu identifikatorlarınız** — tələb edilmiş yenidən formalaşdırmaların texniki istinadları;
 - **kvota kreditləriniz və açılışlarınız** — istehlak edilməmiş alınmış kreditlər, reklamla əldə edilmiş açılışlar, tənzimlənmiş həddlər;
 - **cihazlarınızın hesabınıza bağlılığı** — digər telefon və ya planşetləriniz ayrılır və sadə, anonim cihazlara çevrilir;
+- **fərdiləşdirilmiş personalarınız**, zibil qutusuna atılmışlar da daxil olmaqla — onların adı, təlimatları, avatarı, idxal etdiyiniz şəkillərin miniatürləri (persona avatarları və dil emblemləri) və paylaşım jetonlarınız;
 - **kamuflyaj lüğətləriniz**, zibil qutusuna atılmışlar da daxil olmaqla — onların adı, mövzusu, söz cütləri, gözləyən sözlər, paylaşım jetonlarınız və hər iki istiqamətdəki bağlantılar (paylaşdığınız lüğətlər və sizinlə paylaşılanlar);
 - **yaratdığınız şəxsi dillər** — onların adı, əlifbası, lüğəti, gözləyən sözlər, paylaşım jetonlarınız və idxal tarixçəniz. **Bu silinmənin edə bilmədiyi:** əgər başqası artıq dilinizin bir nüsxəsini özündə idxal edibsə, bu nüsxə artıq ona məxsusdur və silinmənizdən sonra **yaşamağa davam edir** — kimlərsə tərəfindən artıq alınmış mesaj kimi, biz onu onun tərəfindən silə bilmərik.
 
@@ -45,7 +46,7 @@ Silinmə tələb etdiyiniz cihaz **zərərsizləşdirilir**: onun hesabınıza b
 
 **Biz yenidən formalaşdırdığınız mətnləri, nə də Dəstəklənən Oxu tərəfindən ekranda oxunan mətni saxlamırıq**: onlar serverlərimizdə heç yerdə saxlanılmır, buna görə silinəcək heç nə yoxdur. **Bu, şəxsi dilləriniz və kamuflyaj lüğətləriniz üçün doğru deyil**: onların məzmunu (ad, əlifba və ya mövzu, sözlər və tərif), həmçinin onlarda hələ çatışmayan mesajlarınızın tək sözləri serverlərimizdə həqiqətən saxlanılır — hesabınızın silinməsi onları silir, sizə məxsus olan qalan hər şey kimi (yuxarıya baxın).
 
-**Telefonunuzda** personalarınız, avatarlarınız, tənzimləmələriniz və tətbiq üzrə qaydalarınız yerli olaraq saxlanılır. Onlar tətbiqdən silinmə ilə silinir, və hər halda Plume-u sildikdə **yox olur**.
+**Telefonunuzda** tənzimləmələriniz və tətbiq üzrə qaydalarınız yerli olaraq saxlanılır. Onlar tətbiqdən silinmə ilə silinir, və hər halda Plume-u sildikdə **yox olur**.
 
 ---
 

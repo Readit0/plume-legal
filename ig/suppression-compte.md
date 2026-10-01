@@ -38,6 +38,7 @@ Ihichapụ ahụ na-ehichapụ **ruo mgbe ebighị ebi**:
 - **njirimara arịrịọ gị** — nrịbama teknụzụ nke mgbanwe ị rịọrọ\;
 - **mkpụrụoke na mmeghe oke gị** — mkpụrụoke a zụtara na-abụghị nke e jiri, mmeghe e nwetara site na mgbasa ozi, oke ndị e gbanwere\;
 - **njikọ ngwaọrụ gị na akaụntụ gị** — ekwentị gị ndị ọzọ ma ọ bụ tablet ndị ọzọ ka a na-ejikọ ma ha na-alaghachiri ọzọ dịka ngwaọrụ efu a na-amaghị onye nwe ha\;
+- **ụdị nkeonwe gị**, gụnyere ndị e tinyere n'ọkpọkọ mkpofu — aha ha, ntụziaka ha, foto ọnụ ha, obere ihe oyiyi nke ihe oyiyi ị butere (foto ọnụ ụdị nkeonwe na akara asụsụ) na akara ike ikesa gị;
 - **akwụkwọ okwu nzuzo gị**, gụnyere ndị e tinyere n'ọkpọkọ mkpofu — aha ha, isiokwu ha, ụzọ okwu ha, okwu ndị na-echere, akara ike ikesa gị, na njikọ n'akụkụ abụọ (akwụkwọ okwu ị kesara, na ndị e kesara gị)\;
 - **asụsụ nkeonwe ndị ị kere** — aha ha, mkpụrụedemede ha, okwu ha, okwu ndị na-echere, akara ike ikesa gị na akụkọ mbubata gị. **Ihe ihichapụ a na-apụghị ime:** ọ bụrụ na onye ọzọ ebubatalarị mbipụta asụsụ gị n'ebe ya, mbipụta ahụ bụzikarị nke ya ma **na-anọgide** ọbụna mgbe ị hichapụrụ akaụntụ gị — dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya.
 
@@ -45,7 +46,7 @@ Ngwaọrụ ị si na ya na-arịọ ihichapụ **ka a na-eme ka ọ ghara inwe 
 
 **Anyị anaghị echekwa ederede ị gbanwere ọzọ, ma ọ bụ ederede Ọgụgụ Enyemaka na-egosi n'ihuenyo:** ha adịghị n'ebe ọ bụla na sava anyị, n'ihi ya, ọ dịghị ihe ị ga-ehichapụ. **Nke a abụghị eziokwu maka asụsụ nkeonwe gị na akwụkwọ okwu nzuzo gị.** Ọdịnaya ha (aha, mkpụrụedemede ma ọ bụ isiokwu, okwu na nkọwa), yana okwu naanị otu nke dị n'ozi gị nke na-enwebeghị n'ime ha, ka a na-echekwa n'ezie na sava anyị — ihichapụ akaụntụ gị na-ehichapụ ha, dịka ihe ndị ọzọ niile bụ nke gị (lee n'elu).
 
-**N'ekwentị gị**, ụdị nkeonwe gị, foto ọnụ ha, ntọala gị, na iwu gị nke ngwa ọ bụla ka a na-echekwa n'ime ngwaọrụ ahụ. A na-ehichapụ ha site na ihichapụ site na ngwa ahụ, ha na-apụkwa mgbe ị wụfuru Plume.
+**N'ekwentị gị**, ntọala gị, na iwu gị nke ngwa ọ bụla ka a na-echekwa n'ime ngwaọrụ ahụ. A na-ehichapụ ha site na ihichapụ site na ngwa ahụ, ha na-apụkwa mgbe ị wụfuru Plume.
 
 ---
 

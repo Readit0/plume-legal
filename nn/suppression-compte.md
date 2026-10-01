@@ -38,6 +38,7 @@ Slettinga fjernar **for godt**:
 - **førespurnadsidentifikatorane dine** — dei tekniske referansane til dei etterspurde omformuleringane;
 - **kreditten og kvoteopplåsingane dine** — kjøpt kreditt som ikkje er brukt, opplåsingar oppnådde gjennom annonsar, justerte tak;
 - **koplinga mellom einingane dine og kontoen din** — dei andre telefonane eller nettbretta dine blir fråkopla og blir att som vanlege anonyme einingar;
+- **dei tilpassa personaane dine**, medrekna dei som er lagde i papirkorga — namnet deira, instruksane deira, avataren deira, miniatyrbileta av bileta du har importert (avatarar til personaar og emblem til språk) og delingstokena dine;
 - **kamuflasjeordlistene dine**, medrekna dei som er lagde i papirkorga — namnet deira, temaet deira, ordparia deira, orda som ventar, delingstokena dine, og koplingane i begge retningar (ordlistene du har delt, og dei som er delte med deg);
 - **dei eigne språka du har laga** — namnet deira, alfabetet deira, ordlista deira, orda som ventar, delingstoken dine og importhistorikken din. **Det denne slettinga ikkje kan gjere:** om nokon andre allereie har importert ein kopi av språket ditt hjå seg, høyrer den kopien no til dei, og **held fram å eksistere** etter slettinga di — som ei melding nokon andre allereie har motteke, kan vi ikkje slette henne hjå dei.
 
@@ -45,7 +46,7 @@ Eininga du ber om sletting frå, blir **nøytralisert**: koplinga hennar til kon
 
 **Vi lagrar ikkje tekstane du har omformulert, eller teksten som Assistert lesing les på skjermen**: dei blir ikkje tekne vare på nokon stad på servarane våre, så det er ingenting å slette der. **Dette gjeld ikkje dei eigne språka dine og kamuflasjeordlistene dine**: innhaldet deira (namn, alfabet eller tema, ord og definisjonar), og dei enkeltståande orda i meldingane dine som enno manglar der, er faktisk lagra på servarane våre — sletting av kontoen din fjernar dei, som resten av det som høyrer til deg (sjå ovanfor).
 
-**På telefonen din** er personaane dine, avatarane dine, innstillingane dine og reglane dine per app lagra lokalt. Dei blir sletta ved sletting frå appen, og forsvinn under alle omstende **når du avinstallerer Plume**.
+**På telefonen din** er innstillingane dine og reglane dine per app lagra lokalt. Dei blir sletta ved sletting frå appen, og forsvinn under alle omstende **når du avinstallerer Plume**.
 
 ---
 

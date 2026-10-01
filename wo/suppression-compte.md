@@ -37,6 +37,7 @@ Far bi dana far **lu mat sëkk**:
 - **say identifiant bu laaj yi** — référence technique bu soppi yi nga laaj;
 - **say kredit ak ubbite quota** — kredit yu ñu jënd yu ñu jëfandikoowul, ubbite yu ñu am jaar ci reklaam, dayo yu ñu jubbanti;
 - **jaxasoo bu say sañse ak sa kont** — say beneen téléphone walla tablette dañuy séddoo, te dañuy dellu ay sañse bu ñu xamul kenn;
+- **say persona yu nga defar**, yi ñu tàbbal ci corbeille it — seen tur, seen ndigal, avatar, nataal yu ndaw yi nga import (avatar yu persona ak emblème yu làkk) ak say jeton séddale;
 - **say denc-kàddu yu nëbb**, yi ñu tàbbal ci corbeille it — seen tur, seen temaam, seen jotali baat, baat yi ngi xaar, say jeton séddale, ak lëkkalekaay yi ci ñaari wàll (denc-kàddu yi nga séddale, ak yi ñu la séddale);
 - **làkk yu bopp yi nga sos** — seen tur, alfabet, dictionnaire, baat yi ngi xaar, say jeton séddale ak jaar-jaar bu import. **Lu far bii mënul def:** su am ku ñeneen jël na nag kopi bu sa làkk ci moom, kopi boobu moom na moom léegi te dana **des** gannaaw sa far bi — ni benn bataaxal ku ñeneen jot na ko, duñu ko mën a far ci moom.
 
@@ -44,7 +45,7 @@ Sañse bi nga jaar ci ngir laaj far bi dañu koy **neutraliser**: jaxasoo ak sa 
 
 **Duñu denc say mbind yi nga soppi, walla mbind mi Jàngukaay bu Ndimbal won ci ekran bi:** duñu leen denc fenn ci sunuy server, kon amul dara ngir far. **Loolu du dëgg ci say làkk yu bopp ak say denc-kàddu yu nëbb:** seen kontenu (tur, alfabet walla temaam, baat ak tekki), ak baat yi nekk ci sa bataaxal yi te manquee ci yooyu, dañu leen denc dëgg-dëgg ci sunuy server — far sa kont dana leen far, ni lu des lépp lu moom la (xool ci kaw).
 
-**Ci sa téléphone**, say persona, say avatar, sa paramet ak sa yoon bu aplikasion dañu leen denc ci sañse bi. Dañuy far jaar ci far bi ci aplikasion bi, te ci lépp **dañuy mucc su nga far Plume ci sa téléphone**.
+**Ci sa téléphone**, sa paramet ak sa yoon bu aplikasion dañu leen denc ci sañse bi. Dañuy far jaar ci far bi ci aplikasion bi, te ci lépp **dañuy mucc su nga far Plume ci sa téléphone**.
 
 ---
 

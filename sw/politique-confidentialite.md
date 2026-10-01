@@ -2,7 +2,7 @@
 
 **Sasisho la mwisho: 1 Oktoba 2026** — Toleo la 2.1
 
-> *Kilichobadilika katika toleo la 2.1:* tunaeleza **hali ya Kuficha**, ambayo toleo la 2.0 halikuitaja, na tunarekebisha kauli iliyokuwa imeacha kuwa sahihi: kwa lugha za kibinafsi na kwa Kuficha, **maneno ya jumbe zako ambayo bado hayamo kwenye msamiati wako huhifadhiwa moja baada ya jingine** — kamwe sentensi — ili tuweze kukupendekezea kuyaongeza. Maelezo yako katika "Kwa dakika moja", katika §2.2 na katika §3.
+> *Kilichobadilika katika toleo la 2.1:* tunaeleza **hali ya Kuficha**, ambayo toleo la 2.0 halikuitaja, na tunarekebisha kauli iliyokuwa imeacha kuwa sahihi: kwa lugha za kibinafsi na kwa Kuficha, **maneno ya jumbe zako ambayo bado hayamo kwenye msamiati wako huhifadhiwa moja baada ya jingine** — kamwe sentensi — ili tuweze kukupendekezea kuyaongeza. Maelezo yako katika "Kwa dakika moja", katika §2.2 na katika §3. Pia tunarekebisha kosa la pili: **persona zako binafsi na avatari zao huhifadhiwa kwenye seva zetu** — hazibaki kwenye simu yako pekee (tazama §3).
 
 > *Kilichobadilika tangu toleo la 1.0, na kwa nini huenda ukaona tena skrini ya kukubali ndani
 > ya programu:* tunarekebisha kauli mbili ambazo hazikuwa sahihi tena. Kwanza, kipengele cha
@@ -117,6 +117,7 @@ Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 | **Ishara za kiufundi za matumizi mabaya** (kuvuka vikomo mara kwa mara, kushindwa kwa ukaguzi wa uadilifu — bila maandishi yoyote) | Usalama, kupambana na udanganyifu | Hutenganishwa na utambulisho wako unapofuta akaunti |
 | **Lugha na toleo la programu** | Kutoa maudhui sahihi | Mpaka utakapofuta akaunti yako |
 | **Maudhui ya lugha za kibinafsi unazounda** (jina lake, alfabeti yake, na msamiati wake — maneno na maana zilizoandikwa na wewe, au watu wengine, ndani yake) | Kukuwezesha kuipata tena lugha yako kwenye kifaa kingine, kuiendeleza, na kuishiriki na watumiaji wengine | Mradi lugha ipo. Ukiifuta, faili lake hutoweka — lakini nakala ambayo tayari **imeingizwa na mtu mwingine** sasa ni mali yake na **inaendelea kuwepo**, kama ujumbe ambao tayari umepokewa na mtu wa tatu ambao hatuwezi kwenda kuufuta kwake |
+| **Persona zako binafsi** (jina lake, maelekezo yake, avatari uliyochagua na, ikiwa umeingiza picha, picha ndogo ya pikseli 512 au chini — vivyo hivyo kwa nembo iliyoingizwa ya lugha ya kibinafsi) | Kukuwezesha kuzipata tena baada ya kusakinisha upya au kwenye kifaa kingine, na kuzishiriki. Maelekezo ya persona hutumwa kwa huduma ya AI kwa kila uandishi upya unaoitumia | Kadiri persona inavyokuwepo. Persona iliyowekwa kwenye pipa la taka hufutwa siku 30 baadaye, mara nyingine utakapofungua orodha yako ya persona. Kila kitu hutoweka wakati akaunti yako inapofutwa |
 | **Kamusi zako za ufichaji** (jina lake, mada yake, lugha yake, nembo uliyochagua, na jozi za maneno "neno halisi → neno la msimbo") | Kuficha na kusimbua jumbe zako, kukuwezesha kuipata kamusi yako kwenye kifaa kingine, kuiendeleza na kuishiriki | Kadiri kamusi hiyo inavyokuwepo. **Kamusi iliyowekwa kwenye pipa la taka huendelea kuhifadhiwa**: bado hakuna ufutaji wa kiotomatiki wa pipa hilo. Hufutwa wakati akaunti yako inapofutwa |
 | **Maneno yanayosubiri** (lugha ya kibinafsi na Kuficha): maneno mahususi ya jumbe zako ambayo bado hayamo kwenye msamiati wako — kamwe sentensi —, pamoja na idadi ya mara yalipotokea na tarehe za kutokea mara ya kwanza na ya mwisho | Kukupendekezea kuyaongeza kwenye msamiati wako, na kuyapeleka kwenye huduma ya AI unapoukuza | Huhifadhiwa hata baada ya kuongezwa, kadiri lugha au kamusi inavyokuwepo. **Ukiandika kwa kamusi ya ufichaji ambayo mtu mwingine amekushirikisha**, maneno yanayokosekana huwekwa kando **kwenye kamusi yake**, na mtu huyo anaweza kuyaona |
 | **Ushirikishaji wa lugha na kamusi zako** (tokeni ya kushiriki, inayohifadhiwa tu kama alama ya dijitali; historia ya uingizaji na ya viunganisho) | Kuwawezesha wapendwa wako kusoma jumbe zako. Mmiliki wa kamusi huona orodha ya watu waliounganishwa nayo (jina la kuonyeshwa na picha ya wasifu ya Google — kamwe anwani ya barua pepe) | Tokeni huisha muda wake. Kumbukumbu ya ushirikishaji uliobatilishwa huhifadhiwa |
@@ -126,7 +127,7 @@ Hiki hapa kila kitu kinachohifadhiwa kwenye seva zetu:
 
 **Kile tusichokusanya:** jina lako, anwani zako za mawasiliano, mahali ulipo, kitabu chako cha anwani, picha zako, kalenda yako, historia ya programu zako. Plume haiombi ruhusa yoyote kati ya hizo.
 
-**Kinachobaki kwenye simu yako pekee:** persona zako binafsi na avatari zao, mipangilio yako, kanuni zako kwa kila programu, akiba ya tafsiri ya Usomaji Saidizi (hufutwa mwisho wa kila kipindi). Hakuna kati ya hivyo kinachotumwa kwenye seva zetu.
+**Kinachobaki kwenye simu yako pekee:** mipangilio yako, kanuni zako kwa kila programu, akiba ya tafsiri ya Usomaji Saidizi (hufutwa mwisho wa kila kipindi). Hakuna kati ya hivyo kinachotumwa kwenye seva zetu.
 
 ---
 

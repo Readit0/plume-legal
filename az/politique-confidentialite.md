@@ -2,7 +2,7 @@
 
 **Son yenilənmə: 1 oktyabr 2026** — Versiya 2.1
 
-> *2.1 versiyasında nə dəyişib:* versiya 2.0-ın qeyd etmədiyi **Kamuflyaj rejimini** təsvir edirik və artıq dəqiq olmayan bir iddianı düzəldirik: həm şəxsi dillər, həm də Kamuflyaj üçün **mesajlarınızdakı hələ lüğətinizdə olmayan sözlər tək-tək saxlanılır** — heç vaxt cümlə deyil — onları əlavə etməyi sizə təklif edə bilmək üçün. Təfərrüat «Bir dəqiqədə» bölməsində, §2.2-də və §3-də yer alır.
+> *2.1 versiyasında nə dəyişib:* versiya 2.0-ın qeyd etmədiyi **Kamuflyaj rejimini** təsvir edirik və artıq dəqiq olmayan bir iddianı düzəldirik: həm şəxsi dillər, həm də Kamuflyaj üçün **mesajlarınızdakı hələ lüğətinizdə olmayan sözlər tək-tək saxlanılır** — heç vaxt cümlə deyil — onları əlavə etməyi sizə təklif edə bilmək üçün. Təfərrüat «Bir dəqiqədə» bölməsində, §2.2-də və §3-də yer alır. Biz həmçinin ikinci bir səhvi də düzəldirik: **fərdiləşdirilmiş personalarınız və onların avatarları serverlərimizdə ehtiyat nüsxə kimi saxlanılır** — onlar yalnız telefonunuzda qalmır (bax §3).
 
 > *Versiya 1.0-dan bəri nə dəyişib və tətbiqdə qəbul ekranını yenidən niyə görə bilərsiniz:* artıq doğru olmayan iki iddianı düzəldirik. Birincisi, **şəxsi dillər** funksiyası yaratdığınız məzmunu (ad, əlifba, lüğət) serverlərimizdə saxlayır — versiya 1.0 səhvən heç bir mətnin saxlanmadığını bildirirdi. İkincisi, artıq bir **texniki nasazlıq hesabatı** aləti istifadə edirik — versiya 1.0 belə bir alətin mövcud olmadığını bildirirdi. Bu iki nöqtənin təfərrüatı aşağıdakı «Bir dəqiqədə» bölməsində, həmçinin §3 və §9-da yer alır. Bunlar tətbiqdə yeni razılıq tələbini yaradan tam olaraq iki dəyişiklik kateqoriyasıdır (bax §11).
 
@@ -110,6 +110,7 @@ Serverlərimizdə saxlanılan hər şey budur:
 | **Sui-istifadənin texniki siqnalları** (təkrarlanan aşımlar, tamlıq yoxlamasının uğursuzluğu — heç bir mətn olmadan) | Təhlükəsizlik, fırıldaqçılıqla mübarizə | Hesabın silinməsi zamanı kimliyinizdən ayrılır |
 | **Tətbiqin dili və versiyası** | Doğru məzmunu təqdim etmək | Hesabınız silinənə qədər |
 | **Yaratdığınız şəxsi dillərin məzmunu** (adı, əlifbası və lüğəti — sizin və ya digər şəxslərin orada yazdığı sözlər və tərifləri) | Dilinizi başqa cihazda tapmağınıza, onu inkişaf etdirməyinizə və digər istifadəçilərlə paylaşmağınıza imkan vermək | Dil mövcud olduğu müddətcə. Onu silsəniz, onun kartı yox olur — lakin artıq **başqa bir şəxs tərəfindən idxal edilmiş** bir surət artıq ona məxsusdur və **yaşamağa davam edir**, üçüncü tərəfin artıq aldığı bir mesaj kimi ki, onu onların yanında silə bilmirik |
+| **Fərdiləşdirilmiş personalarınız** (adı, təlimatları, seçilmiş avatar və əgər şəkil idxal etmisinizsə, ən çoxu 512 piksellik miniatür — şəxsi dilin idxal edilmiş emblemi üçün də eynilə) | Onları yenidən quraşdırmadan sonra və ya başqa cihazda tapmağınıza və paylaşmağınıza imkan vermək. Personanın təlimatı onu istifadə edən hər yenidən formalaşdırmada süni intellekt xidmətinə göndərilir | Persona mövcud olduğu müddətcə. Zibil qutusuna atılmış persona 30 gün sonra, personalar siyahınızı növbəti dəfə açdığınız zaman silinir. Hesabınız silindikdə hər şey yoxa çıxır |
 | **Kamuflyaj lüğətləriniz** (adı, mövzusu, dili, seçilmiş emblem və «real söz → kod sözü» söz cütləri) | Mesajlarınızı kamuflyaj etmək və deşifrə etmək, lüğətinizi başqa cihazda tapmağınıza, inkişaf etdirməyinizə və paylaşmağınıza imkan vermək | Lüğət mövcud olduğu müddətcə. **Zibil qutusuna atılmış lüğət saxlanılmağa davam edir**: bu zibil qutusunun avtomatik boşaldılması hələ mövcud deyil. O, hesabınız silindikdə yoxa çıxır |
 | **Gözləyən sözlər** (şəxsi dil və Kamuflyaj): mesajlarınızdakı hələ lüğətinizdə olmayan tək sözlər — heç vaxt cümlə deyil —, görünmə sayı və ilk və son görünmə tarixləri ilə | Onları lüğətinizə əlavə etməyi sizə təklif etmək və lüğətinizi böyütdüyünüz zaman SI xidməti tərəfindən emal etdirmək | Əlavə edildikdən sonra da, dil və ya lüğət mövcud olduğu müddətcə saxlanılır. **Əgər başqa şəxsin sizinlə paylaşdığı kamuflyaj lüğəti ilə yazırsınızsa**, ona çatışmayan sözlər **onun lüğətində** kənara qoyulur və o şəxs onları görə bilər |
 | **Dillərinizin və lüğətlərinizin paylaşımı** (paylaşım jetonu, yalnız barmaq izi (heş) şəklində saxlanılır; idxalların və bağlantıların tarixçəsi) | Yaxınlarınızın mesajlarınızı oxumasına imkan vermək. Lüğətin sahibi ona bağlı olan şəxslərin siyahısını görür (göstərilən ad və Google profil şəkli — heç vaxt e-poçt ünvanı deyil) | Jetonun müddəti bitir. Ləğv edilmiş paylaşımın izi saxlanılır |
@@ -119,7 +120,7 @@ Serverlərimizdə saxlanılan hər şey budur:
 
 **Toplamadığımız:** adınız, kontaktlarınız, məkanınız, ünvan kitabçanız, fotolarınız, təqviminiz, tətbiqlərinizin tarixçəsi. Plume bu icazələrdən heç birini tələb etmir.
 
-**Yalnız telefonunuzda qalan:** fərdiləşdirilmiş personalarınız və onların avatarları, ayarlarınız, tətbiq üzrə qaydalarınız, Dəstəkli Oxunun tərcümə keşi (hər sessiyanın sonunda silinir). Bunlardan heç biri serverlərimizə göndərilmir.
+**Yalnız telefonunuzda qalan:** ayarlarınız, tətbiq üzrə qaydalarınız, Dəstəkli Oxunun tərcümə keşi (hər sessiyanın sonunda silinir). Bunlardan heç biri serverlərimizə göndərilmir.
 
 ---
 

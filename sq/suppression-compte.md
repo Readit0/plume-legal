@@ -37,6 +37,7 @@ Fshirja e zhduk **përfundimisht**:
 - **identifikuesit tuaj të kërkesave** — referencat teknike të riformulimeve të kërkuara;
 - **kreditet dhe zhbllokimet tuaja të kuotës** — kreditet e blera e të pakonsumuara, zhbllokimet e fituara nga reklamat, kufijtë e përshtatur;
 - **lidhjen e pajisjeve tuaja me llogarinë tuaj** — telefonat ose tabletët tuaj të tjerë shkëputen dhe rikthehen në pajisje thjesht anonime.
+- **personat tuaj të personalizuar**, përfshirë ata të hedhur në kosh — emrin, udhëzimet, avatarin, miniaturat e imazheve që keni importuar (avatarët e personave dhe emblemat e gjuhëve) dhe kodet tuaja të ndarjes;
 - **fjalorët tuaj të kamuflazhit**, përfshirë ata të hedhur në kosh — emrin e tyre, temën e tyre, çiftet e fjalëve, fjalët në pritje, kodet tuaja të ndarjes dhe lidhjet në të dyja drejtimet (fjalorët që keni ndarë dhe ata që janë ndarë me ju);
 - **gjuhët personale që keni krijuar** — emrin e tyre, alfabetin e tyre, leksikun e tyre, fjalët në pritje, kodet tuaja të ndarjes dhe historikun tuaj të importimit. **Çfarë nuk mund ta bëjë kjo fshirje:** nëse dikush tjetër ka importuar tashmë një kopje të gjuhës suaj te vetja, ajo kopje i përket tashmë atij dhe **mbijeton** fshirjes suaj — si një mesazh tashmë i marrë nga një palë e tretë, ne nuk mund ta fshijmë nga ana e tij.
 
@@ -44,7 +45,7 @@ Pajisja nga e cila kërkoni fshirjen **neutralizohet**: lidhja e saj me llogarin
 
 **Ne nuk i ruajmë tekstet që keni riformuluar, as tekstin e lexuar në ekran nga Leximi i Asistuar**: ato nuk ruhen askund në serverët tanë, prandaj nuk ka asgjë për t'u fshirë prej tyre. **Kjo nuk vlen për gjuhët tuaja personale dhe fjalorët tuaj të kamuflazhit**: përmbajtja e tyre (emri, alfabeti ose tema, fjalët dhe përkufizimet), si dhe fjalët e veçuara të mesazheve tuaja që u mungonin ende, ruhen vërtet në serverët tanë — fshirja e llogarisë suaj i fshin ato, ashtu si pjesa tjetër e asaj që ju përket (shih më lart).
 
-**Në telefonin tuaj**, personat tuaj, avatarët tuaj, cilësimet tuaja dhe rregullat tuaja për çdo aplikacion ruhen lokalisht. Ato fshihen nga fshirja e kryer prej aplikacionit dhe, në çdo rast, **zhduken kur e çinstaloni Plume-n**.
+**Në telefonin tuaj**, cilësimet tuaja dhe rregullat tuaja për çdo aplikacion ruhen lokalisht. Ato fshihen nga fshirja e kryer prej aplikacionit dhe, në çdo rast, **zhduken kur e çinstaloni Plume-n**.
 
 ---
 

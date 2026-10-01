@@ -38,6 +38,7 @@ Ang pagtangtang mopapas **hangtod sa hangtod**:
 - **ang inyong mga identifier sa request** — ang teknikal nga mga reference sa mga pagsulat pag-usab nga gihangyo ;
 - **ang inyong mga credit ug pag-unlock sa quota** — mga credit nga gipalit apan wala pa magasto, mga pag-unlock nga nakuha pinaagi sa advertisement, mga cap nga na-adjust ;
 - **ang pagsumpay sa inyong mga device ngadto sa inyong account** — ang inyong ubang mga telepono o tablet gilain ug mahibalik nga yano nga anonymous nga mga device ;
+- **ang inyong gi-customize nga mga persona**, lakip ang gibalhin sa basurahan — ang ilang ngalan, instruksyon, avatar, ang mga thumbnail sa mga hulagway nga inyong na-import (mga avatar sa persona ug mga emblema sa pinulongan) ug inyong mga share token ;
 - **ang inyong mga lista sa pagtabon**, lakip ang gibalhin sa basurahan — ang ilang ngalan, tema, mga parisan sa pulong, mga pulong nga naghulat, inyong mga share token ug ang mga koneksyon sa duha ka direksyon (ang mga lista nga inyong gipaambit, ug kadtong gipaambit kaninyo) ;
 - **ang mga personal nga pinulongan nga inyong gimugna** — ang ngalan, ang alpabeto, ang bokabularyo niini, ang mga pulong nga naghulat, ang inyong mga share token ug ang inyong import history. **Ang dili mahimo niini nga pagtangtang:** kung ang laing tawo na-import na ang usa ka kopya sa inyong pinulongan didto kaniya, iya na kini nga kopya karon ug **magpabilin**, human sa inyong pagtangtang — sama sa usa ka mensahe nga nadawat na sa laing tawo, dili namo kaya pukanon kini didto kaniya.
 
@@ -45,7 +46,7 @@ Ang device diin inyong gihangyo ang pagtangtang **gi-neutralize**: ang pagsumpay
 
 **Wala namo gitipigan ang mga teksto nga inyong gisulat pag-usab, ni ang teksto nga gibasa sa screen sa Assisted Reading**: wala kini gitipigan bisan asa sa among mga server, busa walay bisan unsa nga tangtangon niini. **Dili kini tinuod sa inyong personal nga mga pinulongan ug sa inyong mga lista sa pagtabon:** ang sulod niini (ngalan, alpabeto o tema, mga pulong ug kahulugan), lakip ang mga bulag nga pulong sa inyong mga mensahe nga kulang pa niini, tinuod nga gitipigan sa among mga server — ang pagtangtang sa inyong account nagapapas niini, sama sa uban pang butang nga iya ninyo (tan-awa sa ibabaw).
 
-**Sa inyong telepono**, ang inyong mga persona, mga avatar, mga setting ug mga rule matag aplikasyon gitipigan nga lokal. Mapapas kini sa pagtangtang gikan sa aplikasyon, ug sa bisan unsang kaso **mahanaw kung inyong i-uninstall ang Plume**.
+**Sa inyong telepono**, ang inyong mga setting ug mga rule matag aplikasyon gitipigan nga lokal. Mapapas kini sa pagtangtang gikan sa aplikasyon, ug sa bisan unsang kaso **mahanaw kung inyong i-uninstall ang Plume**.
 
 ---
 

@@ -37,6 +37,7 @@ Sipresyon an efase **pou tout bon**:
 - **idantifyan demann ou yo** — referans teknik reformilasyon ou te mande yo;
 - **kredi ou yo ak deblokaj kota ou yo** — kredi ou achte men ou pa konsome, deblokaj ou jwenn ak reklam, plafon yo ajiste yo;
 - **lyen ant aparèy ou yo ak kont ou** — lòt telefòn oswa tablèt ou yo demare epi yo tounen senp aparèy anonim.
+- **pèsona pèsonalize ou yo**, ansanm ak sa yo mete nan poubèl la — non yo, enstriksyon yo, avata yo, miniatiray imaj ou te enpòte yo (avata pèsona ak anblèm lang) ak jeton pataj ou yo;
 - **diksyonè kamouflaj ou yo**, ansanm ak sa yo mete nan poubèl la — non yo, tèm yo, pè mo yo, mo ki an atant yo, jeton pataj ou yo, ak lyen yo nan de sans yo (diksyonè ou te pataje yo, ak sa yo te pataje avè w);
 - **lang pèsonèl ou te kreye yo** — non yo, alfabè yo, vokabilè yo, mo ki an atant yo, jeton pataj ou yo ak istorik enpòtasyon ou. **Sa sipresyon sa a pa ka fè:** si yon lòt moun te deja enpòte yon kopi lang ou a lakay li, kopi sa a vin pou li depi lè sa a epi li **kontinye egziste** apre sipresyon ou a — tankou yon mesaj yon twazyèm moun deja resevwa, nou pa ka al efase l lakay li.
 
@@ -44,7 +45,7 @@ Aparèy kote w mande sipresyon an **netralize**: yo efase lyen li ak kont ou, yo
 
 **Nou pa estoke tèks ou te fè reformile yo, ni tèks Lekti Asiste te li sou ekran an**: yo pa konsève okenn kote sou sèvè nou yo, donk pa gen anyen pou efase. **Sa pa vre pou lang pèsonèl ou yo ak diksyonè kamouflaj ou yo**: kontni yo (non, alfabè oswa tèm, mo ak definisyon), ansanm ak mo apa ki nan mesaj ou yo ki poko te ladan yo, vrèman estoke sou sèvè nou yo — sipresyon kont ou efase yo tou, menm jan ak tout lòt bagay ki pou ou (gade pi wo a).
 
-**Sou telefòn ou**, pèsona ou yo, avata ou yo, paramèt ou yo ak règ ou yo pou chak aplikasyon estoke lokalman. Sipresyon an depi nan aplikasyon an efase yo, epi nan tout ka **yo disparèt lè w dezenstale Plume**.
+**Sou telefòn ou**, paramèt ou yo ak règ ou yo pou chak aplikasyon estoke lokalman. Sipresyon an depi nan aplikasyon an efase yo, epi nan tout ka **yo disparèt lè w dezenstale Plume**.
 
 ---
 

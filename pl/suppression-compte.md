@@ -37,6 +37,7 @@ Usunięcie kasuje **bezpowrotnie**:
 - **Twoje identyfikatory żądań** — techniczne odniesienia zleconych przeformułowań;
 - **Twoje kredyty i odblokowania limitu** — zakupione, a niewykorzystane kredyty, odblokowania uzyskane za reklamy, skorygowane limity;
 - **powiązanie Twoich urządzeń z Twoim kontem** — Twoje pozostałe telefony lub tablety zostają odłączone i stają się z powrotem zwykłymi anonimowymi urządzeniami;
+- **Twoje własne persony**, także te przeniesione do kosza — ich nazwa, instrukcje, awatar, miniatury zaimportowanych przez Ciebie obrazów (awatary person i emblematy języków) oraz Twoje tokeny udostępniania;
 - **Twoje leksykony kamuflażu**, także te przeniesione do kosza — ich nazwa, motyw, pary słów, słowa oczekujące, Twoje tokeny udostępniania oraz powiązania w obu kierunkach (leksykony, które zostały przez Ciebie udostępnione, i te, które udostępniono Tobie);
 - **języki własne, które zostały przez Ciebie stworzone** — ich nazwa, alfabet, słownik, słowa oczekujące, Twoje tokeny udostępniania i historia importu. **Czego to usunięcie nie może zrobić:** jeśli ktoś inny zaimportował już u siebie kopię Twojego języka, ta kopia należy odtąd do niego i **przetrwa** Twoje usunięcie — tak jak wiadomość już odebrana przez osobę trzecią, której nie możemy usunąć z jej strony.
 
@@ -44,7 +45,7 @@ Urządzenie, z którego żądasz usunięcia, zostaje **zneutralizowane**: jego p
 
 **Nie przechowujemy tekstów, które zostały przez Ciebie przeformułowane, ani tekstu odczytanego z ekranu przez Czytanie Wspomagane**: nie są one nigdzie zachowywane na naszych serwerach, nie ma zatem czego usuwać. **Nie dotyczy to Twoich języków własnych ani leksykonów kamuflażu:** ich treść (nazwa, alfabet lub motyw, słowa i definicje), a także pojedyncze słowa z Twoich wiadomości, których jeszcze w nich brakowało, są rzeczywiście przechowywane na naszych serwerach — usunięcie Twojego konta je kasuje, tak jak resztę tego, co do Ciebie należy (zob. powyżej).
 
-**W Twoim telefonie** Twoje persony, Twoje awatary, Twoje ustawienia i Twoje reguły dla poszczególnych aplikacji są przechowywane lokalnie. Są kasowane przez usunięcie wykonane z poziomu aplikacji, a w każdym razie **znikają, gdy odinstalujesz Plume**.
+**W Twoim telefonie** Twoje ustawienia i Twoje reguły dla poszczególnych aplikacji są przechowywane lokalnie. Są kasowane przez usunięcie wykonane z poziomu aplikacji, a w każdym razie **znikają, gdy odinstalujesz Plume**.
 
 ---
 

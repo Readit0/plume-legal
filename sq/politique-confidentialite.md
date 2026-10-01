@@ -2,7 +2,7 @@
 
 **Përditësimi i fundit: 1 tetor 2026** — Versioni 2.1
 
-> *Çfarë ka ndryshuar në versionin 2.1:* ne përshkruajmë **mënyrën Kamuflazh**, që versioni 2.0 nuk e përmendte, dhe korrigjojmë një pohim që nuk ishte më i saktë: si për gjuhët personale, ashtu edhe për Kamuflazhin, **fjalët e mesazheve tuaja që mungojnë ende në leksikun tuaj ruhen, një nga një** — kurrë fjalia — në mënyrë që t'ju propozojmë t'i shtoni. Hollësitë gjenden te «Në një minutë», te §2.2 dhe te §3.
+> *Çfarë ka ndryshuar në versionin 2.1:* ne përshkruajmë **mënyrën Kamuflazh**, që versioni 2.0 nuk e përmendte, dhe korrigjojmë një pohim që nuk ishte më i saktë: si për gjuhët personale, ashtu edhe për Kamuflazhin, **fjalët e mesazheve tuaja që mungojnë ende në leksikun tuaj ruhen, një nga një** — kurrë fjalia — në mënyrë që t'ju propozojmë t'i shtoni. Hollësitë gjenden te «Në një minutë», te §2.2 dhe te §3. Korrigjojmë edhe një gabim të dytë: **personat tuaj të personalizuar dhe avatarët e tyre ruhen në serverët tanë** — ata nuk mbeten vetëm në telefonin tuaj (shihni §3).
 
 > *Çfarë ka ndryshuar që nga versioni 1.0, dhe pse ndoshta po e shihni sërish ekranin e pranimit
 > në aplikacion:* po korrigjojmë dy pohime që nuk ishin më të sakta. Së pari, funksioni i
@@ -117,6 +117,7 @@ Ja gjithçka që ruhet në serverët tanë:
 | **Sinjalet teknike të abuzimit** (tejkalime të përsëritura, dështim i kontrollit të integritetit — pa asnjë tekst) | Siguria, lufta kundër mashtrimit | Të shkëputura nga identiteti juaj në fshirjen e llogarisë |
 | **Gjuha dhe versioni i aplikacionit** | Të shërbejë përmbajtjen e duhur | Deri në fshirjen e llogarisë suaj |
 | **Përmbajtja e gjuhëve personale që krijoni** (emri i saj, alfabeti i saj, dhe leksiku i saj — fjalët dhe përkufizimet që ju, ose persona të tjerë, keni shkruar në të) | T'ju lejojë ta gjeni gjuhën tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani me përdorues të tjerë | Për sa kohë që gjuha ekziston. Nëse e fshini, skeda e saj zhduket — por një kopje tashmë **e importuar nga një person tjetër** i përket tashmë atij dhe **mbijeton**, si një mesazh i marrë tashmë nga një palë e tretë, të cilin ne nuk mund të shkojmë ta fshijmë te ai |
+| **Personat tuaj të personalizuar** (emri, udhëzimet, avatari i zgjedhur dhe, nëse keni importuar një imazh, një miniaturë prej më së shumti 512 pikselësh — njësoj për emblemën e importuar të një gjuhe personale) | T'ju lejojë t'i gjeni pas një riinstalimi ose në një pajisje tjetër dhe t'i ndani. Udhëzimi i një personi i dërgohet shërbimit të inteligjencës artificiale në çdo riformulim që e përdor | Për sa kohë që personi ekziston. Një person i hedhur në kosh fshihet 30 ditë më vonë, herën e radhës kur hapni listën tuaj të personave. Gjithçka zhduket me fshirjen e llogarisë suaj |
 | **Fjalorët tuaj të kamuflazhit** (emri, tema, gjuha, emblema e zgjedhur dhe çiftet e fjalëve «fjalë e vërtetë → fjalë kodi») | Të kamuflojë dhe dekodojë mesazhet tuaja, t'ju lejojë ta gjeni fjalorin tuaj në një pajisje tjetër, ta zhvilloni dhe ta ndani | Për sa kohë që fjalori ekziston. **Një fjalor i hedhur në kosh ruhet gjithsesi**: ende nuk ekziston zbrazje automatike e këtij koshi. Zhduket me fshirjen e llogarisë suaj |
 | **Fjalët në pritje** (gjuhë personale dhe Kamuflazh): fjalët e veçuara të mesazheve tuaja që mungojnë ende në leksikun tuaj — kurrë fjalia —, me numrin e shfaqjeve dhe datat e shfaqjes së parë e të fundit | T'ju propozojë t'i shtoni në leksikun tuaj dhe t'i përpunojë shërbimi i IA-së kur e rritni | Ruhen edhe pas shtimit, për sa kohë që gjuha ose fjalori ekziston. **Nëse shkruani me një fjalor kamuflazhi që një person tjetër ka ndarë me ju**, fjalët që i mungojnë vendosen mënjanë **në fjalorin e atij personi**, dhe ai person mund t'i shohë |
 | **Ndarja e gjuhëve dhe e fjalorëve tuaj** (një kod ndarjeje, i ruajtur vetëm në formë gjurme dixhitale; historiku i importimeve dhe i lidhjeve) | T'u lejojë të afërmve tuaj t'i lexojnë mesazhet tuaja. Pronari i një fjalori sheh listën e personave të lidhur me të (emri i shfaqur dhe fotoja e profilit Google — kurrë adresa e e-mailit) | Një kod skadon. Gjurma e një ndarjeje të shfuqizuar ruhet |
@@ -126,7 +127,7 @@ Ja gjithçka që ruhet në serverët tanë:
 
 **Çfarë nuk mbledhim:** emrin tuaj, kontaktet tuaja, vendndodhjen tuaj, adresarin tuaj, fotografitë tuaja, kalendarin tuaj, historikun e aplikacioneve tuaja. Plume nuk kërkon asnjë nga këto leje.
 
-**Çfarë mbetet vetëm në telefonin tuaj:** personat tuaj të personalizuar dhe avatarët e tyre, cilësimet tuaja, rregullat tuaja për çdo aplikacion, memoria e përkthimit e Leximit të Asistuar (fshihet në fund të çdo sesioni). Asgjë nga këto nuk u dërgohet serverëve tanë.
+**Çfarë mbetet vetëm në telefonin tuaj:** cilësimet tuaja, rregullat tuaja për çdo aplikacion, memoria e përkthimit e Leximit të Asistuar (fshihet në fund të çdo sesioni). Asgjë nga këto nuk u dërgohet serverëve tanë.
 
 ---
 

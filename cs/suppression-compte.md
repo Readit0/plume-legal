@@ -37,6 +37,7 @@ Smazání **trvale** vymaže:
 - **vaše identifikátory požadavků** — technické odkazy na vyžádaná přeformulování;
 - **vaše kredity a odemčení limitu** — zakoupené a nespotřebované kredity, odemčení získaná za reklamu, upravené stropy;
 - **vazbu vašich zařízení na váš účet** — vaše ostatní telefony či tablety jsou odpojeny a stávají se opět prostými anonymními zařízeními;
+- **vaše vlastní persony**, včetně těch přesunutých do koše — jejich název, pokyny, avatar, miniatury obrázků, které jste importovali (avatary person a emblémy jazyků), a vaše sdílecí tokeny;
 - **vaše kamuflážní slovníky**, včetně těch přesunutých do koše — jejich název, téma, dvojice slov, čekající slova, vaše sdílecí tokeny a propojení v obou směrech (slovníky, které jste sdíleli vy, i ty, které byly sdíleny vám);
 - **vlastní jazyky, které jste vytvořili** — jejich název, abecedu, slovník, čekající slova, vaše sdílecí tokeny a vaši historii importu. **Co toto smazání nedokáže:** pokud si někdo jiný již naimportoval kopii vašeho jazyka, tato kopie mu od té chvíle patří a **přežije** vaše smazání — podobně jako zpráva, kterou už přijala třetí strana a kterou nemůžeme smazat u ní.
 
@@ -44,7 +45,7 @@ Zařízení, ze kterého o smazání žádáte, je **neutralizováno**: jeho vaz
 
 **Neukládáme texty, které jste přeformulovali, ani text přečtený z obrazovky Asistovaným čtením**: nejsou nikde na našich serverech uchovávány, není tedy co mazat. **To ale neplatí pro vaše vlastní jazyky a kamuflážní slovníky:** jejich obsah (název, abeceda či téma, slova a definice) i jednotlivá slova z vašich zpráv, která v nich stále chyběla, jsou na našich serverech skutečně uložena — smazáním vašeho účtu se smažou, stejně jako zbytek toho, co vám patří (viz výše).
 
-**Ve vašem telefonu** jsou vaše persony, vaši avataři, vaše nastavení a vaše pravidla pro jednotlivé aplikace uloženy místně. Smazáním z aplikace jsou vymazány a v každém případě **zmizí, když Plume odinstalujete**.
+**Ve vašem telefonu** jsou vaše nastavení a vaše pravidla pro jednotlivé aplikace uloženy místně. Smazáním z aplikace jsou vymazány a v každém případě **zmizí, když Plume odinstalujete**.
 
 ---
 

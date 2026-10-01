@@ -37,6 +37,7 @@ It-tħassir iħassar **b'mod definittiv**:
 - **l-identifikaturi tat-talbiet tiegħek** — ir-referenzi tekniċi tar-riformulazzjonijiet mitluba;
 - **il-krediti u l-iżblokki ta' kwota tiegħek** — krediti mixtrija mhux ikkonsmati, żblokki miksuba permezz ta' reklami, limiti aġġustati;
 - **ir-rabta tal-apparati tiegħek mal-kont tiegħek** — it-telefowns jew it-tablets l-oħra tiegħek jinħallu u jerġgħu jsiru sempliċi apparati anonimi;
+- **il-personas personalizzati tiegħek**, inklużi dawk fil-landa taż-żibel — isimhom, l-istruzzjonijiet tagħhom, l-avatar tagħhom, it-thumbnails tal-immaġni li importajt (avatars tal-personas u emblemi tal-lingwi) u t-tokens ta' kondiviżjoni tiegħek;
 - **il-leksiki tal-kamuflaġġ tiegħek**, inklużi dawk fil-landa taż-żibel — isimhom, it-tema tagħhom, il-pari ta' kliem tagħhom, il-kliem fl-istennija, it-tokens ta' kondiviżjoni tiegħek, u l-irbitiet fiż-żewġ direzzjonijiet (il-leksiki li qsamt, u dawk li ġew maqsuma miegħek);
 - **il-lingwi personali li ħloqt** — isimhom, l-alfabett tagħhom, il-leksiku tagħhom, il-kliem fl-istennija, it-tokens ta' kondiviżjoni tiegħek u l-istorja tiegħek ta' importazzjoni. **Dak li dan it-tħassir ma jistax jagħmel:** jekk xi ħadd ieħor diġà importa kopja tal-lingwa tiegħek għandu, dik il-kopja issa tibqa' tiegħu u **tibqa' teżisti** wara t-tħassir tiegħek — bħal messaġġ li diġà rċieva terza persuna, ma nistgħux immorru nħassruh għandu.
 
@@ -44,7 +45,7 @@ L-apparat li minnu titlob it-tħassir jiġi **newtralizzat**: ir-rabta tiegħu m
 
 **Ma naħżnux it-testi li rriformulajt, u lanqas it-test moqri mill-iskrin mill-Qari Assistit**: dawn ma jinżammux imkien fuq is-servers tagħna, u għalhekk m'hemm xejn x'jitħassar minnhom. **Dan mhux minnu għal-lingwi personali u għall-leksiki tal-kamuflaġġ tiegħek**: il-kontenut tagħhom (isem, alfabett jew tema, kliem u tifsiriet), kif ukoll il-kliem waħdu mill-messaġġi tiegħek li kien għadu nieqes minnhom, huwa tabilħaqq maħżun fuq is-servers tagħna — it-tħassir tal-kont tiegħek iħassarhom, bħall-bqija ta' dak li huwa tiegħek (ara hawn fuq).
 
-**Fuq it-telefown tiegħek**, il-personas tiegħek, l-avatars tiegħek, is-settings tiegħek u r-regoli tiegħek għal kull applikazzjoni huma maħżuna lokalment. Jitħassru bit-tħassir mill-applikazzjoni, u f'kull każ **jisparixxu meta tiżżarma Plume**.
+**Fuq it-telefown tiegħek**, is-settings tiegħek u r-regoli tiegħek għal kull applikazzjoni huma maħżuna lokalment. Jitħassru bit-tħassir mill-applikazzjoni, u f'kull każ **jisparixxu meta tiżżarma Plume**.
 
 ---
 

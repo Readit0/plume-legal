@@ -37,6 +37,7 @@ A törlés **véglegesen** eltávolítja:
 - **a kéréseinek azonosítóit** — a kért átfogalmazások technikai hivatkozásait;
 - **a kvótakreditjeit és -feloldásait** — a megvásárolt, fel nem használt krediteket, a hirdetéssel szerzett feloldásokat, a módosított felső korlátokat;
 - **a készülékeinek a fiókjához való hozzárendelését** — a többi telefonja vagy táblagépe leválik, és újra egyszerű, névtelen készülékké válik.
+- **az egyéni personáit**, a lomtárba helyezetteket is — azok nevét, utasításait, avatarját, az Ön által importált képek bélyegképeit (persona-avatarok és nyelvi jelképek) és a megosztási tokenjeit;
 - **az álcázási szótárait**, a lomtárba helyezetteket is — azok nevét, témáját, szópárjait, a várakozó szavakat, a megosztási tokenjeit és a kétirányú kapcsolódásokat (az Ön által megosztott szótárakat és az Önnel megosztottakat);
 - **az Ön által létrehozott saját nyelveket** — azok neve, ábécéje, szókincse, a várakozó szavak, az Ön megosztási tokenjei és az importálási előzményei. **Amit ez a törlés nem tud megtenni:** ha valaki más már importálta az Ön nyelvének egy másolatát a saját gépére, az a másolat ettől kezdve az övé, és **fennmarad** az Ön törlése után is — mint egy harmadik fél által már megkapott üzenet, amelyet nem tudunk töröltetni nála.
 
@@ -44,7 +45,7 @@ Azt a készüléket, amelyről a törlést kéri, **hatástalanítjuk**: a fiók
 
 **Nem tároljuk az Ön által átfogalmazott szövegeket, sem azt a szöveget, amelyet a Segített Olvasás beolvasott a képernyőről**: ezeket sehol nem őrizzük meg a szervereinken, tehát nincs mit törölni belőlük. **Ez nem igaz az Ön saját nyelveire és álcázási szótáraira**: azok tartalmát (nevét, ábécéjét vagy témáját, szavait és jelentéseit), valamint az üzeneteinek azokat az egyes szavait, amelyek még hiányoztak belőlük, valóban tároljuk a szervereinken — a fiókja törlése ezeket is eltávolítja, csakúgy mint mindent, ami Önhöz tartozik (lásd fentebb).
 
-**A telefonján** a personái, az avatarjai, a beállításai és az alkalmazásonkénti szabályai helyileg tárolódnak. Ezeket az alkalmazásból indított törlés eltávolítja, és mindenesetre **eltűnnek, amikor eltávolítja a Plume-ot**.
+**A telefonján** a beállításai és az alkalmazásonkénti szabályai helyileg tárolódnak. Ezeket az alkalmazásból indított törlés eltávolítja, és mindenesetre **eltűnnek, amikor eltávolítja a Plume-ot**.
 
 ---
 

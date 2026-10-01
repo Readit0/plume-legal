@@ -2,7 +2,7 @@
 
 **Terakhir diperbarui: 1 Oktober 2026** — Versi 2.1
 
-> *Apa yang berubah pada versi 2.1:* kami menjelaskan **mode Kamuflase**, yang tidak disebutkan oleh versi 2.0, dan kami mengoreksi satu pernyataan yang tidak lagi akurat: baik untuk bahasa pribadi maupun untuk Kamuflase, **kata-kata dalam pesan Anda yang belum ada di kosakata Anda disimpan, satu per satu** — tidak pernah kalimatnya — agar kami dapat mengusulkan kepada Anda untuk menambahkannya. Rinciannya ada di «Dalam satu menit», di §2.2, dan di §3.
+> *Apa yang berubah pada versi 2.1:* kami menjelaskan **mode Kamuflase**, yang tidak disebutkan oleh versi 2.0, dan kami mengoreksi satu pernyataan yang tidak lagi akurat: baik untuk bahasa pribadi maupun untuk Kamuflase, **kata-kata dalam pesan Anda yang belum ada di kosakata Anda disimpan, satu per satu** — tidak pernah kalimatnya — agar kami dapat mengusulkan kepada Anda untuk menambahkannya. Rinciannya ada di «Dalam satu menit», di §2.2, dan di §3. Kami juga mengoreksi kesalahan kedua: **persona kustom Anda beserta avatarnya disimpan di server kami** — keduanya tidak hanya berada di ponsel Anda (lihat §3).
 
 > *Apa yang berubah sejak versi 1.0, dan mengapa Anda mungkin melihat kembali layar
 > persetujuan di dalam aplikasi:* kami memperbaiki dua pernyataan yang sudah tidak
@@ -118,6 +118,7 @@ Berikut keseluruhan yang disimpan di server kami:
 | **Sinyal teknis penyalahgunaan** (pelampauan berulang, kegagalan pemeriksaan integritas — tanpa teks apa pun) | Keamanan, pemberantasan kecurangan | Dilepaskan dari identitas Anda saat akun dihapus |
 | **Bahasa dan versi aplikasi** | Menyajikan konten yang tepat | Sampai akun Anda dihapus |
 | **Konten bahasa pribadi yang Anda buat** (namanya, aksaranya, dan kosakatanya — kata-kata dan definisi yang Anda, atau orang lain, tuliskan di dalamnya) | Memungkinkan Anda menemukan kembali bahasa Anda di perangkat lain, mengembangkannya, dan membagikannya dengan pengguna lain | Selama bahasa itu ada. Jika Anda menghapusnya, entrinya hilang — tetapi salinan yang sudah **diimpor oleh orang lain** sejak itu menjadi milik orang tersebut dan **tetap ada**, seperti pesan yang sudah diterima oleh pihak ketiga yang tidak dapat kami hapuskan di sisi mereka |
+| **Persona kustom Anda** (namanya, instruksinya, avatar yang dipilih dan, jika Anda mengimpor gambar, gambar mini berukuran paling besar 512 piksel — begitu pula untuk lambang yang diimpor dari sebuah bahasa pribadi) | Memungkinkan Anda menemukannya kembali setelah instalasi ulang atau di perangkat lain, dan membagikannya. Instruksi sebuah persona dikirim ke layanan AI pada setiap perumusan ulang yang menggunakannya | Selama persona itu ada. Persona yang dipindahkan ke tempat sampah dihapus 30 hari kemudian, saat berikutnya Anda membuka daftar persona Anda. Semuanya hilang saat akun Anda dihapus |
 | **Leksikon penyamaran Anda** (namanya, temanya, bahasanya, lambang yang dipilih, dan pasangan kata «kata asli → kata sandi») | Menyamarkan dan mengurai pesan Anda, memungkinkan Anda menemukan kembali leksikon Anda di perangkat lain, mengembangkannya, dan membagikannya | Selama leksikon itu ada. **Leksikon yang dipindahkan ke tempat sampah tetap disimpan**: belum ada pengosongan otomatis tempat sampah itu. Leksikon itu hilang saat akun Anda dihapus |
 | **Kata-kata yang menunggu** (bahasa pribadi dan Kamuflase): kata-kata tersendiri dari pesan Anda yang belum ada di kosakata Anda — tidak pernah kalimatnya —, beserta jumlah kemunculannya dan tanggal kemunculan pertama dan terakhir | Mengusulkan kepada Anda untuk menambahkannya ke kosakata Anda, dan meminta layanan AI memprosesnya ketika Anda mengembangkannya | Disimpan bahkan setelah ditambahkan, selama bahasa atau leksikon itu ada. **Jika Anda menulis dengan leksikon penyamaran yang dibagikan orang lain kepada Anda**, kata-kata yang tidak ada di dalamnya disisihkan **di leksikon orang itu**, dan orang tersebut dapat melihatnya |
 | **Pembagian bahasa dan leksikon Anda** (sebuah token berbagi, disimpan hanya dalam bentuk sidik; riwayat impor dan penautan) | Memungkinkan orang-orang terdekat Anda membaca pesan Anda. Pemilik sebuah leksikon melihat daftar orang yang tertaut padanya (nama tampilan dan foto profil Google — tidak pernah alamat e-mail) | Token kedaluwarsa. Jejak pembagian yang dicabut tetap disimpan |
@@ -127,7 +128,7 @@ Berikut keseluruhan yang disimpan di server kami:
 
 **Apa yang tidak kami kumpulkan:** nama Anda, kontak Anda, lokasi Anda, buku alamat Anda, foto Anda, kalender Anda, riwayat aplikasi Anda. Plume tidak meminta satu pun izin tersebut.
 
-**Apa yang tetap hanya di ponsel Anda:** persona kustom Anda beserta avatarnya, pengaturan Anda, aturan per aplikasi Anda, cache terjemahan Bacaan Terbantu (dihapus pada akhir setiap sesi). Tidak satu pun dari semua itu dikirim ke server kami.
+**Apa yang tetap hanya di ponsel Anda:** pengaturan Anda, aturan per aplikasi Anda, cache terjemahan Bacaan Terbantu (dihapus pada akhir setiap sesi). Tidak satu pun dari semua itu dikirim ke server kami.
 
 ---
 

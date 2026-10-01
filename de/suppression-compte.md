@@ -37,6 +37,7 @@ Die Löschung entfernt **endgültig**:
 - **Ihre Anfragekennungen** — die technischen Referenzen der angeforderten Umschreibungen;
 - **Ihre Guthaben und Kontingentfreischaltungen** — gekaufte, nicht verbrauchte Guthaben, durch Werbung erlangte Freischaltungen, angepasste Obergrenzen;
 - **die Zuordnung Ihrer Geräte zu Ihrem Konto** — Ihre anderen Handys oder Tablets werden abgetrennt und sind wieder einfache, anonyme Geräte;
+- **Ihre eigenen Personas**, auch die in den Papierkorb gelegten — ihr Name, ihre Anweisungen, ihr Avatar, die Miniaturen der von Ihnen importierten Bilder (Persona-Avatare und Sprach-Embleme) und Ihre Freigabe-Tokens;
 - **Ihre Tarnwörterbücher**, auch die in den Papierkorb gelegten — ihr Name, ihr Thema, ihre Wortpaare, die ausstehenden Wörter, Ihre Freigabe-Tokens und die Verknüpfungen in beiden Richtungen (die Tarnwörterbücher, die Sie geteilt haben, und die, die mit Ihnen geteilt wurden);
 - **die eigenen Sprachen, die Sie erstellt haben** — ihr Name, ihr Alphabet, ihr Lexikon, die ausstehenden Wörter, Ihre Freigabe-Tokens und Ihr Import-Verlauf. **Was diese Löschung nicht bewirken kann:** Wenn eine andere Person bereits eine Kopie Ihrer Sprache bei sich importiert hat, gehört diese Kopie fortan ihr und **bleibt erhalten**, auch nach Ihrer Löschung — wie eine Nachricht, die ein Dritter bereits empfangen hat und die wir bei ihm nicht löschen können.
 
@@ -44,7 +45,7 @@ Das Gerät, von dem aus Sie die Löschung verlangen, wird **neutralisiert**: Sei
 
 **Wir speichern die Texte, die Sie umgeschrieben haben, und den vom Assistierten Lesen auf dem Bildschirm gelesenen Text nicht**: Sie werden nirgends auf unseren Servern aufbewahrt, also gibt es davon nichts zu löschen. **Das gilt nicht für Ihre eigenen Sprachen und Ihre Tarnwörterbücher:** Deren Inhalt (Name, Alphabet oder Thema, Wörter und Definitionen) sowie die einzelnen Wörter Ihrer Nachrichten, die darin noch fehlten, werden tatsächlich auf unseren Servern gespeichert — die Löschung Ihres Kontos entfernt sie, wie den Rest dessen, was Ihnen gehört (siehe oben).
 
-**Auf Ihrem Handy** sind Ihre Personas, Ihre Avatare, Ihre Einstellungen und Ihre Regeln pro App lokal gespeichert. Sie werden durch die aus der App heraus vorgenommene Löschung entfernt und **verschwinden in jedem Fall, wenn Sie Plume deinstallieren**.
+**Auf Ihrem Handy** sind Ihre Einstellungen und Ihre Regeln pro App lokal gespeichert. Sie werden durch die aus der App heraus vorgenommene Löschung entfernt und **verschwinden in jedem Fall, wenn Sie Plume deinstallieren**.
 
 ---
 

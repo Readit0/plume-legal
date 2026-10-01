@@ -37,6 +37,7 @@ O'chirish quyidagilarni **butunlay** o'chiradi:
 - **so'rov identifikatorlaringiz** — so'ralgan qayta shakllantirishlarning texnik havolalari;
 - **kvota kreditlaringiz va ochilishlaringiz** — sarflanmagan sotib olingan kreditlar, reklama orqali olingan ochilishlar, sozlangan chegaralar;
 - **qurilmalaringizning hisobingizga bog'lanishi** — boshqa telefonlaringiz yoki planshetlaringiz ajratiladi va oddiy anonim qurilmalarga aylanadi;
+- **shaxsiylashtirilgan personalaringiz**, chiqindi qutisiga tashlanganlari ham — ularning nomi, ko'rsatmalari, avatari, import qilgan rasmlaringizning kichik nusxalari (persona avatarlari va til timsollari) va ulashish jetonlaringiz;
 - **Kamuflyaj lug'atlaringiz**, chiqindi qutisiga tashlanganlari ham — ularning nomi, mavzusi, so'z juftliklari, kutilayotgan so'zlar, ulashish jetonlaringiz va ikki tomonlama bog'lanishlar (siz ulashgan lug'atlar va sizga ulashilganlar);
 - **siz yaratgan shaxsiy tillar** — ularning nomi, alifbosi, lug'ati, kutilayotgan so'zlar, ulashish jetonlaringiz va import tarixingiz. **Ushbu o'chirish qila olmaydigan narsa:** agar boshqa birov allaqachon tilingizning nusxasini o'zida import qilgan bo'lsa, ushbu nusxa endi unga tegishli va sizning o'chirishingizdan **keyin ham saqlanib qoladi** — xuddi uchinchi shaxs tomonidan allaqachon qabul qilingan xabar kabi, biz uni uning tomonida o'chira olmaymiz.
 
@@ -44,7 +45,7 @@ O'chirishni so'ragan qurilmangiz **neytrallashtiriladi**: uning hisobingizga bog
 
 **Biz siz qayta shakllantirgan matnlarni ham, Yordamchi O'qish tomonidan ekranda ko'rsatilgan matnni ham saqlamaymiz:** ular serverlarimizda hech qayerda saqlanmaydi, shuning uchun o'chiradigan hech narsa yo'q. **Bu shaxsiy tillaringiz va Kamuflyaj lug'atlaringizga tegishli emas:** ularning kontenti (nomi, alifbosi yoki mavzusi, so'zlar va ta'riflar) hamda xabarlaringizdagi ularda hali yo'q alohida so'zlar haqiqatan ham serverlarimizda saqlanadi — hisobingizni o'chirish ularni o'chiradi, sizga tegishli qolgan hamma narsa kabi (yuqorida ko'ring).
 
-**Telefoningizda**, personalaringiz, avatarlaringiz, sozlamalaringiz va ilova bo'yicha qoidalaringiz mahalliy saqlanadi. Ular ilovadan o'chirish orqali o'chiriladi va har qanday holatda **Plume’ni o'chirib tashlaganingizda yo'qoladi**.
+**Telefoningizda**, sozlamalaringiz va ilova bo'yicha qoidalaringiz mahalliy saqlanadi. Ular ilovadan o'chirish orqali o'chiriladi va har qanday holatda **Plume’ni o'chirib tashlaganingizda yo'qoladi**.
 
 ---
 

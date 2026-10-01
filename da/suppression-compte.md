@@ -37,6 +37,7 @@ Sletningen fjerner **endeligt**:
 - **dine anmodningsidentifikatorer** — de tekniske referencer for de omformuleringer, der er blevet anmodet om;
 - **dine kreditter og kvoteoplåsninger** — købte kreditter, der ikke er brugt, oplåsninger opnået via annoncer, justerede lofter;
 - **tilknytningen af dine enheder til din konto** — dine andre telefoner eller tablets frigøres og bliver igen almindelige anonyme enheder;
+- **dine egne personaer**, også dem der er lagt i papirkurven — deres navn, deres instruktioner, deres avatar, miniaturebillederne af de billeder, du har importeret (persona-avatarer og sprogemblemer), og dine delingstokens;
 - **dine camouflageordlister**, også dem der er lagt i papirkurven — deres navn, deres tema, deres ordpar, de ventende ord, dine delingstokens og forbindelserne i begge retninger (de ordlister, du har delt, og dem, der er blevet delt med dig);
 - **de personlige sprog, du har oprettet** — deres navn, deres alfabet, deres ordbog, de ventende ord, dine delingstokens og din importhistorik. **Hvad denne sletning ikke kan gøre:** hvis en anden person allerede har importeret en kopi af dit sprog hos sig selv, tilhører den kopi derefter vedkommende og **overlever** din sletning — ligesom en besked, en tredjepart allerede har modtaget, som vi ikke kan slette hos den pågældende.
 
@@ -44,7 +45,7 @@ Den enhed, som du beder om sletningen fra, bliver **neutraliseret**: dens tilkny
 
 **Vi gemmer ikke de tekster, du har omformuleret, eller den tekst, Assisteret læsning har læst på skærmen**: de bliver ikke opbevaret nogen steder på vores servere, og der er derfor intet at slette af dem. **Det gælder ikke for dine personlige sprog og dine camouflageordlister:** deres indhold (navn, alfabet eller tema, ord og betydninger) samt de enkelte ord i dine beskeder, der endnu manglede i dem, bliver rent faktisk gemt på vores servere — sletning af din konto sletter dem, ligesom resten af det, der tilhører dig (se ovenfor).
 
-**På din telefon** er dine personaer, dine avatarer, dine indstillinger og dine regler pr. app gemt lokalt. De slettes ved sletningen fra appen, og de forsvinder under alle omstændigheder, **når du afinstallerer Plume**.
+**På din telefon** er dine indstillinger og dine regler pr. app gemt lokalt. De slettes ved sletningen fra appen, og de forsvinder under alle omstændigheder, **når du afinstallerer Plume**.
 
 ---
 

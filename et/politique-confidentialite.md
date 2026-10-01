@@ -2,7 +2,7 @@
 
 **Viimati uuendatud: 1. oktoober 2026** — Versioon 2.1
 
-> *Mis muutus versioonis 2.1:* kirjeldame **režiimi Maskeering**, mida versioon 2.0 ei maininud, ja parandame väite, mis on muutunud ebatäpseks: nii isiklike keelte kui ka maskeerimise puhul **säilitatakse teie sõnumite sõnu, mis teie sõnavarast veel puuduvad, ükshaaval** — mitte kunagi lauset —, et saaksime teile pakkuda nende lisamist. Üksikasjad on jaotises „Ühe minutiga“, §2.2-s ja §3-s.
+> *Mis muutus versioonis 2.1:* kirjeldame **režiimi Maskeering**, mida versioon 2.0 ei maininud, ja parandame väite, mis on muutunud ebatäpseks: nii isiklike keelte kui ka maskeerimise puhul **säilitatakse teie sõnumite sõnu, mis teie sõnavarast veel puuduvad, ükshaaval** — mitte kunagi lauset —, et saaksime teile pakkuda nende lisamist. Üksikasjad on jaotises „Ühe minutiga“, §2.2-s ja §3-s. Parandame ka teise vea: **teie kohandatud personad ja nende avatarid salvestatakse meie serveritesse** — need ei jää ainult teie telefoni (vt §3).
 
 > *Mis on muutunud alates versioonist 1.0 ja miks te võite rakenduses uuesti näha nõustumisekraani:* parandame kaks väidet, mis ei olnud enam täpsed. Esiteks, funktsioon **isiklikud keeled** säilitab meie serverites sisu, mille te loote (nimi, tähestik, sõnavara) — versioon 1.0 väitis ekslikult, et ühtegi teksti ei säilitata. Teiseks kasutame nüüd **tehnilise vealogimise** tööriista — versioon 1.0 väitis, et ühtegi sellist tööriista ei ole olemas. Nende kahe punkti üksikasjad on allpool jaotises „Ühe minutiga“ ning samuti §3-s ja §9-s. Need on täpselt need kaks muudatuste kategooriat, mis rakenduses käivitavad uue nõusolekutaotluse (vt § 11).
 
@@ -110,6 +110,7 @@ Siin on kõik, mis meie serverites talletatakse:
 | **Kuritarvituse tehnilised signaalid** (korduvad ületamised, terviklikkuse kontrolli ebaõnnestumine — ilma ühegi tekstita) | Turvalisus, pettusevastane võitlus | Konto kustutamisel teie isikust lahutatud |
 | **Rakenduse keel ja versioon** | Õige sisu edastamiseks | Kuni teie konto kustutamiseni |
 | **Isiklike keelte sisu, mille te loote** (selle nimi, tähestik ja sõnavara — sõnad ja määratlused, mille teie või teised isikud on sinna kirjutanud) | Võimaldada teil oma keel teises seadmes leida, seda edasi arendada ja teiste kasutajatega jagada | Seni, kuni keel eksisteerib. Kui te selle kustutate, kaob selle kirje — kuid koopia, mille **on juba importinud teine isik**, kuulub nüüd sellele isikule ja **jääb alles**, nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada |
+| **Teie kohandatud personad** (nende nimi, juhised, valitud avatar ja, kui importisite pildi, kuni 512 pikslise suurusega pisipilt — sama kehtib isikliku keele imporditud embleemi kohta) | Võimaldada teil need pärast uuesti paigaldamist või teisest seadmest taas leida ja neid jagada. Persona juhised saadetakse tehisintellektiteenusele iga ümbersõnastuse puhul, mis seda kasutab | Seni, kuni persona eksisteerib. Prügikasti viidud persona kustutatakse 30 päeva hiljem, kui te järgmine kord oma personade loendi avate. Kõik kaob teie konto kustutamisel |
 | **Teie maskeerimissõnastikud** (nende nimi, teema, keel, valitud embleem ja sõnapaarid „tegelik sõna → koodisõna“) | Teie sõnumite maskeerimine ja dekodeerimine, võimaldada teil oma sõnastik leida teisest seadmest, seda edasi arendada ja jagada | Seni, kuni sõnastik eksisteerib. **Prügikasti viidud sõnastik säilitatakse endiselt**: selle prügikasti automaatset tühjendamist veel ei ole. See kaob teie konto kustutamisel |
 | **Ootel olevad sõnad** (isiklik keel ja Maskeering): teie sõnumite üksikud sõnad, mis teie sõnavarast veel puuduvad — mitte kunagi lause —, koos esinemiste arvu ning esimese ja viimase esinemise kuupäevadega | Pakkuda teile nende lisamist teie sõnavarasse ning lasta tehisintellekti teenusel neid töödelda, kui te sõnavara kasvatate | Säilitatakse ka pärast lisamist, kuni keel või sõnastik eksisteerib. **Kui kirjutate maskeerimissõnastikuga, mille on teiega jaganud keegi teine**, pannakse sellest puuduvad sõnad kõrvale **tema sõnastikus** ja see isik näeb neid |
 | **Teie keelte ja sõnastike jagamine** (jagamisžetoon, mida talletatakse ainult räsina; importide ja sidumiste ajalugu) | Võimaldada teie lähedastel teie sõnumeid lugeda. Sõnastiku omanik näeb temaga seotud isikute loendit (kuvatav nimi ja Google'i profiilifoto — mitte kunagi e-posti aadress) | Žetoon aegub. Tühistatud jagamise jälg säilitatakse |
@@ -119,7 +120,7 @@ Siin on kõik, mis meie serverites talletatakse:
 
 **Mida me ei kogu:** teie nime, teie kontakte, teie asukohta, teie aadressiraamatut, teie fotosid, teie kalendrit, teie rakenduste ajalugu. Plume ei küsi ühtegi neist lubadest.
 
-**Mis jääb üksnes teie telefoni:** teie kohandatud personad ja nende avatarid, teie seaded, teie rakendusepõhised reeglid, abistatud lugemise tõlkevahemälu (kustutatakse iga seansi lõpus). Midagi sellest ei saadeta meie serveritesse.
+**Mis jääb üksnes teie telefoni:** teie seaded, teie rakendusepõhised reeglid, abistatud lugemise tõlkevahemälu (kustutatakse iga seansi lõpus). Midagi sellest ei saadeta meie serveritesse.
 
 ---
 

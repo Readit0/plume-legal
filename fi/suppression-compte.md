@@ -37,6 +37,7 @@ Poisto pyyhkii **lopullisesti**:
 - **pyyntötunnisteesi** — pyydettyjen uudelleenkirjoitusten tekniset viitteet;
 - **krediittisi ja kiintiön avaukset** — käyttämättömät ostetut krediitit, mainoksilla saadut avaukset, mukautetut ylärajat;
 - **laitteidesi liitoksen tiliisi** — muut puhelimesi tai taulutietokoneesi irrotetaan, ja niistä tulee jälleen tavallisia nimettömiä laitteita;
+- **omat persoonasi**, myös roskakoriin siirretyt — niiden nimen, ohjeet, avatarin, tuomiesi kuvien pienoiskuvat (persoonien avatarit ja kielten tunnukset) sekä jakotunnuksesi;
 - **naamiointisanastosi**, myös roskakoriin siirretyt — niiden nimen, teeman, sanaparit, odottavat sanat, jakotunnuksesi sekä liitokset molempiin suuntiin (sanastot, jotka olet jakanut, ja ne, jotka on jaettu sinulle);
 - **luomasi omat kielet** — niiden nimen, aakkoston, sanaston, odottavat sanat, jakotunnuksesi ja tuontihistoriasi. **Mitä tämä poisto ei voi tehdä:** jos joku toinen on jo tuonut kopion kielestäsi, kyseinen kopio kuuluu tästä lähtien hänelle ja **säilyy** poistostasi huolimatta — kuten kolmannelle jo vastaanotettu viesti, jota emme voi poistaa hänen puoleltaan.
 
@@ -44,7 +45,7 @@ Laite, jolta pyydät poistoa, **tehdään tehottomaksi**: sen liitos tiliisi pyy
 
 **Emme tallenna uudelleen kirjoittamiasi tekstejä emmekä tekstiä, jonka Lukuapu on lukenut näytöltä**: niitä ei säilytetä missään palvelimillamme, joten niistä ei ole mitään poistettavaa. **Tämä ei päde omiin kieliisi ja naamiointisanastoihisi**: niiden sisältö (nimi, aakkosto tai teema, sanat ja määritelmät) sekä viestiesi yksittäiset sanat, jotka niistä vielä puuttuivat, todella tallennetaan palvelimillemme — tilisi poistaminen poistaa ne, kuten kaiken muunkin sinulle kuuluvan (katso yltä).
 
-**Puhelimessasi** persoonasi, avatarisi, asetuksesi ja sovelluskohtaiset sääntösi on tallennettu paikallisesti. Ne pyyhitään, kun teet poiston sovelluksesta, ja ne katoavat joka tapauksessa, **kun poistat Plumen laitteestasi**.
+**Puhelimessasi** asetuksesi ja sovelluskohtaiset sääntösi on tallennettu paikallisesti. Ne pyyhitään, kun teet poiston sovelluksesta, ja ne katoavat joka tapauksessa, **kun poistat Plumen laitteestasi**.
 
 ---
 

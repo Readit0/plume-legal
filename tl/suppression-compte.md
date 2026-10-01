@@ -37,6 +37,7 @@ Bineberipika namin na ang hiling ay tunay na nagmumula sa may hawak ng account, 
 - **ang inyong mga request identifier** — ang mga teknikal na sanggunian ng mga hiniling na pag-rephrase;
 - **ang inyong mga credit at na-unlock na quota** — biniling credit na hindi pa nagagamit, na-unlock sa pamamagitan ng ad, mga hangganang naisaayos;
 - **ang pagkakaugnay ng inyong mga device sa inyong account** — ang iba ninyong telepono o tablet ay inaalisan ng ugnayan at nagbabalik na simpleng anonymous na device lamang.
+- **ang inyong mga custom na persona**, kasama ang mga nasa basurahan — ang pangalan, mga panuntunan, avatar, mga thumbnail ng mga larawang in-import ninyo (mga avatar ng persona at mga emblem ng wika) at ang inyong mga sharing token;
 - **ang inyong mga lexicon ng pagtatago**, kasama ang mga nasa basurahan — ang pangalan, tema, mga pares ng salita, mga nakabinbing salita, ang inyong mga sharing token, at ang mga ugnayan sa magkabilang direksiyon (ang mga lexicon na ibinahagi ninyo, at ang mga ibinahagi sa inyo);
 - **ang mga personal na wikang nilikha ninyo** — ang pangalan nito, ang alpabeto nito, ang bokabularyo nito, ang mga nakabinbing salita, ang inyong mga sharing token at ang inyong kasaysayan ng pag-import. **Ang hindi kayang gawin ng pagburang ito:** kung may ibang taong nag-import na ng kopya ng inyong wika sa kanilang panig, ang kopyang iyon ay pagmamay-ari na niya at **mananatili** matapos ang inyong pagbura — tulad ng isang mensaheng natanggap na ng isang ikatlong panig, hindi namin ito kayang burahin sa panig niya.
 
@@ -44,7 +45,7 @@ Ang device kung saan ninyo hiniling ang pagbura ay **nine-neutralize**: binubura
 
 **Hindi namin iniimbak ang mga tekstong ni-rephrase ninyo, ni ang tekstong binasa sa screen ng Assisted Reading**: hindi ang mga ito nakaimbak kahit saan sa aming mga server, kaya wala ring anumang buburahin doon. **Hindi ito totoo sa inyong mga personal na wika at sa inyong mga lexicon ng pagtatago**: ang nilalaman ng mga ito (pangalan, alpabeto o tema, mga salita at kahulugan), pati ang mga hiwalay na salita ng inyong mga mensahe na wala pa roon, ay talagang iniimbak sa aming mga server — binubura ang mga ito ng pagbura ng inyong account, tulad ng iba pang bagay na pagmamay-ari ninyo (tingnan sa itaas).
 
-**Sa inyong telepono**, ang inyong mga persona, ang inyong mga avatar, ang inyong mga setting at ang inyong mga panuntunan kada application ay nakaimbak nang lokal. Binubura ang mga ito ng pagbura mula sa application, at sa anumang kaso **nawawala ang mga ito kapag na-uninstall ninyo ang Plume**.
+**Sa inyong telepono**, ang inyong mga setting at ang inyong mga panuntunan kada application ay nakaimbak nang lokal. Binubura ang mga ito ng pagbura mula sa application, at sa anumang kaso **nawawala ang mga ito kapag na-uninstall ninyo ang Plume**.
 
 ---
 

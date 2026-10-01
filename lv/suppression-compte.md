@@ -37,6 +37,7 @@ Dzēšana **neatgriezeniski** izdzēš:
 - **jūsu pieprasījumu identifikatorus** — pieprasīto pārformulējumu tehniskās atsauces;
 - **jūsu kvotas kredītus un atbloķējumus** — nopirktos nepatērētos kredītus, ar reklāmu iegūtos atbloķējumus, pielāgotos ierobežojumus;
 - **jūsu ierīču piesaisti jūsu kontam** — jūsu pārējie tālruņi vai planšetdatori tiek atsaistīti un atkal kļūst par vienkāršām anonīmām ierīcēm;
+- **jūsu pielāgotās personas**, arī atkritnē ievietotās — to nosaukumu, norādījumus, avatāru, jūsu importēto attēlu miniatūras (personu avatāri un valodu emblēmas) un jūsu koplietošanas marķierus;
 - **jūsu kamuflāžas vārdnīcas**, arī atkritnē ievietotās — to nosaukumu, tēmu, vārdu pārus, gaidošos vārdus, jūsu koplietošanas marķierus un saistījumus abos virzienos (vārdnīcas, ar kurām esat dalījies, un tās, ar kurām dalījušies ar jums);
 - **personiskās valodas, ko esat izveidojis** — to nosaukumu, alfabētu, vārdnīcu, gaidošos vārdus, jūsu koplietošanas marķierus un importēšanas vēsturi. **Ko šī dzēšana nevar izdarīt:** ja kāds cits jau ir importējis jūsu valodas kopiju pie sevis, šī kopija tagad pieder viņam un **turpina pastāvēt** pēc jūsu dzēšanas — tāpat kā ziņa, ko jau saņēmusi trešā puse, mēs nevaram to izdzēst pie viņa.
 
@@ -44,7 +45,7 @@ Ierīce, no kuras jūs pieprasāt dzēšanu, tiek **neitralizēta**: tās piesai
 
 **Mēs neglabājam tekstus, ko esat pārformulējis, ne tekstu, ko no ekrāna nolasīja asistētā lasīšana**: tie nekur mūsu serveros netiek glabāti, tāpēc nav nekā, ko tur dzēst. **Tas neattiecas uz jūsu personiskajām valodām un kamuflāžas vārdnīcām**: to saturs (nosaukums, alfabēts vai tēma, vārdi un definīcijas), kā arī atsevišķie jūsu ziņu vārdi, kuru tajās vēl trūka, tiešām tiek glabāti mūsu serveros — jūsu konta dzēšana tos izdzēš, tāpat kā pārējo jums piederošo (skatīt iepriekš).
 
-**Jūsu tālrunī** jūsu personas, jūsu avatāri, jūsu iestatījumi un jūsu noteikumi katrai lietotnei ir saglabāti lokāli. Tos izdzēš dzēšana no lietotnes, un jebkurā gadījumā tie **pazūd, kad jūs atinstalējat Plume**.
+**Jūsu tālrunī** jūsu iestatījumi un jūsu noteikumi katrai lietotnei ir saglabāti lokāli. Tos izdzēš dzēšana no lietotnes, un jebkurā gadījumā tie **pazūd, kad jūs atinstalējat Plume**.
 
 ---
 

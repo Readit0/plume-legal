@@ -2,7 +2,7 @@
 
 **Paskutinį kartą atnaujinta: 2026 m. spalio 1 d.** — Versija 2.1
 
-> *Kas pasikeitė versijoje 2.1:* aprašome **Maskuotės režimą**, kurio versija 2.0 neminėjo, ir taisome teiginį, kuris tapo netikslus: tiek individualioms kalboms, tiek Maskuotei **jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta, saugomi po vieną** — niekada ne sakinys — kad galėtume pasiūlyti juos įtraukti. Išsamiau — skyriuje „Per vieną minutę“, 2.2 ir 3 skyriuose.
+> *Kas pasikeitė versijoje 2.1:* aprašome **Maskuotės režimą**, kurio versija 2.0 neminėjo, ir taisome teiginį, kuris tapo netikslus: tiek individualioms kalboms, tiek Maskuotei **jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta, saugomi po vieną** — niekada ne sakinys — kad galėtume pasiūlyti juos įtraukti. Išsamiau — skyriuje „Per vieną minutę“, 2.2 ir 3 skyriuose. Taip pat taisome antrą klaidą: **jūsų individualizuotos personos ir jų avatarai saugomi mūsų serveriuose** — jie lieka ne tik jūsų telefone (žr. 3 skyrių).
 
 > *Kas pasikeitė nuo versijos 1.0 ir kodėl programėlėje galite vėl pamatyti sutikimo ekraną:* taisome du teiginius, kurie nebebuvo tikslūs. Pirma, funkcija **individualios kalbos** saugo mūsų serveriuose jūsų sukurtą turinį (pavadinimą, abėcėlę, žodyną) — versijoje 1.0 buvo klaidingai teigiama, kad joks tekstas nesaugomas. Antra, dabar naudojame **techninių strigčių ataskaitų** įrankį — versijoje 1.0 buvo teigiama, kad tokio įrankio nėra. Šių dviejų punktų detalės pateiktos skyriuje „Per vieną minutę" toliau, taip pat 3 ir 9 skyriuose. Būtent šios dvi pakeitimų kategorijos programėlėje sukelia naują sutikimo prašymą (žr. 11 skyrių).
 
@@ -110,6 +110,7 @@ Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies 
 | **Techniniai piktnaudžiavimo signalai** (pakartotiniai viršijimai, vientisumo patikros nesėkmė — be jokio teksto) | Saugumas, kova su sukčiavimu | Ištrynus paskyrą atsiejami nuo jūsų tapatybės |
 | **Programėlės kalba ir versija** | Pateikti tinkamą turinį | Iki jūsų paskyros ištrynimo |
 | **Jūsų kuriamų individualių kalbų turinys** (jos pavadinimas, abėcėlė ir žodynas — žodžiai ir apibrėžimai, kuriuos jūs arba kiti asmenys į ją įrašė) | Leisti jums rasti savo kalbą kitame įrenginyje, ją plėtoti ir dalytis ja su kitais naudotojais | Kol kalba egzistuoja. Jei ją ištrinate, jos kortelė išnyksta — tačiau jau **kito asmens importuota** kopija tampa jo nuosavybe ir **išlieka**, kaip jau trečiosios šalies gautas pranešimas, kurio negalime nueiti ištrinti pas jį |
+| **Jūsų individualizuotos personos** (jų pavadinimas, jų nurodymai, pasirinktas avataras ir, jei importavote paveikslėlį, ne didesnė kaip 512 pikselių miniatiūra — taip pat ir importuotos individualios kalbos emblemai) | Leisti jums jas atkurti po iš naujo įdiegimo arba kitame įrenginyje ir jomis dalytis. Personos nurodymas siunčiamas DI paslaugai kiekvieno jį naudojančio performulavimo metu | Kol persona egzistuoja. Į šiukšlinę perkelta persona ištrinama po 30 dienų, kitą kartą, kai atidarote savo personų sąrašą. Viskas išnyksta ištrynus jūsų paskyrą |
 | **Jūsų Kamufliažo žodynai** (jų pavadinimas, tema, kalba, pasirinktas ženklas ir žodžių poros „tikrasis žodis → kodinis žodis“) | Maskuoti ir iššifruoti jūsų žinutes, leisti jums rasti savo žodyną kitame įrenginyje, jį plėtoti ir juo dalytis | Kol žodynas egzistuoja. **Į šiukšlinę perkeltas žodynas lieka saugomas**: šios šiukšlinės automatinio ištuštinimo dar nėra. Jis išnyksta ištrynus jūsų paskyrą |
 | **Laukiantys žodžiai** (individuali kalba ir Maskuotė): atskiri jūsų žinučių žodžiai, kurių jūsų žodyne dar trūksta — niekada ne sakinys — su jų pasikartojimų skaičiumi ir pirmo bei paskutinio pasirodymo datomis | Pasiūlyti jums juos įtraukti į jūsų žodyną ir leisti DI paslaugai juos apdoroti, kai jį plėtojate | Saugomi ir juos įtraukus, kol egzistuoja kalba ar žodynas. **Jei rašote su Kamufliažo žodynu, kuriuo su jumis pasidalijo kitas asmuo**, jo trūkstami žodžiai atidedami **to asmens žodyne**, ir tas asmuo juos mato |
 | **Jūsų kalbų ir žodynų bendrinimas** (dalijimosi žetonas, saugomas tik kaip kontrolinis kodas; importavimų ir susiejimų istorija) | Leisti jūsų artimiesiems skaityti jūsų žinutes. Žodyno savininkas mato su juo susietų asmenų sąrašą (rodomą vardą ir „Google“ profilio nuotrauką — niekada ne el. pašto adresą) | Žetonas nustoja galioti. Atšaukto bendrinimo pėdsakas saugomas |
@@ -119,7 +120,7 @@ Nenaudojame **jokio auditorijos analizės įrankio ir jokio trečiosios šalies 
 
 **Ko nerenkame:** jūsų vardo, jūsų kontaktų, jūsų buvimo vietos, jūsų adresų knygos, jūsų nuotraukų, jūsų kalendoriaus, jūsų programėlių istorijos. Plume neprašo nė vieno iš šių leidimų.
 
-**Kas lieka tik jūsų telefone:** jūsų individualizuotos personos ir jų avatarai, jūsų nustatymai, jūsų taisyklės kiekvienai programėlei, pagalbinio skaitymo vertimų podėlis (ištrinamas kiekvienos sesijos pabaigoje). Niekas iš viso to nesiunčiama į mūsų serverius.
+**Kas lieka tik jūsų telefone:** jūsų nustatymai, jūsų taisyklės kiekvienai programėlei, pagalbinio skaitymo vertimų podėlis (ištrinamas kiekvienos sesijos pabaigoje). Niekas iš viso to nesiunčiama į mūsų serverius.
 
 ---
 

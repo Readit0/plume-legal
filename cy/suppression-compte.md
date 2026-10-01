@@ -37,6 +37,7 @@ Mae'r dileu yn dileu **yn barhaol**:
 - **dynodyddion eich ceisiadau** — cyfeirnodau technegol yr ailysgrifennu y gofynnwyd amdano;
 - **eich credydau a'ch datgloadau cwota** — credydau a brynwyd ac na chawsant eu defnyddio, datgloadau a gafwyd drwy hysbyseb, terfynau wedi'u haddasu;
 - **cysylltiad eich dyfeisiau â'ch cyfrif** — mae eich ffonau neu dabledi eraill yn cael eu datgysylltu ac yn dychwelyd i fod yn ddyfeisiau dienw syml;
+- **eich personas personol**, gan gynnwys y rhai a roddwyd yn y sbwriel — eu henw, eu cyfarwyddiadau, eu hafatar, mân-luniau'r delweddau rydych wedi'u mewnforio (afatarau persona ac arwyddluniau ieithoedd), a'ch tocynnau rhannu;
 - **eich geirfaoedd cuddliwio**, gan gynnwys y rhai a roddwyd yn y sbwriel — eu henw, eu thema, eu parau geiriau, y geiriau sy'n aros, eich tocynnau rhannu, a'r cysylltiadau i'r ddau gyfeiriad (y geirfaoedd rydych chi wedi'u rhannu, a'r rhai a rannwyd gyda chi);
 - **yr ieithoedd personol rydych chi wedi'u creu** — eu henw, eu gwyddor, eu geirfa, y geiriau sy'n aros, eich tocynnau rhannu a'ch hanes mewnforio. **Yr hyn na all y dileu hwn ei wneud:** os yw rhywun arall eisoes wedi mewnforio copi o'ch iaith ganddo, mae'r copi hwnnw'n perthyn iddo ef o hynny ymlaen ac yn **goroesi** eich dileu — fel neges y mae trydydd parti eisoes wedi'i derbyn, na allwn ei dileu ganddo ef.
 
@@ -44,7 +45,7 @@ Mae'r ddyfais rydych yn gofyn am y dileu ohoni yn cael ei **niwtraleiddio**: mae
 
 **Nid ydym yn storio'r testunau rydych wedi'u hailysgrifennu, na'r testun a ddarllenwyd ar y sgrin gan Darllen â Chymorth**: nid ydynt yn cael eu cadw yn unman ar ein gweinyddion, felly nid oes dim i'w ddileu. **Nid yw hyn yn wir am eich ieithoedd personol a'ch geirfaoedd cuddliwio:** mae eu cynnwys (enw, gwyddor neu thema, geiriau a diffiniadau), a hefyd y geiriau unigol yn eich negeseuon a oedd yn dal i fod ar goll ohonynt, yn cael eu storio ar ein gweinyddion mewn gwirionedd — mae dileu eich cyfrif yn eu dileu, fel gweddill yr hyn sy'n perthyn i chi (gweler uchod).
 
-**Ar eich ffôn**, mae eich personas, eich afatarau, eich gosodiadau a'ch rheolau fesul ap yn cael eu storio'n lleol. Cânt eu dileu gan y dileu o'r ap, ac yn y pen draw **maent yn diflannu pan fyddwch yn dadosod Plume**.
+**Ar eich ffôn**, mae eich gosodiadau a'ch rheolau fesul ap yn cael eu storio'n lleol. Cânt eu dileu gan y dileu o'r ap, ac yn y pen draw **maent yn diflannu pan fyddwch yn dadosod Plume**.
 
 ---
 

@@ -37,6 +37,7 @@ Ufutaji unafuta **kabisa**:
 - **vitambulisho vyako vya maombi** — marejeleo ya kiufundi ya maandishi uliyoomba yaandikwe upya;
 - **mikopo yako na ufunguzi wako wa viwango** — mikopo iliyonunuliwa lakini haijatumika, ufunguzi uliopatikana kwa matangazo, vikomo vilivyorekebishwa;
 - **kuunganishwa kwa vifaa vyako na akaunti yako** — simu zako nyingine au kompyuta zako kibao zinatenganishwa na kurudi kuwa vifaa visivyojulikana tu;
+- **persona zako binafsi**, pamoja na zile zilizowekwa kwenye pipa la taka — jina lake, maelekezo yake, avatari yake, picha ndogo za picha ulizoingiza (avatari za persona na nembo za lugha), na tokeni zako za kushiriki;
 - **kamusi zako za ufichaji**, pamoja na zile zilizowekwa kwenye pipa la taka — jina lake, mada yake, jozi zake za maneno, maneno yanayosubiri, tokeni zako za kushiriki, na viunganisho vya pande zote mbili (kamusi ulizoshiriki, na zile ulizoshirikishwa);
 - **lugha za kibinafsi ulizounda** — jina lake, alfabeti yake, msamiati wake, maneno yanayosubiri, tokeni zako za kushiriki na historia yako ya kuingiza. **Kile ambacho ufutaji huu hauwezi kufanya:** ikiwa mtu mwingine tayari ameingiza nakala ya lugha yako kwake, nakala hiyo sasa ni mali yake na **inaendelea kuwepo** hata baada ya wewe kufuta — kama ujumbe ambao tayari umepokewa na mtu wa tatu, hatuwezi kuufuta kwa upande wake.
 
@@ -44,7 +45,7 @@ Kifaa ambacho kwacho unaomba ufutaji **kinatenguliwa**: kuunganishwa kwake na ak
 
 **Hatuhifadhi maandishi uliyoandika upya, wala maandishi yaliyosomwa kwenye skrini na Usomaji Saidizi**: hayahifadhiwi mahali popote kwenye seva zetu, kwa hiyo hakuna cha kufuta. **Hii si kweli kwa lugha zako za kibinafsi na kamusi zako za ufichaji**: maudhui yake (jina, alfabeti au mada, maneno na maana), pamoja na maneno mahususi ya jumbe zako ambayo bado hayakuwemo ndani yake, yanahifadhiwa kweli kwenye seva zetu — kufuta akaunti yako kunayafuta, kama mali nyingine yako yote (angalia hapo juu).
 
-**Kwenye simu yako**, persona zako, avatari zako, mipangilio yako na kanuni zako kwa kila programu vimehifadhiwa hapohapo kifaani. Vinafutwa kwa ufutaji unaofanywa kutoka ndani ya programu, na kwa hali yoyote ile **vinatoweka unapoiondoa Plume kwenye kifaa chako**.
+**Kwenye simu yako**, mipangilio yako na kanuni zako kwa kila programu vimehifadhiwa hapohapo kifaani. Vinafutwa kwa ufutaji unaofanywa kutoka ndani ya programu, na kwa hali yoyote ile **vinatoweka unapoiondoa Plume kwenye kifaa chako**.
 
 ---
 

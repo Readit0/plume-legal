@@ -2,7 +2,7 @@
 
 **Síðast uppfært: 1. október 2026** — Útgáfa 2.1
 
-> *Hvað breyttist í útgáfu 2.1:* við lýsum **stillingunni Felulitur**, sem útgáfa 2.0 nefndi ekki, og leiðréttum fullyrðingu sem er ekki lengur rétt: bæði fyrir eigin tungumál og fyrir Felulit **eru orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt geymd, eitt og eitt** — aldrei setningin — til þess að geta boðið þér að bæta þeim við. Nánar er fjallað um það í „Á einni mínútu“, í §2.2 og í §3.
+> *Hvað breyttist í útgáfu 2.1:* við lýsum **stillingunni Felulitur**, sem útgáfa 2.0 nefndi ekki, og leiðréttum fullyrðingu sem er ekki lengur rétt: bæði fyrir eigin tungumál og fyrir Felulit **eru orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt geymd, eitt og eitt** — aldrei setningin — til þess að geta boðið þér að bæta þeim við. Nánar er fjallað um það í „Á einni mínútu“, í §2.2 og í §3. Við leiðréttum einnig aðra villu: **eigin persónur þínar og táknmyndir þeirra eru vistaðar á netþjónum okkar** — þær verða ekki eingöngu eftir í símanum þínum (sjá §3).
 
 > *Hvað breyttist frá útgáfu 1.0, og hvers vegna þú gætir séð samþykkisskjáinn
 > aftur í forritinu:* við leiðréttum tvær fullyrðingar sem voru ekki lengur réttar.
@@ -118,6 +118,7 @@ Hér er allt sem geymt er á netþjónum okkar:
 | **Tæknileg merki um misnotkun** (endurtekin yfirkeyrsla marka, misheppnuð heilleikaprófun — án nokkurs texta) | Öryggi, barátta gegn svikum | Aftengd persónu þinni þegar aðgangi er eytt |
 | **Tungumál og útgáfa forritsins** | Afhenda rétt efni | Þar til aðgangi þínum er eytt |
 | **Efni þeirra eigin tungumála sem þú býrð til** (nafn þess, stafróf þess og orðasafn þess — orðin og merkingarnar sem þú, eða aðrir, hafið skrifað í það) | Gera þér kleift að finna tungumálið þitt aftur í öðru tæki, þróa það áfram og deila því með öðrum notendum | Á meðan tungumálið er til. Ef þú eyðir því hverfur færslan — en afrit sem þegar hefur verið **flutt inn af öðrum aðila** tilheyrir þá honum og **lifir áfram**, líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti og við getum ekki fengið eytt hjá honum |
+| **Eigin persónur þínar** (nafn þeirra, leiðbeiningar, valin táknmynd og, ef þú hefur flutt inn mynd, smámynd sem er í mesta lagi 512 pixlar — sama gildir um innflutta merkið á eigin tungumáli) | Gera þér kleift að finna þær aftur eftir enduruppsetningu eða í öðru tæki, og deila þeim. Leiðbeiningar persónu eru sendar til gervigreindarþjónustunnar í hvert sinn sem umorðun notar þær | Á meðan persónan er til. Persóna sem færð er í ruslið er eytt 30 dögum síðar, næst þegar þú opnar lista yfir persónurnar þínar. Allt hverfur þegar aðgangi þínum er eytt |
 | **Felulitaorðasöfnin þín** (nafn þeirra, þema, tungumál, valið merki og orðaparin „raunverulegt orð → kóðaorð“) | Fela og afkóða skilaboðin þín, gera þér kleift að finna orðasafnið þitt aftur í öðru tæki, þróa það áfram og deila því | Á meðan orðasafnið er til. **Orðasafn sem fært er í ruslið er áfram geymt**: sjálfvirk tæming þessa ruslis er ekki enn til. Það hverfur þegar aðgangi þínum er eytt |
 | **Orðin sem bíða** (eigið tungumál og Felulitur): stök orð úr skilaboðunum þínum sem enn vantar í orðasafnið þitt — aldrei setningin — ásamt fjölda skipta sem þau koma fyrir og dagsetningum fyrsta og síðasta skiptis | Bjóða þér að bæta þeim við orðasafnið þitt, og láta gervigreindarþjónustuna vinna úr þeim þegar þú stækkar það | Geymd áfram eftir að þeim hefur verið bætt við, svo lengi sem tungumálið eða orðasafnið er til. **Ef þú skrifar með Felulitaorðasafni sem annar aðili hefur deilt með þér**, eru orðin sem vantar í það lögð til hliðar **í orðasafni hans**, og sá aðili getur séð þau |
 | **Deiling tungumála þinna og orðasafna** (deilitákn, geymt eingöngu sem kjötkássa; saga innflutninga og tenginga) | Gera þínum nánustu kleift að lesa skilaboðin þín. Eigandi orðasafns sér lista yfir þá sem tengdir eru við það (birtingarnafn og prófílmynd Google — aldrei netfangið) | Deilitákn rennur út. Ummerki afturkallaðrar deilingar eru geymd |
@@ -127,7 +128,7 @@ Hér er allt sem geymt er á netþjónum okkar:
 
 **Það sem við söfnum ekki:** nafnið þitt, tengiliðina þína, staðsetningu þína, netfangaskrána þína, myndirnar þínar, dagatalið þitt, sögu forritanotkunar þinnar. Plume biður ekki um neina af þessum heimildum.
 
-**Það sem verður eingöngu eftir í símanum þínum:** eigin persónur þínar og táknmyndir þeirra, stillingarnar þínar, reglurnar þínar fyrir hvert forrit, þýðingaskyndiminni Studds lestrar (hreinsað í lok hverrar lotu). Ekkert af þessu er sent á netþjóna okkar.
+**Það sem verður eingöngu eftir í símanum þínum:** stillingarnar þínar, reglurnar þínar fyrir hvert forrit, þýðingaskyndiminni Studds lestrar (hreinsað í lok hverrar lotu). Ekkert af þessu er sent á netþjóna okkar.
 
 ---
 

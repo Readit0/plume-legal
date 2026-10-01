@@ -37,6 +37,7 @@ A eliminação apaga **definitivamente**:
 - **os seus identificadores de pedidos** — as referências técnicas das reformulações solicitadas;
 - **os seus créditos e desbloqueios de quota** — créditos comprados não consumidos, desbloqueios obtidos por publicidade, tetos ajustados;
 - **a associação dos seus dispositivos à sua conta** — os seus outros telemóveis ou tablets são desassociados e voltam a ser simples dispositivos anónimos;
+- **os seus personas personalizados**, incluindo os colocados no lixo — o nome, as instruções, o avatar, as miniaturas das imagens que importou (avatares de persona e emblemas de língua) e os seus tokens de partilha;
 - **os seus léxicos de camuflagem**, incluindo os colocados no lixo — o nome, o tema, os pares de palavras, as palavras em espera, os seus tokens de partilha, e as associações nos dois sentidos (os léxicos que partilhou e os que foram partilhados consigo);
 - **as línguas pessoais que criou** — o seu nome, o seu alfabeto, o seu léxico, as palavras em espera, os seus tokens de partilha e o seu histórico de importação. **O que esta eliminação não pode fazer:** se outra pessoa já tiver importado uma cópia da sua língua, essa cópia passa a pertencer-lhe e **sobrevive** à sua eliminação — como uma mensagem já recebida por um terceiro, que não podemos apagar do lado dele.
 
@@ -44,7 +45,7 @@ O dispositivo a partir do qual pede a eliminação é **neutralizado**: a sua as
 
 **Não armazenamos os textos que reformulou, nem o texto lido no ecrã pela Leitura Assistida**: não são conservados em lado nenhum nos nossos servidores, pelo que não há nada a eliminar quanto a isso. **Isto não é verdade para as suas línguas pessoais e os seus léxicos de camuflagem:** o seu conteúdo (nome, alfabeto ou tema, palavras e definições), bem como as palavras isoladas das suas mensagens que ainda lhes faltavam, estão sim armazenados nos nossos servidores — a eliminação da sua conta apaga-os, tal como o resto do que lhe pertence (ver acima).
 
-**No seu telemóvel**, os seus personas, os seus avatares, as suas definições e as suas regras por aplicação estão armazenados localmente. São apagados pela eliminação feita a partir da aplicação e, em qualquer caso, **desaparecem quando desinstala a Plume**.
+**No seu telemóvel**, as suas definições e as suas regras por aplicação estão armazenados localmente. São apagados pela eliminação feita a partir da aplicação e, em qualquer caso, **desaparecem quando desinstala a Plume**.
 
 ---
 

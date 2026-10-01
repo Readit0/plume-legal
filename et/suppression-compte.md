@@ -37,6 +37,7 @@ Kustutamine kaotab **lõplikult**:
 - **teie päringute identifikaatorid** — tellitud ümbersõnastuste tehnilised viited;
 - **teie kvoodikrediidid ja avatud lisakasutused** — ostetud tarbimata krediidid, reklaami eest saadud lisakasutused, kohandatud ülempiirid;
 - **teie seadmete seotus teie kontoga** — teie muud telefonid või tahvelarvutid lahutatakse kontost ja neist saavad taas lihtsalt anonüümsed seadmed;
+- **teie kohandatud personad**, sealhulgas prügikasti viidud — nende nimi, juhised, avatar, teie imporditud piltide pisipildid (personade avatarid ja keelte embleemid) ning teie jagamisžetoonid;
 - **teie maskeerimissõnastikud**, sealhulgas prügikasti viidud — nende nimi, teema, sõnapaarid, ootel olevad sõnad, teie jagamisžetoonid ning sidemed mõlemas suunas (sõnastikud, mida te olete jaganud, ja need, mida on teiega jagatud);
 - **teie loodud isiklikud keeled** — nende nimi, tähestik, sõnavara, ootel olevad sõnad, teie jagamisžetoonid ja teie importimisajalugu. **Mida see kustutamine ei suuda teha:** kui keegi teine on juba importinud koopia teie keelest, kuulub see koopia nüüd temale ja **jääb alles** ka pärast teie kustutamist — nagu kolmandale isikule juba kättesaadud sõnum, mida me ei saa tema poolel kustutada.
 
@@ -44,7 +45,7 @@ Seade, millest te kustutamist taotlete, **neutraliseeritakse**: selle seos teie 
 
 **Me ei talleta tekste, mida te ümber sõnastasite, ega teksti, mille abistatud lugemine ekraanilt luges**: neid ei säilitata meie serverites kusagil, seega ei ole seal midagi kustutada. **See ei kehti teie isiklike keelte ja maskeerimissõnastike kohta**: nende sisu (nimi, tähestik või teema, sõnad ja määratlused) ning teie sõnumite üksikud sõnad, mis neist veel puudusid, talletatakse tõepoolest meie serverites — teie konto kustutamine kustutab need, nagu kõik muu, mis teile kuulub (vt ülal).
 
-**Teie telefonis** on teie personad, teie avatarid, teie seaded ja teie rakendusepõhised reeglid salvestatud kohapeal. Rakendusest tehtud kustutamine kaotab need ning igal juhul **kaovad need siis, kui te Plume'i desinstallite**.
+**Teie telefonis** on teie seaded ja teie rakendusepõhised reeglid salvestatud kohapeal. Rakendusest tehtud kustutamine kaotab need ning igal juhul **kaovad need siis, kui te Plume'i desinstallite**.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Posledná aktualizácia: 1. októbra 2026** — Verzia 2.1
 
-> *Čo sa zmenilo vo verzii 2.1:* opisujeme **režim Maskovanie**, ktorý verzia 2.0 nespomínala, a opravujeme tvrdenie, ktoré prestalo byť presné: pre vlastné jazyky aj pre Maskovanie **sa slová z vašich správ, ktoré vo vašom slovníku ešte chýbajú, uchovávajú po jednom** — nikdy veta — aby sme vám mohli navrhnúť ich pridanie. Podrobnosti sú v časti „V jednej minúte“, v §2.2 a v §3.
+> *Čo sa zmenilo vo verzii 2.1:* opisujeme **režim Maskovanie**, ktorý verzia 2.0 nespomínala, a opravujeme tvrdenie, ktoré prestalo byť presné: pre vlastné jazyky aj pre Maskovanie **sa slová z vašich správ, ktoré vo vašom slovníku ešte chýbajú, uchovávajú po jednom** — nikdy veta — aby sme vám mohli navrhnúť ich pridanie. Podrobnosti sú v časti „V jednej minúte“, v §2.2 a v §3. Opravujeme aj druhú chybu: **vaše vlastné persony a ich avatari sa ukladajú na našich serveroch** — nezostávajú len vo vašom telefóne (pozri §3).
 
 > *Čo sa zmenilo od verzie 1.0 a prečo sa vám možno v aplikácii znova zobrazila obrazovka so súhlasom:* opravujeme dve tvrdenia, ktoré už neboli presné. Po prvé, funkcia **vlastné jazyky** uchováva na našich serveroch obsah, ktorý vytvoríte (názov, abecedu, slovník) — verzia 1.0 nesprávne tvrdila, že sa neuchováva žiadny text. Po druhé, teraz používame nástroj na **technické hlásenie pádov** — verzia 1.0 tvrdila, že žiadny takýto nástroj neexistuje. Podrobnosti o oboch bodoch nájdete nižšie v časti „V jednej minúte“ a v §3 a §9. Ide presne o dve kategórie zmien, ktoré v aplikácii spúšťajú novú žiadosť o súhlas (pozri §11).
 
@@ -110,6 +110,7 @@ Tu je všetko, čo je uložené na našich serveroch:
 | **Technické signály zneužitia** (opakované prekročenia, zlyhanie kontroly integrity — bez akéhokoľvek textu) | Bezpečnosť, boj proti podvodom | Oddelené od vašej totožnosti pri vymazaní účtu |
 | **Jazyk a verzia aplikácie** | Doručovať správny obsah | Do vymazania vášho účtu |
 | **Obsah vlastných jazykov, ktoré vytvoríte** (jeho názov, jeho abeceda a jeho slovník — slová a definície, ktoré ste doň zapísali vy alebo iné osoby) | Umožniť vám nájsť váš jazyk na inom zariadení, ďalej ho rozvíjať a zdieľať s inými používateľmi | Kým jazyk existuje. Ak ho vymažete, jeho záznam zmizne — kópia, ktorú si však už **importovala iná osoba**, jej odvtedy patrí a **pretrváva**, podobne ako správa, ktorú už dostala tretia strana a ktorú jej nemôžeme ísť vymazať |
+| **Vaše vlastné persony** (ich názov, pokyny, zvolený avatar a, ak ste importovali obrázok, miniatúra s veľkosťou najviac 512 pixelov — rovnako aj pre importovaný emblém vlastného jazyka) | Umožniť vám nájsť ich po opätovnej inštalácii alebo na inom zariadení a zdieľať ich. Pokyny persony sa odosielajú službe AI pri každom preformulovaní, ktoré ju používa | Kým persona existuje. Persona presunutá do koša sa vymaže o 30 dní, pri najbližšom otvorení vášho zoznamu person. Všetko zmizne vymazaním vášho účtu |
 | **Vaše kamuflážne slovníky** (názov, téma, jazyk, zvolený emblém a dvojice slov „skutočné slovo → kódové slovo“) | Maskovať a dekódovať vaše správy, umožniť vám nájsť váš slovník na inom zariadení, ďalej ho rozvíjať a zdieľať | Kým slovník existuje. **Slovník presunutý do koša zostáva uchovaný**: automatické vyprázdňovanie tohto koša zatiaľ neexistuje. Zmizne vymazaním vášho účtu |
 | **Čakajúce slová** (vlastný jazyk a Maskovanie): izolované slová z vašich správ, ktoré vo vašom slovníku ešte chýbajú — nikdy veta —, s počtom výskytov a dátumami prvého a posledného výskytu | Navrhnúť vám ich pridanie do slovníka a dať ich spracovať službou AI, keď ho rozširujete | Uchovávané aj po pridaní, kým existuje jazyk alebo slovník. **Ak píšete s kamuflážnym slovníkom, ktorý s vami zdieľala iná osoba**, chýbajúce slová sa odkladajú bokom **do jej slovníka** a táto osoba ich môže vidieť |
 | **Zdieľanie vašich jazykov a slovníkov** (zdieľací token, uložený iba ako odtlačok; história importov a prepojení) | Umožniť vašim blízkym čítať vaše správy. Vlastník slovníka vidí zoznam osôb, ktoré sú k nemu prepojené (zobrazované meno a profilová fotografia Google — nikdy e-mailová adresa) | Token vyprší. Stopa po zrušenom zdieľaní sa uchováva |
@@ -119,7 +120,7 @@ Tu je všetko, čo je uložené na našich serveroch:
 
 **Čo nezhromažďujeme:** vaše meno, vaše kontakty, vašu polohu, váš adresár, vaše fotografie, váš kalendár, históriu vašich aplikácií. Plume o žiadne z týchto oprávnení nežiada.
 
-**Čo zostáva výhradne vo vašom telefóne:** vaše vlastné persony a ich avatari, vaše nastavenia, vaše pravidlá pre jednotlivé aplikácie, vyrovnávacia pamäť prekladov Asistovaného čítania (mazaná na konci každej relácie). Nič z toho sa na naše servery neodosiela.
+**Čo zostáva výhradne vo vašom telefóne:** vaše nastavenia, vaše pravidlá pre jednotlivé aplikácie, vyrovnávacia pamäť prekladov Asistovaného čítania (mazaná na konci každej relácie). Nič z toho sa na naše servery neodosiela.
 
 ---
 

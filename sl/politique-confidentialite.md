@@ -2,7 +2,7 @@
 
 **Zadnja posodobitev: 1. oktober 2026** — Različica 2.1
 
-> *Kaj se je spremenilo v različici 2.1:* opisujemo **način Maskiranje**, ki ga različica 2.0 ni omenjala, in popravljamo trditev, ki ni bila več točna: tako za osebne jezike kot za Maskiranje **se besede iz vaših sporočil, ki jih v vašem besednjaku še ni, hranijo posamično** — nikoli stavek — da vam lahko predlagamo, da jih dodate. Podrobnosti so v razdelku »V eni minuti«, v §2.2 in v §3.
+> *Kaj se je spremenilo v različici 2.1:* opisujemo **način Maskiranje**, ki ga različica 2.0 ni omenjala, in popravljamo trditev, ki ni bila več točna: tako za osebne jezike kot za Maskiranje **se besede iz vaših sporočil, ki jih v vašem besednjaku še ni, hranijo posamično** — nikoli stavek — da vam lahko predlagamo, da jih dodate. Podrobnosti so v razdelku »V eni minuti«, v §2.2 in v §3. Popravljamo tudi drugo napako: **vaše prilagojene persone in njihovi avatarji se shranjujejo na naših strežnikih** — ne ostanejo samo na vašem telefonu (glejte §3).
 
 > *Kaj se je spremenilo od različice 1.0 in zakaj morda znova vidite zaslon za sprejem v aplikaciji:* popravljamo dve trditvi, ki nista bili več točni. Prvič, funkcija **osebni jeziki** na naših strežnikih hrani vsebino, ki jo ustvarite (ime, abecedo, besednjak) — različica 1.0 je napačno trdila, da se ne shranjuje nobeno besedilo. Drugič, zdaj uporabljamo orodje za **poročanje o tehničnih sesutjih** — različica 1.0 je trdila, da tako orodje ne obstaja. Podrobnosti o obeh točkah so v razdelku »V eni minuti« spodaj ter v §3 in §9. To sta natanko dve kategoriji sprememb, ki v aplikaciji sprožita novo zahtevo za soglasje (glejte §11).
 
@@ -110,6 +110,7 @@ Tukaj je vse, kar je shranjeno na naših strežnikih:
 | **Tehnični signali zlorabe** (ponavljajoče se prekoračitve, neuspešno preverjanje celovitosti — brez vsakršnega besedila) | Varnost, boj proti goljufijam | Ob izbrisu računa se ločijo od vaše identitete |
 | **Jezik in različica aplikacije** | Dostava ustrezne vsebine | Do izbrisa vašega računa |
 | **Vsebina osebnih jezikov, ki jih ustvarite** (njihovo ime, abeceda in besednjak — besede in pomeni, ki ste jih vanj vpisali vi ali druge osebe) | Da lahko svoj jezik najdete na drugi napravi, ga razvijate naprej in delite z drugimi uporabniki | Dokler jezik obstaja. Če ga izbrišete, njegov zapis izgine — vendar kopija, ki jo je že **uvozila druga oseba**, odslej pripada njej in **preživi**, tako kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati |
+| **Vaše prilagojene persone** (njihovo ime, navodila, izbrani avatar in, če ste uvozili sliko, sličica z največ 512 slikovnimi pikami — enako za uvoženi emblem osebnega jezika) | Da jih lahko najdete po ponovni namestitvi ali na drugi napravi in jih delite. Navodila persone se ob vsakem preoblikovanju, ki jo uporabi, pošljejo storitvi umetne inteligence | Dokler persona obstaja. Persona, premaknjena v koš, se izbriše po 30 dneh, ob naslednjem odprtju vašega seznama person. Vse izgine z izbrisom vašega računa |
 | **Vaši besednjaki kamuflaže** (ime, tema, jezik, izbrani emblem in pari besed »prava beseda → kodna beseda«) | Maskirati in odkodirati vaša sporočila, da lahko svoj besednjak najdete na drugi napravi, ga razvijate naprej in delite | Dokler besednjak obstaja. **Besednjak, premaknjen v koš, ostane shranjen**: samodejnega praznjenja tega koša še ni. Izgine z izbrisom vašega računa |
 | **Čakajoče besede** (osebni jezik in Maskiranje): posamezne besede iz vaših sporočil, ki jih v vašem besednjaku še ni — nikoli stavek —, s številom pojavitev ter datumoma prve in zadnje pojavitve | Da vam jih lahko predlagamo za dodajanje v vaš besednjak in da jih obdela storitev umetne inteligence, ko ga povečujete | Shranjene tudi po dodajanju, dokler jezik ali besednjak obstaja. **Če pišete z besednjakom kamuflaže, ki ga je z vami delila druga oseba**, se manjkajoče besede odložijo ob stran **v njenem besednjaku**, ta oseba pa jih lahko vidi |
 | **Deljenje vaših jezikov in besednjakov** (žeton za deljenje, shranjen samo v obliki odtisa; zgodovina uvozov in povezav) | Da lahko vaši bližnji berejo vaša sporočila. Lastnik besednjaka vidi seznam oseb, ki so z njim povezane (prikazno ime in profilna fotografija Google — nikoli e-poštni naslov) | Žeton poteče. Sled preklicanega deljenja se hrani |
@@ -119,7 +120,7 @@ Tukaj je vse, kar je shranjeno na naših strežnikih:
 
 **Česa ne zbiramo:** vašega imena, vaših stikov, vaše lokacije, vašega imenika, vaših fotografij, vašega koledarja, zgodovine vaših aplikacij. Plume ne zahteva nobenega od teh dovoljenj.
 
-**Kaj ostane izključno na vašem telefonu:** vaše prilagojene persone in njihovi avatarji, vaše nastavitve, vaša pravila po aplikaciji, predpomnilnik prevodov Asistiranega branja (izbrisan ob koncu vsake seje). Nič od tega se ne pošilja na naše strežnike.
+**Kaj ostane izključno na vašem telefonu:** vaše nastavitve, vaša pravila po aplikaciji, predpomnilnik prevodov Asistiranega branja (izbrisan ob koncu vsake seje). Nič od tega se ne pošilja na naše strežnike.
 
 ---
 

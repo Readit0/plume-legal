@@ -37,6 +37,7 @@ Ukucima kucima **ngokupheleleyo**:
 - **izazisi zakho zezicelo** — iinkcukacha zobuchwepheshe zeentlungiswano ozicelileyo;
 - **ii-kredithi zakho neevulo ze-quota** — ii-kredithi ezithengiweyo ezingasetyenziswanga, iivulo ezifunyenwe ngesibhengezo, imida elungisiweyo;
 - **udibaniso lweedivayisi zakho ne-akhawunti yakho** — ezinye iifowuni zakho okanye iitablet zakho ziyahlulwa kwaye zibuyele kwiidivayisi ezingaziwa nje;
+- **iipersona zakho ezizodwa**, kuquka ezo ziswe kwibhokisi yenkunkuma — igama lazo, imiyalelo, i-avatha, imifanekiso emincinci yeemifanekiso ongenise yona (iiavatha zepersona kunye nophawu lweelwimi) kunye neithokheni zakho zokwabelana;
 - **uluhlu lwakho lwamagama okuzifihla**, kuquka olo lusiwe kwibhokisi yenkunkuma — igama lalo, umxholo walo, iinkqwani zamagama, amagama alindileyo, iithokheni zakho zokwabelana, nokudityaniswa ngeendlela zombini (olo uwabelene ngalo, nolo wabelwene ngalo);
 - **iilwimi zabucala ozidalileyo** — igama lazo, unobumba, isichazi-magama, amagama alindileyo, iithokheni zakho zokwabelana kunye nembali yakho yokungenisa. **Oku kucima akukwazi ukukwenza:** ukuba omnye umntu sele engenisile ikopi yolwimi lwakho kuye, ikopi leyo ngoku yeyakhe kwaye **iyahlala ikho** emva kokucima kwakho — njengomyalezo osele wafunyenwa ngumntu wesithathu, asinako ukumcimela kuye.
 
@@ -44,7 +45,7 @@ Idivayisi ocela kuyo ukucima **iyathenjiswa**: udibaniso lwayo ne-akhawunti yakh
 
 **Asigcini imibhalo owulungisileyo, nalowo iFundwa Okuncedayo ibonise kwiskrini:** ayigcinwa naphi na kwiiseva zethu, ngoko akukho nto yokucima. **Oku akululanga kwiilwimi zakho zabucala nakuluhlu lwakho lwamagama okuzifihla:** umxholo walo (igama, unobumba okanye umxholo, amagama neenkcazelo), kunye namagama aqhelekileyo asemiyalezweni yakho ebengekabikho kuwo, kugcinwe ngenene kwiiseva zethu — ukucima i-akhawunti yakho kuyawucima, njengayo yonke enye into eyeyakho (jonga ngentla).
 
-**Kwifowuni yakho**, iipersona zakho, iiavatha zakho, iisetingi zakho nemithetho yakho ngeapp igciniwe endaweni. Ziyacinywa ngokucima okwenziwe kwiapp, kwaye kuyo yonke imeko **ziyanyamalala xa ususa iPlume kwifowuni yakho**.
+**Kwifowuni yakho**, iisetingi zakho nemithetho yakho ngeapp igciniwe endaweni. Ziyacinywa ngokucima okwenziwe kwiapp, kwaye kuyo yonke imeko **ziyanyamalala xa ususa iPlume kwifowuni yakho**.
 
 ---
 

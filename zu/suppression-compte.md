@@ -38,6 +38,7 @@ Ukususwa kususa **unomphela**:
 - **izibonisi zesicelo sakho** — izinkomba zobuchwepheshe zokubuyekeza okuceliwe;
 - **amakhredithi wakho esabelo nokuvulwa** — amakhredithi athengiwe angakasetshenziswa, ukuvulwa okutholwe ngesikhangiso, imikhawulo elungisiwe;
 - **ukuxhumana kwamadivayisi akho ne-akhawunti yakho** — amanye amafoni noma ama-tablet akho ayasuswa futhi abuyele emuva njengamadivayisi angaziwa;
+- **amapersona akho azenzele**, kuhlanganise nalawo alahlwe ebhokisini lemfucuza — igama lawo, imiyalelo, isithombe, izithombe ezincane zezithombe owazingenisile (izithombe zamapersona nophawu lwezilimi) nama-token wakho okwabelana;
 - **uhlu lwakho lwamagama okufihla**, kuhlanganise nalolo olulahlwe ebhokisini lemfucuza — igama lalo, indikimba yalo, ababili bamagama, amagama alindile, ama-token wakho okwabelana, nokuxhumanisa ngezindlela zombili (ohlu owabelane ngalo, nolo owabelwe ngalo);
 - **izilimi zomuntu siqu ozidalile** — igama lazo, uhlamvu lwazo, isichazamazwi sazo, amagama alindile, ama-token wakho okwabelana kanye nomlando wakho wokungenisa. **Lokho ukususwa okungeke kukwenze:** uma omunye umuntu wayesethole ikhophi yolimi lwakho kakade, leyo khophi manje isiba ngeyakhe futhi **isala** ngemva kokususa kwakho — njengomlayezo owatholwa kakade omunye umuntu, esingakwazi ukumususa ohlangothini lwakhe.
 
@@ -45,7 +46,7 @@ Idivayisi ocela ukususwa kuyo **iyathanjiswa**: ukuxhumana kwayo ne-akhawunti ya
 
 **Asigcini imibhalo oyibuyekezayo, noma umbhalo Ukufunda Okusizayo okuboniswe esikrinini**: ayigcinwa noma kuphi kumaseva ethu, ngakho-ke akukho okususwayo. **Lokhu akulona iqiniso ngezilimi zakho zomuntu siqu nangohlu lwakho lwamagama okufihla**: okuqukethwe kwabo (igama, uhlamvu noma indikimba, amagama nezincazelo), kanye namagama ambalwa asemilayezweni yakho angekho kubo, kugcinwa ngempela kumaseva ethu — ukususwa kwe-akhawunti yakho kuyakususa, njengakho konke okunye okungokwakho (bheka ngenhla).
 
-**Efonini yakho**, amapersona akho, izithombe zawo, izilungiselelo zakho, nemithetho yakho ngohlelo lokusebenza ngalunye kugcinwa endaweni. Kususwa ngokususa kusukela ohlelweni lokusebenza, futhi kunoma yiziphi izimo **kuyanyamalala uma ususa i-Plume**.
+**Efonini yakho**, izilungiselelo zakho, nemithetho yakho ngohlelo lokusebenza ngalunye kugcinwa endaweni. Kususwa ngokususa kusukela ohlelweni lokusebenza, futhi kunoma yiziphi izimo **kuyanyamalala uma ususa i-Plume**.
 
 ---
 

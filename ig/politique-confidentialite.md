@@ -2,7 +2,7 @@
 
 **Mmelite ikpeazụ: 1 Ọktọba 2026** — Ụdịdị 2.1
 
-> *Ihe gbanwere n'ụdịdị 2.1:* anyị na-akọwa **ụdị Nzuzo**, nke ụdịdị 2.0 kwuru ihe ọ bụla gbasara ya, anyị na-edozikwa otu nkwupụta nke na-ezighị ezi ọzọ: maka asụsụ nkeonwe na maka Nzuzo nke ọma, **a na-echekwa okwu ndị dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị, otu otu** — ọ dịghị mgbe a na-echekwa ahịrịokwu ahụ — ka anyị nwee ike ịtụ aro ka ị tinye ha. Nkọwa dị n'«N'otu nkeji», na §2.2 na na §3.
+> *Ihe gbanwere n'ụdịdị 2.1:* anyị na-akọwa **ụdị Nzuzo**, nke ụdịdị 2.0 kwuru ihe ọ bụla gbasara ya, anyị na-edozikwa otu nkwupụta nke na-ezighị ezi ọzọ: maka asụsụ nkeonwe na maka Nzuzo nke ọma, **a na-echekwa okwu ndị dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị, otu otu** — ọ dịghị mgbe a na-echekwa ahịrịokwu ahụ — ka anyị nwee ike ịtụ aro ka ị tinye ha. Nkọwa dị n'«N'otu nkeji», na §2.2 na na §3. Anyị na-edozikwa nkwupụta ọzọ na-ezighị ezi: **a na-echekwa ụdị nkeonwe gị na foto ọnụ ha na sava anyị** — ha anaghị anọgide naanị n'ekwentị gị (lee §3).
 
 > *Ihe gbanwere kemgbe ụdịdị 1.0, na ihe mere ị ga-eji hụ ihuenyo nkwenye ọzọ n'ime ngwa a:* anyị na-edozi ihe abụọ ị kwuru n'ụzọ na-ezighị ezi. Nke mbụ, ọrụ **asụsụ nkeonwe** na-echekwa n'ihe nkesa anyị ihe ọ bụla ị kere (aha ya, mkpụrụedemede ya, na okwu ya) — ụdịdị 1.0 kwuru n'ụzọ na-ezighị ezi na anyị anaghị echekwa ederede ọ bụla. Nke abụọ, anyị na-eji ugbu a ngwá ọrụ **mkpesa nsogbu teknụzụ** — ụdịdị 1.0 kwuru na ngwá ọrụ dị otú ahụ adịghị. Nkọwa ihe abụọ a dị n'ime ngalaba "N'otu nkeji" dị n'okpuru, yana na §3 na §9. Ndị a bụ kpọmkwem ụdị mgbanwe abụọ na-akpata ka a jụọ nkwenye ọhụrụ n'ime ngwa ahụ (lee §11).
 
@@ -110,6 +110,7 @@ Lee ihe niile a na-echekwa na sava anyị:
 | **Akara teknụzụ nke mmejọ** (mgabiga ugboro ugboro, ọdịda nyocha izuoke — na-enweghị ederede ọ bụla) | Nchekwa, ọgụ megide aghụghọ | A na-ekewapụ ya na onye gị bụ mgbe a kagburu akaụntụ |
 | **Asụsụ na ụdịdị ngwa** | Inye ọdịnaya kwesịrị ekwesị | Ruo mgbe a kagburu akaụntụ gị |
 | **Ọdịnaya asụsụ nkeonwe ndị ị kere** (aha ya, mkpụrụedemede ya, na okwu ya — okwu na nkọwa ndị gị ma ọ bụ ndị ọzọ dere n'ime ya) | Inye gị ohere ịchọta asụsụ gị n'ime ngwaọrụ ọzọ, ime ka ọ ganwuo, na ikesa ya na ndị ọrụ ọzọ | Ogologo oge asụsụ ahụ dị. Ọ bụrụ na ị hichapụ ya, ndekọ ya na-apụ — ma otu mbipụta **onye ọzọ webatara** enwerịị bụ nke ya ma **na-adịgide** dịka ozi onye nke atọ natarala nke anyị enweghị ike ihichapụ n'akụkụ ya |
+| **Ụdị nkeonwe gị** (aha ha, ntụziaka ha, foto ọnụ e họọrọ na, ọ bụrụ na ị butere ihe oyiyi, obere ihe oyiyi nke na-adịghị agafe pikselụ 512 — otu ihe a maka akara a butere nke asụsụ nkeonwe) | Inye gị ohere ịchọta ha mgbe ị wụgharịrị ngwa ahụ ma ọ bụ na ngwaọrụ ọzọ, na ikesa ha. A na-eziga ntụziaka nke ụdị nkeonwe na ọrụ AI mgbe ọ bụla a na-eme ka e dee ya ọzọ site na iji ya | Ogologo oge ụdị nkeonwe ahụ dị. A na-ehichapụ ụdị nkeonwe e tinyere n'ọkpọkọ mkpofu ụbọchị 30 ka e mesịrị, mgbe ọzọ ị mepere ndepụta ụdị nkeonwe gị. Ihe niile na-apụ mgbe a kagburu akaụntụ gị |
 | **Akwụkwọ okwu nzuzo gị** (aha ha, isiokwu ha, asụsụ ha, akara e họọrọ, na ụzọ okwu «okwu n'ezie → okwu koodu») | Izo na itụgharị ozi gị, inye gị ohere ịchọta akwụkwọ okwu gị na ngwaọrụ ọzọ, ime ka ọ ganwuo, na ikesa ya | Ogologo oge akwụkwọ okwu ahụ dị. **A na-echekwa akwụkwọ okwu e tinyere n'ọkpọkọ mkpofu**: enweghị mmepụta akpaaka nke ọkpọkọ mkpofu ahụ ugbu a. Ọ na-apụ mgbe a kagburu akaụntụ gị |
 | **Okwu ndị na-echere** (asụsụ nkeonwe na Nzuzo): okwu naanị otu nke dị n'ozi gị nke na-enwebeghị n'akwụkwọ okwu gị — ọ dịghị mgbe ahịrịokwu ahụ —, na ọnụọgụ ọpụpụta ha na ụbọchị mbụ na nke ikpeazụ ha pụtara | Itụ aro ka ị tinye ha n'akwụkwọ okwu gị, na ime ka ọrụ AI hazie ha mgbe ị na-eme ka ọ too | A na-echekwa ha ọbụna mgbe e tinyechara ha, ogologo oge asụsụ ahụ ma ọ bụ akwụkwọ okwu ahụ dị. **Ọ bụrụ na ị na-ede site n'akwụkwọ okwu nzuzo onye ọzọ kekọrọ gị**, a na-edebe okwu na-adịghị n'ime ya n'akụkụ **n'akwụkwọ okwu nke ya**, onye ahụ nwekwara ike ịhụ ha |
 | **Nkesa asụsụ gị na akwụkwọ okwu gị** (akara ike ikesa, nke a na-echekwa naanị dịka mkpisi aka; akụkọ mbubata na njikọ) | Inye ndị nke gị ohere ịgụ ozi gị. Onye nwe akwụkwọ okwu na-ahụ ndepụta ndị jikọtara ya (aha ngosi na foto profaịlụ Google — ọ dịghị mgbe adreesị ozi ịntanetị) | Akara ike na-agwụ. A na-echekwa ọdụ nkesa e kagburu |
@@ -119,7 +120,7 @@ Lee ihe niile a na-echekwa na sava anyị:
 
 **Ihe anyị anaghị achịkọta:** aha gị, ndị mmadụ gị, ebe ị nọ, akwụkwọ adreesị gị, foto gị, kalịnda gị, akụkọ ngwa gị. Plume anaghị arịọ ikike ndị a ọ bụla.
 
-**Ihe na-anọgide naanị n'ekwentị gị:** ụdị nkeonwe gị na foto ọnụ ha, ntọala gị, iwu gị nke ngwa ọ bụla, ebe nchekwa oge nta nke ntụgharị asụsụ Ọgụgụ Enyemaka (a na-ehichapụ ya na njedebe oge ọ bụla). Ọ dịghị nke a niile na-ezigara na sava anyị.
+**Ihe na-anọgide naanị n'ekwentị gị:** ntọala gị, iwu gị nke ngwa ọ bụla, ebe nchekwa oge nta nke ntụgharị asụsụ Ọgụgụ Enyemaka (a na-ehichapụ ya na njedebe oge ọ bụla). Ọ dịghị nke a niile na-ezigara na sava anyị.
 
 ---
 

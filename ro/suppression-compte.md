@@ -37,6 +37,7 @@ Verificăm dacă cererea provine într-adevăr de la titularul contului, apoi pr
 - **identificatorii cererilor dumneavoastră** — referințele tehnice ale reformulărilor solicitate;
 - **creditele și deblocările dumneavoastră de cotă** — credite achiziționate neconsumate, deblocări obținute prin publicitate, plafoane ajustate;
 - **asocierea dispozitivelor dumneavoastră cu contul dumneavoastră** — celelalte telefoane sau tablete ale dumneavoastră sunt dezlegate și redevin simple dispozitive anonime;
+- **personele dumneavoastră personalizate**, inclusiv cele puse la coș — numele, instrucțiunile, avatarul, miniaturile imaginilor pe care le-ați importat (avatare de persone și embleme de limbi) și jetoanele dumneavoastră de partajare;
 - **lexiconurile dumneavoastră de camuflaj**, inclusiv cele puse la coș — numele lor, tema lor, perechile lor de cuvinte, cuvintele în așteptare, jetoanele dumneavoastră de partajare și asocierile în ambele sensuri (lexiconurile pe care le-ați partajat și cele care au fost partajate cu dumneavoastră);
 - **limbile personale pe care le-ați creat** — numele lor, alfabetul lor, lexicul lor, cuvintele în așteptare, jetoanele dumneavoastră de partajare și istoricul dumneavoastră de import. **Ceea ce această ștergere nu poate face:** dacă altcineva a importat deja o copie a limbii dumneavoastră la el, această copie îi aparține de acum și **supraviețuiește** ștergerii dumneavoastră — precum un mesaj deja primit de un terț, nu îl putem șterge la el.
 
@@ -44,7 +45,7 @@ Dispozitivul de pe care solicitați ștergerea este **neutralizat**: asocierea s
 
 **Nu stocăm textele pe care le-ați reformulat, nici textul citit pe ecran de Citirea Asistată**: acestea nu sunt păstrate nicăieri pe serverele noastre, prin urmare nu există nimic de șters. **Acest lucru nu este valabil pentru limbile dumneavoastră personale și pentru lexiconurile dumneavoastră de camuflaj**: conținutul lor (nume, alfabet sau temă, cuvinte și definiții), precum și cuvintele izolate din mesajele dumneavoastră care le lipseau încă, sunt într-adevăr stocate pe serverele noastre — ștergerea contului dumneavoastră le elimină, la fel ca restul a ceea ce vă aparține (a se vedea mai sus).
 
-**Pe telefonul dumneavoastră**, personele, avatarurile, setările și regulile dumneavoastră per aplicație sunt stocate local. Ele sunt șterse prin ștergerea efectuată din aplicație și, în orice caz, **dispar atunci când dezinstalați Plume**.
+**Pe telefonul dumneavoastră**, setările și regulile dumneavoastră per aplicație sunt stocate local. Ele sunt șterse prin ștergerea efectuată din aplicație și, în orice caz, **dispar atunci când dezinstalați Plume**.
 
 ---
 

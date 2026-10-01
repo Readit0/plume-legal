@@ -2,7 +2,7 @@
 
 **Senast uppdaterad: 1 oktober 2026** — Version 2.1
 
-> *Vad som har ändrats i version 2.1:* vi beskriver **Kamouflage-läget**, som version 2.0 inte nämnde, och vi korrigerar ett påstående som har blivit felaktigt: både för egna språk och för Kamouflage **sparas de ord i dina meddelanden som ännu saknas i ditt lexikon, ett i taget** — aldrig meningen — för att kunna föreslå dig att lägga till dem. Detaljerna finns under ”På en minut”, i §2.2 och i §3.
+> *Vad som har ändrats i version 2.1:* vi beskriver **Kamouflage-läget**, som version 2.0 inte nämnde, och vi korrigerar ett påstående som har blivit felaktigt: både för egna språk och för Kamouflage **sparas de ord i dina meddelanden som ännu saknas i ditt lexikon, ett i taget** — aldrig meningen — för att kunna föreslå dig att lägga till dem. Detaljerna finns under ”På en minut”, i §2.2 och i §3. Vi rättar också ett andra fel: **dina egna personas och deras avatarer sparas på våra servrar** — de stannar inte bara i din telefon (se §3).
 
 > *Vad som har ändrats sedan version 1.0, och varför du kanske ser godkännandeskärmen igen i
 > appen:* vi korrigerar två påståenden som inte längre stämde. För det första sparar
@@ -117,6 +117,7 @@ Här är allt som lagras på våra servrar:
 | **Tekniska signaler om missbruk** (upprepade överskridanden, misslyckad äkthetskontroll av appen — utan någon text alls) | Säkerhet, bedrägeribekämpning | Frikopplas från din identitet när kontot raderas |
 | **Appens språk och version** | Leverera rätt innehåll | Till dess att ditt konto raderas |
 | **Innehållet i de egna språk du skapar** (namn, alfabet och lexikon — de ord och definitioner som du, eller andra personer, har skrivit i det) | Låta dig hitta ditt språk på en annan enhet, utveckla det och dela det med andra användare | Så länge språket finns kvar. Om du raderar det försvinner dess post — men en kopia som redan har **importerats av någon annan** tillhör då den personen och **lever kvar**, precis som ett meddelande som redan har mottagits av en tredje part och som vi inte kan radera hos denne |
+| **Dina egna personas** (deras namn, instruktioner, den valda avataren och, om du har importerat en bild, en miniatyr på högst 512 pixlar — detsamma gäller det importerade emblemet för ett eget språk) | Låta dig hitta dem igen efter en ominstallation eller på en annan enhet, och dela dem. En personas instruktion skickas till AI-tjänsten vid varje omformulering som använder den | Så länge personan finns kvar. En persona som flyttats till papperskorgen raderas 30 dagar senare, nästa gång du öppnar din personalista. Allt försvinner när ditt konto raderas |
 | **Dina kamouflageordlistor** (deras namn, tema, språk, den valda emblemet och ordparen ”verkligt ord → kodord”) | Kamouflera och avkoda dina meddelanden, låta dig hitta din ordlista på en annan enhet, utveckla den och dela den | Så länge ordlistan finns kvar. **En ordlista som flyttats till papperskorgen sparas kvar**: det finns ännu ingen automatisk tömning av den papperskorgen. Den försvinner när ditt konto raderas |
 | **De väntande orden** (eget språk och Kamouflage): de enskilda orden i dina meddelanden som ännu saknas i ditt lexikon — aldrig meningen —, med antal förekomster och datum för första och senaste förekomst | Föreslå dig att lägga till dem i ditt lexikon, och låta AI-tjänsten behandla dem när du utvecklar det | Sparas även efter att de lagts till, så länge språket eller ordlistan finns kvar. **Om du skriver med en kamouflageordlista som någon annan har delat med dig** läggs de ord som saknas åt sidan **i den personens ordlista**, och den personen kan se dem |
 | **Delningen av dina språk och dina ordlistor** (ett delningstoken, som lagras enbart som ett avtryck; historiken över importer och kopplingar) | Låta dina nära läsa dina meddelanden. Ägaren till en ordlista ser listan över de personer som är kopplade till den (visningsnamn och Google-profilbild — aldrig e-postadressen) | Ett token upphör att gälla. Spåret av en återkallad delning sparas |
@@ -126,7 +127,7 @@ Här är allt som lagras på våra servrar:
 
 **Vad vi inte samlar in:** ditt namn, dina kontakter, din position, din adressbok, dina foton, din kalender, historiken över dina appar. Plume begär ingen av de behörigheterna.
 
-**Vad som bara stannar i din telefon:** dina egna personas och deras avatarer, dina inställningar, dina regler per app, översättningscachen för Assisterad läsning (som töms i slutet av varje session). Ingenting av detta skickas till våra servrar.
+**Vad som bara stannar i din telefon:** dina inställningar, dina regler per app, översättningscachen för Assisterad läsning (som töms i slutet av varje session). Ingenting av detta skickas till våra servrar.
 
 ---
 

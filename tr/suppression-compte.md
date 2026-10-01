@@ -37,6 +37,7 @@ Silme işlemi şunları **kesin olarak** yok eder:
 - **istek kimlikleriniz** — talep edilen yeniden ifadelerin teknik referansları;
 - **kredileriniz ve kota kilit açmalarınız** — tüketilmemiş satın alınan krediler, reklamla elde edilen kilit açmalar, ayarlanmış tavanlar;
 - **cihazlarınızın hesabınıza bağlanması** — diğer telefonlarınız ya da tabletleriniz bağlantısız hâle gelir ve yeniden basit anonim cihazlara dönüşür.
+- **özel personalarınız**, çöp kutusuna atılmış olanlar dâhil — adları, talimatları, avatarları, içe aktardığınız görsellerin küçük resimleri (persona avatarları ve dil amblemleri) ve paylaşım jetonlarınız;
 - **kamuflaj sözlükleriniz**, çöp kutusuna atılmış olanlar dâhil — adları, temaları, sözcük çiftleri, bekleyen sözcükler, paylaşım jetonlarınız ve iki yöndeki bağlantılar (paylaştığınız sözlükler ve sizinle paylaşılanlar);
 - **oluşturduğunuz kişisel diller** — adı, alfabesi, sözlüğü, bekleyen sözcükler, paylaşım jetonlarınız ve içe aktarma geçmişiniz. **Bu silmenin yapamayacağı şey:** başka biri zaten dilinizin bir kopyasını kendi tarafına içe aktarmışsa, bu kopya artık ona aittir ve silme işleminizden sonra da **varlığını sürdürür** — üçüncü bir kişinin çoktan aldığı bir mesaj gibi, onu kendi tarafından silmemiz mümkün değildir.
 
@@ -44,7 +45,7 @@ Silme talebinde bulunduğunuz cihaz **etkisiz hâle getirilir**: hesabınızla b
 
 **Ne yeniden ifade ettiğiniz metinleri ne de Destekli Okuma'nın ekrandan okuduğu metni saklıyoruz**: bunlar sunucularımızda hiçbir yerde tutulmuyor, dolayısıyla silinecek bir şey de yok. **Bu, kişisel dilleriniz ve kamuflaj sözlükleriniz için geçerli değildir**: bunların içeriği (adı, alfabesi ya da teması, sözcükler ve tanımlar) ile mesajlarınızdaki, onlarda henüz bulunmayan tek tek sözcükler sunucularımızda gerçekten saklanır — hesabınızın silinmesi bunları da yok eder, size ait diğer her şey gibi (yukarıya bakın).
 
-**Telefonunuzda** personalarınız, avatarlarınız, ayarlarınız ve uygulama başına kurallarınız yerel olarak saklanır. Bunlar uygulamadan yapılan silme işlemiyle silinir ve her hâlükârda **Plume'ü kaldırdığınızda ortadan kalkar**.
+**Telefonunuzda** ayarlarınız ve uygulama başına kurallarınız yerel olarak saklanır. Bunlar uygulamadan yapılan silme işlemiyle silinir ve her hâlükârda **Plume'ü kaldırdığınızda ortadan kalkar**.
 
 ---
 

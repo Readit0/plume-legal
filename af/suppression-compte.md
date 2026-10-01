@@ -37,6 +37,7 @@ Die skrapping vee **finaal** uit:
 - **jou versoekidentifiseerders** — die tegniese verwysings van die herformulerings wat aangevra is;
 - **jou krediete en kwota-ontsluitings** — gekoopte krediete wat nie verbruik is nie, ontsluitings wat deur advertensies verkry is, aangepaste plafonne;
 - **die koppeling van jou toestelle aan jou rekening** — jou ander fone of tablette word ontkoppel en word weer eenvoudige anonieme toestelle;
+- **jou eie personas**, ook dié wat in die asblik geplaas is — hulle naam, hulle instruksies, hulle avatar, die kleinbeelde van die beelde wat jy ingevoer het (persona-avatars en taalembleme) en jou deel-tekens;
 - **jou kamoeflasiewoordelyste**, ook dié wat in die asblik geplaas is — hulle naam, hulle tema, hulle woordpare, die hangende woorde, jou deel-tekens, en die koppelings in albei rigtings (die woordelyste wat jy gedeel het, en dié wat met jou gedeel is);
 - **die persoonlike tale wat jy geskep het** — hulle naam, hulle alfabet, hulle leksikon, die hangende woorde, jou deel-tekens en jou invoergeskiedenis. **Wat hierdie skrapping nie kan doen nie:** as iemand anders reeds 'n kopie van jou taal by hulle ingevoer het, behoort daardie kopie voortaan aan hulle en **oorleef** dit jou skrapping — soos 'n boodskap wat reeds deur 'n derde party ontvang is, wat ons nie aan hulle kant kan uitvee nie.
 
@@ -44,7 +45,7 @@ Die toestel waarvandaan jy die skrapping aanvra, word **geneutraliseer**: die ko
 
 **Ons stoor nie die tekste wat jy herformuleer het nie, en ook nie die teks wat deur Ondersteunde Lees van die skerm gelees word nie**: hulle word nêrens op ons bedieners bewaar nie, en daar is dus niks daarvan om te skrap nie. **Dit geld nie vir jou persoonlike tale en jou kamoeflasiewoordelyste nie:** hulle inhoud (naam, alfabet of tema, woorde en definisies), asook die losstaande woorde van jou boodskappe wat daarin nog ontbreek het, word wél op ons bedieners gestoor — die skrapping van jou rekening vee hulle uit, soos die res van wat aan jou behoort (sien hierbo).
 
-**Op jou foon** word jou personas, jou avatars, jou instellings en jou reëls per app plaaslik gestoor. Hulle word deur die skrapping vanuit die app uitgevee, en verdwyn in elk geval **wanneer jy Plume deïnstalleer**.
+**Op jou foon** word jou instellings en jou reëls per app plaaslik gestoor. Hulle word deur die skrapping vanuit die app uitgevee, en verdwyn in elk geval **wanneer jy Plume deïnstalleer**.
 
 ---
 

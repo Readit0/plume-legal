@@ -37,6 +37,7 @@ Raderingen tar **definitivt** bort:
 - **dina förfrågningsidentifierare** — de tekniska referenserna för de omformuleringar som begärts;
 - **dina krediter och kvotupplåsningar** — köpta krediter som inte förbrukats, upplåsningar som erhållits genom annonser, justerade tak;
 - **kopplingen mellan dina enheter och ditt konto** — dina andra telefoner eller surfplattor kopplas loss och blir vanliga anonyma enheter igen;
+- **dina egna personas**, även de som lagts i papperskorgen — deras namn, instruktioner, avatar, miniatyrerna av de bilder du har importerat (personaavatarer och språkemblem) och dina delningstoken;
 - **dina kamouflageordlistor**, även de som lagts i papperskorgen — deras namn, tema, ordpar, de väntande orden, dina delningstoken och kopplingarna i båda riktningarna (de ordlistor du har delat och de som har delats med dig);
 - **de egna språk du har skapat** — deras namn, alfabet, lexikon, de väntande orden, dina delningstoken och din importhistorik. **Vad den här raderingen inte kan göra:** om någon annan redan har importerat en kopia av ditt språk hos sig, tillhör den kopian numera den personen och **lever kvar** efter din radering — precis som ett meddelande som redan har mottagits av en tredje part, vilket vi inte kan radera hos denne.
 
@@ -44,7 +45,7 @@ Den enhet som du begär raderingen från **neutraliseras**: dess koppling till d
 
 **Vi lagrar inte de texter du har omformulerat, eller den text som Assisterad läsning har läst av på skärmen:** de sparas ingenstans på våra servrar, och det finns därför ingenting att radera av dem. **Det gäller inte dina egna språk och dina kamouflageordlistor:** deras innehåll (namn, alfabet eller tema, ord och definitioner), liksom de enskilda orden i dina meddelanden som ännu saknades i dem, är faktiskt lagrat på våra servrar — när du raderar ditt konto raderas det, precis som allt annat som tillhör dig (se ovan).
 
-**I din telefon** lagras dina personas, dina avatarer, dina inställningar och dina regler per app lokalt. De raderas när du raderar från appen, och de försvinner i vilket fall som helst **när du avinstallerar Plume**.
+**I din telefon** lagras dina inställningar och dina regler per app lokalt. De raderas när du raderar från appen, och de försvinner i vilket fall som helst **när du avinstallerar Plume**.
 
 ---
 

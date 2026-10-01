@@ -38,6 +38,7 @@ Jɔsili bɛ ninnu jɔsi **badaa la** :
 - **i ka ɲininiw idantifan** — kɔseginni ɲinilenw ka teknik yoro ;
 - **i ka kota credit ni dabɔliw** — credit sanlen minnu ma baara la, dabɔli sɔrɔlen piblisite fɛ, dan latilenenw ;
 - **i ka sañseW jɛnni i ka konti ma** — i ka telefɔni tɔw walima tabɛli bɛ bɔ a la, u bɛ kɛ sañse tɔgɔ-lankolon kokura ;
+- **i ka persona kɛrɛnkɛrɛnnenw**, minnu bilala korbɛyi la, olu fana — u tɔgɔ, u ka ladilikanw, u ka avatar, janso minnu i ye don, olu janso fitininw (persona avatarw ni kan taamasiyɛnw), ani i ka tilali tokɛnw ;
 - **i ka Kaman-fini daɲɛgafew**, minnu bilala korbɛyi la, olu fana — u tɔgɔ, u thɛmu, u daɲɛ fila-filaw, daɲɛ minnu bɛ makɔnɔ, i ka tilali tokɛnw, ani jɛɲɔgɔnya fan fila bɛɛ la (daɲɛgafe minnu i ye tila, ani minnu tilara i fɛ) ;
 - **kan yɛrɛda minnu i ye dilan** — u tɔgɔ, u alifabɛ, u daɲɛgafe, daɲɛ minnu bɛ makɔnɔ, i ka tilali tokɛn, ani i ka donni tariku. **Fɛɛn min jɔsili nin tɛ se ka kɛ :** ni mɔgɔ wɛrɛ ye kopi dɔ don a yɛrɛ la ka bɔ i ka kan na kɔrɔmɛ, kopi nin bɛ kɛ o mɔgɔ ta ye ka **to yen** hali i ka jɔsili kɔfɛ — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ.
 
@@ -45,7 +46,7 @@ Sañse i bɛ jɔsili ɲini a fɛ, o bɛ **kɛ fu ye** : a jɛnni i ka konti ma b
 
 **An tɛ sɛbɛn i bɛ minnu kɔsegin ani Dɛmɛni Kalanni bɛ minnu jira ekran kan, olu mara** : u ma to yɔrɔ si an ka sɛrivɛriw kan, o de kosɔn foyi tɛ yen ka jɔsi. **O tɛ tiɲɛ ye i ka kan yɛrɛdaw ni i ka Kaman-fini daɲɛgafew la** : u kunnafoniw (tɔgɔ, alifabɛ walima thɛmu, daɲɛw ni kɔrɔfɔlenw), ani i ka cidenw daɲɛ kelen-kelenw minnu tun tɛ u kɔnɔ fɔlɔ, olu bɛ mara an ka sɛrivɛriw kan tiɲɛ na — i ka konti jɔsili b'u jɔsi, i taw tɔw bɛɛ n'a fɔ (sanfɛ lajɛ).
 
-**I ka telefɔni kan**, i ka personaw, i ka avatarw, i ka labɛnw, ani i ka sariyaw aplikasiyɔn kelen-kelen na, olu bɛ mara sañse kan yɛrɛ. U bɛ jɔsi jɔsili kɛlen fɛ ka bɔ aplikasiyɔn na, wa u bɛ tunun tuma bɛɛ **ni i ye Plume bɔ**.
+**I ka telefɔni kan**, i ka labɛnw, ani i ka sariyaw aplikasiyɔn kelen-kelen na, olu bɛ mara sañse kan yɛrɛ. U bɛ jɔsi jɔsili kɛlen fɛ ka bɔ aplikasiyɔn na, wa u bɛ tunun tuma bɛɛ **ni i ye Plume bɔ**.
 
 ---
 

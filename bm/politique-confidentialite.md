@@ -2,7 +2,7 @@
 
 **A yɛlɛmana laban: 1 ɔkutɔburu 2026** — Versiyɔn 2.1
 
-> *Min yɛlɛmana versiyɔn 2.1 kɔnɔ :* an bɛ **Dogodogo cogoya** ɲɛfɔ, versiyɔn 2.0 ma min kuma, ani an bɛ fɔta dɔ latilen min ma kɛ tiɲɛ ye tugun : kan yɛrɛdaw ni Dogodogo fila bɛɛ la, **i ka cidenw kɔnɔ daɲɛ minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ, olu bɛ mara kelen-kelen** — ciden bɛɛ tɛ abada — walasa an ka se ka a fɔ i ye ko i ka u fara a kan. Ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ, §2.2 ni §3 kɔnɔ.
+> *Min yɛlɛmana versiyɔn 2.1 kɔnɔ :* an bɛ **Dogodogo cogoya** ɲɛfɔ, versiyɔn 2.0 ma min kuma, ani an bɛ fɔta dɔ latilen min ma kɛ tiɲɛ ye tugun : kan yɛrɛdaw ni Dogodogo fila bɛɛ la, **i ka cidenw kɔnɔ daɲɛ minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ, olu bɛ mara kelen-kelen** — ciden bɛɛ tɛ abada — walasa an ka se ka a fɔ i ye ko i ka u fara a kan. Ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ, §2.2 ni §3 kɔnɔ. An bɛ fɔta filanan fana latilen : **i ka persona kɛrɛnkɛrɛnnenw ni u ka avatarw bɛ mara an ka sɛrivɛriw kan** — u tɛ to i ka telefɔni kan dɔrɔn (§3 lajɛ).
 
 > *Min yɛlɛmana kabini versiyɔn 1.0, ani mun na i bɛ se ka nangu ekran ye kokura aplikasiyɔn kɔnɔ:* an bɛ ka fɔta fila latilen minnu tun tɛ tiɲɛ ye tugun. Fɔlɔ, **kan yɛrɛda** fɛɛn bɛ i ka daɲɛgafe kunnafoniw (tɔgɔ, alifabɛ, daɲɛgafe) mara an ka sɛrivɛriw kan — versiyɔn 1.0 tun b'a fɔ, filiw kan, ko sɛbɛn si tɛ mara yɔrɔ si. O kɔfɛ, an bɛ ka jumtukaay dɔ baara la sisan min bɛ wele **teknikitigi binni rapɔɔri** — versiyɔn 1.0 tun b'a fɔ ko jumtukaay sugu min tɛ yen. Ninnu ɲɛfɔli bɛ « Miniti kelen kɔnɔ » kɔnɔ ka taa ɲɛ, ani §3 ni §9 fana kɔnɔ. O ye ninnu ye yɛlɛmali suguya fila minnu bɛ nangu kura ɲini aplikasiyɔn kɔnɔ (§11 lajɛ).
 
@@ -110,6 +110,7 @@ Ninnu bɛɛ ye min mara an ka sɛrivɛriw kan :
 | **Baara-jugu teknik taamasiyɛnw** (dan-tɛmɛli caman, sɛbɛnni-sɛbɛnnen sɛgɛsɛgɛli dɛsɛli — sɛbɛn si t'a la) | Lakana, nanbaraya kɛlɛ | A bɔlen bɛ i yɛrɛ la konti jɔsili waati |
 | **Aplikasiyɔn kan ni versiyɔn** | Ka kunnafoni bɛnnen di i ma | Fo i ka konti ka jɔsi tuma |
 | **Kan yɛrɛda minnu i bɛ dilan olu kunnafoniw** (a tɔgɔ, a alifabɛ, ani a daɲɛgafe — daɲɛw ni u kɔrɔfɔlenw i, walima mɔgɔ tɔw, ye minnu sɛbɛn a la) | Ka a to i ka se ka i ka kan sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa, k'a tila baarakɛla tɔw fɛ | Fo kan ka to yen. Ni i y'a jɔsi, a fisi bɛ tunun — nka mɔgɔ wɛrɛ ye kopi min ta ka a don a yɛrɛ la ka kɔrɔmɛ, o kopi bɛ kɛ o mɔgɔ ta ye ka to yen — i n'a fɔ ciden min sera mɔgɔ saba nan ma ka ban, an tɛ se ka o jɔsi u fɛ |
+| **I ka persona kɛrɛnkɛrɛnnenw** (u tɔgɔ, u ka ladilikanw, avatar sugandilen ani, ni i ye janso don, janso fitinin min tɛ tɛmɛ pikseli 512 kan — o cogo kelen na kan yɛrɛda janso donnen taamasiyɛn kama) | Ka a to i ka se ka u sɔrɔ kokura ni i ye aplikasiyɔn ɲɛtaa kokura walima sañse wɛrɛ kan, ani ka u tila. Persona ka ladilikan bɛ ci AI baarakɛyɔrɔ ma ka kɛ kɔsegin o kɛlen kɛlen bɛɛ la min b'a baara | Fo ka se persona ka to yen. Persona min bilala korbɛyi la, o bɛ jɔsi donw 30 kɔ, i ka persona lisɛli da kɛ tuma nata la. Fɛn bɛɛ bɛ jɔsi ni i ka konti jɔsili ye |
 | **I ka Kaman-fini daɲɛgafew** (u tɔgɔ, u thɛmu, u kan, taamasiyɛn sugandilen, ani daɲɛ fila-fila « daɲɛ tiɲɛnen → kɔdi daɲɛ ») | Ka i ka cidenw dogo ani ka u dogo bɔ, ka a to i ka se ka i ka daɲɛgafe sɔrɔ kokura sañse wɛrɛ kan, k'a yiriwa ani k'a tila | Fo ka se daɲɛgafe ka to yen. **Daɲɛgafe min bilala korbɛyi la (fɛn bilalenw yɔrɔ), o bɛ mara ka to yen** : o korbɛyi ka masinɛ jɔsili tɛ yen fɔlɔ. A bɛ jɔsi ni i ka konti jɔsili ye |
 | **Daɲɛ minnu bɛ makɔnɔ** (kan yɛrɛda ni Dogodogo) : i ka ciden kɔnɔ daɲɛ kelen-kelenw minnu tɛ i ka daɲɛgafe kɔnɔ fɔlɔ — ciden bɛɛ tɛ abada —, u bɔli hakɛ ni u fɔlɔ ni u laban bɔli donw ye | Ka a fɔ i ye ko i ka u fara i ka daɲɛgafe kan, ani ka IA sɛrivisi k'u baara ni i b'a yiriwa | U bɛ mara hali u farali kɔfɛ, fo ka se kan walima daɲɛgafe ka to yen. **Ni i bɛ sɛbɛn kɛ Kaman-fini daɲɛgafe la min mɔgɔ wɛrɛ ye tila i fɛ**, daɲɛ minnu tɛ a kɔnɔ, olu bɛ bila **a ka daɲɛgafe kɔnɔ**, o mɔgɔ bɛ se k'u ye |
 | **I ka kanw ni i ka daɲɛgafew tilali** (tilali tokɛn, a bɛ mara fɔlɔ-taamasiyɛn (empreinte) cogo la dɔrɔn ; donni ni dɔnkili tarikuw) | Ka i ka mɔgɔ ɲɛnɛw ka i ka cidenw kalan. Daɲɛgafe tigi bɛ mɔgɔ minnu bɛ a la, olu tɔgɔw ye (jira tɔgɔ ni Google profili foto — ɛmɛli adirɛsi tɛ abada) | Tokɛn bɛ ban. Tilali jɔsilen tarikuw bɛ mara |
@@ -119,7 +120,7 @@ Ninnu bɛɛ ye min mara an ka sɛrivɛriw kan :
 
 An tɛ min lajɛ : i tɔgɔ, i ka mɔgɔw kontaki, i ka yɔrɔ, i ka adɛrɛsi gafe, i ka fotow, i ka pograamu-kalanda, i ka aplikasiyɔnw tariku. Plume tɛ yamaruya ninnu si ɲini.
 
-Min bɛ to i ka telefɔni kan dɔrɔn : i ka persona kɛrɛnkɛrɛnnenw ni u ka avatarw, i ka labɛnw, i ka sariyaw aplikasiyɔn kelen-kelen na, Dɛmɛni Kalanni ka baabuli kachi (min bɛ jɔsi sɛsiyɔn kelen-kelen bɛɛ laban na). Ninnu si tɛ ci an ka sɛrivɛriw ma.
+Min bɛ to i ka telefɔni kan dɔrɔn : i ka labɛnw, i ka sariyaw aplikasiyɔn kelen-kelen na, Dɛmɛni Kalanni ka baabuli kachi (min bɛ jɔsi sɛsiyɔn kelen-kelen bɛɛ laban na). Ninnu si tɛ ci an ka sɛrivɛriw ma.
 
 ---
 

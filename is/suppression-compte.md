@@ -37,6 +37,7 @@ Eyðingin fjarlægir **endanlega**:
 - **fyrirspurnaauðkennin þín** — tæknilegar tilvísanir þeirra umorðana sem beðið var um;
 - **inneignirnar þínar og kvótaopnanir** — keypta inneign sem ekki hefur verið notuð, opnanir sem fengust með auglýsingum, aðlöguð þök;
 - **tengingu tækjanna þinna við aðganginn þinn** — hinir símarnir þínir eða spjaldtölvurnar eru aftengd og verða aftur einföld nafnlaus tæki.
+- **eigin persónur þínar**, þar með talin þær sem færðar hafa verið í ruslið — nafn þeirra, leiðbeiningar, táknmynd, smámyndir af myndunum sem þú fluttir inn (táknmyndir persóna og merki tungumála) og deilitákn þín;
 - **Felulitaorðasöfnin þín**, þar með talin þau sem færð hafa verið í ruslið — nafn þeirra, þema, orðapör, orðin sem bíða, deilitáknin þín og tengingar í báðar áttir (orðasöfnin sem þú hefur deilt og þau sem deilt hefur verið með þér);
 - **eigin tungumál sem þú hefur búið til** — nafn þeirra, stafróf, orðasafn, orðin sem bíða, deilitáknin þín og innflutningssögu þína. **Það sem þessi eyðing getur ekki gert:** ef einhver annar hefur þegar flutt inn afrit af tungumálinu þínu til sín, tilheyrir það afrit honum upp frá því og **lifir áfram** eftir eyðingu þína — líkt og skilaboð sem þriðji aðili hefur þegar tekið á móti, sem við getum ekki fengið eytt hjá honum.
 
@@ -44,7 +45,7 @@ Tækið sem þú biður um eyðinguna úr er **gert óvirkt**: tenging þess vi�
 
 **Við geymum ekki textana sem þú hefur umorðað né textann sem Studdur lestur las af skjánum**: þeir eru hvergi varðveittir á netþjónum okkar, og því er engu af þeim að eyða. **Þetta á ekki við um eigin tungumál þín og Felulitaorðasöfn**: efni þeirra (nafn, stafróf eða þema, orð og merkingar), ásamt stökum orðum úr skilaboðunum þínum sem enn vantaði í þau, er sannarlega geymt á netþjónum okkar — þegar aðgangi þínum er eytt hverfur það líka, líkt og allt annað sem tilheyrir þér (sjá hér að ofan).
 
-**Í símanum þínum** eru persónurnar þínar, táknmyndirnar þínar, stillingarnar þínar og reglurnar þínar fyrir hvert forrit geymdar staðbundið. Þeim er eytt þegar eyðingin fer fram úr forritinu, og þær **hverfa hvort eð er þegar þú fjarlægir Plume**.
+**Í símanum þínum** eru stillingarnar þínar og reglurnar þínar fyrir hvert forrit geymdar staðbundið. Þeim er eytt þegar eyðingin fer fram úr forritinu, og þær **hverfa hvort eð er þegar þú fjarlægir Plume**.
 
 ---
 

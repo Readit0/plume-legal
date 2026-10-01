@@ -37,6 +37,7 @@ Penghapusan menghilangkan **secara permanen**:
 - **identitas permintaan Anda** — rujukan teknis penyusunan ulang yang diminta;
 - **kredit dan pembukaan kuota Anda** — kredit yang dibeli tetapi belum terpakai, pembukaan yang diperoleh lewat iklan, batas yang telah disesuaikan;
 - **penautan perangkat Anda ke akun Anda** — ponsel atau tablet Anda yang lain dilepaskan dan kembali menjadi sekadar perangkat anonim.
+- **persona kustom Anda**, termasuk yang dipindahkan ke tempat sampah — namanya, instruksinya, avatarnya, gambar mini dari gambar yang Anda impor (avatar persona dan lambang bahasa), serta token berbagi Anda;
 - **leksikon penyamaran Anda**, termasuk yang dipindahkan ke tempat sampah — namanya, temanya, pasangan katanya, kata-kata yang menunggu, token berbagi Anda, dan penautan dua arah (leksikon yang Anda bagikan, dan yang dibagikan kepada Anda);
 - **bahasa pribadi yang telah Anda buat** — namanya, aksaranya, kosakatanya, kata-kata yang menunggu, token berbagi Anda, dan riwayat impor Anda. **Apa yang tidak dapat dilakukan oleh penghapusan ini:** jika orang lain telah mengimpor sebuah salinan bahasa Anda ke perangkatnya, salinan itu sejak itu menjadi miliknya dan **tetap ada** setelah penghapusan Anda — seperti sebuah pesan yang sudah diterima oleh pihak ketiga, yang tidak dapat kami hapuskan di sisi mereka.
 
@@ -44,7 +45,7 @@ Perangkat yang Anda gunakan untuk meminta penghapusan **dinetralkan**: penautann
 
 **Kami tidak menyimpan teks yang Anda susun ulang, maupun teks yang dibaca di layar oleh Bacaan Terbantu**: keduanya tidak tersimpan di mana pun pada server kami, jadi tidak ada yang perlu dihapus. **Ini tidak berlaku untuk bahasa pribadi dan leksikon penyamaran Anda**: kontennya (nama, aksara atau tema, kata-kata, dan definisi), serta kata-kata tersendiri dari pesan Anda yang belum ada di dalamnya, memang disimpan di server kami — penghapusan akun Anda menghapusnya juga, seperti hal-hal lain yang menjadi milik Anda (lihat di atas).
 
-**Di ponsel Anda**, persona Anda, avatar Anda, pengaturan Anda, dan aturan per aplikasi Anda tersimpan secara lokal. Semuanya dihapus oleh penghapusan dari dalam aplikasi, dan bagaimanapun juga **hilang ketika Anda menghapus instalasi Plume**.
+**Di ponsel Anda**, pengaturan Anda, dan aturan per aplikasi Anda tersimpan secara lokal. Semuanya dihapus oleh penghapusan dari dalam aplikasi, dan bagaimanapun juga **hilang ketika Anda menghapus instalasi Plume**.
 
 ---
 

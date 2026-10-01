@@ -37,6 +37,7 @@ Pemadaman menghapuskan **secara kekal**:
 - **pengecam permintaan anda** — rujukan teknikal bagi rumusan semula yang diminta;
 - **kredit dan pembukaan kuota anda** — kredit yang dibeli tetapi belum digunakan, pembukaan yang diperoleh melalui iklan, had yang telah dilaraskan;
 - **pengaitan peranti anda dengan akaun anda** — telefon atau tablet anda yang lain dileraikan dan kembali menjadi sekadar peranti tanpa nama;
+- **persona tersuai anda**, termasuk yang dimasukkan ke dalam tong sampah — nama, arahan, avatar, imej kecil bagi imej yang telah anda import (avatar persona dan lambang bahasa) dan token perkongsian anda;
 - **leksikon penyamaran anda**, termasuk yang dimasukkan ke dalam tong sampah — nama, tema, pasangan perkataan, perkataan yang menunggu, token perkongsian anda, dan pautan dalam kedua-dua arah (leksikon yang telah anda kongsikan, dan leksikon yang dikongsikan kepada anda);
 - **bahasa peribadi yang telah anda cipta** — nama, abjad, leksikon, perkataan yang menunggu, token perkongsian dan sejarah import anda. **Apa yang tidak dapat dilakukan oleh pemadaman ini:** jika orang lain telah mengimport satu salinan bahasa anda di pihaknya, salinan itu kini menjadi miliknya dan **terus wujud** selepas pemadaman anda — seperti mesej yang telah diterima oleh pihak ketiga, kami tidak dapat memadamnya di sisi mereka.
 
@@ -44,7 +45,7 @@ Peranti yang anda gunakan untuk meminta pemadaman itu **dineutralkan**: pengaita
 
 **Kami tidak menyimpan teks yang anda rumus semula, mahupun teks yang dibaca pada skrin oleh Bacaan Berbantu**: kedua-duanya tidak disimpan di mana-mana pada pelayan kami, jadi tiada apa-apa yang perlu dipadam. **Ini tidak benar bagi bahasa peribadi dan leksikon penyamaran anda**: kandungannya (nama, abjad atau tema, perkataan dan takrifan), serta perkataan tunggal dalam mesej anda yang masih tiada di dalamnya, memang disimpan pada pelayan kami — pemadaman akaun anda memadamnya, seperti selebihnya yang menjadi milik anda (lihat di atas).
 
-**Pada telefon anda**, persona anda, avatar anda, tetapan anda dan peraturan setiap aplikasi anda disimpan secara setempat. Semuanya dipadam oleh pemadaman daripada aplikasi, dan bagaimanapun juga **hilang apabila anda menyahpasang Plume**.
+**Pada telefon anda**, tetapan anda dan peraturan setiap aplikasi anda disimpan secara setempat. Semuanya dipadam oleh pemadaman daripada aplikasi, dan bagaimanapun juga **hilang apabila anda menyahpasang Plume**.
 
 ---
 

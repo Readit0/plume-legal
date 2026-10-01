@@ -37,6 +37,7 @@ Việc xóa sẽ xóa **vĩnh viễn**:
 - **các mã yêu cầu của bạn** — những tham chiếu kỹ thuật của các lượt viết lại đã yêu cầu;
 - **các tín dụng và lượt mở khóa hạn mức của bạn** — tín dụng đã mua chưa dùng, lượt mở khóa có được nhờ quảng cáo, các mức trần đã điều chỉnh;
 - **việc gắn các thiết bị của bạn với tài khoản** — những điện thoại hay máy tính bảng khác của bạn được gỡ liên kết và trở lại thành những thiết bị ẩn danh đơn thuần.
+- **các persona bạn tự tạo**, kể cả những persona đã bỏ vào thùng rác — tên, các chỉ dẫn, ảnh đại diện, ảnh thu nhỏ của các hình ảnh bạn đã nhập (ảnh đại diện persona và biểu tượng ngôn ngữ) và các mã chia sẻ của bạn;
 - **các từ điển ngụy trang của bạn**, kể cả những từ điển đã bỏ vào thùng rác — tên, chủ đề, các cặp từ, các từ đang chờ, các mã chia sẻ của bạn, và các liên kết theo cả hai chiều (những từ điển bạn đã chia sẻ, và những từ điển được chia sẻ cho bạn);
 - **các ngôn ngữ cá nhân mà bạn đã tạo ra** — tên gọi, bảng chữ cái, từ điển, các từ đang chờ, các mã chia sẻ và lịch sử nhập của bạn. **Điều mà việc xóa này không thể làm được:** nếu một người khác đã nhập một bản sao ngôn ngữ của bạn về máy của họ, bản sao đó từ nay thuộc về họ và **vẫn tồn tại** sau khi bạn xóa — giống như một tin nhắn mà một bên thứ ba đã nhận được, chúng tôi không thể xóa nó khỏi phía họ.
 
@@ -44,7 +45,7 @@ Thiết bị mà từ đó bạn yêu cầu xóa sẽ được **vô hiệu hóa
 
 **Chúng tôi không lưu trữ những văn bản bạn đã viết lại, cũng như văn bản mà Đọc Có Hỗ Trợ đọc trên màn hình**: chúng không được giữ ở bất kỳ đâu trên máy chủ của chúng tôi, nên không có gì để xóa cả. **Điều này không đúng với các ngôn ngữ cá nhân và các từ điển ngụy trang của bạn**: nội dung của chúng (tên gọi, bảng chữ cái hoặc chủ đề, các từ và định nghĩa), cùng với những từ riêng lẻ trong tin nhắn của bạn mà chúng còn thiếu, thực sự được lưu giữ trên máy chủ của chúng tôi — việc xóa tài khoản của bạn sẽ xóa chúng, cũng như phần còn lại của những gì thuộc về bạn (xem ở trên).
 
-**Trên điện thoại của bạn**, các persona, ảnh đại diện, thiết lập và quy tắc theo từng ứng dụng của bạn được lưu cục bộ. Chúng bị xóa khi bạn thực hiện việc xóa từ trong ứng dụng, và trong mọi trường hợp **chúng biến mất khi bạn gỡ cài đặt Plume**.
+**Trên điện thoại của bạn**, thiết lập và quy tắc theo từng ứng dụng của bạn được lưu cục bộ. Chúng bị xóa khi bạn thực hiện việc xóa từ trong ứng dụng, và trong mọi trường hợp **chúng biến mất khi bạn gỡ cài đặt Plume**.
 
 ---
 

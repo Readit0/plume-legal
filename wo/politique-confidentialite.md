@@ -2,7 +2,7 @@
 
 **Yeesalaat bu mujj: 1 oktoobar 2026** — Bindeef 2.1
 
-> *Lu soppiku ci bindeef 2.1:* dinanu leeral **mode Nëbb**, bi bindeef 2.0 waxul ko, te dinanu jubbanti benn wax bu dootul dëgg: ci **làkk yu bopp** yi ak ci Nëbb itam, **baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire dañu leen di denc, benn-benn** — mukk du kàddu gi — ngir mën la ko wax nga yokk leen. Ndetaal bi nekk na ci "Ci benn diriit", ci §2.2 ak ci §3.
+> *Lu soppiku ci bindeef 2.1:* dinanu leeral **mode Nëbb**, bi bindeef 2.0 waxul ko, te dinanu jubbanti benn wax bu dootul dëgg: ci **làkk yu bopp** yi ak ci Nëbb itam, **baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire dañu leen di denc, benn-benn** — mukk du kàddu gi — ngir mën la ko wax nga yokk leen. Ndetaal bi nekk na ci "Ci benn diriit", ci §2.2 ak ci §3. Dañu koy wéyal ci ñaareel njuumte bi: **say persona yu nga defar ak seen avatar dañu leen denc ci sunuy server** — du ci sa téléphone rekk lañuy des (gisal §3).
 
 > *Lu soppiku ci bindeef 1.0 ba léegi, ak lu tax mën nga gis ekran wone nangu bi ci aplikasion bi:* danuy jubbanti ñaari wax yu meunul woon dëgg. Bu njëkk, jumtukaay bu **làkk yu bopp** yi dafay denc ci sunuy server kontenu bi nga sos (turam, alfabet, dictionnaire) — bindeef 1.0 wax na, lu meunul dëgg, ne amul benn mbind bu denc. Ci topp, dañu jëfandikoo léegi jumtukaay bu **rapoor ci njumte yu teknik** — bindeef 1.0 wax woon na ne amul benn jumtukaay bu mel noonu. Ndetaal bu ñaari lëkkalekaay yii nekk na ci "Ci benn diriit" ci suuf, walla itam ci §3 ak §9. Ñooy exactement ñaari melo yu soppiku, ci aplikasion bi, di jibal genn nangu gu bees (xool §11).
 
@@ -110,6 +110,7 @@ Lii mooy lépp lu ñuy denc ci sunuy server:
 | **Marque technique bu njumte** (bàyyi wàll bu ñu def ay yoon, njumte ci contrôle bu intégrité — amul benn mbind) | Kaaraange, xeex njumte | Séddoo ci sa boppu bu kant bi far |
 | **Làkk ak bindeef bu aplikasion bi** | Jox lu baax ci kontenu | Ba kant bi dee far |
 | **Kontenu bu làkk yu bopp yi nga sos** (turam, alfabet, ak dictionnaire — baat yi ak tekki yi yaw walla ñeneen def ci) | Wallu la gis sa làkk ci beneen sañse, yokk ko, te séddale ko ak ñeneen jëfandikookat | Ba kañ làkk bi di nekk. Su nga far ko, fiche bi day mucc — waaye kopi bu ñu **jël** (import) ci beneen moom nekk na moom te dana **des** ni benn bataaxal ku ñeneen jot na ko, te duñu ko mën a far ci moom |
+| **Say persona yu nga defar** (seen tur, seen ndigal, avatar bi nga tànn ak, su nga import ab nataal, ab nataal bu ndaw bu 512 piksel ci kaw — noonu it ci emblème bi nga import ci làkk bu bopp) | Wallu la nga gis leen ginnaaw reinstall walla ci beneen sañse, te séddale leen. Ndigal bu persona dafay dem ci service IA bi ci rephrase bu nekk bu koy jëfandikoo | Ba kañ persona bi di nekk. Persona bu ñu tàbbal ci corbeille dañu koy far ginnaaw 30 fan, bu ngay ubbi sa limu persona yi ci kanam. Lépp day far su nga far sa kont |
 | **Say Denc-kàddu yu nëbb** (turam, temaam, làkk bi, emblème bi nga tànn, ak ay jotali baat "baat bu dëgg → baat bu kod") | Nëbb ak ubbi say bataaxal, wallu la gis sa denc-kàddu ci beneen sañse, yokk ko te séddale ko | Ba kañ denc-kàddu bi di nekk. **Denc-kàddu bu ñu tàbbal ci corbeille day des:** amul benn wàññi bu otomatik ci corbeille bi ba tay. Day far su nga far sa kont |
 | **Baat yi ngi xaar** (làkk bu bopp ak Nëbb): baat yi nekk ci sa bataaxal yi te manquee ci sa dictionnaire — mukk du kàddu gi —, ak lim bi ñu feeñ ak bés bu njëkk ak bu mujj bu ñu feeñ | Wax la nga yokk leen ci sa dictionnaire, te xëtu AI bi di leen jëfandikoo bu nga yokkee sa dictionnaire | Dañu leen di denc ba tay gannaaw bi ñu leen yokkee, ba kañ làkk bi walla denc-kàddu bi di nekk. **Su nga bindee ak denc-kàddu bu nëbb bu ku ñeneen séddale la**, baat yi manquee dañu leen di wacc **ci denc-kàddu bi**, te kooku mën na leen gis |
 | **Séddale say làkk ak say denc-kàddu** (benn jeton bu séddale, bu ñu denc rekk ni empreinte; jaar-jaar bu import ak lëkkalekaay) | May say mbokk jàng sa bataaxal yi. Boroom denc-kàddu bi gis na limu ñi ko lëkkale (turu wone ak nataalu profil Google — mukk du adresse email) | Jeton bi day jeex. Raaya bu séddale bu ñu far dañu ko denc |
@@ -119,7 +120,7 @@ Lii mooy lépp lu ñuy denc ci sunuy server:
 
 **Lu duñu jël:** sa tur, sa jokkoo yi, sa nekkin, sa carnet adresse, sa nataal yi, sa calendrier, jaar-jaar bu sa aplikasion yi. Plume duñu laaj benn ci sañ-sañ yii.
 
-**Lu des ci say téléphone rekk:** say persona yu nga defar ak seen avatar, sa paramet, sa yoon bu aplikasion, cache bu tekki bu Jàngukaay bu Ndimbal (day far ci mujjantal yëngu-yëngu bu nekk). Amul benn ci lii lu ñuy yónnee ci sunuy server.
+**Lu des ci say téléphone rekk:** sa paramet, sa yoon bu aplikasion, cache bu tekki bu Jàngukaay bu Ndimbal (day far ci mujjantal yëngu-yëngu bu nekk). Amul benn ci lii lu ñuy yónnee ci sunuy server.
 
 ---
 

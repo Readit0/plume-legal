@@ -2,7 +2,7 @@
 
 **Posljednje ažuriranje: 1. listopada 2026.** — Verzija 2.1
 
-> *Što se promijenilo u verziji 2.1:* opisujemo **način Kamuflaža**, koji verzija 2.0 nije spominjala, i ispravljamo tvrdnju koja više nije bila točna: i za osobne jezike i za Kamuflažu, **riječi iz vaših poruka kojih još nema u vašem rječniku čuvaju se, jedna po jedna** — nikada rečenica — kako bismo vam mogli predložiti da ih dodate. Pojedinosti su u «U jednoj minuti», u §2.2 i u §3.
+> *Što se promijenilo u verziji 2.1:* opisujemo **način Kamuflaža**, koji verzija 2.0 nije spominjala, i ispravljamo tvrdnju koja više nije bila točna: i za osobne jezike i za Kamuflažu, **riječi iz vaših poruka kojih još nema u vašem rječniku čuvaju se, jedna po jedna** — nikada rečenica — kako bismo vam mogli predložiti da ih dodate. Pojedinosti su u «U jednoj minuti», u §2.2 i u §3. Ispravljamo i drugu pogrešku: **vaše prilagođene persone i njihovi avatari spremaju se na našim poslužiteljima** — ne ostaju samo na vašem telefonu (vidi §3).
 
 > *Što se promijenilo od verzije 1.0 i zašto je moguće da ponovno vidite zaslon
 > za prihvaćanje u aplikaciji:* ispravljamo dvije tvrdnje koje više nisu bile točne.
@@ -118,6 +118,7 @@ Evo svega što se pohranjuje na našim poslužiteljima:
 | **Tehnički signali zlouporabe** (ponovljena prekoračenja, neuspjela provjera cjelovitosti — bez ikakvog teksta) | Sigurnost, borba protiv prijevara | Odvajaju se od vašeg identiteta pri brisanju računa |
 | **Jezik i verzija aplikacije** | Isporuka ispravnog sadržaja | Do brisanja vašeg računa |
 | **Sadržaj osobnih jezika koje stvorite** (njegov naziv, njegovo pismo i njegov rječnik — riječi i značenja koje ste vi, ili druge osobe, u njega upisali) | Omogućiti vam da svoj jezik pronađete na drugom uređaju, da ga razvijate i da ga dijelite s drugim korisnicima | Dok jezik postoji. Ako ga izbrišete, njegov zapis nestaje — ali kopija koju je već **uvezla druga osoba** od tada pripada njoj i **opstaje**, poput poruke koju je treća strana već primila, a koju ne možemo izbrisati kod nje |
+| **Vaše prilagođene persone** (njihov naziv, upute, odabrani avatar i, ako ste uvezli sliku, sličica od najviše 512 piksela — isto vrijedi za uvezeni amblem osobnog jezika) | Omogućiti vam da ih ponovno pronađete nakon ponovne instalacije ili na drugom uređaju te da ih dijelite. Upute persone šalju se AI usluzi pri svakom preoblikovanju koje ih koristi | Dok persona postoji. Persona stavljena u koš briše se 30 dana poslije, sljedeći put kad otvorite popis persona. Sve nestaje brisanjem vašeg računa |
 | **Vaši rječnici kamuflaže** (njihov naziv, tema, jezik, odabrani amblem i parovi riječi «stvarna riječ → šifrirana riječ») | Kamufliranje i dekodiranje vaših poruka, omogućiti vam da svoj rječnik pronađete na drugom uređaju, da ga razvijate i da ga dijelite | Dok rječnik postoji. **Rječnik premješten u koš ostaje sačuvan**: automatsko pražnjenje tog koša još ne postoji. Nestaje brisanjem vašeg računa |
 | **Riječi na čekanju** (osobni jezik i Kamuflaža): pojedinačne riječi iz vaših poruka kojih još nema u vašem rječniku — nikada rečenica —, s brojem pojavljivanja i datumima prvog i posljednjeg pojavljivanja | Predložiti vam da ih dodate u svoj rječnik i dati ih obraditi usluzi umjetne inteligencije kada ga proširujete | Sačuvane i nakon dodavanja, dok jezik ili rječnik postoji. **Ako pišete s rječnikom kamuflaže koji je druga osoba podijelila s vama**, riječi kojih u njemu nema izdvajaju se **u njezinu rječniku**, i ta ih osoba može vidjeti |
 | **Dijeljenje vaših jezika i rječnika** (token za dijeljenje, pohranjen samo u obliku otiska; povijest uvoza i povezivanja) | Omogućiti vašim bližnjima da čitaju vaše poruke. Vlasnik rječnika vidi popis osoba povezanih s njim (prikazno ime i Googleova profilna slika — nikada adresa e-pošte) | Token istječe. Trag opozvanog dijeljenja se čuva |
@@ -127,7 +128,7 @@ Evo svega što se pohranjuje na našim poslužiteljima:
 
 **Što ne prikupljamo:** vaše ime, vaše kontakte, vašu lokaciju, vaš adresar, vaše fotografije, vaš kalendar, povijest vaših aplikacija. Plume ne traži nijedno od tih dopuštenja.
 
-**Što ostaje isključivo na vašem telefonu:** vaše prilagođene persone i njihovi avatari, vaše postavke, vaša pravila po aplikaciji, međuspremnik prijevoda Potpomognutog čitanja (briše se na kraju svake sesije). Ništa od toga ne šalje se na naše poslužitelje.
+**Što ostaje isključivo na vašem telefonu:** vaše postavke, vaša pravila po aplikaciji, međuspremnik prijevoda Potpomognutog čitanja (briše se na kraju svake sesije). Ništa od toga ne šalje se na naše poslužitelje.
 
 ---
 

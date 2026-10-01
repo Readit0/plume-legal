@@ -38,6 +38,7 @@ A ń ṣàyẹ̀wò bí ìbéèrè náà bá ti wá gan-an láti ọ̀dọ̀ ol�
 - **àwọn àmì ìdámọ̀ ìbéèrè yín** — àwọn ìtọ́kasí ìmọ̀-ẹ̀rọ ti àwọn àtúnṣe tí a béèrè fún;
 - **àwọn ẹyọ ìwọ̀n lílò yín àti ìṣí sílẹ̀ yín** — àwọn ẹyọ tí a rà tí a kò tíì lò, ìṣí sílẹ̀ tí a rí gbà nípasẹ̀ ìpolówó ọjà, àwọn ààlà tí a tún tò;
 - **ìjọṣepọ̀ àwọn ẹ̀rọ yín pẹ̀lú àkántì yín** — àwọn fóònù tàbí tabúlẹ́ẹ̀tì yín mìíràn ni a ó yọ kúrò, wọn ó sì padà di ẹ̀rọ aláìdárúkọ lásán;
+- **àwọn orúkọ ara ẹni yín**, pẹ̀lú èyí tí a jù sínú àpótí ìdọ̀tí — orúkọ wọn, àwọn ìtọ́ni wọn, àwòrán wọn, àwọn àwòrán kékeré ti àwọn àwòrán tí ẹ gbé wọlé (àwòrán orúkọ ara ẹni àti àmì èdè) àti àwọn àmì pípín yín;
 - **àwọn àkójọ ọ̀rọ̀ ìpamọ́ra yín**, pẹ̀lú èyí tí a jù sínú àpótí ìdọ̀tí — orúkọ wọn, àkòrí wọn, àwọn ọ̀rọ̀ méjì-méjì wọn, àwọn ọ̀rọ̀ tí ń dúró, àwọn àmì pípín yín, àti àwọn àsopọ̀ ní ọ̀nà méjèèjì (àwọn àkójọ tí ẹ pín, àti èyí tí a pín fún yín);
 - **àwọn èdè ti ara ẹni tí ẹ dá** — orúkọ rẹ̀, alfábẹ́ẹ̀tì rẹ̀, ìwé-ìtumọ̀ rẹ̀, àwọn ọ̀rọ̀ tí ń dúró, àwọn àmì pípín yín, àti ìtàn gbígbà yín wọlé. **Ohun tí ìparẹ́ yìí kò lè ṣe:** bí ẹnìkejì bá ti gba ẹ̀dà èdè yín wọlé tẹ́lẹ̀, ẹ̀dà náà máa jẹ́ tirẹ̀ báyìí, yóò sì **wà** lẹ́yìn tí ẹ ti parẹ́ tiyín — gẹ́gẹ́bí ìránṣẹ́ tí ẹgbẹ́ kẹta ti gbà tẹ́lẹ̀, tí a kò sì lè lọ pa á rẹ́ ní ẹ̀gbẹ́ rẹ̀.
 
@@ -45,7 +46,7 @@ A ń ṣàyẹ̀wò bí ìbéèrè náà bá ti wá gan-an láti ọ̀dọ̀ ol�
 
 **A kì í fi ọ̀rọ̀ tí ẹ tún ṣe, tàbí ọ̀rọ̀ tí Kíka Ìrànlọ́wọ́ fi hàn lórí ìbojú pamọ́**: wọn kì í wà ní pípa mọ́ ní ibikíbi lórí àwọn olùpín wa, nítorí náà kò sí ohun tí a ó parẹ́. **Èyí kì í ṣe òótọ́ fún àwọn èdè ti ara ẹni àti àwọn àkójọ ọ̀rọ̀ ìpamọ́ra yín**: àkóónú wọn (orúkọ, alfábẹ́ẹ̀tì tàbí àkòrí, àwọn ọ̀rọ̀ àti ìtumọ̀ wọn), àti àwọn ọ̀rọ̀ ẹ̀yọ̀kan inú àwọn ìránṣẹ́ yín tí kò tíì sí nínú wọn, ni a ń fi pamọ́ ní tòótọ́ sórí àwọn olùpín wa — ìparẹ́ àkántì yín yóò parẹ́ wọn pẹ̀lú, gẹ́gẹ́bí ìyókù ohun tí í ṣe tiyín (wo òkè).
 
-**Lórí fóònù yín**, àwọn orúkọ ara ẹni yín, àwòrán wọn, ètò yín, àti àwọn òfin yín fún ohun èlò kọ̀ọ̀kan ni a fi pamọ́ ládùúgbò. Ìparẹ́ láti inú ohun èlò náà ń pa wọ́n rẹ́, wọ́n sì ń **parẹ́** nígbà gbogbo tí ẹ bá yọ Plume kúrò nínú ẹ̀rọ yín.
+**Lórí fóònù yín**, ètò yín, àti àwọn òfin yín fún ohun èlò kọ̀ọ̀kan ni a fi pamọ́ ládùúgbò. Ìparẹ́ láti inú ohun èlò náà ń pa wọ́n rẹ́, wọ́n sì ń **parẹ́** nígbà gbogbo tí ẹ bá yọ Plume kúrò nínú ẹ̀rọ yín.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Son güncelleme: 1 Ekim 2026** — Sürüm 2.1
 
-> *Sürüm 2.1'de neler değişti:* Sürüm 2.0'ın değinmediği **Kamuflaj modunu** anlatıyoruz ve geçerliliğini yitirmiş bir ifadeyi düzeltiyoruz: kişisel diller için de Kamuflaj için de **mesajlarınızdaki, sözlüğünüzde henüz bulunmayan sözcükler tek tek saklanır** — asla cümle değil — size bunları eklemeyi önerebilmek için. Ayrıntı «Bir dakikada» bölümünde, §2.2'de ve §3'tedir.
+> *Sürüm 2.1'de neler değişti:* Sürüm 2.0'ın değinmediği **Kamuflaj modunu** anlatıyoruz ve geçerliliğini yitirmiş bir ifadeyi düzeltiyoruz: kişisel diller için de Kamuflaj için de **mesajlarınızdaki, sözlüğünüzde henüz bulunmayan sözcükler tek tek saklanır** — asla cümle değil — size bunları eklemeyi önerebilmek için. Ayrıntı «Bir dakikada» bölümünde, §2.2'de ve §3'tedir. İkinci bir hatayı da düzeltiyoruz: **özel personalarınız ve avatarları sunucularımızda yedeklenir** — yalnızca telefonunuzda kalmazlar (bkz. §3).
 
 > *Sürüm 1.0'dan bu yana neler değişti ve uygulamada onay ekranını neden yeniden görebilirsiniz:*
 > artık doğru olmayan iki ifadeyi düzeltiyoruz. Öncelikle, **kişisel diller** özelliği,
@@ -117,6 +117,7 @@ Sunucularımızda saklananların tamamı şudur:
 | **Teknik kötüye kullanım sinyalleri** (tekrarlanan aşımlar, bütünlük denetimi başarısızlığı — hiçbir metin içermez) | Güvenlik, dolandırıcılıkla mücadele | Hesap silindiğinde kimliğinizden ayrılır |
 | **Uygulamanın dili ve sürümü** | Doğru içeriği sunmak | Hesabınızın silinmesine kadar |
 | **Oluşturduğunuz kişisel dillerin içeriği** (adı, alfabesi ve sözlüğü — sizin ya da başkalarının buraya yazdığı sözcükler ve tanımlar) | Dilinizi başka bir cihazda yeniden bulmanızı, geliştirmenizi ve başka kullanıcılarla paylaşmanızı sağlamak | Dil var olduğu sürece. Onu silerseniz kaydı ortadan kalkar — ancak **başka biri tarafından zaten içe aktarılmış** bir kopya artık ona aittir ve **varlığını sürdürür**, üçüncü bir kişinin çoktan aldığı bir mesaj gibi; onu kendi tarafından silmemiz mümkün değildir |
+| **Özel personalarınız** (adları, talimatları, seçilen avatar ve bir görsel içe aktardıysanız en fazla 512 piksellik bir küçük resim — kişisel bir dilin içe aktarılan amblemi için de aynı) | Yeniden kurulumdan sonra veya başka bir cihazda onları yeniden bulmanızı ve paylaşmanızı sağlamak. Bir personanın talimatı, onu kullanan her yeniden ifadede yapay zekâ hizmetine gönderilir | Persona var olduğu sürece. Çöp kutusuna atılmış bir persona, persona listenizi bir sonraki açışınızda, 30 gün sonra silinir. Hesabınızın silinmesiyle hepsi ortadan kalkar |
 | **Kamuflaj sözlükleriniz** (adları, temaları, dilleri, seçilen amblem ve «gerçek sözcük → kod sözcüğü» çiftleri) | Mesajlarınızı kamufle etmek ve çözmek, sözlüğünüzü başka bir cihazda yeniden bulmanızı, geliştirmenizi ve paylaşmanızı sağlamak | Sözlük var olduğu sürece. **Çöp kutusuna atılmış bir sözlük saklanmaya devam eder**: bu çöp kutusunu otomatik boşaltma henüz yoktur. Hesabınızın silinmesiyle ortadan kalkar |
 | **Bekleyen sözcükler** (kişisel dil ve Kamuflaj): mesajlarınızdaki, sözlüğünüzde henüz bulunmayan tek tek sözcükler — asla cümle değil —, görülme sayıları ve ilk ile son görülme tarihleriyle birlikte | Bunları sözlüğünüze eklemenizi önermek ve sözlüğünüzü büyüttüğünüzde yapay zekâ hizmetine işletmek | Eklendikten sonra bile, dil ya da sözlük var olduğu sürece saklanır. **Başka birinin sizinle paylaştığı bir kamuflaj sözlüğüyle yazarsanız**, eksik sözcükler **onun sözlüğünde** bir kenara ayrılır ve o kişi bunları görebilir |
 | **Dillerinizin ve sözlüklerinizin paylaşımı** (yalnızca özet değeri olarak saklanan bir paylaşım jetonu; içe aktarmaların ve bağlantıların geçmişi) | Yakınlarınızın mesajlarınızı okumasını sağlamak. Bir sözlüğün sahibi, ona bağlı kişilerin listesini görür (görünen ad ve Google profil fotoğrafı — asla e-posta adresi) | Jeton sona erer. İptal edilmiş bir paylaşımın izi saklanır |
@@ -126,7 +127,7 @@ Sunucularımızda saklananların tamamı şudur:
 
 **Toplamadıklarımız:** adınız, kişileriniz, konumunuz, adres defteriniz, fotoğraflarınız, takviminiz, uygulama geçmişiniz. Plume bu izinlerin hiçbirini istemez.
 
-**Yalnızca telefonunuzda kalanlar:** kişiselleştirdiğiniz personalar ve avatarları, ayarlarınız, uygulama başına kurallarınız, Destekli Okuma'nın çeviri önbelleği (her oturumun sonunda silinir). Bunların hiçbiri sunucularımıza gönderilmez.
+**Yalnızca telefonunuzda kalanlar:** ayarlarınız, uygulama başına kurallarınız, Destekli Okuma'nın çeviri önbelleği (her oturumun sonunda silinir). Bunların hiçbiri sunucularımıza gönderilmez.
 
 ---
 

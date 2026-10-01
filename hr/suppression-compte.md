@@ -37,6 +37,7 @@ Brisanje **trajno** uklanja:
 - **vaše identifikatore zahtjeva** — tehničke reference zatraženih preoblikovanja;
 - **vaše kredite i otključavanja kvote** — kupljene neiskorištene kredite, otključavanja dobivena oglasom, prilagođene gornje granice;
 - **povezanost vaših uređaja s vašim računom** — vaši drugi telefoni ili tableti odvezuju se i ponovno postaju obični anonimni uređaji.
+- **vaše prilagođene persone**, uključujući one u košu — njihov naziv, upute, avatar, sličice slika koje ste uvezli (avatari persona i amblemi jezika) i vaše tokene za dijeljenje;
 - **vaše rječnike kamuflaže**, uključujući one u košu — njihov naziv, temu, parove riječi, riječi na čekanju, vaše tokene za dijeljenje i veze u oba smjera (rječnike koje ste podijelili i one koji su podijeljeni s vama);
 - **osobne jezike koje ste stvorili** — njihov naziv, njihovo pismo, njihov rječnik, riječi na čekanju, vaše tokene za dijeljenje i vašu povijest uvoza. **Što ovo brisanje ne može učiniti:** ako je netko drugi već uvezao kopiju vašeg jezika kod sebe, ta kopija od tada pripada njemu i **opstaje** nakon vašeg brisanja — poput poruke koju je treća strana već primila, ne možemo je izbrisati kod nje.
 
@@ -44,7 +45,7 @@ Uređaj s kojeg tražite brisanje **neutralizira se**: njegova povezanost s vaš
 
 **Ne pohranjujemo tekstove koje ste preoblikovali ni tekst koji je Potpomognuto čitanje pročitalo sa zaslona**: ne čuvaju se nigdje na našim poslužiteljima, pa od njih nema ništa za izbrisati. **To ne vrijedi za vaše osobne jezike i vaše rječnike kamuflaže**: njihov sadržaj (naziv, pismo ili tema, riječi i značenja), kao i pojedinačne riječi iz vaših poruka kojih u njima još nije bilo, doista se pohranjuju na našim poslužiteljima — brisanje vašeg računa briše i njih, kao i sve ostalo što vam pripada (vidjeti gore).
 
-**Na vašem telefonu** vaše persone, vaši avatari, vaše postavke i vaša pravila po aplikaciji pohranjeni su lokalno. Briše ih brisanje pokrenuto iz aplikacije, a u svakom slučaju **nestaju kada deinstalirate Plume**.
+**Na vašem telefonu** vaše postavke i vaša pravila po aplikaciji pohranjeni su lokalno. Briše ih brisanje pokrenuto iz aplikacije, a u svakom slučaju **nestaju kada deinstalirate Plume**.
 
 ---
 

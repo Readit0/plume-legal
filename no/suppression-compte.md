@@ -37,6 +37,7 @@ Slettingen fjerner **for godt**:
 - **forespørselsidentifikatorene dine** — de tekniske referansene til omformuleringene du har bedt om;
 - **kredittene og kvoteopplåsingene dine** — kjøpte kreditter som ikke er brukt, opplåsinger du har fått gjennom annonser, justerte tak;
 - **koblingen mellom enhetene dine og kontoen din** — de andre telefonene eller nettbrettene dine kobles fra og blir igjen alminnelige anonyme enheter;
+- **dine egne personaer**, også de som er lagt i papirkurven — navnet, instruksjonene, avataren, miniatyrbildene av bildene du har importert (personaavatarer og språkemblemer) og delingstokenene dine;
 - **kamuflasjeordlistene dine**, også de som er lagt i papirkurven — navnet, temaet, ordparene, de ventende ordene, delingstokenene dine, og koblingene i begge retninger (ordlistene du har delt, og de som er delt med deg);
 - **de personlige språkene du har opprettet** — navnet, alfabetet, ordforrådet, de ventende ordene, delingstokenene og importhistorikken din. **Det denne slettingen ikke kan gjøre:** hvis noen andre allerede har importert en kopi av språket ditt, tilhører den kopien nå vedkommende og **overlever** slettingen din — som en melding som allerede er mottatt av en tredjepart, kan vi ikke slette den hos dem.
 
@@ -44,7 +45,7 @@ Enheten du ber om slettingen fra, blir **nøytralisert**: koblingen til kontoen 
 
 **Vi lagrer ikke tekstene du har omformulert, eller teksten som Assistert lesing har lest på skjermen**: de blir ikke oppbevart noe sted på serverne våre, og det er derfor ingenting å slette av dem. **Det gjelder ikke de personlige språkene og kamuflasjeordlistene dine**: innholdet i dem (navn, alfabet eller tema, ord og definisjoner), samt de enkeltstående ordene i meldingene dine som ennå manglet der, blir faktisk lagret på serverne våre — sletting av kontoen din fjerner dem, som resten av det som tilhører deg (se ovenfor).
 
-**På telefonen din** er personaene dine, avatarene dine, innstillingene dine og reglene dine per app lagret lokalt. De slettes når du sletter fra appen, og de forsvinner uansett **når du avinstallerer Plume**.
+**På telefonen din** er innstillingene dine og reglene dine per app lagret lokalt. De slettes når du sletter fra appen, og de forsvinner uansett **når du avinstallerer Plume**.
 
 ---
 

@@ -37,6 +37,7 @@ La supresión borra **definitivamente**:
 - **sus identificadores de solicitud**: las referencias técnicas de las reformulaciones solicitadas;
 - **sus créditos y desbloqueos de cuota**: créditos comprados no consumidos, desbloqueos obtenidos mediante publicidad, topes ajustados;
 - **la vinculación de sus dispositivos a su cuenta**: sus otros teléfonos o tabletas quedan desvinculados y vuelven a ser simples dispositivos anónimos;
+- **sus personas personalizadas**, incluidas las enviadas a la papelera: su nombre, sus instrucciones, su avatar, las miniaturas de las imágenes que importó (avatares de persona y emblemas de idioma) y sus tokens de compartición;
 - **sus léxicos de camuflaje**, incluidos los enviados a la papelera: su nombre, su tema, sus pares de palabras, las palabras pendientes, sus tokens de compartición, y las vinculaciones en ambos sentidos (los léxicos que usted compartió y los que se compartieron con usted);
 - **los idiomas personales que usted creó**: su nombre, su alfabeto, su léxico, las palabras pendientes, sus tokens de compartición y su historial de importación. **Lo que esta supresión no puede hacer:** si otra persona ya ha importado una copia de su idioma, esa copia pasa a pertenecerle a ella y **sobrevive** a su supresión, como un mensaje ya recibido por un tercero que no podemos borrar en su lado.
 
@@ -44,7 +45,7 @@ El dispositivo desde el que solicita la supresión queda **neutralizado**: su vi
 
 **No almacenamos los textos que usted ha reformulado, ni el texto leído en la pantalla por la Lectura Asistida**: no se conservan en ninguna parte de nuestros servidores, así que no hay nada que suprimir al respecto. **Esto no es cierto de sus idiomas personales ni de sus léxicos de camuflaje**: su contenido (nombre, alfabeto o tema, palabras y definiciones), así como las palabras sueltas de sus mensajes que aún les faltaban, sí se almacenan en nuestros servidores — la supresión de su cuenta los borra, como el resto de lo que le pertenece (véase más arriba).
 
-**En su teléfono**, sus personas, sus avatares, sus ajustes y sus reglas por aplicación se almacenan localmente. Se borran con la supresión efectuada desde la aplicación y, en cualquier caso, **desaparecen cuando desinstala Plume**.
+**En su teléfono**, sus ajustes y sus reglas por aplicación se almacenan localmente. Se borran con la supresión efectuada desde la aplicación y, en cualquier caso, **desaparecen cuando desinstala Plume**.
 
 ---
 

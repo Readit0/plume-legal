@@ -37,6 +37,7 @@ Izbris **dokončno** odstrani:
 - **vaše identifikatorje zahtev** — tehnične reference zahtevanih preoblikovanj;
 - **vaše dobropise in odklepe kvote** — kupljene neporabljene dobropise, odklepe, pridobljene z oglasom, prilagojene zgornje meje;
 - **povezanost vaših naprav z vašim računom** — vaši drugi telefoni ali tablice se odvežejo in spet postanejo navadne anonimne naprave;
+- **vaše prilagojene persone**, tudi tiste, ki so v košu — njihovo ime, navodila, avatar, sličice uvoženih slik (avatarji person in emblemi jezikov) ter vaše žetone za deljenje;
 - **vaše besednjake kamuflaže**, tudi tiste, ki so v košu — njihovo ime, temo, pare besed, čakajoče besede, vaše žetone za deljenje in povezave v obe smeri (besednjake, ki ste jih delili, in tiste, ki so bili deljeni z vami);
 - **osebni jeziki, ki ste jih ustvarili** — njihovo ime, abeceda, besednjak, čakajoče besede, vaši žetoni za deljenje in vaša zgodovina uvozov. **Česa ta izbris ne more storiti:** če je nekdo drug že uvozil kopijo vašega jezika k sebi, ta kopija odslej pripada njemu in **preživi** vaš izbris — kot sporočilo, ki ga je tretja oseba že prejela in ga pri njej ne moremo izbrisati.
 
@@ -44,7 +45,7 @@ Naprava, s katere zahtevate izbris, se **nevtralizira**: njena povezanost z vaš
 
 **Ne hranimo besedil, ki ste jih preoblikovali, niti besedila, ki ga je Asistirano branje prebralo z zaslona:** nikjer na naših strežnikih se ne hranijo, zato od njih ni ničesar za izbrisati. **To ne velja za vaše osebne jezike in besednjake kamuflaže:** njihova vsebina (ime, abeceda ali tema, besede in pomeni) ter posamezne besede iz vaših sporočil, ki jih v njih še ni bilo, so res shranjene na naših strežnikih — izbris vašega računa jih izbriše, tako kot vse ostalo, kar vam pripada (glejte zgoraj).
 
-**Na vašem telefonu** so vaše persone, vaši avatarji, vaše nastavitve in vaša pravila po aplikaciji shranjeni lokalno. Izbriše jih izbris, sprožen iz aplikacije, v vsakem primeru pa **izginejo, ko odstranite Plume**.
+**Na vašem telefonu** so vaše nastavitve in vaša pravila po aplikaciji shranjeni lokalno. Izbriše jih izbris, sprožen iz aplikacije, v vsakem primeru pa **izginejo, ko odstranite Plume**.
 
 ---
 

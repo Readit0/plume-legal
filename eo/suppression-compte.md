@@ -38,6 +38,7 @@ La forigo viŝas **definitive**:
 - **viajn identigilojn de petoj** — la teknikajn referencojn de la petitaj reformuloj;
 - **viajn kreditojn kaj malŝlosojn de kvoto** — aĉetitajn nekonsumitajn kreditojn, malŝlosojn akiritajn per reklamo, alĝustigitajn plafonojn;
 - **la ligon de viaj aparatoj al via konto** — viaj aliaj telefonoj aŭ tabuletoj estas malligataj kaj refariĝas simplaj anonimaj aparatoj;
+- **viajn proprajn rolulojn**, inkluzive tiujn metitajn en la rubujon — ilia nomo, iliaj instrukcioj, ilia avataro, la bildetoj de la bildoj, kiujn vi importis (avataroj de roluloj kaj emblemoj de lingvoj) kaj viaj kunhavigaj ĵetonoj;
 - **viajn kamuflajn vortarojn**, inkluzive tiujn metitajn en la rubujon — ilia nomo, ilia temo, iliaj vortoparoj, la atendantaj vortoj, viaj kunhavigaj ĵetonoj kaj la ligoj en ambaŭ direktoj (la vortaroj, kiujn vi kunhavigis, kaj tiuj, kiuj estis kunhavigitaj kun vi);
 - **la propraj lingvoj, kiujn vi kreis** — ilia nomo, ilia alfabeto, ilia vortaro, la atendantaj vortoj, viaj kunhavigaj ĵetonoj kaj via importa historio. **Kion ĉi tiu forigo ne povas fari:** se iu alia jam importis kopion de via lingvo, tiu kopio apartenas de nun al tiu persono kaj **postvivas** vian forigon — kiel mesaĝo jam ricevita de triulo, ni ne povas forviŝi ĝin ĉe tiu.
 
@@ -45,7 +46,7 @@ La aparato, el kiu vi petas la forigon, estas **neŭtraligata**: ĝia ligo al vi
 
 **Ni ne konservas la tekstojn, kiujn vi reformulis, nek la tekston, kiun la Asistata Legado legis sur la ekrano**: ili ne estas konservataj ie ajn sur niaj serviloj, do estas nenio por forigi pri ili. **Tio ne validas por viaj propraj lingvoj kaj viaj kamuflaj vortaroj**: ilia enhavo (nomo, alfabeto aŭ temo, vortoj kaj difinoj), same kiel la apartaj vortoj de viaj mesaĝoj, kiuj ankoraŭ mankis en ili, ja estas konservataj sur niaj serviloj — la forigo de via konto forviŝas ilin, kiel la ceteron de tio, kio apartenas al vi (vidu supre).
 
-**Sur via telefono**, viaj roluloj, viaj avataroj, viaj agordoj kaj viaj reguloj laŭ aplikaĵo estas konservataj loke. Ili estas viŝataj de la forigo farita el la aplikaĵo, kaj ĉiukaze **malaperas, kiam vi malinstalas Plume**.
+**Sur via telefono**, viaj agordoj kaj viaj reguloj laŭ aplikaĵo estas konservataj loke. Ili estas viŝataj de la forigo farita el la aplikaĵo, kaj ĉiukaze **malaperas, kiam vi malinstalas Plume**.
 
 ---
 

@@ -37,6 +37,7 @@ De verwijdering wist **definitief**:
 - **uw aanvraagidentificaties** — de technische referenties van de gevraagde herschrijvingen;
 - **uw tegoeden en quotavrijspelingen** — gekochte, niet verbruikte tegoeden, via advertenties verkregen vrijspelingen, aangepaste plafonds;
 - **de koppeling van uw apparaten aan uw account** — uw andere telefoons of tablets worden losgekoppeld en worden weer gewone, anonieme apparaten;
+- **uw eigen persona's**, ook die in de prullenbak — hun naam, hun instructies, hun avatar, de miniaturen van de afbeeldingen die u hebt geïmporteerd (persona-avatars en taalemblemen) en uw deeltokens;
 - **uw camouflagewoordenlijsten**, ook die in de prullenbak — hun naam, hun thema, hun woordparen, de wachtende woorden, uw deeltokens en de koppelingen in beide richtingen (de woordenlijsten die u hebt gedeeld en die welke met u zijn gedeeld);
 - **de persoonlijke talen die u hebt aangemaakt** — hun naam, hun alfabet, hun lexicon, de wachtende woorden, uw deeltokens en uw importgeschiedenis. **Wat deze verwijdering niet kan doen:** als iemand anders al een kopie van uw taal heeft geïmporteerd, behoort die kopie voortaan aan die persoon toe en **blijft zij bestaan** na uw verwijdering — zoals een bericht dat al door een derde is ontvangen, wij kunnen het niet bij hem wissen.
 
@@ -44,7 +45,7 @@ Het apparaat van waaruit u de verwijdering vraagt, wordt **geneutraliseerd**: de
 
 **Wij slaan de teksten die u hebt herschreven niet op, noch de tekst die door de Leeshulp van het scherm is gelezen**: die worden nergens op onze servers bewaard, er valt dus niets van te verwijderen. **Dat geldt niet voor uw persoonlijke talen en uw camouflagewoordenlijsten**: hun inhoud (naam, alfabet of thema, woorden en definities), evenals de losse woorden uit uw berichten die daarin nog ontbraken, worden wel op onze servers opgeslagen — het verwijderen van uw account wist ze, zoals de rest van wat u toebehoort (zie hierboven).
 
-**Op uw telefoon** worden uw persona's, uw avatars, uw instellingen en uw regels per app lokaal opgeslagen. Zij worden gewist door de verwijdering vanuit de app, en zij **verdwijnen hoe dan ook wanneer u Plume verwijdert van uw telefoon**.
+**Op uw telefoon** worden uw instellingen en uw regels per app lokaal opgeslagen. Zij worden gewist door de verwijdering vanuit de app, en zij **verdwijnen hoe dan ook wanneer u Plume verwijdert van uw telefoon**.
 
 ---
 

@@ -38,6 +38,7 @@ A supresión borra **definitivamente**:
 - **os seus identificadores de solicitude**: as referencias técnicas das reformulacións solicitadas;
 - **os seus créditos e desbloqueos de cota**: créditos comprados non consumidos, desbloqueos obtidos mediante publicidade, límites axustados;
 - **a vinculación dos seus dispositivos á súa conta**: os seus outros teléfonos ou tabletas quedan desvinculados e volven ser simples dispositivos anónimos;
+- **as súas personas personalizadas**, incluídas as enviadas ao lixo: o seu nome, as súas instrucións, o seu avatar, as miniaturas das imaxes que importou (avatares de persona e emblemas de idioma) e os seus tokens de compartición;
 - **os seus léxicos de camuflaxe**, incluídos os enviados ao lixo: o seu nome, o seu tema, os seus pares de palabras, as palabras pendentes, os seus tokens de compartición e as vinculacións nos dous sentidos (os léxicos que compartiu e os que compartiron con vostede);
 - **os idiomas persoais que vostede creou**: o seu nome, o seu alfabeto, o seu léxico, as palabras pendentes, os seus tokens de compartición e o seu historial de importación. **O que esta supresión non pode facer:** se outra persoa xa importou unha copia do seu idioma, esa copia pasa a pertencerlle a ela e **sobrevive** á súa supresión, coma unha mensaxe xa recibida por un terceiro que non podemos borrar do seu lado.
 
@@ -45,7 +46,7 @@ O dispositivo desde o que solicita a supresión queda **neutralizado**: a súa v
 
 **Non almacenamos os textos que vostede reformulou, nin o texto lido na pantalla pola Lectura Asistida**: non se conservan en ningures nos nosos servidores, así que non hai nada que suprimir deles. **Isto non é certo dos seus idiomas persoais e dos seus léxicos de camuflaxe**: o seu contido (nome, alfabeto ou tema, palabras e definicións), así como as palabras soltas das súas mensaxes que aínda lles faltaban, si se almacenan nos nosos servidores — a supresión da súa conta bórraos, coma o resto do que lle pertence (véxase máis arriba).
 
-**No seu teléfono**, as súas personas, os seus avatares, os seus axustes e as súas regras por aplicación almacénanse localmente. Bórranse coa supresión feita desde a aplicación e, en todo caso, **desaparecen cando desinstala Plume**.
+**No seu teléfono**, os seus axustes e as súas regras por aplicación almacénanse localmente. Bórranse coa supresión feita desde a aplicación e, en todo caso, **desaparecen cando desinstala Plume**.
 
 ---
 

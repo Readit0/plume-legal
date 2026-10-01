@@ -2,7 +2,7 @@
 
 **Utolsó frissítés: 2026. október 1.** — 2.1-es verzió
 
-> *Mi változott a 2.1-es verzióban:* bemutatjuk az **Álcázás módot**, amelyet a 2.0-s verzió nem említett, és helyesbítünk egy állítást, amely már nem volt pontos: mind a saját nyelvek, mind az Álcázás esetében **az üzeneteinek azokat a szavait, amelyek még hiányoznak a szókincséből, egyenként megőrizzük** — soha nem a mondatot —, hogy javasolhassuk Önnek a felvételüket. A részletek az „Egy percben”, a 2.2. és a 3. pontban találhatók.
+> *Mi változott a 2.1-es verzióban:* bemutatjuk az **Álcázás módot**, amelyet a 2.0-s verzió nem említett, és helyesbítünk egy állítást, amely már nem volt pontos: mind a saját nyelvek, mind az Álcázás esetében **az üzeneteinek azokat a szavait, amelyek még hiányoznak a szókincséből, egyenként megőrizzük** — soha nem a mondatot —, hogy javasolhassuk Önnek a felvételüket. A részletek az „Egy percben”, a 2.2. és a 3. pontban találhatók. Egy második hibát is helyesbítünk: **az egyéni personái és azok avatarjai a szervereinken mentésre kerülnek** — nem csak a telefonján maradnak (lásd a 3. pontot).
 
 > *Mi változott az 1.0-s verzió óta, és miért lehet, hogy újra látja az elfogadási
 > képernyőt az alkalmazásban:* két állítást pontosítunk, amelyek már nem voltak pontosak.
@@ -118,6 +118,7 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 | **Visszaélésre utaló technikai jelzések** (ismételt túllépések, sikertelen integritás-ellenőrzés — mindenféle szöveg nélkül) | Biztonság, csalás elleni küzdelem | A fiók törlésekor elválasztjuk őket az Ön személyazonosságától |
 | **Az alkalmazás nyelve és verziója** | A megfelelő tartalom kiszolgálása | A fiókja törléséig |
 | **Az Ön által létrehozott saját nyelvek tartalma** (a neve, az ábécéje és a szókincse — a szavak és jelentések, amelyeket Ön, vagy mások, beírtak) | Lehetővé tenni, hogy egy másik készüléken is megtalálja a nyelvét, hogy továbbfejlessze, és hogy megossza más felhasználókkal | Amíg a nyelv létezik. Ha törli, a lapja eltűnik — de egy már **más személy által importált** másolat ettől kezdve az övé, és **fennmarad**, mint egy harmadik fél által már megkapott üzenet, amelyet nem tudunk töröltetni nála |
+| **Az Ön egyéni personái** (nevük, utasításaik, a választott avatar, és ha importált képet, legfeljebb 512 pixeles bélyegkép — ugyanez vonatkozik egy saját nyelv importált jelképére is) | Lehetővé tenni, hogy újratelepítés után vagy egy másik készüléken is megtalálja őket, és hogy megossza őket. A persona utasítása minden olyan átfogalmazáskor elküldésre kerül az MI-szolgáltatásnak, amely használja azt | Amíg a persona létezik. A lomtárba helyezett personát 30 nappal később töröljük, amikor legközelebb megnyitja a personái listáját. Minden eltűnik a fiókja törlésekor |
 | **Az Ön álcázási szótárai** (nevük, témájuk, nyelvük, a választott jelkép, valamint a „valódi szó → kódszó” szópárok) | Az üzenetei álcázása és visszafejtése, lehetővé tenni, hogy egy másik készüléken is megtalálja a szótárát, hogy továbbfejlessze, és hogy megossza | Amíg a szótár létezik. **A lomtárba helyezett szótár megmarad**: a lomtár automatikus ürítése még nem létezik. A fiókja törlésekor eltűnik |
 | **A várakozó szavak** (saját nyelv és Álcázás): az üzeneteinek azok az egyes szavai, amelyek még hiányoznak a szókincséből — soha nem a mondat —, a előfordulásuk számával, valamint az első és az utolsó előfordulás dátumával | Javasolni Önnek a szókincséhez adásukat, és feldolgoztatni őket az MI-szolgáltatással, amikor bővíti azt | A felvételük után is megőrizve, amíg a nyelv vagy a szótár létezik. **Ha olyan álcázási szótárral ír, amelyet más osztott meg Önnel**, a hiányzó szavakat **az ő szótárában** tesszük félre, és az illető láthatja őket |
 | **A nyelvei és a szótárai megosztása** (egy megosztási token, kizárólag ujjlenyomat formájában tárolva; az importálások és a kapcsolódások előzményei) | Lehetővé tenni a hozzátartozóinak, hogy elolvassák az üzeneteit. A szótár tulajdonosa látja a hozzá kapcsolódó személyek listáját (megjelenített név és Google-profilkép — soha nem az e-mail-cím) | A token lejár. A visszavont megosztás nyoma megmarad |
@@ -127,7 +128,7 @@ Az elküldött szöveg felső korláthoz kötött: 1 200 karakter egy átfogalma
 
 **Amit nem gyűjtünk:** az Ön nevét, a névjegyeit, a tartózkodási helyét, a címjegyzékét, a fényképeit, a naptárát, az alkalmazásai előzményeit. A Plume egyik ilyen engedélyt sem kéri.
 
-**Ami kizárólag a telefonján marad:** az egyéni personái és azok avatarjai, a beállításai, az alkalmazásonkénti szabályai, a Segített Olvasás fordítási gyorsítótára (amely minden munkamenet végén törlődik). Ezek közül semmit nem küldünk el a szervereinkre.
+**Ami kizárólag a telefonján marad:** a beállításai, az alkalmazásonkénti szabályai, a Segített Olvasás fordítási gyorsítótára (amely minden munkamenet végén törlődik). Ezek közül semmit nem küldünk el a szervereinkre.
 
 ---
 

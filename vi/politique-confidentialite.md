@@ -2,7 +2,7 @@
 
 **Cập nhật lần cuối: ngày 1 tháng 10 năm 2026** — Phiên bản 2.1
 
-> *Những gì đã thay đổi trong phiên bản 2.1:* chúng tôi mô tả **chế độ Ngụy trang** mà phiên bản 2.0 không đề cập, và chúng tôi sửa một khẳng định đã không còn chính xác: đối với các ngôn ngữ cá nhân cũng như đối với Ngụy trang, **những từ trong tin nhắn của bạn mà từ điển của bạn còn thiếu được lưu giữ từng từ một** — không bao giờ lưu cả câu — để có thể đề xuất bạn thêm chúng vào. Chi tiết nằm ở mục « Trong một phút », ở §2.2 và ở §3.
+> *Những gì đã thay đổi trong phiên bản 2.1:* chúng tôi mô tả **chế độ Ngụy trang** mà phiên bản 2.0 không đề cập, và chúng tôi sửa một khẳng định đã không còn chính xác: đối với các ngôn ngữ cá nhân cũng như đối với Ngụy trang, **những từ trong tin nhắn của bạn mà từ điển của bạn còn thiếu được lưu giữ từng từ một** — không bao giờ lưu cả câu — để có thể đề xuất bạn thêm chúng vào. Chi tiết nằm ở mục « Trong một phút », ở §2.2 và ở §3. Chúng tôi cũng sửa một sai sót thứ hai: **các persona bạn tự tạo cùng ảnh đại diện của chúng được sao lưu trên máy chủ của chúng tôi** — chúng không chỉ nằm trên điện thoại của bạn (xem §3).
 
 > *Những gì đã thay đổi kể từ phiên bản 1.0, và vì sao bạn có thể thấy lại màn hình chấp
 > thuận trong ứng dụng:* chúng tôi đang sửa lại hai điều khẳng định không còn chính xác.
@@ -118,6 +118,7 @@ Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng
 | **Tín hiệu kỹ thuật về lạm dụng** (vượt hạn mức nhiều lần, kiểm tra tính toàn vẹn thất bại — không kèm bất kỳ văn bản nào) | An ninh, chống gian lận | Được tách rời khỏi danh tính của bạn khi xóa tài khoản |
 | **Ngôn ngữ và phiên bản ứng dụng** | Cung cấp đúng nội dung | Cho đến khi bạn xóa tài khoản |
 | **Nội dung của các ngôn ngữ cá nhân mà bạn tạo ra** (tên gọi, bảng chữ cái, và từ điển của nó — các từ và định nghĩa mà bạn, hoặc những người khác, đã viết vào đó) | Giúp bạn tìm lại ngôn ngữ của mình trên một thiết bị khác, phát triển nó, và chia sẻ nó với những người dùng khác | Chừng nào ngôn ngữ đó còn tồn tại. Nếu bạn xóa nó, hồ sơ của nó biến mất — nhưng một bản sao **đã được người khác nhập vào** thì từ đó thuộc về người đó và **vẫn tồn tại**, giống như một tin nhắn mà một bên thứ ba đã nhận được và chúng tôi không thể xóa khỏi phía họ |
+| **Các persona bạn tự tạo** (tên, các chỉ dẫn, ảnh đại diện đã chọn và, nếu bạn đã nhập một hình ảnh, một ảnh thu nhỏ tối đa 512 điểm ảnh — tương tự với biểu tượng được nhập của một ngôn ngữ cá nhân) | Giúp bạn tìm lại chúng sau khi cài đặt lại hoặc trên một thiết bị khác, và chia sẻ chúng. Chỉ dẫn của một persona được gửi đến dịch vụ AI ở mỗi lượt viết lại có dùng nó | Chừng nào persona còn tồn tại. Một persona đã bỏ vào thùng rác bị xóa sau 30 ngày, vào lần tiếp theo bạn mở danh sách persona. Tất cả biến mất khi tài khoản của bạn bị xóa |
 | **Các từ điển ngụy trang của bạn** (tên, chủ đề, ngôn ngữ, biểu tượng đã chọn, và các cặp từ « từ thật → từ mật mã ») | Ngụy trang và giải mã tin nhắn của bạn, giúp bạn tìm lại từ điển trên một thiết bị khác, phát triển nó và chia sẻ nó | Chừng nào từ điển đó còn tồn tại. **Một từ điển đã bỏ vào thùng rác vẫn được giữ lại:** hiện chưa có cơ chế dọn thùng rác này tự động. Nó biến mất khi tài khoản của bạn bị xóa |
 | **Các từ đang chờ** (ngôn ngữ cá nhân và Ngụy trang): những từ riêng lẻ trong tin nhắn của bạn mà từ điển của bạn còn thiếu — không bao giờ là cả câu —, kèm số lần xuất hiện và ngày xuất hiện đầu tiên và gần nhất | Đề xuất bạn thêm chúng vào từ điển, và để dịch vụ AI xử lý chúng khi bạn làm từ điển lớn thêm | Được giữ lại ngay cả sau khi đã được thêm vào, chừng nào ngôn ngữ hoặc từ điển còn tồn tại. **Nếu bạn viết với một từ điển ngụy trang do người khác chia sẻ cho bạn**, những từ còn thiếu được để riêng ra **trong từ điển của người đó**, và người đó có thể xem chúng |
 | **Việc chia sẻ các ngôn ngữ và từ điển của bạn** (một mã chia sẻ, chỉ được lưu dưới dạng dấu vân tay mã hóa; lịch sử nhập và liên kết) | Cho phép người thân của bạn đọc tin nhắn của bạn. Chủ sở hữu của một từ điển xem được danh sách những người được liên kết với nó (tên hiển thị và ảnh hồ sơ Google — không bao giờ là địa chỉ email) | Mã chia sẻ hết hạn. Dấu vết của một lượt chia sẻ đã bị thu hồi vẫn được giữ lại |
@@ -127,7 +128,7 @@ Sau đây là toàn bộ những gì được lưu trên máy chủ của chúng
 
 **Những gì chúng tôi không thu thập:** tên của bạn, danh bạ của bạn, vị trí của bạn, sổ địa chỉ của bạn, ảnh của bạn, lịch của bạn, lịch sử các ứng dụng của bạn. Plume không yêu cầu bất kỳ quyền nào trong số đó.
 
-**Những gì chỉ ở lại trên điện thoại của bạn:** các persona bạn tự tạo cùng ảnh đại diện của chúng, các thiết lập của bạn, các quy tắc theo từng ứng dụng của bạn, bộ nhớ đệm bản dịch của Đọc Có Hỗ Trợ (được xóa vào cuối mỗi phiên). Không thứ nào trong số đó được gửi đến máy chủ của chúng tôi.
+**Những gì chỉ ở lại trên điện thoại của bạn:** các thiết lập của bạn, các quy tắc theo từng ứng dụng của bạn, bộ nhớ đệm bản dịch của Đọc Có Hỗ Trợ (được xóa vào cuối mỗi phiên). Không thứ nào trong số đó được gửi đến máy chủ của chúng tôi.
 
 ---
 

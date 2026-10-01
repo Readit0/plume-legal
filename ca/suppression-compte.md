@@ -38,6 +38,7 @@ La supressió esborra **definitivament**:
 - **els seus identificadors de sol·licitud**: les referències tècniques de les reformulacions demanades;
 - **els seus crèdits i desbloquejos de quota**: crèdits comprats no consumits, desbloquejos obtinguts amb publicitat, topalls ajustats;
 - **la vinculació dels seus dispositius al seu compte**: els seus altres telèfons o tauletes queden deslligats i tornen a ser simples dispositius anònims;
+- **les seves personas personalitzades**, incloses les enviades a la paperera: el seu nom, les seves instruccions, el seu avatar, les miniatures de les imatges que ha importat (avatars de persona i emblemes d'idioma) i els seus testimonis de compartició;
 - **els seus lèxics de camuflatge**, inclosos els enviats a la paperera: el seu nom, el seu tema, les seves parelles de paraules, les paraules pendents, els seus testimonis de compartició i els vincles en els dos sentits (els lèxics que ha compartit i els que s'han compartit amb vostè);
 - **els idiomes personals que ha creat**: el seu nom, el seu alfabet, el seu lèxic, les paraules pendents, els seus testimonis de compartició i el seu historial d'importació. **El que aquesta supressió no pot fer:** si algú altre ja ha importat una còpia del seu idioma a casa seva, aquesta còpia passa a pertànyer-li i **sobreviu** a la seva supressió — com un missatge ja rebut per un tercer, que no podem esborrar de la seva banda.
 
@@ -45,7 +46,7 @@ El dispositiu des del qual demana la supressió queda **neutralitzat**: la seva 
 
 **No emmagatzemem els textos que ha reformulat, ni el text llegit a la pantalla per la Lectura Assistida**: no es conserven enlloc dels nostres servidors, de manera que no hi ha res a suprimir-ne. **Això no és cert dels seus idiomes personals ni dels seus lèxics de camuflatge:** el seu contingut (nom, alfabet o tema, paraules i definicions), així com les paraules aïllades dels seus missatges que hi mancaven encara, sí que s'emmagatzema als nostres servidors — la supressió del seu compte l'esborra, com la resta del que li pertany (vegeu més amunt).
 
-**Al seu telèfon**, les seves personas, els seus avatars, els seus paràmetres i les seves regles per aplicació s'emmagatzemen localment. S'esborren amb la supressió feta des de l'aplicació i, en tot cas, **desapareixen quan desinstal·la Plume**.
+**Al seu telèfon**, els seus paràmetres i les seves regles per aplicació s'emmagatzemen localment. S'esborren amb la supressió feta des de l'aplicació i, en tot cas, **desapareixen quan desinstal·la Plume**.
 
 ---
 

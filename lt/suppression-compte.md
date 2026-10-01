@@ -37,6 +37,7 @@ Ištrynimas **negrįžtamai** panaikina:
 - **jūsų užklausų identifikatorius** — prašytų performulavimų technines nuorodas;
 - **jūsų kvotos kreditus ir atrakinimus** — nupirktus nesunaudotus kreditus, už reklamą gautus atrakinimus, pakoreguotas ribas;
 - **jūsų įrenginių susiejimą su jūsų paskyra** — kiti jūsų telefonai ar planšetiniai kompiuteriai atsiejami ir vėl tampa paprastais anoniminiais įrenginiais;
+- **jūsų individualizuotas personas**, įskaitant į šiukšlinę perkeltas — jų pavadinimą, nurodymus, avatarą, jūsų importuotų paveikslėlių miniatiūras (personų avatarus ir kalbų emblemas) ir jūsų dalijimosi žetonus;
 - **jūsų Kamufliažo žodynus**, įskaitant į šiukšlinę perkeltus — jų pavadinimą, temą, žodžių poras, laukiančius žodžius, jūsų dalijimosi žetonus ir abipusius susiejimus (žodynus, kuriais pasidalijote jūs, ir tuos, kuriais pasidalijo su jumis);
 - **jūsų sukurtas individualias kalbas** — jų pavadinimą, abėcėlę, žodyną, laukiančius žodžius, jūsų dalijimosi žetonus ir importavimo istoriją. **Ko šis ištrynimas negali padaryti:** jei kas nors kitas jau importavo jūsų kalbos kopiją pas save, ta kopija dabar priklauso jam ir **išlieka** po jūsų ištrynimo — kaip jau trečiosios šalies gautas pranešimas, kurio negalime pas juos ištrinti.
 
@@ -44,7 +45,7 @@ Ištrynimas **negrįžtamai** panaikina:
 
 **Mes nesaugome tekstų, kuriuos performulavote, nei teksto, kurį nuo ekrano nuskaitė pagalbinis skaitymas**: jie niekur mūsų serveriuose nesaugomi, todėl ten nėra ko trinti. **Tai negalioja jūsų individualioms kalboms ir Kamufliažo žodynams**: jų turinys (pavadinimas, abėcėlė ar tema, žodžiai ir apibrėžimai), taip pat atskiri jūsų žinučių žodžiai, kurių juose dar trūko, iš tiesų saugomi mūsų serveriuose — jūsų paskyros ištrynimas juos pašalina, kaip ir likusią jums priklausančią nuosavybę (žr. aukščiau).
 
-**Jūsų telefone** jūsų personos, jūsų avatarai, jūsų nustatymai ir jūsų taisyklės kiekvienai programėlei saugomi vietoje. Juos ištrina ištrynimas iš programėlės, ir bet kuriuo atveju jie **dingsta, kai pašalinate Plume**.
+**Jūsų telefone** jūsų nustatymai ir jūsų taisyklės kiekvienai programėlei saugomi vietoje. Juos ištrina ištrynimas iš programėlės, ir bet kuriuo atveju jie **dingsta, kai pašalinate Plume**.
 
 ---
 

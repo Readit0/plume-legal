@@ -37,6 +37,7 @@ Scriosann an scriosadh **go buan**:
 - **aitheantóirí d'iarratas** — tagairtí teicniúla na n-athfhocluithe a iarradh;
 - **do chreidmheasanna agus do dhíghlasálacha cuóta** — creidmheasanna ceannaithe nach bhfuil caite, díghlasálacha a fuarthas trí fhógraíocht, uasteorainneacha coigeartaithe;
 - **ceangal do ghléasanna le do chuntas** — scaoiltear do ghutháin nó do thaibléid eile agus filleann siad ar a bheith ina ngléasanna anaithnide simplí;
+- **do chuid personaí saincheaptha**, lena n-áirítear iad siúd a cuireadh sa bhruscar — a n-ainm, a dtreoracha, a n-abhatár, mionsamhlacha na n-íomhánna a allmhairigh tú (abhatáir personaí agus suaitheantais teangacha) agus do chomharthaí comhroinnte;
 - **do stórtha focal ceilte**, lena n-áirítear iad siúd a cuireadh sa bhruscar — a n-ainm, a dtéama, a bpéirí focal, na focail ar feitheamh, do chomharthaí comhroinnte, agus na naisc sa dá threo (na stórtha a roinn tú, agus iad a roinneadh leat);
 - **na teangacha pearsanta a chruthaigh tú** — a n-ainm, a n-aibítir, a bhfoclóir, na focail ar feitheamh, do chomharthaí comhroinnte agus do stair iompórtála. **A bhfuil sé dodhéanta don scriosadh seo a dhéanamh:** má tá cóip de do theanga iompórtáilte cheana ag duine eile, is leis an duine sin anois an chóip sin agus **maireann sí** tar éis do scriosta — cosúil le teachtaireacht a fuair tríú páirtí cheana, nach féidir linn a scriosadh ar a thaobh siúd.
 
@@ -44,7 +45,7 @@ Déantar an gléas óna n-iarrann tú an scriosadh a **neodrú**: scriostar a ch
 
 **Ní stórálaimid na téacsanna a d'athfhocluigh tú, ná an téacs a léigh an Léitheoireacht Chuidithe ón scáileán**: ní choinnítear iad in aon áit ar ár bhfreastalaithe, agus mar sin níl aon rud le scriosadh ina leith. **Ní fíor sin faoi do theangacha pearsanta ná faoi do stórtha focal ceilte**: coinnítear a n-ábhar (ainm, aibítir nó téama, focail agus mínithe), mar aon leis na focail aonair de do theachtaireachtaí a bhí ar iarraidh iontu, go deimhin ar ár bhfreastalaithe — scriosann scriosadh do chuntais iad, mar an chuid eile dá bhfuil leatsa (féach thuas).
 
-**Ar do ghuthán**, tá do chuid personaí, d'abhatáir, do chuid socruithe agus do chuid rialacha de réir feidhmchláir stóráilte go háitiúil. Scriostar iad leis an scriosadh ón bhfeidhmchlár, agus ar aon chuma **imíonn siad nuair a dhíshuiteálann tú Plume**.
+**Ar do ghuthán**, tá do chuid socruithe agus do chuid rialacha de réir feidhmchláir stóráilte go háitiúil. Scriostar iad leis an scriosadh ón bhfeidhmchlár, agus ar aon chuma **imíonn siad nuair a dhíshuiteálann tú Plume**.
 
 ---
 

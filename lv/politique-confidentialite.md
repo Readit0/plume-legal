@@ -2,7 +2,7 @@
 
 **Pēdējoreiz atjaunināts: 2026. gada 1. oktobris** — Versija 2.1
 
-> *Kas ir mainījies versijā 2.1:* mēs aprakstām **Maskēšanās režīmu**, ko versija 2.0 neminēja, un labojam apgalvojumu, kas kļuvis neprecīzs: gan personiskajām valodām, gan Maskēšanās režīmam **jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst, tiek saglabāti pa vienam** — nekad ne teikums —, lai mēs varētu jums piedāvāt tos pievienot. Sīkāk — sadaļā „Vienā minūtē”, 2.2. un 3. sadaļā.
+> *Kas ir mainījies versijā 2.1:* mēs aprakstām **Maskēšanās režīmu**, ko versija 2.0 neminēja, un labojam apgalvojumu, kas kļuvis neprecīzs: gan personiskajām valodām, gan Maskēšanās režīmam **jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst, tiek saglabāti pa vienam** — nekad ne teikums —, lai mēs varētu jums piedāvāt tos pievienot. Sīkāk — sadaļā „Vienā minūtē”, 2.2. un 3. sadaļā. Mēs labojam arī otru kļūdu: **jūsu pielāgotās personas un to avatāri tiek saglabāti mūsu serveros** — tie nepaliek tikai jūsu tālrunī (skatīt 3. sadaļu).
 
 > *Kas ir mainījies kopš versijas 1.0 un kāpēc jūs, iespējams, lietotnē atkal redzēsiet piekrišanas ekrānu:* mēs labojam divus apgalvojumus, kas vairs nebija precīzi. Pirmkārt, funkcija **personiskās valodas** mūsu serveros saglabā jūsu izveidoto saturu (nosaukumu, alfabētu, vārdnīcu) — versijā 1.0 tika kļūdaini apgalvots, ka neviens teksts netiek saglabāts. Otrkārt, mēs tagad izmantojam **tehnisko avāriju ziņošanas** rīku — versijā 1.0 tika apgalvots, ka šāda rīka nav. Sīkāka informācija par abiem šiem punktiem ir sadaļā „Vienā minūtē" tālāk, kā arī 3. un 9. sadaļā. Tieši šīs divas izmaiņu kategorijas lietotnē izraisa jaunu piekrišanas pieprasījumu (skatīt 11. sadaļu).
 
@@ -110,6 +110,7 @@ Lūk, viss, kas tiek glabāts mūsu serveros:
 | **Tehniskie ļaunprātīgas izmantošanas signāli** (atkārtoti pārsniegumi, integritātes pārbaudes neizdošanās — bez jebkāda teksta) | Drošība, cīņa pret krāpšanu | Konta dzēšanas brīdī atdalīti no jūsu identitātes |
 | **Lietotnes valoda un versija** | Piegādāt pareizo saturu | Līdz jūsu konta dzēšanai |
 | **Jūsu izveidoto personisko valodu saturs** (to nosaukums, alfabēts un vārdnīca — vārdi un definīcijas, ko jūs vai citas personas tajā ir ierakstījušas) | Ļaut jums atrast savu valodu citā ierīcē, to attīstīt un ar to dalīties ar citiem lietotājiem | Kamēr valoda pastāv. Ja jūs to dzēšat, tās ieraksts pazūd — taču jau **citas personas importēta** kopija tad pieder šai personai un **turpina pastāvēt**, tāpat kā ziņa, ko jau saņēmusi trešā puse un ko mēs nevaram aiziet izdzēst pie viņas |
+| **Jūsu pielāgotās personas** (to nosaukums, to norādījumi, izvēlētais avatārs un, ja esat importējis attēlu, ne lielāka par 512 pikseļiem miniatūra — tāpat arī personiskas valodas importētajai emblēmai) | Ļaut jums tās atgūt pēc pārinstalēšanas vai citā ierīcē un ar tām dalīties. Personas norādījums tiek nosūtīts MI pakalpojumam ik reizi, kad to izmanto kāds pārformulējums | Kamēr persona pastāv. Atkritnē ievietota persona tiek dzēsta pēc 30 dienām, nākamreiz, kad atverat savu personu sarakstu. Viss pazūd, dzēšot jūsu kontu |
 | **Jūsu kamuflāžas vārdnīcas** (to nosaukums, tēma, valoda, izvēlētā emblēma un vārdu pāri „īstais vārds → koda vārds”) | Maskēt un atšifrēt jūsu ziņas, ļaut jums atrast savu vārdnīcu citā ierīcē, to attīstīt un ar to dalīties | Kamēr vārdnīca pastāv. **Atkritnē ievietota vārdnīca tiek saglabāta**: šīs atkritnes automātiskas iztukšošanas vēl nav. Tā pazūd, dzēšot jūsu kontu |
 | **Gaidošie vārdi** (personiskā valoda un Maskēšanās): atsevišķie jūsu ziņu vārdi, kuru jūsu vārdnīcā vēl trūkst — nekad ne teikums —, ar to parādīšanās reižu skaitu un pirmās un pēdējās parādīšanās datumiem | Piedāvāt jums tos pievienot jūsu vārdnīcai un likt MI pakalpojumam tos apstrādāt, kad jūs vārdnīcu papildināt | Tiek saglabāti arī pēc pievienošanas, kamēr valoda vai vārdnīca pastāv. **Ja jūs rakstāt ar kamuflāžas vārdnīcu, ar ko jums dalījies kāds cits**, vārdi, kuru tajā trūkst, tiek atlikti **viņa vārdnīcā**, un šī persona tos var redzēt |
 | **Jūsu valodu un vārdnīcu kopīgošana** (kopīgošanas marķieris, kas tiek glabāts tikai kā nospiedums; importu un saistījumu vēsture) | Ļaut jūsu tuviniekiem lasīt jūsu ziņas. Vārdnīcas īpašnieks redz to personu sarakstu, kas ar to ir saistītas (attēlojamais vārds un Google profila foto — nekad e-pasta adrese) | Marķieris beidzas. Atsauktas kopīgošanas pēda tiek saglabāta |
@@ -119,7 +120,7 @@ Lūk, viss, kas tiek glabāts mūsu serveros:
 
 **Ko mēs nevācam:** jūsu vārdu, jūsu kontaktus, jūsu atrašanās vietu, jūsu adrešu grāmatu, jūsu fotoattēlus, jūsu kalendāru, jūsu lietotņu vēsturi. Plume nepieprasa nevienu no šīm atļaujām.
 
-**Kas paliek tikai jūsu tālrunī:** jūsu pielāgotās personas un to avatāri, jūsu iestatījumi, jūsu noteikumi katrai lietotnei, asistētās lasīšanas tulkojumu kešatmiņa (dzēsta katras sesijas beigās). Nekas no tā netiek nosūtīts uz mūsu serveriem.
+**Kas paliek tikai jūsu tālrunī:** jūsu iestatījumi, jūsu noteikumi katrai lietotnei, asistētās lasīšanas tulkojumu kešatmiņa (dzēsta katras sesijas beigās). Nekas no tā netiek nosūtīts uz mūsu serveriem.
 
 ---
 

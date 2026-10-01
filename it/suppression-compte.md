@@ -37,6 +37,7 @@ La cancellazione elimina **definitivamente**:
 - **i suoi identificativi di richiesta** — i riferimenti tecnici delle riformulazioni richieste;
 - **i suoi crediti e sblocchi di quota** — crediti acquistati non consumati, sblocchi ottenuti tramite pubblicità, tetti adeguati;
 - **il collegamento dei suoi dispositivi al suo account** — i suoi altri telefoni o tablet vengono scollegati e ridiventano semplici dispositivi anonimi.
+- **i suoi persona personalizzati**, compresi quelli spostati nel cestino — il loro nome, le loro istruzioni, il loro avatar, le anteprime delle immagini che ha importato (avatar dei persona ed emblemi delle lingue) e i suoi token di condivisione;
 - **i suoi lessici di camuffamento**, compresi quelli spostati nel cestino — il loro nome, il loro tema, le loro coppie di parole, le parole in attesa, i suoi token di condivisione, e i collegamenti nei due sensi (i lessici che lei ha condiviso, e quelli che sono stati condivisi con lei);
 - **le lingue personali che lei ha creato** — il loro nome, il loro alfabeto, il loro lessico, le parole in attesa, i suoi token di condivisione e la sua cronologia di importazione. **Ciò che questa cancellazione non può fare:** se qualcun altro ha già importato una copia della sua lingua presso di sé, questa copia gli appartiene ormai e **sopravvive** alla sua cancellazione — come un messaggio già ricevuto da un terzo, non possiamo cancellarlo dal suo lato.
 
@@ -44,7 +45,7 @@ Il dispositivo dal quale richiede la cancellazione viene **neutralizzato**: il s
 
 **Non memorizziamo i testi che lei ha riformulato, né il testo letto sullo schermo dalla Lettura Assistita**: non sono conservati da nessuna parte sui nostri server, non c'è quindi nulla da cancellare al riguardo. **Questo non vale per le sue lingue personali e i suoi lessici di camuffamento**: il loro contenuto (nome, alfabeto o tema, parole e definizioni), così come le singole parole dei suoi messaggi che vi mancavano ancora, sono effettivamente memorizzati sui nostri server — la cancellazione del suo account li elimina, come il resto di ciò che le appartiene (vedere sopra).
 
-**Sul suo telefono**, i suoi persona, i suoi avatar, le sue impostazioni e le sue regole per applicazione sono memorizzati localmente. Vengono cancellati dalla cancellazione effettuata dall'applicazione e, in ogni caso, **scompaiono quando disinstalla Plume**.
+**Sul suo telefono**, le sue impostazioni e le sue regole per applicazione sono memorizzati localmente. Vengono cancellati dalla cancellazione effettuata dall'applicazione e, in ogni caso, **scompaiono quando disinstalla Plume**.
 
 ---
 

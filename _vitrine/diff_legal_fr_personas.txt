@@ -1,0 +1,51 @@
+diff --git a/politique-confidentialite.md b/politique-confidentialite.md
+index 35a4c83..e0832d8 100644
+--- a/politique-confidentialite.md
++++ b/politique-confidentialite.md
+@@ -2,7 +2,7 @@
+ 
+ **Dernière mise à jour : 1er octobre 2026** — Version 2.1
+ 
+-> *Ce qui a changé en version 2.1 :* nous décrivons le **mode Camouflage**, que la version 2.0 ne mentionnait pas, et nous corrigeons une affirmation devenue inexacte : pour les langues personnelles comme pour le Camouflage, **les mots de vos messages qui manquent encore à votre lexique sont conservés, un par un** — jamais la phrase — afin de pouvoir vous proposer de les ajouter. Le détail est en « En une minute », au §2.2 et au §3.
++> *Ce qui a changé en version 2.1 :* nous décrivons le **mode Camouflage**, que la version 2.0 ne mentionnait pas, et nous corrigeons une affirmation devenue inexacte : pour les langues personnelles comme pour le Camouflage, **les mots de vos messages qui manquent encore à votre lexique sont conservés, un par un** — jamais la phrase — afin de pouvoir vous proposer de les ajouter. Le détail est en « En une minute », au §2.2 et au §3. Nous corrigeons aussi une seconde erreur : **vos personas personnalisés et leurs avatars sont sauvegardés sur nos serveurs** — ils ne restent pas seulement sur votre téléphone (voir §3).
+ 
+ > *Ce qui a changé depuis la version 1.0, et pourquoi vous revoyez peut-être l'écran d'acceptation dans l'application :* nous corrigeons deux affirmations qui n'étaient plus exactes. D'abord, la fonctionnalité **langues personnelles** conserve sur nos serveurs le contenu que vous créez (nom, alphabet, lexique) — la version 1.0 affirmait à tort qu'aucun texte n'était stocké. Ensuite, nous utilisons désormais un outil de **rapport de plantage technique** — la version 1.0 affirmait qu'aucun outil de ce type n'existait. Le détail de ces deux points est en « En une minute » ci-dessous, ainsi qu'aux §3 et §9. Ce sont exactement les deux catégories de changement qui, dans l'application, déclenchent une nouvelle demande d'accord (voir §11).
+ 
+@@ -110,6 +110,7 @@ Voici l'intégralité de ce qui est stocké sur nos serveurs :
+ | **Signaux techniques d'abus** (dépassements répétés, échec de contrôle d'intégrité — sans aucun texte) | Sécurité, lutte contre la fraude | Détachés de votre identité à la suppression du compte |
+ | **Langue et version de l'application** | Servir le bon contenu | Jusqu'à la suppression de votre compte |
+ | **Le contenu des langues personnelles que vous créez** (son nom, son alphabet, et son lexique — les mots et les définitions que vous, ou d'autres personnes, y avez écrits) | Vous permettre de retrouver votre langue sur un autre appareil, de la faire évoluer, et de la partager avec d'autres utilisateurs | Tant que la langue existe. Si vous la supprimez, sa fiche disparaît — mais une copie déjà **importée par une autre personne** lui appartient désormais et **survit**, comme un message déjà reçu par un tiers que nous ne pouvons pas aller effacer chez lui |
++| **Vos personas personnalisés** (leur nom, leurs consignes, l'avatar choisi et, si vous avez importé une image, une miniature de 512 pixels au plus — de même pour l'emblème importé d'une langue personnelle) | Vous permettre de les retrouver après une réinstallation ou sur un autre appareil, et de les partager. La consigne d'un persona est envoyée au service d'IA à chaque reformulation qui l'utilise | Tant que le persona existe. Un persona mis à la corbeille est effacé 30 jours plus tard, la prochaine fois que vous ouvrez votre liste de personas. Tout disparaît à la suppression de votre compte |
+ | **Vos carnets de camouflage** (leur nom, leur thème, leur langue, l'emblème choisi, et les paires de mots « mot réel → mot de code ») | Camoufler et décoder vos messages, vous permettre de retrouver votre carnet sur un autre appareil, de le faire évoluer et de le partager | Tant que le carnet existe. **Un carnet mis à la corbeille reste conservé** : il n'existe pas encore de vidage automatique de cette corbeille. Il disparaît à la suppression de votre compte |
+ | **Les mots en attente** (langue personnelle et Camouflage) : les mots isolés de vos messages qui manquent encore à votre lexique — jamais la phrase —, avec leur nombre d'apparitions et les dates de première et de dernière apparition | Vous proposer de les ajouter à votre lexique, et les faire traiter par le service d'IA quand vous le faites grandir | Conservés même après leur ajout, tant que la langue ou le carnet existe. **Si vous écrivez avec un carnet de camouflage qu'une autre personne vous a partagé**, les mots qui lui manquent sont mis de côté **dans son carnet**, et cette personne peut les voir |
+ | **Le partage de vos langues et de vos carnets** (un jeton de partage, stocké uniquement sous forme d'empreinte ; l'historique des imports et des liaisons) | Permettre à vos proches de lire vos messages. Le propriétaire d'un carnet voit la liste des personnes qui y sont liées (nom d'affichage et photo de profil Google — jamais l'adresse e-mail) | Un jeton expire. La trace d'un partage révoqué est conservée |
+@@ -119,7 +120,7 @@ Voici l'intégralité de ce qui est stocké sur nos serveurs :
+ 
+ **Ce que nous ne collectons pas :** votre nom, vos contacts, votre localisation, votre carnet d'adresses, vos photos, votre agenda, l'historique de vos applications. Plume ne demande aucune de ces autorisations.
+ 
+-**Ce qui reste uniquement sur votre téléphone :** vos personas personnalisés et leurs avatars, vos réglages, vos règles par application, le cache de traduction de la Lecture Assistée (effacé à la fin de chaque session). Rien de tout cela n'est envoyé à nos serveurs.
++**Ce qui reste uniquement sur votre téléphone :** vos réglages, vos règles par application, le cache de traduction de la Lecture Assistée (effacé à la fin de chaque session). Rien de tout cela n'est envoyé à nos serveurs.
+ 
+ ---
+ 
+diff --git a/suppression-compte.md b/suppression-compte.md
+index 6a82016..d7cb17c 100644
+--- a/suppression-compte.md
++++ b/suppression-compte.md
+@@ -38,6 +38,7 @@ La suppression efface **définitivement** :
+ - **vos identifiants de requêtes** — les références techniques des reformulations demandées ;
+ - **vos crédits et déblocages de quota** — crédits achetés non consommés, déblocages obtenus par publicité, plafonds ajustés ;
+ - **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes ;
++- **vos personas personnalisés**, y compris ceux mis à la corbeille — leur nom, leurs consignes, leur avatar, les miniatures des images que vous avez importées (avatars de persona et emblèmes de langue) et vos jetons de partage ;
+ - **vos carnets de camouflage**, y compris ceux mis à la corbeille — leur nom, leur thème, leurs paires de mots, les mots en attente, vos jetons de partage, et les liaisons dans les deux sens (les carnets que vous avez partagés, et ceux qu'on vous a partagés) ;
+ - **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, les mots en attente, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
+ 
+@@ -45,7 +46,7 @@ L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son
+ 
+ **Nous ne stockons pas les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai de vos langues personnelles et de vos carnets de camouflage** : leur contenu (nom, alphabet ou thème, mots et définitions), ainsi que les mots isolés de vos messages qui y manquaient encore, sont bien stockés sur nos serveurs — la suppression de votre compte les efface, comme le reste de ce qui vous appartient (voir ci-dessus).
+ 
+-**Sur votre téléphone**, vos personas, vos avatars, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
++**Sur votre téléphone**, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
+ 
+ ---
+ 

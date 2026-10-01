@@ -38,6 +38,7 @@ La suppression efface **définitivement** :
 - **vos identifiants de requêtes** — les références techniques des reformulations demandées ;
 - **vos crédits et déblocages de quota** — crédits achetés non consommés, déblocages obtenus par publicité, plafonds ajustés ;
 - **le rattachement de vos appareils à votre compte** — vos autres téléphones ou tablettes sont déliés et redeviennent de simples appareils anonymes ;
+- **vos personas personnalisés**, y compris ceux mis à la corbeille — leur nom, leurs consignes, leur avatar, les miniatures des images que vous avez importées (avatars de persona et emblèmes de langue) et vos jetons de partage ;
 - **vos carnets de camouflage**, y compris ceux mis à la corbeille — leur nom, leur thème, leurs paires de mots, les mots en attente, vos jetons de partage, et les liaisons dans les deux sens (les carnets que vous avez partagés, et ceux qu'on vous a partagés) ;
 - **les langues personnelles que vous avez créées** — leur nom, leur alphabet, leur lexique, les mots en attente, vos jetons de partage et votre historique d'import. **Ce que cette suppression ne peut pas faire :** si quelqu'un d'autre a déjà importé une copie de votre langue chez lui, cette copie lui appartient désormais et **survit** à votre suppression — comme un message déjà reçu par un tiers, nous ne pouvons pas l'effacer de son côté.
 
@@ -45,7 +46,7 @@ L'appareil depuis lequel vous demandez la suppression est **neutralisé** : son 
 
 **Nous ne stockons pas les textes que vous avez reformulés, ni le texte lu à l'écran par la Lecture Assistée** : ils ne sont conservés nulle part sur nos serveurs, il n'y a donc rien à en supprimer. **Ce n'est pas vrai de vos langues personnelles et de vos carnets de camouflage** : leur contenu (nom, alphabet ou thème, mots et définitions), ainsi que les mots isolés de vos messages qui y manquaient encore, sont bien stockés sur nos serveurs — la suppression de votre compte les efface, comme le reste de ce qui vous appartient (voir ci-dessus).
 
-**Sur votre téléphone**, vos personas, vos avatars, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
+**Sur votre téléphone**, vos réglages et vos règles par application sont stockés localement. Ils sont effacés par la suppression depuis l'application, et en tout état de cause **disparaissent lorsque vous désinstallez Plume**.
 
 ---
 
